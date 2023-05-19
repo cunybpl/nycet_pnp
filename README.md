@@ -1,2 +1,1 @@
-# nycet_pnp
-Prodecures and Protocols website repo
+# Prodecures and Protocols website repo
