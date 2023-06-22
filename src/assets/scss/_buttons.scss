@@ -1,0 +1,79 @@
+// .btn {
+//   transition: all 0.3s ease;
+//   padding: 20px 50px;
+//   border-radius: 7px;
+//   &:hover {
+//     box-shadow: 0 8px 20px rgba(56, 87, 241, 0.3);
+//     transform: scale(1.03);
+//   }
+// }
+
+// Button Override
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border-radius: 7px;
+}
+
+.btn-small {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border-radius: 7px;
+}
+
+.btn-primary {
+  &:hover {
+    border-color: $primary;
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+.btn-secondary {
+  color: $primary;
+  &:hover {
+    background-color: $secondary;
+    color: $primary;
+  }
+}
+
+.btn-outlined {
+  border-color: white;
+  background-color: $primary;
+  color: white;
+  &:hover {
+    border-color: $primary;
+    background-color: white;
+    color: $primary;
+  }
+}
+
+.btn-lg {
+  padding: 20px 50px;
+}
+
+.btn-light {
+  color: $primary;
+  &:hover {
+    color: $primary;
+  }
+}
+
+.btn-zoom {
+  transition: all 0.3s ease;
+  transform: scale(1);
+  &:hover {
+    box-shadow: 0 8px 20px rgba(56, 87, 241, 0.3);
+    transform: scale(1.03);
+  }
+}

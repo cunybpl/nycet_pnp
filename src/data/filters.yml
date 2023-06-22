@@ -1,0 +1,13 @@
+type:
+  - id: 1
+    value: "all"
+    label: "All"
+  - id: 2
+    value: "water"
+    label: "Water"
+  - id: 3
+    value: "electric"
+    label: "Electric"
+  - id: 4
+    value: "solar"
+    label: "Solar"

@@ -1,0 +1,35 @@
+.guide-thumbnail {
+  height: 400px;
+  display: flex;
+  &-image {
+    width: 45%;
+    background-color: rgba(25, 35, 42, 0.22);
+    overflow: hidden;
+  }
+  &-content {
+    background-color: $light-gray;
+    height: 100%;
+    width: 55%;
+    padding: 2rem 0;
+    p {
+      color: black !important;
+      font-size: smaller;
+    }
+    ul {
+      margin-left: 0;
+      padding-left: 1.5rem;
+    }
+    li {
+      line-height: 1.250rem;
+      margin-left: 0;
+    }
+  }
+}
+
+.guide-card {
+  display: none !important;
+}
+
+.show-html-element {
+  display: block !important;
+}

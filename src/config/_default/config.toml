@@ -1,0 +1,328 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+paginate = 3
+theme = "portio"
+title = "Measurement and Verification Guides"
+
+# Main Navigation Bar
+## Equipment
+[[menu.main]]
+  name = "Equipment"
+  identifier="equipment"
+  url = "https://nycenergytools.com/equipment/"
+  weight = 1
+### Equipment sub-menu
+[[menu.main]]
+  parent = "equipment"
+  identifier = "equipment-logger"
+  name = "Logger"
+  url = "https://nycenergytools.com/equipment/?_equipment_type=logger"
+  weight = 1
+[[menu.main]]
+  parent = "equipment"
+  identifier = "equipment-meter"
+  name = "Meter"
+  url = "https://nycenergytools.com/equipment/?_equipment_type=meter"
+  weight = 2
+[[menu.main]]
+  parent = "equipment"
+  identifier = "equipment-receiver"
+  name = "Receiver"
+  url = "https://nycenergytools.com/equipment/?_equipment_type=receiver"
+  weight = 3
+[[menu.main]]
+  parent = "equipment"
+  identifier = "equipment-sensor"
+  name = "Sensor"
+  url = "https://nycenergytools.com/equipment/?_equipment_type=sensor"
+  weight = 4
+[[menu.main]]
+  parent = "equipment"
+  identifier = "equipment-sensor-node"
+  name = "Sensor Node"
+  url = "https://nycenergytools.com/equipment/?_equipment_type=sensor-node"
+  weight = 5
+[[menu.main]]
+  parent = "equipment"
+  identifier = "equipment-simulation"
+  name = "Simulation"
+  url = "https://nycenergytools.com/equipment/?_equipment_type=simulation"
+  weight = 6
+[[menu.main]]
+  parent = "equipment"
+  identifier = "equipment-software"
+  name = "Software"
+  url = "https://nycenergytools.com/equipment/?_equipment_type=software"
+  weight = 7
+
+## Equipment Kits
+[[menu.main]]
+  name = "Equipment Kits"
+  identifier="equipment-kits"
+  url = "https://nycenergytools.com/equipment-kits/"
+  weight = 2
+### Equipment kits sub-menu
+[[menu.main]]
+  parent = "equipment-kits"
+  identifier = "equipment-kits-brt"
+  name = "Building Re-tuning"
+  url = "https://nycenergytools.com/equipment-kits/?_application=brt"
+  weight = 1
+[[menu.main]]
+  parent = "equipment-kits"
+  identifier = "equipment-kits-lm"
+  name = "Load Management"
+  url = "https://nycenergytools.com/equipment-kits/?_application=lm"
+  weight = 2
+[[menu.main]]
+  parent = "equipment-kits"
+  identifier = "equipment-kits-mv"
+  name = "M&V"
+  url = "https://nycenergytools.com/equipment-kits/?_application=mv"
+  weight = 3
+[[menu.main]]
+  parent = "equipment-kits"
+  identifier = "equipment-kits-om"
+  name = "O&M"
+  url = "https://nycenergytools.com/equipment-kits/?_application=om"
+  weight = 4
+[[menu.main]]
+  parent = "equipment-kits"
+  identifier = "equipment-kits-survey"
+  name = "Survey"
+  url = "https://nycenergytools.com/equipment-kits/?_application=survey"
+  weight = 5
+
+## Resources
+[[menu.main]]
+  name = "Resources"
+  identifier="resources"
+  url = "https://nycenergytools.com/resources/"
+  weight = 3
+### Resources sub-menu
+[[menu.main]]
+  parent = "resources"
+  identifier = "resources-guides"
+  name = "Guides"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  parent = "resources"
+  identifier = "resources-tools"
+  name = "Tools"
+  url = "https://nycenergytools.com/resources/tools/"
+  weight = 2
+[[menu.main]]
+  parent = "resources"
+  identifier = "resources-case-studies"
+  name = "Case Studies"
+  url = "https://nycenergytools.com/case-studies/"
+  weight = 3
+[[menu.main]]
+  parent = "resources"
+  identifier = "resources-coaching"
+  name = "Coaching"
+  url = "https://nycenergytools.com/resources/coaching/"
+  weight = 4
+
+## Support
+[[menu.main]]
+  name = "Support"
+  identifier="support"
+  url = "https://nycenergytools.com/support/"
+  weight = 4
+### Support sub-menu
+[[menu.main]]
+  parent = "support"
+  identifier = "support-borrowing-guidelines"
+  name = "Borrowing Guidelines"
+  url = "https://nycenergytools.com/support/borrowing-guidelines/"
+  weight = 1
+[[menu.main]]
+  parent = "support"
+  identifier = "support-wishlist"
+  name = "Wishlist"
+  url = "https://nycenergytools.com/support/wishlist/"
+  weight = 2
+[[menu.main]]
+  parent = "support"
+  identifier = "support-borrowing-guidelines"
+  name = "Contact"
+  url = "https://nycenergytools.com/support/contact/"
+  weight = 3
+
+## Search
+[[menu.main]]
+  name = "Icon 1 -- Search"
+  identifier="icon-1-search"
+  [menu.main.params]
+    type = "icon"
+    icon = "fa-search"
+    link = "https://nycenergytools.com/?s"
+
+## Cart
+[[menu.main]]
+  name = "Icon 2 -- Cart"
+  identifier="icon-2-cart"
+  [menu.main.params]
+    type = "icon"
+    icon = "fa-shopping-cart"
+    link = "https://nycenergytools.com/cart/"
+
+
+# Footer Sitemap Menu
+## Equipment
+### Logger
+[[menu.sitemap]]
+name = "Logger"
+url = "https://nycenergytools.com/equipment-type/logger/"
+[menu.sitemap.params]
+  category = "equipment"
+### Meter
+[[menu.sitemap]]
+name = "Meter"
+url = "https://nycenergytools.com/equipment-type/meter/"
+[menu.sitemap.params]
+  category = "equipment"
+### Receiver
+[[menu.sitemap]]
+name = "Receiver"
+url = "https://nycenergytools.com/equipment-type/receiver/"
+[menu.sitemap.params]
+  category = "equipment"
+### Sensor
+[[menu.sitemap]]
+name = "Sensor"
+url = "https://nycenergytools.com/equipment-type/sensor/"
+[menu.sitemap.params]
+  category = "equipment"
+### Sensor Node
+[[menu.sitemap]]
+name = "Sensor Node"
+url = "https://nycenergytools.com/equipment-type/sensor-node/"
+[menu.sitemap.params]
+  category = "equipment"
+### Simulation
+[[menu.sitemap]]
+name = "Simulaiton"
+url = "https://nycenergytools.com/equipment-type/simulation/"
+[menu.sitemap.params]
+  category = "equipment"
+### Software
+[[menu.sitemap]]
+name = "Software"
+url = "https://nycenergytools.com/equipment-type/software/"
+[menu.sitemap.params]
+  category = "equipment"
+
+## Equipment Kits
+### Measurement and Verification
+[[menu.sitemap]]
+name = "Measurement and Verification"
+url = "https://nycenergytools.com/equipment-kits/?_application=mv"
+[menu.sitemap.params]
+  category = "equipment-kits"
+### Building Re-tuning
+[[menu.sitemap]]
+name = "Building Re-tuning"
+url = "https://nycenergytools.com/equipment-kits/?_application=brt"
+[menu.sitemap.params]
+  category = "equipment-kits"
+### Operations and Maintenance
+[[menu.sitemap]]
+name = "Operations and Maintenance"
+url = "https://nycenergytools.com/equipment-kits/?_application=om"
+[menu.sitemap.params]
+  category = "equipment-kits"
+
+## Resources
+### Guides
+[[menu.sitemap]]
+name = "Guides"
+url = "/"
+[menu.sitemap.params]
+  category = "resources"
+### Tools
+[[menu.sitemap]]
+name = "Tools"
+url = "https://nycenergytools.com/resources/tools/"
+[menu.sitemap.params]
+  category = "resources"
+### Coaching
+[[menu.sitemap]]
+name = "Guides"
+url = "https://nycenergytools.com/resources/coaching/"
+[menu.sitemap.params]
+  category = "resources"
+### Case Studies
+[[menu.sitemap]]
+name = "Guides"
+url = "https://nycenergytools.com/case-studies/"
+[menu.sitemap.params]
+  category = "resources"
+
+## Support
+### Borrowing Guidelines
+[[menu.sitemap]]
+name = "Borrowing Guidelines"
+url = "https://nycenergytools.com/support/borrowing-guidelines/"
+[menu.sitemap.params]
+  category = "support"
+### Contact
+[[menu.sitemap]]
+name = "Contact"
+url = "https://nycenergytools.com/support/contact/"
+[menu.sitemap.params]
+  category = "support"
+
+# Site Parameters
+[params]
+postFix = "- NYCET"
+custom_scss = ['scss/custom.scss']
+blogPageURL = "blog"
+copyright = "Copyright 2023 Building Performance Lab"
+footerLogo = "images/site-navigation/nyc_logo.png"
+footerHeading = "A FREE Resource for City Agency Employees"
+footerDescription = "We are fully stocked with equipment for measuring, diagnosing, and optimizing building equipment and systems, from boilers to air handling units to solar panels."
+bplLogo = "images/site-navigation/bpl_logo.png"
+bplURL = "https://cunybpl.org/"
+nycDcasLogo = "images/site-navigation/nyc_dcas_logo.png"
+nycDcasURL = "https://www.nyc.gov/site/dcas/about/our-mission.page"
+logo = "images/site-navigation/nyc_logo.png"
+disqusShortname = "pez-ai"
+contactPersonName = "Felix Rodriguez"
+contactPersonEmail = "frodriguez3@ccny.cuny.edu"
+municipalLibraryLocation = "31 Chambers St, New York, NY 10007"
+dropOffLocation = "96 Greenwich Street, 4th Floor, New York, NY 10006"
+
+# Social icons
+[[params.social]]
+icon = "fa-facebook-official"
+url = "https://www.facebook.com/"
+weight = 1
+[[params.social]]
+icon = "fa-twitter-square"
+url = "http://twitter.com/"
+weight = 2
+[[params.social]]
+icon = "fa-linkedin-square"
+url = "https://www.linkedin.com/"
+weight = 3
+[[params.social]]
+icon = "fa-envelope"
+url = "mailto:discover@pez.ai"
+weight = 4
+
+[taxonomies]
+tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+

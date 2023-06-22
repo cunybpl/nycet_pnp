@@ -1,0 +1,85 @@
+.cookie {
+    margin: 0;
+    padding: 0;
+    &_container {
+      display: none;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      background: rgb(124, 124, 124);
+      color: #f5f6fa;
+      padding: 0 32px 0 32px;
+      transition: 400ms;
+      &.active {
+          display: flex;
+          flex-direction: row;
+          position: -webkit-sticky;
+          position: fixed;
+          margin-bottom: -10rem;
+          @media (max-width:545px) {
+            flex-direction: column;
+          }
+          @media (max-width:800px) and (min-width:576px) {
+            margin-bottom: -8rem;
+          }
+          z-index: 1000;
+      }
+      .text {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          @media (max-width : 830px) {
+            padding-right : 5%;
+          }
+        p {
+            font-size: small;
+            text-align: center;
+            padding-top: 1rem;
+        }
+        a {
+            color: $secondary;
+        }
+      }
+    }
+    &_actions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        width: auto;
+        padding-bottom: 1rem;
+        @media (max-width: 545px) {
+            padding-top: 0;
+        }
+        #cookie-btn-accept, #cookie-btn-decline {
+            font-size: small;
+            border-radius: 5px;
+            padding: 3px 10px;
+            border-style: solid;
+        }
+        #cookie-btn-accept {
+            color: $primary;
+            border: none;
+        }
+        #cookie-btn-decline {
+            background-color: transparent;
+            border-color: white;
+            border-width: thin;
+            color: white;
+        }
+        #cookie-btn-close {
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: larger;
+            position: relative;
+            margin-top: 0;
+            margin-left: 15%;
+            @media (max-width:545px) {
+                position:absolute;
+                margin-left: 90%;
+                top: 5%;
+            }
+        }
+    }
+}

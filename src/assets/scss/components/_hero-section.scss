@@ -1,0 +1,152 @@
+.hero {
+  position:relative;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  &_container {
+    padding: 0;
+    .content {
+      background-color: $primary;
+      display: flex;
+      flex-direction: row;
+    }
+    height: 500px;
+    text-align: center;
+    @include ipad {
+      height: 765px;
+    }
+  }
+  &_content {
+    width: 100%;
+    text-align: center;
+    color: $white;
+    .mb-2.content-text  {
+      padding: 0 5% !important;
+    }
+    margin: 0 auto;
+    h1 {
+      color: $white !important;
+      font-size: 40px;
+    }
+
+    &-search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      form {
+        color: #555;
+        display: flex;
+        padding: 2px;
+        width: 40rem;
+        border: none;
+        border-radius: 10px;
+        margin: 0 0 30px;
+        background: $white;
+      }
+      
+      input[type="search"] {
+        border: none;
+        background: transparent;
+        margin: 0;
+        width: 40rem;
+        padding: 1rem 1.5rem;
+        font-size: 16px;
+        color: inherit;
+        border: 1px solid transparent;
+        border-radius: inherit;
+      }
+      
+      button[type="submit"] {
+        text-indent: -999px;
+        overflow: hidden;
+        width: 60px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid transparent;
+        border-radius: inherit;
+        background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      
+      button[type="submit"]:hover {
+        opacity: 1;
+      }
+      
+      button[type="submit"]:focus,
+      input[type="search"]:focus {
+        outline: none;
+      }
+      
+      form.nosubmit {
+       border: none;
+       padding: 0;
+      }
+      
+      input.nosubmit {
+        border: 1px solid #555;
+        width: 100%;
+        padding: 9px 4px 9px 40px;
+         background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+      };
+    }
+  }
+}
+
+.plant-logo-top-left, .plant-logo-top-right, .plant-logo-bottom-left, .plant-logo-bottom-right {
+  position: absolute;
+}
+
+.plant-logo-top-left {
+  top: -25%;
+  left: 2.5%;
+  @include ipad {
+    top: -12.5%;
+  }
+  @include desktop-4k {
+    left: 25%;
+  }
+}
+
+.plant-logo-top-right {
+  top: -25%;
+  right: 2.5%;
+  @include ipad {
+    top: -12.5%;
+  }
+  @include desktop-4k {
+    right: 25%;
+  }
+}
+
+.plant-logo-bottom-left {
+  bottom: -12.5%; 
+  left: 2.5%;
+  @include ipad {
+    bottom: -8.5%;
+  }
+  @include desktop-4k {
+    left: 25%;
+  }
+}
+
+.plant-logo-bottom-right {
+  bottom: -12.5%; 
+  right: 2.5%;
+  @include ipad {
+    bottom: -8.5%;
+  }
+  @include desktop-4k {
+    right: 25%;
+  }
+}
+
+.no-result {
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+  }
+}

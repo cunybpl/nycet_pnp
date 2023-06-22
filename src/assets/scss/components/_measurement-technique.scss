@@ -1,0 +1,16 @@
+.card-block {
+  background-color: rgba(66, 144, 73, .10);
+  border: none;
+  p {
+    @include ipad {
+      font-size: 15px;
+    }
+  }
+}
+
+.measurement-technique-logo-wrapper {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+}

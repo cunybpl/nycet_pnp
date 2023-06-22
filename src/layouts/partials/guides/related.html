@@ -1,0 +1,41 @@
+{{ $_title := .Title }}
+{{ $_id := replace (urlize $_title | lower) " " "-" }}
+<div class="col-md-12 col-lg-6">
+  <section class="card mb-4">
+    <div class="guide-thumbnail">
+      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center">
+        {{ if isset .Params  "thumbnail_image" }}
+          <div>
+            <img src="{{ .Params.thumbnail_image | absURL }}" alt="Thumbnail image of the guide.">
+          </div>
+        {{ else }}
+        <!-- If guide doesn't have featured image -->
+        <div>
+          <img class="img-fluid" src="{{ "images/hero/electric-plant-icon-logo-gray.png" | absURL }}" >
+        </div>
+        {{ end }}
+      </div>
+      <div class="guide-thumbnail-content">
+        <div class="px-4 d-flex flex-column justify-content-between" style="height: 65%;">
+          <div>
+            <h5>{{ .Title }}</h5>
+            <p>{{ .Params.excerpt | safeHTML | truncate 50 }}</p>
+          </div>
+          <div>
+            <a class="btn btn-primary" href="{{ .RelPermalink | relURL }}">View {{ .Params.type | safeHTML | title }}</a>
+          </div>
+        </div>
+        <hr class="my-3">
+        <div class="px-4">
+          <p class="">Associated systems:</p>
+          <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0">
+            {{ range first 2 (where .Site.RegularPages "Title" "in" .Params.associated_systems) }}
+              {{ partial "thumbnail/associated_systems.html" .  }}
+            {{ end }}
+            {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_systems "all_pages" .Site.RegularPages "guide_title" $_title) }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

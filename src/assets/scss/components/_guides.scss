@@ -1,0 +1,112 @@
+#guide-breadcrumbs {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding-left: 0;
+  li {
+    display: inline;
+    white-space: nowrap;
+    color: black;
+    &:not(:first-of-type)::before {
+      content: "/";
+      padding: .5rem;
+    }
+  }
+}
+
+.guide-header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0;
+  @include ipad {
+  }
+  &-title {
+    display: flex;
+    align-items: center;
+  }
+  &-tab-items {
+    display: flex;
+    align-items: stretch;
+    button {
+      background-color: $primary;
+      color: white;
+      width: 150px;
+      font-size: small;
+      border: none;
+      @include ipad {
+        width: 100px;
+      }
+    }
+    button.active {
+      background-color: $dark-bg !important;
+      color: white !important;
+    }
+  }
+}
+
+#guide-mg-side-nav {
+  position: relative;
+  .mg-toc {
+    position: sticky;
+    top: 20px;
+    // height: 100%;
+    nav#TableOfContents {
+      li.active-item {
+        background-color: rgba(66, 144, 73, .20);
+        font-weight: bold;
+        padding: 1rem;
+        border-radius: 10px;
+      }
+      a {
+        color: black;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          font-size: 16px;
+        }
+        li > ul {
+          padding-left: 1.5rem;
+          li {
+            list-style-type: "\203A";
+            padding-left: 10px;
+            color: $primary;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+          }
+        }
+      }
+    }
+  }
+  .mg-back-to-top {
+    position: sticky;
+    bottom: 20px;
+  }
+}
+
+#guide-mg-content {
+  .title {
+    text-align: center;
+  }
+  .content {
+    h2:not(:first-of-type) {
+      border-top: 2px solid $primary;
+      margin-top: 2rem;
+      padding-top: 2rem;
+    }
+  }
+}
+
+a#back-to-top {
+  border: none;
+  display: none;
+}
+
+.associated_systems_see_more_btn {
+}

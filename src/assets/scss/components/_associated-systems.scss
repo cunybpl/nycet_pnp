@@ -1,0 +1,22 @@
+.associated-systems-modal {
+  &-content {
+    height: 800px;
+    @include ipad {
+      height: 850px;
+    }
+    overflow: scroll;   
+  }
+  &-header {
+    position: sticky;
+    top: 0;
+    z-index: 1055;
+  }
+}
+
+.see-more-associated-systems-button {
+  padding: 0;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: normal;
+}

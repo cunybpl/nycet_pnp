@@ -1,0 +1,32 @@
+{{ with .Site.Data.hero }} {{ if .enable }}
+<section class="hero" id="home">
+  <div class="container-fluid hero_container">
+    <div class="content align-items-center text-center" style="height: inherit">
+      <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-top-left" alt="Electric plant logo">
+      <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-bottom-left" alt="Electric plant logo">
+      <div class="col-md-12">
+        <div class="hero_content text-center">
+          <div class="container content-text px-5">{{ .content | markdownify }}</div>
+          <div class="hero_content-search-bar">
+            <form action="#" onsubmit="doSearchGuides(guideSearchBarId);return false">
+              <input id="guide-search-bar" type="search" placeholder="Search a plant, system or component">
+              <button type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-top-right" alt="Electric plant logo">
+      <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-bottom-right" alt="Electric plant logo">
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
+
+{{ partial "sub_nav/horizontal_nav.html" (dict "data" .Site.Data "pages" .Site.RegularPages) }}
+
+
+<script src="/js/guides.js"></script>
+<script>
+  const guideSearchBarId = 'guide-search-bar';
+  hideSearchResults()
+</script>
