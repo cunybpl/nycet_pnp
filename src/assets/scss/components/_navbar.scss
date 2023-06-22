@@ -1,0 +1,141 @@
+.navbar {
+    background-color: $light-gray;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #ced4da
+    &-brand {
+      max-width: 340px;
+    }
+    @include desktop {
+        padding: 15px 20px;
+    }
+    &.nav__color__change {
+        // background: $white !important;
+        // padding: 10px 0;
+        // box-shadow: 0px 10px 20px 0px rgba(50, 65, 141, 0.1);
+        @include desktop {
+            // padding: 15px 20px;
+        }
+    }
+}
+
+.nav-link {
+    &_label {
+        font-size: 16px;
+        color: rgba(0,0,0,.5);
+        &:hover {
+            color: $primary;
+        }
+        &.active {
+            color: black !important;
+        }
+    }
+    
+}
+
+.nav-sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+  min-width: 160px;
+  box-shadow: 0px 5px 20px #00000014;
+  padding: 1rem 0;
+  z-index: 1;
+}
+
+.nav-sub-menu a {
+  float: none;
+  color: rgba(0,0,0,.5);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+  
+.nav-sub-menu a:hover {
+  color: $primary;
+}
+
+.nav-icons {
+  color: $light-gray !important;
+}
+
+.nav-item {
+  @include desktop-xxl {
+    margin-left: 0.850rem; 
+    margin-right: 0.850rem;
+  }
+}
+
+.nav-item:hover .nav-sub-menu {
+  display: block;
+}
+
+.login-btn {
+ color: $primary !important;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        &.nav__color__change {
+            padding: 0.5rem 1rem;
+        } 
+    }
+    .navbar-nav {
+        padding-top: 1.5rem;
+    }
+    .nav-item {
+        margin: 0 -1rem;
+        border-bottom: 1px solid rgba(50, 65, 141, 0.1);
+    }
+    .nav-link {
+        &_label {
+            display: flex;
+            justify-content: flex-start;
+            margin: 0 1rem;
+            font-size: small;
+        }
+    }
+    .navbar-toggler {
+        outline: 0;
+        padding: 0;
+        &-icon {
+            height: 2px;
+            width: 25px;
+            transition: all 0.2s;
+            background: $primary;
+            display: block;
+            &:not(:last-child) {
+                margin-bottom: 5px;
+            }
+            &:nth-child(1) {
+                transform: rotate(45deg);
+                transform-origin: 10% 10%;
+            }
+            &:nth-child(2) {
+                opacity: 0;
+                filter: alpha(opacity=0);
+            }
+            &:nth-child(3) {
+                transform: rotate(-45deg);
+                transform-origin: 10% 90%;
+            }
+        }
+        &.collapsed {
+            .navbar-toggler-icon {
+                &:nth-child(1) {
+                    transform: rotate(0);
+                }
+                &:nth-child(2) {
+                    opacity: 1;
+                    filter: alpha(opacity=1);
+                }
+                &:nth-child(3) {
+                    transform: rotate(0);
+                }
+            }
+        }
+    }
+}

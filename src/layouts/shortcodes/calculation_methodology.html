@@ -1,0 +1,29 @@
+<section class="card card-block my-4">
+  {{ $calculation_methodology_id := .Get "calculation_methodology_id" }}
+  {{ range where .Site.RegularPages "Params.type" "calculation"  }}
+    {{ if eq $calculation_methodology_id .Params.calculation_methodology_id }}
+      <div class="d-flex">
+        <div class="col-md-2 d-flex align-items-center justify-content-center">
+          <div class="measurement-technique-logo-wrapper">
+            <img src="{{ "images/measurement-technique/green-plant-logo-small.png" | absURL }}" class="img-fluid" >
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="py-5">
+            <h5 class="mb-2">
+              {{ .Title }}
+            </h5>
+            <p class="mb-0">
+              {{ .Params.excerpt | truncate 120 }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2 d-flex justify-content-center align-items-center">
+          <a style="font-size: 50px;" href="{{ .Params.url | relURL }}">
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+</section>

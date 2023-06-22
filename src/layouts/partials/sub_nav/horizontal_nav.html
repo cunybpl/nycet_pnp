@@ -1,0 +1,58 @@
+{{ if .data.contents.enable }}
+<div
+  id="all-guide-contents"
+  style="
+    /* background-color: rgba(82, 168, 90, 0.7); */
+    /* color: white; */
+  "
+>
+{{ $activeButton := ""}}
+  <div class="tab col-md-12 no-gutters">
+    {{ range $index, $element := .data.contents.contents }}
+     {{ if $element.enable }}
+      <div 
+        class="
+          {{if eq $index 1 }} middle-nav-item {{else if eq $index 2 }} right-nav-item {{ else }} left-right-nav-item {{ end }} 
+          no-gutters
+        "
+      >
+        <button 
+          id="{{ $element.name }}" 
+          class="
+            tabLink 
+            text-light
+          " 
+          onclick="displayGuides(event)"
+        >
+          <div class="mr-2"><img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid"></div>
+          <span>All {{ $element.name }}</span>
+          <div id="total-{{ $element.name | lower }}-search-result" class="search-result-label ml-3">0</div>
+        </button>
+      </div>
+     {{ end }}
+    {{ end }}
+  </div>
+  {{ partial "guides/all_guides.html" (dict "guides" .data "pages" .pages "filter" "all" ) }}
+  {{ partial "guides/no_result.html" . }}
+</div>
+<script src="/js/guides.js"></script>
+<script>
+  hideNoResultGuides()
+  function displayGuides(evt) {
+    var i, tabcontent, tabLink;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tabLink = document.getElementsByClassName("tabLink");
+    for (i = 0; i < tabLink.length; i++) {
+      tabLink[i].className = tabLink[i].className.replace(" active", "");
+    }
+    $(`#text${evt.currentTarget.id}`).show()
+    evt.currentTarget.className += " active";
+    displaySearchResults(evt.currentTarget.id)
+  }
+  document.getElementById("Plants").click();
+</script>
+{{ end }}
+

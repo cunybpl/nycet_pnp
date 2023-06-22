@@ -1,0 +1,40 @@
+<section class="card mb-4">
+  <div class="guide-thumbnail">
+    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center">
+      {{ if isset .params  "thumbnail_image" }}
+        <div>
+          <img src="{{ .params.thumbnail_image | absURL }}" alt="Thumbnail image of the guide.">
+        </div>
+      {{ else }}
+      <!-- If guide doesn't have featured image -->
+      <div>
+        <img class="img-fluid" src="{{ "images/hero/electric-plant-icon-logo-gray.png" | absURL }}" >
+      </div>
+      {{ end }}
+    </div>
+    <div class="guide-thumbnail-content">
+      <div class="px-4 d-flex flex-column justify-content-between" style="height: 65%;">
+        <div>
+          <h5>{{ .page_title }}</h5>
+          <div style="display: none;">
+            {{ .page_content | plainify }}
+          </div>
+          <p>{{ .params.excerpt | safeHTML | truncate 50 }}</p>
+        </div>  
+        <div>
+          <a class="btn btn-primary" href="{{ .page_url | relURL }}">View {{ .params.type | safeHTML | title }}</a>
+        </div>
+      </div>
+      <hr class="my-3">
+      <div class="px-4">
+        <p class="">Associated systems:</p>
+        <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0">
+          {{ range first 2 (where .pages "Title" "in" .params.associated_systems) }}
+            {{ partial "thumbnail/associated_systems.html" . }}
+          {{ end }}
+          {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" .guide_id "type" .guide_type "content" .params.associated_systems "all_pages" .pages "guide_title" .page_title) }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

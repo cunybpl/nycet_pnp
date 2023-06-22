@@ -1,0 +1,11 @@
+enable: true
+contents:
+  - enable: true
+    active: false
+    name: Plants
+  - enable: true
+    active: false
+    name: Systems
+  - enable: true
+    active: false
+    name: Components

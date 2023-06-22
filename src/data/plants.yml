@@ -1,0 +1,18 @@
+enable: true
+documents:
+  - type: plant
+    title: "AHU Fans Measurement Guide"
+    measurement_type: "water"
+  - type: plant
+    title: "Air-Cooled Chiller Measurement Guide"
+    measurement_type: "water"
+  - type: plant
+    title: "Boiler Measurement Guide"
+    measurement_type: "air"
+
+
+
+      
+
+
+    
