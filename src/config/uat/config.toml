@@ -1,2 +1,6 @@
 baseURL = "https://pnp-uat-nycenergytools.netlify.app"
 title = "Measurement and Verification Guides"
+
+# Site Parameters
+[params]
+wordpressWebsiteURL = "https://nycetstage.wpengine.com/"

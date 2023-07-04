@@ -1,3 +1,4 @@
+{{ $wordpress_website_url := .Site.Params.wordpressWebsiteURL }}
 <nav class="navbar navbar-expand-lg bg-gray-300">
   <div class="container px-0">
     <a href="{{ .Site.BaseURL }}" class="navbar-brand">
@@ -20,7 +21,7 @@
         {{ if .HasChildren }}
         <li class="nav-item">
           <a 
-            href="{{ .URL | absURL }}"
+            href="{{ $wordpress_website_url }}{{ .URL }}"
             id="navbarDropdownMenuLink" 
             class="nav-link dropdown-toggle nav-link_label {{ if $active }} active {{ end }} text-sm-center p-2 {{ if $.IsHome }}scroll{{ end }}"
           >
@@ -30,8 +31,8 @@
             {{ range .Children }}
               <a 
                 class="dropdown-item" 
-                href="{{ .URL | absURL }}"{{ if $.IsHome }} 
-                data-target="{{ .URL | absURL }}"{{ end }}
+                href="{{ $wordpress_website_url }}{{ .URL }}"{{ if $.IsHome }} 
+                data-target="{{ $wordpress_website_url }}{{ .URL }}"{{ end }}
               >
               <span class="">{{ .Name }}</span>
             </a>
@@ -41,13 +42,13 @@
         {{ else }}
         <li class="nav-item mx-1">
             {{ if eq .Params.type "icon" }}
-            <a class="nav-link nav-link_label" style="font-size: larger !important;" href="{{ .Params.link | absURL }}">
+            <a class="nav-link nav-link_label" style="font-size: larger !important;" href="{{ $wordpress_website_url }}{{ .Params.link }}">
               <i class="fa {{ .Params.icon }}" ></i>
             </a>
             
             {{ else }}
             <a 
-              href="{{ .URL | absURL }}"
+              href="{{ $wordpress_website_url }}{{ .URL }}"
               id="navbarDropdownMenuLink" 
               class="nav-link nav-link_label {{ if $active }} active {{ end }} text-sm-center p-2 {{ if $.IsHome }}scroll{{ end }}" 
             >
@@ -57,7 +58,7 @@
         </li>
         {{ end }}
         {{ end }}
-        <a class="nav-link login-btn ml-3" href="https://nycenergytools.com/login/">
+        <a class="nav-link login-btn ml-3" href="{{ $wordpress_website_url }}login/">
           Login
         </a>
       </ul>
