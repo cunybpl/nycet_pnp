@@ -1,3 +1,4 @@
+{{ $wordpress_website_url := .Site.Params.wordpressWebsiteURL }}
 <section class="footer">
 	<div class="container px-0">
 		<div class="footer__widget pt-5">
@@ -33,7 +34,7 @@
 					<ul class="unstyle-list small">
 						{{ range .Site.Menus.sitemap }}
 							{{ if eq .Params.category "equipment" }}
-								<li class="mb-2"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+								<li class="mb-2"><a href="{{ $wordpress_website_url }}{{ .URL }}">{{ .Name }}</a></li>
 							{{ end }}
 						{{ end }}
 					</ul>
@@ -47,7 +48,7 @@
 					<ul class="unstyle-list small">
 						{{ range .Site.Menus.sitemap }}
 							{{ if eq .Params.category "equipment-kits" }}
-								<li class="mb-2"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+								<li class="mb-2"><a href="{{ $wordpress_website_url }}{{ .URL }}">{{ .Name }}</a></li>
 							{{ end }}
 						{{ end }}
 					</ul>
@@ -61,7 +62,7 @@
 					<ul class="unstyle-list small">
 						{{ range .Site.Menus.sitemap }}
 							{{ if eq .Params.category "resources" }}
-								<li class="mb-2"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+								<li class="mb-2"><a href="{{ $wordpress_website_url }}{{ .URL }}">{{ .Name }}</a></li>
 							{{ end }}
 						{{ end }}
 					</ul>
@@ -75,7 +76,7 @@
 					<ul class="unstyle-list small">
 						{{ range .Site.Menus.sitemap }}
 							{{ if eq .Params.category "support" }}
-								<li class="mb-2"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+								<li class="mb-2"><a href="{{ $wordpress_website_url }}{{ .URL }}">{{ .Name }}</a></li>
 							{{ end }}
 						{{ end }}
 					</ul>
