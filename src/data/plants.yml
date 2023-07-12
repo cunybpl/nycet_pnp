@@ -1,6 +1,9 @@
 enable: true
 documents:
   - type: plant
+    title: "Water-Cooled Chilled Water Plant"
+    measurement_type: "water"
+  - type: plant
     title: "AHU Fans Measurement Guide"
     measurement_type: "water"
   - type: plant
