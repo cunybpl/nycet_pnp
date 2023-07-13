@@ -111,8 +111,24 @@ a#back-to-top {
 .associated_systems_see_more_btn {
 }
 
-// custom table style
+h3, .h3, h2, .h2 {
+  margin-top: 2rem;
+}
 
+.content>h2:first-of-type {
+  margin-top: 0;
+}
+
+#guide-header-plants {
+  margin-top: 0;
+}
+
+//remove when change guide title to h1
+.guide-header-title h2 {
+  margin-top: 0;
+}
+
+// custom table style
 
 table {
   /* Change these properties */
@@ -151,12 +167,14 @@ td {
 th {
 	text-align: left;
   color: #000;
+  vertical-align: top;
 
 }
 
 thead {
 	th {
 		background-color: #f7f7f7;
+
 	}
 }
 
@@ -180,3 +198,15 @@ thead {
  table>tfoot:not(:last-child) {
   border-bottom: var(--border);
  }
+
+ .zoom {
+  box-shadow: 0 0 0 #fff;
+  transition-property: transform, box-shadow;
+  transition-duration: .5s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+  box-shadow: 7.0px 14.1px 14.1px rgba(0, 0, 0, 0.28);
+}

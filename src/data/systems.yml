@@ -1,6 +1,9 @@
 enable: true
 documents:
   - type: system
+    title: "Chilled Water Loop"
+    measurement_type: "electricity, flow"
+  - type: system
     title: "Demand Controlled Ventilation Measurement Guide"
     measurement_type: "water"
   - type: system
