@@ -1,10 +1,7 @@
 type:
-  - id: 1
-    value: "all"
+  - value: "all"
     label: "All"
-  - id: 2
-    value: "water"
+  - value: "water"
     label: "Water"
-  - id: 3
-    value: "air"
+  - value: "air"
     label: "Air"
