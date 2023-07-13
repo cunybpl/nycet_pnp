@@ -1,13 +1,7 @@
 enable: true
 documents:
   - type: component
-    title: "Sample component 1"
+    title: "Constant-Speed, Constant-Volume Pump and Motor"
     measurement_type: "air"
-  - type: component
-    title: "Sample component 2"
-    measurement_type: "water"
-  - type: component
-    title: "Sample component 3"
-    measurement_type: "water"
 
     

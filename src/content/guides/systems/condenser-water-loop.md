@@ -4,11 +4,9 @@ type: system
 excerpt: Consists of a CW pump and motor, an evaporative cooling tower with a fan and motor, and a CW piping network.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Condenser Water Pump and Motor
-  - Evaporative Cooling Tower
+  - Constant-Speed, Constant-Volume Pump and Motor
 related_components:
-  - Condenser Water Pump and Motor
-  - Evaporative Cooling Tower
+  - Constant-Speed, Constant-Volume Pump and Motor
 borrow_equipment_url: ""
 layout: guide
 url: "/documents/systems/condenser-water-loop"

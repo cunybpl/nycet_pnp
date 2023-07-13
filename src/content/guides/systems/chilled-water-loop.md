@@ -4,15 +4,9 @@ type: system
 excerpt: Consists of two main components – the pump and motors and a piping network.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Primary CHW Pump and Motor
-  - Secondary CHW Pump and Motor
-  - Primary CHW Piping Network
-  - Secondary CHW Piping Network
+  - Constant-Speed, Constant-Volume Pump and Motor
 related_components:
-  - Primary CHW Pump and Motor
-  - Secondary CHW Pump and Motor
-  - Primary CHW Piping Network
-  - Secondary CHW Piping Network
+  - Constant-Speed, Constant-Volume Pump and Motor
 borrow_equipment_url: ""
 layout: guide
 url: "/documents/systems/chilled-water-loop"
