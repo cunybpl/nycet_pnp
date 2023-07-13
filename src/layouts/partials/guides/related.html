@@ -1,5 +1,11 @@
 {{ $_title := .Title }}
 {{ $_id := replace (urlize $_title | lower) " " "-" }}
+{{ $label := "" }}
+{{ if eq .Params.type "system" }}
+  {{ $label = "components" }}
+{{ else }}
+  {{ $label = "systems" }}
+{{ end }}
 <div class="col-md-12 col-lg-6">
   <section class="card mb-4">
     <div class="guide-thumbnail">
@@ -27,7 +33,7 @@
         </div>
         <hr class="my-3">
         <div class="px-4">
-          <p class="">Associated systems:</p>
+          <p class="">Associated {{ $label }}:</p>
           <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0">
             {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_systems) }}
               {{ partial "thumbnail/associated_systems.html" .  }}
