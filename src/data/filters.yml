@@ -6,8 +6,5 @@ type:
     value: "water"
     label: "Water"
   - id: 3
-    value: "electric"
-    label: "Electric"
-  - id: 4
-    value: "solar"
-    label: "Solar"
+    value: "air"
+    label: "Air"
