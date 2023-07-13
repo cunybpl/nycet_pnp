@@ -10,9 +10,9 @@
     <div class="filter-guides-container">
       <label for="measurement-type-plants">Filter by</label>
       <select class="" name="measurement-type-plants" id="plants-filter">
-        <option value="all">All</option>
-        <option value="water">Water</option>
-        <option value="air">Air</option>
+        {{ range .filters }}
+          <option value="{{ .value }}">{{ .label }}</option>
+        {{ end }}
       </select>
     </div>
   </div>
@@ -53,9 +53,9 @@
     <div class="filter-guides-container">
       <label for="measurement-type-systems">Filter by</label>
       <select class="filter-guides-container-select-input" name="measurement-type-systems" id="systems-filter">
-        <option value="all">All</option>
-        <option value="water">Water</option>
-        <option value="air">Air</option>
+        {{ range .filters }}
+          <option value="{{ .value }}">{{ .label }}</option>
+        {{ end }}
       </select>
     </div>
   </div>
@@ -96,9 +96,9 @@
     <div class="filter-guides-container">
       <label for="measurement-type-components">Filter by</label>
       <select class="filter-guides-container-select-input" name="measurement-type-components" id="components-filter">
-        <option value="all">All</option>
-        <option value="water">Water</option>
-        <option value="air">Air</option>
+        {{ range .filters }}
+          <option value="{{ .value }}">{{ .label }}</option>
+        {{ end }}
       </select>
     </div>
   </div>
