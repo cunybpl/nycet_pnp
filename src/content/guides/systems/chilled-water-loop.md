@@ -52,7 +52,7 @@ The primary CHW piping network is connected to the evaporator section of the chi
 
 The secondary CHW piping network is connected to the primary piping network to deliver chilled water to the facility.
 
-<figure class="figure mb-2 mt-3">
+<figure class="figure mb-3 mt-3">
   <img src="/images/systems/chilled-water-loop/CHW-Loop-Diagram_11302022.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Chilled water loop components.">
   <figcaption class="figure-caption text-left">Figure 1. Chilled water loop components.</figcaption>
 </figure>
@@ -145,7 +145,7 @@ Table 1 provides a summary of system component measurements and values needed to
 
 The measurement locations for a primary-flow and a primary-secondary flow are shown in Figure 2.
 
-<figure class="figure mb-2 mt-3">
+<figure class="figure mb-3 mt-3">
   <img src="/images/systems/chilled-water-loop/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Chilled water loop system measurement points.">
   <figcaption class="figure-caption text-left">Figure 2. Chilled water loop system measurement points.</figcaption>
 </figure>

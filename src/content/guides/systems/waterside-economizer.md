@@ -22,7 +22,7 @@ A waterside economizer is used to cool or partially cool the chilled water witho
 
 The components associated with a waterside economizer are heat exchanger, piping, and valves. These components are shown in Figure 1.
 
-<figure class="figure mb-2 mt-3">
+<figure class="figure mb-3 mt-3">
   <img src="/images/systems/waterside-economizer/HE-Loop-diagram_2_11212022.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Waterside economizer system components.">
   <figcaption class="figure-caption text-left">Figure 1. Waterside economizer system components.</figcaption>
 </figure>
@@ -83,7 +83,7 @@ The cooling energy savings are equivalent to the heat rejected through the water
 
 The measurement locations for the waterside economizer are schematically shown in Figure 2:
 
-<figure class="figure mb-2 mt-3">
+<figure class="figure mb-3 mt-3">
   <img src="/images/systems/waterside-economizer/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Waterside economizer measurement points.">
   <figcaption class="figure-caption text-left">Figure 2. Waterside economizer measurement points.</figcaption>
 </figure>

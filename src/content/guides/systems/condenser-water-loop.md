@@ -32,7 +32,7 @@ A constant-speed constant-flow CW loop consists of constant-speed cooling tower 
 
 The main components associated with the condenser water loop are shown in Figure 1.
 
-<figure class="figure mb-2 mt-3">
+<figure class="figure mb-3 mt-3">
   <img src="/images/systems/condenser-water-loop/CW-Loop-Diagram_ 11292022.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Condenser water loop components.">
   <figcaption class="figure-caption text-left">Figure 1. Condenser water loop components.</figcaption>
 </figure>
@@ -147,7 +147,7 @@ The primary energy consumption of a condenser water loop is the electricity used
 
 The measurements for the condenser water loop are schematically shown in Figure 2, include:
 
-<figure class="figure mb-2 mt-3">
+<figure class="figure mb-3 mt-3">
   <img src="/images/systems/condenser-water-loop/CW-Loop-Diagram-with-MP_ 11292022.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Condenser water loop system measurement points.">
   <figcaption class="figure-caption text-left">Figure 2. Condenser water loop system measurement points.</figcaption>
 </figure>
