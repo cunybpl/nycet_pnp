@@ -6,12 +6,12 @@ thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-p
 associated_systems:
   - Chilled Water Loop
   - Condenser Water Loop
-  - Water Cooled Chiller
+  - Water-Cooled Chiller
   - Waterside Economizer
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
-  - Water Cooled Chiller
+  - Water-Cooled Chiller
   - Waterside Economizer
 borrow_equipment_url: ""
 layout: guide

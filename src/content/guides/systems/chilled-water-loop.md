@@ -15,7 +15,7 @@ related_components:
   - Secondary CHW Piping Network
 borrow_equipment_url: ""
 layout: guide
-url: "/documents/systems/chilled-water-loop-system"
+url: "/documents/systems/chilled-water-loop"
 ---
 
 ## General Overview
@@ -69,8 +69,7 @@ The primary energy consumption in a CHW loop is the electricity used to run the 
 
 Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a CHW loop.
 
-<div style="overflow-x:auto;">
-<table width="624" cellspacing="0" cellpadding="7">
+<table cellspacing="0" cellpadding="7">
     <caption>Table 1. Key values, components, and measurements.</caption>
     <thead>
         <tr>
@@ -80,10 +79,10 @@ Table 1 provides a summary of system component measurements and values needed to
             <th width="26.01769911504425%">
                 <p><strong>Values to be Quantified</strong></p>
             </th>
-            <th style="width: 22.1729%;" width="26.371681415929203%">
+            <th width="22.371681415929203%">
                 <p><strong>Energy Consuming Components</strong></p>
             </th>
-            <th style="width: 27.3831%;" width="21.946902654867255%">
+            <th width="21.946902654867255%">
                 <p><strong>Measurements</strong></p>
             </th>
         </tr>
@@ -96,10 +95,10 @@ Table 1 provides a summary of system component measurements and values needed to
             <td width="26.01769911504425%">
                 <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
             </td>
-            <td style="width: 22.1729%;" width="26.371681415929203%">
+            <td width="22.371681415929203%">
                 <p>Pump motor</p>
             </td>
-            <td style="width: 27.3831%;" width="21.946902654867255%">
+            <td width="21.946902654867255%">
                 <p>Average hourly electricity consumption by the pump motor; total operating hours</p>
             </td>
         </tr>
@@ -110,10 +109,10 @@ Table 1 provides a summary of system component measurements and values needed to
             <td width="26.01769911504425%">
                 <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
             </td>
-            <td style="width: 22.1729%;" width="26.371681415929203%">
+            <td width="22.371681415929203%">
                 <p>Pump motor</p>
             </td>
-            <td style="width: 27.3831%;" width="21.946902654867255%">
+            <td width="21.946902654867255%">
                 <p>Average hourly electricity consumption by the pump motor; total operating hours; outdoor air temperature</p>
             </td>
         </tr>
@@ -124,10 +123,10 @@ Table 1 provides a summary of system component measurements and values needed to
             <td width="26.01769911504425%">
                 <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
             </td>
-            <td style="width: 22.1729%;" width="26.371681415929203%">
+            <td width="22.371681415929203%">
                 <p>Pump motor</p>
             </td>
-            <td style="width: 27.3831%;" width="21.946902654867255%">
+            <td width="21.946902654867255%">
                 <p>Average hourly electricity consumption by the pump motor; total operating hours; outdoor air temperature</p>
             </td>
         </tr>
@@ -138,16 +137,15 @@ Table 1 provides a summary of system component measurements and values needed to
             <td width="26.01769911504425%">
                 <p>Average hourly chilled water flow (gpm) through a pump; average hourly loop pressure differential</p>
             </td>
-            <td style="width: 22.1729%;" width="26.371681415929203%">
+            <td width="22.371681415929203%">
                 <p><br></p>
             </td>
-            <td style="width: 27.3831%;" width="21.946902654867255%">
+            <td width="21.946902654867255%">
                 <p>Average hourly chilled water flow (gpm) through a pump; average hourly loop pressure differential</p>
             </td>
         </tr>
     </tbody>
 </table>
-</div>
 
 ## Chilled Water Loop System Measurement Point Locations
 

@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   align-items: baseline;
   padding-left: 0;
+  margin-bottom: 0;
   li {
     display: inline;
     white-space: nowrap;
@@ -111,15 +112,25 @@ a#back-to-top {
 .associated_systems_see_more_btn {
 }
 
+.guide-header-title h1 {
+  font-size: 2.3rem;
+}
+
 h3, .h3, h2, .h2 {
   margin-top: 2rem;
 }
 
-.content>h2:first-of-type {
+.content > h2:first-of-type {
   margin-top: 0;
 }
 
-#guide-header-plants {
+.guide-page-related-systems > div > h3 {
+  margin-top: 0;
+}
+
+#guide-header-plants,
+#guide-header-systems,
+#guide-header-components {
   margin-top: 0;
 }
 
@@ -140,8 +151,13 @@ table {
   border-collapse: separate;
   border: var(--border);
   min-width: 825px;
-	overflow-x: auto;
   margin-bottom: 3rem;
+  position: relative;
+}
+
+thead {
+  position: sticky;
+  top: 0;
 }
 
 caption {
@@ -168,7 +184,6 @@ th {
 	text-align: left;
   color: #000;
   vertical-align: top;
-
 }
 
 thead {
@@ -207,6 +222,6 @@ thead {
 }
 
 .zoom:hover {
-  transform: scale(1.5);
-  box-shadow: 7.0px 14.1px 14.1px rgba(0, 0, 0, 0.28);
+  transform: scale(1.3);
+  box-shadow: 4.1px 0 18.1px rgba(0,0,0,.28);
 }

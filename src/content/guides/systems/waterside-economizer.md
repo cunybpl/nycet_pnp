@@ -1,0 +1,99 @@
+---
+title: Waterside Economizer
+type: system
+excerpt: Used to cool or partially cool the chilled water without mechanical heat transfer when outdoor air temperatures are cold enough to meet the building’s cooling demand. 
+thumbnail_image: "images/systems/water-cooled-chiller/Chiller-Angled-View-1.jpg"
+associated_systems:
+  - Condenser Water Pump and Motor
+  - Evaporative Cooling Tower
+related_components:
+  - Condenser Water Pump and Motor
+  - Evaporative Cooling Tower
+borrow_equipment_url: ""
+layout: guide
+url: "/documents/systems/waterside-economizer"
+---
+
+## General Overview
+
+A waterside economizer is used to cool or partially cool the chilled water without mechanical heat transfer when outdoor air temperatures are cold enough to meet the building’s cooling demand. Typical waterside economizer systems have an external heat exchanger, however sometimes the chiller itself may be set up to perform the function of a waterside heat exchanger.
+
+## Waterside Economizer Components
+
+The components associated with a waterside economizer are heat exchanger, piping, and valves. These components are shown in Figure 1.
+
+<figure class="figure mb-2 mt-3">
+  <img src="/images/systems/waterside-economizer/HE-Loop-diagram_2_11212022.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Waterside economizer system components.">
+  <figcaption class="figure-caption text-left">Figure 1. Waterside economizer system components.</figcaption>
+</figure>
+
+### External Heat Exchanger
+
+Typical heat exchangers installed in waterside economizers systems are plate and frame heat exchangers. They can be configured as integrated and non-integrated economizers. The non-integrated configuration consists of a plate-and-frame heat exchanger (PFHX) in parallel with chillers and requires the heat exchanger to supply the entire cooling load. An integrated configuration, the PFHX are arranged in series allowing the chiller to utilize pre-cooled chilled water and minimizing the energy required by chillers. 
+
+### Piping, fittings, and valves
+
+Piping can have different arrangements to allow the desirable operation of the waterside economizer.  
+
+## Key Values Needed to Assess Energy Consumption
+
+The primary effect of waterside economizer is the savings in electricity usage at plant level to meet the cooling load of the building. For more information about the energy consumption of the overall water-cooled chilled water plant see the Protocol and Procedure PnP-P-01: Water-Cooled Chilled Water Plant.
+
+The cooling energy savings are equivalent to the heat rejected through the waterside economizer. Table 1 provides a summary of the components to measure to arrive at values needed to quantify the heat rejected from the chilled water to condenser water by free cooling. 
+
+<table width="630" cellspacing="0" cellpadding="7">
+<caption>Table 1. Key values, components, and measurements.</caption>
+    <tbody>
+        <thead>
+            <tr>
+                <th class="fr-cell-handler " style="background-color: rgb(231, 230, 230);" width="23.6013986013986%">
+                    <p><strong>System Quantification</strong></p>
+                </th>
+                <th style="background-color: rgb(231, 230, 230);" width="27.797202797202797%">
+                    <p><strong>Values to be Quantified</strong></p>
+                </th>
+                <th style="background-color: rgb(231, 230, 230);" width="21.853146853146853%">
+                    <p><strong>Energy Consuming Components</strong></p>
+                </th>
+                <th class="fr-cell-fixed " style="background-color: rgb(231, 230, 230);" width="26.748251748251747%">
+                    <p><strong>Measurements</strong></p>
+                </th>
+            </tr>
+        </thead>
+        <tr>
+            <td width="23.6013986013986%">
+                <p>Waterside economizer heat rejection load</p>
+            </td>
+            <td width="27.797202797202797%">
+                <p>Average hourly Btu/h transferred, differential of temperature for chilled water loop.</p>
+                <p><br></p>
+            </td>
+            <td width="21.853146853146853%">
+                <p>Heat exchanger of waterside economizer</p>
+            </td>
+            <td width="26.748251748251747%">
+                <p>Average hourly flow rate of the supply stream (gpm)</p>
+                <p>Temperature of supply stream entering and leaving the heat exchange (degrees F)&nbsp;</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+## System Measurement Point Locations 
+
+The measurement locations for the waterside economizer are schematically shown in Figure 2:
+
+<figure class="figure mb-2 mt-3">
+  <img src="/images/systems/waterside-economizer/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Waterside economizer measurement points.">
+  <figcaption class="figure-caption text-left">Figure 2. Waterside economizer measurement points.</figcaption>
+</figure>
+
+## References
+
+ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 48. DESIGN AND APPLICATION OF CONTROLS. I-P Edition.
+
+ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 40. COOLING TOWERS. I-P Edition.
+
+Taylor, S (2014). “How to Design & Control Waterside Economizers,” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 30-36.
+
+Trane Engineers Newsletter (2016). “Waterside Economizers - Keep the ‘Free’ In Free-Cooling.” Trane, 2016. https://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/waterside-design/ADM-APN058-EN_06012016.pdf.
