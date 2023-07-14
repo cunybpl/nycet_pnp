@@ -2,7 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 paginate = 3
 theme = "portio"
-title = "Measurement and Verification Guides"
+title = "Protocols & Procedures"
 
 # Main Navigation Bar
 ## Equipment
