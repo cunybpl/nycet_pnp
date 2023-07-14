@@ -1,7 +1,7 @@
 ---
 enable: true
 content: >
-  # Measurement and Verification Guides
+  # Protocols & Procedures
 
   Explore measurement guides developed by CUNY BPL for agency use, for evaluating pre- and post-retrofit conditions of common retrofits under DEM's energy efficiency programs.
-background_img: images/hero/electric_plant_logo.png
+background_img:
