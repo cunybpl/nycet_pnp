@@ -27,9 +27,9 @@
         onclick="displayGuideContent(event)"
       >
         <div>
-          <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
+          <img src="{{ "images/hero/guide-icon.png" | absURL }}" class="img-fluid">
         </div>
-        Measurement Guides
+        Guide
       </button>
       {{ if or (isset .Params "related_systems") (isset .Params "related_components") }}
       <button 
@@ -38,7 +38,7 @@
         onclick="displayGuideContent(event)"
       >
         <div>
-          <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
+          <img src="{{ "images/hero/system-icon.png" | absURL }}" class="img-fluid">
         </div>
         Related {{ if isset .Params "related_systems" }}Systems{{ else }}Components{{ end }}
       </button>
