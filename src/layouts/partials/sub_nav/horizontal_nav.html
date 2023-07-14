@@ -24,8 +24,11 @@
           " 
           onclick="displayGuides(event)"
         >
-          <div class="mr-2"><img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid"></div>
-          <span>All {{ $element.name }}</span>
+        <!-- Chnage to per tab icon -->
+          <!-- <div class="mr-2">
+            <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
+          </div> -->
+          <span>{{ $element.name }}</span>
           <div id="total-{{ $element.name | lower }}-search-result" class="search-result-label ml-3">0</div>
         </button>
       </div>
