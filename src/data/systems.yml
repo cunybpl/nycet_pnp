@@ -1,13 +1,14 @@
 enable: true
 documents:
   - type: system
-    title: "Demand Controlled Ventilation Measurement Guide"
+    title: "Chilled Water Loop"
+    measurement_type: "electricity, flow"
+  - type: system
+    title: "Condenser Water Loop"
     measurement_type: "water"
   - type: system
-    title: Sample system 2
-    measurement_type: "air"
+    title: "Water-Cooled Chiller"
+    measurement_type: "water"
   - type: system
-    title: Sample system 3
-    measurement_type: "air"
-
-    
+    title: "Waterside Economizer"
+    measurement_type: "water"
