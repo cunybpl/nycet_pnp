@@ -128,8 +128,12 @@ h3, .h3, h2, .h2 {
   margin-top: 0;
 }
 
-.guide-page-related-systems > div > h3 {
+[id*="page-related"] > div > h3 {
   margin-top: 0;
+}
+
+[id*="guide-header"] {
+  margin-bottom: 0;
 }
 
 #guide-header-plants,

@@ -215,8 +215,6 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 
 ### Measurement Tools and Equipment
 
-Further details about measurement tools and equipment associated with measurements in Figure 2 can be found here [link here FELL Kit for CSCV pump and motor].
-
 {{< measurement_technique measurement_technique_id=1 >}}
 
 ### Calculation Methodology
