@@ -2,7 +2,7 @@ enable: true
 documents:
   - type: plant
     title: "Water-Cooled Chilled Water Plant"
-    measurement_type: "water"
+    measurement_type: "water-side, cooling"
 
 
 

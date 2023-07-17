@@ -2,13 +2,13 @@ enable: true
 documents:
   - type: system
     title: "Chilled Water Loop"
-    measurement_type: "electricity, flow"
+    measurement_type: "water-side, cooling"
   - type: system
     title: "Condenser Water Loop"
-    measurement_type: "water"
+    measurement_type: "water-side, cooling"
   - type: system
     title: "Water-Cooled Chiller"
-    measurement_type: "water"
+    measurement_type: "water-side, cooling"
   - type: system
     title: "Waterside Economizer"
-    measurement_type: "water"
+    measurement_type: "water-side, cooling"
