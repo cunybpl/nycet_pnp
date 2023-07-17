@@ -20,7 +20,7 @@
   }
 }
 
-a:hover {
+a:hover:not(.btn) {
   text-decoration: underline !important;
 }
 
@@ -138,7 +138,7 @@ h3, .h3, h2, .h2 {
 
 [id*="guide-header"] {
   margin-bottom: 0;
-  font-size: 1.7rem;
+  font-size: 1.7 rem;
 }
 
 #guide-header-plants,
@@ -154,6 +154,10 @@ h3, .h3, h2, .h2 {
 //remove when change guide title to h1
 .guide-header-title h2 {
   margin-top: 0;
+}
+
+.modal-header .close {
+  margin: -1rem 0 -1rem auto;
 }
 
 // custom table style
