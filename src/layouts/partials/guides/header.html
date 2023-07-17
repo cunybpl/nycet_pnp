@@ -31,7 +31,7 @@
         </div>
         Guide
       </button>
-      {{ if or (isset .Params "related_systems") (isset .Params "related_components") }}
+      {{ if isset .Params "related_systems" }}
       <button 
         id="tab-item-related-systems" 
         class="header-tab-item"
@@ -40,9 +40,19 @@
         <div>
           <img src="{{ "images/hero/system-icon.png" | absURL }}" class="img-fluid">
         </div>
-        Related {{ if isset .Params "related_systems" }}Systems{{ else }}Components{{ end }}
-      </button>
+        Related Systems
+      {{ else }}
+      <button 
+        id="tab-item-related-systems" 
+        class="header-tab-item"
+        onclick="displayGuideContent(event)"
+      >
+        <div>
+          <img src="{{ "images/hero/component-icon.png" | absURL }}" class="img-fluid">
+        </div>
+        Related Components
       {{ end }}
+      </button>
       {{ if isset .Params "borrow_equipment_url"  }}
       <button 
         id="tab-item-borrow-equipments" 
