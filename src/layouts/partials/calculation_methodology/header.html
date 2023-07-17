@@ -28,10 +28,16 @@
           class="header-tab-item py-4"
           onclick="displayGuideContent(event)"
         >
+        {{ if eq .Params.type "calculation" }} 
           <div>
-            <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
+            <img src="{{ "images/calculation-methodology/calculation-methodology-icon-white.png" | absURL }}" class="img-fluid">
           </div>
-          {{ if eq .Params.type "calculation" }} Methodology {{ else }} Technique {{ end }}
+          Methodology
+        {{ else }}
+        <div>
+          <img src="{{ "images/measurement-technique/measurement-technique-icon-white.png" | absURL }}" class="img-fluid">
+        </div>
+        Technique {{ end }}
         </button>
         {{ if isset .Params "related_systems" }}
         <button 
