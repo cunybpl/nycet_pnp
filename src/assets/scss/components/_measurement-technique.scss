@@ -12,5 +12,10 @@
   background-color: white;
   padding: 1rem;
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
