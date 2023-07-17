@@ -1,3 +1,7 @@
+.search-header {
+  align-items: center;
+}
+
 #guide-breadcrumbs {
   list-style: none;
   display: flex;
@@ -140,6 +144,10 @@ h3, .h3, h2, .h2 {
 #guide-header-systems,
 #guide-header-components {
   margin-top: 0;
+}
+
+#guide-header-components {
+  font-size: 1.5rem;
 }
 
 //remove when change guide title to h1

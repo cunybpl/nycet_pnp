@@ -1,14 +1,14 @@
 {{ $pages := .pages }}
 <!-- PLANT GUIDES -->
 <section id="textPlants" class="tabcontent">
-  <div class="container px-0 d-flex justify-content-between" style="margin-top: 3rem;">
+  <div class="search-header container px-0 d-flex justify-content-between" style="margin-top: 3rem;">
     <div>
       <h2 id="guide-header-plants">
         All Plants
       </h2>
     </div>
     <div class="filter-guides-container">
-      <label for="measurement-type-plants">Filter by</label>
+      <label for="measurement-type-plants">Filter</label>
       <select class="" name="measurement-type-plants" id="plants-filter">
         {{ range .filters }}
           <option value="{{ .value }}">{{ .label }}</option>
@@ -44,14 +44,14 @@
 </section>
 <!-- SYSTEM GUIDES -->
 <section id="textSystems" class="tabcontent">
-  <div class="container px-0 d-flex justify-content-between" style="margin-top: 3rem;">
+  <div class="search-header container px-0 d-flex justify-content-between" style="margin-top: 3rem;">
     <div>
       <h2 id="guide-header-systems">
         All Systems
       </h2>
     </div>
     <div class="filter-guides-container">
-      <label for="measurement-type-systems">Filter by</label>
+      <label for="measurement-type-systems">Filter</label>
       <select class="filter-guides-container-select-input" name="measurement-type-systems" id="systems-filter">
         {{ range .filters }}
           <option value="{{ .value }}">{{ .label }}</option>
@@ -87,14 +87,14 @@
 </section>
 <!-- COMPONENT GUIDES -->
 <section id="textComponents" class="tabcontent">
-  <div class="container px-0 d-flex justify-content-between" style="margin-top: 3rem;">
+  <div class="search-header container px-0 d-flex justify-content-between" style="margin-top: 3rem;">
     <div>
       <h2 id="guide-header-components">
         All Components
       </h2>
     </div>
     <div class="filter-guides-container">
-      <label for="measurement-type-components">Filter by</label>
+      <label for="measurement-type-components">Filter</label>
       <select class="filter-guides-container-select-input" name="measurement-type-components" id="components-filter">
         {{ range .filters }}
           <option value="{{ .value }}">{{ .label }}</option>
