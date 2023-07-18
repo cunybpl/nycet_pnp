@@ -24,6 +24,10 @@ a:hover:not(.btn) {
   text-decoration: underline !important;
 }
 
+h5.card-title {
+  font-size: 1.3rem;
+}
+
 .guide-header {
   display: flex;
   justify-content: space-between;
@@ -147,6 +151,7 @@ h3, .h3, h2, .h2 {
 
 [id*="guide-header"] {
   margin-bottom: 0;
+  font-size: 1.6rem;
   font-size: 1.7 rem;
 }
 
@@ -154,10 +159,6 @@ h3, .h3, h2, .h2 {
 #guide-header-systems,
 #guide-header-components {
   margin-top: 0;
-}
-
-#guide-header-components {
-  font-size: 1.5rem;
 }
 
 //remove when change guide title to h1

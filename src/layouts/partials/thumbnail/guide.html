@@ -19,9 +19,9 @@
       {{ end }}
     </div>
     <div class="guide-thumbnail-content">
-      <div class="px-4 d-flex flex-column justify-content-between" style="height: 65%;">
+      <div class="px-4 d-flex flex-column justify-content-between" style="height: 62%;">
         <div>
-          <h5>{{ .page_title }}</h5>
+          <h5 class="card-title">{{ .page_title }}</h5>
           <div style="display: none;">
             {{ .page_content | plainify }}
           </div>
@@ -31,9 +31,9 @@
           <a class="btn btn-primary" href="{{ .page_url | relURL }}">View {{ .params.type | safeHTML | title }}</a>
         </div>
       </div>
-      <hr class="my-3">
+      <hr class="mt-4 mb-3">
       <div class="px-4">
-        <p class="">Associated {{ $label }}:</p>
+        <p class="">Associated {{ $label }}</p>
         <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0">
           {{ range first 3 (where .pages "Title" "in" .params.associated_systems) }}
             {{ partial "thumbnail/associated_systems.html" . }}
