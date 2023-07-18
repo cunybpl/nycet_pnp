@@ -9,7 +9,7 @@ associated_systems:
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
-borrow_equipment_url: ""
+borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
 layout: guide
 url: "/documents/components/constant-speed-constant-volume-pump-motor"
 ---

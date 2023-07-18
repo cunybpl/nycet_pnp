@@ -59,6 +59,11 @@ h5.card-title {
   }
 }
 
+.header-tab-item:hover,
+.tabLink:hover {
+  background-color: #429049;
+}
+
 .toc-header {
   width: 100%;
   white-space: nowrap;

@@ -13,7 +13,6 @@ related_systems:
   - Condenser Water Loop
   - Water-Cooled Chiller
   - Waterside Economizer
-borrow_equipment_url: ""
 layout: guide
 url: "/documents/plants/water-cooled-chilled-water-plant"
 ---

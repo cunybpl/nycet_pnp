@@ -4,11 +4,9 @@ type: system
 excerpt: Used to cool or partially cool the chilled water without mechanical heat transfer when outdoor air temperatures are cold enough to meet the building’s cooling demand. 
 thumbnail_image: "images/systems/water-cooled-chiller/Chiller-Angled-View-1.jpg"
 associated_systems:
-  - Condenser Water Pump and Motor
-  - Evaporative Cooling Tower
+  - Liquid-to-Liquid Heat Exchanger
 related_components:
-  - Condenser Water Pump and Motor
-  - Evaporative Cooling Tower
+  - Liquid-to-Liquid Heat Exchanger
 borrow_equipment_url: ""
 layout: guide
 url: "/documents/systems/waterside-economizer"
