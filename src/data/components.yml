@@ -3,5 +3,6 @@ documents:
   - type: component
     title: "Constant-Speed, Constant-Volume Pump and Motor"
     measurement_type: "water-side, cooling"
-
-    
+  - type: component
+    title: "Liquid-to-Liquid Heat Exchanger"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
