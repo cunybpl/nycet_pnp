@@ -1,5 +1,5 @@
 .guide-thumbnail {
-  height: 450px;
+  height: 430px;
   display: flex;
   &-image {
     width: 45%;
@@ -10,7 +10,7 @@
     background-color: $light-gray;
     height: 100%;
     width: 55%;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     p {
       color: black;
       font-size: smaller;
