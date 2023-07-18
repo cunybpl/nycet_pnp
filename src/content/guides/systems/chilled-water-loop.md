@@ -7,7 +7,7 @@ associated_systems:
   - Constant-Speed, Constant-Volume Pump and Motor
 related_components:
   - Constant-Speed, Constant-Volume Pump and Motor
-borrow_equipment_url: ""
+borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chilled-water-loop"
 layout: guide
 url: "/documents/systems/chilled-water-loop"
 ---

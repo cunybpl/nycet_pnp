@@ -11,7 +11,7 @@ related_components:
   - Condenser Water Pump and Motor
   - Liquid-to-Liquid Heat Exchanger
   - Evaporative Cooling Tower
-borrow_equipment_url: ""
+borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chiller"
 layout: guide
 url: "/documents/systems/water-cooled-chiller"
 ---
