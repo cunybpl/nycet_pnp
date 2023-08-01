@@ -32,10 +32,12 @@ A variable-speed water-cooled chiller has a variable frequency drive on the comp
 
 The four main components of every chiller are an evaporator, a compressor and motor, a condenser, and an expansion valve. The components are shown in Figure 1. 
 
+<a href="/images/systems/water-cooled-chiller/3D-Chillers-diagram_1.jpg">
 <figure class="figure mb-3 mt-3">
-  <img src="/images/systems/water-cooled-chiller/3D-Chillers-diagram_1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Water-cooled chiller components.">
+  <img src="/images/systems/water-cooled-chiller/3D-Chillers-diagram_1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Water-cooled chiller components.">
   <figcaption class="figure-caption text-left">Figure 1. Water-cooled chiller components.</figcaption>
 </figure>
+</a>
 
 ### Evaporator
 
@@ -158,10 +160,12 @@ The primary energy consumption in a water-cooled chiller is the electricity used
 
 The measurement locations for a water-cooled chiller are schematically shown in Figure 2.
 
+<a href="/images/systems/water-cooled-chiller/chiller-Diagram-with-measurement-point.jpg">
 <figure class="figure mb-3 mt-3">
-  <img src="/images/systems/water-cooled-chiller/chiller-Diagram-with-measurement-point.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Water-cooled chiller measurement points.">
+  <img src="/images/systems/water-cooled-chiller/chiller-Diagram-with-measurement-point.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Water-cooled chiller measurement points.">
   <figcaption class="figure-caption text-left">Figure 2. Water-cooled chiller measurement points.</figcaption>
 </figure>
+</a>
 
 ## References
 

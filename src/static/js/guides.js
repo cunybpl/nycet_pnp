@@ -353,3 +353,7 @@ function updateGuideHeader(guideType, label) {
     $('#guide-header-components').text(label);
   }
 }
+
+$('.open-popup-link').magnificPopup({
+  type:'image'
+});

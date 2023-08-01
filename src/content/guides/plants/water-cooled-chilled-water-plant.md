@@ -21,10 +21,12 @@ url: "/documents/plants/water-cooled-chilled-water-plant"
 
 A water-cooled chilled water plant consists of a water-cooled chiller system, a condenser water loop system and a chilled water loop system operating to meet cooling demand in a facility. If a waterside economizer is implemented in the facility, the chilled water plant includes a waterside economizer system as well.
 
-<figure class="figure mb-4 mt-3">
-  <img src="/images/plants/water-cooled-chilled-water-plant/3D-Chiller-Plant-Diagram.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Water-cooled chilled water plant.">
-  <figcaption class="figure-caption text-left">Figure 1. Water-cooled chilled water plant.</figcaption>
-</figure>
+<a href="/images/plants/water-cooled-chilled-water-plant/3D-Chiller-Plant-Diagram.jpg">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/water-cooled-chilled-water-plant/3D-Chiller-Plant-Diagram.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Water-cooled chilled water plant.">
+        <figcaption class="figure-caption text-left">Figure 1. Water-cooled chilled water plant.</figcaption>
+    </figure>
+</a>
 
 ## Water-Cooled Chilled Water Plant Systems and Components
 
@@ -32,37 +34,45 @@ A water-cooled chilled water plant consists of a water-cooled chiller system, a 
 
 A water-cooled chiller produces chilled water through the basic refrigeration cycle to the chilled water loop to distribute to the facility. The primary systems and components of a water-cooled chiller are shown in Figure 2.
 
-<figure class="figure mb-4 mt-3">
-  <img src="/images/plants/water-cooled-chilled-water-plant/3D-Chillers-diagram_1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Water-cooled chiller.">
-  <figcaption class="figure-caption text-left">Figure 2. Water-cooled chiller.</figcaption>
-</figure>
-
+<a href="/images/plants/water-cooled-chilled-water-plant/3D-Chillers-diagram_1.jpg">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/water-cooled-chilled-water-plant/3D-Chillers-diagram_1.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Water-cooled chiller.">
+        <figcaption class="figure-caption text-left">Figure 2. Water-cooled chiller.</figcaption>
+    </figure>
+</a>
 ### Chilled Water Loop System
 
 A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building. Components of a chilled water loop are shown in Figure 3.
 
-<figure class="figure mb-4 mt-3">
-  <img src="/images/plants/water-cooled-chilled-water-plant/CHW-Loop-Diagram_11302022.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 3. Chilled water loop.">
-  <figcaption class="figure-caption text-left">Figure 3. Chilled water loop.</figcaption>
-</figure>
+
+<a href="/images/plants/water-cooled-chilled-water-plant/CHW-Loop-Diagram_11302022.jpg">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/water-cooled-chilled-water-plant/CHW-Loop-Diagram_11302022.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water loop.">
+        <figcaption class="figure-caption text-left">Figure 3. Chilled water loop.</figcaption>
+    </figure>
+</a>
 
 ### Condenser Water Loop System
 
 A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower where the condenser water is cooled and returned to the chiller condenser. Components of a condenser water loop are shown in Figure 4.
 
-<figure class="figure mb-3 mt-3">
-  <img src="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 4. Condenser water loop.">
-  <figcaption class="figure-caption text-left">Figure 4. Condenser water loop.</figcaption>
-</figure>
+<a href="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg">
+    <figure class="figure mb-3 mt-3">
+        <img src="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Condenser water loop.">
+        <figcaption class="figure-caption text-left">Figure 4. Condenser water loop.</figcaption>
+    </figure>
+</a>
 
 ### Waterside Economizer System
 
 Waterside economizers may use an external plate-and-frame heat exchanger between the condenser and chilled water loop or the chiller itself may be set up to perform the function of a waterside heat exchanger. When the outdoor temperatures are favorable, heat from the chilled water loop may be rejected directly to the condenser water loop through a heat exchanger without running the chiller compressor motor. Components of a waterside economizer system are shown in Figure 5.
 
-<figure class="figure mb-3 mt-3">
-  <img src="/images/plants/water-cooled-chilled-water-plant/HE-Loop-diagram_2_11212022.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 5. Waterside economizer system.">
-  <figcaption class="figure-caption text-left">Figure 5. Waterside economizer system.</figcaption>
-</figure>
+<a href="/images/plants/water-cooled-chilled-water-plant/HE-Loop-diagram_2_11212022.jpg">
+    <figure class="figure mb-3 mt-3">
+        <img src="/images/plants/water-cooled-chilled-water-plant/HE-Loop-diagram_2_11212022.jpg" class="figure-img img-fluid rounded" alt="Figure 5. Waterside economizer system.">
+        <figcaption class="figure-caption text-left">Figure 5. Waterside economizer system.</figcaption>
+    </figure>
+</a>
 
 ## Key Values Needed to Assess Energy Consumption
 
@@ -136,10 +146,12 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
 
 The measurement points for a water-cooled chilled water plant are schematically shown in Figure 6. In the figure, the pumps are vertical in-line pumps which have the same measurement points as the centrifugal pumps shown in the CHW loop (Figure 3).
 
-<figure class="figure mb-3 mt-3">
-  <img src="/images/plants/water-cooled-chilled-water-plant/WCC-Chiller-system-diagram-economizer-2ndary-pump-Final-06132023.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 6. Water-cooled chilled water plant measurement points.">
-  <figcaption class="figure-caption text-left">Figure 6. Water-cooled chilled water plant measurement points.</figcaption>
-</figure>
+<a href="/images/plants/water-cooled-chilled-water-plant/WCC-Chiller-system-diagram-economizer-2ndary-pump-Final-06132023.jpg">
+    <figure class="figure mb-3 mt-3">
+        <img src="/images/plants/water-cooled-chilled-water-plant/WCC-Chiller-system-diagram-economizer-2ndary-pump-Final-06132023.jpg" class="figure-img img-fluid rounded" alt="Figure 6. Water-cooled chilled water plant measurement points.">
+        <figcaption class="figure-caption text-left">Figure 6. Water-cooled chilled water plant measurement points.</figcaption>
+    </figure>
+</a>
 
 ## References
 
