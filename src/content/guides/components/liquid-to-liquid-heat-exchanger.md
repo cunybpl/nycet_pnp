@@ -91,10 +91,13 @@ In a liquid-to-liquid heat exchanger heat transferred from the liquid with exces
 
 Figure 1 demonstrates a schematic of a liquid-to-liquid heat exchanger.
 
+<a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
 <figure class="figure mb-3 mt-3">
   <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt="Figure 1. Liquid-to-liquid heat exchanger.">
   <figcaption class="figure-caption text-left">Figure 1. Liquid-to-liquid heat exchanger. FPO</figcaption>
 </figure>
+</a>
+
 
 Table 2 provides a summary of measurements needed to quantify the annual energy transfer and operating characteristics of a liquid-to-liquid heat exchanger.
 
@@ -168,10 +171,12 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 The measurement strategy for a liquid-to-liquid heat exchanger is to measure the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet of the heat exchanger. The flow rate can be measured at the supply stream pump if one is used in the system. Further information on pump flow measurement strategy can be found < here: Link to the pump flow content>. Measurement points are generically represented in Figure 2.
 
+<a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
 <figure class="figure mb-3 mt-3">
   <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt="Figure 2. Measurement points in a liquid-to-liquid heat exchanger.">
   <figcaption class="figure-caption text-left">Figure 2. Measurement points in a liquid-to-liquid heat exchanger. FPO</figcaption>
 </figure>
+</a>
 
 ## Measurement Tools and Equipment
 

@@ -201,17 +201,21 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
 
 The measurement boundary for quantifying energy consumption for the constant-speed pump and motor is shown in Figure 1 below.
 
+<a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
 <figure class="figure mb-3 mt-3">
   <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt=" Figure 1. Measurement boundary of a constant-speed pump.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a constant-speed pump. FPO</figcaption>
 </figure>
+</a>
 
 The measurement strategy for a CSCV pump and motor is to do a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant-speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at the main feed to the constant-speed motor. Measurement points are generically represented in Figure 2.
 
+<a href="/images/components/Measurement-points-for-motor-on-off-operation-FPO.png">
 <figure class="figure mb-3 mt-3">
   <img src="/images/components/Measurement-points-for-motor-on-off-operation-FPO.png" class="figure-img img-fluid rounded zoom" alt=" Figure 2. Measurement points for motor on /off operation.">
   <figcaption class="figure-caption text-left">Figure 2. Measurement points for motor on /off operation. FPO</figcaption>
 </figure>
+</a>
 
 ### Measurement Tools and Equipment
 
@@ -259,10 +263,12 @@ Table 3 provides a summary of the values to measure to quantify the flow rate th
 
 The measurement boundary for quantifying water flow across a constant-speed pump is shown in Figure below.
 
+<a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
 <figure class="figure mb-3 mt-3">
   <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt=" Figure 3: Measurement boundary of a constant-speed pump.">
   <figcaption class="figure-caption text-left">Figure 3: Measurement boundary of a constant-speed pump. FPO</figcaption>
 </figure>
+</a>
 
 The measurement of the CSCV pump flow relies on having access to the specific pump curve for the pump, which is a function of the specific pump model, the impeller diameter, and the horsepower of the pump motor. This information is found on the nameplate of a packaged pump and motor or may be found in the as-built construction documentations. If this data can be accessed, measuring the pressure differential across the pump over time can provide confirmation that the pump is providing a constant flow and a detailed average pressure that the pump is exerting on the liquid. By converting the pressure to the feet of head, the average pump flow can be interpolated off the pump curve. 
 
@@ -270,10 +276,12 @@ If a pump curve is not available and a straight run of piping approximately 17 t
 
 In both cases, a long-term measurement is needed to quantify the operational schedule of the pump. This can be done with a motor on-off logger, as discussed in the section on quantifying energy consumption of a CSCV pump and motor.
 
+<a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
 <figure class="figure mb-3 mt-3">
   <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt=" Figure 4. Measurement points to estimate flow.">
   <figcaption class="figure-caption text-left">Figure 4. Measurement points to estimate flow. FPO</figcaption>
 </figure>
+</a>
 
 ### Measurement Tools and Equipment
 
