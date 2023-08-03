@@ -9,7 +9,7 @@ related_systems:
   -  Condenser Water Loop
 related_components:
   -  Constant-Speed, Constant-Volume Pump and Motor
-borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chiller"
+borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/motor-runtime"
 ---
 
