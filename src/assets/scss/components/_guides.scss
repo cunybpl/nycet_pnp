@@ -66,9 +66,6 @@ h5.card-title {
 
 .toc-header {
   width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   display: inline-block;
   font-size: 16px;
 }
@@ -87,7 +84,7 @@ h5.card-title {
         border-radius: 10px;
       }
       a {
-        color: black;
+        color: #6a6a6a;
       }
       ul {
         list-style-type: none;
@@ -99,9 +96,11 @@ h5.card-title {
           font-size: 16px;
         }
         li > ul {
-          padding-left: 1.5rem;
+          padding-left: 0.5rem;
+          border-left: 1px solid #bac8bb;
+          margin-left: 10px;
           li {
-            list-style-type: "\203A";
+            list-style-type: none;
             padding-left: 10px;
             color: $primary;
             padding-top: .5rem;

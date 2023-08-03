@@ -40,6 +40,7 @@ A water-cooled chiller produces chilled water through the basic refrigeration cy
         <figcaption class="figure-caption text-left">Figure 2. Water-cooled chiller.</figcaption>
     </figure>
 </a>
+
 ### Chilled Water Loop System
 
 A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building. Components of a chilled water loop are shown in Figure 3.
