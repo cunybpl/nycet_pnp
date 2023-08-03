@@ -63,6 +63,18 @@
           Related Components
         </button>
         {{ end }}
+        {{ if isset .Params "borrow_equipment_url"  }}
+        <button 
+          id="tab-item-borrow-equipments" 
+          class="header-tab-item"
+          onclick="displayGuideContent(event)"
+        >
+          <div>
+            <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
+          </div>
+          Borrow Equipment
+        </button>
+        {{ end }}
       </div>
     </div>
   </div>
@@ -71,16 +83,22 @@
   const contentTabItemID = 'tab-item-{{ .Params.type }}';
   const relatedSystemTabItemID = 'tab-item-{{ .Params.type }}-related-systems';
   const relatedComponentTabItemID = 'tab-item-{{ .Params.type }}-related-components';
+  const borrowEquipmentTabItemID = 'tab-item-borrow-equipments';
 
   function displayGuideContent(evt) {
     var activeTabItemID = evt.currentTarget.id;
     const expectedTabItemIDs = [
       contentTabItemID, 
       relatedSystemTabItemID, 
-      relatedComponentTabItemID
+      relatedComponentTabItemID,
+      borrowEquipmentTabItemID
     ]
     if (!expectedTabItemIDs.includes(activeTabItemID)) return;
 
+    if (activeTabItemID == borrowEquipmentTabItemID) {
+      return location.href = {{ .Params.borrow_equipment_url }};
+    };
+    
     hidePageContents()
     removeTabItemActiveClass()
     addTabItemActiveClass(activeTabItemID)
