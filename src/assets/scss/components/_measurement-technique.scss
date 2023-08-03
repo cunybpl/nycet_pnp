@@ -1,6 +1,6 @@
 .card-block {
   background-color: rgba(66, 144, 73, .10);
-  border: none;
+  border: 1px solid #cedbd0;
   p {
     @include ipad {
       font-size: 15px;
@@ -9,13 +9,17 @@
 }
 
 .measurement-technique-logo-wrapper {
-  background-color: white;
+  background-color: #fff;
   padding: 1rem;
   border-radius: 50%;
   display: flex;
-  width: 56px;
-  height: 56px;
-  display: flex;
+  width: 69px;
+  height: 69px;
   justify-content: center;
   align-items: center;
+  border: 2px solid #cedbd0;
+}
+
+.fa.fa-arrow-right:hover {
+  transform: translateX(8px);
 }
