@@ -35,7 +35,7 @@ Please note that loggers will require setup with a computer or phone using the m
 
 ## Measurement Steps
 
-### Preparation for Data Acquisition
+### 1. Preparation for Data Acquisition
 
 Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger.
 
@@ -44,7 +44,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 - Date and time to stop logging
 - Value to measure: Runtime (minutes)
 
-### Installation of Equipment
+### 2. Installation of Equipment
 
 1. Confirm that the motor is operational.
 1. Place the data logger on the motor casing in a non-hazardous location.
@@ -56,7 +56,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
   <figcaption class="figure-caption text-left">Figure 1. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.</figcaption>
 </figure>
 
-### Verify Data is Being Collected
+### 3. Verify Data is Being Collected
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following:
 
@@ -73,7 +73,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
   <figcaption class="figure-caption text-left">Figure 2. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.</figcaption>
 </figure>
 
-### Retrieve Measurement Equipment and Download All Final Data
+### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying that the logger is collecting data, do the following:
 1. Allow the logger to collect data for the remainder of the measurement period.
