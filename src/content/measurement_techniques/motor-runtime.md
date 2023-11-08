@@ -13,17 +13,16 @@ borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-
 url: "/documents/measurement-technique/motor-runtime"
 ---
 
-## Type of Measurement
-### Direct
-This is a direct measurement of motor runtime and determines the operating schedule of the motor.
-
-### Description
-
+## Description
 This technique uses data loggers to take long-term measurements of the runtime duration for a constant or dual-speed motor. This technique can be used on motors with any end-use, including both air and water distribution. Accurate measurements can only be taken when data loggers are properly placed on the motor enclosure. The equipment’s on/off status is detected based on the AC magnetic field that is generated when the motors are running.
 
 Measurements should be taken at one-hour intervals and will provide insight into the hours of operation of the motor. Motor runtime measurements should be paired with the spot measurement of true RMS power draw (kW) to calculate the energy consumption of the equipment. 
 
 The duration of the long-term measurement should be a minimum of six weeks and data should be collected at one-hour intervals. Measurements should be taken when the system or component is operating under normal conditions.
+
+### Type of Measurement
+Direct: 
+This is a direct measurement of motor runtime and determines the operating schedule of the motor.
 
 ### Equipment
 
@@ -44,6 +43,15 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 - Date and time to stop logging
 - Value to measure: Runtime (minutes)
 
+An example of how to setup the UX90-004 Onset HOBO Motor runtime logger is shown in the video below.
+
+<a href="https://www.youtube.com/embed/J472dkp5D3g?si=vlqnvQ-ophL4v08h">
+<figure class="figure mb-3 mt-3 mx-auto">
+  <img src="/images/measurement-technique/motor-runtime/Motor-Runtime-Video-1.jpg" class="figure-img img-fluid rounded zoom" alt="Video on how to set up HOBO Motor Runtime Logger.">
+  <figcaption class="figure-caption text-left">Figure 1. Video on how to set up HOBO Motor Runtime Logger.</figcaption>
+</figure>
+</a>
+
 ### 2. Installation of Equipment
 
 1. Confirm that the motor is operational.
@@ -51,10 +59,12 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 1. When the motor is running, calibrate the data logger (refer to the data logger’s user manual for instructions and requirements for calibration).
 1. Visually confirm that the logger is recording, and that the sensor is accurately identifying whether or not the motor is running.
 
+<a href="https://www.youtube.com/watch?v=zQBLq7Wonqw">
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/motor-runtime/UX90-004-installed-on-pump-motor-casing.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.">
-  <figcaption class="figure-caption text-left">Figure 1. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.</figcaption>
 </figure>
+</a>
 
 ### 3. Verify Data is Being Collected
 
@@ -68,10 +78,12 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 1. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a csv file.
 1. Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
+<a href="https://www.youtube.com/watch?v=JkNpQ81sdcQ">
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/motor-runtime/graph-of-motor-runtime-data.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.">
-  <figcaption class="figure-caption text-left">Figure 2. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 3. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.</figcaption>
 </figure>
+</a>
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data
 
@@ -82,10 +94,12 @@ After verifying that the logger is collecting data, do the following:
 1. Use the proprietary software to Stop the logger and end data collection. 
 1. Download all data from the logger and save the file in the .csv format for analysis.
 
+<a href="https://www.youtube.com/watch?v=M_ky5lMORBk">
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/motor-runtime/Final data table.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 3. Final data table in .csv format. Data was extracted from the logger using HOBOware Free and exported for analysis.">
-  <figcaption class="figure-caption text-left">Figure 3. Final data table in .csv format. Data was extracted from the logger using HOBOware Free and exported for analysis.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 4. Final data table in .csv format. Data was extracted from the logger using HOBOware Free and exported for analysis.</figcaption>
 </figure>
+</a>
 
 ## Troubleshooting 
 
