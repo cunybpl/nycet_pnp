@@ -1,28 +1,40 @@
 var PLANTS = "plant";
 var SYSTEMS = "system";
 var COMPONENTS = "component";
+var CALCULATIONS = 'calculation'
+var MEASUREMENTS = 'measurement'
 var initialFilter = "all";
 var plantsInputSelect = document.getElementById('plants-filter');
 var systemsInputSelect = document.getElementById('systems-filter');
 var componentsInputSelect = document.getElementById('components-filter');
+var calculationsInputSelect = document.getElementById('calculations-filter');
+var measurementsInputSelect = document.getElementById('measurements-filter');
 var plantsFilter = "";
 var systemsFilter = "";
 var componentsFilter = "";
+var calculationsFilter = "";
+var measurementsFilter = "";
 var initialDisplayedPlantGuides = 6;
 var initialDisplayedSystemGuides = 6;
 var initialDisplayedComponentGuides = 6;
+var initialDisplayedCalculations = 6;
+var initialDisplayedMeasurements = 6;
 
 plantsInputSelect.addEventListener('change', function handleChange(event) {
   plantsFilter = plantsInputSelect.options[plantsInputSelect.selectedIndex].value;
   filterPlantGuides(plantsFilter);
   systemsFilter = initialFilter;
   componentsFilter = initialFilter;
+  calculationsFilter = initialFilter;
+  measurementsFilter = initialFilter;
 });
 systemsInputSelect.addEventListener('change', function handleChange(event) {
   systemsFilter = systemsInputSelect.options[systemsInputSelect.selectedIndex].value;
   filterSystemGuides(systemsFilter);
   plantsFilter = initialFilter;
   componentsFilter = initialFilter;
+  calculationsFilter = initialFilter;
+  measurementsFilter = initialFilter;
 });
 
 componentsInputSelect.addEventListener('change', function handleChange(event) {
@@ -30,12 +42,34 @@ componentsInputSelect.addEventListener('change', function handleChange(event) {
   filterComponentGuides(componentsFilter);
   plantsFilter = initialFilter;
   systemsFilter = initialFilter;
+  calculationsFilter = initialFilter;
+  measurementsFilter = initialFilter;
+});
+
+calculationsInputSelect.addEventListener('change', function handleChange(event) {
+  componentsFilter = calculationsInputSelect.options[calculationsInputSelect.selectedIndex].value;
+  filterComponentGuides(componentsFilter);
+  plantsFilter = initialFilter;
+  systemsFilter = initialFilter;
+  componentsFilter = initialFilter;
+  measurementsFilter = initialFilter;
+});
+
+measurementsInputSelect.addEventListener('change', function handleChange(event) {
+  componentsFilter = measurementsInputSelect.options[measurementsInputSelect.selectedIndex].value;
+  filterComponentGuides(componentsFilter);
+  plantsFilter = initialFilter;
+  systemsFilter = initialFilter;
+  componentsFilter = initialFilter;
+  calculationsFilter = initialFilter;
 });
 
 function resetFilterValues() {
   plantsInputSelect.value = initialFilter;
   systemsInputSelect.value = initialFilter;
   componentsInputSelect.value = initialFilter;
+  calculationsInputSelect.value = initialFilter;
+  measurementsInputSelect.value = initialFilter;
 }
 
 function filterPlantGuides(filter, searchKeyWord='') {
@@ -58,7 +92,7 @@ function filterPlantGuides(filter, searchKeyWord='') {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         } else {
-          // displaySearchResults('Plants')
+          // displaySearchResults('plants')
         }
         updateSearchResults(PLANTS, totalSearchResult)
       }
@@ -69,7 +103,7 @@ function filterPlantGuides(filter, searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('Plants')
+  displaySearchResults('plants')
 }
 
 function filterSystemGuides(filter, searchKeyWord='') {
@@ -92,7 +126,7 @@ function filterSystemGuides(filter, searchKeyWord='') {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         } else {
-          // displaySearchResults('Systems')
+          // displaySearchResults('systems')
         }
         updateSearchResults(SYSTEMS, totalSearchResult)
       }
@@ -103,7 +137,7 @@ function filterSystemGuides(filter, searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('Systems')
+  displaySearchResults('systems')
 }
 
 function filterComponentGuides(filter, searchKeyWord='') {
@@ -126,7 +160,7 @@ function filterComponentGuides(filter, searchKeyWord='') {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         } else {
-          // displaySearchResults('Components')
+          // displaySearchResults('components')
         }
         updateSearchResults(COMPONENTS, totalSearchResult)
       }
@@ -137,7 +171,75 @@ function filterComponentGuides(filter, searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('Components')
+  displaySearchResults('components')
+}
+
+function filterCalculations(filter, searchKeyWord='') {
+  let displayedCalculations = 0;
+  let totalSearchResult = 0;
+  var x, i;
+  x = document.getElementsByClassName("guide-card");
+  if (filter == "all") filter = "";
+  for (i = 0; i < x.length; i++) {
+    let htmlElementId = x[i].id;
+    let guideType = htmlElementId.split("-")[0];
+    if (guideType == CALCULATIONS) {
+      if (x[i].className.includes(filter)) displayedCalculations += 1;
+      removeClass(x[i], "show-html-element");
+      if (searchKeyWord.length > 0 && x[i].className.includes(filter)) {
+        searchKeyWord = searchKeyWord.toLowerCase()
+        const guideTitle = getGuideTitle(x[i]).toLowerCase()
+        const guideContent = getGuideContent(x[i]).toLowerCase()
+        if (guideTitle.includes(searchKeyWord) || guideContent.includes(searchKeyWord)) {
+          totalSearchResult += 1;
+          addClass(x[i], "show-html-element")
+        } else {
+          // displaySearchResults('components')
+        }
+        updateSearchResults(CALCULATIONS, totalSearchResult)
+      }
+      if (!searchKeyWord && x[i].className.includes(filter) 
+          && displayedCalculations <= initialDisplayedCalculations) {
+        addClass(x[i], "show-html-element")
+        hideSearchResults()
+      };
+    }
+  }
+  displaySearchResults('Calculation Methodologies')
+}
+
+function filterMeasurements(filter, searchKeyWord='') {
+  let displayedMeasurements = 0;
+  let totalSearchResult = 0;
+  var x, i;
+  x = document.getElementsByClassName("guide-card");
+  if (filter == "all") filter = "";
+  for (i = 0; i < x.length; i++) {
+    let htmlElementId = x[i].id;
+    let guideType = htmlElementId.split("-")[0];
+    if (guideType == MEASUREMENTS) {
+      if (x[i].className.includes(filter)) displayedMeasurements += 1;
+      removeClass(x[i], "show-html-element");
+      if (searchKeyWord.length > 0 && x[i].className.includes(filter)) {
+        searchKeyWord = searchKeyWord.toLowerCase()
+        const guideTitle = getGuideTitle(x[i]).toLowerCase()
+        const guideContent = getGuideContent(x[i]).toLowerCase()
+        if (guideTitle.includes(searchKeyWord) || guideContent.includes(searchKeyWord)) {
+          totalSearchResult += 1;
+          addClass(x[i], "show-html-element")
+        } else {
+          // displaySearchResults('components')
+        }
+        updateSearchResults(MEASUREMENTS, totalSearchResult)
+      }
+      if (!searchKeyWord && x[i].className.includes(filter) 
+          && displayedMeasurements <= initialDisplayedMeasurements) {
+        addClass(x[i], "show-html-element")
+        hideSearchResults()
+      };
+    }
+  }
+  displaySearchResults('Measurement Techniques')
 }
 
 /** 
@@ -184,6 +286,8 @@ function doSearchGuides(searchBarId) {
   filterPlantGuides(plantsFilter, searchKeyword)
   filterSystemGuides(systemsFilter, searchKeyword)
   filterComponentGuides(componentsFilter, searchKeyword)
+  filterCalculations(calculationsFilter, searchKeyword)
+  filterMeasurements(measurementsFilter, searchKeyword)
 }
 
 function getSearchKeywordValue(searchBarId) {
@@ -193,24 +297,36 @@ function getSearchKeywordValue(searchBarId) {
 }
 
 function loadMoreGuides(guideType, incrementBy=4) {
-  const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS]
+  const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS, 
+    CALCULATIONS, MEASUREMENTS]
 
   if (!expectedGuideTypes.includes(guideType)) return
 
   if (guideType == PLANTS) {
     initialDisplayedPlantGuides += incrementBy;
     filterPlantGuides(plantsFilter);
-  } else if (guideType == SYSTEMS) {
+  }
+  if (guideType == SYSTEMS) {
     initialDisplayedSystemGuides += incrementBy;
     filterSystemGuides(systemsFilter)
-  } else {
+  }
+  if (guideType == COMPONENTS) {
     initialDisplayedComponentGuides += incrementBy;
     filterComponentGuides(componentsFilter)
+  }
+  if (guideType == CALCULATIONS) {
+    initialDisplayedCalculations += incrementBy;
+    filterCalculations(calculationsFilter)
+  }
+  if (guideType == MEASUREMENTS) {
+    initialDisplayedMeasurements += incrementBy;
+    filterMeasurements(measurementsFilter)
   }
 }
 
 function updateSearchResults(guideType, value) {
-  const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS]
+  const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS, 
+    CALCULATIONS, MEASUREMENTS]
 
   if (!expectedGuideTypes.includes(guideType)) return
   const searchKeyWord = $('#guide-search-bar').val();
@@ -222,59 +338,92 @@ function updateSearchResults(guideType, value) {
     $('#total-plants-search-result').text(value)
     $('#total-plants-search-result').show()
     updateGuideHeader(PLANTS, label)
-  } else if (guideType == SYSTEMS) {
+  }
+  if (guideType == SYSTEMS) {
     const totalSystemResults = $('#total-systems-search-result').text();
     const label = `Search Results: ${totalSystemResults} Systems related to "${searchKeyWord}"`
+
     $('#total-systems-search-result').text(value)
     $('#total-systems-search-result').show()
     updateGuideHeader(SYSTEMS, label)
-  } else {
+  }
+  if (guideType == COMPONENTS) {
     const totalComponentResults = $('#total-components-search-result').text();
     const label = `Search Results: ${totalComponentResults} Components related to "${searchKeyWord}"`
+    
     $('#total-components-search-result').text(value)
     $('#total-components-search-result').show()
     updateGuideHeader(COMPONENTS, label)
   }
+  if (guideType == CALCULATIONS) {
+    const totalCalculationsResults = $('#total-calculations-search-result').text();
+    const label = `Search Results: ${totalCalculationsResults} Calculation methodologies related to "${searchKeyWord}"`
+    
+    $('#total-calculations-search-result').text(value)
+    $('#total-calculations-search-result').show()
+    updateGuideHeader(CALCULATIONS, label)
+  }
+  if (guideType == MEASUREMENTS) {
+    const totalMeasurementsResults = $('#total-measurements-search-result').text();
+    const label = `Search Results: ${totalMeasurementsResults} Measurement techniques related to "${searchKeyWord}"`
+    
+    $('#total-measurements-search-result').text(value)
+    $('#total-measurements-search-result').show()
+    updateGuideHeader(MEASUREMENTS, label)
+  }
+  
 }
 
 function hideSearchResults() {
   $('#total-plants-search-result').hide()
   $('#total-systems-search-result').hide()
   $('#total-components-search-result').hide()
+  $('#total-calculations-search-result').hide()
+  $('#total-measurements-search-result').hide()
 }
 
 function hideNoResultGuides() {
   $('#no-result-plants').hide()
   $('#no-result-systems').hide()
   $('#no-result-components').hide()
+  $('#no-result-calculations').hide()
+  $('#no-result-measurements').hide()
 }
 
 function displaySearchResults(guideType) {
-  const _PLANTS = 'Plants';
-  const _SYSTEMS = 'Systems';
-  const _COMPONENTS = 'Components';
+  console.log(guideType)
+  const _PLANTS = 'plants';
+  const _SYSTEMS = 'systems';
+  const _COMPONENTS = 'components';
+  const _CALCULATIONS = 'calculations'
+  const _MEASUREMENTS = 'measurements'
+
   if (guideType == _PLANTS) {
     if ($('#total-plants-search-result').text() == 0 && $('#guide-search-bar').val().length > 0) {
-      if ($('#Plants').attr('class').includes('active')) {
+      if ($('#plants').attr('class').includes('active')) {
         $('#textPlants').hide()
         $('#no-result-plants').show()
         $('#no-result-systems').hide()
         $('#no-result-components').hide()
+        $('#no-result-measurements').hide();
+        $('#no-result-calculations').hide();
         $('#search-keyword-plants').text($('#guide-search-bar').val())
       } else {
         $('#no-result-plants').hide();
       }
     } else if ($('#total-plants-search-result').text() > 0 && $('#guide-search-bar').val().length > 0) {
-      if ($('#Plants').attr('class').includes('active')) {
+      if ($('#plants').attr('class').includes('active')) {
         $('#textPlants').show();
         $('#no-result-systems').hide();
         $('#no-result-components').hide();
+        $('#no-result-measurements').hide();
+        $('#no-result-calculations').hide();
       }
       $('#no-result-plants').hide();
       $('#load-more-plants').hide();
     } else {
       updateGuideHeader(PLANTS, 'All Plants')
-      if ($('#Plants').attr('class').includes('active')) {
+      if ($('#plants').attr('class').includes('active')) {
         $('#textPlants').show()
         $('#load-more-plants').show()
       }
@@ -283,25 +432,29 @@ function displaySearchResults(guideType) {
   }
   if (guideType == _SYSTEMS) {
     if ($('#total-systems-search-result').text() == 0 && $('#guide-search-bar').val().length > 0) {
-      if ($('#Systems').attr('class').includes('active')) {
+      if ($('#systems').attr('class').includes('active')) {
         $('#textSystems').hide()
         $('#no-result-systems').show()
         $('#no-result-plants').hide()
         $('#no-result-components').hide()
+        $('#no-result-measurements').hide();
+        $('#no-result-calculations').hide();
         $('#search-keyword-systems').text($('#guide-search-bar').val())
       } else {
         $('#no-result-systems').hide();
       }
     } else if ($('#total-systems-search-result').text() > 0 && $('#guide-search-bar').val().length > 0) {
-      if ($('#Systems').attr('class').includes('active')) {
+      if ($('#systems').attr('class').includes('active')) {
         $('#textSystems').show();
         $('#no-result-plants').hide();
         $('#no-result-components').hide();
+        $('#no-result-measurements').hide();
+        $('#no-result-calculations').hide();
       }
       $('#no-result-systems').hide();
     } else {
       updateGuideHeader(SYSTEMS, 'All Systems')
-      if ($('#Systems').attr('class').includes('active')) {
+      if ($('#systems').attr('class').includes('active')) {
         $('#textSystems').show()
         $('#load-more-systems').show()
       }
@@ -310,30 +463,99 @@ function displaySearchResults(guideType) {
   }
   if (guideType == _COMPONENTS) {
     if ($('#total-components-search-result').text() == 0 && $('#guide-search-bar').val().length > 0) {
-      if ($('#Components').attr('class').includes('active')) {
+      if ($('#components').attr('class').includes('active')) {
         $('#textComponents').hide()
         $('#no-result-components').show()
         $('#no-result-plants').hide()
         $('#no-result-systems').hide()
+        $('#no-result-measurements').hide();
+        $('#no-result-calculations').hide();
         $('#search-keyword-components').text($('#guide-search-bar').val())
       }
       else {
         $('#no-result-components').hide();
       }
     } else if ($('#total-components-search-result').text() > 0 && $('#guide-search-bar').val().length > 0) {
-      if ($('#Components').attr('class').includes('active')) {
+      if ($('#components').attr('class').includes('active')) {
         $('#textComponents').show();
         $('#no-result-plants').hide();
         $('#no-result-systems').hide();
+        $('#no-result-measurements').hide();
+        $('#no-result-calculations').hide();
       }
       $('#no-result-components').hide();
     } else {
       updateGuideHeader(COMPONENTS, 'All Components')
-      if ($('#Components').attr('class').includes('active')) {
+      if ($('#components').attr('class').includes('active')) {
         $('#textComponents').show()
         $('#load-more-components').show()
       }
       $('#no-result-components').hide()
+    }
+  }
+  if (guideType == _CALCULATIONS) {
+    if ($('#total-calculations-search-result').text() == 0 && $('#guide-search-bar').val().length > 0) {
+      if ($('#calculations').attr('class').includes('active')) {
+        $('#textCalculations').hide()
+        $('#no-result-calculations').show()
+        $('#no-result-plants').hide()
+        $('#no-result-systems').hide()
+        $('#no-result-components').hide()
+        $('#no-result-measurements').hide();
+        $('#search-keyword-calculations').text($('#guide-search-bar').val())
+      }
+      else {
+        $('#no-result-calculations').hide();
+      }
+    } else if ($('#total-calculations-search-result').text() > 0 && $('#guide-search-bar').val().length > 0) {
+      if ($('#calculations').attr('class').includes('active')) {
+        $('#textCalculations').show();
+        $('#no-result-plants').hide();
+        $('#no-result-systems').hide();
+        $('#no-result-components').hide();
+        $('#no-result-measurements').hide();
+      }
+      $('#no-result-calculations').hide();
+    } else {
+      updateGuideHeader(CALCULATIONS, 'All Calculation Methodologies')
+      if ($('#calculations').attr('class').includes('active')) {
+        $('#textCalculations').show()
+        $('#load-more-calculations').show()
+      }
+      $('#no-result-calculations').hide()
+    }
+  }
+  if (guideType == _MEASUREMENTS) {
+    // measurements
+    if ($('#total-measurements-search-result').text() == 0 && $('#guide-search-bar').val().length > 0) {
+      if ($('#measurements').attr('class').includes('active')) {
+        $('#textMeasurements').hide()
+        $('#no-result-measurements').show()
+        $('#no-result-plants').hide()
+        $('#no-result-systems').hide()
+        $('#no-result-components').hide()
+        $('#no-result-calculations').hide();
+        $('#search-keyword-measurements').text($('#guide-search-bar').val())
+      }
+      else {
+        $('#no-result-measurements').hide();
+      }
+    } else if ($('#total-measurements-search-result').text() > 0 && $('#guide-search-bar').val().length > 0) {
+      if ($('#measurements').attr('class').includes('active')) {
+        $('#textMeasurements').show();
+        $('#no-result-plants').hide();
+        $('#no-result-systems').hide();
+        $('#no-result-components').hide();
+        $('#no-result-calculations').hide();
+      }
+      $('#no-result-measurements').hide();
+    } else {
+      updateGuideHeader(CALCULATIONS, 'All Calculation Methodologies')
+      if ($('#measurements').attr('class').includes('active')) {
+        $('#textMeasurements').show()
+        $('#load-more-measurements').show()
+      }
+      $('#no-result-measurements').hide()
     }
   }
 }
@@ -354,6 +576,6 @@ function updateGuideHeader(guideType, label) {
   }
 }
 
-$('.open-popup-link').magnificPopup({
-  type:'image'
-});
+// $('.open-popup-link').magnificPopup({
+//   type:'image'
+// });

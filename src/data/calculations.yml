@@ -1,0 +1,8 @@
+enable: true
+documents:
+  - type: calculation
+    title: "Cooling Tower Fans Energy Consumption"
+    measurement_type: "water-side, cooling"
+  - type: calculation
+    title: "Liquid-to-liquid Heat Exchanger"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"

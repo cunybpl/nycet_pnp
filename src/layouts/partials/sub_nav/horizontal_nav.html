@@ -30,8 +30,8 @@
           <!-- <div class="mr-2">
             <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
           </div> -->
-          <span>{{ $element.name }}</span>
-          <div id="total-{{ $element.name | lower }}-search-result" class="search-result-label ml-3">0</div>
+          <span>{{ $element.label }}</span>
+          <div id="total-{{ $element.name }}-search-result" class="search-result-label ml-3">0</div>
         </button>
       </div>
      {{ end }}
@@ -57,7 +57,7 @@
     evt.currentTarget.className += " active";
     displaySearchResults(evt.currentTarget.id)
   }
-  document.getElementById("Plants").click();
+  document.getElementById("plants").click();
 </script>
 {{ end }}
 

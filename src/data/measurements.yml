@@ -1,0 +1,11 @@
+enable: true
+documents:
+  - type: measurement
+    title: "Electrical Energy"
+    measurement_type: "water-side, cooling"
+  - type: measurement
+    title: "Motor Runtime"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+  - type: measurement
+    title: "Water Flow Rate"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
