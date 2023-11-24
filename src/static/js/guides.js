@@ -332,40 +332,35 @@ function updateSearchResults(guideType, value) {
   const searchKeyWord = $('#guide-search-bar').val();
 
   if (guideType == PLANTS) {
-    const totalPlantResults = $('#total-plants-search-result').text();
-    const label = `Search Results: ${totalPlantResults} Plants related to "${searchKeyWord}"`
+    const label = `Search Results: ${value} Plants related to "${searchKeyWord}"`
 
     $('#total-plants-search-result').text(value)
     $('#total-plants-search-result').show()
     updateGuideHeader(PLANTS, label)
   }
   if (guideType == SYSTEMS) {
-    const totalSystemResults = $('#total-systems-search-result').text();
-    const label = `Search Results: ${totalSystemResults} Systems related to "${searchKeyWord}"`
+    const label = `Search Results: ${value} Systems related to "${searchKeyWord}"`
 
     $('#total-systems-search-result').text(value)
     $('#total-systems-search-result').show()
     updateGuideHeader(SYSTEMS, label)
   }
   if (guideType == COMPONENTS) {
-    const totalComponentResults = $('#total-components-search-result').text();
-    const label = `Search Results: ${totalComponentResults} Components related to "${searchKeyWord}"`
+    const label = `Search Results: ${value} Components related to "${searchKeyWord}"`
     
     $('#total-components-search-result').text(value)
     $('#total-components-search-result').show()
     updateGuideHeader(COMPONENTS, label)
   }
   if (guideType == CALCULATIONS) {
-    const totalCalculationsResults = $('#total-calculations-search-result').text();
-    const label = `Search Results: ${totalCalculationsResults} Calculation methodologies related to "${searchKeyWord}"`
+    const label = `Search Results: ${value} Calculation methodologies related to "${searchKeyWord}"`
     
     $('#total-calculations-search-result').text(value)
     $('#total-calculations-search-result').show()
     updateGuideHeader(CALCULATIONS, label)
   }
   if (guideType == MEASUREMENTS) {
-    const totalMeasurementsResults = $('#total-measurements-search-result').text();
-    const label = `Search Results: ${totalMeasurementsResults} Measurement techniques related to "${searchKeyWord}"`
+    const label = `Search Results: ${value} Measurement techniques related to "${searchKeyWord}"`
     
     $('#total-measurements-search-result').text(value)
     $('#total-measurements-search-result').show()
@@ -391,7 +386,6 @@ function hideNoResultGuides() {
 }
 
 function displaySearchResults(guideType) {
-  console.log(guideType)
   const _PLANTS = 'plants';
   const _SYSTEMS = 'systems';
   const _COMPONENTS = 'components';
@@ -561,7 +555,7 @@ function displaySearchResults(guideType) {
 }
 
 function updateGuideHeader(guideType, label) {
-  const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS];
+  const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS, CALCULATIONS, MEASUREMENTS];
 
   if (!expectedGuideTypes.includes(guideType)) return;
 
@@ -569,13 +563,25 @@ function updateGuideHeader(guideType, label) {
 
   if (guideType == PLANTS) {
     $('#guide-header-plants').text(label);
-  } else if (guideType == SYSTEMS) {
+  }
+
+  if (guideType == SYSTEMS) {
     $('#guide-header-systems').text(label);
-  } else {
+  }
+
+  if (guideType == COMPONENTS) {
     $('#guide-header-components').text(label);
+  }
+
+  if (guideType == CALCULATIONS) {
+    $('#guide-header-calculations').text(label);
+  }
+
+  if (guideType == MEASUREMENTS) {
+    $('#guide-header-measurements').text(label);
   }
 }
 
-// $('.open-popup-link').magnificPopup({
-//   type:'image'
-// });
+$('.open-popup-link').magnificPopup({
+  type:'image'
+});
