@@ -9,3 +9,9 @@ contents:
   - enable: true
     active: false
     name: Components
+  - enable: true
+    active: false
+    name: Calculation Methodologies
+  - enable: true
+    active: false
+    name: Measurement Techniques
