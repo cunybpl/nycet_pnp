@@ -3,100 +3,42 @@ var SYSTEMS = "system";
 var COMPONENTS = "component";
 var CALCULATIONS = 'calculation'
 var MEASUREMENTS = 'measurement'
-var initialFilter = "all";
-var plantsInputSelect = document.getElementById('plants-filter');
-var systemsInputSelect = document.getElementById('systems-filter');
-var componentsInputSelect = document.getElementById('components-filter');
-var calculationsInputSelect = document.getElementById('calculations-filter');
-var measurementsInputSelect = document.getElementById('measurements-filter');
-var plantsFilter = "";
-var systemsFilter = "";
-var componentsFilter = "";
-var calculationsFilter = "";
-var measurementsFilter = "";
 var initialDisplayedPlantGuides = 6;
 var initialDisplayedSystemGuides = 6;
 var initialDisplayedComponentGuides = 6;
 var initialDisplayedCalculations = 6;
 var initialDisplayedMeasurements = 6;
 
-plantsInputSelect.addEventListener('change', function handleChange(event) {
-  plantsFilter = plantsInputSelect.options[plantsInputSelect.selectedIndex].value;
-  filterPlantGuides(plantsFilter);
-  systemsFilter = initialFilter;
-  componentsFilter = initialFilter;
-  calculationsFilter = initialFilter;
-  measurementsFilter = initialFilter;
-});
-systemsInputSelect.addEventListener('change', function handleChange(event) {
-  systemsFilter = systemsInputSelect.options[systemsInputSelect.selectedIndex].value;
-  filterSystemGuides(systemsFilter);
-  plantsFilter = initialFilter;
-  componentsFilter = initialFilter;
-  calculationsFilter = initialFilter;
-  measurementsFilter = initialFilter;
-});
-
-componentsInputSelect.addEventListener('change', function handleChange(event) {
-  componentsFilter = componentsInputSelect.options[componentsInputSelect.selectedIndex].value;
-  filterComponentGuides(componentsFilter);
-  plantsFilter = initialFilter;
-  systemsFilter = initialFilter;
-  calculationsFilter = initialFilter;
-  measurementsFilter = initialFilter;
-});
-
-calculationsInputSelect.addEventListener('change', function handleChange(event) {
-  componentsFilter = calculationsInputSelect.options[calculationsInputSelect.selectedIndex].value;
-  filterComponentGuides(componentsFilter);
-  plantsFilter = initialFilter;
-  systemsFilter = initialFilter;
-  componentsFilter = initialFilter;
-  measurementsFilter = initialFilter;
-});
-
-measurementsInputSelect.addEventListener('change', function handleChange(event) {
-  componentsFilter = measurementsInputSelect.options[measurementsInputSelect.selectedIndex].value;
-  filterComponentGuides(componentsFilter);
-  plantsFilter = initialFilter;
-  systemsFilter = initialFilter;
-  componentsFilter = initialFilter;
-  calculationsFilter = initialFilter;
-});
-
-function resetFilterValues() {
-  plantsInputSelect.value = initialFilter;
-  systemsInputSelect.value = initialFilter;
-  componentsInputSelect.value = initialFilter;
-  calculationsInputSelect.value = initialFilter;
-  measurementsInputSelect.value = initialFilter;
-}
-
-function filterPlantGuides(filter, searchKeyWord='') {
+function filterPlantGuides(searchKeyWord='') {
   let displayedPlantGuides = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
-  if (filter == "all") filter = "";
+
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
+    const measurementType = getMeasurementTypes(x[i].classList);
+
     if (guideType == PLANTS) {
-      if (x[i].className.includes(filter)) displayedPlantGuides += 1;
+      if (measurementType.includes(searchKeyWord)) displayedPlantGuides += 1;
+
       removeClass(x[i], "show-html-element");
-      if (searchKeyWord.length > 0 && x[i].className.includes(filter)) {
+
+      if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
         const guideTitle = getGuideTitle(x[i]).toLowerCase()
         const guideContent = getGuideContent(x[i]).toLowerCase()
-        if (guideTitle.includes(searchKeyWord) || guideContent.includes(searchKeyWord)) {
+        
+        if (guideTitle.includes(searchKeyWord) 
+            || guideContent.includes(searchKeyWord) 
+            || measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
-        } else {
-          // displaySearchResults('plants')
         }
         updateSearchResults(PLANTS, totalSearchResult)
       }
-      if (!searchKeyWord && x[i].className.includes(filter) 
+      if (!searchKeyWord 
           && displayedPlantGuides <= initialDisplayedPlantGuides) {
         addClass(x[i], "show-html-element")
         hideSearchResults()
@@ -106,31 +48,37 @@ function filterPlantGuides(filter, searchKeyWord='') {
   displaySearchResults('plants')
 }
 
-function filterSystemGuides(filter, searchKeyWord='') {
+function filterSystemGuides(searchKeyWord='') {
   let displayedSystemGuides = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
-  if (filter == "all") filter = "";
+
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
+    const measurementType = getMeasurementTypes(x[i].classList);
+
     if (guideType == SYSTEMS) {
-      if (x[i].className.includes(filter)) displayedSystemGuides += 1;
+      if (measurementType.includes(searchKeyWord)) displayedSystemGuides += 1;
+
       removeClass(x[i], "show-html-element");
-      if (searchKeyWord.length > 0 && x[i].className.includes(filter)) {
+
+      if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
         const guideTitle = getGuideTitle(x[i]).toLowerCase()
         const guideContent = getGuideContent(x[i]).toLowerCase()
-        if (guideTitle.includes(searchKeyWord) || guideContent.includes(searchKeyWord)) {
+
+        if (guideTitle.includes(searchKeyWord) 
+            || guideContent.includes(searchKeyWord) 
+            || measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
-        } else {
-          // displaySearchResults('systems')
         }
+
         updateSearchResults(SYSTEMS, totalSearchResult)
       }
-      if (!searchKeyWord && x[i].className.includes(filter) 
+      if (!searchKeyWord 
           && displayedSystemGuides <= initialDisplayedSystemGuides) {
         addClass(x[i], "show-html-element")
         hideSearchResults()
@@ -140,31 +88,37 @@ function filterSystemGuides(filter, searchKeyWord='') {
   displaySearchResults('systems')
 }
 
-function filterComponentGuides(filter, searchKeyWord='') {
+function filterComponentGuides(searchKeyWord='') {
   let displayedComponentGuides = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
-  if (filter == "all") filter = "";
+
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
+    const measurementType = getMeasurementTypes(x[i].classList);
+
     if (guideType == COMPONENTS) {
-      if (x[i].className.includes(filter)) displayedComponentGuides += 1;
+      if (measurementType.includes(searchKeyWord)) displayedComponentGuides += 1;
+
       removeClass(x[i], "show-html-element");
-      if (searchKeyWord.length > 0 && x[i].className.includes(filter)) {
+      
+      if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
         const guideTitle = getGuideTitle(x[i]).toLowerCase()
         const guideContent = getGuideContent(x[i]).toLowerCase()
-        if (guideTitle.includes(searchKeyWord) || guideContent.includes(searchKeyWord)) {
+
+        if (guideTitle.includes(searchKeyWord) 
+            || guideContent.includes(searchKeyWord) 
+            || measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
-        } else {
-          // displaySearchResults('components')
         }
+
         updateSearchResults(COMPONENTS, totalSearchResult)
       }
-      if (!searchKeyWord && x[i].className.includes(filter) 
+      if (!searchKeyWord 
           && displayedComponentGuides <= initialDisplayedComponentGuides) {
         addClass(x[i], "show-html-element")
         hideSearchResults()
@@ -174,31 +128,37 @@ function filterComponentGuides(filter, searchKeyWord='') {
   displaySearchResults('components')
 }
 
-function filterCalculations(filter, searchKeyWord='') {
+function filterCalculations(searchKeyWord='') {
   let displayedCalculations = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
-  if (filter == "all") filter = "";
+
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
+    const measurementType = getMeasurementTypes(x[i].classList);
+
     if (guideType == CALCULATIONS) {
-      if (x[i].className.includes(filter)) displayedCalculations += 1;
+      if (measurementType.includes(searchKeyWord)) displayedCalculations += 1;
+
       removeClass(x[i], "show-html-element");
-      if (searchKeyWord.length > 0 && x[i].className.includes(filter)) {
+
+      if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
         const guideTitle = getGuideTitle(x[i]).toLowerCase()
         const guideContent = getGuideContent(x[i]).toLowerCase()
-        if (guideTitle.includes(searchKeyWord) || guideContent.includes(searchKeyWord)) {
+
+        if (guideTitle.includes(searchKeyWord) 
+            || guideContent.includes(searchKeyWord) 
+            || measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
-        } else {
-          // displaySearchResults('components')
         }
+
         updateSearchResults(CALCULATIONS, totalSearchResult)
       }
-      if (!searchKeyWord && x[i].className.includes(filter) 
+      if (!searchKeyWord  
           && displayedCalculations <= initialDisplayedCalculations) {
         addClass(x[i], "show-html-element")
         hideSearchResults()
@@ -208,31 +168,36 @@ function filterCalculations(filter, searchKeyWord='') {
   displaySearchResults('Calculation Methodologies')
 }
 
-function filterMeasurements(filter, searchKeyWord='') {
+function filterMeasurements(searchKeyWord='') {
   let displayedMeasurements = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
-  if (filter == "all") filter = "";
+
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
+    const measurementType = getMeasurementTypes(x[i].classList);
+
     if (guideType == MEASUREMENTS) {
-      if (x[i].className.includes(filter)) displayedMeasurements += 1;
+      if (measurementType.includes(searchKeyWord)) displayedMeasurements += 1;
+
       removeClass(x[i], "show-html-element");
-      if (searchKeyWord.length > 0 && x[i].className.includes(filter)) {
+
+      if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
         const guideTitle = getGuideTitle(x[i]).toLowerCase()
         const guideContent = getGuideContent(x[i]).toLowerCase()
-        if (guideTitle.includes(searchKeyWord) || guideContent.includes(searchKeyWord)) {
+
+        if (guideTitle.includes(searchKeyWord) 
+            || guideContent.includes(searchKeyWord) 
+            || measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
-        } else {
-          // displaySearchResults('components')
         }
         updateSearchResults(MEASUREMENTS, totalSearchResult)
       }
-      if (!searchKeyWord && x[i].className.includes(filter) 
+      if (!searchKeyWord 
           && displayedMeasurements <= initialDisplayedMeasurements) {
         addClass(x[i], "show-html-element")
         hideSearchResults()
@@ -260,6 +225,17 @@ function getGuideContent(parentHtmlElement) {
   return guideContent
 }
 
+function getMeasurementTypes(classList) {
+  arr = [...classList]
+  arr = arr.filter((element) => {
+    return element != "col-md-12" && element != "col-lg-6" && element != "guide-card" 
+  })
+  arr = arr.map(element => {
+    return element.replace(",", "")
+  });
+  return arr
+}
+
 function addClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -283,11 +259,11 @@ function removeClass(element, name) {
 
 function doSearchGuides(searchBarId) {
   let searchKeyword = getSearchKeywordValue(searchBarId)
-  filterPlantGuides(plantsFilter, searchKeyword)
-  filterSystemGuides(systemsFilter, searchKeyword)
-  filterComponentGuides(componentsFilter, searchKeyword)
-  filterCalculations(calculationsFilter, searchKeyword)
-  filterMeasurements(measurementsFilter, searchKeyword)
+  filterPlantGuides(searchKeyword)
+  filterSystemGuides(searchKeyword)
+  filterComponentGuides(searchKeyword)
+  filterCalculations(searchKeyword)
+  filterMeasurements(searchKeyword)
 }
 
 function getSearchKeywordValue(searchBarId) {
@@ -304,23 +280,23 @@ function loadMoreGuides(guideType, incrementBy=4) {
 
   if (guideType == PLANTS) {
     initialDisplayedPlantGuides += incrementBy;
-    filterPlantGuides(plantsFilter);
+    filterPlantGuides();
   }
   if (guideType == SYSTEMS) {
     initialDisplayedSystemGuides += incrementBy;
-    filterSystemGuides(systemsFilter)
+    filterSystemGuides()
   }
   if (guideType == COMPONENTS) {
     initialDisplayedComponentGuides += incrementBy;
-    filterComponentGuides(componentsFilter)
+    filterComponentGuides()
   }
   if (guideType == CALCULATIONS) {
     initialDisplayedCalculations += incrementBy;
-    filterCalculations(calculationsFilter)
+    filterCalculations()
   }
   if (guideType == MEASUREMENTS) {
     initialDisplayedMeasurements += incrementBy;
-    filterMeasurements(measurementsFilter)
+    filterMeasurements()
   }
 }
 

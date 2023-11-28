@@ -7,14 +7,6 @@
         All Plants
       </h2>
     </div>
-    <div class="filter-guides-container">
-      <label for="measurement-type-plants">Filter</label>
-      <select class="" name="measurement-type-plants" id="plants-filter">
-        {{ range .filters }}
-          <option value="{{ .value }}">{{ .label }}</option>
-        {{ end }}
-      </select>
-    </div>
   </div>
   <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
     {{ range .guides.plants.documents }}
@@ -49,14 +41,6 @@
       <h2 id="guide-header-systems">
         All Systems
       </h2>
-    </div>
-    <div class="filter-guides-container">
-      <label for="measurement-type-systems">Filter</label>
-      <select class="filter-guides-container-select-input" name="measurement-type-systems" id="systems-filter">
-        {{ range .filters }}
-          <option value="{{ .value }}">{{ .label }}</option>
-        {{ end }}
-      </select>
     </div>
   </div>
   <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
@@ -93,14 +77,6 @@
         All Components
       </h2>
     </div>
-    <div class="filter-guides-container">
-      <label for="measurement-type-components">Filter</label>
-      <select class="filter-guides-container-select-input" name="measurement-type-components" id="components-filter">
-        {{ range .filters }}
-          <option value="{{ .value }}">{{ .label }}</option>
-        {{ end }}
-      </select>
-    </div>
   </div>
   <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
     {{ range .guides.components.documents }}
@@ -135,14 +111,6 @@
       <h2 id="guide-header-calculations">
         All Calculation Methodologies
       </h2>
-    </div>
-    <div class="filter-guides-container">
-      <label for="measurement-type-calculations">Filter</label>
-      <select class="filter-guides-container-select-input" name="measurement-type-calculations" id="calculations-filter">
-        {{ range .filters }}
-          <option value="{{ .value }}">{{ .label }}</option>
-        {{ end }}
-      </select>
     </div>
   </div>
   <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
@@ -179,14 +147,6 @@
         All Measurement Techniques
       </h2>
     </div>
-    <div class="filter-guides-container">
-      <label for="measurement-type-measurements">Filter</label>
-      <select class="filter-guides-container-select-input" name="measurement-type-measurements" id="measurements-filter">
-        {{ range .filters }}
-          <option value="{{ .value }}">{{ .label }}</option>
-        {{ end }}
-      </select>
-    </div>
   </div>
   <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
     {{ range .guides.measurements.documents }}
@@ -217,10 +177,9 @@
 
 <script src="/js/guides.js"></script>
 <script>
-  resetFilterValues();
-  filterPlantGuides(initialFilter);
-  filterSystemGuides(initialFilter);
-  filterComponentGuides(initialFilter);
-  filterCalculations(initialFilter);
-  filterMeasurements(initialFilter);
+  filterPlantGuides();
+  filterSystemGuides();
+  filterComponentGuides();
+  filterCalculations();
+  filterMeasurements();
 </script>
