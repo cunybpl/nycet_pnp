@@ -208,3 +208,5 @@ Trane (2010). CDS-PRM001-EN. TRACE 700 User’s Manual-Building Energy and Econo
 Taylor, S (2014). “How to Design & Control Waterside Economizers,” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp. 30-36.
 
 Trane (2016). “Waterside Economizers - Keeping the ‘Free’ In Free-Cooling.” Engineers Newsletter, Vol. 45-2. Also available at https://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/waterside-design/ADM-APN058-EN_06012016.pdf; accessed February 4, 2021.
+
+{{< downloadable_file file_id=1 title="Downloadable Header 1" excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo." redirect_to="Chilled Water Loop" >}}
