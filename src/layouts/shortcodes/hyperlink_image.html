@@ -1,0 +1,14 @@
+<div>
+  {{ $img_url := .Get "img_url" }}
+  {{ $img_caption := .Get "img_caption" }}
+  {{ $hyperlink := .Get "hyperlink" }}
+  <figure class="figure mb-4 mt-3">
+    <a href="{{ $hyperlink }}" target="_blank">
+      <img 
+        src="{{ $img_url }}" 
+        class="figure-img img-fluid rounded" 
+        alt="{{ $img_caption }}" >
+    </a>
+    <figcaption class="figure-caption text-left">{{ $img_caption }}</figcaption>
+  </figure>
+</div>
