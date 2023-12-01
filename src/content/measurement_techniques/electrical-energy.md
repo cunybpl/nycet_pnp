@@ -3,7 +3,7 @@ title: Electrical Energy
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 3
-excerpt: This technique uses a data logger to take long- term measurements of the electrical energy (kWh) and power draw (kW) of a system or component at one- hour intervals.
+excerpt: This technique uses a data logger to take long- term measurements of the electrical energy (kWh) and power draw (kW) of a system or component at one- hour intervals
 related_systems:
   //Ask Orlando
 related_components:
@@ -26,7 +26,7 @@ Electrical energy measurements are direct measurements of energy, and the obtain
 This methodology can also be used as a proxy measurement of operational hours of the system or component. Daily or weekly models can be developed to better characterize the equipment. 
 
 ### Equipment
-The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current. Refer to the [FELL catalog] (https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger/) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off of the [Dent EliteProXC] (https://nycenergytools.com/equipment/energy-logger-2/) power data logger, which can be found and borrowed through FELL. 
+The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current. Refer to the [FELL catalog] (https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger/) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off of the [Dent EliteProXC] (https://nycenergytools.com/equipment/energy-logger-2/) power data logger, which can be found and borrowed through FELL.
 
 The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips). 
 
