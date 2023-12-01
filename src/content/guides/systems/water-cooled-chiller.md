@@ -3,6 +3,7 @@ title: Water-Cooled Chiller
 type: system
 excerpt: Produces chilled water through the basic refrigeration cycle and consists of an evaporator, a compressor, a condenser, and an expansion valve. The system can be constant-speed or variable-speed.
 thumbnail_image: "images/systems/water-cooled-chiller/Chiller-Angled-View-1.jpg"
+system_id: 2
 associated_systems:
   - Condenser Water Pump and Motor
   - Liquid-to-Liquid Heat Exchanger

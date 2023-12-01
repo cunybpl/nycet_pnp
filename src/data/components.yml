@@ -6,3 +6,9 @@ documents:
   - type: component
     title: "Liquid-to-Liquid Heat Exchanger"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+  - type: component
+    title: "Constant-Speed, Constant-Volume Fan and Motor"
+    measurement_type: "cooling"
+  - type: component
+    title: "Variable-Speed Fan and Motor"
+    measurement_type: "cooling"
