@@ -3,6 +3,9 @@ documents:
   - type: plant
     title: "Water-Cooled Chilled Water Plant"
     measurement_type: "water-side, cooling"
+  - type: plant
+    title: "Hot-Water Heating Plant"
+    measurement_type: "water"
 
 
 
