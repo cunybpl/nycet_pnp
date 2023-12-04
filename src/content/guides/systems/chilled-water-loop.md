@@ -154,6 +154,8 @@ The measurement locations for a primary-flow and a primary-secondary flow are sh
 </figure>
 </a>
 
+{{< image_hotspot url="/images/systems/chilled-water-loop/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" width="50" height="50" coordinates="5-6_7-8_Sample label 1;9-10_3-4_Sample label 2" >}}
+
 ## References
 
 ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 43. SUPERVISORY CONTROL STRATEGIES AND OPTIMIZATION. I-P Edition.
