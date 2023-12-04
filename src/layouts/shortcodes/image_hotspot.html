@@ -1,0 +1,149 @@
+<section>
+  <div class="imageMap__container">
+    <img src="https://cdn.dribbble.com/users/1167886/screenshots/6711711/__3.jpg" alt="work by sweetie on dribbble">
+    {{ $test := split .Params.coordinates ";" }}
+    {{ range $test }}
+      {{ $x := split . "_" }}
+      {{ index $x 0 }}
+      <div class="markers test-grid-col-{{ index $x 0 }} test-grid-row-{{ index $x 1 }}" tabindex="0">
+        <div class="marker__card">
+            <p class="marker__card__title">
+              Cake
+            </p>
+            <p>{{ index $x 2 }}</p>
+          </div>
+      </div>
+    {{ end }}
+  </div>
+  
+  
+</section>
+
+<style>
+.test-grid-col-5-6 {
+  grid-column: 5/6 !important;
+}
+.test-grid-col-9-10 {
+  grid-column: 9/10 !important;
+}
+
+.test-grid-row-3-4 {
+  grid-column: 3/4 !important;
+}
+.test-grid-row-7-8 {
+  grid-column: 7/8 !important;
+}
+.imageMap__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+	grid-template-rows: repeat(11, 1fr);
+  position: relative;
+  margin-top: 5rem;
+}
+.imageMap__container img {
+  width: 100%;
+  height: auto;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.markers {
+    background: rgba(255,255,255,.7);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: rgba(255,255,255,.5);
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+    animation: ownpulse 3s cubic-bezier(.19,1,.22,1) infinite both;
+  position: relative;
+}
+.markers:focus-within .marker__card, .markers:focus .marker__card {
+	display: block;
+}
+
+.marker__card {
+	background-color: #fefefe;
+	padding: 1.5rem;
+	display: none;
+	margin-top: -5%;
+	min-height: 100px;
+	position: absolute;
+  bottom: 32px;
+  right: 100px;
+	width: 30%;
+	z-index: 100;
+	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+	min-width: 220px;
+	max-width: 300px;
+	animation: fadeInUp;
+	animation-duration: .5s;
+	animation-fill-mode: both;
+}
+
+.marker__card__title {
+  font: 31px/1.2 'Georgia', serif;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/* animations */
+@keyframes ownpulse {
+	0% {
+	    -webkit-box-shadow: 0 0 0 0 #fff;
+	    box-shadow: 0 0 0 0 #fff;
+	}
+	50% {
+	    -webkit-box-shadow: 0 0 0 40px rgba(92,112,214,0);
+	    box-shadow: 0 0 0 40px rgba(92,112,214,0);
+	}
+	0% {
+	    -webkit-box-shadow: 0 0 0 0 #fff;
+	    box-shadow: 0 0 0 0 #fff;
+	}
+	50% {
+	    -webkit-box-shadow: 0 0 0 40px rgba(92,112,214,0);
+	    box-shadow: 0 0 0 40px rgba(92,112,214,0);
+	}
+}
+@keyframes zoomIn {
+	0% {
+		opacity: 0;
+		transform: scale3d(.3,.3,.3);
+		-webkit-transform: scale3d(.3,.3,.3);
+	}
+	50% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInUp {
+	0% {
+    opacity: 0;
+	transform: scale3d(.3,.3,.3) translate3d(0,100%,0);
+	-webkit-transform: scale3d(.3,.3,.3);
+    -webkit-transform: translate3d(0,100%,0);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: scale3d(.3,.3,.3) translate3d(0,100%,0);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+}
+</style>
