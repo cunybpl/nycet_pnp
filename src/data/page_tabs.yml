@@ -1,0 +1,44 @@
+tabs:
+  - name: plant
+    tabs:
+      - name: measurement-guides
+        label: Guide
+        icon: images/hero/guide-icon.png
+      - name: related-systems
+        label: Related Systems
+        icon: images/hero/system-icon.png
+  - name: system
+    tabs:
+      - name: measurement-guides
+        label: Guide
+        icon: images/hero/guide-icon.png
+      - name: related-components
+        label: Related Components
+        icon: images/hero/component-icon.png
+      - name: borrow-equipment
+        label: Borrow Equipments
+        icon: images/hero/electric-plant-icon-white.png
+  - name: component
+    tabs:
+      - name: measurement-guides
+        label: Guide
+        icon: images/hero/guide-icon.png
+      - name: related-systems
+        label: Related Systems
+        icon: images/hero/system-icon.png
+      - name: borrow-equipment
+        label: Borrow Equipment
+        icon: images/hero/electric-plant-icon-white.png
+  - name: calculation
+    tabs:
+      - name: related-mt
+        label: Related Methodologies
+        icon: images/hero/guide-icon.png
+      - name: borrow-equipment
+        label: Borrow Equipment
+        icon: images/hero/electric-plant-icon-white.png
+  - name: measurement
+    tabs:
+      - name: related-cm
+        label: Related Calculation Methodologies
+        icon: images/hero/guide-icon.png

@@ -1,3 +1,4 @@
+{{ $page_type := .Params.type }}
 <section class="bg-primary text-light">
   <div class="guide-header container-lg px-lg-0 px-sm-5">
     <div class="guide-header-title w-100 py-4">
@@ -9,17 +10,23 @@
       </div>
     </div>
     <div class="guide-header-tab-items">
-      <button 
-        id="tab-item-measurement-guides" 
-        class="header-tab-item" 
-        onclick="displayGuideContent(event)"
-      >
-        <div>
-          <img src="{{ "images/hero/guide-icon.png" | absURL }}" class="img-fluid">
-        </div>
-        Guide
-      </button>
-      {{ if isset .Params "related_systems" }}
+      {{ range .Site.Data.page_tabs.tabs }}
+        {{ if eq .name $page_type }}
+          {{ range .tabs }}
+            <button 
+              id="tab-item-{{ .name }}" 
+              class="header-tab-item" 
+              onclick="displayGuideContent(event)"
+            >
+              <div>
+                <img src="{{ .icon | absURL }}" class="img-fluid">
+              </div>
+              {{ .label }}
+            </button>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      <!-- {{ if isset .Params "related_systems" }}
       <button 
         id="tab-item-related-systems" 
         class="header-tab-item"
@@ -52,20 +59,23 @@
         </div>
         Borrow Equipment
       </button>
-      {{ end }}
+      {{ end }} -->
     </div>
   </div>
 </section>
 <script>
   const measurementGuideTabItemID = 'tab-item-measurement-guides';
   const relatedSystemTabItemID = 'tab-item-related-systems';
+  const relatedComponentsTabItemID = 'tab-item-related-components';
   const borrowEquipmentTabItemID = 'tab-item-borrow-equipments';
 
   function displayGuideContent(evt) {
     var activeTabItemID = evt.currentTarget.id;
+    console.log(activeTabItemID)
     const expectedTabItemIDs = [
       measurementGuideTabItemID, 
       relatedSystemTabItemID, 
+      relatedComponentsTabItemID,
       borrowEquipmentTabItemID
     ]
     if (!expectedTabItemIDs.includes(activeTabItemID)) return;
@@ -81,7 +91,7 @@
       console.log($('#guide-page-measurement-guides'))
       $('#guide-page-measurement-guides').show()
     }
-    if (activeTabItemID == relatedSystemTabItemID) {
+    if (activeTabItemID == relatedSystemTabItemID || activeTabItemID == relatedComponentsTabItemID) {
       $('#guide-page-related-systems').show()
     }
   }
