@@ -5,7 +5,8 @@
       <div class="px-0 mr-3" style="max-width: 80%;">
         <h1 class="mb-0">{{ .Title }}</h2>
       </div>
-      <div class="d-flex justify-content-center align-items-center px-2" style=" border-radius: 10px; background-color:#429049; height: 3rem;">
+      <div class="d-flex justify-content-center align-items-center px-2" 
+        style=" border-radius: 10px; background-color:#429049; height: 3rem;">
         {{ .Params.type | title }}
       </div>
     </div>
@@ -65,8 +66,18 @@
 </section>
 <script>
   const measurementGuideTabItemID = 'tab-item-measurement-guides';
+  const calculationTabItemID = 'tab-item-calculation';
+  const measurementTabItemID = 'tab-item-measurement';
   const relatedSystemTabItemID = 'tab-item-related-systems';
   const relatedComponentsTabItemID = 'tab-item-related-components';
+  const relatedMTsTabItemID = 'tab-item-related-mt';
+
+  const relatedSystemsCMsTabID = 'tab-item-related-calculation-related-systems';
+  const relatedSystemsMTsTabID = 'tab-item-related-measurement-related-systems';
+
+  const relatedComponentsCMsTabID = 'tab-item-related-calculation-related-components';
+  const relatedComponentsMTsTabID = 'tab-item-related-measurement-related-components';
+
   const borrowEquipmentTabItemID = 'tab-item-borrow-equipments';
 
   function displayGuideContent(evt) {
@@ -74,8 +85,15 @@
     console.log(activeTabItemID)
     const expectedTabItemIDs = [
       measurementGuideTabItemID, 
+      calculationTabItemID,
+      measurementTabItemID,
       relatedSystemTabItemID, 
       relatedComponentsTabItemID,
+      relatedSystemsCMsTabID,
+      relatedSystemsMTsTabID,
+      relatedComponentsCMsTabID,
+      relatedComponentsMTsTabID,
+      relatedMTsTabItemID,
       borrowEquipmentTabItemID
     ]
     if (!expectedTabItemIDs.includes(activeTabItemID)) return;
@@ -87,12 +105,30 @@
     hidePageContents()
     removeTabItemActiveClass()
     addTabItemActiveClass(activeTabItemID)
+
     if (activeTabItemID == measurementGuideTabItemID) {
-      console.log($('#guide-page-measurement-guides'))
       $('#guide-page-measurement-guides').show()
     }
-    if (activeTabItemID == relatedSystemTabItemID || activeTabItemID == relatedComponentsTabItemID) {
+
+    // For CMs and MTs
+    if (activeTabItemID == calculationTabItemID 
+        || activeTabItemID == measurementTabItemID) {
+      $('#{{ .Params.type }}-page-{{ .Params.type }}').show()
+    }
+
+    if (activeTabItemID == relatedSystemTabItemID 
+        || activeTabItemID == relatedComponentsTabItemID) {
       $('#guide-page-related-systems').show()
+    }
+
+    if (activeTabItemID == relatedSystemsCMsTabID 
+        || activeTabItemID == relatedSystemsMTsTabID) {
+      $('#{{ .Params.type }}-page-related-systems').show()
+    }
+
+    if (activeTabItemID == relatedComponentsCMsTabID 
+        || activeTabItemID == relatedComponentsMTsTabID) {
+      $('#{{ .Params.type }}-page-related-components').show()
     }
   }
 
@@ -111,5 +147,22 @@
   function initializeGuidePage() {
     document.getElementById(measurementGuideTabItemID).click()
   }
-  initializeGuidePage()
+
+  function initializeCTsPage() {
+    document.getElementById(calculationTabItemID).click()
+  }
+
+  function initializeMTsPage() {
+    document.getElementById(measurementTabItemID).click()
+  }
+
+  function setActiveTab() {
+    const pageType = {{ .Params.type }};
+
+    if (['plant','system','component'].includes(pageType)) initializeGuidePage();
+    if (pageType == 'calculation') initializeCTsPage();
+    if (pageType == 'measurement') initializeMTsPage();
+  }
+
+  setActiveTab()
 </script>

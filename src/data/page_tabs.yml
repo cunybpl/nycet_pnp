@@ -31,6 +31,9 @@ tabs:
         icon: images/hero/electric-plant-icon-white.png
   - name: calculation
     tabs:
+      - name: calculation
+        label: Methodology
+        icon: images/calculation-methodology/calculation-methodology-icon-white.png
       - name: related-mt
         label: Related Methodologies
         icon: images/hero/guide-icon.png
@@ -39,6 +42,9 @@ tabs:
         icon: images/hero/electric-plant-icon-white.png
   - name: measurement
     tabs:
+      - name: measurement
+        label: Technique
+        icon: images/measurement-technique/measurement-technique-icon-white.png
       - name: related-cm
         label: Related Calculation Methodologies
         icon: images/hero/guide-icon.png
