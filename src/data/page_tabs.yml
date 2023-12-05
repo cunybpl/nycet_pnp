@@ -15,7 +15,7 @@ tabs:
       - name: related-components
         label: Related Components
         icon: images/hero/component-icon.png
-      - name: borrow-equipment
+      - name: borrow-equipments
         label: Borrow Equipments
         icon: images/hero/electric-plant-icon-white.png
   - name: component
@@ -26,7 +26,7 @@ tabs:
       - name: related-systems
         label: Related Systems
         icon: images/hero/system-icon.png
-      - name: borrow-equipment
+      - name: borrow-equipments
         label: Borrow Equipment
         icon: images/hero/electric-plant-icon-white.png
   - name: calculation
@@ -35,9 +35,9 @@ tabs:
         label: Methodology
         icon: images/calculation-methodology/calculation-methodology-icon-white.png
       - name: related-mt
-        label: Related Methodologies
+        label: Related Measurement Techniques
         icon: images/hero/guide-icon.png
-      - name: borrow-equipment
+      - name: borrow-equipments
         label: Borrow Equipment
         icon: images/hero/electric-plant-icon-white.png
   - name: measurement

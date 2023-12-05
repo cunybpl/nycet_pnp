@@ -8,6 +8,9 @@ related_systems:
   //Ask Orlando
 related_components:
   //Ask Orlando
+related_calculation_methodologies:
+  - Cooling Tower Fans Energy Consumption
+borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/electrical-energy"
 ---
 

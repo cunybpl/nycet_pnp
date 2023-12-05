@@ -9,6 +9,7 @@ related_systems:
   - Waterside Economizer
 related_components:
   - Liquid-to-Liquid Heat Exchanger
+borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 url: "/documents/calculation-methodology/liquid-to-liquid-heat-exchanger"
 ---
 

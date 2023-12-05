@@ -9,6 +9,10 @@ related_systems:
   - Waterside Economizer
 related_components:
   - Liquid-to-Liquid Heat Exchanger
+related_calculation_methodologies:
+  - Cooling Tower Fans Energy Consumption
+  - Liquid-to-liquid Heat Exchanger
+borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/water-flow-rate"
 ---
 

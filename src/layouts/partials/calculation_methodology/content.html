@@ -1,7 +1,6 @@
 {{ partial "calculation_methodology/breadcrumb.html" . }}
-{{ partial "calculation_methodology/header.html" . }}
-<!-- {{ partial "guides/header.html" . }} -->
-<section id="{{ .Params.type }}-page-{{ .Params.type }}" class="container {{ .Params.type }}-page-content"
+{{ partial "guides/header.html" . }}
+<section id="{{ .Params.type }}-page-content" class="container {{ .Params.type }}-page-content"
   style="color: black;"
 >
   <div class="row" style="padding-top: 3rem; padding-bottom: 5rem;">
@@ -24,45 +23,49 @@
     </div>
   </div>
 </section>
-<section id="{{ .Params.type }}-page-related-systems" class="container {{ .Params.type }}-page-content px-0">
-  {{ $total_related_systems := 0 }}
-  {{ $systems := "" }}
-  {{ if isset .Params "related_systems" }}
-    {{ $total_related_systems = .Params.related_systems | len }}
-    {{ $systems = .Params.related_systems }}
+<!-- Related Calculation Methodologies -->
+<section id="{{ .Params.type }}-page-related-cm" class="container {{ .Params.type }}-page-content px-0">
+  {{ $total_related_cm := 0 }}
+  {{ $cm := "" }}
+  {{ if isset .Params "related_calculation_methodologies" }}
+    {{ $total_related_cm = .Params.related_calculation_methodologies | len }}
+    {{ $cm = .Params.related_calculation_methodologies }}
   {{ end }}
   <div class="d-flex align-items-center mb-1" style="padding-top: 4rem;">
     <h3 class="mb-0">
-      {{ $total_related_systems }} Related Systems
+      {{ $total_related_cm }} Related Calculation Methodologies
     </h3>
-    <a class="ml-4" href="{{ .Site.BaseURL }}">Browse All Systems</a>
+    <a class="ml-4" href="{{ .Site.BaseURL }}">Browse All Calculation Methodologies</a>
   </div>
   <div class="d-flex flex-wrap justify-content-between py-4">
   {{ range .Site.RegularPages }}
-    {{ if in $systems .Title }}
+    {{ if in $cm .Title }}
       {{ partial "guides/related.html" . }}
     {{ end }}
   {{ end }}
+  </div>
 </section>
-<section id="{{ .Params.type }}-page-related-components" class="container {{ .Params.type }}-page-content px-0">
-  {{ $total_related_components := 0 }}
-  {{ $components := "" }}
-  {{ if isset .Params "related_components" }}
-    {{ $total_related_components = .Params.related_components | len }}
-    {{ $components = .Params.related_components }}
+<!-- Related Measurement Techniques -->
+<section id="{{ .Params.type }}-page-related-mt" class="container {{ .Params.type }}-page-content px-0">
+  {{ $total_related_mt := 0 }}
+  {{ $mt := "" }}
+  {{ if isset .Params "related_measurement_techniques" }}
+    {{ $total_related_mt = .Params.related_measurement_techniques | len }}
+    {{ $mt = .Params.related_measurement_techniques }}
   {{ end }}
   <div class="d-flex align-items-center mb-1" style="padding-top: 4rem;">
     <h3 class="mb-0">
-      {{ $total_related_components }} Related Components
+      {{ $total_related_mt }} Related Measurement Techniques
     </h3>
-    <a class="ml-4" href="{{ .Site.BaseURL }}">Browse All Components</a>
+    <a class="ml-4" href="{{ .Site.BaseURL }}">Browse All Measurement Techniques</a>
   </div>
   <div class="d-flex flex-wrap justify-content-between py-4">
   {{ range .Site.RegularPages }}
-    {{ if in $components .Title }}
+    {{ if in $mt .Title }}
       {{ partial "guides/related.html" . }}
     {{ end }}
   {{ end }}
+  </div>
 </section>
 
 <script>

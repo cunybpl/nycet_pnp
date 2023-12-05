@@ -70,30 +70,22 @@
   const measurementTabItemID = 'tab-item-measurement';
   const relatedSystemTabItemID = 'tab-item-related-systems';
   const relatedComponentsTabItemID = 'tab-item-related-components';
+
   const relatedMTsTabItemID = 'tab-item-related-mt';
-
-  const relatedSystemsCMsTabID = 'tab-item-related-calculation-related-systems';
-  const relatedSystemsMTsTabID = 'tab-item-related-measurement-related-systems';
-
-  const relatedComponentsCMsTabID = 'tab-item-related-calculation-related-components';
-  const relatedComponentsMTsTabID = 'tab-item-related-measurement-related-components';
+  const relatedCMsTabItemID = 'tab-item-related-cm';
 
   const borrowEquipmentTabItemID = 'tab-item-borrow-equipments';
 
   function displayGuideContent(evt) {
     var activeTabItemID = evt.currentTarget.id;
-    console.log(activeTabItemID)
     const expectedTabItemIDs = [
       measurementGuideTabItemID, 
       calculationTabItemID,
       measurementTabItemID,
       relatedSystemTabItemID, 
       relatedComponentsTabItemID,
-      relatedSystemsCMsTabID,
-      relatedSystemsMTsTabID,
-      relatedComponentsCMsTabID,
-      relatedComponentsMTsTabID,
       relatedMTsTabItemID,
+      relatedCMsTabItemID,
       borrowEquipmentTabItemID
     ]
     if (!expectedTabItemIDs.includes(activeTabItemID)) return;
@@ -113,27 +105,44 @@
     // For CMs and MTs
     if (activeTabItemID == calculationTabItemID 
         || activeTabItemID == measurementTabItemID) {
-      $('#{{ .Params.type }}-page-{{ .Params.type }}').show()
+      showCalculationAndMeasurementContent()
     }
 
     if (activeTabItemID == relatedSystemTabItemID 
         || activeTabItemID == relatedComponentsTabItemID) {
       $('#guide-page-related-systems').show()
     }
-
-    if (activeTabItemID == relatedSystemsCMsTabID 
-        || activeTabItemID == relatedSystemsMTsTabID) {
-      $('#{{ .Params.type }}-page-related-systems').show()
+    console.log(activeTabItemID)
+    if (activeTabItemID == relatedCMsTabItemID) {
+      console.log({{ .Params.type }})
+      hideCalculationAndMeasurementContent()
+      showRelatedCMs()
     }
 
-    if (activeTabItemID == relatedComponentsCMsTabID 
-        || activeTabItemID == relatedComponentsMTsTabID) {
-      $('#{{ .Params.type }}-page-related-components').show()
+    if (activeTabItemID == relatedMTsTabItemID) {
+      hideCalculationAndMeasurementContent()
+      showRelatedMTs()
     }
   }
 
   function hidePageContents() {
     $('.guide-page-content').hide()
+  }
+
+  function showCalculationAndMeasurementContent() {
+    $('#{{ .Params.type }}-page-content').show()
+  }
+
+  function hideCalculationAndMeasurementContent() {
+    $('.{{ .Params.type }}-page-content').hide()
+  }
+
+  function showRelatedMTs() {
+    $('#{{ .Params.type }}-page-related-mt').show()
+  }
+
+  function showRelatedCMs() {
+    $('#{{ .Params.type }}-page-related-cm').show()
   }
 
   function removeTabItemActiveClass() {
