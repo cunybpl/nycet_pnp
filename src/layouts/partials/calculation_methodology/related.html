@@ -1,10 +1,11 @@
 {{ $_title := .Title }}
 {{ $_id := replace (urlize $_title | lower) " " "-" }}
 {{ $label := "" }}
-{{ if eq .Params.type "system" }}
-  {{ $label = "components" }}
-{{ else }}
-  {{ $label = "systems" }}
+{{ if eq .Params.type "calculation" }}
+  {{ $label = "calculators" }}
+{{ end }}
+{{ if eq .Params.type "measurement" }}
+  {{ $label = "measurements" }}
 {{ end }}
 <div class="col-md-12 col-lg-6">
   <section class="card mb-4">
@@ -35,10 +36,21 @@
         <div class="px-4">
           <p class="">Associated {{ $label }}:</p>
           <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0">
-            {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_systems) }}
-              {{ partial "thumbnail/associated_systems.html" .  }}
+            {{ if isset .Params "associated_measurement_techniques" }}
+              {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_measurement_techniques) }}
+                {{ partial "thumbnail/associated_systems.html" .  }}
+              {{ end }}
+              {{ partial "thumbnail/see_more_associated_measurement.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_measurement_techniques "all_pages" .Site.RegularPages "guide_title" $_title) }}
             {{ end }}
-            {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_systems "all_pages" .Site.RegularPages "guide_title" $_title) }}
+
+            {{ if isset .Params "associated_calculators" }}
+              {{ $calculators := where .Site.Data.downloadable_files.files "name" "in" .Params.associated_calculators }}
+              {{ range first 3 $calculators }}
+                {{ partial "thumbnail/associated_calculators.html" .  }}
+              {{ end }}
+              {{ partial "thumbnail/see_more_associated_calculators.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_calculators "all_calculators" $calculators "guide_title" $_title) }}
+            {{ end }}
+            
           </ul>
         </div>
       </div>

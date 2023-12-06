@@ -10,6 +10,9 @@ related_components:
   //Ask Orlando
 related_calculation_methodologies:
   - Cooling Tower Fans Energy Consumption
+associated_measurement_techniques:
+  - Motor Runtime
+  - Water Flow Rate
 borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/electrical-energy"
 ---

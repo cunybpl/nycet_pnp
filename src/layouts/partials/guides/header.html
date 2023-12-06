@@ -106,15 +106,16 @@
     if (activeTabItemID == calculationTabItemID 
         || activeTabItemID == measurementTabItemID) {
       showCalculationAndMeasurementContent()
+      hideRelatedCMs()
+      hideRelatedMTs()
     }
 
     if (activeTabItemID == relatedSystemTabItemID 
         || activeTabItemID == relatedComponentsTabItemID) {
       $('#guide-page-related-systems').show()
     }
-    console.log(activeTabItemID)
+
     if (activeTabItemID == relatedCMsTabItemID) {
-      console.log({{ .Params.type }})
       hideCalculationAndMeasurementContent()
       showRelatedCMs()
     }
@@ -141,8 +142,20 @@
     $('#{{ .Params.type }}-page-related-mt').show()
   }
 
+  function hideRelatedMTs() {
+    $(document).ready(() => {
+      $('#{{ .Params.type }}-page-related-mt').hide()
+    })
+  }
+
   function showRelatedCMs() {
     $('#{{ .Params.type }}-page-related-cm').show()
+  }
+
+  function hideRelatedCMs() {
+    $(document).ready(() => {
+      $('#{{ .Params.type }}-page-related-cm').hide()
+    })
   }
 
   function removeTabItemActiveClass() {

@@ -12,6 +12,8 @@ related_components:
 related_calculation_methodologies:
   - Cooling Tower Fans Energy Consumption
   - Liquid-to-liquid Heat Exchanger
+associated_measurement_techniques:
+  - Motor Runtime
 borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/water-flow-rate"
 ---

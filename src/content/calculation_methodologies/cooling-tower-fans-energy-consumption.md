@@ -7,6 +7,8 @@ excerpt: Measure the electricity consumed by the pump motor. Depending on the va
 related_measurement_techniques:
   - Electrical Energy
   - Motor Runtime
+associated_calculators:
+  - Liquid-to-liquid Heat
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 ---
