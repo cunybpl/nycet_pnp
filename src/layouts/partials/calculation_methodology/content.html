@@ -40,7 +40,7 @@
   <div class="d-flex flex-wrap justify-content-between py-4">
   {{ range .Site.RegularPages }}
     {{ if in $cm .Title }}
-      {{ partial "guides/related.html" . }}
+      {{ partial "calculation_methodology/related.html" . }}
     {{ end }}
   {{ end }}
   </div>
