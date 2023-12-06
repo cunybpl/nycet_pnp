@@ -1,0 +1,39 @@
+<section class="card card-block my-4">
+  {{ $file_id := .Get "file_id" }}
+  {{ $title := .Get "title" }}
+  {{ $excerpt := .Get "excerpt" }}
+  {{ $redirect_to := .Get "redirect_to" }}
+  {{ $redirect := where .Site.RegularPages ".Title" $redirect_to }}
+  {{ $url := "" }}
+
+  {{ range $redirect }}
+    {{ $url = .RelPermalink }}
+  {{ end }}
+
+  {{ range where .Site.Data.downloadable_files.files "id" $file_id }}
+    <div class="d-flex">
+        <div class="col-md-2 d-flex align-items-center justify-content-center">
+          <div class="measurement-technique-logo-wrapper">
+            <a href="/downloadables/{{ .filename }}" download="{{ .filename }}">
+              <img  src="{{ "images/download-file.png" | absURL }}" class="img-fluid" >
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="py-5">
+            <h5 class="mb-2">
+              {{ $title }}
+            </h5>
+            <p class="mb-0">
+              {{ $excerpt | truncate 125 }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2 d-flex justify-content-center align-items-center">
+          <a style="font-size: 50px;" href="{{ $url | relURL }}">
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+  {{ end }}
+</section>

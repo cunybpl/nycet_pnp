@@ -1,0 +1,5 @@
+files:
+  - id: 1
+    filename: 'sample_file.pdf'
+  - id: 2
+    filename: 'file1.pdf'

@@ -1,0 +1,12 @@
+<section class="container">
+  <div class="py-5">
+    <h2>List of downloadable files</h2>
+    <table>
+      {{ range .Site.Data.downloadable_files.files }}
+        <tr>
+          <td><a href="/downloadables/{{ .filename }}" download="{{ .filename }}">{{ .filename }}</a></td>
+        </tr>
+      {{ end }}
+    </table>
+  </div>
+</section>
