@@ -14,9 +14,7 @@
     <div class="d-flex">
         <div class="col-md-2 d-flex align-items-center justify-content-center">
           <div class="measurement-technique-logo-wrapper">
-            <a href="/downloadables/{{ .filename }}" download="{{ .filename }}">
-              <img  src="{{ "images/download-file.png" | absURL }}" class="img-fluid" >
-            </a>
+            <img src="{{ "/images/measurement-technique/measurement-technique-icon.png" | absURL }}" class="img-fluid" >
           </div>
         </div>
         <div class="col-md-8">
@@ -30,8 +28,12 @@
           </div>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-items-center">
-          <a style="font-size: 50px;" href="{{ $url | relURL }}">
-            <i class="fa fa-arrow-right"></i>
+          <a 
+            style="font-size: 50px;" 
+            href="/downloadables/{{ .filename }}" 
+            download="{{ .filename }}"
+          >
+            <i class="fa fa-download"></i>
           </a>
         </div>
       </div>
