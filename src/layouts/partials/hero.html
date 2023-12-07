@@ -1,5 +1,5 @@
 {{ with .Site.Data.hero }} {{ if .enable }}
-<section class="hero" id="home">
+<section class="hero" id="home" style="z-index: 9999999;">
   <div class="container-fluid hero_container">
     <div class="content align-items-center text-center" style="height: inherit">
       <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-top-left" alt="Electric plant logo">
@@ -8,10 +8,23 @@
         <div class="hero_content text-center">
           <div class="container content-text px-5">{{ .content | markdownify }}</div>
           <div class="hero_content-search-bar">
-            <form action="#" onsubmit="doSearchGuides(guideSearchBarId);return false">
+            <form action="#" class="mb-0" onsubmit="doSearchGuides(guideSearchBarId);return false">
               <input id="guide-search-bar" type="search" placeholder="Search a plant, system or component">
+              <button id="dropdown-trigger" onclick="toggleDropdown()" type="button" class="btn btn-link px-1">
+                <i id="dropdown-icon" class="fa fa-chevron-down"></i>
+              </button>
               <button type="submit">Search</button>
             </form>
+            <div class="hero_content-search-bar-dropdown-options shadow">
+              {{ range $.Site.Data.search_keywords.terms }}
+                <div 
+                  class="text-dark py-1"
+                  onclick="searchPredefinedFilter({{ .name }})"
+                >
+                  {{ .name }}
+                </div>
+              {{ end }}
+            </div>
           </div>
         </div>
       </div>
@@ -29,4 +42,20 @@
 <script>
   const guideSearchBarId = 'guide-search-bar';
   hideSearchResults()
+  function toggleDropdown() {
+    if ($('.hero_content-search-bar-dropdown-options').css('display') == 'none') {
+      $('#dropdown-icon').removeClass('fa-chevron-down')
+      $('.hero_content-search-bar-dropdown-options').css('display', 'flex');
+      $('#dropdown-icon').addClass('fa-chevron-up')
+    } else {
+      $('#dropdown-icon').removeClass('fa-chevron-up')
+      $('.hero_content-search-bar-dropdown-options').css('display', 'none');
+      $('#dropdown-icon').addClass('fa-chevron-down')
+    }
+  }
+  function searchPredefinedFilter(keyword) {
+    $('#guide-search-bar').val(keyword);
+    doSearchGuides(guideSearchBarId);
+    toggleDropdown();
+  }
 </script>
