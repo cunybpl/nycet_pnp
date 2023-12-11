@@ -16,7 +16,7 @@ _Example only_:
 
 This is a shortcode for downloadable file.
 
-{{< downloadable_file file_id=1 title="Downloadable Header 1" excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo." >}}
+{{< downloadable_file filename="sample_file.pdf" title="Downloadable Header 1" excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo." >}}
 
 ## General Description
 
