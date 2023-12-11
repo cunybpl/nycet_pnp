@@ -99,11 +99,12 @@
   flex-direction: column;
   background-color: white;
   position: absolute;
-  top: 13.60rem;
+  top: 13.70rem;
   width: 40rem;
   height: 6rem;
   overflow: scroll;
   cursor: pointer;
+  border-radius: 10px;
   z-index: 99;
   div {
     &:hover {
