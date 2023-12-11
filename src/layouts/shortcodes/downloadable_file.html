@@ -2,13 +2,6 @@
   {{ $file_id := .Get "file_id" }}
   {{ $title := .Get "title" }}
   {{ $excerpt := .Get "excerpt" }}
-  {{ $redirect_to := .Get "redirect_to" }}
-  {{ $redirect := where .Site.RegularPages ".Title" $redirect_to }}
-  {{ $url := "" }}
-
-  {{ range $redirect }}
-    {{ $url = .RelPermalink }}
-  {{ end }}
 
   {{ range where .Site.Data.downloadable_files.files "id" $file_id }}
     <div class="d-flex">
