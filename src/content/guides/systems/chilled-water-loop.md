@@ -12,6 +12,8 @@ layout: guide
 url: "/documents/systems/chilled-water-loop"
 ---
 
+{{< image_hotspot img_url="/images/systems/chilled-water-loop/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" coordinates="1/4|1/5|Sample Header 1|Sample label 1;9/10|3/4|Sample Header 2|Sample label 2" >}}
+
 ## General Overview
 
 A chilled water (CHW) loop consists of two main components – the pump and motors and a piping network. Chilled water is circulated by the pumps from the evaporator section of the chiller through the piping network to a terminal unit, such as a water-to-air heat exchanger in the air handling units or to other radiant equipment such as chilled beams, and then back to the chiller. A CHW loop can be designed as a primary-flow system and a primary-secondary system.
@@ -153,8 +155,6 @@ The measurement locations for a primary-flow and a primary-secondary flow are sh
   <figcaption class="figure-caption text-left">Figure 2. Chilled water loop system measurement points.</figcaption>
 </figure>
 </a>
-
-{{< image_hotspot url="/images/systems/chilled-water-loop/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" width="50" height="50" coordinates="5-6_7-8_Sample label 1;9-10_3-4_Sample label 2" >}}
 
 ## References
 
