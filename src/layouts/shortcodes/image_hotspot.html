@@ -2,7 +2,7 @@
 <section>
   <div class="imageMap__container">
     <img src="{{ $img_url }}" alt="work by sweetie on dribbble">
-    {{ $test := split .Params.coordinates ";" }}
+    {{ $test := split .Params.markers ";" }}
     {{ range $test }}
       {{ $x := split . "|" }}
       <!-- grid cols -->

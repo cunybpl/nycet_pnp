@@ -12,7 +12,7 @@ layout: guide
 url: "/documents/systems/chilled-water-loop"
 ---
 
-{{< image_hotspot img_url="/images/systems/chilled-water-loop/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" coordinates="1/4|1/5|Sample Header 1|Sample label 1;9/10|3/4|Sample Header 2|Sample label 2" >}}
+{{< image_hotspot img_url="/images/systems/chilled-water-loop/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" markers="1/4|1/5|Sample Header 1|Sample label 1;9/10|3/4|Sample Header 2|Sample label 2" >}}
 
 ## General Overview
 
