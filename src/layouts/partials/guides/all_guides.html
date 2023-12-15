@@ -1,6 +1,5 @@
 {{ $pages := .pages }}
 <!-- PLANT GUIDES -->
-{{ $displayed_plants := 0 }}
 <section id="textPlants" class="tabcontent">
   <div class="search-header container px-0 d-flex justify-content-between" style="margin-top: 3rem;">
     <div>
@@ -25,15 +24,13 @@
       >
       {{ range $pages }}
         {{ if eq .Title $guideTitle }}
-          {{ $displayed_plants = add $displayed_plants 1 }}
           {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
         {{ end }}
       {{ end }}
       </div>
     {{ end }}
   </div>
-  <div class="my-4 text-center">
-    {{ gt $displayed_plants 6 }}
+  <div id="load-more-container-plant" class="my-4 text-center">
     <a id="load-more-plants" class="btn btn-dark" onclick="loadMoreGuides(PLANTS)">Load More Plants</a>
   </div>
 </section>
@@ -68,7 +65,7 @@
     </div>
     {{ end }}
   </div>
-  <div class="my-4 text-center">
+  <div id="load-more-container-system" class="my-4 text-center">
     <a id="load-more-systems" class="btn btn-dark" onclick="loadMoreGuides(SYSTEMS)">Load More Systems</a>
   </div>
 </section>
@@ -103,7 +100,7 @@
     </div>
     {{ end }}
   </div>
-  <div class="my-4 text-center">
+  <div id="load-more-container-component" class="my-4 text-center">
     <a id="load-more-components" class="btn btn-dark" onclick="loadMoreGuides(COMPONENTS)">Load More Components</a>
   </div>
 </section>
@@ -138,7 +135,7 @@
     </div>
     {{ end }}
   </div>
-  <div class="my-4 text-center">
+  <div id="load-more-container-calculation" class="my-4 text-center">
     <a id="load-more-calculations" class="btn btn-dark" onclick="loadMoreGuides(CALCULATIONS)">Load More Calculation Methodologies</a>
   </div>
 </section>
@@ -173,7 +170,7 @@
       </div>
     {{ end }}
   </div>
-  <div class="my-4 text-center">
+  <div id="load-more-container-measurement" class="my-4 text-center">
     <a id="load-more-calculations" class="btn btn-dark" onclick="loadMoreGuides(MEASUREMENTS)">Load More Measurement Techniques</a>
   </div>
 </section>
