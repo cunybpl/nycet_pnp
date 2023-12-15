@@ -195,9 +195,11 @@ The measurement boundary for quantifying energy consumption for a variable-speed
 
 The measurement strategy for a variable-speed fan and its motor is to measure power draw of the fan motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated controlling variable (OAT, WBT). Measurement points are generically represented in Figure 1. 
 
-## Measurement Tools and Equipment
+## Measurements
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for VSVV fan and motor>.  
+
+{{< measurement_technique measurement_technique_id=1 >}}
 
 ## Calculation Methodology
 
