@@ -3,6 +3,33 @@ documents:
   - type: plant
     title: "Water-Cooled Chilled Water Plant"
     measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 2] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 3] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 4] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 5] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 6] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 7] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 8] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 9] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
+  - type: plant
+    title: "[Copy 10] Water-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
 
 
 

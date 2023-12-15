@@ -1,5 +1,6 @@
 {{ $pages := .pages }}
 <!-- PLANT GUIDES -->
+{{ $displayed_plants := 0 }}
 <section id="textPlants" class="tabcontent">
   <div class="search-header container px-0 d-flex justify-content-between" style="margin-top: 3rem;">
     <div>
@@ -24,13 +25,15 @@
       >
       {{ range $pages }}
         {{ if eq .Title $guideTitle }}
-        {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
+          {{ $displayed_plants = add $displayed_plants 1 }}
+          {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
         {{ end }}
       {{ end }}
       </div>
     {{ end }}
   </div>
   <div class="my-4 text-center">
+    {{ gt $displayed_plants 6 }}
     <a id="load-more-plants" class="btn btn-dark" onclick="loadMoreGuides(PLANTS)">Load More Plants</a>
   </div>
 </section>
@@ -150,24 +153,24 @@
   </div>
   <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
     {{ range .guides.measurements.documents }}
-    {{ $guideTitle := .title }}
-    {{ $guideId := replace (urlize .title | lower) " " "-" }}
-    {{ $guideType := .type }}
-    <div 
-      id="{{ .type }}-{{ .id }}" 
-      class="
-          col-md-12
-          col-lg-6 
-          guide-card 
-          {{ .measurement_type }}
-        "
-    >
-    {{ range $pages }}
-    {{ if eq .Title $guideTitle }}
-    {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType  ) }}
-    {{ end }}
-  {{ end }}
-    </div>
+      {{ $guideTitle := .title }}
+      {{ $guideId := replace (urlize .title | lower) " " "-" }}
+      {{ $guideType := .type }}
+      <div 
+        id="{{ .type }}-{{ .id }}" 
+        class="
+            col-md-12
+            col-lg-6 
+            guide-card 
+            {{ .measurement_type }}
+          "
+      >
+        {{ range $pages }}
+          {{ if eq .Title $guideTitle }}
+          {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType  ) }}
+          {{ end }}
+        {{ end }}
+      </div>
     {{ end }}
   </div>
   <div class="my-4 text-center">
