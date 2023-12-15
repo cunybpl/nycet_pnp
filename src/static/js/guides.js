@@ -10,10 +10,17 @@ var initialDisplayedCalculations = 6;
 var initialDisplayedMeasurements = 6;
 
 function filterPlantGuides(searchKeyWord='') {
+  let totalPlantGuides = 0;
   let displayedPlantGuides = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
+
+  // Get the total plant guides
+  for (i = 0; i < x.length; i++) {
+    let type = x[i].id.split("-")[0];
+    if (type == PLANTS) totalPlantGuides += 1;
+  }
 
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
@@ -21,7 +28,7 @@ function filterPlantGuides(searchKeyWord='') {
     const measurementType = getMeasurementTypes(x[i].classList);
 
     if (guideType == PLANTS) {
-      if (measurementType.includes(searchKeyWord)) displayedPlantGuides += 1;
+      displayedPlantGuides += 1;
 
       removeClass(x[i], "show-html-element");
 
@@ -40,8 +47,11 @@ function filterPlantGuides(searchKeyWord='') {
       }
       if (!searchKeyWord 
           && displayedPlantGuides <= initialDisplayedPlantGuides) {
-        addClass(x[i], "show-html-element")
-        hideSearchResults()
+            addClass(x[i], "show-html-element")
+            hideSearchResults()
+            if (displayedPlantGuides >= totalPlantGuides) {
+              hideLoadMoreButton(PLANTS);
+            }
       };
     }
   }
@@ -49,10 +59,17 @@ function filterPlantGuides(searchKeyWord='') {
 }
 
 function filterSystemGuides(searchKeyWord='') {
+  let totalSystemGuides = 0;
   let displayedSystemGuides = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
+
+  // Get the total plant guides
+  for (i = 0; i < x.length; i++) {
+    let type = x[i].id.split("-")[0];
+    if (type == SYSTEMS) totalSystemGuides += 1;
+  }
 
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
@@ -60,7 +77,7 @@ function filterSystemGuides(searchKeyWord='') {
     const measurementType = getMeasurementTypes(x[i].classList);
 
     if (guideType == SYSTEMS) {
-      if (measurementType.includes(searchKeyWord)) displayedSystemGuides += 1;
+      displayedSystemGuides += 1;
 
       removeClass(x[i], "show-html-element");
 
@@ -80,8 +97,11 @@ function filterSystemGuides(searchKeyWord='') {
       }
       if (!searchKeyWord 
           && displayedSystemGuides <= initialDisplayedSystemGuides) {
-        addClass(x[i], "show-html-element")
-        hideSearchResults()
+            addClass(x[i], "show-html-element")
+            hideSearchResults()
+            if (displayedSystemGuides >= totalSystemGuides) {
+              hideLoadMoreButton(SYSTEMS);
+            }
       };
     }
   }
@@ -89,10 +109,17 @@ function filterSystemGuides(searchKeyWord='') {
 }
 
 function filterComponentGuides(searchKeyWord='') {
+  let totalComponentGuides = 0;
   let displayedComponentGuides = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
+
+  // Get the total plant guides
+  for (i = 0; i < x.length; i++) {
+    let type = x[i].id.split("-")[0];
+    if (type == COMPONENTS) totalComponentGuides += 1;
+  }
 
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
@@ -100,7 +127,7 @@ function filterComponentGuides(searchKeyWord='') {
     const measurementType = getMeasurementTypes(x[i].classList);
 
     if (guideType == COMPONENTS) {
-      if (measurementType.includes(searchKeyWord)) displayedComponentGuides += 1;
+      displayedComponentGuides += 1;
 
       removeClass(x[i], "show-html-element");
       
@@ -120,8 +147,11 @@ function filterComponentGuides(searchKeyWord='') {
       }
       if (!searchKeyWord 
           && displayedComponentGuides <= initialDisplayedComponentGuides) {
-        addClass(x[i], "show-html-element")
-        hideSearchResults()
+            addClass(x[i], "show-html-element")
+            hideSearchResults()
+            if (displayedComponentGuides >= totalComponentGuides) {
+              hideLoadMoreButton(COMPONENTS);
+            }
       };
     }
   }
@@ -129,10 +159,17 @@ function filterComponentGuides(searchKeyWord='') {
 }
 
 function filterCalculations(searchKeyWord='') {
+  let totalCalculationGuides = 0;
   let displayedCalculations = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
+
+  // Get the total plant guides
+  for (i = 0; i < x.length; i++) {
+    let type = x[i].id.split("-")[0];
+    if (type == CALCULATIONS) totalCalculationGuides += 1;
+  }
 
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
@@ -140,7 +177,7 @@ function filterCalculations(searchKeyWord='') {
     const measurementType = getMeasurementTypes(x[i].classList);
 
     if (guideType == CALCULATIONS) {
-      if (measurementType.includes(searchKeyWord)) displayedCalculations += 1;
+      displayedCalculations += 1;
 
       removeClass(x[i], "show-html-element");
 
@@ -160,8 +197,11 @@ function filterCalculations(searchKeyWord='') {
       }
       if (!searchKeyWord  
           && displayedCalculations <= initialDisplayedCalculations) {
-        addClass(x[i], "show-html-element")
-        hideSearchResults()
+            addClass(x[i], "show-html-element")
+            hideSearchResults()
+            if (displayedCalculations >= totalCalculationGuides) {
+              hideLoadMoreButton(CALCULATIONS);
+            }
       };
     }
   }
@@ -169,10 +209,17 @@ function filterCalculations(searchKeyWord='') {
 }
 
 function filterMeasurements(searchKeyWord='') {
+  let totalMeasurementGuides = 0;
   let displayedMeasurements = 0;
   let totalSearchResult = 0;
   var x, i;
   x = document.getElementsByClassName("guide-card");
+
+  // Get the total plant guides
+  for (i = 0; i < x.length; i++) {
+    let type = x[i].id.split("-")[0];
+    if (type == MEASUREMENTS) totalMeasurementGuides += 1;
+  }
 
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
@@ -180,7 +227,7 @@ function filterMeasurements(searchKeyWord='') {
     const measurementType = getMeasurementTypes(x[i].classList);
 
     if (guideType == MEASUREMENTS) {
-      if (measurementType.includes(searchKeyWord)) displayedMeasurements += 1;
+      displayedMeasurements += 1;
 
       removeClass(x[i], "show-html-element");
 
@@ -199,8 +246,11 @@ function filterMeasurements(searchKeyWord='') {
       }
       if (!searchKeyWord 
           && displayedMeasurements <= initialDisplayedMeasurements) {
-        addClass(x[i], "show-html-element")
-        hideSearchResults()
+            addClass(x[i], "show-html-element")
+            hideSearchResults()
+            if (displayedMeasurements >= totalMeasurementGuides) {
+              hideLoadMoreButton(MEASUREMENTS);
+            }
       };
     }
   }
@@ -359,6 +409,10 @@ function hideNoResultGuides() {
   $('#no-result-components').hide()
   $('#no-result-calculations').hide()
   $('#no-result-measurements').hide()
+}
+
+function hideLoadMoreButton(id) {
+  $(`#load-more-container-${id}`).hide()
 }
 
 function displaySearchResults(guideType) {
