@@ -1,0 +1,9 @@
+files:
+  - name: "Calculator 1"
+    description: "A dummy description."
+    image: "/images/plants/water-cooled-chilled-water-plant/3D-Chillers-diagram_1.jpg"
+    filename: "file1.pdf" 
+  - name: "Calculator 2"
+    description: "Another dummy description"
+    image: "/images/plants/ahu-fans-measurement-guide/ahu-fans-image-example-768x623.png"
+    filename: "sample_file.pdf"
