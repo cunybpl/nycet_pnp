@@ -12,3 +12,6 @@ documents:
   - type: component
     title: "Variable-Speed Fan and Motor"
     measurement_type: "cooling"
+  - type: component
+    title: "Variable-Speed, Variable-Volume Pump and Motor"
+    measurement_type: "cooling"
