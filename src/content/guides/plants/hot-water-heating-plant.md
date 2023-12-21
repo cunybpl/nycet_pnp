@@ -23,18 +23,45 @@ The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, b
 
 <a href="/images/plants/hot-water-heating-plant/hot-water heating plant figure 1.png">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure 1.png" class="figure-img img-fluid rounded" alt="Figure 2. Hot-Water Heater.">
+        <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Hot-Water Heater.">
         <figcaption class="figure-caption text-left">Figure 1. Hot water heating plant</figcaption>
     </figure>
 </a>
 
 ## HWH Plant Systems and Components
 
-### Insert clickable button to hot water heating boiler system here
+### Hot Water Heating Boiler System
 
-### Insert clickable hot water loop system here
+The HWH boiler system is the largest energy-consuming system in the hot water heating plant. Hot water is produced primarily through the heat transfer from combustion gases in the combustion chamber to the water. The hot water produced by the system is then transported out to the facility to meet required heating loads or domestic hot water needs. The main components of a HWH boiler system are burner, combustion chamber, heat exchanger, and draft fan and are shown in Figure 2. 
 
-### Insert clickable feedwater system here
+<a href="/images/plants/hot-water-heating-plant/hot-water heating plant figure2.png">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Hot water heating boiler system">
+        <figcaption class="figure-caption text-left">Figure 2. Hot water heating boiler system</figcaption>
+    </figure>
+</a>
+
+### Hot Water Loop System
+
+The hot water loop system encompasses the distribution system responsible for moving hot water throughout the building. Components of a typical hot water loop system are primary-only or primary-secondary pumps, piping network and piping insulation and are shown in Figure 3.  
+
+<a href="/images/plants/hot-water-heating-plant/hot-water heating plant figure3.png">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Hot water loop system">
+        <figcaption class="figure-caption text-left">Figure 3. Hot water loop system</figcaption>
+    </figure>
+</a>
+
+### Feedwater System
+
+The feedwater system provides treated make-up water and returned hot water from the hot water loop. Feedwater requires proper treatment to remove pollutants and preserve the efficiency of the boiler. Figure 4 shows the components for the feedwater system.
+
+<a href="/images/plants/hot-water-heating-plant/hot-water heating plant figure4.png">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure4.png" class="figure-img img-fluid rounded" alt="Figure 4. Make- up water system and Chemical Treatment for make-up water">
+        <figcaption class="figure-caption text-left">Figure 4. Make- up water system and Chemical Treatment for make-up water</figcaption>
+    </figure>
+</a>
 
 ## Key Values Needed to Assess Energy Conumption
 
@@ -122,10 +149,10 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
 
 The measurement locations for a HWH plant are schematically shown in Figure 2.
 
-<a href="/images/plants/hot-water-heating-plant/hot-water heating plant figure 2.png">
+<a href="/images/plants/hot-water-heating-plant/hot-water heating plant figure 5.png">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Hot-Water Heater.">
-        <figcaption class="figure-caption text-left">Figure 2. HWH plant measurement points.</figcaption>
+        <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure 5.png" class="figure-img img-fluid rounded" alt="Figure 5. HWH plant measurement points">
+        <figcaption class="figure-caption text-left">Figure 5. HWH plant measurement points.</figcaption>
     </figure>
 </a>
 

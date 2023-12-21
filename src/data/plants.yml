@@ -6,6 +6,9 @@ documents:
   - type: plant
     title: "Hot-Water Heating Plant"
     measurement_type: "water"
+  - type: plant
+    title: "Lighting Plant"
+    measurement_type: "electric"
 
 
 
