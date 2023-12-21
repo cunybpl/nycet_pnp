@@ -1,6 +1,6 @@
 .hero {
   position:relative;
-  overflow: hidden;
+  // overflow: hidden;
   align-items: center;
   justify-content: center;
   &_container {
@@ -101,14 +101,17 @@
   position: absolute;
   top: 13.70rem;
   width: 40rem;
-  height: 6rem;
+  max-height: 25rem;
+  padding: 0.5rem;
   overflow: scroll;
   cursor: pointer;
   border-radius: 10px;
   z-index: 99;
   div {
+    border-radius: 8px;
+    padding: 1em;
     &:hover {
-      background-color: gray;
+      background-color: 	rgba(128,128,128, 0.2);
     }
   }
 }
