@@ -18,3 +18,9 @@ documents:
   - type: system
     title: "Boiler"
     measurement_type: "water-side, heating"
+  - type: system
+    title: "Lighting Fixture"
+    measurement_type: "electrical"
+  - type: system
+    title: "Electrical Distribution"
+    measurement_type: "electrical"
