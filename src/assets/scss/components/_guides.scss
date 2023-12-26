@@ -293,3 +293,47 @@ table.equation-table {
     vertical-align: middle;
   }
 }
+
+.tooltip-pnp {
+  position: relative;
+  display: inline;
+  border-radius: 8px;
+  text-decoration: underline 8px #d9e9da;
+  padding: 6px;
+}
+.tooltip-pnp .tooltiptext {
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+  width: max-content;
+  background-color: #19232a;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1.2em 2em;
+  position: absolute;
+  z-index: 1;
+  max-width: 51ch;
+  box-shadow: 0 5px 1em #0000001f;
+  top: calc(100% + 10px);
+  right: 50%;
+  transform: translateX(50%);
+}
+.tooltiptext::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: inherit;
+  padding: 5px;
+  z-index: 1;
+  top: -5px;
+  left: 50%;
+}
+.tooltip-pnp:hover {
+  cursor: help;
+  border-radius: 8px;
+  background-color: #d9e9da;
+}
+.tooltip-pnp:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
