@@ -30,3 +30,6 @@ documents:
   - type: system
     title: "Steam Distribution"
     measurement_type: "water-side, heating"
+  - type: system
+    title: "Air-Cooled Chiller"
+    measurement_type: "water-side, cooling"
