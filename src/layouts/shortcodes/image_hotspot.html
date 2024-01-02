@@ -1,6 +1,6 @@
 {{ $img_url := .Params.img_url }}
 <section>
-  <div class="imageMap__container">
+  <div class="imageMap__container" style="border: 1px solid black;">
     <img src="{{ $img_url }}" alt="work by sweetie on dribbble">
     {{ $test := split .Params.markers ";" }}
     {{ range $test }}
@@ -20,13 +20,29 @@
         " 
         tabindex="0"
       >
-        <div class="marker__card">
-            <p class="marker__card__title">
-              {{ index $x 2 }}
-            </p>
+        {{ if gt (index $grid_columns 1) 6 }}
+        <div class="marker__card right-marker">
+          <h5 class="marker__card__title">
+            {{ index $x 2 }}
+          </h5>
+          <small>
             <p>{{ index $x 3 }}</p>
-          </div>
+            <p>{{ index $x 4 | safeHTML }}</p>
+          </small>
+        </div>
+        {{ else }}
+        <div class="marker__card left-marker">
+          <h5 class="marker__card__title">
+            {{ index $x 2 }}
+          </h5>
+          <small>
+            <p>{{ index $x 3 }}</p>
+            <p>{{ index $x 4 | safeHTML }}</p>
+          </small>
+        </div>
       </div>
+        {{ end }}
+        
     {{ end }}
   </div>
   
@@ -52,18 +68,18 @@
 }
 
 .markers {
-    background: red;
-    border-width: 4px;
-    border-style: solid;
-    border-radius: 50%;
-    border-color: rgba(255,255,255,.5);
-    width: 20px;
-    height: 20px;
-    box-sizing: border-box;
-    align-self: center;
-    justify-self: center;
-    cursor: pointer;
-    animation: ownpulse 3s cubic-bezier(.19,1,.22,1) infinite both;
+  background: red;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: rgba(255,255,255,.5);
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+  animation: ownpulse 3s cubic-bezier(.19,1,.22,1) infinite both;
   position: relative;
 }
 .markers:focus-within .marker__card, .markers:focus .marker__card {
@@ -72,26 +88,32 @@
 
 .marker__card {
 	background-color: #fefefe;
-	padding: 1.5rem;
+	padding: 1rem;
 	display: none;
-	margin-top: -5%;
+	/* margin-top: -5%; */
 	min-height: 100px;
 	position: absolute;
-  bottom: 32px;
-  left: 30px;
-	width: 30%;
+  /* bottom: 32px; */
+  
+	width: 350px;
 	z-index: 100;
 	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
 	box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
 	min-width: 220px;
-	max-width: 300px;
 	animation: fadeInUp;
 	animation-duration: .5s;
 	animation-fill-mode: both;
 }
 
+.left-marker {
+  left: 20px;
+}
+
+.right-marker {
+  left: -360px;
+}
+
 .marker__card__title {
-  font: 31px/1.2 'Georgia', serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
