@@ -12,6 +12,9 @@ documents:
   - type: plant
     title: "Steam Plant"
     measurement_type: "heating"
+  - type: plant
+    title: "Air-Cooled Chilled Water Plant"
+    measurement_type: "water-side, cooling"
 
 
 
