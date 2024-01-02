@@ -9,6 +9,9 @@ documents:
   - type: plant
     title: "Lighting Plant"
     measurement_type: "electric"
+  - type: plant
+    title: "Steam Plant"
+    measurement_type: "heating"
 
 
 
