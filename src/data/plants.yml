@@ -15,6 +15,9 @@ documents:
   - type: plant
     title: "Air-Cooled Chilled Water Plant"
     measurement_type: "water-side, cooling"
+  - type: plant
+    title: "Air Handling Plant"
+    measurement_type: "air"
 
 
 

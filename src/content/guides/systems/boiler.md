@@ -5,8 +5,8 @@ excerpt: A boiler system provides either hot water or steam to distribute the he
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 11
 associated_systems:
-  - Steam Condensate Recovery System
-  - Steam Distribution System
+  - Steam Condensate Recovery
+  - Steam Distribution
 related_components:
   - Constant-Speed Constant-Volume Fan and Motor
   - Variable-Speed Variable-Volume Fan and Motor
