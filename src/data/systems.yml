@@ -33,3 +33,9 @@ documents:
   - type: system
     title: "Air-Cooled Chiller"
     measurement_type: "water-side, cooling"
+  - type: system
+    title: "Constant-Speed, Constant-Volume Air Handling"
+    measurement_type: "air"
+  - type: system
+    title: "Variable-Speed, Variable-Volume Air Handling"
+    measurement_type: "air"

@@ -4,11 +4,11 @@ type: plant
 excerpt: A lighting plant consists of the electrical distribution system and one or more light fixture systems.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Lighting Fixture System
-  - Electrical Distribution System
+  - Lighting Fixture
+  - Electrical Distribution
 related_systems:
-  - Lighting Fixture System
-  - Electrical Distribution System
+  - Lighting Fixture
+  - Electrical Distribution
 layout: guide
 url: "/documents/plants/lighting-plant"
 ---
