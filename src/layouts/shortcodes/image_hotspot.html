@@ -1,9 +1,9 @@
 {{ $img_url := .Params.img_url }}
 <section>
-  <div class="imageMap__container" style="border: 1px solid black;">
+  <div class="imageMap__container">
     <img src="{{ $img_url }}" alt="work by sweetie on dribbble">
-    {{ $test := split .Params.markers ";" }}
-    {{ range $test }}
+    {{ $markers := split .Params.markers ";" }}
+    {{ range $markers }}
       {{ $x := split . "|" }}
       <!-- grid cols -->
       {{ $grid_columns := index $x 0 }}
@@ -20,33 +20,24 @@
         " 
         tabindex="0"
       >
-        {{ if gt (index $grid_columns 1) 6 }}
-        <div class="marker__card right-marker">
-          <h5 class="marker__card__title">
-            {{ index $x 2 }}
-          </h5>
-          <small>
-            <p>{{ index $x 3 }}</p>
-            <p>{{ index $x 4 | safeHTML }}</p>
-          </small>
-        </div>
-        {{ else }}
-        <div class="marker__card left-marker">
-          <h5 class="marker__card__title">
-            {{ index $x 2 }}
-          </h5>
-          <small>
-            <p>{{ index $x 3 }}</p>
-            <p>{{ index $x 4 | safeHTML }}</p>
-          </small>
+        <div 
+          class="
+            marker__card 
+            {{ if gt (index $grid_columns 1) 6 }} right-marker {{ else }} left-marker {{ end }}
+            {{ if gt (index $grid_rows 1) 6 }} bottom-marker {{ end }}
+            "
+          >
+            <h5 class="marker__card__title">
+              {{ index $x 2 }}
+            </h5>
+            <small>
+              <p>{{ index $x 3 }}</p>
+              <p>{{ index $x 4 | safeHTML }}</p>
+            </small>
         </div>
       </div>
-        {{ end }}
-        
     {{ end }}
   </div>
-  
-  
 </section>
 
 <style>
@@ -90,12 +81,11 @@
 	background-color: #fefefe;
 	padding: 1rem;
 	display: none;
-	/* margin-top: -5%; */
 	min-height: 100px;
 	position: absolute;
-  /* bottom: 32px; */
-  
 	width: 350px;
+  height: 250px;
+  overflow: scroll;
 	z-index: 100;
 	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
 	box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
@@ -111,6 +101,10 @@
 
 .right-marker {
   left: -360px;
+}
+
+.bottom-marker {
+  top: -250px;
 }
 
 .marker__card__title {
