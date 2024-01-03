@@ -30,8 +30,10 @@
             <h5 class="marker__card__title">
               {{ index $x 2 }}
             </h5>
-            <small>
+            <small class="marker__card__content">
               <p>{{ index $x 3 }}</p>
+            </small>
+            <small>
               <p>{{ index $x 4 | safeHTML }}</p>
             </small>
         </div>
@@ -69,9 +71,11 @@
   box-sizing: border-box;
   align-self: center;
   justify-self: center;
-  cursor: pointer;
   animation: ownpulse 3s cubic-bezier(.19,1,.22,1) infinite both;
   position: relative;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .markers:focus-within .marker__card, .markers:focus .marker__card {
 	display: block;
@@ -93,6 +97,7 @@
 	animation: fadeInUp;
 	animation-duration: .5s;
 	animation-fill-mode: both;
+  cursor: default;
 }
 
 .left-marker {
@@ -110,7 +115,17 @@
 .marker__card__title {
   margin-top: 0;
   margin-bottom: 1rem;
+  &:hover {
+    cursor: text;
+  }
 }
+
+.marker__card__content {
+  &:hover {
+    cursor: text;
+  }
+}
+
 /* animations */
 @keyframes ownpulse {
 	0% {
