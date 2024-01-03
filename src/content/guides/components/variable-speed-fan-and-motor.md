@@ -4,9 +4,13 @@ type: component
 excerpt: A variable speed fan and motor uses a power-driven rotating impeller to circulate air.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - 
+  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Boiler
+  - Condenser Water Loop
 related_systems:
-  - 
+  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Boiler
+  - Condenser Water Loop
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
 layout: guide
 url: "/documents/components/variable-speed-fan-and-motor"
@@ -200,6 +204,10 @@ The measurement strategy for a variable-speed fan and its motor is to measure po
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for VSVV fan and motor>.  
 
 {{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=4 >}}
+
+{{< measurement_technique measurement_technique_id=3 >}}
 
 ## Calculation Methodology
 

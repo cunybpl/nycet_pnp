@@ -4,9 +4,17 @@ type: component
 excerpt: A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - 
+  - Condenser Water Loop
+  - Chilled Water Loop
+  - Hot Water Loop
+  - Steam Distribution
+  - Steam Condensate Recovery
 related_systems:
-  - 
+  - Condenser Water Loop
+  - Chilled Water Loop
+  - Hot Water Loop
+  - Steam Distribution
+  - Steam Condensate Recovery
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
 layout: guide
 url: "/documents/components/variable-speed-variable-volume-pump-and-motor"
@@ -289,6 +297,10 @@ The measurement strategy for a variable-speed pump and motor is to measure power
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here (link).
 
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=4 >}}
+
 ### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a VSVV pump motor is determined by the true RMS power of the three-phase power supply either at the power main for the motor or at the three-phase input to the VFD. These values are regressed against outside air temperature to develop a temperature-dependent regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the system. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed pump.  
@@ -379,6 +391,10 @@ Measurement points are generically represented in Figure 2.
 ### Measurement Tools and Equipment
 
 Further details about measurement tools and equipment associated with measurements in Table 3  can be found here (link). 
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=4 >}}
 
 ### Calculation Methodology for Variable-Speed Pump Flow
 

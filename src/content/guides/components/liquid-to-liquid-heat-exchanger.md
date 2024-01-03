@@ -5,8 +5,10 @@ excerpt: Achieves heat transfer using temperature difference between two liquids
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
   - Waterside Economizer
+  - Air Cooled Chiller
 related_systems:
   - Waterside Economizer
+  - Air Cooled Chiller
 borrow_equipment_url: ""
 layout: guide
 url: "/documents/components/liquid-to-liquid-heat-exchanger"
@@ -186,7 +188,7 @@ The measurement strategy for a liquid-to-liquid heat exchanger is to measure the
 
 ## Measurement Tools and Equipment
 
-{{< measurement_technique measurement_technique_id=2 >}}
+{{< measurement_technique measurement_technique_id=11 >}}
 
 ## Calculation Methodology
 
