@@ -5,8 +5,8 @@ excerpt: The steam condensate recovery system is responsible for collecting cond
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 12
 associated_systems:
-  - Boiler System
-  - Steam Distribution System
+  - Boiler
+  - Steam Distribution
 related_components:
   - Constant Speed Constant Volume Pump and Motor
   - L-t-A Heat Exchanger

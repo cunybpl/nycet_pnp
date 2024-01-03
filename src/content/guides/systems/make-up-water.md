@@ -8,7 +8,7 @@ associated_systems:
   - 
 related_components:
   - 
-borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
+borrow_equipment_url: 
 layout: guide
 url: "/documents/systems/"
 ---
