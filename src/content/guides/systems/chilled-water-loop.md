@@ -5,9 +5,13 @@ excerpt: Consists of two main components – the pump and motors and a piping ne
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 1
 associated_systems:
-  - Constant-Speed, Constant-Volume Pump and Motor
+  - Air Cooled Chiller
+  - Condenser Water Loop
+  - Water Cooled Chiller
+  - Waterside Economizer
 related_components:
   - Constant-Speed, Constant-Volume Pump and Motor
+  - Variable-Speed, Variable-Volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chilled-water-loop"
 layout: guide
 url: "/documents/systems/chilled-water-loop"

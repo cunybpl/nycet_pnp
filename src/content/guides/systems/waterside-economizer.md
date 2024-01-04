@@ -5,7 +5,9 @@ excerpt: Used to cool or partially cool the chilled water without mechanical hea
 thumbnail_image: "images/systems/water-cooled-chiller/Chiller-Angled-View-1.jpg"
 system_id: 4
 associated_systems:
-  - Liquid-to-Liquid Heat Exchanger
+  - Water Cooled Chiller
+  - Condenser Water Loop
+  - Chilled Water Loop
 related_components:
   - Liquid-to-Liquid Heat Exchanger
 borrow_equipment_url: ""
