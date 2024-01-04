@@ -301,6 +301,8 @@ Further details about measurement tools and equipment associated with measuremen
 
 {{< measurement_technique measurement_technique_id=4 >}}
 
+{{< measurement_technique measurement_technique_id=6 >}}
+
 ### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a VSVV pump motor is determined by the true RMS power of the three-phase power supply either at the power main for the motor or at the three-phase input to the VFD. These values are regressed against outside air temperature to develop a temperature-dependent regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the system. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed pump.  
@@ -395,6 +397,8 @@ Further details about measurement tools and equipment associated with measuremen
 {{< measurement_technique measurement_technique_id=1 >}}
 
 {{< measurement_technique measurement_technique_id=4 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
 
 ### Calculation Methodology for Variable-Speed Pump Flow
 

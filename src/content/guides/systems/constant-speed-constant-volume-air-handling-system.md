@@ -9,7 +9,7 @@ associated_systems:
   - Variable-Speed, Variable-Volume Air Handling Unit
 related_components:
   - Constant-Speed, Constant-Volume Fan and Motor
-  - L-t-A Heat Exchanger
+  - Liquid-to-Air Heat Exchanger
 borrow_equipment_url: 
 layout: guide
 url: "/documents/systems/constant-speed-constant-volume-air-handling-system"

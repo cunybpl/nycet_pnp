@@ -10,7 +10,7 @@ documents:
     title: "Constant-Speed, Constant-Volume Fan and Motor"
     measurement_type: "cooling"
   - type: component
-    title: "Variable-Speed Fan and Motor"
+    title: "Variable-Speed, Variable-Volume Fan and Motor"
     measurement_type: "cooling"
   - type: component
     title: "Variable-Speed, Variable-Volume Pump and Motor"

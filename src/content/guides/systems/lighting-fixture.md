@@ -7,7 +7,7 @@ system_id: 7
 associated_systems:
   - Electrical Distribution
 related_components:
-  - //Ask Orlando for Image
+  - 
 borrow_equipment_url: //Ask Orlando
 layout: guide
 url: "/documents/systems/lighting-fixture"
