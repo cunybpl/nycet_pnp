@@ -15,7 +15,7 @@ layout: guide
 url: "/documents/plants/air-handling-plant"
 ---
 
-## Air Handling Plant Overview
+## General Overview
 
 The air handling plant (AHP) takes input energy (e.g., electricity, heated or chilled water) and conditions the air to meet required indoor environmental conditions (e.g., temperature, humidity, fresh air). The AHP may be made up of different types of air handling units (AHUs) at the system level (e.g., rooftop unit, fan coil unit, constant speed unit) which will be discussed at the system level descriptions. For a more detailed overview of various system configurations for this plant, please refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4 – Air Handling and Distribution.
 
@@ -155,7 +155,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
     </tbody>
 </table>
 
-## Air Handling Plant Measurement Locations
+### Air Handling Plant Measurement Locations
 
 The measurement locations for an air handling plant will vary with the type of systems that make up the plant. In general, the measurement locations will occur at the energy consuming components of each system that make up the plant. An example of some measurement locations is shown below. 
 
