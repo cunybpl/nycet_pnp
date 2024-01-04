@@ -1,46 +1,40 @@
-{{ $img_url := .Params.img_url }}
-<section>
-  <div class="imageMap__container">
-    <img src="{{ $img_url }}" alt="work by sweetie on dribbble">
-    {{ $markers := split .Params.markers ";" }}
-    {{ range $markers }}
-      {{ $x := split . "|" }}
-      <!-- grid cols -->
-      {{ $grid_columns := index $x 0 }}
-      {{ $grid_columns = split $grid_columns "/"}}
-
-      <!-- grid rows -->
-      {{ $grid_rows := index $x 1 }}
-      {{ $grid_rows = split $grid_rows "/"}}
-      <div 
-        class="markers" 
-        style="
-          grid-column: {{ index $grid_columns 0 }}/{{ index $grid_columns 1 }}; 
-          grid-row: {{ index $grid_rows 0 }}/{{ index $grid_rows 1 }};
-        " 
-        tabindex="0"
-      >
-        <div 
-          class="
-            marker__card 
-            {{ if gt (index $grid_columns 1) 6 }} right-marker {{ else }} left-marker {{ end }}
-            {{ if gt (index $grid_rows 1) 6 }} bottom-marker {{ end }}
+{{ $image_id := .Params.image_id }}
+{{ range where .Site.Data.image_hotspots.images "id" $image_id }}
+  <section>
+    <div class="imageMap__container">
+      <img src="{{ .img_url }}" alt="Image hotspot {{ .id }}">
+      {{ range .markers }}
+        <div
+          class="markers"
+          tabindex="0"
+          style="
+            grid-column: {{ .grid_column_numerator }}/{{ .grid_column_denominator }};
+            grid-row: {{ .grid_row_numerator }}/{{ .grid_row_denominator }};
+          "
+        >
+          <div
+            class="
+              marker__card
+              {{ if gt .grid_column_denominator 6 }} right-marker {{ else }} left-marker {{ end }}
+              {{ if gt .grid_row_denominator 6 }} bottom-marker {{ end }}
             "
           >
             <h5 class="marker__card__title">
-              {{ index $x 2 }}
+              {{ .header }}
             </h5>
             <small class="marker__card__content">
-              <p>{{ index $x 3 }}</p>
+              <p>{{ .description }}</p>
             </small>
             <small>
-              <p>{{ index $x 4 | safeHTML }}</p>
+              <p>{{ .footer | safeHTML }}</p>
             </small>
+          </div>
         </div>
-      </div>
-    {{ end }}
-  </div>
-</section>
+      {{ end }}
+    </div>
+  </section>
+  
+{{ end }}
 
 <style>
 .imageMap__container {
