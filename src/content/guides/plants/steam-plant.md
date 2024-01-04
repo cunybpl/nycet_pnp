@@ -15,7 +15,7 @@ layout: guide
 url: "/documents/plants/steam-plant"
 ---
 
-## Low Pressure Steam Plant with Boiler
+## General Overview
 
 A low pressure steam plant takes input energy (e.g., fuel, gas, biomass) and uses a boiler to generate steam that is distributed throughout a facility or group of facilities to provide heating. Low pressure steam plants are generally operated at 15 psig or less (steam temperature below ~250oF). Low pressure steam can be used directly as a heating medium and distributed to the terminal equipment, or it can be used indirectly by being piped to heat exchangers to heat water to use at terminal equipment and/or domestic hot water (DHW) systems. A low pressure steam plant and associated systems are shown in Figure 1. A steam plant consists of a steam boiler, steam distribution system, condensate recovery system, blowdown system and economizer. 
 
