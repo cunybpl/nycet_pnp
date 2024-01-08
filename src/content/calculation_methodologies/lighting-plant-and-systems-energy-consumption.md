@@ -8,9 +8,77 @@ related_systems:
   - Lighting Fixture
   - Electrical Distribution
 related_components:
-  - // Ask Orlando
+  - 
 url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consumption"
 ---
+
+## Calculators
+
+<table>
+    <caption>Table 1. Lighting Calculators</caption>
+    <thead>
+        <tr>
+            <th>
+                <p><strong>Description</strong></p>
+            </th>
+            <th>
+                <p><strong>Key</strong></p>
+            </th>
+            <th>
+                <p><strong>Calculator</strong></p>
+            </th>
+        </tr>
+    <tbody>
+        <tr>
+            <td>
+                <p>Insert Description for Lighting AC Current Panel Calculator</p>
+            </td>
+            <td>
+                <p>Insert Key for Lighting AC Current Panel Calculator</p>
+                <p><br></p>
+            </td>
+            <td>
+                <p><a href="/calculators/2023_0411_lighting_ac_current_panelb.xlsx" download>Lighting AC Current Panel Calculator</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Insert Description for Lighting AC Current Circuits Calculator</p>
+            </td>
+            <td>
+                <p>Insert Key for Lighting AC Current Circuits</p>
+                <p><br></p>
+            </td>
+            <td>
+                <p><a href="/calculators/2022_0603_lighting_ac_current_circuits.xlsx" download>Lighting AC Current Circuits  Calculator</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Insert Description for Lighting kWh Panelboard Calculator</p>
+            </td>
+            <td>
+                <p>Insert Key for Lighting kWh Panelboard Calculator</p>
+                <p><br></p>
+            </td>
+            <td>
+                <p><a href="/calculators/2022_0614_lighting_kwh_panelboard.xlsx" download>Lighting kWh Panelboard Calculator</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Insert Description for Lighting Runtime Fixtures Calculator</p>
+            </td>
+            <td>
+                <p>Insert Key for Lighting Runtime Fixtures Calculator</p>
+                <p><br></p>
+            </td>
+            <td>
+                <p><a href="/calculators/2023_0606_lighting_runtime_fixtures.xlsx" download>Lighting Runtime Fixtures Calculator</a></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## Introduction
 

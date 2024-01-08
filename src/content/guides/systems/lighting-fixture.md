@@ -141,6 +141,8 @@ An auditor can develop a sampling plan and use a light on/off logger to measure 
     </figure>
 </a>
 
+{{< calculation_methodology calculation_methodology_id=3 >}}
+
 ## References
 
 California Energy Commission (June 2015). 2016 Building Energy Efficiency Standard for Residential and Nonresidential Buildings, Title 24, Part 6, Chapter 6: Residential Compliance Manual, CA: California
