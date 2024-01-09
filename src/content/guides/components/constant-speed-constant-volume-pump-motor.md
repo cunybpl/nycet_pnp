@@ -235,7 +235,7 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 
 ### Calculation Methodology
 
-{{< calculation_methodology calculation_methodology_id=1 >}}
+{{< calculation_methodology calculation_methodology_id=4 >}}
 
 ## Key Values Needed to Assess Constant-Speed Pump Flow
 
