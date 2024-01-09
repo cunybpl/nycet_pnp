@@ -123,6 +123,8 @@ Figures 5 and 6 show typical measurement points in an electrical distribution sy
 
 Measurement points in the electrical distribution system are at the conductors in the panelboard or switchgear. To measure a lighting plant, the best practice is to capture as much of the lighting plant in a single measurement as possible. Measuring at switchgear may be appropriate if all lighting panelboards are dedicated and connected to it, but only the distribution line that supplies electricity to lighting should be measured. Alternatively, a sample of panelboards and/or circuits can be measured but a sampling plan must be considered. For more information on sampling please refer to Bonneville Power Administration’s guide on sampling.
 
+{{< calculation_methodology calculation_methodology_id=3 >}}
+
 ## References
 
 Consulting-Specifying Engineer (20). “Back to Basics: Switchgear, Transformers and UPSs.”. https://www.csemag.com/articles/back-to-basics-switchgear-transformers-and-upss/; accessed May 24, 2022. 
