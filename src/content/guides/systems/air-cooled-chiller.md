@@ -1,5 +1,5 @@
 ---
-title: Air-Cooled Chiller 
+title: Air Cooled Chiller 
 type: system
 excerpt: An air-cooled chiller consists of an evaporator, a compressor, condenser fans, and an expansion valve.The system produces chilled water through the basic refrigeration cycle.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
@@ -7,7 +7,7 @@ system_id: 5
 associated_systems:
   - Chilled Water Loop
 related_components:
-  - L-t-l Heat Exchanger
+  - Liquid-to-Liquid Heat Exchanger
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chilled-water-loop"
 layout: guide
 url: "/documents/systems/air-cooled-chiller"

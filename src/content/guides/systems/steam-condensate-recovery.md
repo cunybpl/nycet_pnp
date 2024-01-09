@@ -8,8 +8,9 @@ associated_systems:
   - Boiler
   - Steam Distribution
 related_components:
-  - Constant Speed Constant Volume Pump and Motor
-  - L-t-A Heat Exchanger
+  - Constant-Speed, Constant-Volume Pump and Motor
+  - Variable-Speed, Variable-Volume Pump and Motor
+  - Liquid-to-Air Heat Exchanger
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide
 url: "/documents/systems/steam-condensate-recovery"

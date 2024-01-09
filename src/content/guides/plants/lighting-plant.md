@@ -13,7 +13,7 @@ layout: guide
 url: "/documents/plants/lighting-plant"
 ---
 
-## Lighting Plant
+## General Overview
 
 A lighting plant consists of the electrical distribution system and one or more light fixture systems. The electrical distribution system provides power to the light fixture system, which provides the actual illumination to indoor spaces, emergency evacuation routes, and outdoor areas. The electrical distribution system receives electricity from the power grid, which then is distributed through switchgear and panelboards. A lighting plant and associated systems are shown in Figure 1. Measurements may be taken at the electrical distribution or light fixture system levels.
 
@@ -50,7 +50,7 @@ The light fixture system is comprised of the luminaires, lamps, and controls. Co
     </figure>
 </a>
 
-## Key Values and Components Needed to Assess Energy Consumption
+## Key Values Needed to Assess Energy Consumption
 
 To quantify the energy consumption of the lighting plant, the components of all lighting systems should be measured. Some facilities may have a combination of the above-mentioned systems and a level of engineering judgement will be necessary to determine how much of what to measure.
 

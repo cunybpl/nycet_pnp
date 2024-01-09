@@ -13,7 +13,7 @@ layout: guide
 url: "/documents/plants/air-cooled-chilled-water-plant"
 ---
 
-## Air-Cooled Chilled Water Plant  
+## General Overview
 
 An air-cooled chilled water plant consists of an air-cooled chiller system and a chilled water loop system operating to meet the cooling demand in a facility. The air-cooled chiller produces chilled water through the basic refrigeration cycle. The primary chilled water pump circulates the chilled water between the chiller and the chilled water loop. In some cases, a secondary chilled water pump distributes the chilled water produced by the chiller to air handling units (AHUs) in the building.
 
@@ -24,7 +24,7 @@ An air-cooled chilled water plant consists of an air-cooled chiller system and a
     </figure>
 </a>
 
-## Air-Cooled Chilled Water Plant Systems
+## Air-Cooled Chilled Water Plant Systems and Components
 
 ### Air-Cooled Chiller System
 
@@ -48,7 +48,7 @@ A chilled water loop system consists of a closed loop distribution system that s
     </figure>
 </a>
 
-## Key Values and Components Needed to Asses Energy Consumption
+## Key Values Needed to Asses Energy Consumption
 
 The primary energy consumption of an air-cooled chilled water plant is the sum of the energy consumption of the components of each system. The thermal energy rejected from the building to the outdoors can also be measured to evaluate the overall performance of the plant, usually in kilowatts of power consumer per ton of cooling provided (kW/ton). Table 1  provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of an air-cooled chilled-water plant. 
 
@@ -103,7 +103,7 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
     </tbody>
 </table>
 
-## Air-Cooled Chilled Water Plant Measurement Point Locations
+### Air-Cooled Chilled Water Plant Measurement Point Locations
 
 The measurement locations for an air-cooled chilled water plant are schematically shown in Figure 4. 
 
