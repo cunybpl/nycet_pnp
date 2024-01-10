@@ -1,19 +1,19 @@
 ---
-title: Water-Cooled Chiller
+title: Water-cooled Chiller
 type: system
 excerpt: Produces chilled water through the basic refrigeration cycle and consists of an evaporator, a compressor, a condenser, and an expansion valve. The system can be constant-speed or variable-speed.
 thumbnail_image: "images/systems/water-cooled-chiller/Chiller-Angled-View-1.jpg"
 system_id: 2
 associated_systems:
   - Condenser Water Pump and Motor
-  - Liquid-to-Liquid Heat Exchanger
+  - Liquid-to-liquid Heat Exchanger
   - Evaporative Cooling Tower
   - Waterside Economizer
   - Chilled Water Loop
   - Condenser Water Loop
 related_components:
   - Condenser Water Pump and Motor
-  - Liquid-to-Liquid Heat Exchanger
+  - Liquid-to-liquid Heat Exchanger
   - Evaporative Cooling Tower
   - Constant-Speed, Constant-Volume Compressor and Motor
   - Variable-Speed, Variable-Volume Compressor and Motor
@@ -26,15 +26,15 @@ url: "/documents/systems/water-cooled-chiller"
 
 The water-cooled chiller system produces chilled water through the basic refrigeration cycle and consists of an evaporator, a compressor, a condenser, and an expansion valve. The system can be constant-speed or variable-speed.
 
-### Constant-Speed Water-Cooled Chiller
+### Constant-speed Water-cooled Chiller
 
 A constant-speed water-cooled chiller has a compressor motor that runs at a constant speed based on the total capacity of the chiller and adjusts the refrigerant flow with modulating vanes in the compressor when partial capacity of the chiller is needed.
 
-### Variable-Speed Water-Cooled Chiller
+### Variable-speed Water-cooled Chiller
 
 A variable-speed water-cooled chiller has a variable frequency drive on the compressor motor and can reduce the speed of the compressor during partial load conditions. 
 
-## Water-Cooled Chiller Components
+## Water-cooled Chiller Components
 
 The four main components of every chiller are an evaporator, a compressor and motor, a condenser, and an expansion valve. The components are shown in Figure 1. 
 
@@ -162,7 +162,7 @@ The primary energy consumption in a water-cooled chiller is the electricity used
     </tbody>
 </table>
 
-### Water-Cooled Chiller System Measurement Point Locations
+### Water-cooled Chiller System Measurement Point Locations
 
 The measurement locations for a water-cooled chiller are schematically shown in Figure 2.
 

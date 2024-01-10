@@ -9,7 +9,7 @@ associated_systems:
   - Condenser Water Loop
   - Chilled Water Loop
 related_components:
-  - Liquid-to-Liquid Heat Exchanger
+  - Liquid-to-liquid Heat Exchanger
 borrow_equipment_url: ""
 layout: guide
 url: "/documents/systems/waterside-economizer"

@@ -460,7 +460,7 @@ Where,
 <tbody>
   <tr>
     <td class="tg-0pky">$$\overline{kW}_{h,3P} = $$</th>
-    <td class="tg-0pky">Hourly three-phae power draw of the panelboard (in kW)</th>
+    <td class="tg-0pky">Hourly three-phase power draw of the panelboard (in kW)</th>
   </tr>
   <tr>
     <td class="tg-0pky">$$\overline{kW}_{h,n} = $$</th>

@@ -8,7 +8,7 @@ related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
 related_components:
-  - Constant-Speed, Constant-Volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
 url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 ---
 
@@ -266,7 +266,7 @@ Where,
 </tbody>
 </table>
 
-### Constant Speed Fans Using a Data-Logging Power Meter
+### Constant Speed Fans Using a Data-logging Power Meter
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger for each fan in the cooling tower. 
 
@@ -362,7 +362,7 @@ Where,
 
 2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
 
-### Variable Speed Fans Using a Data-Logging Power Meter
+### Variable Speed Fans Using a Data-logging Power Meter
 
 This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed. 
 
@@ -408,7 +408,7 @@ For more information on the different types of fans found in AHU systems, please
  
 For more information of the different types of motors that can be used in an AHU retrofit, please read Chapter 7 (starts on page 91) of the Premium Efficiency Motor Selection and Application Guide from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_handbook_web.pdf#page=91 
  
-For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23 
+For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23 
 
 ## References
 
@@ -426,7 +426,7 @@ Bonnerville Power Association. Engineering Calculations with Verification Prot
 
 Doty, Steve, and Wayne C Turner. Energy Management Handbook. Boca Raton, Fla. Crc Press/Taylor & Francis Lilburn, Ga Fairmont Press C, 2013. Section 10.9: HVAC System Distribution Energy - The equation for fan horsepower was used in this M&V guide. 
 
-Pacific Northwest National Laboratory. Building Re-Tuning Training Guide: AHU Static Pressure Control. This guide points out that static pressure and damper position should be measured to re-tune the static pressure operation of an AHU.  The fan is modulated to meet static pressure set points, which ideally should vary through the day.  When doing M&V for a fan retrofit, we should measure/record the static pressure set points.  If the set points differ between the pre and post-retrofit conditions, then the change in power demand for the new fan will not be valid. 
+Pacific Northwest National Laboratory. Building Re-tuning Training Guide: AHU Static Pressure Control. This guide points out that static pressure and damper position should be measured to re-tune the static pressure operation of an AHU.  The fan is modulated to meet static pressure set points, which ideally should vary through the day.  When doing M&V for a fan retrofit, we should measure/record the static pressure set points.  If the set points differ between the pre and post-retrofit conditions, then the change in power demand for the new fan will not be valid. 
 
 The Engineering Mindset. “How Air Handling Units Work AHU Working Principle Hvac Ventilation.” YouTube, 17 Sept. 2018, http://www.youtube.com/watch?v=KCiv8IAUkh8. Accessed 6 Dec. 2019. 
 

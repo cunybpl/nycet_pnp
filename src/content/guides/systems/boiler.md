@@ -9,10 +9,10 @@ associated_systems:
   - Steam Distribution
   - Hot Water Loop
 related_components:
-  - Constant-Speed, Constant-Volume Fan and Motor
-  - Variable-Speed, Variable-Volume Fan and Motor
+  - Constant-speed, Constant-volume Fan and Motor
+  - Variable-speed, Variable-volume Fan and Motor
   - Burner
-  - Liquid-to-Air Heat Exchanger
+  - Liquid-to-air Heat Exchanger
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide
 url: "/documents/systems/boiler"

@@ -1,14 +1,14 @@
 ---
-title: Constant-Speed, Constant-Volume Fan and Motor
+title: Constant-speed, Constant-volume Fan and Motor
 type: component
 excerpt: A constant speed constant volume (CSCV) fan uses a power-driven rotating impeller to circulate air at a single speed. Fans can be either axial or centrifugal.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Constant-Speed, Constant-Volume Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
   - Boiler
   - Condenser Water Loop
 related_systems:
-  - Constant-Speed, Constant-Volume Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
   - Boiler
   - Condenser Water Loop
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
@@ -42,10 +42,10 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
     <tbody>
         <tr>
             <td>
-                <p>Air-Cooled Chilled Water Plant</p>
+                <p>Air-cooled Chilled Water Plant</p>
             </td>
             <td>
-                <p>Air-Cooled Chiller</p>
+                <p>Air-cooled Chiller</p>
                 <p><br></p>
             </td>
             <td>
@@ -57,7 +57,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
         </tr>
         <tr>
             <td>
-                <p>Water-Cooled Chilled Water Plant</p>
+                <p>Water-cooled Chilled Water Plant</p>
             </td>
             <td>
                 <p>Cooling Tower</p>

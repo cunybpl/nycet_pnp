@@ -5,8 +5,8 @@ layout: measurement_technique
 measurement_technique_id: 2
 excerpt: This technique uses a handheld power meter to take one-time measurements of true RMS power draw (kW) at an electrical distribution system such as a panelboard, power panel or switchgear.
 related_systems:
-  - Constant-Speed, Constant-Volume Air Handling Unit
-  - Dual-Speed Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
+  - Dual-speed Air Handling Unit
   - Chilled Water Loop
   - Electrical Distribution
   - Steam Condensate Recovery
@@ -15,9 +15,9 @@ related_systems:
   - Water Cooled Chiller
   - Condenser Water Loop
 related_components:
-  - Constant-Speed, Constant-Volume Fan and Motor
-  - Constant-Speed, Constant-Volume Pump and Motor
-  - Constant-Speed, Constant-Volume Compressor and Motor
+  - Constant-speed, Constant-volume Fan and Motor
+  - Constant-speed, Constant-volume Pump and Motor
+  - Constant-speed, Constant-volume Compressor and Motor
 url: "/documents/measurement-technique/true-rms-power"
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: Liquid-to-Liquid Heat Exchanger
+title: Liquid-to-liquid Heat Exchanger
 type: component
 excerpt: Achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
   - Waterside Economizer
-  - Air Cooled Chiller
+  - Air-cooled Chiller
 related_systems:
   - Waterside Economizer
-  - Air Cooled Chiller
+  - Air-cooled Chiller
 borrow_equipment_url: ""
 layout: guide
 url: "/documents/components/liquid-to-liquid-heat-exchanger"
@@ -43,7 +43,7 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
     <tbody>
         <tr>
             <td class="fr-cell-handler " style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                <p>Water-Cooled Chilled Water Plant</p>
+                <p>Water-cooled Chilled Water Plant</p>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
                 <p>Waterside Economizer</p>

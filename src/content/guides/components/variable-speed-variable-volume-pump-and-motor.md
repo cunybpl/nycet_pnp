@@ -1,5 +1,5 @@
 ---
-title: Variable-Speed, Variable-Volume Pump and Motor
+title: Variable-speed, Variable-volume Pump and Motor
 type: component
 excerpt: A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
@@ -20,7 +20,7 @@ layout: guide
 url: "/documents/components/variable-speed-variable-volume-pump-and-motor"
 ---
 
-## General Description and Configurations of Variable-Speed, Variable-Volume Pump and Motor
+## General Description and Configurations of Variable-speed, Variable-volume Pump and Motor
 
 A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. Outdoor air temperature (OAT) is the independent variable that drives the pump speed since heating and cooling loads are generally affected by OAT. The pump motor is equipped with a variable frequency drive (VFD) which may be integrated in the pump and motor package or installed separately. Centrifugal pumps are the most common type of pumps used in buildings. 
 
@@ -212,7 +212,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
     </tbody>
 </table>
 
-## Key Values Needed to Assess Power Consumption for Variable-Speed Pump and Motor
+## Key Values Needed to Assess Power Consumption for Variable-speed Pump and Motor
 
 The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 

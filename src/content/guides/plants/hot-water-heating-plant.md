@@ -1,5 +1,5 @@
 ---
-title: Hot-Water Heating Plant
+title: Hot-water Heating Plant
 type: plant
 excerpt: Consists of a hot water heating boiler system, hot water loop system, and feedwater system operating to meet heating demand in a facility.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
@@ -24,7 +24,7 @@ The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, b
     </figure>
 </a>
 
-## Hot-Water Heating Plant Systems and Components
+## Hot-water Heating Plant Systems and Components
 
 ### Hot Water Heating Boiler System
 
@@ -141,7 +141,7 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
     </tbody>
 </table>
 
-### Hot-Water Heating Plant Measurement Point Locations
+### Hot-water Heating Plant Measurement Point Locations
 
 The measurement locations for a HWH plant are schematically shown in Figure 2.
 

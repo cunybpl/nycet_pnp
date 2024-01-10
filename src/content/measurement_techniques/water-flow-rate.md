@@ -5,14 +5,14 @@ layout: measurement_technique
 measurement_technique_id: 11
 excerpt: Uses a flow meter to measure the flow rate of a fluid within a pipe. The technique is typically used on water loop systems to measure the flow through heating and cooling plants, but it can also be used to measure the flow rate of other fluids (e.g., glycol).
 related_systems:
-  - Water-Cooled Chiller
+  - Water-cooled Chiller
   - Waterside Economizer
   - Boiler
   - Steam Condensate Recovery
   - Air Cooled Chiller
 related_components:
-  - Liquid-to-Liquid Heat Exchanger
-  - Liquid-to-Air Heat Exchanger
+  - Liquid-to-liquid Heat Exchanger
+  - Liquid-to-air Heat Exchanger
 borrow_equipment_url: ""
 url: "/documents/measurement-technique/water-flow-rate"
 ---

@@ -6,8 +6,8 @@ measurement_technique_id: 3
 excerpt: This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals.
 related_systems:
   - Electrical Distribution
-  - Constant-Speed, Constant-Volume Air Handling Unit
-  - Dual-Speed Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
+  - Dual-speed Air Handling Unit
   - Chilled Water Loop
   - Air Cooled Chiller
   - Steam Condensate Recovery
@@ -17,10 +17,10 @@ related_systems:
   - Water Cooled Chiller
   - Condenser Water Loop
 related_components:
-  - Constant-Speed, Constant-Volume Compressor and Motor
-  - Constant-Speed, Constant-Volume Fan and Motor
-  - Constant-Speed, Constant-Volume Pump and Motor
-  - Variable-Speed, Variable-Volume Fan and Motor
+  - Constant-speed, Constant-volume Compressor and Motor
+  - Constant-speed, Constant-volume Fan and Motor
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Fan and Motor
 url: "/documents/measurement-technique/electrical-current"
 ---
 

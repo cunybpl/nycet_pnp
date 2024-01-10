@@ -11,16 +11,16 @@ related_systems:
   - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-  - Constant-Speed, Constant-Volume Air Handling Unit
-  - Dual-Speed Air Handling Unit
-  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
+  - Dual-speed Air Handling Unit
+  - Variable-speed, Variable-volume Air Handling Unit
 related_components:
-  - Variable-Speed, Variable-Volume Pump and Motor
-  - Variable-Speed, Variable-Volume Fan and Motor
-  - Variable-Speed, Variable-Volume Compressor and Motor 
-  - Constant-Speed, Constant-Volume Pump and Motor
-  - Liquid-to-Air Heat Exchanger
-  - Air-to-Air Heat Exchanger
+  - Variable-speed, Variable-volume Pump and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Variable-speed, Variable-volume Compressor and Motor 
+  - Constant-speed, Constant-volume Pump and Motor
+  - Liquid-to-air Heat Exchanger
+  - Air-to-air Heat Exchanger
 borrow_equipment_url: ""
 url: "/documents/measurement-technique/outside-air-temperature"
 ---
