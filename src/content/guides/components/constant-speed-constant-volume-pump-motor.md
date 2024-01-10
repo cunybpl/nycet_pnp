@@ -1,5 +1,5 @@
 ---
-title: Constant-Speed, Constant-Volume Pump and Motor
+title: Constant-speed, Constant-volume Pump and Motor
 type: component
 excerpt: Operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
@@ -237,7 +237,7 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 
 {{< calculation_methodology calculation_methodology_id=4 >}}
 
-## Key Values Needed to Assess Constant-Speed Pump Flow
+## Key Values Needed to Assess Constant-speed Pump Flow
 
 Table 3 provides a summary of the values to measure to quantify the flow rate through a CSCV pump.
 

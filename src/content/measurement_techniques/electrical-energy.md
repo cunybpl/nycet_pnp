@@ -12,11 +12,11 @@ related_systems:
   - Steam Distribution
   - Steam Condensate Recovery
   - Electrical Distribution
-  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Variable-speed, Variable-volume Air Handling Unit
 related_components:
-  - Variable-Speed, Variable-Volume Pump and Motor
-  - Variable-Speed, Variable-Volume Fan and Motor
-  - Variable-Speed, Variable-Volume Compressor and Motor
+  - Variable-speed, Variable-volume Pump and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Variable-speed, Variable-volume Compressor and Motor
 url: "/documents/measurement-technique/electrical-energy"
 ---
 

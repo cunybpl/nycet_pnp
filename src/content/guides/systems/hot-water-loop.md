@@ -7,8 +7,8 @@ system_id: 15
 associated_systems:
   - Boiler
 related_components:
-  - Constant-Speed, Constant-Volume Pump and Motor
-  - Variable-Speed, Variable-Volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/secondary-chilled-water-pumps-measurement-kit/"
 layout: guide
 url: "/documents/systems/hot-water-loop"
