@@ -22,7 +22,7 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
                 <p><strong>Description</strong></p>
             </th>
             <th>
-                <p><strong>Key</strong></p>
+                <p><strong>Information Needed</strong></p>
             </th>
             <th>
                 <p><strong>Calculator (Downloadable Link)</strong></p>
@@ -31,50 +31,50 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
     <tbody>
         <tr>
             <td>
-                <p>Description for CT Fan Constant Current Calculator</p>
+                <p>Uses measures hourly current data to calculate annual energy for a VS cooling tower fan. Also requires spot measurements of coltage and power factor.</p>
             </td>
             <td>
-                <p>Key for CT Fan Constant Current Calculator</p>
+                <p>Time Stamp (mm/dd/yyyy hh:mm); Current (amps) - (one-time current at rated speeds); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
                 <p><br></p>
             </td>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Current.xlsx" download><p></p>CT Fan Constant Current Calculator</a>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Current.xlsx" download><p></p>Constant Speed Cooling Tower Fan Current</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Description for CT Fan Constant OnOff Calculator</p>
+                <p>Uses measured hourly runtime in minutes or seconds of a CS cooling tower fan. Also required a spot measurement of kW.</p>
             </td>
             <td>
-                <p>Key for CT Fan Constant OnOff Calculator</p>
+                <p>Time stamp (mm/dd/yyyy hh:mm); Runtime (seconds); One-time true RMS power; Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
                 <p><br></p>
             </td>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant OnOff.xlsx" download><p></p>CT Fan Constant OnOff Calculator</a>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant OnOff.xlsx" download><p></p>Constant Speed Cooling Tower Fan Runtime</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Description for CT Fan Constant Power Calculator</p>
+                <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
             </td>
             <td>
-                <p>Key for CT Fan Constant Power Calculator</p>
+                <p>Time stamp (mm/dd/yyyy hh:mm); Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
                 <p><br></p>
             </td>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Power.xlsx" download><p></p>CT Fan Constant Power Calculator</a>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Power.xlsx" download><p></p>Constant Speed Cooling Tower Fan kW</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Description for CT Fan Variable Power Calculator</p>
+                <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
             </td>
             <td>
-                <p>Key for CT Fan Variable Power Calculator</p>
+                <p>Time stamp (mm/dd/yyyy hh:mm); Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
                 <p><br></p>
             </td>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Variable Power.xlsx" download><p></p>CT Fan Variable Power Calculator</a>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Variable Power.xlsx" download><p></p>Variable Speed Cooling Tower Fan KW</a>
             </td>
         </tr>
     </tbody>

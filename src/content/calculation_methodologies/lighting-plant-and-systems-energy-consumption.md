@@ -22,7 +22,7 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
                 <p><strong>Description</strong></p>
             </th>
             <th>
-                <p><strong>Key</strong></p>
+                <p><strong>Information Needed</strong></p>
             </th>
             <th>
                 <p><strong>Calculator</strong></p>
@@ -31,10 +31,10 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
     <tbody>
         <tr>
             <td>
-                <p>Insert Description for Lighting AC Current Panel Calculator</p>
+                <p>Uses measurements of currents per circuit to give average electricity use for the panel in kWh.</p>
             </td>
             <td>
-                <p>Insert Key for Lighting AC Current Panel Calculator</p>
+                <p>Average hourly amperage per circuit; Circuit voltage and power facto; True RMS power (kW); current amps</p>
                 <p><br></p>
             </td>
             <td>
@@ -43,22 +43,22 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
         </tr>
         <tr>
             <td>
-                <p>Insert Description for Lighting AC Current Circuits Calculator</p>
+                <p>Uses measurements of currents per circuit to give average electricity use for the panel in kWh.</p>
             </td>
             <td>
-                <p>Insert Key for Lighting AC Current Circuits</p>
+                <p>Average hourly amperage per circuit; Circuit voltage and power facto; True RMS power (kW); current amps</p>
                 <p><br></p>
             </td>
             <td>
-                <p><a href="/calculators/2022_0603_lighting_ac_current_circuits.xlsx" download>Lighting AC Current Circuits  Calculator</a></p>
+                <p><a href="/calculators/2022_0603_lighting_ac_current_circuits.xlsx" download>Lighting AC Current Circuits Calculator</a></p>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Insert Description for Lighting kWh Panelboard Calculator</p>
+                <p>Uses the panel energy use in order to obratin electricity usage.</p>
             </td>
             <td>
-                <p>Insert Key for Lighting kWh Panelboard Calculator</p>
+                <p>Lighting Panel Total Energy Use (kWh)</p>
                 <p><br></p>
             </td>
             <td>
@@ -67,10 +67,10 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
         </tr>
         <tr>
             <td>
-                <p>Insert Description for Lighting Runtime Fixtures Calculator</p>
+                <p>Uses runtime and power draw in order to calculate averafe runtime (hours/day)</p>
             </td>
             <td>
-                <p>Insert Key for Lighting Runtime Fixtures Calculator</p>
+                <p>Lighting runtime per hour; Expected fixture wattaged; Fixture counts; Total power draw (kW)</p>
                 <p><br></p>
             </td>
             <td>
