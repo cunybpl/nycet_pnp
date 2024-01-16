@@ -61,7 +61,7 @@ The condenser rejects heat from the refrigerant to the condenser water loop thro
 
 The expansion valve depressurizes the warm refrigerant between the condenser and evaporator to reduce the temperature of the refrigerant, then the cold refrigerant is delivered to the evaporator to pick up more heat from the chilled water loop. 
 
-### Key Values and Components Needed to Assess Energy Consumption
+## Key Values and Components Needed to Assess Energy Consumption
 
 The primary energy consumption in a water-cooled chiller is the electricity used by the compressor motor and its controls. Thermal energy rejected by the chiller to the outdoors can be measured to evaluate the overall performance of the chiller, which can be expressed as kilowatts of power consumption per ton of cooling provided (kW/ton). Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a water-cooled chiller. 
 
@@ -162,7 +162,7 @@ The primary energy consumption in a water-cooled chiller is the electricity used
     </tbody>
 </table>
 
-### Water-cooled Chiller System Measurement Point Locations
+## Water-cooled Chiller System Measurement Point Locations
 
 The measurement locations for a water-cooled chiller are schematically shown in Figure 2.
 

@@ -143,7 +143,7 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
     </tbody>
 </table>
 
-### Water-Cooled Chilled Water Plant Measurement Point Locations
+### Water-cooled Chilled Water Plant Measurement Point Locations
 
 The measurement points for a water-cooled chilled water plant are schematically shown in Figure 6. In the figure, the pumps are vertical in-line pumps which have the same measurement points as the centrifugal pumps shown in the CHW loop (Figure 3).
 
