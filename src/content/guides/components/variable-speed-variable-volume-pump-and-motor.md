@@ -400,7 +400,7 @@ Further details about measurement tools and equipment associated with measuremen
 
 {{< measurement_technique measurement_technique_id=6 >}}
 
-### Calculation Methodology for Variable-Speed Pump Flow
+### Calculation Methodology for Variable-speed Pump Flow
 
 As described above, the calculation methodology for VSVV pump flow rate is based on a series of relationships and long-term measurement of the motor speed as a proxy for flow. Average hourly flow rates at different OAT are developed and used with typical weather to develop temperature-dependent pump flows for times when the pumps are operating. The flow rate and operations of a pump are typically used to undertake calculations of the thermal energy being transferred by the plant or system the pump serves (e.g., chilled water plant, hot water boiler, etc.). 
 

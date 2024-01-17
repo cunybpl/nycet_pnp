@@ -303,6 +303,8 @@ Further details about measurement tools and equipment associated with measuring 
 
 The general methodology to estimate flow through a constant-speed pump is to establish the flow rate using one of the methods described above and use long-term measurements of the operational schedule of the pump and motor using a motor on/off logger. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. The flow rate and operations of a pump are used to calculate the thermal energy being transferred by the plant or system the pump serves (e.g., chilled water plant, hot water boiler, etc.).
 
+{{< calculation_methodology calculation_methodology_id=6 >}}
+
 ## References
 
 Evans , P. (2017, Sept 26). How a Chiller, Cooling Tower and Air Handling Unit work together. Retrieved from The Engineering Mindset.com: https://theengineeringmindset.com/chiller-cooling-tower-air-handling-unit-work-together/
