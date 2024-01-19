@@ -14,7 +14,7 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
 ## Calculators
 
 <table>
-    <caption>Table 1. Lighting Calculators</caption>
+    <caption>Table 1. Secondary Chilled Water Pump Calculators</caption>
     <thead>
         <tr>
             <th>
