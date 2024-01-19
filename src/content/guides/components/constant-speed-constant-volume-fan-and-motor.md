@@ -211,6 +211,8 @@ However, the yearly schedule may be dependent on OAT. If so, the operating hours
 
 A more detailed explanation of the calculation methodology can be found in <link to calculation methodology>. 
 
+{{< calculation_methodology calculation_methodology_id=2 >}}
+
 ## References
 Boyd, BK.; McMordie Stoughton, KL.; Lewis, T. (2017). “Cooling Tower (Evaporative Cooling System) Measurement and Verification Protocol.” Golden, CO: National Renewable Energy Laboratory. https://www.nrel.gov/docs/fy18osti/70219.pdf.  
 

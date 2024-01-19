@@ -2,7 +2,7 @@
 title:  Liquid-to-liquid Heat Exchanger Energy Consumption
 type: calculation
 layout: calculation_methodology
-calculation_methodology_id: 2
+calculation_methodology_id: 24
 excerpt:  Loosely based on the 2020 ASHRAE Handbook – Systems and Equipment, Chapter 26 for air-to-air heat exchangers. Part of the methodology described in Chapter 26 is applicable in liquid-to-liquid heat transfer systems, specifically about sensible heat.
 related_systems:
   - Water-cooled Chiller
