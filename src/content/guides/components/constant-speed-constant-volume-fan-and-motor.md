@@ -16,7 +16,7 @@ layout: guide
 url: "/documents/components/constant-speed-constant-volume-fan-and-motor"
 ---
 
-## General Description and Configurations of Constant-speed Constant-volume Fan and Motor
+## General Overview
 
 A constant speed constant volume (CSCV) fan uses a power-driven rotating impeller to circulate air at a single speed. Fans can be either axial or centrifugal. 
 
@@ -26,18 +26,18 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
     <caption>Table 1. Plants and systems containing constant-speed fans.</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Plant</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Controlling Variable</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -126,15 +126,15 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
         <tr>
-            <th>
+            <td width="30.073349633251834%" bgcolor="#e7e6e6">
                 <p><strong>Component Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td width="33.251833740831295%" bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td width="36.67481662591687%" bgcolor="#e7e6e6">
                 <p><strong>Measurement</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -182,7 +182,7 @@ The measurement boundary for quantifying energy consumption for the CSCV fan and
 
 <a href="/images/components/Measurement-boundary-of-a-CSCV-fan.png">
 <figure class="figure mb-3 mt-3">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a CSCV fan.">
+  <img src="/images/components/Measurement-boundary-of-a-CSCV-fan.png" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a CSCV fan.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a CSCV fan.</figcaption>
 </figure>
 </a>

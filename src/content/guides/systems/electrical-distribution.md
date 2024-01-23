@@ -13,7 +13,7 @@ layout: guide
 url: "/documents/systems/electrical-distribution"
 ---
 
-## Detailed Description of an Electrical Distribution System
+## General Overview
 
 An electrical distribution system is made up of switchgear and panelboards connected by wires. Switchgear is used to disaggregate the power coming from the utility grid to serve various aggregate loads in a facility, such as lights, motors, receptacle circuits, or miscellaneous equipment. A panelboard is used as the final disconnect and protection point for individual circuits in a space. A lighting panelboard is connected to the light fixture system in one or more spaces, typically on a single floor of a facility, or the outdoor light fixture system. Panelboards may be dedicated to the lighting system or “mixed” serving both lighting loads and other circuits.
 
@@ -68,21 +68,21 @@ A Mixed electrical panelboard supplies electricity to the lighting fixture syste
 The electrical distribution system does not consume electricity, but it can be a useful point at which to measure the electrical energy associated with the Lighting Plant.
 
 <table>
-    <caption>Table 1. Key Values, Components and Measurements</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -103,7 +103,7 @@ The electrical distribution system does not consume electricity, but it can be a
     </tbody>
 </table>
 
-## Electrical Distribution System Measurement Point Locations
+### Electrical Distribution System Measurement Point Locations
 
 Figures 5 and 6 show typical measurement points in an electrical distribution system.
 
@@ -122,6 +122,8 @@ Figures 5 and 6 show typical measurement points in an electrical distribution sy
 </a>
 
 Measurement points in the electrical distribution system are at the conductors in the panelboard or switchgear. To measure a lighting plant, the best practice is to capture as much of the lighting plant in a single measurement as possible. Measuring at switchgear may be appropriate if all lighting panelboards are dedicated and connected to it, but only the distribution line that supplies electricity to lighting should be measured. Alternatively, a sample of panelboards and/or circuits can be measured but a sampling plan must be considered. For more information on sampling please refer to Bonneville Power Administration’s guide on sampling.
+
+### Calculation Methodology
 
 {{< calculation_methodology calculation_methodology_id=3 >}}
 

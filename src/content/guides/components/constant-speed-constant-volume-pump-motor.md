@@ -20,7 +20,7 @@ layout: guide
 url: "/documents/components/constant-speed-constant-volume-pump-motor"
 ---
 
-## General Description and Configurations
+## General Overview
 
 A constant-speed, constant-volume (CSCV) pump and motor operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
 
@@ -223,7 +223,7 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 </figure>
 </a>
 
-### Measurement Tools and Equipment
+### Measurements
 
 {{< measurement_technique measurement_technique_id=4 >}}
 
@@ -295,7 +295,7 @@ In both cases, a long-term measurement is needed to quantify the operational sch
 </figure>
 </a>
 
-### Measurement Tools and Equipment
+### Measurements
 
 Further details about measurement tools and equipment associated with measuring CSCV pump flow using the pressure differential and pump curve method can be found here (link to FELL kit); the ultrasonic meters can be found here (link to FELL kit). Motor operational scheduled can be measured using equipment here (link to motor logger). 
 

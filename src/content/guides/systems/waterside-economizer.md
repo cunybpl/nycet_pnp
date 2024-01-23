@@ -45,7 +45,7 @@ The primary effect of waterside economizer is the savings in electricity usage a
 The cooling energy savings are equivalent to the heat rejected through the waterside economizer. Table 1 provides a summary of the components to measure to arrive at values needed to quantify the heat rejected from the chilled water to condenser water by free cooling. 
 
 <table width="630" cellspacing="0" cellpadding="7">
-<caption>Table 1. Key values, components, and measurements.</caption>
+<caption>Table 1. Key values, components and measurements</caption>
     <tbody>
         <thead>
             <tr>
@@ -82,7 +82,7 @@ The cooling energy savings are equivalent to the heat rejected through the water
     </tbody>
 </table>
 
-## System Measurement Point Locations 
+### System Measurement Point Locations 
 
 The measurement locations for the waterside economizer are schematically shown in Figure 2:
 

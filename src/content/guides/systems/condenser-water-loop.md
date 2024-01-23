@@ -60,7 +60,7 @@ The overall cooling capacity of the condenser water loop in a cooling tower with
 The primary energy consumption of a condenser water loop is the electricity used for the pump motors and the cooling tower fans. Table 1 provides a summary of system component measurements and value calculations needed to quantify the annual energy consumption and operating characteristics of a CW loop.
 
 <table cellspacing="0" cellpadding="7">
-    <caption>Table 1. Key values, components, and measurements.</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
             <th width="17.699115044247787%" bgcolor="#e7e6e6">
@@ -151,7 +151,7 @@ The primary energy consumption of a condenser water loop is the electricity used
     </tbody>
 </table>
 
-## Condenser Water Loop System Measurement Point Locations
+### Condenser Water Loop System Measurement Point Locations
 
 The measurements for the condenser water loop are schematically shown in Figure 2, include:
 

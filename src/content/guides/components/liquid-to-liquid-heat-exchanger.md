@@ -14,7 +14,7 @@ layout: guide
 url: "/documents/components/liquid-to-liquid-heat-exchanger"
 ---
 
-## General Description
+## General Overview
 
 A liquid-to-liquid heat exchanger achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
 
@@ -180,7 +180,7 @@ The measurement strategy for a liquid-to-liquid heat exchanger is to measure the
 </figure>
 </a>
 
-## Measurement Tools and Equipment
+## Measurements
 
 {{< measurement_technique measurement_technique_id=11 >}}
 

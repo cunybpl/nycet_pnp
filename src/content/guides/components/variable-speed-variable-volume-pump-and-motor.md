@@ -20,7 +20,7 @@ layout: guide
 url: "/documents/components/variable-speed-variable-volume-pump-and-motor"
 ---
 
-## General Description and Configurations of Variable-speed, Variable-volume Pump and Motor
+## General Overview
 
 A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. Outdoor air temperature (OAT) is the independent variable that drives the pump speed since heating and cooling loads are generally affected by OAT. The pump motor is equipped with a variable frequency drive (VFD) which may be integrated in the pump and motor package or installed separately. Centrifugal pumps are the most common type of pumps used in buildings. 
 
@@ -30,18 +30,18 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
     <caption>Table 1. Plants systems applicable to variable-speed pumps</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Plant</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Controlling Variable</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -212,7 +212,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
     </tbody>
 </table>
 
-## Key Values Needed to Assess Power Consumption for Variable-speed Pump and Motor
+## Key Values Needed to Assess Energy Consumption for Variable-speed Pump and Motor
 
 The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
@@ -220,15 +220,15 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurement</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -293,13 +293,11 @@ The measurement boundary for quantifying energy consumption for the VSVV pump mo
 
 The measurement strategy for a variable-speed pump and motor is to measure power draw of the pump motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated OAT. Measurement points are generically represented in Figure 1.
 
-### Measurement Tools and Equipment
+### Measurements
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here (link).
 
 {{< measurement_technique measurement_technique_id=1 >}}
-
-{{< measurement_technique measurement_technique_id=4 >}}
 
 {{< measurement_technique measurement_technique_id=6 >}}
 
@@ -390,13 +388,11 @@ If pump motor speed cannot be trended by the VFD or BAS, a current transducer an
 
 Measurement points are generically represented in Figure 2. 
 
-### Measurement Tools and Equipment
+### Measurements
 
 Further details about measurement tools and equipment associated with measurements in Table 3  can be found here (link). 
 
-{{< measurement_technique measurement_technique_id=1 >}}
-
-{{< measurement_technique measurement_technique_id=4 >}}
+{{< measurement_technique measurement_technique_id=11 >}}
 
 {{< measurement_technique measurement_technique_id=6 >}}
 

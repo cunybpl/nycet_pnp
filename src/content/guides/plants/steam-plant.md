@@ -63,18 +63,18 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
     <caption>Table 1. Steam Plant Values</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Plant Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>

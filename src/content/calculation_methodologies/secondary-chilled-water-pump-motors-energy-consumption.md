@@ -17,15 +17,15 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
     <caption>Table 1. Secondary Chilled Water Pump Calculators</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Description</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Information Needed</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Calculator</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
