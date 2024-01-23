@@ -1,5 +1,5 @@
 <section class="card card-block my-4">
-  {{ $filename := .Get "filename" }}
+  {{ $url := .Get "url" }}
   {{ $title := .Get "title" }}
   {{ $excerpt := .Get "excerpt" }}
 
@@ -22,8 +22,8 @@
     <div class="col-md-2 d-flex justify-content-center align-items-center">
       <a 
         style="font-size: 50px;" 
-        href="{{ $filename }}" 
-        download="{{ $filename }}"
+        href="{{ $url }}" 
+        download="{{ $url }}"
         target="_blank"
       >
         <i class="fa fa-download"></i>

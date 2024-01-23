@@ -16,7 +16,7 @@ _Example only_:
 
 This is a shortcode for downloadable file.
 
-{{< downloadable_file filename="https://nycenergytools.com/wp-content/uploads/2021/06/ahu_fan-cscv_on_off.xlsx" title="Downloadable Header 1" excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo." >}}
+{{< downloadable_file url="https://nycenergytools.com/wp-content/uploads/2021/06/ahu_fan-cscv_on_off.xlsx" title="Downloadable Header 1" excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo." >}}
 
 ## General Description
 
