@@ -16,7 +16,8 @@ layout: guide
 url: "/documents/components/variable-speed-fan-and-motor"
 ---
 
-## General Description and Configurations of Variable-speed Fan and Motor  
+## General Overview
+
 A variable speed fan and motor uses a power-driven rotating impeller to circulate air. Air flow rates fluctuate as required by the plant and system it serves.  Outdoor air temperature (OAT) is the independent variable that drives the fan speed. The heating and cooling loads are affected by OAT. Axial and centrifugal fans with a variable speed drive are the most common type of variable speed fans used in buildings.  
 
 Table 1 shows the plant and system configurations that may contain variable-speed fans and motors and the most common respective controlling variables. 
@@ -25,18 +26,18 @@ Table 1 shows the plant and system configurations that may contain variable-spee
     <caption>Table 1. Plants and systems containing variable-speed fans.</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Plant</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Controlling Variable</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -124,15 +125,15 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurement</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>

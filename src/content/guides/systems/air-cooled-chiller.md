@@ -13,7 +13,7 @@ layout: guide
 url: "/documents/systems/air-cooled-chiller"
 ---
 
-## Air-cooled Chiller System
+## General Overview
 
 An air-cooled chiller consists of an evaporator, a compressor, condenser fans, and an expansion valve.The system produces chilled water through the basic refrigeration cycle.
 
@@ -51,21 +51,21 @@ The expansion valve reduces the pressure in the refrigerant, allowing it to coll
 The primary energy consumption of an air-cooled chiller is the electricity used for the compressor motor and condenser fan motors. The thermal energy rejected by the chiller to the outdoors can also be measured to evaluate the overall performance of the chiller. These to values can be expressed as kilowatts of power consumed per ton of cooling provided (kW/ton). Table 1  provides a summary of the components measurements and values needed to quantify the annual energy consumption and operating characteristics of an air-cooled chiller.
 
 <table>
-    <caption>Table 1. Key values. components, and measurements</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -116,7 +116,7 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
     </tbody>
 </table>  
 
-## Air-cooled Chiller System Measurement Point Locations
+### Air-cooled Chiller System Measurement Point Locations
 
 The measurement locations for an air-cooled chiller and chilled water pumps are shown in Figure 2. 
 

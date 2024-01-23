@@ -39,7 +39,7 @@ The duration of the long-term measurement should be a minimum of six weeks and d
 
 ## Equipment
 
-The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). Refer to the <a href=”https://nycenergytools.com/equipment/”>FELL catalog</a> to identify weatherproof data loggers that measure outside air temperature. The contents of this guide are largely based off of the <a href=”https://nycenergytools.com/equipment/temp-rh-mx2301/”>Onset HOBO MX2301</a> logger, which can be found and borrowed through FELL.  
+The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). Refer to the [Fell Catalog](https://nycenergytools.com/equipment/) to identify weatherproof data loggers that measure outside air temperature. The contents of this guide are largely based off of the [Onset Hobo MX2301](https://nycenergytools.com/equipment/temp-rh-mx2301/) logger, which can be found and borrowed through FELL.  
 
 If the logger is installed outdoors, avoid locations with too much sunlight because the logger will measure higher temperatures. Data loggers can be installed inside the ductwork of an air handling unit (AHU) or ventilation system so long as the airstream entering the unit is outside air. The logger must be placed as close as possible to the location where the outside air stream is entering the ductwork. 
 
@@ -49,7 +49,7 @@ Please note that loggers will require setup with a computer or phone using the m
 
 ## Measurement Steps
 
-### Preparation for Data Acquisition
+### 1. Preparation for Data Acquisition
 
 Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger. 
 
@@ -68,7 +68,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 </figure>
 </a>
 
-### Installation of Equipment
+### 2. Installation of Equipment
 
 <ul>
 <li>Confirm that the outside air dampers are open and that there is outside air intake in the duct (if installing the logger directly in an AHU).</li>  
@@ -91,7 +91,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 </figure>
 </a>
 
-### Verify Data is Being Collected
+### 3. Verify Data is Being Collected
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following: 
 
@@ -109,7 +109,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 </figure>
 </a>
 
-### Retrieve Measurement Equipment and Download All Final Data
+### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying that the logger is collecting data, do the following:  
 <ul>

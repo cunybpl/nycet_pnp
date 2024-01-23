@@ -14,13 +14,20 @@ layout: guide
 url: "/documents/systems/hot-water-loop"
 ---
 
-## Hot Water Heating (HWH) Loop System
+## General Overview
 
 A hot water heating (HWH) loop system uses hot water produced by a hydronic boiler and circulates it to terminal units (e.g., heating coils in air handling units, radiant equipment) in the facility and then back to the boiler using primary-only or primary-secondary pumps and a piping network.  
 
 ## Hot Water Heating Loop Components
 
 The main components associated with the HWH loop system are primary pumps for primary-flow systems, primary and secondary pumps for primary-secondary flow systems, piping network and terminal units.
+
+<a href="">
+<figure class="figure mb-3 mt-3">
+  <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Hot Water Loop Components.">
+  <figcaption class="figure-caption text-left">Figure 1. Hot Water Loop Components.</figcaption>
+</figure>
+</a>
 
 ### Primary Flow System
 
@@ -30,12 +37,6 @@ A constant-primary-flow system usually has a staged heating system and constant 
 
 A variable-primary-flow system has primary HWH loop pumps with variable speed drives that regulate the flow of the system based on the heating load of the building. The heating system may be staged or constant. 
 
-<a href="">
-<figure class="figure mb-3 mt-3">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Primary flow HWH loop (Placeholder).">
-  <figcaption class="figure-caption text-left">Figure 1. Primary flow HWH loop (Placeholder)</figcaption>
-</figure>
-</a>
 
 ### Primary-secondary flow system
 
@@ -44,13 +45,6 @@ A system with primary-secondary pumps will have the primary pumps circulate the 
 A constant-primary variable-secondary flow system has constant speed pumps that drive the flow through the primary loop and variable-speed pumps of a separate secondary loop that distribute the heating load to the terminal units. The secondary pumps are controlled by the heat load demand in the terminal units. 
 
 A variable-primary variable-secondary flow system has variable-speed pumps on both the primary and secondary loops. They are controlled by the firing rate in the boiler and the heat load demand in the terminal units. 
-
-<a href="images/systems/hot-water-loop/hot-water system figure2.png">
-<figure class="figure mb-3 mt-3">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 2. Primary flow HWH loop.">
-  <figcaption class="figure-caption text-left">Figure 2. Primary flow HWH loop.</figcaption>
-</figure>
-</a>
 
 ### Primary HWH Loop Pump and Motor
 
@@ -93,21 +87,21 @@ Convectors are similar to radiators in how energy is received but rely almost ex
 The primary energy consumption in a HWH loop is the electricity used to run the pump motors. The heat loss across the piping network contributes to the overall energy consumption for the entire HWH plant, in particular the boiler system. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a HWH loop system. 
 
 <table>
-    <caption>Table 1. System and component quantification.</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th>
-                <p><strong>Values to Quanfity</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
+                <p><strong>Values to be Quantified</strong></p>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component to be Measured</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -198,14 +192,14 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
     </tbody>
 </table>
 
-## Hot Water Heating Loop System Measurement Point Locations
+### Hot Water Heating Loop System Measurement Point Locations
 
 The measurement locations for a primary-flow and primary-secondary flow hot water loop system are shown in Figure 3. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop
 
-<a href="images/systems/hot-water-loop/hot-water system figure3.png">
+<a href="/images/systems/hot-water-loop/hot-water system figure3.png">
 <figure class="figure mb-3 mt-3">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 3. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.">
-  <figcaption class="figure-caption text-left">Figure 3. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.</figcaption>
+  <img src="/images/systems/hot-water-loop/hot-water system figure3.png" class="figure-img img-fluid rounded" alt="Figure 2. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.">
+  <figcaption class="figure-caption text-left">Figure 2. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.</figcaption>
 </figure>
 </a>
 

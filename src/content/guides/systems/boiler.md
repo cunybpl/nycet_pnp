@@ -18,7 +18,7 @@ layout: guide
 url: "/documents/systems/boiler"
 ---
 
-## Detailed Description of a Boiler System
+## General Overview
 
 A boiler system provides either hot water or steam to distribute the heating load within a facility. Heat is transferred from the combustion chamber to water until the set point temperature to generate hot water or until the boiling point to generate steam, or beyond the boiling point to generate superheated steam.  
 
@@ -56,21 +56,21 @@ The boiler is one of the largest energy consuming systems in any heating plant. 
 The primary energy consumption of a boiler system is the fuel that is used to drive the combustion reaction to heat the water. Table 1 provides a summary of measurements needed to quantify the annual consumption and operating characteristics of a boiler.  
 
 <table>
-    <caption>Table 1. Energy-consuming components associated with the Boiler system.</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th>
-                <p><strong>Values to Quanfity</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
+                <p><strong>Values to be Quantified</strong></p>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -106,7 +106,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
     </tbody>
 </table>   
 
-## Boiler System Measurement Point Locations
+### Boiler System Measurement Point Locations
 
 The measurement locations for a boiler system are shown in Figure 2. More detail on performing measurements can be found in in <link to gas meter reading> and <link to fan motor measurements> 
 

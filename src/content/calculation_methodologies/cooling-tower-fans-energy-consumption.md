@@ -18,15 +18,15 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
     <caption>Table 1. Calculators for Cooling Tower Fans Energy Consumption</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Description</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Information Needed</strong></p>
-            </th>
-            <th>
-                <p><strong>Calculator (Downloadable Link)</strong></p>
-            </th>
+            </td>
+            <td bgcolor="#e7e6e6">
+                <p><strong>Calculator</strong></p>
+            </td>
         </tr>
     <tbody>
         <tr>
