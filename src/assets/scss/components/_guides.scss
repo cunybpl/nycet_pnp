@@ -68,9 +68,12 @@ h5.card-title {
   width: 100%;
   display: inline-block;
   font-size: 16px;
+  padding-bottom: 8px;
+  line-height: 1.5;
 }
 
 #guide-mg-side-nav {
+  --connection-color: #b4b4b4;
   position: relative;
   .mg-toc {
     position: sticky;
@@ -97,7 +100,7 @@ h5.card-title {
         }
         li > ul {
           padding-left: 0.5rem;
-          border-left: 1px solid #bac8bb;
+          border-left: 1px solid var(--connection-color);
           margin-left: 10px;
           li {
             list-style-type: none;
@@ -105,6 +108,17 @@ h5.card-title {
             color: $primary;
             padding-top: .5rem;
             padding-bottom: .5rem;
+            position: relative;
+          }
+          li::before {
+            content: "";
+            position: absolute;
+            height: 12px;
+            width: 13px;
+            background-color: transparent;
+            left: -8px;
+            top: 11px;
+            border-bottom: 1px solid var(--connection-color);
           }
         }
       }
