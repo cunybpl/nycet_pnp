@@ -203,7 +203,7 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
     </tbody>
 </table>
 
-### Measurement Approach
+### Measuring Energy Consumption of Pump and Motor
 
 The measurement boundary for quantifying energy consumption for the constant-speed pump and motor is shown in Figure 1 below.
 
@@ -222,8 +222,6 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
   <figcaption class="figure-caption text-left">Figure 2. Measurement points for motor on /off operation. FPO</figcaption>
 </figure>
 </a>
-
-### Measurements
 
 {{< measurement_technique measurement_technique_id=4 >}}
 

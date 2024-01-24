@@ -5,8 +5,8 @@ excerpt: A constant-speed, constant-volume (CSCV) air handling unit provides con
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 8
 associated_systems: 
-  - Dual-speed Air Handling Unit
-  - Variable-speed, Variable-volume Air Handling Unit
+  - Constant-speed, Constant-volume Fan and Motor
+  - Liquid-to-air Heat Exchanger
 related_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Liquid-to-air Heat Exchanger

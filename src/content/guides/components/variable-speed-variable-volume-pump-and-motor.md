@@ -282,7 +282,7 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
     </tbody>
 </table>
 
-### Measurement Approach
+### Measuring Energy Consumption of Pump and Motor
 
 The measurement boundary for quantifying energy consumption for the VSVV pump motor is shown in Figure 1. 
 
@@ -292,8 +292,6 @@ The measurement boundary for quantifying energy consumption for the VSVV pump mo
 </figure>
 
 The measurement strategy for a variable-speed pump and motor is to measure power draw of the pump motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated OAT. Measurement points are generically represented in Figure 1.
-
-### Measurements
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here (link).
 
@@ -369,7 +367,7 @@ Table 3 provides a summary of the values to measure to quanfity the flow rate th
     </tbody>
 </table>
 
-### Measurement Approach
+### Measuring Pump Flow of Pump and Motor
 
 The measurement boundary for quantifying water flow rate across a variable-speed pump is shown in Figure 2.
 
@@ -388,15 +386,13 @@ If pump motor speed cannot be trended by the VFD or BAS, a current transducer an
 
 Measurement points are generically represented in Figure 2. 
 
-### Measurements
-
 Further details about measurement tools and equipment associated with measurements in Table 3  can be found here (link). 
 
 {{< measurement_technique measurement_technique_id=11 >}}
 
 {{< measurement_technique measurement_technique_id=6 >}}
 
-### Calculation Methodology for Variable-speed Pump Flow
+### Calculation Methodology
 
 As described above, the calculation methodology for VSVV pump flow rate is based on a series of relationships and long-term measurement of the motor speed as a proxy for flow. Average hourly flow rates at different OAT are developed and used with typical weather to develop temperature-dependent pump flows for times when the pumps are operating. The flow rate and operations of a pump are typically used to undertake calculations of the thermal energy being transferred by the plant or system the pump serves (e.g., chilled water plant, hot water boiler, etc.). 
 

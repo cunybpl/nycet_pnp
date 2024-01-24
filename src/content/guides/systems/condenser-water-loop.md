@@ -5,9 +5,10 @@ excerpt: Consists of a CW pump and motor, an evaporative cooling tower with a fa
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 3
 associated_systems:
-  - Chilled Water Loop
-  - Water Cooled Chiller
-  - Waterside Economizer
+  - Constant-speed, Constant-volume Pump and Motor
+  - Constant-speed, Constant-volume Fan and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 related_components:
   - Constant-speed, Constant-volume Pump and Motor
   - Constant-speed, Constant-volume Fan and Motor

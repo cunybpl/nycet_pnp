@@ -5,7 +5,8 @@ excerpt: A hot water heating (HWH) loop system uses hot water produced by a hydr
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 15
 associated_systems:
-  - Boiler
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 related_components:
   - Constant-speed, Constant-volume Pump and Motor
   - Variable-speed, Variable-volume Pump and Motor
