@@ -5,11 +5,12 @@ excerpt: The steam condensate recovery system is responsible for collecting cond
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 12
 associated_systems:
-  - Boiler
-  - Steam Distribution
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
+  - Liquid-to-air Heat Exchanger
 related_components:
-  - Constant-speed, constant-Volume Pump and Motor
-  - Variable-speed, variable-Volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
   - Liquid-to-air Heat Exchanger
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide

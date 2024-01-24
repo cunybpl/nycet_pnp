@@ -169,7 +169,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
     </tbody>
 </table>
 
-## Measurement Approach
+## Measuring Supply Stream Flow of Heat Exchanger
 
 The measurement strategy for a liquid-to-liquid heat exchanger is to measure the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet of the heat exchanger. The flow rate can be measured at the supply stream pump if one is used in the system. Further information on pump flow measurement strategy can be found < here: Link to the pump flow content>. Measurement points are generically represented in Figure 2.
 
@@ -179,8 +179,6 @@ The measurement strategy for a liquid-to-liquid heat exchanger is to measure the
   <figcaption class="figure-caption text-left">Figure 2. Measurement points in a liquid-to-liquid heat exchanger. FPO</figcaption>
 </figure>
 </a>
-
-## Measurements
 
 {{< measurement_technique measurement_technique_id=11 >}}
 

@@ -176,7 +176,7 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     </tbody>
 </table>  
 
-## Measurement Approach
+## Measuring Energy Consumption of Fan and Motor
 
 The measurement boundary for quantifying energy consumption for the CSCV fan and motor is shown in Figure 1 below. 
 
@@ -192,8 +192,6 @@ The measurement strategy for a CSCV fan and motor is to do a one-time measuremen
 If the fans are in a modular configuration (assuming they all run at the same speed), then only one fan needs to be measured, provided substantiating documentation from the building automation system (BAS) shows that all cells are operating equally at the same time. If fans are further staged, all fans should be measured. 
 
 In some cases, the operational schedule of the motor will be related to the heating or cooling load of the facility. OAT can be used as a proxy variable for the heating and cooling load. OAT can be measured onsite or data from a nearby weather station may also be used for OAT.
-
-## Measurements
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for CSCV fan and motor> 
 

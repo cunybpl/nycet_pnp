@@ -5,8 +5,8 @@ excerpt: A steam distribution system is responsible for distributing the steam p
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 13
 associated_systems:
-  - Boiler
-  - Steam Condensate Recovery
+  - Variable-speed, Variable-volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
 related_components:
   - Variable-speed, Variable-volume Pump and Motor
   - Constant-speed, Constant-volume Pump and Motor

@@ -5,7 +5,7 @@ excerpt: A lighting fixture system produces light to illuminate a specific area 
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 7
 associated_systems:
-  - Electrical Distribution
+  - 
 related_components:
   - 
 borrow_equipment_url: //Ask Orlando

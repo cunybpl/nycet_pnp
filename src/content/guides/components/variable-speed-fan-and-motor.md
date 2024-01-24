@@ -187,7 +187,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     </tbody>
 </table>
 
-## Measurement Approach
+## Measuring Energy Consumption of Fan and Motor
 
 The measurement boundary for quantifying energy consumption for a variable-speed fan and motor is shown in Figure 1 below. 
 
@@ -199,8 +199,6 @@ The measurement boundary for quantifying energy consumption for a variable-speed
 </a>
 
 The measurement strategy for a variable-speed fan and its motor is to measure power draw of the fan motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated controlling variable (OAT, WBT). Measurement points are generically represented in Figure 1. 
-
-## Measurements
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for VSVV fan and motor>.  
 
