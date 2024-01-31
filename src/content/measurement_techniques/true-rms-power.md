@@ -21,7 +21,7 @@ related_components:
 url: "/documents/measurement-technique/true-rms-power"
 ---
 
-## Description
+## Description of True RMS Power
 
 This technique uses a handheld power meter to take one-time measurements of true RMS power draw (kW) at an electrical distribution system such as a panelboard, power panel or switchgear. One-time measurements work as snapshots of power draw, voltage, current and power factor for a system or component such as lighting fixtures, chillers and fan and pump motors. This measurement technique is commonly used with loads that have constant power draw such as constant speed fans and pumps, as well as some lighting fixture systems. If power draw changes over time CUNY BPL recommends using a data logger to take direct measurements of electrical energy consumption (link to electrical energy measurement technique) (kWh).  
 
@@ -108,14 +108,17 @@ For the connection illustrated in Figure 3, this power meter can only measure li
 
 ## Troubleshooting
 
-<strong>Problem:</strong> It can be difficult or confusing to know how to connect a power meter to a panelboard because panelboards can have many different colored wires. Older panelboards might not have clear or accurate labeling at the circuit breakers, making it challenging to make proper connections. 
-<strong>Solution:</strong> In cases where it is unclear how the power is distributed, do not touch the panel or install any sensors without first having someone from the facility identify the power distribution.  
+<p><strong>Problem 1:</strong> It can be difficult or confusing to know how to connect a power meter to a panelboard because panelboards can have many different colored wires. Older panelboards might not have clear or accurate labeling at the circuit breakers, making it challenging to make proper connections.</p> 
+<p><strong>- Solution:</strong> In cases where it is unclear how the power is distributed, do not touch the panel or install any sensors without first having someone from the facility identify the power distribution.</p>  
 
-<strong>Problem:</strong> The panelboard is too small, and connections cannot be made within the space constraints.  
-<strong>Solution:</strong> Connect the sensors at the panelboard’s input or measure at the switchgear.  
 
-<strong>Problem:</strong> A voltage connection cannot be made because the alligator clips are too large or contact cannot be made with the metal lugs in the panelboard.  
-<strong>Solution:</strong> Voltage connection can be difficult if you are not using the correct attachments. Voltage cables can have alligator clips or leads to accommodate for space constraints. In a case where connection cannot be made, use different size voltage leads or investigate alternative attachments for the panelboard’s configuration.  
+<p><strong>Problem 2:</strong> The panelboard is too small, and connections cannot be made within the space constraints.</p>  
+<p><strong>- Solution:</strong> Connect the sensors at the panelboard’s input or measure at the switchgear.</p>  
 
-<strong>Problem:</strong> Unexpected Negative Values  
-<strong>Solution:</strong> At times, measurements will return as negative values because of how the voltage cables are connected. Connect voltage cables in different ways until you obtain positive values. Make sure the connections are correct for accurate power measurements. If you are not sure about the connections consult a certified electrician.
+
+<p><strong>Problem 3:</strong> A voltage connection cannot be made because the alligator clips are too large or contact cannot be made with the metal lugs in the panelboard.</p>
+<p><strong>- Solution:</strong> Voltage connection can be difficult if you are not using the correct attachments. Voltage cables can have alligator clips or leads to accommodate for space constraints. In a case where connection cannot be made, use different size voltage leads or investigate alternative attachments for the panelboard’s configuration.</p>  
+ 
+
+<p><strong>Problem 4:</strong> Unexpected Negative Values</p>  
+<p><strong>- Solution:</strong> At times, measurements will return as negative values because of how the voltage cables are connected. Connect voltage cables in different ways until you obtain positive values. Make sure the connections are correct for accurate power measurements. If you are not sure about the connections consult a certified electrician.<p>

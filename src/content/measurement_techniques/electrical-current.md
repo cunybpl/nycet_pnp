@@ -24,7 +24,7 @@ related_components:
 url: "/documents/measurement-technique/electrical-current"
 ---
 
-## Description
+## Description of Electrical Current
 
 This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals. This data provides insight on the operating schedule of the system or component and can be used to calculate energy consumption of the target equipment at the power panel or electrical panelboard. A system or component that is running (i.e., consuming energy) will have high current draw. A system or component that is not running (i.e., has no energy consumption) will have low or no current draw.  
 
@@ -139,11 +139,11 @@ After verifying that the logger is collecting data, do the following:
 
 ## Troubleshooting
 
-<strong>Problem:</strong> Unexpected Negative Readings 
-<strong>Solution:</strong> Confirm that all current transformers (CTs) are facing the correct direction. 
+<p><strong>Problem 1:</strong> Unexpected Negative Readings</p>
+<p><strong>- Solution:</strong> Confirm that all current transformers (CTs) are facing the correct direction.</p> 
 
-<strong>Problem:</strong> Unexpected Low Values 
-<strong>Solution:</strong> Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs. 
+<p><strong>Problem 2:</strong> Unexpected Low Values</p> 
+<p><strong>- Solution:</strong> Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.</p> 
 
-<strong>Problem:</strong> CTs Do Not Fit in Panelboard Casing 
-<strong>Solution:</strong> If it is safe to do so, trace the wires outside the panelboard and install the sensors there. If this is unsafe or not possible to do, consider seeking the help of a certified electrician. 
+<p><strong>Problem 3:</strong> CTs Do Not Fit in Panelboard Casing</p>
+<p><strong>- Solution:</strong> If it is safe to do so, trace the wires outside the panelboard and install the sensors there. If this is unsafe or not possible to do, consider seeking the help of a certified electrician.</p> 

@@ -19,70 +19,72 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
     <thead>
         <tr>
             <td bgcolor="#e7e6e6">
+                <p><strong>Calculator</strong></p>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Description</strong></p>
             </td>
             <td bgcolor="#e7e6e6">
-                <p><strong>Information Needed</strong></p>
-            </td>
-            <td bgcolor="#e7e6e6">
-                <p><strong>Calculator</strong></p>
+                <p><strong>Required Data To Use This Calculator</strong></p>
             </td>
         </tr>
     <tbody>
         <tr>
             <td>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Current.xlsx" download><p></p>Constant Speed Cooling Tower Fan Current</a>
+            </td>
+            <td>
                 <p>Uses measures hourly current data to calculate annual energy for a VS cooling tower fan. Also requires spot measurements of coltage and power factor.</p>
             </td>
             <td>
-                <p>Time Stamp (mm/dd/yyyy hh:mm); Current (amps) - (one-time current at rated speeds); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
+                <p>Current (amps) - (one-time current at rated speeds); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
                 <p><br></p>
-            </td>
-            <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Current.xlsx" download><p></p>Constant Speed Cooling Tower Fan Current</a>
             </td>
         </tr>
         <tr>
+            <td>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant OnOff.xlsx" download><p></p>Constant Speed Cooling Tower Fan Runtime</a>
+            </td>
             <td>
                 <p>Uses measured hourly runtime in minutes or seconds of a CS cooling tower fan. Also required a spot measurement of kW.</p>
             </td>
             <td>
-                <p>Time stamp (mm/dd/yyyy hh:mm); Runtime (seconds); One-time true RMS power; Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
+                <p>Runtime (seconds); One-time true RMS power; Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
                 <p><br></p>
-            </td>
-            <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant OnOff.xlsx" download><p></p>Constant Speed Cooling Tower Fan Runtime</a>
             </td>
         </tr>
         <tr>
-            <td>
-                <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
-            </td>
-            <td>
-                <p>Time stamp (mm/dd/yyyy hh:mm); Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
-                <p><br></p>
-            </td>
             <td>
                 <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Power.xlsx" download><p></p>Constant Speed Cooling Tower Fan kW</a>
             </td>
-        </tr>
-        <tr>
             <td>
                 <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
             </td>
             <td>
-                <p>Time stamp (mm/dd/yyyy hh:mm); Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
+                <p>Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
                 <p><br></p>
             </td>
+        </tr>
+        <tr>
             <td>
                 <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Variable Power.xlsx" download><p></p>Variable Speed Cooling Tower Fan KW</a>
+            </td>
+            <td>
+                <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
+            </td>
+            <td>
+                <p>Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
+                <p><br></p>
             </td>
         </tr>
     </tbody>
 </table>
 
+## Introduction
+
 ## Cooling Tower Fan Calculations
 
-### Constant Speed Fans Using an On/Off Logger
+### Constant Speed Fans Using Motor On/Off Logger
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers on each fan in the tower.
 
@@ -92,11 +94,11 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <tbody>
   <tr>
     <td class="tg-0pky">$$\overline{E}_{f}(t) = \frac{On_f(t)*P_f}{3600}$$</th>
-    <td class="tg-0pky">(2)</th>
+    <td class="tg-0pky">(1)</th>
   </tr>
   <tr>
     <td class="tg-0pky">$$\overline{E}_{f}(t) = \frac{On_f(t)*P_f}{3600}$$</td>
-    <td class="tg-0pky">(3)</td>
+    <td class="tg-0pky">(2)</td>
   </tr>
 </tbody>
 </table>
@@ -106,28 +108,22 @@ Where,
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$\overline{E}_{f}(t) = $$</th>
-    <td class="tg-0pky">Average hourly fan motor energy on for each fan, f, kWh</th>
+    <td class="tg-0pky">$$\overline{E}_{f}(t) = \text{Average hourly fan motor energy on for each fan, f, kWh}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$t = $$</th>
-    <td class="tg-0pky">Time index</th>
+    <td class="tg-0pky">$$t = \text{Time index}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$On_{f}(t) = $$</th>
-    <td class="tg-0pky">Measured time that motor is on for each fan, f, seconds</th>
+    <td class="tg-0pky">$$On_{f}(t) = \text{Measured time that motor is on for each fan, f, seconds}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$P_{f} = $$</th>
-    <td class="tg-0pky">One-time power measurement for each fan, f, kW</th>
+    <td class="tg-0pky">$$P_{f} = \text{One-time power measurement for each fan, f, kW}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$\overline{E}(t) = $$</th>
-    <td class="tg-0pky">Total average energy of all fan motors, kWh</th>
+    <td class="tg-0pky">$$\overline{E}(t) = \text{Total average energy of all fan motors, kWh}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$F = $$</th>
-    <td class="tg-0pky">Total number of fans</th>
+    <td class="tg-0pky">$$F = \text{Total number of fans}$$</th>
   </tr>
 </tbody>
 </table>
@@ -138,7 +134,7 @@ Where,
 <tbody>
   <tr>
     <td class="tg-0pky">$$T_{wb} = T_{db}tan^{-1}[0.151977(RH+8.313659)^{1/2}]$$</th>
-    <td class="tg-0pky">(4)</th>
+    <td class="tg-0pky">(3)</th>
   </tr>
   <tr>
     <td class="tg-0pky">$$+tan^{-1}(T_{db}+RH)$$</td>
@@ -160,16 +156,13 @@ Where,
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$T_{wb} = $$</th>
-    <td class="tg-0pky">Wet-bulb temperature, C</th>
+    <td class="tg-0pky">$$T_{wb} = \text{Wet-bulb temperature, C}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$T_{db} = $$</th>
-    <td class="tg-0pky">Dry-bulb temperature, C</th>
+    <td class="tg-0pky">$$T_{db} = \text{Dry-bulb temperature, C}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$RH = $$</th>
-    <td class="tg-0pky">Relative humidity, %</th>
+    <td class="tg-0pky">$$RH = \text{Relative humidity, %}$$</th>
   </tr>
 </tbody>
 </table>
@@ -180,7 +173,7 @@ Where,
 <tbody>
   <tr>
     <td class="tg-0pky">$$E(T_{wb}) = a*T_{wb}^{2} + b*T_{wb} + c$$</th>
-    <td class="tg-0pky">(5)</th>
+    <td class="tg-0pky">(4)</th>
   </tr>
 </tbody>
 </table>
@@ -190,12 +183,10 @@ Where,
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$E(T_{wb}) = $$</th>
-    <td class="tg-0pky">Average hourly fan energy, kWh</th>
+    <td class="tg-0pky">$$E(T_{wb}) = \text{Average hourly fan energy, kWh}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$a,b,c = $$</th>
-    <td class="tg-0pky">Regression coefficients</th>
+    <td class="tg-0pky">$$a,b,c = \text{Regression coefficients}$$</th>
   </tr>
 </tbody>
 </table>
@@ -207,12 +198,12 @@ Where,
   <tr>
     <td class="tg-0pky">$$On(t) = \begin{cases} 1 & \text{if } \overline{E}(t) > 0\\
     0 & \text{if } \overline{E}(t) = 0 \end{cases}$$</th>
-    <td class="tg-0pky">(6)</th>
+    <td class="tg-0pky">(5)</th>
   </tr>
   <tr>
     <td class="tg-0pky">$$\overline{On}_{d,h} = \begin{cases} 1 & \text{if } \overline{E}(n) > 0 \text{ for any } n \in N(d,h)\\
     0 & 0 \end{cases}$$</th>
-    <td class="tg-0pky">(7)</th>
+    <td class="tg-0pky">(6)</th>
   </tr>
 </tbody>
 </table>
@@ -222,20 +213,16 @@ Where,
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$On(t) = $$</th>
-    <td class="tg-0pky">Cooling tower fans are on, binary</th>
+    <td class="tg-0pky">$$On(t) = \text{Cooling tower fans are on, binary}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$\overline{On}_{d,h} = $$</th>
-    <td class="tg-0pky">Cooling tower is on for a given day of the week, d, and hour of the day, h, binary</th>
+    <td class="tg-0pky">$$\overline{On}_{d,h} = \text{Cooling tower is on for a given day of the week, d, and hour of the day, h, binary}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$N(d,h) = $$</th>
-    <td class="tg-0pky">Total number of measured data points that fall on day of week, d, and hour of the day, h</th>
+    <td class="tg-0pky">$$N(d,h) = \text{Total number of measured data points that fall on day of week, d, and hour of the day, h}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$n \in N(d,h) = $$</th>
-    <td class="tg-0pky">Index for the subset of measured data points that fall on day of week, d, and hour of the day, h</th>
+    <td class="tg-0pky">$$n \in N(d,h) = \text{Index for the subset of measured data points that fall on day of week, d, and hour of the day, h}$$</th>
   </tr>
 </tbody>
 </table>
@@ -246,6 +233,34 @@ Where,
 <tbody>
   <tr>
     <td class="tg-0pky">$$E = \sum_{t=1}^{8760} \overline{On}_{d,h}(t) * CoolingSeason(t) * E(T_{wb}(t))$$</th>
+    <td class="tg-0pky">(7)</th>
+  </tr>
+</tbody>
+</table>
+
+Where, 
+
+<table class="equation-table">
+<tbody>
+  <tr>
+    <td class="tg-0pky">$$E = \text{Annual energy, kWh}$$</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">$$CoolingSeason(t) = \text{Does the given hour, t, fall within the cooling season, binary}$$</th>
+  </tr>
+</tbody>
+</table>
+
+### Constant Speed Fans Using a Data-logging Power Meter
+
+This calculation is for a cooling tower with constant-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for each fan in the cooling tower. 
+
+1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (kWh).
+
+<table class="equation-table">
+<tbody>
+  <tr>
+    <td class="tg-0pky">$$\overline{E}(t) = \sum_{f=1}^{F} \overline{E}_{f}(t)$$</th>
     <td class="tg-0pky">(8)</th>
   </tr>
 </tbody>
@@ -256,27 +271,37 @@ Where,
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$E = $$</th>
-    <td class="tg-0pky">Annual energy, kWh</th>
+    <td class="tg-0pky">$$\overline{E}_{f}(t) = \text{Average hourly fan motor energy on for each fan, f, kWh}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$CoolingSeason(t) = $$</th>
-    <td class="tg-0pky">Does the given hour, t, fall within the cooling season, binary</th>
+    <td class="tg-0pky">$$\overline{E} = \text{Total average energy of all fan motors, kWh}$$</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">$$F = \text{Total number of fans in the cooling tower}$$</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">$$t = \text{Time index}$$</th>
   </tr>
 </tbody>
 </table>
 
-### Constant Speed Fans Using a Data-logging Power Meter
+2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
 
-This calculation is for a cooling tower with constant-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger for each fan in the cooling tower. 
+### Constant Speed Fans Using a Current Transformer
 
-1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (kWh).
+This calculation is for a cooling tower with constant-speed fans. Measured input data include hourly average current (in Amps) as directly measured by current transformers, and spot measurements for true power for each fan in the cooling tower. 
+
+1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured current (Amps) is the average for an hour, Equation 10 yields the average energy per hour (kWh) assuming voltage is constant.  
 
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$\overline{E}(t) = \sum_{f=1}^{F} \overline{E}_{f}(t)$$</th>
+    <td class="tg-0pky">$$\overline{E}_{f}(t) = \frac{i_{f}(t) * P_{f}}{I_{f}}$$</th>
     <td class="tg-0pky">(9)</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">$$\overline{E}(t) = \sum_{f=1}^{F} \overline{E}_{f}(t)$$</th>
+    <td class="tg-0pky">(10)</th>
   </tr>
 </tbody>
 </table>
@@ -286,40 +311,41 @@ Where,
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$\overline{E}_{f}(t) = $$</th>
-    <td class="tg-0pky">Average hourly fan motor energy on for each fan, f, kWh</th>
+    <td class="tg-0pky">$$\overline{E}_{f}(t) = \text{Average hourly fan motor energy on for each fan, f, kWh}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$\overline{E} = $$</th>
-    <td class="tg-0pky">Total average energy of all fan motors, kWh</th>
+    <td class="tg-0pky">$$i_{f}(t) = \text{Average hourly current for each fan, f, Amps}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$F = $$</th>
-    <td class="tg-0pky">Total number of fans in the cooling tower</th>
+    <td class="tg-0pky">$$t = \text{Time index}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$t = $$</th>
-    <td class="tg-0pky">Time index</th>
+    <td class="tg-0pky">$$P_{f} = \text{One-time power measurement for each fan, f, kW}$$</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">$$I_{f} = \text{One-time current measurement for each fan, f, Amps}$$</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">$$\overline{E} = \text{Total average energy of all fan motors, kWh}$$</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">$$F = \text{Total number of fans in the cooling tower}$$</th>
   </tr>
 </tbody>
 </table>
 
 2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
 
-### Constant Speed Fans Using a Current Sensor
+### Variable Speed Fans Using a Data-logging Power Meter
 
-This calculation is for a cooling tower with constant-speed fans. Measured input data include hourly average current (in Amps) as directly measured by current sensors, and spot measurements for true power for each fan in the cooling tower. 
+This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed. 
 
-1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured current (Amps) is the average for an hour, Equation 10 yields the average energy per hour (kWh) assuming voltage is constant.  
+1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (kWh).
 
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$\overline{E}_{f}(t) = \frac{i_{f}(t) * P_{f}}{I_{f}}$$</th>
-    <td class="tg-0pky">(10)</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$\overline{E}(t) = \sum_{f=1}^{F} \overline{E}_{f}(t)$$</th>
+    <td class="tg-0pky">$$\overline{E}(t) = \overline{E}_{1}(t) * F$$</th>
     <td class="tg-0pky">(11)</th>
   </tr>
 </tbody>
@@ -330,72 +356,16 @@ Where,
 <table class="equation-table">
 <tbody>
   <tr>
-    <td class="tg-0pky">$$\overline{E}_{f}(t) = $$</th>
-    <td class="tg-0pky">Average hourly fan motor energy on for each fan, f, kWh</th>
+    <td class="tg-0pky">$$\overline{E}_{1}(t) = \text{Average hourly fan motor energy for the measured fan, kWh}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$i_{f}(t) = $$</th>
-    <td class="tg-0pky">Average hourly current for each fan, f, Amps</th>
+    <td class="tg-0pky">$$\overline{E} = \text{Total average energy of all fan motors, kWh}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$t = $$</th>
-    <td class="tg-0pky">Time index</th>
+    <td class="tg-0pky">$$F = \text{Total number of fans in the cooling tower}$$</th>
   </tr>
   <tr>
-    <td class="tg-0pky">$$P_{f} = $$</th>
-    <td class="tg-0pky">One-time power measurement for each fan, f, kW</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$I_{f} = $$</th>
-    <td class="tg-0pky">one-time current measurement for each fan, f, Amps</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$\overline{E} = $$</th>
-    <td class="tg-0pky">Total average energy of all fan motors, kWh</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$F = $$</th>
-    <td class="tg-0pky">Total number of fans in the cooling tower</th>
-  </tr>
-</tbody>
-</table>
-
-2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
-
-### Variable Speed Fans Using a Data-logging Power Meter
-
-This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed. 
-
-1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (kWh).
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{E}(t) = \overline{E}_{1}(t) * F$$</th>
-    <td class="tg-0pky">(12)</th>
-  </tr>
-</tbody>
-</table>
-
-Where, 
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{E}_{1}(t) = $$</th>
-    <td class="tg-0pky">Average hourly fan motor energy for the measured fan, kWh</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$\overline{E} = $$</th>
-    <td class="tg-0pky">Total average energy of all fan motors, kWh</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$F = $$</th>
-    <td class="tg-0pky">Total number of fans in the cooling tower</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$t = $$</th>
-    <td class="tg-0pky">Time index</th>
+    <td class="tg-0pky">$$t = \text{Time index}$$</th>
   </tr>
 </tbody>
 </table>
