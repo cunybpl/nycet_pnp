@@ -32,19 +32,25 @@
     {{ $totalRelated := 0 }}
     {{ $relatedLabel := "" }}
     {{ $guides := "" }}
-    <!-- {{ if isset .Params "related_systems" }}
-      {{ $totalRelated = .Params.related_systems | len }}
+    {{ if isset .Params "related_systems" }}
       {{ $relatedLabel = "Systems" }}
       {{ $guides = .Params.related_systems }}
+      {{ range .Params.related_systems }}
+        {{ $totalRelated = add $totalRelated 1 }}
+      {{ end }}
     {{ else if isset .Params "related_plants" }}
-      {{ $totalRelated = .Params.related_plants | len }}
       {{ $relatedLabel = "Plants" }}
       {{ $guides = .Params.related_plants }}
+      {{ range .Params.related_plants }}
+        {{ $totalRelated = add $totalRelated 1 }}
+      {{ end }}
     {{ else }}
-      {{ $totalRelated = .Params.related_components | len }}
       {{ $relatedLabel = "Components" }}
       {{ $guides = .Params.related_components }}
-    {{ end }} -->
+      {{ range .Params.related_components }}
+        {{ $totalRelated = add $totalRelated 1 }}
+      {{ end }}
+    {{ end }}
     <div class="d-flex align-items-center mb-1" style="padding-top: 4rem;">
       <h3 class="mb-0">
         {{ $totalRelated }} Related {{ $relatedLabel }}
