@@ -88,6 +88,18 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 1. Convert seconds on per hour to average energy per hour (Worksheet: “Step 2. Energy Calcs”).  Repeat for all fans and then sum to get a total for the cooling tower. Note that since the data loggers cannot be perfectly synched, the time stamp for the dataset for each fan will be different. The workbook time-aligns the datasets.
 
+  <p class="equation equation-center">\begin{equation} T_{wb} = T_{db}tan^{-1}[0.151977(RH+8.313659)^{1/2}] \end{equation}</p>
+  <p class="equation equation-center">\begin{equation*} +tan^{-1}(T_{db}+RH) \end{equation*}</p>
+  <p class="equation equation-center">\begin{equation*} -tan^{-1}(RH-1.676331)+0.00391838(RH)^{3/2} \end{equation*}</p>
+  <p class="equation equation-center">\begin{equation*} *tan^{-1}(0.023101*RH) - 4.686035 \end{equation*}</p>
+  <p class="equation">When $(a \ne 0)$, there are two solutions tore are two solutions tore are two solutions tore are two solutions tore are two solutions to $(ax^2 + bx + c = 0)$ and they are</p>
+  <p class="equation equation-center">\begin{equation} \overline{E}_{f}(t) = \frac{On_f(t)*P_f}{3600} \end{equation}</p>
+  
+  <p class="equation">Where,</p>
+  <p class="equation">$T_{wb} =$ Wet-bulb temperature, $C$ and they are and they are and they are and they are and they are and they are and they are and they are</p>
+  <p class="equation">$T_{wb} =$ Wet-bulb temperature, $C$ and they are and they are and they are and they are and they are and they are and they are and they are</p>
+
+
 <table class="equation-table">
 <tbody>
   <tr>
