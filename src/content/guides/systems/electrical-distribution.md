@@ -6,7 +6,6 @@ thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-p
 system_id: 6
 associated_systems:
   - Lighting Fixture
-borrow_equipment_url: ""
 layout: guide
 url: "/documents/systems/electrical-distribution"
 ---

@@ -32,7 +32,7 @@
     {{ $totalRelated := 0 }}
     {{ $relatedLabel := "" }}
     {{ $guides := "" }}
-    {{ if isset .Params "related_systems" }}
+    <!-- {{ if isset .Params "related_systems" }}
       {{ $totalRelated = .Params.related_systems | len }}
       {{ $relatedLabel = "Systems" }}
       {{ $guides = .Params.related_systems }}
@@ -44,7 +44,7 @@
       {{ $totalRelated = .Params.related_components | len }}
       {{ $relatedLabel = "Components" }}
       {{ $guides = .Params.related_components }}
-    {{ end }}
+    {{ end }} -->
     <div class="d-flex align-items-center mb-1" style="padding-top: 4rem;">
       <h3 class="mb-0">
         {{ $totalRelated }} Related {{ $relatedLabel }}
