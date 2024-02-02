@@ -12,7 +12,9 @@
      {{ if $element.enable }}
       <div 
         class="
-          {{if eq $index 1 }} middle-nav-item {{else if eq $index 2 }} right-nav-item {{ else }} left-right-nav-item {{ end }} 
+          {{if eq $index 2 }} middle-nav-item {{ else }} normal-nav-item {{ end }} 
+          {{if eq $index 0 }} first-nav-item {{ end }}
+          {{if eq $index 4 }} last-nav-item {{ end }}
           no-gutters
         "
       >
@@ -28,8 +30,8 @@
           <!-- <div class="mr-2">
             <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
           </div> -->
-          <span>{{ $element.name }}</span>
-          <div id="total-{{ $element.name | lower }}-search-result" class="search-result-label ml-3">0</div>
+          <span>{{ $element.label }}</span>
+          <div id="total-{{ $element.name }}-search-result" class="search-result-label ml-3">0</div>
         </button>
       </div>
      {{ end }}
@@ -55,7 +57,7 @@
     evt.currentTarget.className += " active";
     displaySearchResults(evt.currentTarget.id)
   }
-  document.getElementById("Plants").click();
+  document.getElementById("plants").click();
 </script>
 {{ end }}
 

@@ -5,10 +5,7 @@ excerpt: An electrical distribution system is made up of switchgear and panelboa
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 6
 associated_systems:
-  - 
-related_components:
-  - 
-borrow_equipment_url: ""
+  - Lighting Fixture
 layout: guide
 url: "/documents/systems/electrical-distribution"
 ---

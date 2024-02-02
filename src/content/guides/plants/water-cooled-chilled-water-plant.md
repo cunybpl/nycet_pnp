@@ -41,6 +41,9 @@ A water-cooled chiller produces chilled water through the basic refrigeration cy
     </figure>
 </a>
 
+_This an example of the shortcode._
+{{< page_hyperlink page_title="Water-Cooled Chiller" img="images/calculation-methodology/calculation-methodology-icon.png" icon="fa-arrow-right" >}}
+
 ### Chilled Water Loop System
 
 A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building. Components of a chilled water loop are shown in Figure 3.
@@ -64,6 +67,9 @@ A condenser water loop consists of an open loop distribution system that circula
     </figure>
 </a>
 
+_This an example of the shortcode._
+{{< page_hyperlink page_title="Condenser Water Loop" img="images/calculation-methodology/calculation-methodology-icon.png" icon="fa-arrow-right" >}}
+
 ### Waterside Economizer System
 
 Waterside economizers may use an external plate-and-frame heat exchanger between the condenser and chilled water loop or the chiller itself may be set up to perform the function of a waterside heat exchanger. When the outdoor temperatures are favorable, heat from the chilled water loop may be rejected directly to the condenser water loop through a heat exchanger without running the chiller compressor motor. Components of a waterside economizer system are shown in Figure 5.
@@ -74,6 +80,9 @@ Waterside economizers may use an external plate-and-frame heat exchanger between
         <figcaption class="figure-caption text-left">Figure 5. Waterside economizer system.</figcaption>
     </figure>
 </a>
+
+_This an example of the shortcode._
+{{< page_hyperlink page_title="Waterside Economizer" img="images/calculation-methodology/calculation-methodology-icon.png" icon="fa-arrow-right" >}}
 
 ## Key Values Needed to Assess Energy Consumption
 

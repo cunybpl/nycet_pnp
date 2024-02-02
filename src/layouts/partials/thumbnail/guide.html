@@ -31,16 +31,26 @@
           <a class="btn btn-primary" href="{{ .page_url | relURL }}">View {{ .params.type | safeHTML | title }}</a>
         </div>
       </div>
+      {{ if isset .params "associated_systems" }}
       <hr class="mt-4 mb-3">
       <div class="px-4">
         <p class="">Associated {{ $label }}</p>
         <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0">
+          {{ $counter := 0 }}
+          {{ range where .pages "Title" "in" .params.associated_systems }}
+          <!-- This loop is for counter -->
+            {{ $counter = add $counter 1 }}
+          {{ end }}
           {{ range first 3 (where .pages "Title" "in" .params.associated_systems) }}
+          <!-- This loop is for the actual data -->
             {{ partial "thumbnail/associated_systems.html" . }}
           {{ end }}
-          {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" .guide_id "type" .guide_type "content" .params.associated_systems "all_pages" .pages "guide_title" .page_title) }}
+          {{ if gt $counter 3 }}
+            {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" .guide_id "type" .guide_type "content" .params.associated_systems "all_pages" .pages "guide_title" .page_title) }}
+          {{ end }}
         </ul>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>

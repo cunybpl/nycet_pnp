@@ -8,7 +8,6 @@ associated_systems:
   - Liquid-to-liquid Heat Exchanger
 related_components:
   - Liquid-to-liquid Heat Exchanger
-borrow_equipment_url: ""
 layout: guide
 url: "/documents/systems/waterside-economizer"
 ---

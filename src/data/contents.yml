@@ -2,10 +2,21 @@ enable: true
 contents:
   - enable: true
     active: false
-    name: Plants
+    name: plants
+    label: Plants
   - enable: true
     active: false
-    name: Systems
+    name: systems
+    label: Systems
   - enable: true
     active: false
-    name: Components
+    name: components
+    label: Components
+  - enable: true
+    active: false
+    name: calculations
+    label: Calculation Methodologies
+  - enable: true
+    active: false
+    name: measurements
+    label: Measurement Techniques
