@@ -7,9 +7,12 @@ system_id: 11
 associated_systems:
   - Steam Condensate Recovery
   - Steam Distribution
+  - Hot Water Loop
 related_components:
-  - Constant-Speed Constant-Volume Fan and Motor
-  - Variable-Speed Variable-Volume Fan and Motor
+  - Constant-Speed, Constant-Volume Fan and Motor
+  - Variable-Speed, Variable-Volume Fan and Motor
+  - Burner
+  - Liquid-to-Air Heat Exchanger
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide
 url: "/documents/systems/boiler"

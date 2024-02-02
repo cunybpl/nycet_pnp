@@ -8,10 +8,15 @@ associated_systems:
   - Condenser Water Pump and Motor
   - Liquid-to-Liquid Heat Exchanger
   - Evaporative Cooling Tower
+  - Waterside Economizer
+  - Chilled Water Loop
+  - Condenser Water Loop
 related_components:
   - Condenser Water Pump and Motor
   - Liquid-to-Liquid Heat Exchanger
   - Evaporative Cooling Tower
+  - Constant-Speed, Constant-Volume Compressor and Motor
+  - Variable-Speed, Variable-Volume Compressor and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chiller"
 layout: guide
 url: "/documents/systems/water-cooled-chiller"

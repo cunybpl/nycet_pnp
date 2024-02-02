@@ -7,14 +7,19 @@ excerpt: Uses a flow meter to measure the flow rate of a fluid within a pipe. Th
 related_systems:
   - Water-Cooled Chiller
   - Waterside Economizer
+  - Boiler
+  - Steam Condensate Recovery
+  - Air Cooled Chiller
 related_components:
   - Liquid-to-Liquid Heat Exchanger
+  - Liquid-to-Air Heat Exchanger
 related_calculation_methodologies:
   - Cooling Tower Fans Energy Consumption
   - Liquid-to-liquid Heat Exchanger
 associated_measurement_techniques:
   - Motor Runtime
 borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
+borrow_equipment_url: ""
 url: "/documents/measurement-technique/water-flow-rate"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Variable-Speed Fan and Motor
+title: Variable-Speed, Variable-Volume Fan and Motor
 type: component
 excerpt: A variable speed fan and motor uses a power-driven rotating impeller to circulate air.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
@@ -208,6 +208,8 @@ Further details about measurement tools and equipment associated with measuremen
 {{< measurement_technique measurement_technique_id=4 >}}
 
 {{< measurement_technique measurement_technique_id=3 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
 
 ## Calculation Methodology
 

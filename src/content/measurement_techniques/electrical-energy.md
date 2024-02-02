@@ -5,9 +5,18 @@ layout: measurement_technique
 measurement_technique_id: 1
 excerpt: This technique uses a data logger to take long- term measurements of the electrical energy (kWh) and power draw (kW) of a system or component at one- hour intervals.
 related_systems:
-  //Ask Orlando
+  - Water Cooled Chiller
+  - Condenser Water Loop
+  - Chilled Water Loop
+  - Hot Water Loop
+  - Steam Distribution
+  - Steam Condensate Recovery
+  - Electrical Distribution
+  - Variable-Speed, Variable-Volume Air Handling Unit
 related_components:
-  //Ask Orlando
+  - Variable-Speed, Variable-Volume Pump and Motor
+  - Variable-Speed, Variable-Volume Fan and Motor
+  - Variable-Speed, Variable-Volume Compressor and Motor
 related_calculation_methodologies:
   - Cooling Tower Fans Energy Consumption
 associated_measurement_techniques:
