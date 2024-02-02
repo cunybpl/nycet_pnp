@@ -1,7 +1,7 @@
 {{ $image_id := .Params.image_id }}
 {{ range where .Site.Data.image_hotspots.images "id" $image_id }}
   <section>
-    <div class="imageMap__container">
+    <div id="img-container" class="imageMap__container">
       <img src="{{ .img_url }}" alt="Image hotspot {{ .id }}">
       {{ range .markers }}
         <div
@@ -44,6 +44,7 @@
 	grid-template-rows: repeat(11, 1fr);
   position: relative;
   margin-top: 5rem;
+  overflow: hidden;
 }
 .imageMap__container img {
   width: 100%;
@@ -118,6 +119,12 @@
   &:hover {
     cursor: text;
   }
+}
+
+#img-container:hover {
+  transform: scale(1.75);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
 }
 
 /* animations */
