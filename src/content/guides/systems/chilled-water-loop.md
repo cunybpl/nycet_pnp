@@ -3,6 +3,7 @@ title: Chilled Water Loop
 type: system
 excerpt: Consists of two main components – the pump and motors and a piping network.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+system_id: 1
 associated_systems:
   - Constant-Speed, Constant-Volume Pump and Motor
 related_components:

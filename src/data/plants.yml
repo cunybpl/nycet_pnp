@@ -30,6 +30,9 @@ documents:
   - type: plant
     title: "[Copy 10] Water-Cooled Chilled Water Plant"
     measurement_type: "water-side, cooling"
+  - type: plant
+    title: "Hot-Water Heating Plant"
+    measurement_type: "water"
 
 
 
