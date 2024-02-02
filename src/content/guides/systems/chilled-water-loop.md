@@ -5,13 +5,11 @@ excerpt: Consists of two main components – the pump and motors and a piping ne
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 1
 associated_systems:
-  - Air Cooled Chiller
-  - Condenser Water Loop
-  - Water Cooled Chiller
-  - Waterside Economizer
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 related_components:
-  - Constant-Speed, Constant-Volume Pump and Motor
-  - Variable-Speed, Variable-Volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chilled-water-loop"
 layout: guide
 url: "/documents/systems/chilled-water-loop"
@@ -71,21 +69,21 @@ The primary energy consumption in a CHW loop is the electricity used to run the 
 Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a CHW loop.
 
 <table cellspacing="0" cellpadding="7">
-    <caption>Table 1. Key values, components, and measurements.</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th width="25.663716814159294%">
+            <td width="25.663716814159294%" bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th width="26.01769911504425%">
+            </td>
+            <td width="26.01769911504425%" bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th width="22.371681415929203%">
-                <p><strong>Energy Consuming Components</strong></p>
-            </th>
-            <th width="21.946902654867255%">
+            </td>
+            <td width="22.371681415929203%" bgcolor="#e7e6e6">
+                <p><strong>Energy Consuming Component</strong></p>
+            </td>
+            <td width="21.946902654867255%" bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     </thead>
     <tbody>
@@ -148,7 +146,7 @@ Table 1 provides a summary of system component measurements and values needed to
     </tbody>
 </table>
 
-## Chilled Water Loop System Measurement Point Locations
+### Chilled Water Loop System Measurement Point Locations
 
 The measurement locations for a primary-flow and a primary-secondary flow are shown in Figure 2.
 

@@ -5,17 +5,17 @@ excerpt: A steam distribution system is responsible for distributing the steam p
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 13
 associated_systems:
-  - Boiler
-  - Steam Condensate Recovery
+  - Variable-speed, Variable-volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
 related_components:
-  - Variable-Speed, Variable-Volume Pump and Motor
-  - Constant-Speed, Constant-Volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide
 url: "/documents/systems/steam-distribution"
 ---
 
-## Detailed Description of a Steam Distribution System
+## General Overview
 
 A steam distribution system is responsible for distributing the steam produced by a steam boiler system as well as handling any condensate generated in the process. Common configurations for steam distribution systems include one-pipe and two-pipe systems. The main focus will be on two-pipe systems, as they are common in larger facilities. In a two-pipe system, the condensate is handled by a dedicated return line and is kept separate from any steam. The condensate return line can be treated as its own system and is discussed in a separate protocol and procedure document.
 
@@ -75,21 +75,21 @@ If present, a vacuum pump is located after the steam traps and lowers the pressu
 The steam distribution system distributes heat energy, with losses to the non-conditioned environment along the way, but does not inherently consume energy. The exceptions are systems with a vacuum pump, which consumes electricity. Generally the energy related to the steam distribution system is not quantified; instead the energy consumption of the overall low pressure steam plant is quantified. For more information see <a href="/documents/plants/steam-plant"> this link </a>.
 
 <table>
-    <caption>Table 1. Energy-consuming components associated with the Boiler system.</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th>
-                <p><strong>Values to Quanfity</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
+                <p><strong>Values to be Quantified</strong></p>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>

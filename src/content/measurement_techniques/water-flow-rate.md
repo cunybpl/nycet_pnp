@@ -5,20 +5,14 @@ layout: measurement_technique
 measurement_technique_id: 11
 excerpt: Uses a flow meter to measure the flow rate of a fluid within a pipe. The technique is typically used on water loop systems to measure the flow through heating and cooling plants, but it can also be used to measure the flow rate of other fluids (e.g., glycol).
 related_systems:
-  - Water-Cooled Chiller
+  - Water-cooled Chiller
   - Waterside Economizer
   - Boiler
   - Steam Condensate Recovery
   - Air Cooled Chiller
 related_components:
-  - Liquid-to-Liquid Heat Exchanger
-  - Liquid-to-Air Heat Exchanger
-related_calculation_methodologies:
-  - Cooling Tower Fans Energy Consumption
   - Liquid-to-liquid Heat Exchanger
-associated_measurement_techniques:
-  - Motor Runtime
-borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
+  - Liquid-to-air Heat Exchanger
 borrow_equipment_url: ""
 url: "/documents/measurement-technique/water-flow-rate"
 ---
@@ -51,7 +45,7 @@ Please note that certain flow meters offered at the FELL will require setup with
 
 ## Measurement Steps
 
-### Preparation for Data Acquisition
+### 1. Preparation for Data Acquisition
 
 Identify the location where the flow meter will be installed. Refer to the equipment’s user manual for detailed instructions on how to set up the meter(s).
 
@@ -66,7 +60,7 @@ Identify the location where the flow meter will be installed. Refer to the equip
   <figcaption class="figure-caption text-left">Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed. FPO</figcaption>
 </figure>
 
-### Installation of Equipment
+### 2. Installation of Equipment
 
 - Confirm that the equipment is operational. 
 - Some piping systems have a layer of insulation to minimize heat loss. There are scenarios where the insulation must be cut to install the transducers of the flow meter. 
@@ -90,7 +84,7 @@ Identify the location where the flow meter will be installed. Refer to the equip
   <figcaption class="figure-caption text-left">Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System. FPO</figcaption>
 </figure>
 
-### Verify Data is Being Collected
+### 3. Verify Data is Being Collected
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment to do the following:
 
@@ -107,7 +101,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
   <figcaption class="figure-caption text-left">Figure 5. Retrieve data screen on the DXN Portable Ultrasonic Measurement System. For this meter, a USB storage device is connected to the back of the meter. FPO</figcaption>
 </figure>
 
-### Retrieve Measurement Equipment and Download All Final Data
+### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying the meter is collecting data do the following:
 

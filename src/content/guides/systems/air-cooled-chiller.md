@@ -1,23 +1,23 @@
 ---
-title: Air Cooled Chiller 
+title: Air-cooled Chiller 
 type: system
 excerpt: An air-cooled chiller consists of an evaporator, a compressor, condenser fans, and an expansion valve.The system produces chilled water through the basic refrigeration cycle.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 5
 associated_systems:
-  - Chilled Water Loop
+  - Liquid-to-liquid Heat Exchanger
 related_components:
-  - Liquid-to-Liquid Heat Exchanger
+  - Liquid-to-liquid Heat Exchanger
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chilled-water-loop"
 layout: guide
 url: "/documents/systems/air-cooled-chiller"
 ---
 
-## Air-Cooled Chiller System
+## General Overview
 
 An air-cooled chiller consists of an evaporator, a compressor, condenser fans, and an expansion valve.The system produces chilled water through the basic refrigeration cycle.
 
-## Air-Cooled Chiller Components
+## Air-cooled Chiller Components
 
 Each of the various components associated with an air-cooled chiller are listed below (see Figure 1). Air-cooled chillers may be customized with a variety of high-performance components, such as variable frequency drives (VFD) on condenser fans and compressors, high efficiency compressor designs, thermostatic or electronic expansion valves, condenser coils with enhanced heat transfer characteristics, optimized condenser fan design and system airflow characteristics, and digital direct control systems that optimize the energy efficiency of the chiller.
 
@@ -51,21 +51,21 @@ The expansion valve reduces the pressure in the refrigerant, allowing it to coll
 The primary energy consumption of an air-cooled chiller is the electricity used for the compressor motor and condenser fan motors. The thermal energy rejected by the chiller to the outdoors can also be measured to evaluate the overall performance of the chiller. These to values can be expressed as kilowatts of power consumed per ton of cooling provided (kW/ton). Table 1  provides a summary of the components measurements and values needed to quantify the annual energy consumption and operating characteristics of an air-cooled chiller.
 
 <table>
-    <caption>Table 1. Key valies. components, and measurements</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -116,7 +116,7 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
     </tbody>
 </table>  
 
-## Air-Cooled Chiller System Measurement Point Locations
+### Air-cooled Chiller System Measurement Point Locations
 
 The measurement locations for an air-cooled chiller and chilled water pumps are shown in Figure 2. 
 

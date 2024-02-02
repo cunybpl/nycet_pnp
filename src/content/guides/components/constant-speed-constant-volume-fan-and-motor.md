@@ -1,14 +1,14 @@
 ---
-title: Constant-Speed, Constant-Volume Fan and Motor
+title: Constant-speed, Constant-volume Fan and Motor
 type: component
 excerpt: A constant speed constant volume (CSCV) fan uses a power-driven rotating impeller to circulate air at a single speed. Fans can be either axial or centrifugal.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Constant-Speed, Constant-Volume Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
   - Boiler
   - Condenser Water Loop
 related_systems:
-  - Constant-Speed, Constant-Volume Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
   - Boiler
   - Condenser Water Loop
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
@@ -16,7 +16,7 @@ layout: guide
 url: "/documents/components/constant-speed-constant-volume-fan-and-motor"
 ---
 
-## General Description and Configurations of Constant Speed Volume Fan and Motor
+## General Overview
 
 A constant speed constant volume (CSCV) fan uses a power-driven rotating impeller to circulate air at a single speed. Fans can be either axial or centrifugal. 
 
@@ -26,26 +26,26 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
     <caption>Table 1. Plants and systems containing constant-speed fans.</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Plant</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Controlling Variable</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Air-Cooled Chilled Water Plant</p>
+                <p>Air-cooled Chilled Water Plant</p>
             </td>
             <td>
-                <p>Air-Cooled Chiller</p>
+                <p>Air-cooled Chiller</p>
                 <p><br></p>
             </td>
             <td>
@@ -57,7 +57,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
         </tr>
         <tr>
             <td>
-                <p>Water-Cooled Chilled Water Plant</p>
+                <p>Water-cooled Chilled Water Plant</p>
             </td>
             <td>
                 <p>Cooling Tower</p>
@@ -118,7 +118,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
     </tbody>
 </table>   
 
-## Key Values Needed to Assess Energy Consumption for Constant Speed Constant Volume Fan and Motor 
+## Key Values Needed to Assess Energy Consumption for Constant-speed Constant-volume Fan and Motor 
 
 The primary energy source for a CSCV fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV fan and motor.  
 
@@ -126,15 +126,15 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
         <tr>
-            <th>
+            <td width="30.073349633251834%" bgcolor="#e7e6e6">
                 <p><strong>Component Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td width="33.251833740831295%" bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td width="36.67481662591687%" bgcolor="#e7e6e6">
                 <p><strong>Measurement</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -176,13 +176,13 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     </tbody>
 </table>  
 
-## Measurement Approach
+## Measuring Energy Consumption of Fan and Motor
 
 The measurement boundary for quantifying energy consumption for the CSCV fan and motor is shown in Figure 1 below. 
 
 <a href="/images/components/Measurement-boundary-of-a-CSCV-fan.png">
 <figure class="figure mb-3 mt-3">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a CSCV fan.">
+  <img src="/images/components/Measurement-boundary-of-a-CSCV-fan.png" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a CSCV fan.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a CSCV fan.</figcaption>
 </figure>
 </a>
@@ -192,8 +192,6 @@ The measurement strategy for a CSCV fan and motor is to do a one-time measuremen
 If the fans are in a modular configuration (assuming they all run at the same speed), then only one fan needs to be measured, provided substantiating documentation from the building automation system (BAS) shows that all cells are operating equally at the same time. If fans are further staged, all fans should be measured. 
 
 In some cases, the operational schedule of the motor will be related to the heating or cooling load of the facility. OAT can be used as a proxy variable for the heating and cooling load. OAT can be measured onsite or data from a nearby weather station may also be used for OAT.
-
-## Measurements
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for CSCV fan and motor> 
 
@@ -210,6 +208,8 @@ The general methodology for quantifying the energy consumption of a CSCV fan mot
 However, the yearly schedule may be dependent on OAT. If so, the operating hours values can be regressed against OAT to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical annual operating schedule, which is in turn used in conjunction with the power draw to calculate the estimated annual electricity consumption.
 
 A more detailed explanation of the calculation methodology can be found in <link to calculation methodology>. 
+
+{{< calculation_methodology calculation_methodology_id=2 >}}
 
 ## References
 Boyd, BK.; McMordie Stoughton, KL.; Lewis, T. (2017). “Cooling Tower (Evaporative Cooling System) Measurement and Verification Protocol.” Golden, CO: National Renewable Energy Laboratory. https://www.nrel.gov/docs/fy18osti/70219.pdf.  

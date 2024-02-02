@@ -4,13 +4,13 @@ type: plant
 excerpt: The air handling plant (AHP) takes input energy (e.g., electricity, heated or chilled water) and conditions the air to meet required indoor environmental conditions
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Constant-Speed, Constant-Volume Air Handling Unit
-  - Dual-Speed Air Handling Unit
-  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
+  - Dual-speed Air Handling Unit
+  - Variable-speed, Variable-volume Air Handling Unit
 related_systems:
-  - Constant-Speed, Constant-Volume Air Handling Unit
-  - Dual-Speed Air Handling Unit
-  - Variable-Speed, Variable-Volume Air Handling Unit 
+  - Constant-speed, Constant-volume Air Handling Unit
+  - Dual-speed Air Handling Unit
+  - Variable-speed, Variable-volume Air Handling Unit 
 layout: guide
 url: "/documents/plants/air-handling-plant"
 ---
@@ -37,11 +37,11 @@ The systems and components that make up the air handling plant are listed and de
     </figure>
 </a>
 
-### Constant-Speed, Constant-Volume (CSCV) AHU
+### Constant-speed, Constant-volume (CSCV) AHU
 
 A CSCV air handling system provides heating, cooling and ventilation air to a space in a facility. The AHU is built on-site out of various sections. The volume of outside air in the AHU can be modulated from 0% (outside air damper fully closed) to a typical ventilation rate (minimum outside air damper position) and in some cases can provide 100% outside air (economizer mode). 
 
-### Dual-Speed, Constant-Volume (DSCV) AHU 
+### Dual-speed, Constant-Volume (DSCV) AHU 
 
 A DSCV system is similar to a CSCV system except the fan motors in the AHU have a high and low speed setting. This configuration allows the AHU to operate at a slower speed during setbacks during unoccupied times such as night or weekends.  
 
@@ -81,15 +81,15 @@ The energy consumption in an air handling plant is the sum of the energy used by
     <caption>Table 1. Key values, components, and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System(s)</strong></p>
-            </th>
-            <th>
-                <p><strong>Energy Consuming Components</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
+                <p><strong>Energy Consuming Component</strong></p>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to Quantify</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>

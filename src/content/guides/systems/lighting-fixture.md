@@ -4,16 +4,12 @@ type: system
 excerpt: A lighting fixture system produces light to illuminate a specific area or areas.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 7
-associated_systems:
-  - Electrical Distribution
-related_components:
-  - 
 borrow_equipment_url: //Ask Orlando
 layout: guide
 url: "/documents/systems/lighting-fixture"
 ---
 
-## Detailed Description of a Lighting Fixture System
+## General Overview
 
 A lighting fixture system produces light to illuminate a specific area or areas. Current is received from the electrical distribution system. The group of fixtures that comprise a lighting system can be configured in many ways with different lamp types and a building can have one or more lighting fixture systems. The main components of an individual lighting fixture are lamps, ballasts, and controls. 
 
@@ -56,21 +52,21 @@ Controls regulate the operation of the light fixtures, such as when they are tur
 Electricity is the energy source for all modern lighting systems. Table 1 provides a summary of system component measurements and values needed to quantify the hourly energy consumption and operating characteristics of a lighting fixture system.  
 
 <table>
-    <caption>Table 1. Lighting Plant Values</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -121,9 +117,9 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
     </tbody>
 </table>
 
-## Lighting Fixture System Measurement Point Locations
+### Lighting Fixture System Measurement Point Locations
 
-Electrical measurements of lighting fixtures must be taken at the electrical distribution components. Further details can be found in the <Reference electrical distribution system: https://www.dropbox.com/s/3pldg1zo2uypqlm/2022_0119_electrical_distribution_system.docx?dl=0> 
+Electrical measurements of lighting fixtures must be taken at the electrical distribution components. Further details can be found in the <a href="/documents/systems/electrical-distribution">Electrical Distribution</a> page.  
 
 An auditor can develop a sampling plan and use a light on/off logger to measure the schedule of a single fixture. The single light fixture should be representative of the other fixtures in the room to assume the same schedule for all fixtures. Then a direct power draw measurement at the electrical panelboard that serves the fixture is needed. The power draw data and the schedule data obtained from the light on/off logger allows an auditor to estimate energy consumption.
 
@@ -140,6 +136,8 @@ An auditor can develop a sampling plan and use a light on/off logger to measure 
         <figcaption class="figure-caption text-left">Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures.</figcaption>
     </figure>
 </a>
+
+### Calculation Methodology
 
 {{< calculation_methodology calculation_methodology_id=3 >}}
 

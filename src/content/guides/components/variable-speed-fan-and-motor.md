@@ -1,14 +1,14 @@
 ---
-title: Variable-Speed, Variable-Volume Fan and Motor
+title: Variable-speed, Variable-volume Fan and Motor
 type: component
 excerpt: A variable speed fan and motor uses a power-driven rotating impeller to circulate air.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Variable-speed, Variable-volume Air Handling Unit
   - Boiler
   - Condenser Water Loop
 related_systems:
-  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Variable-speed, Variable-volume Air Handling Unit
   - Boiler
   - Condenser Water Loop
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
@@ -16,7 +16,8 @@ layout: guide
 url: "/documents/components/variable-speed-fan-and-motor"
 ---
 
-## General Description and Configurations of Variable-Speed Fan and Motor  
+## General Overview
+
 A variable speed fan and motor uses a power-driven rotating impeller to circulate air. Air flow rates fluctuate as required by the plant and system it serves.  Outdoor air temperature (OAT) is the independent variable that drives the fan speed. The heating and cooling loads are affected by OAT. Axial and centrifugal fans with a variable speed drive are the most common type of variable speed fans used in buildings.  
 
 Table 1 shows the plant and system configurations that may contain variable-speed fans and motors and the most common respective controlling variables. 
@@ -25,26 +26,26 @@ Table 1 shows the plant and system configurations that may contain variable-spee
     <caption>Table 1. Plants and systems containing variable-speed fans.</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Plant</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Controlling Variable</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Air-Cooled Chilled Water Plant</p>
+                <p>Air-cooled Chilled Water Plant</p>
             </td>
             <td>
-                <p>Air-Cooled Chiller</p>
+                <p>Air-cooled Chiller</p>
                 <p><br></p>
             </td>
             <td>
@@ -56,7 +57,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
         </tr>
         <tr>
             <td>
-                <p>Water-Cooled Chilled Water Plant</p>
+                <p>Water-cooled Chilled Water Plant</p>
             </td>
             <td>
                 <p>Cooling Tower</p>
@@ -117,22 +118,22 @@ Table 1 shows the plant and system configurations that may contain variable-spee
     </tbody>
 </table>
 
-## Key Values Needed to Assess Power Consumption for Variable-Speed Fan and Motor
+## Key Values Needed to Assess Power Consumption for Variable-speed Fan and Motor
 The primary energy source for a variable-speed fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the variable-speed fan and motor.  
 
 <table>
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Component Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurement</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -186,7 +187,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     </tbody>
 </table>
 
-## Measurement Approach
+## Measuring Energy Consumption of Fan and Motor
 
 The measurement boundary for quantifying energy consumption for a variable-speed fan and motor is shown in Figure 1 below. 
 
@@ -198,8 +199,6 @@ The measurement boundary for quantifying energy consumption for a variable-speed
 </a>
 
 The measurement strategy for a variable-speed fan and its motor is to measure power draw of the fan motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated controlling variable (OAT, WBT). Measurement points are generically represented in Figure 1. 
-
-## Measurements
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for VSVV fan and motor>.  
 

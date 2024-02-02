@@ -1,17 +1,17 @@
 enable: true
 documents:
   - type: component
-    title: "Constant-Speed, Constant-Volume Pump and Motor"
+    title: "Constant-speed, Constant-volume Pump and Motor"
     measurement_type: "water-side, cooling"
   - type: component
-    title: "Liquid-to-Liquid Heat Exchanger"
+    title: "Liquid-to-liquid Heat Exchanger"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
   - type: component
-    title: "Constant-Speed, Constant-Volume Fan and Motor"
+    title: "Constant-speed, Constant-volume Fan and Motor"
     measurement_type: "cooling"
   - type: component
-    title: "Variable-Speed, Variable-Volume Fan and Motor"
+    title: "Variable-speed, Variable-volume Fan and Motor"
     measurement_type: "cooling"
   - type: component
-    title: "Variable-Speed, Variable-Volume Pump and Motor"
+    title: "Variable-speed, Variable-volume Pump and Motor"
     measurement_type: "cooling"

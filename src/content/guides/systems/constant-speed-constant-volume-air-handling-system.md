@@ -1,25 +1,25 @@
 ---
-title: Constant-Speed, Constant-Volume Air Handling Unit
+title: Constant-speed, Constant-volume Air Handling Unit
 type: system
 excerpt: A constant-speed, constant-volume (CSCV) air handling unit provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 8
 associated_systems: 
-  - Dual-Speed Air Handling Unit
-  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Constant-speed, Constant-volume Fan and Motor
+  - Liquid-to-air Heat Exchanger
 related_components:
-  - Constant-Speed, Constant-Volume Fan and Motor
-  - Liquid-to-Air Heat Exchanger
+  - Constant-speed, Constant-volume Fan and Motor
+  - Liquid-to-air Heat Exchanger
 borrow_equipment_url: 
 layout: guide
 url: "/documents/systems/constant-speed-constant-volume-air-handling-system"
 ---
 
-## Detailed Description of a Constant-Speed, Constant-Volume System
+## General Overview
 
 A constant-speed, constant-volume (CSCV) air handling unit provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors. The CSCV system has a constant volumetric airflow rate. The discharge air is conditioned by heating or cooling heat exchangers that are supplied from the heating and cooling loop systems (e.g., steam loop, hot water heating loop, chilled water loop). For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4. 
 
-## Constant-Speed, Constant-Volume Components 
+## Constant-speed, Constant-volume Air Handling Unit Components 
 
 The major components of a CSCV system are fans and motors, heat exchanger coils, and dampers. Figure 1 shows the components associated with the CSCV. In general, the mixed air is conditioned by heating or cooling coils that use the output of the heating or cooling loops, using mechanical valves to regulate the amount of energy introduced to the coils. Supply and return fans move air to and from the zones served and dampers control airflows. 
 
@@ -47,21 +47,21 @@ Dampers are generally interlocked and are controlled to supply appropriate quant
 The primary energy consumption of a CSCV is the electricity that is used to run the fan and motor and the energy transferred to the air for heating and cooling. Table 1 provides a summary of measurements needed to quantify the annual consumption and operating characteristics of the CSCV pump and motor. 
 
 <table>
-    <caption>Table 1. Energy-consuming components associated with the CSCV AHU system</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -97,7 +97,7 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
     </tbody>
 </table>
 
-## Constant-Speed, Constant-Volume System Measurement Point Locations
+### Constant-speed, Constant-volume System Measurement Point Locations
 
 The measurement locations for a CSCV AHU are shown in Figure 2. 
 

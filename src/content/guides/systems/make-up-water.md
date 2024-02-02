@@ -8,7 +8,7 @@ associated_systems:
   - Boiler
   - Hot Water Loop
 related_components:
-  - Constant-Speed, Constant-Volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
 borrow_equipment_url: 
 layout: guide
 url: "/documents/systems/make-up-water"

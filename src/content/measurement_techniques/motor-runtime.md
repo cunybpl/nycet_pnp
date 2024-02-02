@@ -7,22 +7,18 @@ excerpt: Use data loggers to take long-term measurements of the runtime duration
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
-  - Constant-Speed, Constant-Volume Air Handling Unit
-  - Dual-Speed Air Handling Unit
-  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Constant-speed, Constant-volume Air Handling Unit
+  - Dual-speed Air Handling Unit
+  - Variable-speed, Variable-volume Air Handling Unit
   - Steam Condensate Recovery
   - Steam Distribution
   - Boiler
   - Water Cooled Chiller
 related_components:
-  - Constant-Speed, Constant-Volume Pump and Motor
-  - Constant-Speed, Constant-Volume Fan and Motor
-  - Variable-Speed, Variable-Volume Fan and Motor
-  - Constant-Speed, Constant-Volume Compressor and Motor
-related_calculation_methodologies:
-  - Liquid-to-liquid Heat Exchanger
-associated_measurement_techniques:
-  - Electrical Energy
+  - Constant-speed, Constant-volume Pump and Motor
+  - Constant-speed, Constant-volume Fan and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Constant-speed, Constant-volume Compressor and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/motor-runtime"
 ---

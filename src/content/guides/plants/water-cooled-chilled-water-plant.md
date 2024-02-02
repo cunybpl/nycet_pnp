@@ -1,17 +1,17 @@
 ---
-title: Water-Cooled Chilled Water Plant
+title: Water-cooled Chilled Water Plant
 type: plant
 excerpt: Consists of a water-cooled chiller system, a condenser water loop system and a chilled water loop system operating to meet cooling demand in a facility.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
   - Chilled Water Loop
   - Condenser Water Loop
-  - Water-Cooled Chiller
+  - Water-cooled Chiller
   - Waterside Economizer
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
-  - Water-Cooled Chiller
+  - Water-cooled Chiller
   - Waterside Economizer
 layout: guide
 url: "/documents/plants/water-cooled-chilled-water-plant"
@@ -28,9 +28,9 @@ A water-cooled chilled water plant consists of a water-cooled chiller system, a 
     </figure>
 </a>
 
-## Water-Cooled Chilled Water Plant Systems and Components
+## Water-cooled Chilled Water Plant Systems and Components
 
-### Water-Cooled Chiller System
+### Water-cooled Chiller System
 
 A water-cooled chiller produces chilled water through the basic refrigeration cycle to the chilled water loop to distribute to the facility. The primary systems and components of a water-cooled chiller are shown in Figure 2.
 
@@ -92,18 +92,18 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
     <caption>Table 1. Key values, components, and measurements.</caption>
     <thead>
         <tr>
-            <th>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Plant / System Quantification</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
-            </th>
-            <th>
+            </td>
+            <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </th>
+            </td>
         </tr>
     <tbody>
         <tr>
@@ -152,7 +152,7 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
     </tbody>
 </table>
 
-### Water-Cooled Chilled Water Plant Measurement Point Locations
+### Water-cooled Chilled Water Plant Measurement Point Locations
 
 The measurement points for a water-cooled chilled water plant are schematically shown in Figure 6. In the figure, the pumps are vertical in-line pumps which have the same measurement points as the centrifugal pumps shown in the CHW loop (Figure 3).
 

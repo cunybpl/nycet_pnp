@@ -1,5 +1,5 @@
 ---
-title: Constant-Speed, Constant-Volume Pump and Motor
+title: Constant-speed, Constant-volume Pump and Motor
 type: component
 excerpt: Operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
@@ -20,7 +20,7 @@ layout: guide
 url: "/documents/components/constant-speed-constant-volume-pump-motor"
 ---
 
-## General Description and Configurations
+## General Overview
 
 A constant-speed, constant-volume (CSCV) pump and motor operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
 
@@ -203,7 +203,7 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
     </tbody>
 </table>
 
-### Measurement Approach
+### Measuring Energy Consumption of Pump and Motor
 
 The measurement boundary for quantifying energy consumption for the constant-speed pump and motor is shown in Figure 1 below.
 
@@ -223,8 +223,6 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 </figure>
 </a>
 
-### Measurement Tools and Equipment
-
 {{< measurement_technique measurement_technique_id=4 >}}
 
 {{< measurement_technique measurement_technique_id=3 >}}
@@ -237,7 +235,7 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 
 {{< calculation_methodology calculation_methodology_id=4 >}}
 
-## Key Values Needed to Assess Constant-Speed Pump Flow
+## Key Values Needed to Assess Constant-speed Pump Flow
 
 Table 3 provides a summary of the values to measure to quantify the flow rate through a CSCV pump.
 
@@ -295,13 +293,15 @@ In both cases, a long-term measurement is needed to quantify the operational sch
 </figure>
 </a>
 
-### Measurement Tools and Equipment
+### Measurements
 
 Further details about measurement tools and equipment associated with measuring CSCV pump flow using the pressure differential and pump curve method can be found here (link to FELL kit); the ultrasonic meters can be found here (link to FELL kit). Motor operational scheduled can be measured using equipment here (link to motor logger). 
 
 ### Calculation Methodology
 
 The general methodology to estimate flow through a constant-speed pump is to establish the flow rate using one of the methods described above and use long-term measurements of the operational schedule of the pump and motor using a motor on/off logger. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. The flow rate and operations of a pump are used to calculate the thermal energy being transferred by the plant or system the pump serves (e.g., chilled water plant, hot water boiler, etc.).
+
+{{< calculation_methodology calculation_methodology_id=6 >}}
 
 ## References
 

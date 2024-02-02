@@ -7,7 +7,7 @@ documents:
     title: "Condenser Water Loop"
     measurement_type: "water-side, cooling"
   - type: system
-    title: "Water-Cooled Chiller"
+    title: "Water-cooled Chiller"
     measurement_type: "water-side, cooling"
   - type: system
     title: "Waterside Economizer"
@@ -31,11 +31,11 @@ documents:
     title: "Steam Distribution"
     measurement_type: "water-side, heating"
   - type: system
-    title: "Air Cooled Chiller"
+    title: "Air-cooled Chiller"
     measurement_type: "water-side, cooling"
   - type: system
-    title: "Constant-Speed, Constant-Volume Air Handling Unit"
+    title: "Constant-speed, Constant-volume Air Handling Unit"
     measurement_type: "air"
   - type: system
-    title: "Variable-Speed, Variable-Volume Air Handling Unit"
+    title: "Variable-speed, Variable-volume Air Handling Unit"
     measurement_type: "air"

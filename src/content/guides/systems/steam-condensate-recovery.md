@@ -5,18 +5,19 @@ excerpt: The steam condensate recovery system is responsible for collecting cond
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 12
 associated_systems:
-  - Boiler
-  - Steam Distribution
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
+  - Liquid-to-air Heat Exchanger
 related_components:
-  - Constant-Speed, Constant-Volume Pump and Motor
-  - Variable-Speed, Variable-Volume Pump and Motor
-  - Liquid-to-Air Heat Exchanger
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
+  - Liquid-to-air Heat Exchanger
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide
 url: "/documents/systems/steam-condensate-recovery"
 ---
 
-## Detailed Description of a Steam Condensate Recovery System
+## General Overview
 
 The steam condensate recovery system is responsible for collecting condensate from the steam distribution system through steam tramps and recovering waste heat. The condensate returned to the boiler is typically passed through a deaerator to remove unwanted oxygen before the condensate reaches the boiler. Additionally, since condensate is purified water at high temperatures it can reduce the amount of fuel fed into the boiler as well as the water treatment costs for the makeup water.
 

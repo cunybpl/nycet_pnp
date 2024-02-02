@@ -12,17 +12,11 @@ related_systems:
   - Steam Distribution
   - Steam Condensate Recovery
   - Electrical Distribution
-  - Variable-Speed, Variable-Volume Air Handling Unit
+  - Variable-speed, Variable-volume Air Handling Unit
 related_components:
-  - Variable-Speed, Variable-Volume Pump and Motor
-  - Variable-Speed, Variable-Volume Fan and Motor
-  - Variable-Speed, Variable-Volume Compressor and Motor
-related_calculation_methodologies:
-  - Cooling Tower Fans Energy Consumption
-associated_measurement_techniques:
-  - Motor Runtime
-  - Water Flow Rate
-borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
+  - Variable-speed, Variable-volume Pump and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Variable-speed, Variable-volume Compressor and Motor
 url: "/documents/measurement-technique/electrical-energy"
 ---
 
@@ -42,7 +36,11 @@ This methodology can also be used as a <strong>proxy measurement</strong> of ope
 
 ### Equipment
 
+<<<<<<< HEAD
 The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current. Refer to the [FELL catalog] (https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger/) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off of the [Dent EliteProXC] (https://nycenergytools.com/equipment/energy-logger-2/) power data logger, which can be found and borrowed through FELL. 
+=======
+The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger/) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off of the [Dent EliteProXC](https://nycenergytools.com/equipment/energy-logger-2/) power data logger, which can be found and borrowed through FELL. 
+>>>>>>> main
 
 The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips). 
 
