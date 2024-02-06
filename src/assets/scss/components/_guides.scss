@@ -307,7 +307,17 @@ table.equation-table {
     vertical-align: middle;
   }
 }
-
+.equation {
+  display: block;
+  margin-block: 2em;
+  margin-left: 2em;
+}
+.equation-center {
+  text-align: center;
+}
+.equation-left {
+ text-align: left;
+}
 .tooltip-pnp {
   position: relative;
   display: inline;
