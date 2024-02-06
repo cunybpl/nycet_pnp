@@ -56,29 +56,36 @@
 }
 
 .markers {
-  background: red;
+  background: #52a85a;
   border-width: 4px;
   border-style: solid;
   border-radius: 50%;
-  border-color: rgba(255,255,255,.5);
-  width: 20px;
-  height: 20px;
+  border-color: #fff;
+  width: 18px;
+  height: 18px;
   box-sizing: border-box;
   align-self: center;
   justify-self: center;
   animation: ownpulse 3s cubic-bezier(.19,1,.22,1) infinite both;
   position: relative;
+  outline: 3px solid #52a85a;
   &:hover {
     cursor: pointer;
   }
+}
+.markers:hover {
+  background: #19232a;
+  outline-color: #19232a;
 }
 .markers:focus-within .marker__card, .markers:focus .marker__card {
 	display: block;
 }
 
 .marker__card {
-	background-color: #fefefe;
-	padding: 1rem;
+	background-color: #19232a;
+  color: white;
+	padding: 1.5em;
+  border-radius: 8px;
 	display: none;
 	min-height: 100px;
 	position: absolute;
@@ -86,8 +93,20 @@
   height: 250px;
   overflow: scroll;
 	z-index: 100;
-	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
-	box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+	-webkit-box-shadow:
+  0.8px 0.6px 2.2px rgba(0, 0, 0, 0.02),
+  2px 1.5px 5.3px rgba(0, 0, 0, 0.028),
+  3.8px 2.9px 10px rgba(0, 0, 0, 0.035),
+  6.7px 5.1px 17.9px rgba(0, 0, 0, 0.042),
+  12.5px 9.6px 33.4px rgba(0, 0, 0, 0.05),
+  30px 23px 80px rgba(0, 0, 0, 0.07);
+	box-shadow:
+  0.8px 0.6px 2.2px rgba(0, 0, 0, 0.02),
+  2px 1.5px 5.3px rgba(0, 0, 0, 0.028),
+  3.8px 2.9px 10px rgba(0, 0, 0, 0.035),
+  6.7px 5.1px 17.9px rgba(0, 0, 0, 0.042),
+  12.5px 9.6px 33.4px rgba(0, 0, 0, 0.05),
+  30px 23px 80px rgba(0, 0, 0, 0.07);
 	min-width: 220px;
 	animation: fadeInUp;
 	animation-duration: .5s;
@@ -108,6 +127,7 @@
 }
 
 .marker__card__title {
+  color: inherit;
   margin-top: 0;
   margin-bottom: 1rem;
   &:hover {
@@ -123,8 +143,22 @@
 
 #img-container:hover {
   transform: scale(1.75);
-  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
-	box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+  -webkit-box-shadow: 0.8px 0.6px 2.2px rgba(0, 0, 0, 0.02),
+  2px 1.5px 5.3px rgba(0, 0, 0, 0.028),
+  3.8px 2.9px 10px rgba(0, 0, 0, 0.035),
+  6.7px 5.1px 17.9px rgba(0, 0, 0, 0.042),
+  12.5px 9.6px 33.4px rgba(0, 0, 0, 0.05),
+  30px 23px 80px rgba(0, 0, 0, 0.07);
+	box-shadow:
+  0.8px 0.6px 2.2px rgba(0, 0, 0, 0.02),
+  2px 1.5px 5.3px rgba(0, 0, 0, 0.028),
+  3.8px 2.9px 10px rgba(0, 0, 0, 0.035),
+  6.7px 5.1px 17.9px rgba(0, 0, 0, 0.042),
+  12.5px 9.6px 33.4px rgba(0, 0, 0, 0.05),
+  30px 23px 80px rgba(0, 0, 0, 0.07);
+}
+#img-container:hover .marker__card {
+  font-size: 13px;
 }
 
 /* animations */
