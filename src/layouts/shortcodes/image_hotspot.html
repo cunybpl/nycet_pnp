@@ -1,0 +1,182 @@
+{{ $image_id := .Params.image_id }}
+{{ range where .Site.Data.image_hotspots.images "id" $image_id }}
+  <section>
+    <div id="img-container" class="imageMap__container">
+      <img src="{{ .img_url }}" alt="Image hotspot {{ .id }}">
+      {{ range .markers }}
+        <div
+          class="markers"
+          tabindex="0"
+          style="
+            grid-column: {{ .grid_column_numerator }}/{{ .grid_column_denominator }};
+            grid-row: {{ .grid_row_numerator }}/{{ .grid_row_denominator }};
+          "
+        >
+          <div
+            class="
+              marker__card
+              {{ if gt .grid_column_denominator 6 }} right-marker {{ else }} left-marker {{ end }}
+              {{ if gt .grid_row_denominator 6 }} bottom-marker {{ end }}
+            "
+          >
+            <h5 class="marker__card__title">
+              {{ .header }}
+            </h5>
+            <small class="marker__card__content">
+              <p>{{ .description }}</p>
+            </small>
+            <small>
+              <p>{{ .footer | safeHTML }}</p>
+            </small>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+  
+{{ end }}
+
+<style>
+.imageMap__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+	grid-template-rows: repeat(11, 1fr);
+  position: relative;
+  margin-top: 5rem;
+  overflow: hidden;
+}
+.imageMap__container img {
+  width: 100%;
+  height: auto;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.markers {
+  background: red;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: rgba(255,255,255,.5);
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  align-self: center;
+  justify-self: center;
+  animation: ownpulse 3s cubic-bezier(.19,1,.22,1) infinite both;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.markers:focus-within .marker__card, .markers:focus .marker__card {
+	display: block;
+}
+
+.marker__card {
+	background-color: #fefefe;
+	padding: 1rem;
+	display: none;
+	min-height: 100px;
+	position: absolute;
+	width: 350px;
+  height: 250px;
+  overflow: scroll;
+	z-index: 100;
+	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+	min-width: 220px;
+	animation: fadeInUp;
+	animation-duration: .5s;
+	animation-fill-mode: both;
+  cursor: default;
+}
+
+.left-marker {
+  left: 20px;
+}
+
+.right-marker {
+  left: -360px;
+}
+
+.bottom-marker {
+  top: -250px;
+}
+
+.marker__card__title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  &:hover {
+    cursor: text;
+  }
+}
+
+.marker__card__content {
+  &:hover {
+    cursor: text;
+  }
+}
+
+#img-container:hover {
+  transform: scale(1.75);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+}
+
+/* animations */
+@keyframes ownpulse {
+	0% {
+	    -webkit-box-shadow: 0 0 0 0 #fff;
+	    box-shadow: 0 0 0 0 #fff;
+	}
+	50% {
+	    -webkit-box-shadow: 0 0 0 40px rgba(92,112,214,0);
+	    box-shadow: 0 0 0 40px rgba(92,112,214,0);
+	}
+	0% {
+	    -webkit-box-shadow: 0 0 0 0 #fff;
+	    box-shadow: 0 0 0 0 #fff;
+	}
+	50% {
+	    -webkit-box-shadow: 0 0 0 40px rgba(92,112,214,0);
+	    box-shadow: 0 0 0 40px rgba(92,112,214,0);
+	}
+}
+@keyframes zoomIn {
+	0% {
+		opacity: 0;
+		transform: scale3d(.3,.3,.3);
+		-webkit-transform: scale3d(.3,.3,.3);
+	}
+	50% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInUp {
+	0% {
+    opacity: 0;
+	transform: scale3d(.3,.3,.3) translate3d(0,100%,0);
+	-webkit-transform: scale3d(.3,.3,.3);
+    -webkit-transform: translate3d(0,100%,0);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: scale3d(.3,.3,.3) translate3d(0,100%,0);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+}
+</style>

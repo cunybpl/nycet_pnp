@@ -15,6 +15,8 @@ layout: guide
 url: "/documents/systems/chilled-water-loop"
 ---
 
+{{< image_hotspot image_id=1 >}}
+
 ## General Overview
 
 A chilled water (CHW) loop consists of two main components – the pump and motors and a piping network. Chilled water is circulated by the pumps from the evaporator section of the chiller through the piping network to a terminal unit, such as a water-to-air heat exchanger in the air handling units or to other radiant equipment such as chilled beams, and then back to the chiller. A CHW loop can be designed as a primary-flow system and a primary-secondary system.
