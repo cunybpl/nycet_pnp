@@ -10,8 +10,8 @@
       display: flex;
       flex-direction: row;
       height: inherit;
+      padding-block: 3em;
     }
-    height: 450px;
     text-align: center;
     @include ipad {
       height: 765px;
