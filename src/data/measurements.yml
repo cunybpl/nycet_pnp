@@ -9,3 +9,6 @@ documents:
   - type: measurement
     title: "Water Flow Rate"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+  - type: measurement
+    title: "System Air Temperature"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
