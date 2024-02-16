@@ -66,7 +66,7 @@ A condenser water loop consists of an open loop distribution system that circula
 {{< hyperlink_image img_url="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg" img_caption="Figure 4. Condenser water loop." hyperlink="/documents/systems/condenser-water-loop" >}}
 
 <!-- <a href="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg">
-    <figure class="figure mb-3 mt-3">
+    <figure class="figure">
         <img src="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Condenser water loop.">
         <figcaption class="figure-caption text-left">Figure 4. Condenser water loop.</figcaption>
     </figure>
@@ -82,7 +82,7 @@ Waterside economizers may use an external plate-and-frame heat exchanger between
 {{< hyperlink_image img_url="/images/plants/water-cooled-chilled-water-plant/HE-Loop-diagram_2_11212022.jpg" img_caption="Figure 5. Waterside economizer system." hyperlink="/documents/systems/waterside-economizer" >}}
 
 <!-- <a href="/images/plants/water-cooled-chilled-water-plant/HE-Loop-diagram_2_11212022.jpg">
-    <figure class="figure mb-3 mt-3">
+    <figure class="figure">
         <img src="/images/plants/water-cooled-chilled-water-plant/HE-Loop-diagram_2_11212022.jpg" class="figure-img img-fluid rounded" alt="Figure 5. Waterside economizer system.">
         <figcaption class="figure-caption text-left">Figure 5. Waterside economizer system.</figcaption>
     </figure>
@@ -164,7 +164,7 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
 The measurement points for a water-cooled chilled water plant are schematically shown in Figure 6. In the figure, the pumps are vertical in-line pumps which have the same measurement points as the centrifugal pumps shown in the CHW loop (Figure 3).
 
 <a href="/images/plants/water-cooled-chilled-water-plant/WCC-Chiller-system-diagram-economizer-2ndary-pump-Final-06132023.jpg">
-    <figure class="figure mb-3 mt-3">
+    <figure class="figure">
         <img src="/images/plants/water-cooled-chilled-water-plant/WCC-Chiller-system-diagram-economizer-2ndary-pump-Final-06132023.jpg" class="figure-img img-fluid rounded" alt="Figure 6. Water-cooled chilled water plant measurement points.">
         <figcaption class="figure-caption text-left">Figure 6. Water-cooled chilled water plant measurement points.</figcaption>
     </figure>

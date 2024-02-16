@@ -79,23 +79,23 @@ An example of how to setup the Onset HOBO 4-channel analog logger (UX120-006M) i
 </ul>
 
 <a href="https://youtu.be/FWgM0-VSlEQ?si=rFLFwPDXpXN7iOLy">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_current/electrical_current_figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Onset HOBO 4-Channel analog logger (UX120-006M) connected on a panelboard.">
   <figcaption class="figure-caption text-left">Figure 2. Onset HOBO 4-Channel analog logger (UX120-006M) connected on a panelboard.</figcaption>
 </figure>
 </a>
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_current/electrical_current_figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Example of how the current transducer sensors typically clamp around electrical wires.">
   <figcaption class="figure-caption text-left">Figure 3. Example of how the current transducer sensors typically clamp around electrical wires.</figcaption>
 </figure>
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_current/electrical_current_figure4.png" class="figure-img img-fluid rounded" alt="Figure 4. Onset Split-core AC Current Transformer (CTV-x) connected to the incoming feed lines of a three-phase electrical panelboard.">
   <figcaption class="figure-caption text-left">Figure 4. Onset Split-core AC Current Transformer (CTV-x) connected to the incoming feed lines of a three-phase electrical panelboard.</figcaption>
 </figure>
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_current/electrical_current_figure5.png" class="figure-img img-fluid rounded" alt="Figure 5. Example of a current sensor attached to a single wire. The wire is connected to a circuit breaker within a panelboard. ">
   <figcaption class="figure-caption text-left">Figure 5. Example of a current sensor attached to a single wire. The wire is connected to a circuit breaker within a panelboard.</figcaption>
 </figure>
@@ -112,7 +112,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 </ul>
 
 <a href="https://youtu.be/KyLO5ARQbuA?si=r91vAKoqICA1lKNQ">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_current/electrical_current_figure6.png" class="figure-img img-fluid rounded" alt="Figure 6. Plot graph of measured current for a power panel that serves a lighting system. Software in use is HOBOware Free.">
   <figcaption class="figure-caption text-left">Figure 6. Plot graph of measured current for a power panel that serves a lighting system. Software in use is HOBOware Free.</figcaption>
 </figure>
@@ -131,7 +131,7 @@ After verifying that the logger is collecting data, do the following:
 </ul>
 
 <a href="https://youtu.be/47hqmeOh5X4?si=RSfef24Fo98Co7hS">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_current/electrical_current_figure7.png" class="figure-img img-fluid rounded" alt="Figure 7. Final data table in .csv format. Data was extracted from the logger using HOBOware free and exported for analysis.">
   <figcaption class="figure-caption text-left">Figure 7. Final data table in .csv format. Data was extracted from the logger using HOBOware free and exported for analysis.</figcaption>
 </figure>

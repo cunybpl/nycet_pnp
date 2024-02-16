@@ -60,7 +60,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 An example of how to setup the Dent EliteProXC power data logger is shown in the video below.
 
 <a href="https://www.youtube.com/embed/HS9k_L59IX8?si=v4kqZXDcbGSTxhHc">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure1.png" class="figure-img img-fluid rounded" alt="Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram">
   <figcaption class="figure-caption text-left">Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram</figcaption>
 </figure>
@@ -81,14 +81,14 @@ This section illustrates the most common wire configurations for a panelboard an
 #### Single-phase Wire Configuration
 
 <a href="">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram">
   <figcaption class="figure-caption text-left">Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram</figcaption>
 </figure>
 </a>
 
 <a href="">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Typical single phase, three-wire (sometimes called split-phase). Image courtesy of ELOG19 software configuration diagram.">
   <figcaption class="figure-caption text-left">Figure 3. Typical single phase, three-wire (sometimes called split-phase). Image courtesy of ELOG19 software configuration diagram.</figcaption>
 </figure>
@@ -97,14 +97,14 @@ This section illustrates the most common wire configurations for a panelboard an
 #### Three-phase Wire Configuration
 
 <a href="">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure4.png" class="figure-img img-fluid rounded" alt="Figure 4. Typical 3-phase, 3-wire setup (delta). Image courtesy of ELOG19 software configuration diagram.">
   <figcaption class="figure-caption text-left">Figure 4. Typical 3-phase, 3-wire setup (delta). Image courtesy of ELOG19 software configuration diagram.</figcaption>
 </figure>
 </a>
 
 <a href="">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure5.png" class="figure-img img-fluid rounded" alt="Figure 5: Typical 3-phase, 4-wire setup (Wye). Image courtesy of ELOG19 software configuration diagram.">
   <figcaption class="figure-caption text-left">Figure 5: Typical 3-phase, 4-wire setup (Wye). Image courtesy of ELOG19 software configuration diagram.</figcaption>
 </figure>

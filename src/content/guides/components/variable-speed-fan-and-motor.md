@@ -192,7 +192,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
 The measurement boundary for quantifying energy consumption for a variable-speed fan and motor is shown in Figure 1 below. 
 
 <a href="/images/components/Measurement-boundary-of-a-fan-motor_with_VFD.png">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a CSCV fan.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a fan motor with VFD.</figcaption>
 </figure>

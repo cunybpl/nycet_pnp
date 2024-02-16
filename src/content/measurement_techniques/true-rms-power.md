@@ -75,12 +75,12 @@ Some power meters offered through FELL can measure three-phase power with differ
 
 A single-phase electrical distribution system typically consists of a hot wire and a neutral wire. The hot wire provides current to the load while the neutral wire returns the current to the supply in order to complete the circuit. To measure power draw of a single-phase system, the voltage across the hot wire and neutral wire is measured and the current of the hot wire is measured. Figures 1 and 2 are examples of how measurement equipment offered by the FELL are connected on a single-phase system.
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/true-rms-power/rms-figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Single-phase power measurement connections for the Fluke 345 Power Quality Clamp Meter. Image courtesy of Fluke Corporation.">
   <figcaption class="figure-caption text-left">Figure 2. Single-phase power measurement connections for the Fluke 345 Power Quality Clamp Meter. Image courtesy of Fluke Corporation.</figcaption>
 </figure>
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/true-rms-power/rms-figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Single-phase, three wire or split-phase connections for the Extech Instruments Clamp meter, model PQ2071. Image courtesy of Extech Instruments.">
   <figcaption class="figure-caption text-left">Figure 3. Single-phase, three wire or split-phase connections for the Extech Instruments Clamp meter, model PQ2071. Image courtesy of Extech Instruments.</figcaption>
 </figure>
@@ -89,19 +89,19 @@ A single-phase electrical distribution system typically consists of a hot wire a
 
 For a three-phase distribution system there are two common wire configurations: the three wire (delta) and four wire (wye). Both wire configurations require slightly different connections of the voltage leads. Manufacturers of power meters have specific instructions on how to make connections for a given wire configuration. Refer to the power meter’s user manual for detailed instructions. Figures 3, 4, and 5 are examples of how some of the meters offered by the FELL are connected to three-phase systems. 
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/true-rms-power/rms-figure4.png" class="figure-img img-fluid rounded" alt="Figure 4. Three-phase power measurement using the Fluke 345 Power Quality Clamp Meter. Image courtesy of Fluke Corporation. ">
   <figcaption class="figure-caption text-left">Figure 4. Three-phase power measurement using the Fluke 345 Power Quality Clamp Meter. Image courtesy of Fluke Corporation.</figcaption>
 </figure>
 
 For the connection illustrated in Figure 3, this power meter can only measure line-to-line voltage of two phases and the current of the third phase to estimate True RMS power.
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/true-rms-power/rms-figure5.png" class="figure-img img-fluid rounded" alt="Figure 5. Three-phase, three wire (delta) power measurement connections using the Extech Instruments Clamp meter, model PQ2071.">
   <figcaption class="figure-caption text-left">Figure 5. Three-phase, three wire (delta) power measurement connections using the Extech Instruments Clamp meter, model PQ2071.</figcaption>
 </figure>
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/true-rms-power/rms-figure6.png" class="figure-img img-fluid rounded" alt="Figure 6: Three-phase, four wire (wye) power measurement connections using the Extech Instruments Clamp meter, model PQ2071.">
   <figcaption class="figure-caption text-left">Figure 6: Three-phase, four wire (wye) power measurement connections using the Extech Instruments Clamp meter, model PQ2071.</figcaption>
 </figure>

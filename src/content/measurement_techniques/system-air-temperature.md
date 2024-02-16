@@ -45,7 +45,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 </ul>
 
 <a href="https://www.youtube.com/watch?v=sbUBDB2eg_U&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=1">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1: Configuring the Temp/RH Logger using HOBOconnect">
   <figcaption class="figure-caption text-left">Figure 1: Configuring the Temp/RH Logger using HOBOconnect</figcaption>
 </figure>
@@ -60,14 +60,14 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 </ul>
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=2">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2: Data logger installed inside of the ductwork of an AHU. The data logger in use is the Onset HOBO MX1101.">
   <figcaption class="figure-caption text-left">Figure 2: Data logger installed inside of the ductwork of an AHU. The data logger in use is the Onset HOBO MX1101.</figcaption>
 </figure>
 </a>
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=2">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3: Onset HOBO MX1101 data installed on the access panel of the ductwork. After complete installation, the panel will be closed and the logger will remain inside the ductwork.">
   <figcaption class="figure-caption text-left">Figure 3: Onset HOBO MX1101 data installed on the access panel of the ductwork. After complete installation, the panel will be closed and the logger will remain inside the ductwork.</figcaption>
 </figure>
@@ -85,7 +85,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 </ul> 
 
 <a href="https://www.youtube.com/watch?v=EOb9EqQcRXY&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=3">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4: Plot graph of temperature data from the Onset HOBO UX90-002m data logger. Software used is HOBOware Free.">
   <figcaption class="figure-caption text-left">Figure 4: Plot graph of temperature data from the Onset HOBO UX90-002m data logger. Software used is HOBOware Free. </figcaption>
 </figure>
@@ -104,7 +104,7 @@ After verifying that the logger is collecting data, do the following:
 </ul>
 
 <a href="https://www.youtube.com/watch?v=-vxr8pnguIQ&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=4">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 5.png" class="figure-img img-fluid rounded" alt="Figure 5: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.">
   <figcaption class="figure-caption text-left">Figure 5: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.</figcaption>
 </figure>

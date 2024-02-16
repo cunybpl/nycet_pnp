@@ -49,7 +49,7 @@ Use the manufacturer’s software to ​set up ​​and launch ​the logger​
 </ul>
 
 <a href="https://www.youtube.com/watch?v=zcR39ATSAbM&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=1">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/lighting-fixture-runtime/lighting fixture runtime figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Light On/Off Logger Configuration.">
   <figcaption class="figure-caption text-left">Figure 1. Light On/Off Logger Configuration.</figcaption>
 </figure>
@@ -66,7 +66,7 @@ Use the manufacturer’s software to ​set up ​​and launch ​the logger​
 </ul> 
 
 <a href="https://www.youtube.com/watch?v=0OJvUP_NdYM&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=2">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/lighting-fixture-runtime/lighting fixture runtime figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Onset HOBO UX90-002x​ ​installed near a light fixture and measuring runtime.">
   <figcaption class="figure-caption text-left">Figure 2. Onset HOBO UX90-002x​ ​installed near a light fixture and measuring runtime.</figcaption>
 </figure>
@@ -84,7 +84,7 @@ Wait ​24-48 hours to verify data collection. Return to the location of the mea
 </ul>
 
 <a href="https://www.youtube.com/watch?v=JkNpQ81sdcQ&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=3 ">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/lighting-fixture-runtime/lighting fixture runtime figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. ​P​lot graph of ​lighting runtime ​data from the Onset HOBO UX90-002m data logger.​ Software used is HOBOware Free.">
   <figcaption class="figure-caption text-left">Figure 3. ​P​lot graph of ​lighting runtime ​data from the Onset HOBO UX90-002m data logger.​ Software used is HOBOware Free.</figcaption>
 </figure>
@@ -101,7 +101,7 @@ After verifying ​that ​the logger is collecting data​,​ do the following
 </ul>
 
 <a href="https://www.youtube.com/watch?v=BP5RZugx20o&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=4">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/measurement-technique/lighting-fixture-runtime/lighting fixture runtime figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4. Final data​ table ​in .csv format. Data was extracted from the logger using HOBOware Free and exported ​for analysis.">
   <figcaption class="figure-caption text-left">Figure 4. Final data​ table ​in .csv format. Data was extracted from the logger using HOBOware Free and exported ​for analysis.</figcaption>
 </figure>

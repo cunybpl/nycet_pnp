@@ -24,8 +24,32 @@ a:hover:not(.btn) {
   text-decoration: underline !important;
 }
 
+h2, h3, h4 {
+  margin-top: 3rem;
+}
+
 h5.card-title {
   font-size: 1.3rem;
+}
+
+[class$="page-content"] {
+  .title {
+    text-align: center;
+  }
+  .content {
+    h2:not(:first-of-type) {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      &:before {
+        content: "";
+        display: block;
+        position: relative;
+        width: 80px;
+        border: 4px solid #ebf4ec;
+        top: -25px;
+      }
+    }
+  }
 }
 
 .guide-header {
@@ -130,26 +154,6 @@ h5.card-title {
   }
 }
 
-[class$="page-content"] {
-  .title {
-    text-align: center;
-  }
-  .content {
-    h2:not(:first-of-type) {
-      margin-top: 2rem;
-      padding-top: 2rem;
-      &:before {
-        content: "";
-        display: block;
-        position: relative;
-        width: 80px;
-        border: 4px solid #ebf4ec;
-        top: -25px;
-      }
-    }
-  }
-}
-
 a#back-to-top {
   border: none;
   display: none;
@@ -160,10 +164,6 @@ a#back-to-top {
 
 .guide-header-title h1 {
   font-size: 2.3rem;
-}
-
-h3, .h3, h2, .h2 {
-  // margin-top: 2rem;
 }
 
 .content > h2:first-of-type {
@@ -286,7 +286,11 @@ thead {
   max-width: 80vw !important;
 }
 
-figure + p {
+figure {
+  margin-top: 1rem;
+}
+figure + p,
+a:has(figure) + p  {
   margin-top: 1.2rem;
 }
 

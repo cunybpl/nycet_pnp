@@ -28,7 +28,7 @@ A boiler system provides either hot water or steam to distribute the heating loa
 The main components of a boiler system are burner, combustion chamber, heat exchanger, and draft fan. These components are shown in Figure 1. 
 
 <a href="/images/systems/boiler/boiler figure1.png">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/systems/boiler/boiler figure1.png" class="figure-img img-fluid rounded" alt="Figure 1. Boiler System.">
   <figcaption class="figure-caption text-left">Figure 1. Boiler System</figcaption>
 </figure>
@@ -112,7 +112,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
 The measurement locations for a boiler system are shown in Figure 2. More detail on performing measurements can be found in in <link to gas meter reading> and <link to fan motor measurements> 
 
 <a href="/images/systems/boiler/boiler figure2.png">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/systems/boiler/boiler figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Measurement point locations (Image courtesy of CUNY BPL).">
   <figcaption class="figure-caption text-left">Figure 2. Measurement point locations (Image courtesy of CUNY BPL).</figcaption>
 </figure>

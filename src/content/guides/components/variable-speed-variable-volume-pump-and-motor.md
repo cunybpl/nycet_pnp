@@ -286,7 +286,7 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
 
 The measurement boundary for quantifying energy consumption for the VSVV pump motor is shown in Figure 1. 
 
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/components/VSVV-pump-and-motor-figure1.png" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a pump with a VFD.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a pump with a VFD.</figcaption>
 </figure>
@@ -372,7 +372,7 @@ Table 3 provides a summary of the values to measure to quanfity the flow rate th
 The measurement boundary for quantifying water flow rate across a variable-speed pump is shown in Figure 2.
 
 <a href="">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="" class="figure-img img-fluid rounded" alt="Figure 2. Measurement boundary to estimate flow through a variable-speed pump">
   <figcaption class="figure-caption text-left">Figure 2. Measurement boundary to estimate flow through a variable-speed pump</figcaption>
 </figure>

@@ -181,7 +181,7 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
 The measurement boundary for quantifying energy consumption for the CSCV fan and motor is shown in Figure 1 below. 
 
 <a href="/images/components/Measurement-boundary-of-a-CSCV-fan.png">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/components/Measurement-boundary-of-a-CSCV-fan.png" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a CSCV fan.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a CSCV fan.</figcaption>
 </figure>
