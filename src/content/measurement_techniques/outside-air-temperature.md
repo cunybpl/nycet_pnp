@@ -24,17 +24,17 @@ related_components:
 url: "/documents/measurement-technique/outside-air-temperature"
 ---
 
-## Type of Measurement 
-
-Direct
-
-## Description
+## Description of Outside Air Temperature (OAT)
 
 This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (OF) at one-hour intervals. This technique can be used to characterize the cooling or heating load for any temperature-dependent system such as chillers, boilers, variable speed air handling units and ventilation systems. Accurate measurements can only be taken when data loggers are properly installed.  
 
 Measurements should be taken at one-hour intervals and will provide insight into the temperature values which are driving the control mechanisms of the building equipment. OAT should be paired with other information about the specific systems’ operating conditions in order to calculate annual energy consumption. For more information about how this data is used to estimate annual energy consumption, please refer to the calculation methodology of the type of equipment that relies on the outside air temperature.  
 
 The duration of the long-term measurement should be a minimum of six weeks and data should be collected at one-hour intervals. Measurements should be taken in conjunction with when the system of interest is operating under normal conditions. 
+
+### Type of Measurement
+
+Direct
 
 ## Equipment
 
@@ -128,10 +128,8 @@ After verifying that the logger is collecting data, do the following:
 
 ## Troubleshooting
 
-<strong>Problem:</strong> Logger is measuring unexpected values 
-
-<strong>Solution:</strong> If the ambient temperature reading is higher or lower than expected, adjust the placement of the logger. 
+<p><strong>Problem 1:</strong> Logger is measuring unexpected values</p> 
+<p><strong>- Solution:</strong> If the ambient temperature reading is higher or lower than expected, adjust the placement of the logger.</p> 
  
-<strong>Problem:</strong> Logger screen is blank 
-
-<strong>Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank, then try replacing the battery otherwise reach out to our equipment specialist for a replacement. 
+<p><strong>Problem 2:</strong> Logger screen is blank </p>
+<p><strong>- Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank, then try replacing the battery otherwise reach out to our equipment specialist for a replacement.</p> 
