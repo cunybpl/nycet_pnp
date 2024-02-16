@@ -46,7 +46,6 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
             <td>
                 <p>Air-cooled Chiller</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Condenser Fan</p>
@@ -61,7 +60,6 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
             <td>
                 <p>Cooling Tower</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Cooling Tower Fan</p>
@@ -76,7 +74,6 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
             <td>
                 <p>AHUs</p>
-                <p><br></p>
             </td>
             <td>
                 <p>AHU Supply Fan</p>
@@ -91,7 +88,6 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
             <td>
                 <p>AHUs</p>
-                <p><br></p>
             </td>
             <td>
                 <p>AHU Return Fan</p>
@@ -106,7 +102,6 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
             <td>
                 <p>Boiler</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Burner Fan</p>
@@ -143,7 +138,6 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
             </td>
             <td>
                 <p>Average hourly power draw of the motor</p>
-                <p><br></p>
             </td>
             <td>
                 <p>True RMS power of motor that drives the fan (kW)</p>
@@ -155,7 +149,6 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
             </td>
             <td>
                 <p>Yearly operating schedule</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Fan motor runtime (h)</p>
@@ -167,7 +160,6 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
             </td>
             <td>
                 <p>Average hourly outside air temperature (OAT)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>OAT (F)</p>

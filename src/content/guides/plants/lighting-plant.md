@@ -78,7 +78,6 @@ To quantify the energy consumption of the lighting plant, the components of all 
             </td>
             <td>
                 <p>Average hourly lighting (kWh)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Light fixtures and automatic controls (if applicable).</p>

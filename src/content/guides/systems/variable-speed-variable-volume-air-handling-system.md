@@ -74,7 +74,6 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
             </td>
             <td>
                 <p>Average hourly fan motor kWh</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Fan motors and associated VFDs</p>
@@ -89,7 +88,6 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
             </td>
             <td>
                 <p>Average hourly thermal load of heating/cooling coils (Btuh)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Heating/cooling coils</p>
@@ -104,7 +102,6 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
             </td>
             <td>
                 <p>Average hourly reheat kWh</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Electric reheat coil (if present)</p>
@@ -119,7 +116,6 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
             </td>
             <td>
                 <p>Average hourly thermal load reheat coils (Btuh)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Hot water or steam reheat coil</p>
@@ -134,7 +130,6 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
             </td>
             <td>
                 <p>Average hourly fan motor kWh</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Fan motor (if present)</p>

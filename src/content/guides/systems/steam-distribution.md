@@ -98,7 +98,6 @@ The steam distribution system distributes heat energy, with losses to the non-co
             </td>
             <td>
                 <p>Average hourly pump motor (kWh); total operating time for the pumps</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Pump Motor</p>

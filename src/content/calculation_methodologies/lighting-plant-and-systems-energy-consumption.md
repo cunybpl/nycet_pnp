@@ -36,7 +36,6 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
             </td>
             <td>
                 <p>Average hourly amperage per circuit; Circuit voltage and power facto; True RMS power (kW); current amps</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -48,7 +47,6 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
             </td>
             <td>
                 <p>Average hourly amperage per circuit; Circuit voltage and power facto; True RMS power (kW); current amps</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -60,7 +58,6 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
             </td>
             <td>
                 <p>Lighting Panel Total Energy Use (kWh)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -72,7 +69,6 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
             </td>
             <td>
                 <p>Lighting runtime per hour; Expected fixture wattaged; Fixture counts; Total power draw (kW)</p>
-                <p><br></p>
             </td>
         </tr>
     </tbody>

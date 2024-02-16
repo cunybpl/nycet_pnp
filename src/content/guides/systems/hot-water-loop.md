@@ -111,7 +111,6 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
             </td>
             <td>
                 <p>Average hourly primary HWH pump motors kWh; total operating time of the pump motors</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Pump Motor</p>

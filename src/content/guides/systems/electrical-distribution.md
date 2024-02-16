@@ -88,7 +88,6 @@ The electrical distribution system does not consume electricity, but it can be a
             </td>
             <td>
                 <p>Average hourly panelboard or switchgear kWh; total operating time for the light fixtures</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Light fixtures and automatic controls (if applicable).</p>

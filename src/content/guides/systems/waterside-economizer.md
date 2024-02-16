@@ -66,7 +66,6 @@ The cooling energy savings are equivalent to the heat rejected through the water
             </td>
             <td width="27.797202797202797%">
                 <p>Average hourly Btu/h transferred, differential of temperature for chilled water loop.</p>
-                <p><br></p>
             </td>
             <td width="21.853146853146853%">
                 <p>Heat exchanger of waterside economizer</p>

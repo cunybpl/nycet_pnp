@@ -33,7 +33,6 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
             </td>
             <td>
                 <p>Average power (kW)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -45,7 +44,6 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
             </td>
             <td>
                 <p>Current (amperes)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -57,7 +55,6 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
             </td>
             <td>
                 <p>Runtime (seconds)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -69,7 +66,6 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
             </td>
             <td>
                 <p>Speed (rpm); OAT (F)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -81,7 +77,6 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
             </td>
             <td>
                 <p>RMS Power (kW); OAT (F)</p>
-                <p><br></p>
             </td>
     </tbody>
 </table>

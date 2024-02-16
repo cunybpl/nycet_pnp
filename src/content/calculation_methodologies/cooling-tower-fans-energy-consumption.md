@@ -38,7 +38,6 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
             </td>
             <td>
                 <p>Current (amps) - (one-time current at rated speeds); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -50,7 +49,6 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
             </td>
             <td>
                 <p>Runtime (seconds); One-time true RMS power; Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -62,7 +60,6 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
             </td>
             <td>
                 <p>Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -74,7 +71,6 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
             </td>
             <td>
                 <p>Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
-                <p><br></p>
             </td>
         </tr>
     </tbody>

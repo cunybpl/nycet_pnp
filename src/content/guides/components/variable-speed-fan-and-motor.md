@@ -46,7 +46,6 @@ Table 1 shows the plant and system configurations that may contain variable-spee
             </td>
             <td>
                 <p>Air-cooled Chiller</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Condenser Fan</p>
@@ -61,7 +60,6 @@ Table 1 shows the plant and system configurations that may contain variable-spee
             </td>
             <td>
                 <p>Cooling Tower</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Cooling Tower Fan</p>
@@ -76,7 +74,6 @@ Table 1 shows the plant and system configurations that may contain variable-spee
             </td>
             <td>
                 <p>AHUs</p>
-                <p><br></p>
             </td>
             <td>
                 <p>AHU Supply Fan</p>
@@ -91,7 +88,6 @@ Table 1 shows the plant and system configurations that may contain variable-spee
             </td>
             <td>
                 <p>AHUs</p>
-                <p><br></p>
             </td>
             <td>
                 <p>AHU Return Fan</p>
@@ -106,7 +102,6 @@ Table 1 shows the plant and system configurations that may contain variable-spee
             </td>
             <td>
                 <p>Boiler</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Burner Fan</p>
@@ -142,7 +137,6 @@ The primary energy source for a variable-speed fan is the electricity used to ru
             </td>
             <td>
                 <p>Power input to the motor at known speeds (e.g., 30%, 50%, 75%, 100%)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>True RMS power of motor that drives the fan (kW)</p>
@@ -154,7 +148,6 @@ The primary energy source for a variable-speed fan is the electricity used to ru
             </td>
             <td>
                 <p>Hourly Average motor speed</p>
-                <p><br></p>
             </td>
             <td>
                 <p>VFD speed trend from BAS</p>
@@ -166,7 +159,6 @@ The primary energy source for a variable-speed fan is the electricity used to ru
             </td>
             <td>
                 <p>Yearly operating schedule</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Fan motor runtime (h)</p>
@@ -178,7 +170,6 @@ The primary energy source for a variable-speed fan is the electricity used to ru
             </td>
             <td>
                 <p>Average hourly outside air temperature (OAT)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>OAT (f)</p>

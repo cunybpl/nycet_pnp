@@ -87,7 +87,6 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             </td>
             <td>
                 <p>Average hourly fuel consumption (Btuh)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Boiler&nbsp;</p>
@@ -104,7 +103,6 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
                 <p>Average hourly burner fan motor kWh; average hourly primary HWH pump motor kWh; average hourly secondary HWH pump motor kWh; average hourly feedwater pump kWh; total operating time for the pump motors; outdoor air</p>
             </td>
             <td>
-                <p><br></p>
             </td>
             <td>
                 <p>Burner fan motor; primary pump motor; secondary pump motor (if present); feedwater pump</p>

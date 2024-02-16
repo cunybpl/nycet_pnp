@@ -98,7 +98,6 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <p>Fan motors; heating coil; cooling coil</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Average hourly fan motor kWh; average BTUH at coils</p>
@@ -110,7 +109,6 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <p>Fan motors; compressor</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Average hourly heat pump kWh (includes supply and condenser fan motors and compressor motors)</p>
@@ -122,7 +120,6 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <p>Burner; fan motor</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Average hourly furnace fuel consumption; average hourly burnger kWh (includes supply fan motors)</p>
@@ -134,7 +131,6 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <p>Burner; fan motors; compressor</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Average hourly fuel consumption: average hourly rooftop unit kWh (includes supply and condenser fan motors and compressor motors)</p>
@@ -146,7 +142,6 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <p>Heating coil</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Average BTUH at coils</p>

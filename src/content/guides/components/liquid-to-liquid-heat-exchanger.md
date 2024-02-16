@@ -136,7 +136,6 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
             </td>
             <td width="33.333333333333336%">
                 <p>Average hourly pump motor kWh (if needed)</p>
-                <p><br></p>
             </td>
             <td width="33.333333333333336%">
                 <p>Average hourly true RMS energy (kWh)</p>
@@ -145,7 +144,6 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
         <tr>
             <td width="33.333333333333336%">
                 <p>Controlling variable, non-weather dependent</p>
-                <p><br></p>
             </td>
             <td width="33.333333333333336%">
                 <p>Operating schedule&nbsp;</p>

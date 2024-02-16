@@ -83,7 +83,6 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
             </td>
             <td>
                 <p>Average hourly fuel consumption (Btuh)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Boiler</p>
@@ -98,7 +97,6 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
             </td>
             <td>
                 <p>Average hourly burner fan motor kWh; total operating hours of burner fan motor; hourly average condensate pump motor kWh; hourly average feedwater pump kWh; total operating time for pump motors</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Burner fan motor; condensate pump motor; feedwater pump</p>

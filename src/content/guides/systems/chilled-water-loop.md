@@ -139,7 +139,6 @@ Table 1 provides a summary of system component measurements and values needed to
                 <p>Average hourly chilled water flow (gpm) through a pump; average hourly loop pressure differential</p>
             </td>
             <td width="22.371681415929203%">
-                <p><br></p>
             </td>
             <td width="21.946902654867255%">
                 <p>Average hourly chilled water flow (gpm) through a pump; average hourly loop pressure differential</p>

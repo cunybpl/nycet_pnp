@@ -80,7 +80,6 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
             </td>
             <td>
                 <p>Average hourly fuel consumption (Btuh)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Burner</p>
@@ -95,7 +94,6 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
             </td>
             <td>
                 <p>Average hourly burner fan motor kWh; total operating hours of burner fan motor</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Burner fan motor</p>

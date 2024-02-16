@@ -50,7 +50,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Chilled water loop</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Primary chilled water pump</p>
@@ -65,7 +64,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Condenser water loop</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Condenser water pump</p>
@@ -80,7 +78,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Chilled water loop</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Primary chilled water pump</p>
@@ -95,7 +92,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Chilled water loop</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Primary chilled water pump</p>
@@ -110,7 +106,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Chilled water loop</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Secondary chilled water pump</p>
@@ -125,7 +120,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Waterside economizer</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Waterside economizer pump (if present)</p>
@@ -140,7 +134,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Hot water boiler</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Makeup water pump</p>
@@ -155,7 +148,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Hot water loop</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Building Loop Pump</p>
@@ -170,7 +162,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Steam Boiler</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Makeup water pump</p>
@@ -185,7 +176,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Feedwater Tank</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Feedwater pump</p>
@@ -200,7 +190,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Service hot water loop</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Service hot water; recirculation pump</p>
@@ -237,7 +226,6 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
             </td>
             <td>
                 <p>Power input to a VSVV pump motor at known speeds (e.g. 30%, 50%, 75%, 100%)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>True RMS power of pump motor that drives the pump (kW)</p>
@@ -249,7 +237,6 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
             </td>
             <td>
                 <p>Hourly average VSVV pump motor speed</p>
-                <p><br></p>
             </td>
             <td>
                 <p>VFD speed trend from BAS</p>
@@ -261,7 +248,6 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
             </td>
             <td>
                 <p>Average hourly outside air temperature (OAT)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>OAT (F)</p>
@@ -273,7 +259,6 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
             </td>
             <td>
                 <p>Yearly operating schedule</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Pump motor runtime</p>
@@ -329,7 +314,6 @@ Table 3 provides a summary of the values to measure to quanfity the flow rate th
             </td>
             <td>
                 <p>Average hourly through a variable-speed pump</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Pump flow rate (GPM)</p>
@@ -346,7 +330,6 @@ Table 3 provides a summary of the values to measure to quanfity the flow rate th
             </td>
             <td>
                 <p>Average hourly average outside air temperature (OAT)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>OAT (F)</p>
@@ -358,7 +341,6 @@ Table 3 provides a summary of the values to measure to quanfity the flow rate th
             </td>
             <td>
                 <p>Yearly operating schedule</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Cuurent tansducer logging as a proxy for motor speed</p>

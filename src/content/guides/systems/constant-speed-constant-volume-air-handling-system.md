@@ -70,7 +70,6 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
             </td>
             <td>
                 <p>Average hourly fan motor kWh</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Fan motors</p>
@@ -85,7 +84,6 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
             </td>
             <td>
                 <p>Average hourly thermal load of heating/cooling coils (Btuh)</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Heating/cooling coils</p>

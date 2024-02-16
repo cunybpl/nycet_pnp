@@ -143,7 +143,6 @@ The primary energy consumption of a condenser water loop is the electricity used
                 <p>Average hourly flow and temperature difference&nbsp;</p>
             </td>
             <td width="26.371681415929203%">
-                <p><br></p>
             </td>
             <td width="29.02654867256637%">
                 <p>Average hourly condenser water flow (gpm) and condenser water temperature difference across the cooling tower</p>

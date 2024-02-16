@@ -119,7 +119,6 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
             </td>
             <td>
                 <p>Average hourly chiller kWh; average hourly pump kWh; average hourly cooling tower fan kWh</p>
-                <p><br></p>
             </td>
             <td>
                 <p>Chiller compressor motor; chilled water pump motors; condenser water pump motors; heat exchanger pump motor (if present); cooling tower fan motors&nbsp;</p>
@@ -136,7 +135,6 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
                 <p>Average hourly thermal load of chiller evaporator (BTUH)</p>
             </td>
             <td>
-                <p><br></p>
             </td>
             <td>
                 <p>Flow rate of chilled water pumps; temperature difference across chiller evaporator</p>

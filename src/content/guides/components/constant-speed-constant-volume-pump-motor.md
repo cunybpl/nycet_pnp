@@ -181,9 +181,8 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
             </td>
             <td style="vertical-align: top;" width="34.76764199655766%">
                 <p>Average hourly power input to the pump motor</p>
-                <p><br></p>
-                <p><br></p>
-                <p><br></p>
+                
+                
             </td>
             <td style="vertical-align: top;" width="36.660929432013766%">
                 <p>True RMS power of pump motor that drives the pump (kW)</p>

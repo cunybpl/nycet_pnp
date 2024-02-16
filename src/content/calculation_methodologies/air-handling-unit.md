@@ -33,7 +33,6 @@ url: "/documents/calculation-methodology/air-handling-unit"
             </td>
             <td>
                 <p>Current (amps); True Power (kW)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -45,7 +44,6 @@ url: "/documents/calculation-methodology/air-handling-unit"
             </td>
             <td>
                 <p>Average power (kW)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -57,7 +55,6 @@ url: "/documents/calculation-methodology/air-handling-unit"
             </td>
             <td>
                 <p>Runtime (seconds); True RMS Power (kW)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -69,7 +66,6 @@ url: "/documents/calculation-methodology/air-handling-unit"
             </td>
             <td>
                 <p>Speed (rpm); True Power (kW)</p>
-                <p><br></p>
             </td>
         </tr>
         <tr>
@@ -81,7 +77,6 @@ url: "/documents/calculation-methodology/air-handling-unit"
             </td>
             <td>
                 <p>RMS Power (kW); OAT (F)</p>
-                <p><br></p>
             </td>
     </tbody>
 </table>
