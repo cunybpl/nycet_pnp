@@ -10,17 +10,12 @@
 <div class="col-md-12 col-lg-6">
   <section class="card mb-4">
     <div class="guide-thumbnail">
-      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center">
-        {{ if isset .Params  "thumbnail_image" }}
-          <div>
-            <img src="{{ .Params.thumbnail_image | absURL }}" alt="Thumbnail image of the guide.">
-          </div>
-        {{ else }}
+      {{ if isset .Params  "thumbnail_image" }}
+      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image:url({{ .Params.thumbnail_image | absURL }});">
+      {{ else }}
         <!-- If guide doesn't have featured image -->
-        <div>
-          <img class="img-fluid" src="{{ "images/hero/electric-plant-icon-logo-gray.png" | absURL }}" >
-        </div>
-        {{ end }}
+      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image:url(/images/hero/electric-plant-icon-logo-gray.png);">
+      {{ end }}
       </div>
       <div class="guide-thumbnail-content">
         <div class="px-4 d-flex flex-column justify-content-between" style="height: 65%;">

@@ -32,28 +32,17 @@
           </button>
         </div>
         <div class="modal-body py-5">
-          <div 
-            class="d-flex flex-wrap"
-            
-          >
+          <div class="d-flex flex-wrap">
             {{ range where .all_calculators "name" "in" .content }}
               <div class="col-lg-6">
                 <div class="card mb-5">
-                  <div 
-                    class="guide-thumbnail" 
-                    style="height: 300px !important;"
-                  >
-                    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center">
-                      {{ if isset . "image" }}
-                        <div>
-                          <img src="{{ .image | absURL }}" alt="Thumbnail image of the guide.">
-                        </div>
-                      {{ else }}
+                  <div class="guide-thumbnail" style="height: 300px !important;">
+                    {{ if isset . "image" }}
+                    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .image | absURL }});">
+                    {{ else }}
                       <!-- If guide doesn't have featured image -->
-                      <div>
-                        <img src="{{ "images/hero/electric-plant-icon-logo-gray.png" | absURL }}" >
-                      </div>
-                      {{ end }}
+                    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/electric-plant-icon-logo-gray.png);">
+                    {{ end }}
                     </div>
                     <div class="guide-thumbnail-content">
                       <div class="px-4 d-flex flex-column justify-content-between" style="height: 65%;">
@@ -62,11 +51,7 @@
                           <p>{{ .description | safeHTML | truncate 100 }}</p>
                         </div>  
                         <div>
-                          <a 
-                            class="btn btn-primary" 
-                            href="/downloadables/{{ .filename }}"
-                            download="{{ .filename }}"
-                          >
+                          <a class="btn btn-primary" href="/downloadables/{{ .filename }}" download="{{ .filename }}">
                             Download Calculator
                           </a>
                         </div>
