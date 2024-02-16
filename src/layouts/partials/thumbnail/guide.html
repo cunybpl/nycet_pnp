@@ -6,8 +6,6 @@
 {{ end }}
 <section class="card mb-4">
   <div class="guide-thumbnail">
-
-    
     {{ if isset .params  "thumbnail_image" }}
     <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .params.thumbnail_image | absURL }});">
     {{ else }}
@@ -15,8 +13,6 @@
     <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/electric-plant-icon-logo-gray.png);">
     {{ end }}
     </div>
-
-
     <div class="guide-thumbnail-content">
       <div class="px-4 d-flex flex-column justify-content-between" style="height: 62%;">
         <div>

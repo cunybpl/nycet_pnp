@@ -51,10 +51,7 @@
                           <p>{{ .Params.excerpt | safeHTML | truncate 100 }}</p>
                         </div>  
                         <div>
-                          <a 
-                            class="btn btn-primary" 
-                            href="{{ .RelPermalink | relURL }}"
-                          >
+                          <a class="btn btn-primary" href="{{ .RelPermalink | relURL }}">
                             View {{ .Params.type | safeHTML | title }}
                           </a>
                         </div>
