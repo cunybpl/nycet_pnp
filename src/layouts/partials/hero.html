@@ -15,10 +15,7 @@
             </form>
             <div class="dropdown-options shadow">
               {{ range $.Site.Data.search_keywords.terms }}
-                <div 
-                  class="text-dark"
-                  onclick="searchPredefinedFilter({{ title .name }})"
-                >
+                <div class="text-dark" onclick="searchPredefinedFilter({{ title .name }})">
                   {{ title .name }}
                 </div>
               {{ end }}
@@ -32,7 +29,6 @@
 {{ end }} {{ end }}
 
 {{ partial "sub_nav/horizontal_nav.html" (dict "data" .Site.Data "pages" .Site.RegularPages) }}
-
 
 <script src="/js/guides.js"></script>
 <script>
