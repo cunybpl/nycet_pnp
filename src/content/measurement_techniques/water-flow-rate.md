@@ -13,7 +13,6 @@ related_systems:
 related_components:
   - Liquid-to-liquid Heat Exchanger
   - Liquid-to-air Heat Exchanger
-borrow_equipment_url: ""
 url: "/documents/measurement-technique/water-flow-rate"
 ---
 

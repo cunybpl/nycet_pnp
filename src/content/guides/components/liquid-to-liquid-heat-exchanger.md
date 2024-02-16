@@ -9,7 +9,6 @@ associated_systems:
 related_systems:
   - Waterside Economizer
   - Air-cooled Chiller
-borrow_equipment_url: ""
 layout: guide
 url: "/documents/components/liquid-to-liquid-heat-exchanger"
 ---

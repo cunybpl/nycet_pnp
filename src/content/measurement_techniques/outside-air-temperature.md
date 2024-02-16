@@ -21,7 +21,6 @@ related_components:
   - Constant-speed, Constant-volume Pump and Motor
   - Liquid-to-air Heat Exchanger
   - Air-to-air Heat Exchanger
-borrow_equipment_url: ""
 url: "/documents/measurement-technique/outside-air-temperature"
 ---
 

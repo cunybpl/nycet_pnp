@@ -7,8 +7,6 @@ excerpt: The calculation tools developed by CUNY BPL are used to calculate annua
 related_systems:
   - Lighting Fixture
   - Electrical Distribution
-related_components:
-  - 
 url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consumption"
 ---
 

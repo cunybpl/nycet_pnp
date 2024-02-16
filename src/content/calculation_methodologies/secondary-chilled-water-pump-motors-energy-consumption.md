@@ -4,10 +4,6 @@ type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 6
 excerpt: Calculation methodologies for various pumps and motors
-related_systems:
-  - 
-related_components:
-  - 
 url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-energy-consumption"
 ---
 

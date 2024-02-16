@@ -4,10 +4,6 @@ type: system
 excerpt: A lighting fixture system produces light to illuminate a specific area or areas.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 7
-associated_systems:
-  - 
-related_components:
-  - 
 borrow_equipment_url: //Ask Orlando
 layout: guide
 url: "/documents/systems/lighting-fixture"

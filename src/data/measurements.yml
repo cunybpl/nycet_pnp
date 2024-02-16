@@ -1,0 +1,23 @@
+enable: true
+documents:
+  - type: measurement
+    title: "Electrical Energy"
+    measurement_type: "water-side, cooling"
+  - type: measurement
+    title: "Motor Runtime"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+  - type: measurement
+    title: "Water Flow Rate"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+  - type: measurement
+    title: "Electrical Current"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+  - type: measurement
+    title: "Lighting Fixture Runtime"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+  - type: measurement
+    title: "Outside Air Temperature"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+  - type: measurement
+    title: "True RMS Power"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"

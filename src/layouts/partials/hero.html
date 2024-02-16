@@ -1,22 +1,31 @@
 {{ with .Site.Data.hero }} {{ if .enable }}
 <section class="hero" id="home">
   <div class="container-fluid hero_container">
-    <div class="content align-items-center text-center" style="height: inherit">
-      <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-top-left" alt="Electric plant logo">
-      <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-bottom-left" alt="Electric plant logo">
-      <div class="col-md-12">
+    <div class="content align-items-center text-center">
+      <div class="col-md-12" >
         <div class="hero_content text-center">
           <div class="container content-text px-5">{{ .content | markdownify }}</div>
           <div class="hero_content-search-bar">
-            <form action="#" onsubmit="doSearchGuides(guideSearchBarId);return false">
+            <form action="#" class="mb-0" onsubmit="doSearchGuides(guideSearchBarId);return false">
               <input id="guide-search-bar" type="search" placeholder="Search a plant, system or component">
               <button type="submit">Search</button>
+              <button id="dropdown-trigger" onclick="toggleDropdown()" type="button" class="btn btn-primary px-4">
+                <i id="dropdown-icon" class="fa fa-chevron-down"></i>
+              </button>
             </form>
+            <div class="dropdown-options shadow">
+              {{ range $.Site.Data.search_keywords.terms }}
+                <div 
+                  class="text-dark"
+                  onclick="searchPredefinedFilter({{ title .name }})"
+                >
+                  {{ title .name }}
+                </div>
+              {{ end }}
+            </div>
           </div>
         </div>
       </div>
-      <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-top-right" alt="Electric plant logo">
-      <img src="{{ .background_img | absURL }}" class="img-fluid plant-logo-bottom-right" alt="Electric plant logo">
     </div>
   </div>
 </section>
@@ -29,4 +38,32 @@
 <script>
   const guideSearchBarId = 'guide-search-bar';
   hideSearchResults()
+  function toggleDropdown() {
+    if ($('.dropdown-options').css('display') == 'none') {
+      displayDropdown();
+    } else {
+      hideDropdown();
+    }
+  }
+
+  function displayDropdown() {
+    $('#dropdown-icon').removeClass('fa-chevron-down')
+    $('.dropdown-options').css('display', 'flex');
+    $('#dropdown-icon').addClass('fa-chevron-up')
+  }
+
+  function hideDropdown() {
+    $('#dropdown-icon').removeClass('fa-chevron-up')
+    $('.dropdown-options').css('display', 'none');
+    $('#dropdown-icon').addClass('fa-chevron-down')
+  }
+
+  function searchPredefinedFilter(keyword) {
+    $('#guide-search-bar').val(keyword);
+    doSearchGuides(guideSearchBarId);
+    toggleDropdown();
+  }
+  $(window).on("scroll", () => {
+    // hideDropdown();
+  })
 </script>

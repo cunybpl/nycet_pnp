@@ -4,10 +4,6 @@ type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 2
 excerpt: This calculation tool is for various fans and systems.
-related_systems:
-  - 
-related_components:
-  - 
 url: "/documents/calculation-methodology/air-handling-unit"
 ---
 
