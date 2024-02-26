@@ -24,3 +24,12 @@ documents:
   - type: measurement    
     title: "System Air Temperature"
     measurement_type: "air, temperature"
+  - type: measurement    
+    title: "Relative Humidity"
+    measurement_type: "air, temperature"
+  - type: measurement    
+    title: "Pipe Surface Water Temperature"
+    measurement_type: "water, temperature"
+  - type: measurement    
+    title: "Water Pressure and Pump Curve"
+    measurement_type: "water, temperature"
