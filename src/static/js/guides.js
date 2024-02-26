@@ -205,7 +205,7 @@ function filterCalculations(searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('Calculation Methodologies')
+  displaySearchResults('Calculations')
 }
 
 function filterMeasurements(searchKeyWord='') {
@@ -379,7 +379,7 @@ function updateSearchResults(guideType, value) {
     updateGuideHeader(COMPONENTS, label)
   }
   if (guideType == CALCULATIONS) {
-    const label = `Search Results: ${value} Calculation methodologies related to "${searchKeyWord}"`
+    const label = `Search Results: ${value} Calculations related to "${searchKeyWord}"`
     
     $('#total-calculations-search-result').text(value)
     $('#total-calculations-search-result').show()
@@ -541,7 +541,7 @@ function displaySearchResults(guideType) {
       }
       $('#no-result-calculations').hide();
     } else {
-      updateGuideHeader(CALCULATIONS, 'All Calculation Methodologies')
+      updateGuideHeader(CALCULATIONS, 'All Calculations')
       if ($('#calculations').attr('class').includes('active')) {
         $('#textCalculations').show()
         $('#load-more-calculations').show()
@@ -574,7 +574,7 @@ function displaySearchResults(guideType) {
       }
       $('#no-result-measurements').hide();
     } else {
-      updateGuideHeader(CALCULATIONS, 'All Calculation Methodologies')
+      updateGuideHeader(CALCULATIONS, 'All Calculations')
       if ($('#measurements').attr('class').includes('active')) {
         $('#textMeasurements').show()
         $('#load-more-measurements').show()

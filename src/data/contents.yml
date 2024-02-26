@@ -15,7 +15,7 @@ contents:
   - enable: true
     active: false
     name: calculations
-    label: Calculation Methodologies
+    label: Calculations
   - enable: true
     active: false
     name: measurements

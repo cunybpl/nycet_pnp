@@ -46,5 +46,5 @@ tabs:
         label: Technique
         icon: images/measurement-technique/measurement-technique-icon-white.png
       - name: related-cm
-        label: Related Calculation Methodologies
+        label: Related Calculations
         icon: images/hero/guide-icon.png
