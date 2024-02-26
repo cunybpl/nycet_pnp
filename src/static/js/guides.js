@@ -254,7 +254,7 @@ function filterMeasurements(searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('Measurement Techniques')
+  displaySearchResults('Measurements')
 }
 
 /** 
@@ -386,7 +386,7 @@ function updateSearchResults(guideType, value) {
     updateGuideHeader(CALCULATIONS, label)
   }
   if (guideType == MEASUREMENTS) {
-    const label = `Search Results: ${value} Measurement techniques related to "${searchKeyWord}"`
+    const label = `Search Results: ${value} Measurements related to "${searchKeyWord}"`
     
     $('#total-measurements-search-result').text(value)
     $('#total-measurements-search-result').show()

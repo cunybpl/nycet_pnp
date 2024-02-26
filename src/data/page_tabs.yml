@@ -35,7 +35,7 @@ tabs:
         label: Methodology
         icon: images/calculation-methodology/calculation-methodology-icon-white.png
       - name: related-mt
-        label: Related Measurement Techniques
+        label: Related Measurements
         icon: images/hero/guide-icon.png
       - name: borrow-equipments
         label: Borrow Equipment

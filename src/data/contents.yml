@@ -19,4 +19,4 @@ contents:
   - enable: true
     active: false
     name: measurements
-    label: Measurement Techniques
+    label: Measurements
