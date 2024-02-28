@@ -29,22 +29,26 @@ tabs:
       - name: borrow-equipments
         label: Borrow Equipment
         icon: images/hero/electric-plant-icon-white.png
-  - name: calculation
-    tabs:
-      - name: calculation
-        label: Methodology
-        icon: images/calculation-methodology/calculation-methodology-icon-white.png
-      - name: related-mt
-        label: Related Measurement Techniques
-        icon: images/hero/guide-icon.png
-      - name: borrow-equipments
-        label: Borrow Equipment
-        icon: images/hero/electric-plant-icon-white.png
   - name: measurement
     tabs:
       - name: measurement
         label: Technique
         icon: images/measurement-technique/measurement-technique-icon-white.png
       - name: related-cm
-        label: Related Calculation Methodologies
+        label: Related Calculations
         icon: images/hero/guide-icon.png
+      - name: borrow-equipments
+        label: Borrow Equipment
+        icon: images/hero/electric-plant-icon-white.png
+  - name: calculation
+    tabs:
+      - name: calculation
+        label: Methodology
+        icon: images/calculation-methodology/calculation-methodology-icon-white.png
+      - name: related-mt
+        label: Related Measurements
+        icon: images/hero/guide-icon.png
+      - name: borrow-equipments
+        label: Borrow Equipment
+        icon: images/hero/electric-plant-icon-white.png
+  
