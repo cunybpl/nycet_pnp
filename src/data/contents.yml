@@ -14,9 +14,9 @@ contents:
     label: Components
   - enable: true
     active: false
-    name: calculations
-    label: Calculation Methodologies
+    name: measurements
+    label: Measurements
   - enable: true
     active: false
-    name: measurements
-    label: Measurement Techniques
+    name: calculations
+    label: Calculations
