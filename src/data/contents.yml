@@ -14,9 +14,9 @@ contents:
     label: Components
   - enable: true
     active: false
-    name: calculations
-    label: Calculations
-  - enable: true
-    active: false
     name: measurements
     label: Measurements
+  - enable: true
+    active: false
+    name: calculations
+    label: Calculations

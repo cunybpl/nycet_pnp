@@ -29,6 +29,14 @@ tabs:
       - name: borrow-equipments
         label: Borrow Equipment
         icon: images/hero/electric-plant-icon-white.png
+  - name: measurement
+    tabs:
+      - name: measurement
+        label: Technique
+        icon: images/measurement-technique/measurement-technique-icon-white.png
+      - name: related-cm
+        label: Related Calculations
+        icon: images/hero/guide-icon.png
   - name: calculation
     tabs:
       - name: calculation
@@ -40,11 +48,4 @@ tabs:
       - name: borrow-equipments
         label: Borrow Equipment
         icon: images/hero/electric-plant-icon-white.png
-  - name: measurement
-    tabs:
-      - name: measurement
-        label: Technique
-        icon: images/measurement-technique/measurement-technique-icon-white.png
-      - name: related-cm
-        label: Related Calculations
-        icon: images/hero/guide-icon.png
+  
