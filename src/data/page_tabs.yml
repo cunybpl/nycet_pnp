@@ -37,6 +37,9 @@ tabs:
       - name: related-cm
         label: Related Calculations
         icon: images/hero/guide-icon.png
+      - name: borrow-equipments
+        label: Borrow Equipment
+        icon: images/hero/electric-plant-icon-white.png
   - name: calculation
     tabs:
       - name: calculation
