@@ -128,8 +128,14 @@ After verifying that the logger is collecting data, do the following:
 
 ## Troubleshooting
 
-<p><strong>Problem 1:</strong> Logger is measuring unexpected values</p> 
-<p><strong>- Solution:</strong> If the ambient temperature reading is higher or lower than expected, adjust the placement of the logger.</p> 
+<strong>Problem 1:</strong> Logger is measuring unexpected values
+
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> If the ambient temperature reading is higher or lower than expected, adjust the placement of the logger.
+</div>
  
-<p><strong>Problem 2:</strong> Logger screen is blank </p>
-<p><strong>- Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank, then try replacing the battery otherwise reach out to our equipment specialist for a replacement.</p> 
+<strong>Problem 2:</strong> Logger screen is blank
+
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank, then try replacing the battery otherwise reach out to our equipment specialist for a replacement.
+</div>

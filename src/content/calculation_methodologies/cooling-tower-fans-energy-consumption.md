@@ -80,7 +80,7 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 
 ## Cooling Tower Fan Calculations
 
-### Constant Speed Fans Using Motor On/Off Logger
+### Constant-speed Fans Using Motor On/Off Logger
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers on each fan in the tower.
 
@@ -247,7 +247,7 @@ Where,
 </tbody>
 </table>
 
-### Constant Speed Fans Using a Data-logging Power Meter
+### Constant-speed Fans Using a Data-logging Power Meter
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for each fan in the cooling tower. 
 
@@ -283,7 +283,7 @@ Where,
 
 2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
 
-### Constant Speed Fans Using a Current Transformer
+### Constant-speed Fans Using a Current Transformer
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include hourly average current (in Amps) as directly measured by current transformers, and spot measurements for true power for each fan in the cooling tower. 
 
@@ -332,7 +332,7 @@ Where,
 
 2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
 
-### Variable Speed Fans Using a Data-logging Power Meter
+### Variable-speed Fans Using a Data-logging Power Meter
 
 This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed. 
 
