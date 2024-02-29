@@ -11,7 +11,7 @@ related_components:
 url: "/documents/measurement-technique/relative-humidity"
 ---
 
-## Description 
+## Description of Relative Humidity
 
 This technique uses data loggers to take long-term measurements of relative humidity (% RH) at one-hour intervals. This technique can be used to characterize the performance of heat/energy recovery ventilators. Data is used for calculations such as regression models to estimate the heat and energy recovered by an air-to-air heat/energy recovery system. For a more detailed description of how relative humidity data is used in calculations please refer to the PnP-S-16 - Air-to-Air Energy Recovery System and calculation methodology of the system being measured.
 
@@ -19,7 +19,7 @@ Relative humidity measurements should be taken at one-hour intervals and should 
 
 The duration of the long-term measurement should be a minimum of six weeks. Measurements should be when the system of interest is operating under normal conditions. 
 
-## Type of Measurement
+### Type of Measurement
 
 Direct 
 
@@ -136,6 +136,6 @@ Air handling units come in all sizes and there is no single method on how to pro
 
 <strong>Problem:</strong> the logger is measuring unexpected values 
 
-<ul>
-<li><strong>Solution:</strong></li> Verify that the logger is calibrated and re-calibrate the equipment if necessary. Readjust the placement of the logger and ensure that the logger is installed correctly (i.e., there is no interference from heating and cooling coils).   
-</ul>
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> Verify that the logger is calibrated and re-calibrate the equipment if necessary. Readjust the placement of the logger and ensure that the logger is installed correctly (i.e., there is no interference from heating and cooling coils).   
+</div>

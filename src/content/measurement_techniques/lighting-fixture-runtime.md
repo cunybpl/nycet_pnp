@@ -11,7 +11,7 @@ related_components:
 url: "/documents/measurement-technique/lighting-fixture-runtime"
 ---
 
-## Description
+## Description of Lighting Fixture Runtime
 
 This technique uses data loggers to take long-term measurements of the runtime duration for a lamp or lighting fixture. This technique can be used on lighting systems with any schedule and located in any space type. Accurate measurements can only be taken when data loggers are properly installed. The equipment’s on/off status is detected based on the light level that is generated when the lights are on. 
 
@@ -23,7 +23,7 @@ If runtime of an entire room or space​ is more important than ​that of a spe
 
 The duration of the long-term measurement should be a minimum of six weeks and data should be collected at one-hour intervals. Measurements should be taken when the fixtures are operating under normal conditions.
 
-## Type of Measurement
+### Type of Measurement
 
 Proxy
 
@@ -109,14 +109,14 @@ After verifying ​that ​the logger is collecting data​,​ do the following
 
 ## Troubleshooting 
 
-<strong>Problem:</strong> Light logger continues to detect light despite the fixture being turned off 
+<strong>Problem 1:</strong> Light logger continues to detect light despite the fixture being turned off 
 
-<ul>
-<li><strong>Solution:</strong> The light logger may be detecting another light source such as the sun or another fixture. Calibrate the logger again with the same fixture. If the problem persists, try calibrating with a different fixture. If the problem continues, then reach out to our equipment specialist for a replacement logger.</li> 
-</ul>
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> The light logger may be detecting another light source such as the sun or another fixture. Calibrate the logger again with the same fixture. If the problem persists, try calibrating with a different fixture. If the problem continues, then reach out to our equipment specialist for a replacement logger.
+</div>
 
-<strong>Problem:</strong> The logger screen is blank 
+<strong>Problem 2:</strong> The logger screen is blank 
 
-<ul>
-<li><strong>Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank then try replacing the battery otherwise reach out to our equipment specialist for a replacement.</li> 
-</ul>
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank then try replacing the battery otherwise reach out to our equipment specialist for a replacement.
+</div>

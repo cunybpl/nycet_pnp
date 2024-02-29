@@ -26,6 +26,17 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
     <tbody>
         <tr>
             <td>
+                <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-08_chiller_pump_cscv_on_off_pc.xlsx" download>Constant-speed, Constant-volume Chiller Pump On/Off Calculator</a></p>
+            </td>
+            <td>
+                <p>Uses the time and runtime to calculate total annual energy</p>
+            </td>
+            <td>
+                <p>Runtime (seconds)</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-06_chiller_pump_cscv_kwh_pc.xlsx" download>Constant-speed, Constant-volume Chiller Pump kWh Calculator</a></p>
             </td>
             <td>
@@ -48,13 +59,13 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
         </tr>
         <tr>
             <td>
-                <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-08_chiller_pump_cscv_on_off_pc.xlsx" download>Constant-speed, Constant-volume Chiller Pump On/Off Calculator</a></p>
+                <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-10_chiller_pump_variable_volume_pc.xlsx" download>Variable-speed, Variable-volume Chiller Pump Energy Calculator</a></p>
             </td>
             <td>
-                <p>Uses the time and runtime to calculate total annual energy</p>
+                <p>Uses the information to obtain hourly energy, and the sum is the annual energy</p>
             </td>
             <td>
-                <p>Runtime (seconds)</p>
+                <p>RMS Power (kW); OAT (F)</p>
             </td>
         </tr>
         <tr>
@@ -68,16 +79,6 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
                 <p>Speed (rpm); OAT (F)</p>
             </td>
         </tr>
-        <tr>
-            <td>
-                <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-10_chiller_pump_variable_volume_pc.xlsx" download>Variable-speed, Variable-volume Chiller Pump Energy Calculator</a></p>
-            </td>
-            <td>
-                <p>Uses the information to obtain hourly energy, and the sum is the annual energy</p>
-            </td>
-            <td>
-                <p>RMS Power (kW); OAT (F)</p>
-            </td>
     </tbody>
 </table>
 
@@ -85,140 +86,51 @@ url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-ene
 
 ## Secondary Chilled Water Pump Calculations
 
-### Constant-speed, Constant-volume Pumps Using Motor On/-Off Loggers
+### Constant-speed, Constant-volume Pumps Using Motor On/Off Loggers
 
 This calculation tool is for a constant speed, constant volume system. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers. 
 
 1. Convert seconds on per hour to percent on per hour (Worksheet: "Step 2. Percent Runtime Calcs").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\%On(t) = \frac{On(t)}{3600}$$</th>
-    <td class="tg-0pky">(1)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} \%On(t) = \frac{On(t)}{3600} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\%On(t) = \text{Percent of an hour that the pump motor is on, %}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$On(t) = \text{Measured time that pump motor is on, seconds}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$t = \text{Index for each measured data point}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$\%On(t) =$ Percent of an hour that the pump motor is on, %</p>
+<p class="equation">$On(t) =$ Measured time that pump motor is on, seconds</p>
+<p class="equation">$t =$ Index for each measured data point</p>
 
 2. Average % hour motor is on for each hour of each day of the week (Worksheet: "Step 3. Daily Avg Runtime Calcs").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{\%On}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} \%On(n)}{N(d,h)}$$</th>
-    <td class="tg-0pky">(2)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} \overline{\%On}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} \%On(n)}{N(d,h)} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{\%On}_{d,h} = \text{Average % time motor is on per hour for given day of week, d, and hour of the day, h, %}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$N(d,h) = \text{Total number of measured data points that fall on day of week, d, and hour of the day, h}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$n \in t(d,h) = \text{Index for the subset of measured data points that fall on day of week, d, and hour of the day, h}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$\overline{\%On}_{d,h} =$ Average % time motor is on per hour for given day of week, d, and hour of the day, h, %</p>
+<p class="equation">$N(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
+<p class="equation">$n \in t(d,h) =$ Index for the subset of measured data points that fall on day of week, d, and hour of the day, h</p>
 
 3. Find the average hours per day pump is on (Worksheet: "Step 4. Results").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{HrsOn}_{d} = \sum_{h=1}^{24} \overline{\%On}_{d,h}$$</th>
-    <td class="tg-0pky">(3)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} \overline{HrsOn}_{d} = \sum_{h=1}^{24} \overline{\%On}_{d,h} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{HrsOn}_{d} = \text{Average hours per day for given day of week, d, hours}$$</th>
-    <td class="tg-0pky"></th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$\overline{HrsOn}_{d} =$ Average hours per day for given day of week, d, hours</p>
 
 4. Calculate energy used for full year (Worksheet: "Step 4. Results").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$WeeksChillerOn = (DayOfYear(CoolingSeasonEndDate)$$</th>
-    <td class="tg-0pky">(4)</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$- DayOfYear(CoolingSeasonStartDate)) * \frac{WeeksPerDay}{DaysPerYear}$$</th>
-    <td class="tg-0pky"></th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} WeeksChillerOn = (DayOfYear(CoolingSeasonEndDate) \end{equation}</p>
+<p class="equation equation-center">\begin{equation*} - DayOfYear(CoolingSeasonStartDate)) * \frac{WeeksPerDay}{DaysPer Year}\end{equation*}</p>
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$E = WeeksChillerOn * P\sum_{d=1}^{7} \overline{HrsOn}_{d}$$</th>
-    <td class="tg-0pky">(5)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} E = WeeksChillerOn * P\sum_{d=1}^{7} \overline{HrsOn}_{d} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$E = /text{Annual pump energy, kWh}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$DayOfYear = \text{Function to convert a date to the n^{th} day of the year}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$CoolingSeasonEndDate = \text{Cooling season end date, mm/dd/yyyy}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$CoolingSeasonStartDate = \text{Cooling season start date, mm/dd/yyyy}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$WeeksChillerOn = \text{Length of cooling season, weeks}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$WeeksPerYear = \text{52}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$DaysPerYear = \text{365.24}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$P = \text{Measured pump power, kW}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$E =$ Annual pump energy, kWh</p>
+<p class="equation">$DayOfYear =$ Function to convert a date to the n^{th} day of the year</p>
+<p class="equation">$CoolingSeasonEndDate =$ Cooling season end date, mm/dd/yyyy</p>
+<p class="equation">$CoolingSeasonStartDate =$ Cooling season start date, mm/dd/yyyy</p>
+<p class="equation">$WeeksChillerOn =$ Length of cooling season, weeks</p>
+<p class="equation">$WeeksPerYear =$ 52</p>
+<p class="equation">$DaysPerYear =$ 365.24</p>
+<p class="equation">$P =$ Measured pump power, kW</p>
 
 ### Constant-speed, Constant-volume Pumps Using Data Logging Power Meters
 
@@ -226,60 +138,22 @@ This calculation tool is forr a constant-speed, constant-volume pump. Measured i
 
 5. Average % hour motor is on for each hour of each day of the wek (Worksheet: "Step 3. Ave Day of Week Calcs").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{P}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} P(t)}{N(d,h)}$$</th>
-    <td class="tg-0pky">(6)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} \overline{P}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} P(t)}{N(d,h)} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{P}_{d,h} = \text{Average motor power for given day of week, d, and hour of the day, h, kW}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$P(t) = \text{Measured motor power, kW}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$t = \text{Index for measured data points}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$N(d,h) = \text{Total number of measured data points that fall on day of week, d, and hour of the day, h}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$n \in t(d,h) = \text{Index for subset of measured data points that fall on day of week, d, and hour of the day, h}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$\overline{P}_{d,h} =$ Average motor power for given day of week, d, and hour of the day, h, kW</p>
+<p class="equation">$P(t) =$ Measured motor power, kW</p>
+<p class="equation">$t =$ Index for measured data points</p>
+<p class="equation">$N(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
+<p class="equation">$n \in t(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of the day, h</p>
 
 6. Calculate energy used for full (Worksheet: "Step 4. Results"). WeeksChillerOn is from Equation 5. 
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$E = WeeksChillerOn * \sum_{d=1}^{7} \sum_{h=1}^{24} \overline{P}_{d,h}$$</th>
-    <td class="tg-0pky">(7)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{d=1}^{7} \sum_{h=1}^{24} \overline{P}_{d,h} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$E = \text{Annual pump energy, kWh}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$WeeksPerYear = \text{52}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$E =$ Annual pump energy, kWh</p>
+<p class="equation">$WeeksPerYear =$ 52</p>
 
 ### Constant-speed, Constant-volume Pumps Using Current Transformers
 
@@ -287,34 +161,14 @@ This calculation tool is for a constant-speed, constant-volume pump. Measured in
 
 7. Convert average hourly current to percent on per hour (Worksheet: "Step 2. Percent Runtime Calcs").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$On(t) = \begin{cases} \frac{I(t)}{I_{max}} & \text{if } I(t) < I_{max}\\
-    100\% & \text{otherwise } \end{cases}$$</th>
-    <td class="tg-0pky">(8)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} \begin{cases} \frac{I(t)}{I_{max}} & \text{if } I(t) < I_{max}\\
+    100\% & \text{otherwise } \end{cases} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\%On(t) = \text{Percent of an hour that the pump motor is on, %}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$I(t) = \text{Measured time that pump motor is on, seconds}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$t = \text{Index for each measured data point}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$I_{max} = \text{Current measured at the maximum constant speed, Amps}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$\%On(t) =$ Percent of an hour that the pump motor is on, %</p>
+<p class="equation">$I(t) =$ Measured time that pump motor is on, seconds</p>
+<p class="equation">$t =$ Index for each measured data point</p>
+<p class="equation">$I_{max} =$ Current measured at the maximum constant speed, Amps</p>
 
 8. Equations 3 to 6 are used to calculate the annual pump energy.
 
@@ -324,100 +178,35 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 
 9. Fit a second-order polynomial regression model of true RMW power as a function OAT. (Worksheet: "Step 3. Regression").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$P(OAT) = a * OAT^{2} + b * OAT + c$$</th>
-    <td class="tg-0pky">(9)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} P(OAT) = a * OAT^{2} + b * OAT + c \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$P = \text{Average hourly true RMS power}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$a,b,c = \text{Regression coefficients}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$OAT = \text{Outdoor air temperature, F}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$P =$ Average hourly true RMS power</p>
+<p class="equation">$a,b,c =$ Regression coefficients$</p>
+<p class="equation">$OAT =$ Outdoor air temperature, F</p>
 
 10. Average % hour motor is on for each hour of each day of the week (Worksheets: "Step 4. Schedule Calcs" and "Step 5. Daily Ave Schedule Calc").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$On(t) = \begin{cases} 1 & \text{if } P(t) > 0\\
-    0 & otherwise \end{cases}$$</th>
-    <td class="tg-0pky">(10)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} On(t) = \begin{cases} 1 & \text{if } P(t) > 0\\
+    0 & otherwise \end{cases} \end{equation}</p>
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$\overline{\%On}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} On(t)}{N(d,h)}$$</th>
-    <td class="tg-0pky">(11)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} \overline{\%On}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} On(t)}{N(d,h)} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$P(t) = \text{Measures power, kW}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$On(t) = \text{Motor is on at time, t, binary}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$\overline{\%On}_{d,h} = \text{Average % time motor is on per hour for given day of week, d, and hour of the day, h, %}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$N(d,h) = \text{Total number of measured data points that fall on day of week, d, and hour of the day, h}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$n \in t(d,h) = \text{Index for subset of measured data points that fall on day of week, d, and hour of the day, h}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$P(t) =$ Measures power, kW</p>
+<p class="equation">$On(t)=$ Motor is on at time, t, binary</p>
+<p class="equation">$\overline{\%On}_{d,h} =$ Average % time motor is on per hour for given day of week, d, and hour of the day, h, %</p>
+<p class="equation">$N(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
+<p class="equation">$n \in t(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of the day, h</p>
 
 11. Total annual pump energy (Woeksheets: "Step 6. Energy Calcs" and "Step 7. Results").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$E = WeeksChillerOn * \sum_{t=1}^{8760} P(OAT'(t)) * \overline{\%On}_{d,h}(t)$$</th>
-    <td class="tg-0pky">(12)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{t=1}^{8760} P(OAT'(t)) * \overline{\%On}_{d,h}(t) \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$E = \text{Annual energy usage, kWh}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$OAT'(t) = \text{Hourly climate normal outside air temperature from National Weather Service at station closest to site, F}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$WeeksChillerOn = \text{Cooling season (see Equation 5), weeks}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$E =$ Annual energy usage, kWh</p>
+<p class="equation">$OAT'(t) =$ Hourly climate normal outside air temperature from National Weather Service at station closest to site, F</p>
+<p class="equation">$WeeksChillerOn =$ Cooling season (see Equation 5), weeks</p>
 
 ### Variable-speed, Variable-volume Pumps Using Speed Data From BAS or VFD
 
@@ -425,33 +214,13 @@ This calculation tool is for VFD-controlled pumps using hourly average motor spe
 
 12. Convert the speed data from the BAS of VFD to power (Worksheet: "Step 2. Aggregate Data").
 
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$P(t) = P_{max}(\frac{\omega(t)}{\omega_{max}})^{2.5}$$</th>
-    <td class="tg-0pky">(13)</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation equation-center">\begin{equation} P(t) = P_{max}(\frac{\omega(t)}{\omega_{max}})^{2.5} \end{equation}</p>
 
-Where,
-
-<table class="equation-table">
-<tbody>
-  <tr>
-    <td class="tg-0pky">$$P(t) = \text{Average hourly true RMS power, kW}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$P_{max} = \text{Full speed true RMS, kW}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$\omega_{max} = \text{Maximum motor speed, rpm}$$</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">$$\omega(t) = \text{Motor speed, rpm}$$</th>
-  </tr>
-</tbody>
-</table>
+<p class="equation">Where,</p>
+<p class="equation">$P(t) =$ Average hourly true RMS power, kW</p>
+<p class="equation">$P_{max} =$ Full speed true RMS, kW</p>
+<p class="equation">$\omega_{max} =$ Maximum motor speed, rpm</p>
+<p class="equation">$\omega(t) =$ Motor speed, rpm</p>
 
 This equation represents the pump affinity law, where theoretically the exponent is 3. <span class="tooltip-pnp">To represent the motor loses, the Consortium for Energy Efficiency recommends using a value of 2.5.<span class="tooltiptext">Consortium for Energy Efficiency. Motor Efficiency, Selection, and Management: A Gudiebook for Indutrial Efficiency Programs (May 2011).</span></span>
 

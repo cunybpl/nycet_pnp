@@ -21,6 +21,7 @@ url: "/documents/measurement-technique/electrical-energy"
 ---
 
 ## Description of Electrical Energy
+
 This technique uses a data logger to take long- term measurements of the electrical energy (kWh) and power draw (kW) of a system or component at one- hour intervals. Measurements are taken at the electrical distribution system (more specifically at a panelboard , power panel or switchgear) that serves the system or component. Measurement data is used to estimate the annual energy consumption of the system or component. 
 
 Data loggers and power meters use instantaneous measurements of current and voltage to calculate the instantaneous power draw. Over time, the logger or meter calculates the average power draw. Manufacturers of measurement equipment use different calculations for power draw. In order to compare data obtained from different measurement equipment it is important to understand the calculation used by the equipment. The manufacturer’s user manual or technical specifications discuss these features in detail. 
@@ -158,11 +159,20 @@ After verifying that the logger is collecting data, do the following:
 
 ## Troubleshooting
 
-<p><strong>Problem 1:</strong> Unexpected Negative Readings</p>
-<p><strong>- Solution:</strong> Confirm that all current transformers (CTs) are facing the correct direction.</p>
+<strong>Problem 1:</strong> Unexpected Negative Readings
 
-<p><strong>Problem 2:</strong> Unexpected Low Values</p>
-<p><strong>- Solution:</strong> Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.</p> 
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> Confirm that all current transformers (CTs) are facing the correct direction.
+</div>
 
-<p><strong>Problem 3:</strong> CTs Do Not Fit in Panelboard Casing</p> 
-<p><strong>- Solution:</strong> If it is safe to do so, trace the wires outside the panel board and install the sensors there. If this is unsafe or not possible to do, consider following an alternative approach of measuring current to the system with either instantaneous true power or nameplate data as a proxy for total power draw and energy consumption.</p>
+<strong>Problem 2:</strong> Unexpected Low Values
+
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.
+</div> 
+
+<strong>Problem 3:</strong> CTs Do Not Fit in Panelboard Casing
+
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> If it is safe to do so, trace the wires outside the panel board and install the sensors there. If this is unsafe or not possible to do, consider following an alternative approach of measuring current to the system with either instantaneous true power or nameplate data as a proxy for total power draw and energy consumption.
+</div>

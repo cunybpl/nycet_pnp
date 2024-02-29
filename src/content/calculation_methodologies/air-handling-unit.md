@@ -20,7 +20,7 @@ url: "/documents/calculation-methodology/air-handling-unit"
                 <p><strong>Description</strong></p>
             </td>
             <td bgcolor="#e7e6e6">
-                <p><strong>Required Date To Use This Calculator</strong></p>
+                <p><strong>Required Data To Use This Calculator</strong></p>
             </td>
         </tr>
     <tbody>

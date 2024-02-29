@@ -11,7 +11,7 @@ related_components:
 url: "/documents/measurement-technique/system-air-temperature"
 ---
 
-## Description 
+## Description of System Air Temperature
 
 This technique uses data loggers to take long-term measurements of air temperature (F) at one-hour intervals. This technique can be used to characterize air handling unit (AHU) performance; supply/discharge air, return air, exhaust air and mixed air temperatures are measured with this technique. Each air stream requires a different logger for data collection. This data is used to estimate the thermal loads of the system during the heating and cooling seasons. For a more detailed description of how to characterize an AHU, please refer to the protocols and procedures: PnP-P-02 – Air Handling Plant. 
 
@@ -19,7 +19,7 @@ Measurements should be taken at one-hour average intervals. When taking one-hour
 
 The duration of the long-term measurement should be a minimum of six weeks. Measurements should be taken when the system is operating under normal conditions. Although AHUs typically operate year-round, the heating and cooling season will affect their schedules. To calculate the annual energy consumption of a unit, six weeks of measurements should be taken for each season. To calculate only the heating or cooling season energy consumption, six weeks of measurements for that season should be taken. 
 
-## Type of Measurement 
+### Type of Measurement 
 
 Direct 
 
@@ -114,14 +114,14 @@ After verifying that the logger is collecting data, do the following:
 
 Air handling units come in all sizes and there is no single method on how to properly install the temperature loggers. Installing at the mixing plenum/chamber is the most challenging because you are trying to measure the mixed air temperature which is the combination of return air and outside air. 
 
-<strong>Problem:</strong> the logger is measuring unexpected values. 
+<strong>Problem 1:</strong> the logger is measuring unexpected values. 
 
-<ul>
-<li><strong>Solution:</strong> Verify that the logger is calibrated and re-calibrate the equipment if necessary.</li>  
-</ul>
+<div class="alert alert-warning" role="alert">
+<strong>Solution</strong> Verify that the logger is calibrated and re-calibrate the equipment if necessary.  
+</div>
 
-<strong>Problem:</strong> The temperature reading is higher than expected 
+<strong>Problem 2:</strong> The temperature reading is higher than expected 
 
-<ul>
-<li><strong>Solution:</strong> Readjust the placement of the logger and ensure that the logger is installed correctly (i.e., there is no interference from heating and cooling coils).</li>
-</ul>
+<div class="alert alert-warning" role="alert">
+<strong>Solution:</strong> Readjust the placement of the logger and ensure that the logger is installed correctly (i.e., there is no interference from heating and cooling coils).
+</div>
