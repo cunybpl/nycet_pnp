@@ -20,10 +20,11 @@
     }
     ul {
       margin-left: 0;
-      padding-left: 1.5rem;
+      padding-left: 0;
+      list-style-type: none;
     }
     li {
-      line-height: 1.250rem;
+      line-height: 1.375rem;
       margin-left: 0;
     }
   }
@@ -33,6 +34,18 @@
   display: none !important;
 }
 
+.card-related-list a:not(.btn) {
+  text-decoration: underline;
+}
+
+.realted-title {
+  font-weight: bold;
+}
+
+.no-related-title {
+  font-weight: bold;
+  color: gray;
+}
 .show-html-element {
   display: block !important;
 }

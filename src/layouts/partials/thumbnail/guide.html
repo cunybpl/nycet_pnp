@@ -38,11 +38,11 @@
           <a class="btn btn-primary" href="{{ .page_url | relURL }}">View {{ .params.type | safeHTML | title }}</a>
         </div>
       </div>
-      {{ if isset .params "associated_systems" }}
       <hr class="mt-4 mb-3">
+      {{ if isset .params "associated_systems" }}
       <div class="px-4">
-        <p class="">Associated {{ $label }}</p>
-        <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0">
+        <h6 class="related-title">Associated {{ $label }}</h6>
+        <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0 card-related-list">
           {{ $counter := 0 }}
           {{ range where .pages "Title" "in" .params.associated_systems }}
           <!-- This loop is for counter -->
@@ -56,6 +56,10 @@
             {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" .guide_id "type" .guide_type "content" .params.associated_systems "all_pages" .pages "guide_title" .page_title) }}
           {{ end }}
         </ul>
+      </div>
+      {{else }}
+      <div class="px-4">
+        <h6 class="no-related-title">No Associated {{ $label }}</h6>
       </div>
       {{ end }}
     </div>
