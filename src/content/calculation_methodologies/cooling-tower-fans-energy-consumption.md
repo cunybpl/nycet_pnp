@@ -6,9 +6,14 @@ calculation_methodology_id: 4
 excerpt: Measure the electricity consumed by the pump motor. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. The typical energy consumption of a constant-speed pump is estimated using the simulated yearly schedule of the pump. 
 related_systems:
   - Chilled Water Loop
-  - Condenser Water Loop
+  - Condenser Water Loop  
 related_components:
   - Constant-speed, Constant-volume Pump and Motor
+related_measurements:
+  - Electrical Current
+associated_calculators:
+  - Calculator 1 but the name is super long and I am truncating it
+  - Calculator 2
 url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 ---
 

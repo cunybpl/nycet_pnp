@@ -1,6 +1,10 @@
+{{ $_title := .Title }}
+{{ $_id := replace (urlize $_title | lower) " " "-" }}
 {{ $label := "" }}
 {{ if eq .params.type "system" }}
   {{ $label = "components" }}
+{{ else if eq .params.type "calculation"}}
+  {{ $label = "calculators" }}
 {{ else }}
   {{ $label = "systems" }}
 {{ end }}
@@ -39,24 +43,41 @@
         </div>
       </div>
       <hr class="mt-4 mb-3">
-      {{ if isset .params "associated_systems" }}
-      <div class="px-4">
-        <h6 class="related-title">Associated {{ $label }}</h6>
-        <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0 card-related-list">
-          {{ $counter := 0 }}
-          {{ range where .pages "Title" "in" .params.associated_systems }}
-          <!-- This loop is for counter -->
-            {{ $counter = add $counter 1 }}
-          {{ end }}
-          {{ range first 3 (where .pages "Title" "in" .params.associated_systems) }}
-          <!-- This loop is for the actual data -->
-            {{ partial "thumbnail/associated_systems.html" . }}
-          {{ end }}
-          {{ if gt $counter 3 }}
-            {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" .guide_id "type" .guide_type "content" .params.associated_systems "all_pages" .pages "guide_title" .page_title) }}
-          {{ end }}
-        </ul>
-      </div>
+      {{ if eq .params.type "calculation"}}
+        {{ if isset .params "associated_calculators" }}
+        <div class="px-4">
+          <h6 class="related-title">Associated {{ $label }}</h6>
+          <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
+            {{ if isset .Params "associated_calculators" }}
+              {{ $calculators := where .Site.Data.downloadable_files.files "name" "in" .Params.associated_calculators }}
+              {{ range first 3 $calculators }}
+                {{ partial "thumbnail/associated_calculators.html" .  }}
+              {{ end }}
+              {{ partial "thumbnail/see_more_associated_calculators.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_calculators "all_calculators" $calculators "guide_title" $_title) }}
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      {{ else }}
+        {{ if isset .params "associated_systems" }}
+        <div class="px-4">
+          <h6 class="related-title">Associated {{ $label }}</h6>
+          <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0 card-related-list">
+            {{ $counter := 0 }}
+            {{ range where .pages "Title" "in" .params.associated_systems }}
+            <!-- This loop is for counter -->
+              {{ $counter = add $counter 1 }}
+            {{ end }}
+            {{ range first 3 (where .pages "Title" "in" .params.associated_systems) }}
+            <!-- This loop is for the actual data -->
+              {{ partial "thumbnail/associated_systems.html" . }}
+            {{ end }}
+            {{ if gt $counter 3 }}
+              {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" .guide_id "type" .guide_type "content" .params.associated_systems "all_pages" .pages "guide_title" .page_title) }}
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
       {{ end }}
     </div>
   </div>

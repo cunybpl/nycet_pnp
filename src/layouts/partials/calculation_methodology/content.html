@@ -27,9 +27,9 @@
 <section id="{{ .Params.type }}-page-related-cm" class="container {{ .Params.type }}-page-content px-0">
   {{ $total_related_cm := 0 }}
   {{ $cm := "" }}
-  {{ if isset .Params "related_calculation_methodologies" }}
-    {{ $total_related_cm = .Params.related_calculation_methodologies | len }}
-    {{ $cm = .Params.related_calculation_methodologies }}
+  {{ if isset .Params "related_calculations" }}
+    {{ $total_related_cm = .Params.related_calculations | len }}
+    {{ $cm = .Params.related_calculations }}
   {{ end }}
   <div class="d-flex align-items-center mb-1" style="padding-top: 4rem;">
     <h3 class="mb-0">
@@ -49,9 +49,9 @@
 <section id="{{ .Params.type }}-page-related-mt" class="container {{ .Params.type }}-page-content px-0">
   {{ $total_related_mt := 0 }}
   {{ $mt := "" }}
-  {{ if isset .Params "related_measurement_techniques" }}
-    {{ $total_related_mt = .Params.related_measurement_techniques | len }}
-    {{ $mt = .Params.related_measurement_techniques }}
+  {{ if isset .Params "related_measurements" }}
+    {{ $total_related_mt = .Params.related_measurements | len }}
+    {{ $mt = .Params.related_measurements }}
   {{ end }}
   <div class="d-flex align-items-center mb-1" style="padding-top: 4rem;">
     <h3 class="mb-0">

@@ -36,7 +36,7 @@
                     <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .image | absURL }});">
                     {{ else }}
                       <!-- If guide doesn't have featured image -->
-                    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center no-thumb">
+                    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/calculator-thumb-placeholder.jpg)">
                     {{ end }}
                     </div>
                     <div class="guide-thumbnail-content">
@@ -47,7 +47,7 @@
                         </div>  
                         <div>
                           <a class="btn btn-primary" href="/downloadables/{{ .filename }}" download="{{ .filename }}">
-                            Download Calculator
+                            <i class="fa fa-download" aria-hidden="true" style="margin-right: 5px;"></i>Download
                           </a>
                         </div>
                       </div>

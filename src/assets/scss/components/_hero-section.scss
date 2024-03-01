@@ -117,53 +117,53 @@
   }
 }
 
-.plant-logo-top-left, .plant-logo-top-right, .plant-logo-bottom-left, .plant-logo-bottom-right {
-  position: absolute;
-}
+// .plant-logo-top-left, .plant-logo-top-right, .plant-logo-bottom-left, .plant-logo-bottom-right {
+//   position: absolute;
+// }
 
-.plant-logo-top-left {
-  top: -25%;
-  left: 2.5%;
-  @include ipad {
-    top: -12.5%;
-  }
-  @include desktop-4k {
-    left: 25%;
-  }
-}
+// .plant-logo-top-left {
+//   top: -25%;
+//   left: 2.5%;
+//   @include ipad {
+//     top: -12.5%;
+//   }
+//   @include desktop-4k {
+//     left: 25%;
+//   }
+// }
 
-.plant-logo-top-right {
-  top: -25%;
-  right: 2.5%;
-  @include ipad {
-    top: -12.5%;
-  }
-  @include desktop-4k {
-    right: 25%;
-  }
-}
+// .plant-logo-top-right {
+//   top: -25%;
+//   right: 2.5%;
+//   @include ipad {
+//     top: -12.5%;
+//   }
+//   @include desktop-4k {
+//     right: 25%;
+//   }
+// }
 
-.plant-logo-bottom-left {
-  bottom: -12.5%; 
-  left: 2.5%;
-  @include ipad {
-    bottom: -8.5%;
-  }
-  @include desktop-4k {
-    left: 25%;
-  }
-}
+// .plant-logo-bottom-left {
+//   bottom: -12.5%; 
+//   left: 2.5%;
+//   @include ipad {
+//     bottom: -8.5%;
+//   }
+//   @include desktop-4k {
+//     left: 25%;
+//   }
+// }
 
-.plant-logo-bottom-right {
-  bottom: -12.5%; 
-  right: 2.5%;
-  @include ipad {
-    bottom: -8.5%;
-  }
-  @include desktop-4k {
-    right: 25%;
-  }
-}
+// .plant-logo-bottom-right {
+//   bottom: -12.5%; 
+//   right: 2.5%;
+//   @include ipad {
+//     bottom: -8.5%;
+//   }
+//   @include desktop-4k {
+//     right: 25%;
+//   }
+// }
 
 .no-result {
   &-container {

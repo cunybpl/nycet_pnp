@@ -1,6 +1,7 @@
 {{ $_title := .Title }}
 {{ $_id := replace (urlize $_title | lower) " " "-" }}
 {{ $label := "" }}
+{{ $labelassoc := "" }}
 {{ if eq .Params.type "calculation" }}
   {{ $label = "calculators" }}
 {{ end }}
@@ -12,9 +13,12 @@
     <div class="guide-thumbnail">
       {{ if isset .Params  "thumbnail_image" }}
       <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image:url({{ .Params.thumbnail_image | absURL }});">
-      {{ else }}
-        <!-- If guide doesn't have featured image -->
-      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center no-thumb">
+      {{ else if eq .Params.type "measurement" }}
+        <!-- If guide doesn't have featured image and is measuerement -->
+      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/measurement-guide-thumb-placeholder.jpg);">
+      {{ else if eq .Params.type "calculation" }}
+        <!-- If guide doesn't have featured image and is calc -->
+      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/calc-guide-thumb-placeholder.jpg);">
       {{ end }}
       </div>
       <div class="guide-thumbnail-content">
@@ -29,15 +33,10 @@
         </div>
         <hr class="my-3">
         <div class="px-4">
-          <p class="">Associated {{ $label }}:</p>
-          <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0">
-            {{ if isset .Params "associated_measurement_techniques" }}
-              {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_measurement_techniques) }}
-                {{ partial "thumbnail/associated_systems.html" .  }}
-              {{ end }}
-              {{ partial "thumbnail/see_more_associated_measurement.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_measurement_techniques "all_pages" .Site.RegularPages "guide_title" $_title) }}
-            {{ end }}
-
+          {{ if eq .Params.type "calculation" }}
+            {{ $labelassoc = "calculators" }}
+            <h6 class="related-title"> Download {{ $labelassoc }}:</h6>
+            <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
             {{ if isset .Params "associated_calculators" }}
               {{ $calculators := where .Site.Data.downloadable_files.files "name" "in" .Params.associated_calculators }}
               {{ range first 3 $calculators }}
@@ -45,7 +44,17 @@
               {{ end }}
               {{ partial "thumbnail/see_more_associated_calculators.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_calculators "all_calculators" $calculators "guide_title" $_title) }}
             {{ end }}
-            
+          {{ else if eq .Params.type "measurement" }}
+            {{ $labelassoc = "systems" }}
+            <h6 class="related-title">Associated {{ $labelassoc }}:</h6>
+            <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
+            {{ if isset .Params "associated_systems" }}
+              {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_systems) }}
+                {{ partial "thumbnail/associated_systems.html" .  }}
+              {{ end }}
+              {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_systems "all_pages" .Site.RegularPages "guide_title" $_title) }}
+            {{ end }}
+          {{ end }}                      
           </ul>
         </div>
       </div>

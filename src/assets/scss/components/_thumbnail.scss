@@ -26,16 +26,15 @@
     li {
       line-height: 1.4rem;
       margin-left: 0;
+    a {
+      text-decoration: underline;
+    }
     }
   }
 }
 
 .guide-card {
   display: none !important;
-}
-
-.card-related-list a:not(.btn) {
-  text-decoration: underline;
 }
 
 h5.card-title {

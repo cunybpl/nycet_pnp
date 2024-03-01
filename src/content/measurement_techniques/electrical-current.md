@@ -4,7 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 3
 excerpt: This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals.
-related_systems:
+associated_systems:
   - Electrical Distribution
   - Constant-speed, Constant-volume Air Handling Unit
   - Dual-speed Air Handling Unit
@@ -21,6 +21,10 @@ related_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
   - Variable-speed, Variable-volume Fan and Motor
+related_calculations:
+  - Cooling Tower Fans Energy Consumption
+associated_calculations:
+  - Cooling Tower Fans Energy Consumption
 url: "/documents/measurement-technique/electrical-current"
 ---
 

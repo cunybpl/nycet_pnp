@@ -153,6 +153,15 @@ h2, h3, h4 {
 a#back-to-top {
   border: none;
   display: none;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 1px solid #52a85a;
+  border-radius: 6px;
+}
+
+a#back-to-top:hover {
+  background-color: #52a85a;
+  color: white;
 }
 
 // .associated_systems_see_more_btn {
