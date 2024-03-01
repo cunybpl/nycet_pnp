@@ -11,6 +11,8 @@ related_components:
   - Constant-speed, Constant-volume Pump and Motor
 related_measurements:
   - Electrical Current
+associated_systems:
+  - Constant-speed, Constant-volume Pump and Motor
 associated_calculators:
   - Calculator 1 but the name is super long and I am truncating it
   - Calculator 2

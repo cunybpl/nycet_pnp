@@ -1,10 +1,8 @@
-{{ $_title := .Title }}
-{{ $_id := replace (urlize $_title | lower) " " "-" }}
 {{ $label := "" }}
 {{ if eq .params.type "system" }}
   {{ $label = "components" }}
 {{ else if eq .params.type "calculation"}}
-  {{ $label = "calculators" }}
+  {{ $label = "components" }}
 {{ else }}
   {{ $label = "systems" }}
 {{ end }}
@@ -43,22 +41,6 @@
         </div>
       </div>
       <hr class="mt-4 mb-3">
-      {{ if eq .params.type "calculation"}}
-        {{ if isset .params "associated_calculators" }}
-        <div class="px-4">
-          <h6 class="related-title">Associated {{ $label }}</h6>
-          <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
-            {{ if isset .Params "associated_calculators" }}
-              {{ $calculators := where .Site.Data.downloadable_files.files "name" "in" .Params.associated_calculators }}
-              {{ range first 3 $calculators }}
-                {{ partial "thumbnail/associated_calculators.html" .  }}
-              {{ end }}
-              {{ partial "thumbnail/see_more_associated_calculators.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_calculators "all_calculators" $calculators "guide_title" $_title) }}
-            {{ end }}
-          </ul>
-        </div>
-        {{ end }}
-      {{ else }}
         {{ if isset .params "associated_systems" }}
         <div class="px-4">
           <h6 class="related-title">Associated {{ $label }}</h6>
@@ -78,7 +60,6 @@
           </ul>
         </div>
         {{ end }}
-      {{ end }}
     </div>
   </div>
 </section>
