@@ -4,6 +4,12 @@ type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 2
 excerpt: This calculation tool is for various fans and systems.
+# associated_systems:
+#   - Constant-speed, Constant-volume Air Handling Unit
+#   - Boiler
+#   - Condenser Water Loop
+associated_measurements:
+  - Electrical Current
 url: "/documents/calculation-methodology/air-handling-unit"
 ---
 
