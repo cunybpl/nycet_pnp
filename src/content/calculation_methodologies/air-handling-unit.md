@@ -4,6 +4,10 @@ type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 2
 excerpt: This calculation tool is for various fans and systems.
+realted_systems:
+  - Constant-Speed, Constant-Volume System
+related_measurements:
+  - Electrical Current
 url: "/documents/calculation-methodology/air-handling-unit"
 ---
 

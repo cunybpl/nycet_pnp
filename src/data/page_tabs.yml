@@ -11,7 +11,7 @@ tabs:
     tabs:
       - name: measurement-guides
         label: Guide
-        icon: images/hero/guide-icon.png
+        icon: images/hero/system-icon.png
       - name: related-components
         label: Related Components
         icon: images/hero/component-icon.png

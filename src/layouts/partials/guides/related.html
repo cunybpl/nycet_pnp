@@ -28,7 +28,7 @@
         </div>
         <hr class="my-3">
         <div class="px-4">
-          <p class="">Associated {{ $label }}:</p>
+          <h6 class="related-title">Associated {{ $label }}:</h6>
           <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0">
             {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_systems) }}
               {{ partial "thumbnail/associated_systems.html" .  }}

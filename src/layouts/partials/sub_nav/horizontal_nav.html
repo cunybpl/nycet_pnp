@@ -14,9 +14,9 @@
       >
         <button id="{{ $element.name }}" class="tabLink text-light" onclick="displayGuides(event)">
         <!-- Chnage to per tab icon -->
-          <!-- <div class="mr-2">
-            <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
-          </div> -->
+          <div class="mr-2">
+            <img src="{{ $element.icon }}" class="img-fluid guide-icon">
+          </div>
           <span>{{ $element.label }}</span>
           <div id="total-{{ $element.name }}-search-result" class="search-result-label ml-3">0</div>
         </button>

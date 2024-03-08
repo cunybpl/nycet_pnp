@@ -1,9 +1,9 @@
 files:
-  - name: "Calculator 1"
-    description: "A dummy description."
-    image: "/images/plants/water-cooled-chilled-water-plant/3D-Chillers-diagram_1.jpg"
+  - name: "Calculator 1 but the name is super long and I am truncating it"
+    description: "A dummy description about the calculator that will be truncated in a certian number of characters."
+    # calculators can have images if ever needed - for now they all use the same placeholder image in the html partial
+    # image: "/images/plants/water-cooled-chilled-water-plant/3D-Chillers-diagram_1.jpg"
     filename: "file1.pdf" 
   - name: "Calculator 2"
     description: "Another dummy description"
-    image: "/images/plants/ahu-fans-measurement-guide/ahu-fans-image-example-768x623.png"
     filename: "sample_file.pdf"

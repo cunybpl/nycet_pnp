@@ -9,7 +9,7 @@ related_systems:
   - Waterside Economizer
 related_components:
   - Liquid-to-liquid Heat Exchanger
-url: "/documents/calculation-methodology/liquid-to-liquid-heat-exchanger"
+url: "/documents/calculation-methodology/liquid-to-liquid-heat-exchanger-energy-consumption"
 ---
 
 ## Introduction

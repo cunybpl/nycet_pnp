@@ -3,12 +3,7 @@
     type="button" 
     class="btn btn-link see-more-associated-systems-button" 
     data-toggle="modal" 
-    data-target="#associated-systems-modal-{{ .type }}-{{ .id }}"
-    style="
-      text-transform: none;
-      font-weight: normal;
-      font-size: 14px;
-    "  
+    data-target="#associated-systems-modal-{{ .type }}-{{ .id }}" 
   >
     See All
   </button>
@@ -41,7 +36,7 @@
                   <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .Params.thumbnail_image | absURL }});">
                   {{ else }}
                     <!-- If guide doesn't have featured image -->
-                  <div class="guide-thumbnail-image d-flex justify-content-center align-items-center no-thumb">
+                  <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/system-guide-thumb-placeholder.jpg)">
                   {{ end }}
                   </div>
                   <div class="guide-thumbnail-content">

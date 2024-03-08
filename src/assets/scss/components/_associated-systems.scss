@@ -1,6 +1,7 @@
 .associated-systems-modal {
   &-content {
-    height: 800px;
+    max-height: 90vh;
+    border-radius: 6px;
     @include ipad {
       height: 850px;
     }
@@ -12,6 +13,10 @@
     z-index: 1055;
     display: flex;
     align-items: center;
+    & button span {
+      font-size: 3rem;
+      font-weight: normal;
+    }
   }
 }
 
@@ -19,6 +24,25 @@
   padding: 0;
   text-transform: none;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 80%;
   letter-spacing: normal;
+  position: relative;
+  text-decoration: underline;
+}
+.see-more-associated-systems-button:hover {
+  text-decoration: underline;
+}
+
+.see-more-associated-systems-button::after {
+  position: absolute;
+  content: '›';
+  font-size: 1.4rem;
+  line-height: 1;
+  top:1px;
+  left: 48px;
+  transition: left .3s ease 0s;
+}
+
+.see-more-associated-systems-button:hover::after {
+  left: 115%;
 }

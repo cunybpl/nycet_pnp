@@ -28,10 +28,6 @@ h2, h3, h4 {
   margin-top: 3rem;
 }
 
-h5.card-title {
-  font-size: 1.3rem;
-}
-
 [class$="page-content"] {
   .title {
     text-align: center;
@@ -157,6 +153,15 @@ h5.card-title {
 a#back-to-top {
   border: none;
   display: none;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 1px solid #52a85a;
+  border-radius: 6px;
+}
+
+a#back-to-top:hover {
+  background-color: #52a85a;
+  color: white;
 }
 
 // .associated_systems_see_more_btn {
