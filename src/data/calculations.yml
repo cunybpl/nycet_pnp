@@ -7,7 +7,7 @@ documents:
     title: "Liquid-to-liquid Heat Exchanger"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
   - type: calculation
-    title: "Secondary Chilled Water Pump Motors Energy Consumption"
+    title: "Pump Motors Energy Consumption"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
   - type: calculation
     title: "Lighting Plant and Systems Energy Consumption"
