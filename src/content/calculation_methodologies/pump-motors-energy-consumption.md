@@ -1,10 +1,10 @@
 ---
-title:  Secondary Chilled Water Pump Motors Energy Consumption
+title: Pump Motors Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 6
 excerpt: Calculation methodologies for various pumps and motors
-url: "/documents/calculation-methodology/secondary-chilled-water-pump-motors-energy-consumption"
+url: "/documents/calculation-methodology/pump-motors-energy-consumption"
 ---
 
 ## Calculators
