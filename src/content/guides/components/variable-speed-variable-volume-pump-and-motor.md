@@ -206,7 +206,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
 The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
 <table>
-    <caption><span class="tooltip-pnp">Table 2. Key Values and measurements<span class="tooltip-text"></caption>Option 1: Measure hourly true RMS power of pump and motor and measure hourly OAT Option 2: Measure hourly pump and motor speed and hourly OAT</span></span>
+    <caption><span class="tooltip-pnp">Table 2. Key Values and measurements<span class="tooltiptext">Option 1: Measure hourly true RMS power of pump and motor and measure hourly OAT Option 2: Measure hourly pump and motor speed and hourly OAT</span></span></caption>
     <thead>
         <tr>
             <td bgcolor="#e7e6e6">
