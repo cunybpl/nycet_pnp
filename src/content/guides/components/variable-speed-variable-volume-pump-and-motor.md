@@ -206,7 +206,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
 The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
 <table>
-    <caption><span class="tooltip-pnp">Table 2. Key Values and measurements<span class="tooltip-text">Regarding the fan motor runtime, it’s not used in any of the vsvv pump calculators. Option 1: remove it from the table above. Option 2: in the measurement column, replace “fan motor runtime (h)” with “See measurements for electricity profile of a variable-speed pump motor</span></span></caption>
+    <caption><span class="tooltip-pnp">Table 2. Key Values and measurements<span class="tooltiptext">Option 1: Measure hourly true RMS power of pump and motor and measure hourly OAT Option 2: Measure hourly pump and motor speed and hourly OAT</span></span></caption>
     <thead>
         <tr>
             <td bgcolor="#e7e6e6">
@@ -225,7 +225,7 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
                 <p>Electricity input to a variable-speed pump motor</p>
             </td>
             <td>
-                <p>Power input to a VSVV pump motor at known speeds (e.g. 30%, 50%, 75%, 100%)</p>
+                <p>Hourly power input to a VSVV pump motor at known speeds (e.g. 30%, 50%, 75%, 100%)</p>
             </td>
             <td>
                 <p>True RMS power of pump motor that drives the pump (kW)</p>
@@ -236,10 +236,10 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
                 <p>Electricity input to a variable-speed pump motor</p>
             </td>
             <td>
-                <p>Hourly average VSVV pump motor speed</p>
+                <p>Hourly average VSVV pump motor speed, pump motor power draw (kW)</p>
             </td>
             <td>
-                <p>VFD speed trend from BAS</p>
+                <p>VFD speed trend from BAS and one time true RMS power</p>
             </td>
         </tr>
         <tr>
@@ -251,17 +251,6 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
             </td>
             <td>
                 <p>OAT (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Non-weather dependent operating schedule for a variable-speed pump motor</p>
-            </td>
-            <td>
-                <p>Yearly operating schedule</p>
-            </td>
-            <td>
-                <p>Pump motor runtime</p>
             </td>
         </tr>
     </tbody>
