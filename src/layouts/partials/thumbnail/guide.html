@@ -2,7 +2,7 @@
 {{ if eq .params.type "system" }}
   {{ $label = "components" }}
 {{ else if eq .params.type "calculation"}}
-  {{ $label = "components" }}
+  {{ $label = "calculators" }}
 {{ else }}
   {{ $label = "systems" }}
 {{ end }}
@@ -59,7 +59,27 @@
             {{ end }}
           </ul>
         </div>
-        {{ end }}
+      {{ end }}
+      {{ if isset .params "associated_calculators" }}
+        <div class="px-4">
+          <h6 class="related-title">Associated {{ $label }}</h6>
+          <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0 card-related-list">
+            {{ $counter := 0 }}
+            {{ $calculators := where site.Data.downloadable_files.files "name" "in" .params.associated_calculators }}
+            {{ range $calculators }}
+            <!-- This loop is for counter -->
+              {{ $counter = add $counter 1 }}
+            {{ end }}
+            {{ range first 3 $calculators }}
+            <!-- This loop is for the actual data -->
+              {{ partial "thumbnail/associated_calculators.html" . }}
+            {{ end }}
+            {{ if gt $counter 3 }}
+              {{ partial "thumbnail/see_more_associated_calculators.html" (dict "id" .guide_id "type" .guide_type "content" .params.associated_calculators "all_calculators" $calculators "guide_title" .page_title) }}
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
     </div>
   </div>
 </section>
