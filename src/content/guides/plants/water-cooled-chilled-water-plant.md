@@ -43,9 +43,6 @@ A water-cooled chiller produces chilled water through the basic refrigeration cy
     </figure>
 </a> -->
 
-_This an example of the shortcode._
-{{< page_hyperlink page_title="Water-Cooled Chiller" img="images/calculation-methodology/calculation-methodology-icon.png" icon="fa-arrow-right" >}}
-
 ### Chilled Water Loop System
 
 A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building. Components of a chilled water loop are shown in Figure 3.
@@ -63,17 +60,18 @@ A chilled water loop consists of a closed loop distribution system that supplies
 
 A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower where the condenser water is cooled and returned to the chiller condenser. Components of a condenser water loop are shown in Figure 4.
 
-{{< hyperlink_image img_url="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg" img_caption="Figure 4. Condenser water loop." hyperlink="/documents/systems/condenser-water-loop" >}}
+<!-- Image that links to a page -->
+<!-- {{< hyperlink_image img_url="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg" img_caption="Figure 4. Condenser water loop." hyperlink="/documents/systems/condenser-water-loop" >}} -->
 
-<!-- <a href="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg">
+<a href="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg">
     <figure class="figure">
         <img src="/images/plants/water-cooled-chilled-water-plant/CW-Loop-Diagram_11292022.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Condenser water loop.">
         <figcaption class="figure-caption text-left">Figure 4. Condenser water loop.</figcaption>
     </figure>
-</a> -->
+</a>
 
 _This an example of the shortcode._
-{{< page_hyperlink page_title="Condenser Water Loop" img="images/calculation-methodology/calculation-methodology-icon.png" icon="fa-arrow-right" >}}
+{{< page_hyperlink page_title="Condenser Water Loop" img="images/hero/system-icon.png" icon="fa-arrow-right" >}}
 
 ### Waterside Economizer System
 
