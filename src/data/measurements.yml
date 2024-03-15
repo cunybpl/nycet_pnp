@@ -1,8 +1,11 @@
 enable: true
 documents:
   - type: measurement
-    title: "Electrical Energy"
-    measurement_type: "energy"
+    title: "True RMS Power"
+    measurement_type: "power, rms"
+  - type: measurement
+    title: "Electrical Spot Measurement"
+    measurement_type: "power, rms"
   - type: measurement
     title: "Motor Runtime"
     measurement_type: "runtime"
@@ -18,9 +21,6 @@ documents:
   - type: measurement
     title: "Outside Air Temperature"
     measurement_type: "air, temperature"
-  - type: measurement
-    title: "True RMS Power"
-    measurement_type: "power"
   - type: measurement    
     title: "System Air Temperature"
     measurement_type: "air, temperature"

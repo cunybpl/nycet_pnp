@@ -18,7 +18,7 @@ related_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
   - Constant-speed, Constant-volume Compressor and Motor
-url: "/documents/measurement-technique/true-rms-power"
+url: "/documents/measurement-technique/electrical-spot-measurement"
 ---
 
 ## Description of Electrical Spot Measurement

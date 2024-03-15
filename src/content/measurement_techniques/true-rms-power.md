@@ -17,7 +17,7 @@ related_components:
   - Variable-speed, Variable-volume Pump and Motor
   - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Compressor and Motor
-url: "/documents/measurement-technique/electrical-energy"
+url: "/documents/measurement-technique/true-rms-power"
 ---
 
 ## Description of True RMS Power
