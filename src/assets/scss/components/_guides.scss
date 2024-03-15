@@ -12,7 +12,7 @@
   li {
     display: inline;
     white-space: nowrap;
-    color: black;
+    color:$body-color;
     &:not(:first-of-type)::before {
       content: "/";
       padding: .5rem;
