@@ -71,7 +71,7 @@ A condenser water loop consists of an open loop distribution system that circula
 </a>
 
 _This an example of the shortcode._
-{{< page_hyperlink page_title="Condenser Water Loop" img="images/hero/system-icon.png" icon="fa-arrow-right" >}}
+{{< page_hyperlink page_title="Condenser Water Loop" img="images/systems/system-short-icon.png" icon="fa-arrow-right" >}}
 
 ### Waterside Economizer System
 
@@ -87,7 +87,7 @@ Waterside economizers may use an external plate-and-frame heat exchanger between
 </a> -->
 
 _This an example of the shortcode._
-{{< page_hyperlink page_title="Waterside Economizer" img="images/calculation-methodology/calculation-methodology-icon.png" icon="fa-arrow-right" >}}
+{{< page_hyperlink page_title="Waterside Economizer" img="images/systems/system-short-icon.png" icon="fa-arrow-right" >}}
 
 ## Key Values Needed to Assess Energy Consumption
 
