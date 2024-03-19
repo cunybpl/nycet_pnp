@@ -17,7 +17,7 @@ tabs:
         icon: images/hero/component-icon.png
       - name: borrow-equipments
         label: Borrow Equipments
-        icon: images/hero/electric-plant-icon-white.png
+        icon: images/hero/borrow-icon.png
   - name: component
     tabs:
       - name: measurement-guides
@@ -28,7 +28,7 @@ tabs:
         icon: images/hero/system-icon.png
       - name: borrow-equipments
         label: Borrow Equipment
-        icon: images/hero/electric-plant-icon-white.png
+        icon: images/hero/borrow-icon.png
   - name: measurement
     tabs:
       - name: measurement
@@ -39,7 +39,7 @@ tabs:
         icon: images/hero/guide-icon.png
       - name: borrow-equipments
         label: Borrow Equipment
-        icon: images/hero/electric-plant-icon-white.png
+        icon: images/hero/borrow-icon.png
   - name: calculation
     tabs:
       - name: calculation
@@ -50,5 +50,5 @@ tabs:
         icon: images/hero/guide-icon.png
       - name: borrow-equipments
         label: Borrow Equipment
-        icon: images/hero/electric-plant-icon-white.png
+        icon: images/hero/borrow-icon.png
   
