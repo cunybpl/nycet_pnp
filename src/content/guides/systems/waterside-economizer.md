@@ -3,11 +3,11 @@ title: Waterside Economizer
 type: system
 excerpt: Used to cool or partially cool the chilled water without mechanical heat transfer when outdoor air temperatures are cold enough to meet the building’s cooling demand. 
 thumbnail_image: "images/systems/water-cooled-chiller/Chiller-Angled-View-1.jpg"
+system_id: 4
 associated_systems:
-  - Liquid-to-Liquid Heat Exchanger
+  - Liquid-to-liquid Heat Exchanger
 related_components:
-  - Liquid-to-Liquid Heat Exchanger
-borrow_equipment_url: ""
+  - Liquid-to-liquid Heat Exchanger
 layout: guide
 url: "/documents/systems/waterside-economizer"
 ---
@@ -21,7 +21,7 @@ A waterside economizer is used to cool or partially cool the chilled water witho
 The components associated with a waterside economizer are heat exchanger, piping, and valves. These components are shown in Figure 1.
 
 <a href="/images/systems/waterside-economizer/HE-Loop-diagram_2_11212022.jpg">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/systems/waterside-economizer/HE-Loop-diagram_2_11212022.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Waterside economizer system components.">
   <figcaption class="figure-caption text-left">Figure 1. Waterside economizer system components.</figcaption>
 </figure>
@@ -42,7 +42,7 @@ The primary effect of waterside economizer is the savings in electricity usage a
 The cooling energy savings are equivalent to the heat rejected through the waterside economizer. Table 1 provides a summary of the components to measure to arrive at values needed to quantify the heat rejected from the chilled water to condenser water by free cooling. 
 
 <table width="630" cellspacing="0" cellpadding="7">
-<caption>Table 1. Key values, components, and measurements.</caption>
+<caption>Table 1. Key values, components and measurements</caption>
     <tbody>
         <thead>
             <tr>
@@ -66,7 +66,6 @@ The cooling energy savings are equivalent to the heat rejected through the water
             </td>
             <td width="27.797202797202797%">
                 <p>Average hourly Btu/h transferred, differential of temperature for chilled water loop.</p>
-                <p><br></p>
             </td>
             <td width="21.853146853146853%">
                 <p>Heat exchanger of waterside economizer</p>
@@ -79,12 +78,12 @@ The cooling energy savings are equivalent to the heat rejected through the water
     </tbody>
 </table>
 
-## System Measurement Point Locations 
+### System Measurement Point Locations 
 
 The measurement locations for the waterside economizer are schematically shown in Figure 2:
 
 <a href="/images/systems/waterside-economizer/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/systems/waterside-economizer/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Waterside economizer measurement points.">
   <figcaption class="figure-caption text-left">Figure 2. Waterside economizer measurement points.</figcaption>
 </figure>

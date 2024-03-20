@@ -3,10 +3,17 @@ title: Condenser Water Loop
 type: system
 excerpt: Consists of a CW pump and motor, an evaporative cooling tower with a fan and motor, and a CW piping network.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+system_id: 3
 associated_systems:
-  - Constant-Speed, Constant-Volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
+  - Constant-speed, Constant-volume Fan and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 related_components:
-  - Constant-Speed, Constant-Volume Pump and Motor
+  - Constant-speed, Constant-volume Pump and Motor
+  - Constant-speed, Constant-volume Fan and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide
 url: "/documents/systems/condenser-water-loop"
@@ -16,15 +23,15 @@ url: "/documents/systems/condenser-water-loop"
 
 A condenser water (CW) loop consists of a CW pump and motor, an evaporative cooling tower with a fan and motor, and a CW piping network. The CW loop system is designed to reject the heat given off by the condenser side of the chiller. A CW loop can have the following configurations:
 
-### Variable-Speed Fans and Constant-Flow Condenser Water Loop
+### Variable-speed Fans and Constant-flow Condenser Water Loop
 
 A variable-speed constant-flow CW loop consists of variable-speed cooling tower fans and constant-speed CW pumps. 
 
-### Variable-Speed Fans and Variable-Flow Condenser Water Loop
+### Variable-speed Fans and Variable-flow Condenser Water Loop
 
 A variable-speed variable-flow CW loop consists of variable-speed CW pumps and a cooling tower with variable-speed fans. 
 
-### Constant-Speed Fans and Constant-Flow Condenser Water Loop
+### Constant-speed Fans and Constant-flow Condenser Water Loop
 
 A constant-speed constant-flow CW loop consists of constant-speed cooling tower fans and constant-speed CW pumps.
 
@@ -33,7 +40,7 @@ A constant-speed constant-flow CW loop consists of constant-speed cooling tower 
 The main components associated with the condenser water loop are shown in Figure 1.
 
 <a href="/images/systems/chilled-water-loop/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/systems/chilled-water-loop/WCC-HE-economizer-2ndary-pump-Final-06132023.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Condenser water loop components.">
   <figcaption class="figure-caption text-left">Figure 1. Condenser water loop components.</figcaption>
 </figure>
@@ -54,7 +61,7 @@ The overall cooling capacity of the condenser water loop in a cooling tower with
 The primary energy consumption of a condenser water loop is the electricity used for the pump motors and the cooling tower fans. Table 1 provides a summary of system component measurements and value calculations needed to quantify the annual energy consumption and operating characteristics of a CW loop.
 
 <table cellspacing="0" cellpadding="7">
-    <caption>Table 1. Key values, components, and measurements.</caption>
+    <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
             <th width="17.699115044247787%" bgcolor="#e7e6e6">
@@ -136,7 +143,6 @@ The primary energy consumption of a condenser water loop is the electricity used
                 <p>Average hourly flow and temperature difference&nbsp;</p>
             </td>
             <td width="26.371681415929203%">
-                <p><br></p>
             </td>
             <td width="29.02654867256637%">
                 <p>Average hourly condenser water flow (gpm) and condenser water temperature difference across the cooling tower</p>
@@ -145,12 +151,12 @@ The primary energy consumption of a condenser water loop is the electricity used
     </tbody>
 </table>
 
-## Condenser Water Loop System Measurement Point Locations
+### Condenser Water Loop System Measurement Point Locations
 
 The measurements for the condenser water loop are schematically shown in Figure 2, include:
 
 <a href="/images/systems/condenser-water-loop/CW-Loop-Diagram-with-MP_ 11292022.jpg">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/systems/condenser-water-loop/CW-Loop-Diagram-with-MP_ 11292022.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Condenser water loop system measurement points.">
   <figcaption class="figure-caption text-left">Figure 2. Condenser water loop system measurement points.</figcaption>
 </figure>

@@ -1,0 +1,54 @@
+tabs:
+  - name: plant
+    tabs:
+      - name: measurement-guides
+        label: Guide
+        icon: images/hero/guide-icon.png
+      - name: related-systems
+        label: Related Systems
+        icon: images/hero/system-icon.png
+  - name: system
+    tabs:
+      - name: measurement-guides
+        label: Guide
+        icon: images/hero/system-icon.png
+      - name: related-components
+        label: Related Components
+        icon: images/hero/component-icon.png
+      - name: borrow-equipments
+        label: Borrow Equipments
+        icon: images/hero/borrow-icon.png
+  - name: component
+    tabs:
+      - name: measurement-guides
+        label: Guide
+        icon: images/hero/guide-icon.png
+      - name: related-systems
+        label: Related Systems
+        icon: images/hero/system-icon.png
+      - name: borrow-equipments
+        label: Borrow Equipment
+        icon: images/hero/borrow-icon.png
+  - name: measurement
+    tabs:
+      - name: measurement
+        label: Technique
+        icon: images/measurement-technique/measurement-technique-icon-white.png
+      - name: related-cm
+        label: Related Calculations
+        icon: images/hero/guide-icon.png
+      - name: borrow-equipments
+        label: Borrow Equipment
+        icon: images/hero/borrow-icon.png
+  - name: calculation
+    tabs:
+      - name: calculation
+        label: Methodology
+        icon: images/calculation-methodology/calculation-methodology-icon-white.png
+      - name: related-mt
+        label: Related Measurements
+        icon: images/hero/guide-icon.png
+      - name: borrow-equipments
+        label: Borrow Equipment
+        icon: images/hero/borrow-icon.png
+  

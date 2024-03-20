@@ -2,10 +2,26 @@ enable: true
 contents:
   - enable: true
     active: false
-    name: Plants
+    name: plants
+    label: Plants
+    icon: images/hero/plant-icon.png
   - enable: true
     active: false
-    name: Systems
+    name: systems
+    label: Systems
+    icon: images/hero/system-icon.png
   - enable: true
     active: false
-    name: Components
+    name: components
+    label: Components
+    icon: images/hero/component-icon.png
+  - enable: true
+    active: false
+    name: measurements
+    label: Measurements
+    icon: images/hero/measurement-icon.png
+  - enable: true
+    active: false
+    name: calculations
+    label: Calculations
+    icon: images/hero/calc-icon.png

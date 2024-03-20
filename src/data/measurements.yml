@@ -1,0 +1,35 @@
+enable: true
+documents:
+  - type: measurement
+    title: "True RMS Power"
+    measurement_type: "power, rms"
+  - type: measurement
+    title: "Electrical Spot Measurement"
+    measurement_type: "power, rms"
+  - type: measurement
+    title: "Motor Runtime"
+    measurement_type: "runtime"
+  - type: measurement
+    title: "Water Flow Rate"
+    measurement_type: "water, flow"
+  - type: measurement
+    title: "Electrical Current"
+    measurement_type: "current"
+  - type: measurement
+    title: "Lighting Fixture Runtime"
+    measurement_type: "lighting, runtime"
+  - type: measurement
+    title: "Outside Air Temperature"
+    measurement_type: "air, temperature"
+  - type: measurement    
+    title: "System Air Temperature"
+    measurement_type: "air, temperature"
+  - type: measurement    
+    title: "Relative Humidity"
+    measurement_type: "air, temperature"
+  - type: measurement    
+    title: "Pipe Surface Water Temperature"
+    measurement_type: "water, temperature"
+  - type: measurement    
+    title: "Water Pressure and Pump Curve"
+    measurement_type: "water, temperature"

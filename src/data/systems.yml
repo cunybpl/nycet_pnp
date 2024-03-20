@@ -7,8 +7,35 @@ documents:
     title: "Condenser Water Loop"
     measurement_type: "water-side, cooling"
   - type: system
-    title: "Water-Cooled Chiller"
+    title: "Water-cooled Chiller"
     measurement_type: "water-side, cooling"
   - type: system
     title: "Waterside Economizer"
     measurement_type: "water-side, cooling"
+  - type: system
+    title: "Hot Water Loop"
+    measurement_type: "water-side, heating"
+  - type: system
+    title: "Boiler"
+    measurement_type: "water-side, heating"
+  - type: system
+    title: "Lighting Fixture"
+    measurement_type: "electrical"
+  - type: system
+    title: "Electrical Distribution"
+    measurement_type: "electrical"
+  - type: system
+    title: "Steam Condensate Recovery"
+    measurement_type: "water-side, heating"
+  - type: system
+    title: "Steam Distribution"
+    measurement_type: "water-side, heating"
+  - type: system
+    title: "Air-cooled Chiller"
+    measurement_type: "water-side, cooling"
+  - type: system
+    title: "Constant-speed, Constant-volume Air Handling Unit"
+    measurement_type: "air"
+  - type: system
+    title: "Variable-speed, Variable-volume Air Handling Unit"
+    measurement_type: "air"

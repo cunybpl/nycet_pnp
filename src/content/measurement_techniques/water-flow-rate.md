@@ -2,21 +2,21 @@
 title: Water Flow Rate
 type: measurement
 layout: measurement_technique
-measurement_technique_id: 2
+measurement_technique_id: 11
 excerpt: Uses a flow meter to measure the flow rate of a fluid within a pipe. The technique is typically used on water loop systems to measure the flow through heating and cooling plants, but it can also be used to measure the flow rate of other fluids (e.g., glycol).
 related_systems:
-  - Water-Cooled Chiller
+  - Water-cooled Chiller
   - Waterside Economizer
+  - Boiler
+  - Steam Condensate Recovery
+  - Air Cooled Chiller
 related_components:
-  - Liquid-to-Liquid Heat Exchanger
+  - Liquid-to-liquid Heat Exchanger
+  - Liquid-to-air Heat Exchanger
 url: "/documents/measurement-technique/water-flow-rate"
 ---
 
-## Type of Measurement
-
-Direct
-
-### Description
+## Description of Water Flow Rate 
 
 This technique uses a flow meter to measure the flow rate of a fluid within a pipe. The technique is typically used on water loop systems to measure the flow through heating and cooling plants, but it can also be used to measure the flow rate of other fluids (e.g., glycol). Measurement data is used to calculate how much heat is added or removed by the heating or cooling plant; energy/heat recovered by a liquid-to-liquid heat recovery system, and heating energy for domestic hot water.
 
@@ -27,6 +27,10 @@ However, a major challenge with this technique is that measurements must be take
 Measurements should be taken at one-hour intervals and not instantaneous values. When taking one-hour measurements, the flow meter will detect the flow several times every hour and store the average value. Sometimes flow can fluctuate over a one-hour period, but the instantaneous flow value will not indicate that change.
 
 The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. For water loop systems that operate year-round and are driven by outside air temperature (OAT), one full year of measurement (12 consecutive months, 52 consecutive weeks, or 365 consecutive days) is required for the baseline and one full year for the reporting period. For water loop systems that operate during a particular season, the full season must be measured for the baseline and reporting periods. For water loop systems that are not driven by OAT it is recommended to measure flow rate for a minimum of six weeks. Measurements should be taken when the system or component is operating under normal conditions. 
+
+### Type of Measurement
+
+Direct
 
 ### Equipment
 
@@ -40,7 +44,7 @@ Please note that certain flow meters offered at the FELL will require setup with
 
 ## Measurement Steps
 
-### Preparation for Data Acquisition
+### 1. Preparation for Data Acquisition
 
 Identify the location where the flow meter will be installed. Refer to the equipment’s user manual for detailed instructions on how to set up the meter(s).
 
@@ -55,7 +59,7 @@ Identify the location where the flow meter will be installed. Refer to the equip
   <figcaption class="figure-caption text-left">Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed. FPO</figcaption>
 </figure>
 
-### Installation of Equipment
+### 2. Installation of Equipment
 
 - Confirm that the equipment is operational. 
 - Some piping systems have a layer of insulation to minimize heat loss. There are scenarios where the insulation must be cut to install the transducers of the flow meter. 
@@ -79,7 +83,7 @@ Identify the location where the flow meter will be installed. Refer to the equip
   <figcaption class="figure-caption text-left">Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System. FPO</figcaption>
 </figure>
 
-### Verify Data is Being Collected
+### 3. Verify Data is Being Collected
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment to do the following:
 
@@ -96,7 +100,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
   <figcaption class="figure-caption text-left">Figure 5. Retrieve data screen on the DXN Portable Ultrasonic Measurement System. For this meter, a USB storage device is connected to the back of the meter. FPO</figcaption>
 </figure>
 
-### Retrieve Measurement Equipment and Download All Final Data
+### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying the meter is collecting data do the following:
 
@@ -113,18 +117,20 @@ After verifying the meter is collecting data do the following:
 
 ## Troubleshooting 
 
-### Presence of Turbulence
+<strong>Problem 1: </strong>Presence of Turbulence
 
 Turbulence occurs when a fluid flows across an obstacle or a sharp corner. It can also occur if the fluid flows at a high speed due to drag forces between the fluid and the piping. The flow meter cannot accurately measure fluid flow if turbulence is present.
 
 <div class="alert alert-warning" role="alert">
-  Make sure to install the flow meter away from elbow pipes as the sharp corner will cause turbulence. A rule of thumb is to place the meter on straight piping at least 10 to 15 pipe diameters away from the elbow.
+<strong>Solution:</strong> Make sure to install the flow meter away from elbow pipes as the sharp corner will cause turbulence. A rule of thumb is to place the meter on straight piping at least 10 to 15 pipe diameters away from the elbow.
 </div>
 
-### Data Accuracy and Measurement Interferences
+<p><strong>Problem 2: </strong>Data Accuracy and Measurement Interferences</p>
 	
-Depending on the type of flow measurement (i.e., transit time or doppler), the transducers must be installed in a specific position on the pipe. refer to the user manual for details. For transit time measurements, the transducers must be a certain distance from each other as determined by the size of the pipe. For doppler measurements the placement of the transducers depends on how much solid material is in the fluid.
+<div class="alert alert-warning" role="alert">  
+<strong>Solution: </strong>Depending on the type of flow measurement (i.e., transit time or doppler), the transducers must be installed in a specific position on the pipe. refer to the user manual for details. For transit time measurements, the transducers must be a certain distance from each other as determined by the size of the pipe. For doppler measurements the placement of the transducers depends on how much solid material is in the fluid.
 
 Remove any insulation from the pipe and wipe it with a rag to clean the surface.
 
 Couplant is a type of grease that must be applied to the sensor of the transducer. The couplant allows sound to travel faster and is necessary for the flow meter to detect a stronger signal. Without couplant, the sound waves generated by the meter will travel through the air at a slower speed, causing the meter to detect a weaker signal. For more information, refer to the user manual and the resources section of this guide.
+</div>

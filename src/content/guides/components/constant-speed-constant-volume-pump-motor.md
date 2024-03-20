@@ -1,20 +1,26 @@
 ---
-title: Constant-Speed, Constant-Volume Pump and Motor
+title: Constant-speed, Constant-volume Pump and Motor
 type: component
 excerpt: Operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
   - Chilled Water Loop
   - Condenser Water Loop
+  - Steam Condensate Recovery
+  - Steam Distribution
+  - Hot Water Loop
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
+  - Steam Condensate Recovery
+  - Steam Distribution
+  - Hot Water Loop
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
 layout: guide
 url: "/documents/components/constant-speed-constant-volume-pump-motor"
 ---
 
-## General Description and Configurations
+## General Overview
 
 A constant-speed, constant-volume (CSCV) pump and motor operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
 
@@ -174,10 +180,7 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
                 <p>Power input to a constant-speed pump motor</p>
             </td>
             <td style="vertical-align: top;" width="34.76764199655766%">
-                <p>Average hourly power input to the pump motor</p>
-                <p><br></p>
-                <p><br></p>
-                <p><br></p>
+                <p>Average hourly power input to the pump motor</p>     
             </td>
             <td style="vertical-align: top;" width="36.660929432013766%">
                 <p>True RMS power of pump motor that drives the pump (kW)</p>
@@ -197,12 +200,12 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
     </tbody>
 </table>
 
-### Measurement Approach
+### Measuring Energy Consumption of Pump and Motor
 
 The measurement boundary for quantifying energy consumption for the constant-speed pump and motor is shown in Figure 1 below.
 
 <a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt=" Figure 1. Measurement boundary of a constant-speed pump.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a constant-speed pump. FPO</figcaption>
 </figure>
@@ -211,21 +214,25 @@ The measurement boundary for quantifying energy consumption for the constant-spe
 The measurement strategy for a CSCV pump and motor is to do a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant-speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at the main feed to the constant-speed motor. Measurement points are generically represented in Figure 2.
 
 <a href="/images/components/Measurement-points-for-motor-on-off-operation-FPO.png">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/components/Measurement-points-for-motor-on-off-operation-FPO.png" class="figure-img img-fluid rounded zoom" alt=" Figure 2. Measurement points for motor on /off operation.">
   <figcaption class="figure-caption text-left">Figure 2. Measurement points for motor on /off operation. FPO</figcaption>
 </figure>
 </a>
 
-### Measurement Tools and Equipment
+{{< measurement_technique measurement_technique_id=4 >}}
 
-{{< measurement_technique measurement_technique_id=1 >}}
+{{< measurement_technique measurement_technique_id=3 >}}
+
+{{< measurement_technique measurement_technique_id=2 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
 
 ### Calculation Methodology
 
-{{< calculation_methodology calculation_methodology_id=1 >}}
+{{< calculation_methodology calculation_methodology_id=4 >}}
 
-## Key Values Needed to Assess Constant-Speed Pump Flow
+## Key Values Needed to Assess Constant-speed Pump Flow
 
 Table 3 provides a summary of the values to measure to quantify the flow rate through a CSCV pump.
 
@@ -264,7 +271,7 @@ Table 3 provides a summary of the values to measure to quantify the flow rate th
 The measurement boundary for quantifying water flow across a constant-speed pump is shown in Figure below.
 
 <a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt=" Figure 3: Measurement boundary of a constant-speed pump.">
   <figcaption class="figure-caption text-left">Figure 3: Measurement boundary of a constant-speed pump. FPO</figcaption>
 </figure>
@@ -277,19 +284,21 @@ If a pump curve is not available and a straight run of piping approximately 17 t
 In both cases, a long-term measurement is needed to quantify the operational schedule of the pump. This can be done with a motor on-off logger, as discussed in the section on quantifying energy consumption of a CSCV pump and motor.
 
 <a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
-<figure class="figure mb-3 mt-3">
+<figure class="figure">
   <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt=" Figure 4. Measurement points to estimate flow.">
   <figcaption class="figure-caption text-left">Figure 4. Measurement points to estimate flow. FPO</figcaption>
 </figure>
 </a>
 
-### Measurement Tools and Equipment
+### Measurements
 
 Further details about measurement tools and equipment associated with measuring CSCV pump flow using the pressure differential and pump curve method can be found here (link to FELL kit); the ultrasonic meters can be found here (link to FELL kit). Motor operational scheduled can be measured using equipment here (link to motor logger). 
 
 ### Calculation Methodology
 
 The general methodology to estimate flow through a constant-speed pump is to establish the flow rate using one of the methods described above and use long-term measurements of the operational schedule of the pump and motor using a motor on/off logger. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. The flow rate and operations of a pump are used to calculate the thermal energy being transferred by the plant or system the pump serves (e.g., chilled water plant, hot water boiler, etc.).
+
+{{< calculation_methodology calculation_methodology_id=6 >}}
 
 ## References
 

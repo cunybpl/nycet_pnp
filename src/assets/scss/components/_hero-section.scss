@@ -1,6 +1,6 @@
 .hero {
   position:relative;
-  overflow: hidden;
+  // overflow: hidden;
   align-items: center;
   justify-content: center;
   &_container {
@@ -9,8 +9,9 @@
       background-color: $primary;
       display: flex;
       flex-direction: row;
+      height: inherit;
+      padding-block: 4em;
     }
-    height: 400px;
     text-align: center;
     @include ipad {
       height: 765px;
@@ -31,8 +32,10 @@
 
     &-search-bar {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-top: 2em;
       form {
         color: #555;
         display: flex;
@@ -61,7 +64,7 @@
         overflow: hidden;
         width: 60px;
         padding: 0;
-        margin: 0;
+        margin-inline: 1rem;
         border: 1px solid transparent;
         border-radius: inherit;
         background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
@@ -92,54 +95,75 @@
     }
   }
 }
-
-.plant-logo-top-left, .plant-logo-top-right, .plant-logo-bottom-left, .plant-logo-bottom-right {
+.dropdown-options {
+  display: none;
+  flex-direction: column;
+  background-color: white;
   position: absolute;
-}
-
-.plant-logo-top-left {
-  top: -25%;
-  left: 2.5%;
-  @include ipad {
-    top: -12.5%;
-  }
-  @include desktop-4k {
-    left: 25%;
-  }
-}
-
-.plant-logo-top-right {
-  top: -25%;
-  right: 2.5%;
-  @include ipad {
-    top: -12.5%;
-  }
-  @include desktop-4k {
-    right: 25%;
+  top: 13.70rem;
+  width: 40rem;
+  max-height: 50vh;
+  padding: 0.5rem;
+  overflow: scroll;
+  cursor: pointer;
+  border-radius: 10px;
+  z-index: 99;
+  div {
+    border-radius: 8px;
+    padding: 1em;
+    &:hover {
+      background-color: 	rgba(128,128,128, 0.2);
+    }
   }
 }
 
-.plant-logo-bottom-left {
-  bottom: -12.5%; 
-  left: 2.5%;
-  @include ipad {
-    bottom: -8.5%;
-  }
-  @include desktop-4k {
-    left: 25%;
-  }
-}
+// .plant-logo-top-left, .plant-logo-top-right, .plant-logo-bottom-left, .plant-logo-bottom-right {
+//   position: absolute;
+// }
 
-.plant-logo-bottom-right {
-  bottom: -12.5%; 
-  right: 2.5%;
-  @include ipad {
-    bottom: -8.5%;
-  }
-  @include desktop-4k {
-    right: 25%;
-  }
-}
+// .plant-logo-top-left {
+//   top: -25%;
+//   left: 2.5%;
+//   @include ipad {
+//     top: -12.5%;
+//   }
+//   @include desktop-4k {
+//     left: 25%;
+//   }
+// }
+
+// .plant-logo-top-right {
+//   top: -25%;
+//   right: 2.5%;
+//   @include ipad {
+//     top: -12.5%;
+//   }
+//   @include desktop-4k {
+//     right: 25%;
+//   }
+// }
+
+// .plant-logo-bottom-left {
+//   bottom: -12.5%; 
+//   left: 2.5%;
+//   @include ipad {
+//     bottom: -8.5%;
+//   }
+//   @include desktop-4k {
+//     left: 25%;
+//   }
+// }
+
+// .plant-logo-bottom-right {
+//   bottom: -12.5%; 
+//   right: 2.5%;
+//   @include ipad {
+//     bottom: -8.5%;
+//   }
+//   @include desktop-4k {
+//     right: 25%;
+//   }
+// }
 
 .no-result {
   &-container {

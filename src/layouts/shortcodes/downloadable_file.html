@@ -1,0 +1,33 @@
+<section class="card card-block my-4">
+  {{ $url := .Get "url" }}
+  {{ $title := .Get "title" }}
+  {{ $excerpt := .Get "excerpt" }}
+
+  <div class="d-flex">
+    <div class="col-md-2 d-flex align-items-center justify-content-center">
+      <div class="measurement-technique-logo-wrapper">
+        <img src="{{ "/images/calculator/calculator-short-icon.png" | absURL }}" class="img-fluid" >
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="py-5">
+        <h5 class="mb-2">
+          {{ $title }}
+        </h5>
+        <p class="mb-0">
+          {{ $excerpt | truncate 125 }}
+        </p>
+      </div>
+    </div>
+    <div class="col-md-2 d-flex justify-content-center align-items-center">
+      <a 
+        style="font-size: 50px;" 
+        href="{{ $url }}" 
+        download="{{ $url }}"
+        target="_blank"
+      >
+        <i class="fa fa-download"></i>
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,66 @@
+<li>
+  <button 
+    type="button" 
+    class="btn btn-link see-more-associated-systems-button" 
+    data-toggle="modal" 
+    data-target="#associated-systems-modal-{{ .type }}-{{ .id }}"  
+  >
+    See All
+  </button>
+</li>
+<section>
+  <div 
+    class="modal fade" 
+    id="associated-systems-modal-{{ .type }}-{{ .id }}" 
+    tabindex="-1" 
+    aria-labelledby="associated-systems-modal-label-{{ .type }}-{{ .id }}" 
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered modal-xl associated-systems-modal">
+      <div class="modal-content associated-systems-modal-content">
+        <div class="modal-header bg-primary text-light associated-systems-modal-header">
+          <h5 class="modal-title" id="associated-systems-modal-label-{{ .type }}-{{ .id }}">
+            Associated calculators of {{ .guide_title }}
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body py-5">
+          <div class="d-flex flex-wrap">
+            {{ range where .all_calculators "name" "in" .content }}
+              <div class="col-lg-6">
+                <div class="card mb-5">
+                  <div class="guide-thumbnail" style="height: 300px !important;">
+                    {{ if isset . "image" }}
+                    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .image | absURL }});">
+                    {{ else }}
+                      <!-- If guide doesn't have featured image -->
+                    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/calculator-thumb-placeholder.jpg)">
+                    {{ end }}
+                    </div>
+                    <div class="guide-thumbnail-content">
+                      <div class="px-4 d-flex flex-column justify-content-between" style="height: 65%;">
+                        <div>
+                          <h5>{{ .name }}</h5>
+                          <p>{{ .description | safeHTML | truncate 100 }}</p>
+                        </div>  
+                        <div>
+                          <a class="btn btn-primary" href="/downloadables/{{ .filename }}" download="{{ .filename }}">
+                            <i class="fa fa-download" aria-hidden="true" style="margin-right: 5px;"></i>Download
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+</script>
