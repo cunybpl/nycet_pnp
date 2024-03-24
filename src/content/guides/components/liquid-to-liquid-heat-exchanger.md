@@ -4,11 +4,11 @@ type: component
 excerpt: Achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Waterside Economizer
   - Air-cooled Chiller
+  - Waterside Economizer
 related_systems:
-  - Waterside Economizer
   - Air-cooled Chiller
+  - Waterside Economizer
 layout: guide
 url: "/documents/components/liquid-to-liquid-heat-exchanger"
 ---

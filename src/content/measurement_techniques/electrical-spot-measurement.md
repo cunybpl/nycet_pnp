@@ -5,19 +5,19 @@ layout: measurement_technique
 measurement_technique_id: 2
 excerpt: This technique uses a handheld power meter to take one-time measurements of true RMS power draw (kW) at an electrical distribution system such as a panelboard, power panel or switchgear.
 related_systems:
+  - Chilled Water Loop
+  - Condenser Water Loop
   - Constant-speed, Constant-volume Air Handling Unit
   - Dual-speed Air Handling Unit
-  - Chilled Water Loop
   - Electrical Distribution
+  - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-  - Hot Water Loop
   - Water Cooled Chiller
-  - Condenser Water Loop
 related_components:
+  - Constant-speed, Constant-volume Compressor and Motor
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
-  - Constant-speed, Constant-volume Compressor and Motor
 url: "/documents/measurement-technique/electrical-spot-measurement"
 ---
 

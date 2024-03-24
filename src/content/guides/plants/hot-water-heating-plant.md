@@ -4,11 +4,11 @@ type: plant
 excerpt: Consists of a hot water heating boiler system, hot water loop system, and feedwater system operating to meet heating demand in a facility.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Hot Water Loop
   - Boiler
+  - Hot Water Loop
 related_systems:
-  - Hot Water Loop
   - Boiler
+  - Hot Water Loop
 layout: guide
 url: "/documents/plants/hot-water-heating-plant"
 ---

@@ -5,18 +5,18 @@ layout: measurement_technique
 measurement_technique_id: 1
 excerpt: This technique uses a data logger to take long- term measurements of the electrical energy (kWh) and power draw (kW) of a system or component at one- hour intervals.
 related_systems:
-  - Water Cooled Chiller
-  - Condenser Water Loop
   - Chilled Water Loop
+  - Condenser Water Loop
+  - Electrical Distribution
   - Hot Water Loop
   - Steam Distribution
   - Steam Condensate Recovery
-  - Electrical Distribution
   - Variable-speed, Variable-volume Air Handling Unit
+  - Water Cooled Chiller
 related_components:
-  - Variable-speed, Variable-volume Pump and Motor
-  - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Compressor and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 url: "/documents/measurement-technique/true-rms-power"
 ---
 

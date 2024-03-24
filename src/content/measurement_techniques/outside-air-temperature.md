@@ -5,22 +5,22 @@ layout: measurement_technique
 measurement_technique_id: 6
 excerpt: This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (OF) at one-hour intervals.
 related_systems:
-  - Water Chooled Chiller
-  - Condenser Water Loop
   - Chilled Water Loop 
+  - Condenser Water Loop
+  - Constant-speed, Constant-volume Air Handling Unit
+  - Dual-speed Air Handling Unit
   - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-  - Constant-speed, Constant-volume Air Handling Unit
-  - Dual-speed Air Handling Unit
   - Variable-speed, Variable-volume Air Handling Unit
-related_components:
-  - Variable-speed, Variable-volume Pump and Motor
-  - Variable-speed, Variable-volume Fan and Motor
-  - Variable-speed, Variable-volume Compressor and Motor 
+  - Water Chooled Chiller
+related_components: 
+  - Air-to-air Heat Exchanger
   - Constant-speed, Constant-volume Pump and Motor
   - Liquid-to-air Heat Exchanger
-  - Air-to-air Heat Exchanger
+  - Variable-speed, Variable-volume Compressor and Motor
+  - Variable-speed, Variable-volume Fan and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 url: "/documents/measurement-technique/outside-air-temperature"
 ---
 

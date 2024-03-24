@@ -5,13 +5,13 @@ excerpt: Consists of a CW pump and motor, an evaporative cooling tower with a fa
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 3
 associated_systems:
-  - Constant-speed, Constant-volume Pump and Motor
   - Constant-speed, Constant-volume Fan and Motor
+  - Constant-speed, Constant-volume Pump and Motor
   - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Pump and Motor
 related_components:
-  - Constant-speed, Constant-volume Pump and Motor
   - Constant-speed, Constant-volume Fan and Motor
+  - Constant-speed, Constant-volume Pump and Motor
   - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"

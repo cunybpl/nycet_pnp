@@ -6,12 +6,12 @@ thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-p
 system_id: 12
 associated_systems:
   - Constant-speed, Constant-volume Pump and Motor
-  - Variable-speed, Variable-volume Pump and Motor
   - Liquid-to-air Heat Exchanger
+  - Variable-speed, Variable-volume Pump and Motor
 related_components:
   - Constant-speed, Constant-volume Pump and Motor
-  - Variable-speed, Variable-volume Pump and Motor
   - Liquid-to-air Heat Exchanger
+  - Variable-speed, Variable-volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide
 url: "/documents/systems/steam-condensate-recovery"

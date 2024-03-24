@@ -5,17 +5,17 @@ layout: measurement_technique
 measurement_technique_id: 3
 excerpt: This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals.
 associated_systems:
-  - Electrical Distribution
+  - Air Cooled Chiller
+  - Boiler
+  - Chilled Water Loop
+  - Condenser Water Loop
   - Constant-speed, Constant-volume Air Handling Unit
   - Dual-speed Air Handling Unit
-  - Chilled Water Loop
-  - Air Cooled Chiller
+  - Electrical Distribution
+  - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-  - Boiler
-  - Hot Water Loop
   - Water Cooled Chiller
-  - Condenser Water Loop
 related_components:
   - Constant-speed, Constant-volume Compressor and Motor
   - Constant-speed, Constant-volume Fan and Motor
