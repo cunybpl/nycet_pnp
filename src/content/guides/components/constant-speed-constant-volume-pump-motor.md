@@ -6,15 +6,15 @@ thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-p
 associated_systems:
   - Chilled Water Loop
   - Condenser Water Loop
+  - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-  - Hot Water Loop
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
+  - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-  - Hot Water Loop
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
 layout: guide
 url: "/documents/components/constant-speed-constant-volume-pump-motor"

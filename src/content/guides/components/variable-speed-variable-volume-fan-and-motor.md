@@ -4,16 +4,16 @@ type: component
 excerpt: A variable speed fan and motor uses a power-driven rotating impeller to circulate air.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Variable-speed, Variable-volume Air Handling Unit
   - Boiler
   - Condenser Water Loop
+  - Variable-speed, Variable-volume Air Handling Unit
 related_systems:
-  - Variable-speed, Variable-volume Air Handling Unit
   - Boiler
   - Condenser Water Loop
+  - Variable-speed, Variable-volume Air Handling Unit
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
 layout: guide
-url: "/documents/components/variable-speed-fan-and-motor"
+url: "/documents/components/variable-speed-variable-volume-fan-and-motor"
 ---
 
 ## General Overview

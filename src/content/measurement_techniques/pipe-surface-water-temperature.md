@@ -5,9 +5,7 @@ layout: measurement_technique
 measurement_technique_id: 16
 excerpt: This technique uses a 4-channel analog logger with a thermocouple sensor to take long-term measurements of water temperature (oF) at one-hour intervals.
 related_systems:
-  - 
-related_components:
-  - 
+related_components: 
 url: "/documents/measurement-technique/pipe-surface-water-temperature"
 ---
 

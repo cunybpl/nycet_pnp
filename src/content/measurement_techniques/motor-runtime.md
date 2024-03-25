@@ -5,20 +5,20 @@ layout: measurement_technique
 measurement_technique_id: 4
 excerpt: Use data loggers to take long-term measurements of the runtime duration for a constant or dual-speed motor. This technique can be used on motors with any end-use, including both air and water distribution.
 related_systems:
+  - Boiler
   - Chilled Water Loop
   - Condenser Water Loop
   - Constant-speed, Constant-volume Air Handling Unit
   - Dual-speed Air Handling Unit
-  - Variable-speed, Variable-volume Air Handling Unit
   - Steam Condensate Recovery
   - Steam Distribution
-  - Boiler
+  - Variable-speed, Variable-volume Air Handling Unit
   - Water Cooled Chiller
 related_components:
-  - Constant-speed, Constant-volume Pump and Motor
-  - Constant-speed, Constant-volume Fan and Motor
-  - Variable-speed, Variable-volume Fan and Motor
   - Constant-speed, Constant-volume Compressor and Motor
+  - Constant-speed, Constant-volume Fan and Motor
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Fan and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/motor-runtime"
 ---

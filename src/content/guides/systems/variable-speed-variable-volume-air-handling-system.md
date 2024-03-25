@@ -5,11 +5,11 @@ excerpt: A variable-speed, variable-volume (VSVV) air handling system conditions
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 system_id: 10
 associated_systems: 
-  - Variable-speed, Variable-volume Fan and Motor
   - Liquid-to-air Heat Exchanger
+  - Variable-speed, Variable-volume Fan and Motor
 related_components:
-  - Variable-speed, Variable-volume Fan and Motor
   - Liquid-to-air Heat Exchanger
+  - Variable-speed, Variable-volume Fan and Motor
 borrow_equipment_url: 
 layout: guide
 url: "/documents/systems/variable-speed-variable-volume-air-handling-system"

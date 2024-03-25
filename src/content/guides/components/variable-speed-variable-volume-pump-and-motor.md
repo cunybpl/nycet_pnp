@@ -4,17 +4,17 @@ type: component
 excerpt: A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
-  - Condenser Water Loop
   - Chilled Water Loop
+  - Condenser Water Loop
   - Hot Water Loop
-  - Steam Distribution
   - Steam Condensate Recovery
+  - Steam Distribution
 related_systems:
-  - Condenser Water Loop
   - Chilled Water Loop
+  - Condenser Water Loop
   - Hot Water Loop
-  - Steam Distribution
   - Steam Condensate Recovery
+  - Steam Distribution
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-and-motor-variable-speed-2/"
 layout: guide
 url: "/documents/components/variable-speed-variable-volume-pump-and-motor"

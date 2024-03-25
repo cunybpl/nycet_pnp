@@ -8,7 +8,6 @@ related_systems:
   - Constant-speed, Constant-volume Pump and Motor
   - Liquid-to-liquid heat exchanger
 related_components:
-  - 
 url: "/documents/measurement-technique/water-pressure-and-pump-curve"
 ---
 
