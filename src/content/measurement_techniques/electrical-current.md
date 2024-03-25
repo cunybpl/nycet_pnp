@@ -5,7 +5,7 @@ layout: measurement_technique
 measurement_technique_id: 3
 excerpt: This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals.
 associated_systems:
-  - Air Cooled Chiller
+  - Air-cooled Chiller
   - Boiler
   - Chilled Water Loop
   - Condenser Water Loop

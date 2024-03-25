@@ -5,9 +5,7 @@ layout: measurement_technique
 measurement_technique_id: 5
 excerpt: "This technique uses data loggers to take long-term measurements of the runtime duration for a lamp or lighting fixture."
 related_systems:
-//  - 
 related_components:
-//  - 
 url: "/documents/measurement-technique/lighting-fixture-runtime"
 ---
 
