@@ -178,7 +178,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     </tbody>
 </table>
 
-## Measuring Energy Consumption of Fan and Motor
+### Measuring Energy Consumption of Fan and Motor
 
 The measurement boundary for quantifying energy consumption for a variable-speed fan and motor is shown in Figure 1 below. 
 
@@ -201,7 +201,7 @@ Further details about measurement tools and equipment associated with measuremen
 
 {{< measurement_technique measurement_technique_id=6 >}}
 
-## Calculation Methodology
+### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a variable-speed fan and motor is determined by the true RMS power of the 3-phase power supply either at the main electrical panel of the motor or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable (OAT, WBT). Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.  
 

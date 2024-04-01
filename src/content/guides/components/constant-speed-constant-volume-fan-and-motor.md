@@ -168,7 +168,7 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     </tbody>
 </table>  
 
-## Measuring Energy Consumption of Fan and Motor
+### Measuring Energy Consumption of Fan and Motor
 
 The measurement boundary for quantifying energy consumption for the CSCV fan and motor is shown in Figure 1 below. 
 
@@ -193,7 +193,7 @@ Further details about measurement tools and equipment associated with measuremen
 
 {{< measurement_technique measurement_technique_id=3 >}}
 
-## Calculation Methodology
+### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a CSCV fan motor is to measure the electrical power draw of the motor. The estimated annual energy consumption of a CSCV fan is estimated using the simulated yearly schedule of the fan. Many CSCV fans run on a set daily or weekly schedule. 
 
