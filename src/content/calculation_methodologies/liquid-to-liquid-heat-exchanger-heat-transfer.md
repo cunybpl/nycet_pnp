@@ -1,5 +1,5 @@
 ---
-title:  Liquid-to-liquid Heat Exchanger Energy Consumption
+title:  Liquid-to-liquid Heat Exchanger Heat Transfer
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 24
@@ -9,7 +9,7 @@ related_systems:
   - Waterside Economizer
 related_components:
   - Liquid-to-liquid Heat Exchanger
-url: "/documents/calculation-methodology/liquid-to-liquid-heat-exchanger-energy-consumption"
+url: "/documents/calculation-methodology/liquid-to-liquid-heat-exchanger-heat-transfer"
 ---
 
 ## Introduction
