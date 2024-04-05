@@ -316,13 +316,17 @@ table.equation-table {
     vertical-align: middle;
   }
 }
+.step-indent {
+  margin-left: 2.5em;
+}
 .equation {
   display: block;
-  margin-block: 2em;
-  margin-left: 2em;
+  margin-block: 1.5em;
+  margin-left: 5em;
 }
 .equation-center {
   text-align: center;
+  margin-left: 2em;
 }
 .equation-left {
  text-align: left;

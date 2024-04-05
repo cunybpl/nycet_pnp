@@ -61,7 +61,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="equation equation-center">\begin{equation} \%On(t) = \frac{On(t)}{3600} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\%On(t) =$ Percent of an hour that the pump motor is on, %</p>
 <p class="equation">$On(t) =$ Measured time that pump motor is on, seconds</p>
 <p class="equation">$t =$ Index for each measured data point</p>
@@ -70,7 +70,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="equation equation-center">\begin{equation} \overline{\%On}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} \%On(n)}{N(d,h)} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{\%On}_{d,h} =$ Average % time motor is on per hour for given day of week, d, and hour of the day, h, %</p>
 <p class="equation">$N(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
 <p class="equation">$n \in t(d,h) =$ Index for the subset of measured data points that fall on day of week, d, and hour of the day, h</p>
@@ -79,7 +79,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="equation equation-center">\begin{equation} \overline{HrsOn}_{d} = \sum_{h=1}^{24} \overline{\%On}_{d,h} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{HrsOn}_{d} =$ Average hours per day for given day of week, d, hours</p>
 
 4. Calculate energy used for full year (Worksheet: "Step 4. Results").
@@ -89,7 +89,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="equation equation-center">\begin{equation} E = WeeksChillerOn * P\sum_{d=1}^{7} \overline{HrsOn}_{d} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E =$ Annual pump energy, kWh</p>
 <p class="equation">$DayOfYear =$ Function to convert a date to the n^{th} day of the year</p>
 <p class="equation">$CoolingSeasonEndDate =$ Cooling season end date, mm/dd/yyyy</p>
@@ -107,7 +107,7 @@ This calculation tool is forr a constant-speed, constant-volume pump. Measured i
 
 <p class="equation equation-center">\begin{equation} \overline{P}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} P(t)}{N(d,h)} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{P}_{d,h} =$ Average motor power for given day of week, d, and hour of the day, h, kW</p>
 <p class="equation">$P(t) =$ Measured motor power, kW</p>
 <p class="equation">$t =$ Index for measured data points</p>
@@ -118,7 +118,7 @@ This calculation tool is forr a constant-speed, constant-volume pump. Measured i
 
 <p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{d=1}^{7} \sum_{h=1}^{24} \overline{P}_{d,h} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E =$ Annual pump energy, kWh</p>
 <p class="equation">$WeeksPerYear =$ 52</p> -->
 
@@ -131,7 +131,7 @@ This calculation tool is for a constant-speed, constant-volume pump. Measured in
 <p class="equation equation-center">\begin{equation} \begin{cases} \frac{I(t)}{I_{max}} & \text{if } I(t) < I_{max}\\
     100\% & \text{otherwise } \end{cases} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\%On(t) =$ Percent of an hour that the pump motor is on, %</p>
 <p class="equation">$I(t) =$ Measured time that pump motor is on, seconds</p>
 <p class="equation">$t =$ Index for each measured data point</p>
@@ -147,7 +147,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 
 <p class="equation equation-center">\begin{equation} P(OAT) = a * OAT^{2} + b * OAT + c \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$P =$ Average hourly true RMS power</p>
 <p class="equation">$a,b,c =$ Regression coefficients$</p>
 <p class="equation">$OAT =$ Outdoor air temperature, F</p>
@@ -159,7 +159,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 
 <p class="equation equation-center">\begin{equation} \overline{\%On}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} On(t)}{N(d,h)} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$P(t) =$ Measures power, kW</p>
 <p class="equation">$On(t)=$ Motor is on at time, t, binary</p>
 <p class="equation">$\overline{\%On}_{d,h} =$ Average % time motor is on per hour for given day of week, d, and hour of the day, h, %</p>
@@ -170,7 +170,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 
 <p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{t=1}^{8760} P(OAT'(t)) * \overline{\%On}_{d,h}(t) \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E =$ Annual energy usage, kWh</p>
 <p class="equation">$OAT'(t) =$ Hourly climate normal outside air temperature from National Weather Service at station closest to site, F</p>
 <p class="equation">$WeeksChillerOn =$ Cooling season (see Equation 5), weeks</p>
@@ -183,7 +183,7 @@ This calculation tool is for VFD-controlled pumps using hourly average motor spe
 
 <p class="equation equation-center">\begin{equation} P(t) = P_{max}(\frac{\omega(t)}{\omega_{max}})^{2.5} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$P(t) =$ Average hourly true RMS power, kW</p>
 <p class="equation">$P_{max} =$ Full speed true RMS, kW</p>
 <p class="equation">$\omega_{max} =$ Maximum motor speed, rpm</p>

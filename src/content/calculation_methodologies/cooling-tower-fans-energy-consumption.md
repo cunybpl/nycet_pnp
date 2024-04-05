@@ -97,7 +97,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 <p class="equation equation-center">\begin{equation} \overline{E}(t) = \sum_{f=1}^{F} \overline{E}_{f}(t) \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{E}_{f}(t) =$ Average hourly fan motor energy on for each fan, f, kWh</p>
 <p class="equation">$t =$ Time index</p>
 <p class="equation">$On_{f}(t) =$ Measured time that motor is on for each fan, f, seconds</p>
@@ -112,7 +112,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation equation-center">\begin{equation*} -tan^{-1}(RH-1.676331)+0.00391838(RH)^{3/2} \end{equation*}</p>
 <p class="equation equation-center">\begin{equation*} *tan^{-1}(0.023101*RH) - 4.686035 \end{equation*}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$T_{wb} =$ Wet-bulb temperature, C</p>
 <p class="equation">$T_{db} =$ Dry-bulb temperature, C</p>
 <p class="equation">$RH =$ Relative Humidity, %</p>
@@ -121,7 +121,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 <p class="equation equation-center">\begin{equation} E(T_{wb}) = a*T_{wb}^{2} + b*T_{wb} + c \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E(T_{wb}) =$ Average hourly fan energy, kWh</p>
 <p class="equation">$a,b,c =$ Regression Coefficients</p>
 
@@ -132,7 +132,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 <p class="equation equation-center">\begin{equation} \overline{On}_{d,h} = \begin{cases} 1 & \text{if } \overline{E}(n) > 0 \text{ for any } n \in N(d,h) \\ 0 & 0 \end{cases} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$On(t) =$ Cooling tower fans are on, binary</p>
 <p class="equation">$\overline{On}_{d,h} =$ Cooling tower is on for a given day of the week, d, and hour of the day, h, binary</p>
 <p class="equation">$N(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
@@ -142,7 +142,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 <p class="equation equation-center">\begin{equation} E = \sum_{t=1}^{8760} \overline{On}_{d,h}(t) * CoolingSeason(t) * E(T_{wb}(t)) \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E =$ Annual energy, kWh</p> 
 <p class="equation">$CoolingSeason(t) =$ Does the given hour, t, fall within the cooling season, binary</p> 
 
@@ -154,7 +154,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 <p class="equation equation-center">\begin{equation} \overline{E}(t) = \sum_{f=1}^{F} \overline{E}_{f}(t) \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{E}_{f}(t) =$ Average hourly fan motor energy on for each fan, f, kWh</p> 
 <p class="equation">$\overline{E} =$ Total average energy of all fan motors, kWh</p> 
 <p class="equation">$F =$ Total number of fans in the cooling tower</p> 
@@ -172,7 +172,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 <p class="equation equation-center">\begin{equation} \overline{E}(t) = \sum_{f=1}^{F} \overline{E}_{f}(t) \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{E}_{f}(t) =$ Average hourly fan motor energy on for each fan, f, kWh</p>
 <p class="equation">$i_{f}(t) =$ Average hourly current for each fan, f, Amps</p>
 <p class="equation">$t =$ Time index</p>
@@ -191,7 +191,7 @@ This calculation is for a cooling tower with variable-speed fans. Measured input
 
 <p class="equation equation-center">\begin{equation} \overline{E}(t) = \overline{E}_{1}(t) * F \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{E}_{1}(t) =$ Average hourly fan motor energy for the measured fan, kWh</p>
 <p class="equation">$\overline{E} =$ Total average energy of all fan motors, kWh</p>
 <p class="equation">$F =$ Total number of fans in the cooling tower</p>
