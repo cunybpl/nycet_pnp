@@ -26,16 +26,16 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
     <caption>Table 1. Plants and systems containing constant-speed fans.</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Plant</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>System</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Controlling Variable</strong></p>
             </td>
         </tr>

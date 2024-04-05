@@ -30,16 +30,16 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
     <caption>Table 1. Plants systems applicable to variable-speed pumps</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Plant</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>System</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Controlling Variable</strong></p>
             </td>
         </tr>
@@ -209,13 +209,13 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
     <caption><span class="tooltip-pnp">Table 2. Key Values and measurements<span class="tooltiptext">Option 1: Measure hourly true RMS power of pump and motor and measure hourly OAT Option 2: Measure hourly pump and motor speed and hourly OAT</span></span></caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Component Quantification</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Measurement</strong></p>
             </td>
         </tr>

@@ -63,10 +63,10 @@ The primary energy consumption in a water-cooled chiller is the electricity used
             <td height="4" bgcolor="#e7e6e6">
                 <p><strong>System Quantification</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Component to be Measured&nbsp;</strong></p>
             </td>
             <td valign="top" bgcolor="#e7e6e6">

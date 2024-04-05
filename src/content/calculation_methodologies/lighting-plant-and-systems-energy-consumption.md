@@ -16,13 +16,13 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
     <caption>Table 1. Lighting Calculators</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Calculator</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Description</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Required Data To Use This Calculator</strong></p>
             </td>
         </tr>
