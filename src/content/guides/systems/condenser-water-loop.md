@@ -81,58 +81,58 @@ The primary energy consumption of a condenser water loop is the electricity used
     <tbody>
         <tr>
             <td width="17.699115044247787%">
-                <p>Variable-flow condenser water pump electricity consumption (kWh)</p>
+                <p>Variable-flow CW loop electricity usage (kWh)</p>
             </td>
             <td width="26.902654867256636%">
                 <p>Average hourly pump motor kWh; total operating time for the pump</p>
             </td>
             <td width="26.371681415929203%">
-                <p>Variable-speed condenser water pump motors</p>
+                <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
             <td width="29.02654867256637%">
-                <p>Average hourly power supply to the pump motor; total operating hours; outside air temperature</p>
+                <p><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></p>
             </td>
         </tr>
         <tr>
             <td width="17.699115044247787%">
-                <p>Variable-speed cooling tower fan electricity consumption (kWh)</p>
+                <p>Variable-speed cooling tower electricity usage (kWh)</p>
             </td>
             <td width="26.902654867256636%">
                 <p>Average hourly fan motor kWh; total operating time for the fan</p>
             </td>
             <td width="26.371681415929203%">
-                <p>Variable-speed cooling tower fan motors</p>
+                <p><a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Variable-speed cooling tower fan motors</a></p>
             </td>
             <td width="29.02654867256637%">
-                <p>Average hourly power supply to the fan motor; total operating hours; outside air temperature</p>
+                <p><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a>; <a href="/documents/measurement-technique/relative-humidity">hourly measurement of relative humidity</a></p>
             </td>
         </tr>
         <tr>
             <td width="17.699115044247787%">
-                <p>Constant-flow condenser water pump electricity consumption (kWh)</p>
+                <p>Constant-flow CW loop electricity usage (kWh)</p>
             </td>
             <td width="26.902654867256636%">
                 <p>Average hourly pump motor kWh; total operating time for the pump</p>
             </td>
             <td width="26.371681415929203%">
-                <p>Constant-speed condenser water pump motors</p>
+                <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a></p>
             </td>
             <td width="29.02654867256637%">
-                <p>Average hourly power supply to the pump motor; total operating hours</p>
+                <p><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>; <a href="/documents/measurement-technique/motor-runtime">hourly measurement of motor runtime</a></p>
             </td>
         </tr>
         <tr>
             <td width="17.699115044247787%">
-                <p>Constant-speed cooling tower fan electricity consumption (kWh)</p>
+                <p>Constant-speed cooling tower electricity usage (kWh)</p>
             </td>
             <td width="26.902654867256636%">
                 <p>Average hourly fan motor kWh; total operating time for the fan</p>
             </td>
             <td width="26.371681415929203%">
-                <p>Constant-speed cooling tower fan motors</p>
+                <p><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Constant-speed cooling tower fan motors</a></p>
             </td>
             <td width="29.02654867256637%">
-                <p>Average hourly power supply to the fan motor; total operating hours</p>
+                <p><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a>; <a href="/documents/measurement-technique/relative-humidity">hourly measurement of relative humidity</a></p>
             </td>
         </tr>
         <tr>
@@ -140,12 +140,12 @@ The primary energy consumption of a condenser water loop is the electricity used
                 <p>Heat rejected to the outdoors.</p>
             </td>
             <td width="26.902654867256636%">
-                <p>Average hourly flow and temperature difference&nbsp;</p>
+                <p>Average hourly Btu rejected from the condenser water loop&nbsp;</p>
             </td>
             <td width="26.371681415929203%">
             </td>
             <td width="29.02654867256637%">
-                <p>Average hourly condenser water flow (gpm) and condenser water temperature difference across the cooling tower</p>
+                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate</a>; <a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of condenser suppy and return water temperature</a></p>
             </td>
         </tr>
     </tbody>
