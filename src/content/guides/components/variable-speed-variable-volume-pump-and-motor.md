@@ -236,17 +236,6 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
                 <p>Electricity input to a variable-speed pump motor</p>
             </td>
             <td>
-                <p>Hourly average VSVV pump motor speed, pump motor power draw (kW)</p>
-            </td>
-            <td>
-                <p>VFD speed trend from BAS and one time true RMS power</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Weather temperature</p>
-            </td>
-            <td>
                 <p>Average hourly outside air temperature (OAT)</p>
             </td>
             <td>

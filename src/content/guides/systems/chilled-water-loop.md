@@ -91,44 +91,44 @@ Table 1 provides a summary of system component measurements and values needed to
     <tbody>
         <tr>
             <td width="25.663716814159294%">
-                <p>Primary CHW loop pump electricity consumption (kWh) - constant speed system</p>
+                <p>Primary CHW loop pump electricity usage (kWh) - constant-speed system</p>
             </td>
             <td width="26.01769911504425%">
                 <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
             </td>
             <td width="22.371681415929203%">
-                <p>Pump motor</p>
+                <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a></p>
             </td>
             <td width="21.946902654867255%">
-                <p>Average hourly electricity consumption by the pump motor; total operating hours</p>
+                <p><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>; <a href="/documents/measurement-technique/motor-runtime">hourly measurement of motor runtime</a></p>
             </td>
         </tr>
         <tr>
             <td width="25.663716814159294%">
-                <p>Primary CHW loop pump electricity consumption (kWh) - variable speed system</p>
+                <p>Primary CHW loop pump electricity usage (kWh) - variable-speed system</p>
             </td>
             <td width="26.01769911504425%">
                 <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
             </td>
             <td width="22.371681415929203%">
-                <p>Pump motor</p>
+                <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
             <td width="21.946902654867255%">
-                <p>Average hourly electricity consumption by the pump motor; total operating hours; outdoor air temperature</p>
+                <p><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></p>
             </td>
         </tr>
         <tr>
             <td width="25.663716814159294%">
-                <p>Secondary CHW loop pump electricity consumption (kWh) - variable speed system (if present)</p>
+                <p>Secondary CHW loop pump electricity usage (kWh) - variable-speed system (if present)</p>
             </td>
             <td width="26.01769911504425%">
                 <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
             </td>
             <td width="22.371681415929203%">
-                <p>Pump motor</p>
+                <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
             <td width="21.946902654867255%">
-                <p>Average hourly electricity consumption by the pump motor; total operating hours; outdoor air temperature</p>
+                <p><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></p>
             </td>
         </tr>
         <tr>
@@ -141,7 +141,7 @@ Table 1 provides a summary of system component measurements and values needed to
             <td width="22.371681415929203%">
             </td>
             <td width="21.946902654867255%">
-                <p>Average hourly chilled water flow (gpm) through a pump; average hourly loop pressure differential</p>
+                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of water flow rate</a>; <a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of supply and return water temperature</a></p>
             </td>
         </tr>
     </tbody>
