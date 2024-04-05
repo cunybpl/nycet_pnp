@@ -75,7 +75,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="equation equation-center">\begin{equation} \%FanOn_{f}(t_{f}) = \frac{On_{f}(t_{f})}{3600} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\hspace{5mm} \%FanOn_{f}(t_{f}) =$ Percent of an hour that the motor is on for either supply or return fan, f, %</p>
 <p class="equation">$\hspace{5mm} On_{f}(t_{f}) =$ Measured time that motor is on for either supply or return fan, f, in seconds</p>
 <p class="equation">$\hspace{5mm} t_{f} =$ Index for each measured data point for either supply or return fan, f</p>
@@ -84,7 +84,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="equation equation-center">\begin{equation} \overline{\%FanOn}_{d,h,f} = \frac{\sum_{n_{f}}^{N_{f}(d,h)} \%FanOn_{f}(N_{f})}{N_{f}(d,h)} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{\%FanOn}_{d,h,f} =$ Average % time motor is on per hour for given day of week, d, and hour of day, h, for either supply of return fan, f, %</p>
 <ul>
 <li><p class="equation">$N_{f}(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p></li>
@@ -95,14 +95,14 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="equation equation-center">\begin{equation} \overline{HrsOn}_{d,f} = \sum_{h=0}^{23} \overline{\%FanOn}_{d,h,f} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{HrsOn}_{d,f} =$ Average hours per day for given day of week, d, for either supply or return fan, f, hours</p>
 
 4. Calculate energy used for the simulation period that users input for each fan (Worksheet: "Step 4. Results").
 
 <p class="equation equation-center">\begin{equation} E_{f} = \sum_{d=1}^{7} \overline{HrsOn}_{d,f} * operating \hspace{2mm} weeks \hspace{2mm} per \hspace{2mm} year * P_{f} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E_{f} =$ Annual energy for either supply or return fan, f, kWh</p>
 <p class="equation">$P_{f} =$ Measured power for either supply or return fan, f, kW</p>
 
@@ -110,7 +110,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="equation equation-center">\begin{equation} E = E_{supply} + E_{return} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E =$ Total energy usage for the Fan Motor, kWh</p>
 
 <!-- ### Constant-speed or Two-speed, Constant-volume Fans using a Data Logging Power Meter 
@@ -121,7 +121,7 @@ This calculation tool is for a constant speed or two-speed, constant volume syst
 
 <p class="equation equation-center">\begin{equation} \overline{P}_{d,h,f} = \frac{\sum_{n_{f}}^{N_{f}(d,h)} P_{f}(t_{f})}{N_{f}(d,h)} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{P}_{d,h,f} =$ Average motor power for given day of week, d, and hour of day, h, for either supply or return fan, f, kW</p>
 <p class="equation">$P_{f}(t_{f}) =$ Measured motor power for either supply or return fan, f, kW</p>
 <p class="equation">$t_{f} =$ Index for measured data points for either supply or return fan, f, datasets</p>
@@ -132,7 +132,7 @@ This calculation tool is for a constant speed or two-speed, constant volume syst
 
 <p class="equation equation-center">\begin{equation} E_{f} = \sum_{d=1}^{7} \sum_{h=1}^{24} \overline{P}_{d,h,f} * [operating \hspace{2mm} weeks \hspace{2mm} per \hspace{2mm} year] \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E_{f} =$ Annual energy for either supply or return fan, f, kWh</p>
 <p class="equation">$\overline{P}_{d,h,f} =$ Average motor power for given day of week, d, and hour of day, h, for either supply or return fan, f, kW</p>
 
@@ -140,7 +140,7 @@ This calculation tool is for a constant speed or two-speed, constant volume syst
 
 <p class="equation equation-center">\begin{equation} E = E_{supply} + E_{return} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E =$ Total energy usage for the Fan Motor, kWh</p> -->
 
 ### Constant-speed, constant-volume two-speed fan energy calculations 
@@ -153,7 +153,7 @@ This calculation tool is for VFD-controlled fans that are operated at two speeds
 
 <p class="equation equation-center">\begin{equation} \%FanOn_{low,f}(t_{f}) = \begin{cases} 100\% & \text{if } i_{f}(t_{f}) < i_{low,f} * (1+\varepsilon) \\ 1 - \frac{i_{f}(t_{f}) - i_{low,f}}{i_{high,f} - i_{low,f}} & \text{if } i_{low,f} * (1+\varepsilon) < i_{f}(t_{f}) < i_{high,f}* (1-\varepsilon) \\ 0\% & \text{if } i_{high,f} * (1-\varepsilon) < i_{f}(i) \end{cases} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\%FanOn_{high,f}(i) =$ Percent of an hour that motor is running at high speed for either supply or return fan, f, %</p>
 <p class="equation">$\%FanOn_{low,f}(i) =$ Percent of an hour that motor is running at low speed for either supply or return fan, f, %</p>
 <p class="equation">$i_{f}(t_{f}) =$ Measured current for either supply or return fans, f, Amps</p>
@@ -166,7 +166,7 @@ This calculation tool is for VFD-controlled fans that are operated at two speeds
 
 <p class="equation equation-center">\begin{equation} \overline{\%FanOn}_{s,d,h,f} = \frac{\sum_{n_f=1}^{N_{f}(d,h)} \%FanOn_{s,f}(n)}{N_{f}(d,h)} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{\%FanOn}_{s,d,h,f} =$ Average % time motor is at either low speed or high speed setpoint, s, per hour for given day of wekk, d, and hour of they day, h, for either supple of return fan, %</p>
 <p class="equation">$N_{f}(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
 <p class="equation">$n_{f} \in i_{f}(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
@@ -175,14 +175,14 @@ This calculation tool is for VFD-controlled fans that are operated at two speeds
 
 <p class="equation equation-center">\begin{equation} \overline{HrsOn}_{s,d,f} = \sum_{h=0}^{23} \overline{\%FanOn}_{s,d,h,f} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{HrsOn}_{s,d,f} =$ Average hours per day for given day of week, d, for either supply or return fan, f, hours</p>
 
 4. Calculate energy used for full year for each fan (Worksheet: "Step 4. Results").
 
 <p class="equation equation-center">\begin{equation} E_{f} = \sum_{d=1}^{7} (\overline{HrsOn}_{low,d,f} * P_{low,f} + \overline{HrsOn}_{high,d,f} * P_{high,f}) * 52 [weeks \hspace{2mm} per \hspace{2mm} year] \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E_{f} =$ Annual energy for either supply or return fan, f, kWh</p>
 <p class="equation">$P_{s,f} =$ Measured power for either the low speed or high speed setpoint, s, and for either supply or return fan, f, kW</p>
 
@@ -190,7 +190,7 @@ This calculation tool is for VFD-controlled fans that are operated at two speeds
 
 <p class="equation equation-center">\begin{equation} E = E_{supply} + E_{return} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E =$ Total energy usage for the Fan Motor, kWh</p>
 
 <!-- ### Two-speed VFD-controlled Fans Using Speed from a BAS or VFD  
@@ -203,7 +203,7 @@ This calculation tool is for VFD-controlled fans that are operated at two speeds
 
 <p class="equation equation-center">\begin{equation} \%FanOn_{low,f}(t_{f}) = \begin{cases} 100\% & \text{if } S_{f}(t_{f}) < S_{low,f} * (1+\varepsilon) \\ 1 - \frac{S_{f}(t_{f}) - S_{low,f}}{i_{high,f} - S_{low,f}} & \text{if } S_{low,f} * (1+\varepsilon) < S_{f}(t_{f}) < S_{high,f}* (1-\varepsilon) \\ 0\% & \text{if } S_{high,f} * (1-\varepsilon) < S_{f}(i) \end{cases} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\%FanOn_{high,f}(i) =$ Percent of an hour that motor is running at high speed for either supply or return fan, f, %</p>
 <p class="equation">$\%FanOn_{low,f}(i) =$ Percent of an hour that motor is running at low speed for either supply or return fan, f, %</p>
 <p class="equation">$S_{f}(t_{f}) =$ Measured speed for VFD for either supply or return fan, f, rpm</p>
@@ -222,7 +222,7 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 
 <p class="equation equation-center">\begin{equation} P_{f}(OAT) = a*OAT^{2} + b*OAT + c \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$P_{f} =$ Average hourly true RMS Power for either supply or return fan, f, kW</p>
 <p class="equation">$a,b,c =$ Regression coefficients</p>
 <p class="equation">$OAT_{f} =$ Outdoor air temperature for either supply or return fan, f</p>
@@ -231,7 +231,7 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 
 <p class="equation equation-center">\begin{equation} On_{f}(t_{f}) = \begin{cases} 1 & \text{if } P_{f}(t_{f}) > 0\\ 0 & otherwise \end{cases} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$P_{f}(t_{f}) =$ Measured power</p>
 <p class="equation">$On_{f}(t_{f}) =$ Motor is on at time, $$t_{f}$$ for either supply or return fan, f, binary</p>
 
@@ -239,7 +239,7 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 
 <p class="equation equation-center">\begin{equation} \overline{\%FanOn}_{d,h,f} = \frac{\sum_{n_{f}=1}^{N_{f}(d,h)} On_{f}(t_{f})}{N_{f}(d,h)} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\overline{\%FanOn}_{d,h,f} =$ Average % time motor is on per hour for given day of week, d, and hour of day, h, for either supply or return fan, f, %</p>
 <p class="equation">$N_{f}(d,h) =$ Total number of measured data points that fall on day of week, d, and hour od day, h, for either supply or return fan, f</p>
 <p class="equation">$n_{f} \in t_{f}(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
@@ -248,7 +248,7 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 
 <p class="equation equation-center">\begin{equation} E_{f} = \sum_{t=1}^{8760} P_{f}(OAT'(t))*\overline{\%FanOn}_{d,h,f}(t) \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E_{f} =$ Annual energy usage for either supply or return fan, f, kWh</p>
 <p class="equation">$OAT'(t) =$ Climate normal outdoor air temperature from National Weather Service at station closest to site, F</p>
 
@@ -256,7 +256,7 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 
 <p class="equation equation-center">\begin{equation} E = E_{supply} + E_{return} \end{equation}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$E =$ Total energy usage for the Fan Motor, kWh</p>
 
 ## Additional Resources 
