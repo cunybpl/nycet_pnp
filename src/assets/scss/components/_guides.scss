@@ -96,13 +96,20 @@ h2, h3, h4 {
       border: none;
       padding-block: 1em;
       border-radius: 5px 5px 0 0;
-      height: 8rem;
+      height: 7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 8px;
+      align-items: center;
       @include ipad {
         width: 100px;
       }
-      > div {
-        margin-bottom: 10px;
-      }
+      // > div {
+      //   display: flex;
+      //   flex-direction: column;
+      //   justify-content: center;
+      // }
     }
     button.active {
       background-color: white !important;
