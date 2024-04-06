@@ -277,7 +277,7 @@ url = "support/contact/"
 
 # Site Parameters
 [params]
-postFix = "- NYCET"
+postFix = "- NYC Energy Tools"
 custom_scss = ['scss/custom.scss']
 blogPageURL = "blog"
 copyright = "Copyright 2023 Building Performance Lab"
