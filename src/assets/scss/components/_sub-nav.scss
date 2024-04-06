@@ -1,23 +1,22 @@
 /* Style the tab */
 .tab {
+  position: relative;
   display: flex;
   background-color: $primary;
   padding-left: 0;
   padding-right: 0;
+  justify-content: center;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  --tab-border-active: 2px solid #36733c;
-  --tab-border: 2px solid transparent;
-
   display: flex;
   background-color: $primary;
   width: 100%;
   height: 100%;
   border-top: var(--tab-border);
   border-inline: var(--tab-border);
-  border-bottom: var(--tab-border-active);
+  border-bottom: var(--tab-border);
   outline: none;
   padding: 16px;
   transition: 0.3s;
@@ -26,13 +25,23 @@
   border-radius: 8px 8px 0 0;
 }
 
+.tab::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #36733c;
+  bottom: 0;
+}
+
 /* Create an active/current tablink class */
 .tab button.active {
+  position: relative;
   background-color: white;
   color: $dark-bg;
   border-top: var(--tab-border-active);
   border-inline: var(--tab-border-active);
-  border-bottom: var(--tab-border);
+  z-index: 2;
 }
 
 /* Style the tab content */
@@ -47,7 +56,9 @@
 }
 
 .normal-nav-item {
-  width: 20%;
+  width: 22rem;
+  min-width: 8rem;
+  max-width: 20%;
   button {
     display: flex;
     align-items: center;
@@ -56,7 +67,6 @@
   }
 }
 .middle-nav-item {
-  width: 20%;
   button {
     display: flex;
     align-items: center;
