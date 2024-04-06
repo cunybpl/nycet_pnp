@@ -1,7 +1,10 @@
 {{ $wordpress_website_url := .Site.Params.wordpressWebsiteURL }}
 <section class="footer">
-	<div class="footer-copyright">
-		<div class="container py-1" style="padding-left: 27.5px; padding-right: 27.5px;">
+	<div class="container text-center footer-items">
+		<div>
+			A resource from <a href="https://nycenergytools.com">NYC Energy Tools</a> brought to you by <a href="https://cunybpl.org">CUNY BPL</a> & <a href="https://www.nyc.gov/site/dcas/agencies/energy-management.page">DCAS DEM</a>
+		</div>
+		<div>
 			{{ .Site.Params.copyright }}
 		</div>
 	</div>
