@@ -1,7 +1,6 @@
 /* Style the tab */
 .tab {
   display: flex;
-  border-top: 1px solid $light-gray;
   background-color: $primary;
   padding-left: 0;
   padding-right: 0;
@@ -23,8 +22,8 @@
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: $dark-bg;
-  color: white;
+  background-color: white;
+  color: $dark-bg;
 }
 
 /* Style the tab content */
@@ -35,7 +34,6 @@
   align-items: center;
   flex-direction: column;
   padding: 6px 12px 4em 12px;
-  border: 1px solid #ccc;
   border-top: none;
 }
 
@@ -45,21 +43,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
   }
 }
 .middle-nav-item {
   width: 20%;
-  border-right: 1.5px solid $light-gray;
-  border-left: 1.5px solid $light-gray;
   button {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
   }
 }
 
 .first-nav-item {
-  border-right: 1.5px solid $light-gray;
   button {
     display: flex;
     align-items: center;
@@ -68,12 +65,23 @@
 }
 
 .last-nav-item {
-  border-left: 1.5px solid $light-gray;
   button {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+}
+
+.tabLink.active img {
+  filter: invert(1);
+}
+
+.tabLink {
+  border-radius: 6px 6px 0 0;
+}
+
+.tabLink span {
+  font-weight: bold;
 }
 
 .filter-guides-container {
@@ -107,7 +115,7 @@
 }
 
 .search-result-label {
-  background-color: $white;
+  background-color: #f7f7f7;
   color: black !important;
   width: 31px;
   height: 31px;

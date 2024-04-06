@@ -74,16 +74,16 @@ Table 1 provides a summary of system component measurements and values needed to
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <td width="25.663716814159294%" bgcolor="#e7e6e6">
+            <td width="25.663716814159294%">
                 <p><strong>System Quantification</strong></p>
             </td>
-            <td width="26.01769911504425%" bgcolor="#e7e6e6">
+            <td width="26.01769911504425%">
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td width="22.371681415929203%" bgcolor="#e7e6e6">
+            <td width="22.371681415929203%">
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <td width="21.946902654867255%" bgcolor="#e7e6e6">
+            <td width="21.946902654867255%">
                 <p><strong>Measurements</strong></p>
             </td>
         </tr>

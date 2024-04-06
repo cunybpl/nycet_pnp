@@ -1,8 +1,9 @@
-{{ $wordpress_website_url := .Site.Params.wordpressWebsiteURL }}
+<!-- {{ $wordpress_website_url := .Site.Params.wordpressWebsiteURL }} -->
 <nav class="navbar navbar-expand-lg bg-gray-300">
   <div class="container px-0">
     <a href="{{ .Site.BaseURL }}" class="navbar-brand">
-      <img src="{{ .Site.Params.logo | absURL }}" alt="NYCET logo" width="340px">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20px" style="fill:white;"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+      <span style="color: white; font-weight: bold;">Protocols and Procedures</span>
     </a>
     <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
@@ -11,7 +12,7 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
       <ul class="nav navbar-nav main-navigation my-0" style="display: flex; justify-content: center; align-items: center;">
-        {{ $current := . }}
+        <!-- {{ $current := . }}
         {{ range .Site.Menus.main }}
         {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
         {{ $active := or $active (eq .Name $current.Title) }}
@@ -19,33 +20,11 @@
         {{ $active := or $active (eq (trim .URL "/" | lower ) (lower $current.Type)) }}
         {{ $active := or $active (eq (replace .URL "-" "" | lower) (lower $current.Type)) }}
         {{ if .HasChildren }}
-        <li class="nav-item">
-          <a 
-            href="{{ $wordpress_website_url }}{{ .URL }}"
-            id="navbarDropdownMenuLink" 
-            class="nav-link dropdown-toggle nav-link_label {{ if $active }} active {{ end }} text-sm-center p-2 {{ if $.IsHome }}scroll{{ end }}"
-          >
-            {{ .Name }}
-          </a>
-          <div class="nav-sub-menu" aria-labelledby="navbarDropdownMenuLink">
-            {{ range .Children }}
-              <a 
-                class="dropdown-item" 
-                href="{{ $wordpress_website_url }}{{ .URL }}"{{ if $.IsHome }} 
-                data-target="{{ $wordpress_website_url }}{{ .URL }}"{{ end }}
-              >
-              <span class="">{{ .Name }}</span>
-            </a>
-            {{ end }}
-          </div>
-        </li>
-        {{ else }}
         <li class="nav-item mx-1">
             {{ if eq .Params.type "icon" }}
             <a class="nav-link nav-link_label" style="font-size: larger !important;" href="{{ $wordpress_website_url }}{{ .Params.link }}">
               <i class="fa {{ .Params.icon }}" ></i>
             </a>
-            
             {{ else }}
             <a 
               href="{{ $wordpress_website_url }}{{ .URL }}"
@@ -57,9 +36,15 @@
             {{ end }}
         </li>
         {{ end }}
-        {{ end }}
-        <a class="nav-link login-btn ml-3" href="{{ $wordpress_website_url }}login/">
-          Login
+        {{ end }} -->
+        <a class="nav-link nav-btn ml-3" href="#">
+          Getting Started
+        </a>
+        <a class="nav-link nav-btn ml-3" href="https://cunybpl.org/">
+          About Us
+        </a>
+        <a class="nav-link nav-btn ml-3" href="{{ $wordpress_website_url }}equipment">
+          Borrow Equipment
         </a>
       </ul>
     </div>

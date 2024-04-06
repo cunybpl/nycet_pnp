@@ -9,20 +9,36 @@
   align-items: baseline;
   padding-left: 0;
   margin-bottom: 0;
+  font-size: medium;
   li {
     display: inline;
     white-space: nowrap;
-    color:$body-color;
+    color:#b5f9bb;
     &:not(:first-of-type)::before {
-      content: "/";
-      padding: .5rem;
+      content: "›";
+      padding: 1.5rem;
+    }
+    a {
+      color: white;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   }
 }
 
-a:hover:not(.btn) {
-  text-decoration: underline !important;
+.breadcrumbs {
+  background-color: $primary;
 }
+
+.content a {
+  text-decoration: underline;
+}
+
+// a:hover:not(.btn),
+// a:hover:not(.navbar-brand) {
+//   text-decoration: underline;
+// }
 
 h2, h3, h4 {
   margin-top: 3rem;
@@ -48,6 +64,15 @@ h2, h3, h4 {
   }
 }
 
+.chip {
+  border-radius: 50rem;
+  background-color:#36733c;
+  font-size: medium;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 14px;
+}
+
 .guide-header {
   display: flex;
   justify-content: space-between;
@@ -61,27 +86,37 @@ h2, h3, h4 {
   }
   &-tab-items {
     display: flex;
-    align-items: stretch;
+    align-items: end;
     button {
-      background-color: $primary;
+      background-color: transparent;
       color: white;
-      width: 150px;
-      font-size: small;
+      width: 160px;
+      font-size: 14px;
+      font-weight: bold;
       border: none;
+      padding-block: 1em;
+      border-radius: 5px 5px 0 0;
+      height: 8rem;
       @include ipad {
         width: 100px;
       }
+      > div {
+        margin-bottom: 10px;
+      }
     }
     button.active {
-      background-color: $dark-bg !important;
-      color: white !important;
+      background-color: white !important;
+      color: $dark-bg !important;
+      img {
+        filter: invert(1);
+      }
     }
   }
 }
 
 .header-tab-item:hover,
 .tabLink:hover {
-  background-color: #429049;
+  background-color: #387e3e;
 }
 
 .toc-header {
@@ -101,7 +136,7 @@ h2, h3, h4 {
     // height: 100%;
     nav#TableOfContents {
       li.active-item {
-        background-color: rgba(66, 144, 73, .20);
+        background-color: #ebf4ec;
         font-weight: bold;
         padding: 1rem;
         border-radius: 10px;
@@ -169,6 +204,7 @@ a#back-to-top:hover {
 
 .guide-header-title h1 {
   font-size: 2.3rem;
+  font-weight: bold;
 }
 
 .content > h2:first-of-type {
