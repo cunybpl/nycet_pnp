@@ -155,8 +155,7 @@ h2, h3, h4 {
   position: relative;
   .mg-toc {
     position: sticky;
-    top: 20px;
-    // height: 100%;
+    top: 1rem;
     nav#TableOfContents {
       li.active-item {
         background-color: #ebf4ec;
