@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+  <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script> -->
 
   {{ "<!-- Slick Carousel -->" | safeHTML }}
   <!-- <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }}" />
@@ -24,7 +24,7 @@
   {{ "<!-- Stylesheets -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="/styles.css"> -->
   <link rel="stylesheet" href="/css/lightbox.css">
 
   {{ "<!-- Custom SCSS -->" | safeHTML }}
@@ -38,7 +38,7 @@
   <link rel="icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script> -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
