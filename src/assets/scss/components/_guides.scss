@@ -296,13 +296,15 @@ caption {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: 90%;
-  color: black;
+  color: $body-color;
+  font-weight: bold;
   text-align: left;
   caption-side: top;
 }
 
 .figure-caption { 
-  color: black;
+  color: $body-color;
+  font-weight: bold;
 }
 
 th,
