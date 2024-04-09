@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#content {
+  min-height: calc(100vh - 169px - 4rem);
+}
+
 .section {
   padding: 100px 0;
 }
