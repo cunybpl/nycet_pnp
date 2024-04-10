@@ -445,3 +445,11 @@ table.equation-table {
   visibility: visible;
   opacity: 1;
 }
+
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-block: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #b4b4b4;
+}

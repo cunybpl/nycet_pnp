@@ -68,7 +68,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 An example of how to setup the Onset HOBO 4-channel analog logger (UX120-006M) is shown in the video below 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fUjz0qj7GVM?si=tSIiXYE0bUuRB5LX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class ="video" src="https://www.youtube.com/embed/fUjz0qj7GVM?si=tSIiXYE0bUuRB5LX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### 2. Installation of Equipment
 
