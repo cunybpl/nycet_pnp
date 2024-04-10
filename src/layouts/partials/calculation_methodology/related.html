@@ -9,7 +9,7 @@
   {{ $label = "measurements" }}
 {{ end }}
 <div class="col-md-12 col-lg-6">
-  <section class="card mb-4">
+  <section class="card">
     <div class="guide-thumbnail">
       {{ if isset .Params  "thumbnail_image" }}
       <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image:url({{ .Params.thumbnail_image | absURL }});">

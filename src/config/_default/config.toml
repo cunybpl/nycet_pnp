@@ -277,10 +277,10 @@ url = "support/contact/"
 
 # Site Parameters
 [params]
-postFix = "- NYCET"
+postFix = "- NYC Energy Tools"
 custom_scss = ['scss/custom.scss']
 blogPageURL = "blog"
-copyright = "Copyright 2023 Building Performance Lab"
+copyright = "© 2024 CUNY BPL"
 footerLogo = "images/site-navigation/nyc_logo.png"
 footerHeading = "A FREE Resource for City Agency Employees"
 footerDescription = "We are fully stocked with equipment for measuring, diagnosing, and optimizing building equipment and systems, from boilers to air handling units to solar panels."

@@ -9,6 +9,11 @@
 // }
 
 // Button Override
+
+button:focus {
+  outline: none;
+}
+
 .btn {
   display: inline-block;
   padding: 12px 27px;

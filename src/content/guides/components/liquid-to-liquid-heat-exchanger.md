@@ -21,20 +21,20 @@ In a building, a heat exchanger of this type can be installed in condensate cool
 
 Table 1 shows the plant and system configurations that may contain a liquid-to-liquid heat exchanger.
 
-<table width="617" cellspacing="0" cellpadding="7">
+<table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 1. Plants and systems containing liquid-to-liquid heat exchangers.</caption>
     <thead>
         <tr>
-            <td width="21.964285714285715%" bgcolor="#e7e6e6">
+            <td width="21.964285714285715%">
                 <p><strong>Plant</strong></p>
             </td>
-            <td width="24.285714285714285%" bgcolor="#e7e6e6">
+            <td width="24.285714285714285%">
                 <p><strong>System</strong></p>
             </td>
-            <td width="26.964285714285715%" bgcolor="#e7e6e6">
+            <td width="26.964285714285715%">
                 <p><strong>Component</strong></p>
             </td>
-            <td width="26.785714285714285%" bgcolor="#e7e6e6">
+            <td width="26.785714285714285%">
                 <p><strong>Controlling Variable</strong></p>
             </td>
         </tr>
@@ -102,17 +102,17 @@ Figure 1 demonstrates a schematic of a liquid-to-liquid heat exchanger.
 
 Table 2 provides a summary of measurements needed to quantify the annual energy transfer and operating characteristics of a liquid-to-liquid heat exchanger.
 
-<table width="623" cellspacing="0" cellpadding="7">
+<table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 2. Key values and measurements.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%" bgcolor="#e7e6e6">
+            <td width="33.333333333333336%">
                 <p><strong>Component Quantification</strong></p>
             </td>
-            <td width="33.333333333333336%" bgcolor="#e7e6e6">
+            <td width="33.333333333333336%">
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td width="33.333333333333336%" bgcolor="#e7e6e6">
+            <td width="33.333333333333336%">
                 <p><strong>Measurement&nbsp;</strong></p>
             </td>
         </tr>

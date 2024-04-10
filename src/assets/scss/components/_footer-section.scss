@@ -1,15 +1,22 @@
 .footer {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    background: $light-gray;
+    padding-block: 3rem;
+    background: #f7f7f7;
     position: relative;
+    color: #979797;
+    font-size: medium;
+    border-top: 1px solid #dfdfdf;
     &-site-map {
       h5 {
         font-size: 19.2px;
       }
       a {
         color: black;
+        
+        &:hover {
+            text-decoration: underline;
+          }
       }
     }
     &__widget {
@@ -41,6 +48,12 @@
         background-color: #16232b;
         color: $white;
     }
+}
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
 }
 @media (max-width:800px){
 .footer {

@@ -6,13 +6,13 @@
   >
   <div class="row" style="padding-top: 3rem; padding-bottom: 5rem;">
     <!-- TABLE OF CONTENTS -->
-    <div id="guide-mg-side-nav" class="col-3 pl-0 pr-3">
+    <div id="guide-mg-side-nav" class="col-3 pl-3 pr-4">
       <div class="mg-toc">
         <span class="text-muted font-weight-bold toc-header">{{ .Title }}</span>
         {{ .TableOfContents }}
         <div class="pt-4">
           <a id="back-to-top" href="#" class="" role="button">
-            <i class="fa fa-arrow-up"></i>
+            <span class="mr-2">Back to top</span><i class="fa fa-arrow-up"></i>
           </a>
         </div>
       </div>
@@ -50,13 +50,13 @@
         {{ $totalRelated = add $totalRelated 1 }}
       {{ end }}
     {{ end }}
-    <div class="d-flex align-items-center mb-1" style="padding-top: 4rem;">
+    <div class="d-flex align-items-center mb-1 pl-3" style="padding-top: 4rem;">
       <h3 class="mb-0">
         {{ $totalRelated }} Related {{ $relatedLabel }}
       </h3>
       <a class="ml-4" href="{{ .Site.BaseURL }}">Browse All {{ $relatedLabel }}</a>
     </div>
-    <div class="d-flex flex-wrap justify-content-between py-4">
+    <div class="d-flex flex-wrap justify-content-between pt-4 pb-5">
     {{ range .Site.RegularPages }}
       {{ if in $guides .Title }}
         {{ partial "guides/related.html" . }}

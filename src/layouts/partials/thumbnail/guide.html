@@ -6,7 +6,7 @@
 {{ else }}
   {{ $label = "systems" }}
 {{ end }}
-<section class="card mb-4">
+<section class="card">
   <div class="guide-thumbnail">
     {{ if isset .params  "thumbnail_image" }}
     <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .params.thumbnail_image | absURL }});">
