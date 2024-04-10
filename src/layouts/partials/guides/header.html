@@ -89,7 +89,7 @@
     if (!expectedTabItemIDs.includes(activeTabItemID)) return;
 
     if (activeTabItemID == borrowEquipmentTabItemID) {
-      return location.href = {{ .Params.borrow_equipment_url }};
+      return location.href = '{{ .Params.borrow_equipment_url }}';
     };
 
     hidePageContents()
