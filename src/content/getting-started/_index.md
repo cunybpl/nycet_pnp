@@ -7,7 +7,7 @@ excerpt: The Procedures and Protocols are...
 url: "/getting-started"
 ---
 
-## What are the Procedures and Protocols
+## What are the Protocols and Procedures
 
 A detailed descriptiopn of what the guides are, their purpose and intended use/audience.
 
