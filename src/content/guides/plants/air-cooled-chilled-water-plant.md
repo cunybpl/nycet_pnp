@@ -65,9 +65,9 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
             <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <!-- <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </td>
+            </td> -->
         </tr>
     <tbody>
         <tr>
@@ -75,18 +75,21 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
                 <p>Air-cooled chilled water plant energy consumption</p>
             </td>
             <td>
-                <p>Average hourly chiller kWh, average hourly pump kWh</p>
+                <p>Average hourly chiller kWh</p>
+                <p>Average hourly pump kWh</p>
             </td>
             <td>
-                <p>Condenser fan motor; compressor motor; chilled water pumps</p>
+                <p>Condenser fan motor</p>
+                <p>Compressor motor</p>
+                <p>Chilled water pumps</p>
             </td>
-            <td>
+            <!-- <td>
                 <p>Power supply to compressor motor; condenser fan motor; controls; chilles water pump motor</p>
-            </td>
+            </td> -->
         </tr>
         <tr>
             <td>
-                <p>Cooling load on building; heat rejected to the outdoors</p>
+                <p>Cooling load on building/Heat rejected to the outdoors</p>
             </td>
             <td>
                 <p>Average hourly thermal load of chiller evaporator (Btu)</p>
@@ -94,14 +97,14 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
             <td>
                 <p></p>
             </td>
-            <td>
+            <!-- <td>
                 <p>Flow rate of chilled water pumps; temperature difference across the chiller evaporator</p>
-            </td>
+            </td> -->
         </tr>
     </tbody>
 </table>
 
-### Air-cooled Chilled Water Plant Measurement Point Locations
+<!-- ### Air-cooled Chilled Water Plant Measurement Point Locations
 
 The measurement locations for an air-cooled chilled water plant are schematically shown in Figure 4. 
 
@@ -110,7 +113,7 @@ The measurement locations for an air-cooled chilled water plant are schematicall
         <img src="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4. Measurement point locations.">
         <figcaption class="figure-caption text-left">Figure 4. Measurement point locations.</figcaption>
     </figure>
-</a>
+</a> -->
 
 ## References
 

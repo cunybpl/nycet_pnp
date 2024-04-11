@@ -67,9 +67,9 @@ To quantify the energy consumption of the lighting plant, the components of all 
             <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <!-- <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </td>
+            </td> -->
         </tr>
     <tbody>
         <tr>
@@ -82,9 +82,9 @@ To quantify the energy consumption of the lighting plant, the components of all 
             <td>
                 <p>Light fixtures and automatic controls (if applicable).</p>
             </td>
-            <td>
+            <!-- <td>
                 <p>Power supplied to light fixture system from the switchgear or panelboard; duration o flight fixture system use</p>
-            </td>
+            </td> -->
         </tr>
     </tbody>
 </table>

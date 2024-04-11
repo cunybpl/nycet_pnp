@@ -94,13 +94,20 @@ The energy consumption in an air handling plant is the sum of the energy used by
     <tbody>
         <tr>
             <td>
-                <p>Constant-speed, constant-volume AHU; dual-speed, constant-volume AHU; variable air volume AHU; dedicated outside air system; fan coil unit</p>
+                <p>Constant-speed, constant-volume AHU</p>
+                <p>Dual-speed, constant-volume AHU</p>
+                <p>Variable air volume AHU</p>
+                <p>Dedicated outside air system</p>
+                <p>Fan coil unit</p>
             </td>
             <td>
-                <p>Fan motors; heating coil; cooling coil</p>
+                <p>Fan motors</p>
+                <p>Heating coil</p>
+                <p>Cooling coil</p>
             </td>
             <td>
-                <p>Average hourly fan motor kWh; average BTUH at coils</p>
+                <p>Average hourly fan motor kWh</p>
+                <p>Average BTUH at coils</p>
             </td>
         </tr>
         <tr>
@@ -108,7 +115,8 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Heat pump</p>
             </td>
             <td>
-                <p>Fan motors; compressor</p>
+                <p>Fan motors</p>
+                <p>Compressor</p>
             </td>
             <td>
                 <p>Average hourly heat pump kWh (includes supply and condenser fan motors and compressor motors)</p>
@@ -119,10 +127,12 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Fuel fired furnace</p>
             </td>
             <td>
-                <p>Burner; fan motor</p>
+                <p>Burner</p>
+                <p>Fan motor</p>
             </td>
             <td>
-                <p>Average hourly furnace fuel consumption; average hourly burnger kWh (includes supply fan motors)</p>
+                <p>Average hourly furnace fuel consumption</p>
+                <p>Average hourly burnger kWh (includes supply fan motors)</p>
             </td>
         </tr>
         <tr>
@@ -130,7 +140,9 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Rooftop Unit</p>
             </td>
             <td>
-                <p>Burner; fan motors; compressor</p>
+                <p>Burner</p>
+                <p>Fan motors</p>
+                <p>Compressor</p>
             </td>
             <td>
                 <p>Average hourly fuel consumption: average hourly rooftop unit kWh (includes supply and condenser fan motors and compressor motors)</p>
@@ -150,7 +162,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
     </tbody>
 </table>
 
-### Air Handling Plant Measurement Locations
+<!-- ### Air Handling Plant Measurement Locations
 
 The measurement locations for an air handling plant will vary with the type of systems that make up the plant. In general, the measurement locations will occur at the energy consuming components of each system that make up the plant. An example of some measurement locations is shown below. 
 
@@ -159,7 +171,7 @@ The measurement locations for an air handling plant will vary with the type of s
         <img src="/images/plants/air-handling-plant/air handling plant figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. Constant-speed, constant-volume AHU measurement points">
         <figcaption class="figure-caption text-left">Figure 3. Constant-speed, constant-volume AHU measurement points</figcaption>
     </figure>
-</a>
+</a> -->
 
 ## References
 

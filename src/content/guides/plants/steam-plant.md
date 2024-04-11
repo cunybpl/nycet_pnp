@@ -72,9 +72,9 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
             <td bgcolor="#e7e6e6">
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <!-- <td bgcolor="#e7e6e6">
                 <p><strong>Measurements</strong></p>
-            </td>
+            </td> -->
         </tr>
     <tbody>
         <tr>
@@ -87,28 +87,34 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
             <td>
                 <p>Boiler</p>
             </td>
-            <td>
+            <!-- <td>
                 <p>Average hourly fuel consumption by the boiler; total operating hours of the pump motors; hourly outside air temperature</p>
-            </td>
+            </td> -->
         </tr>
         <tr>
             <td>
                 <p>Steam plant electricity consumption (kWh)</p>
             </td>
             <td>
-                <p>Average hourly burner fan motor kWh; total operating hours of burner fan motor; hourly average condensate pump motor kWh; hourly average feedwater pump kWh; total operating time for pump motors</p>
+                <p>Average hourly burner fan motor kWh</p>
+                <p>Total operating hours of burner fan motor</p>
+                <p>Hourly average condensate pump motor kWh</p>
+                <p>Hourly average feedwater pump kWh</p>
+                <p>Total operating time for pump motors</p>
             </td>
             <td>
-                <p>Burner fan motor; condensate pump motor; feedwater pump</p>
+                <p>Burner fan motor</p>
+                <p>Condensate pump motor</p>
+                <p>Feedwater pump</p>
             </td>
-            <td>
+            <!-- <td>
                 <p>Average hourly electricity consumption of the burner fan motor; average hourly electricity consumption of the condensate pump motor; average hourly electricity consumption of the feedwater pump; total operating hours of the pump motors; hourly outside air temperature</p>
-            </td>
+            </td> -->
         </tr>
     </tbody>
 </table>
 
-### Steam Plant Measurement Point Locations
+<!-- ### Steam Plant Measurement Point Locations
 
 The measurement locations for a steam plant are schematically shown in Figure 3. 
 
@@ -117,7 +123,7 @@ The measurement locations for a steam plant are schematically shown in Figure 3.
         <img src="/images/plants/steam-plant/steam-plant figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. Steam plant measurement points (www.iqsdirectory.com)">
         <figcaption class="figure-caption text-left"><span class="tooltip-pnp">Figure 3. Steam plant measurement points (www.iqsdirectory.com)<span class="tooltiptext">https://www.iqsdirectory.com/articles/boiler/steam-boilers.html Accessed on 08/16/2022</span></span></figcaption>
     </figure>
-</a>
+</a> -->
 
 ## References
 
