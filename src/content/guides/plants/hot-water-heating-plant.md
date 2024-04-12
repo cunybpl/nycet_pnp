@@ -89,24 +89,29 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
                 <p>Average hourly fuel consumption (Btuh)</p>
             </td>
             <td>
-                <p>Boiler&nbsp;</p>
+                <p>Boiler</p>
             </td>
-            <td>
+            <!-- <td>
                 <p>Average hourly fuel consumption by the boiler</p>
-            </td>
+            </td> -->
         </tr>
         <tr>
             <td>
                 <p>Hot water heating plant electricity consumption (kWh)</p>
             </td>
             <td>
-                <p>Average hourly burner fan motor kWh; average hourly primary HWH pump motor kWh; average hourly secondary HWH pump motor kWh; average hourly feedwater pump kWh; total operating time for the pump motors; outdoor air</p>
+                <p>Average hourly burner fan motor kWh</p>
+                <p>Average hourly primary HWH pump motor kWh</p>
+                <p>Average hourly secondary HWH pump motor kWh</p>
+                <p>Average hourly feedwater pump kWh</p>
+                <p>Total operating time for the pump motors</p>
+                <p>Outdoor air</p>
             </td>
             <td>
             </td>
-            <td>
+            <!-- <td>
                 <p>Burner fan motor; primary pump motor; secondary pump motor (if present); feedwater pump</p>
-            </td>
+            </td> -->
         </tr>
         <tr>
             <td>
@@ -118,9 +123,9 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             <td>
                 <p>Terminal Units</p>
             </td>
-            <td>
+            <!-- <td>
                 <p>Average hourly hot water flow (gpm) through terminal units; average hourly temperature difference between supply water and return water</p>
-            </td>
+            </td> -->
         </tr>
         <tr>
             <td>
@@ -132,14 +137,14 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             <td>
                 <p>Heat exchanger (if present)</p>
             </td>
-            <td>
+            <!-- <td>
                 <p>Average hourly flow (gpm) of feedwater; average hourly temperature difference across heat exchanger</p>
-            </td>
+            </td> -->
         </tr>
     </tbody>
 </table>
 
-### Hot-water Heating Plant Measurement Point Locations
+<!-- ### Hot-water Heating Plant Measurement Point Locations
 
 The measurement locations for a HWH plant are schematically shown in Figure 2.
 
@@ -148,7 +153,7 @@ The measurement locations for a HWH plant are schematically shown in Figure 2.
         <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure 5.png" class="figure-img img-fluid rounded" alt="Figure 5. HWH plant measurement points">
         <figcaption class="figure-caption text-left">Figure 5. HWH plant measurement points.</figcaption>
     </figure>
-</a>
+</a> -->
 
 ## References
 
