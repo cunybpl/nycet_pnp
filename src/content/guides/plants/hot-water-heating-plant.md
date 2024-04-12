@@ -67,7 +67,7 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
     <caption>Table 1. Hot Water Heating Plant Values</caption>
     <thead>
         <tr>
-            <td>
+            <td style="width: 30%">
                 <p><strong>Plant Quantification</strong></p>
             </td>
             <td>
@@ -75,9 +75,6 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             </td>
             <td>
                 <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
             </td>
         </tr>
     <tbody>
@@ -91,27 +88,23 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             <td>
                 <p>Boiler</p>
             </td>
-            <!-- <td>
-                <p>Average hourly fuel consumption by the boiler</p>
-            </td> -->
         </tr>
         <tr>
             <td>
                 <p>Hot water heating plant electricity consumption (kWh)</p>
             </td>
             <td>
-                <p>Average hourly burner fan motor kWh</p>
-                <p>Average hourly primary HWH pump motor kWh</p>
-                <p>Average hourly secondary HWH pump motor kWh</p>
-                <p>Average hourly feedwater pump kWh</p>
-                <p>Total operating time for the pump motors</p>
-                <p>Outdoor air</p>
+                <ul>
+                    <li>Average hourly burner fan motor kWh</li>
+                    <li>Average hourly primary HWH pump motor kWh</li>
+                    <li>Average hourly secondary HWH pump motor kWh</li>
+                    <li>Average hourly feedwater pump kWh</li>
+                    <li>Total operating time for the pump motors</li>
+                    <li>Outdoor air</li>
+                </ul>
             </td>
             <td>
             </td>
-            <!-- <td>
-                <p>Burner fan motor; primary pump motor; secondary pump motor (if present); feedwater pump</p>
-            </td> -->
         </tr>
         <tr>
             <td>
@@ -123,9 +116,6 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             <td>
                 <p>Terminal Units</p>
             </td>
-            <!-- <td>
-                <p>Average hourly hot water flow (gpm) through terminal units; average hourly temperature difference between supply water and return water</p>
-            </td> -->
         </tr>
         <tr>
             <td>
@@ -137,9 +127,6 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             <td>
                 <p>Heat exchanger (if present)</p>
             </td>
-            <!-- <td>
-                <p>Average hourly flow (gpm) of feedwater; average hourly temperature difference across heat exchanger</p>
-            </td> -->
         </tr>
     </tbody>
 </table>

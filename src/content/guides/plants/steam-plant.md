@@ -63,7 +63,7 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
     <caption>Table 1. Steam Plant Values</caption>
     <thead>
         <tr>
-            <td>
+            <td style="width: 26%">
                 <p><strong>Plant Quantification</strong></p>
             </td>
             <td>
@@ -71,9 +71,6 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
             </td>
             <td>
                 <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
             </td>
         </tr>
     <tbody>
@@ -87,29 +84,27 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
             <td>
                 <p>Boiler</p>
             </td>
-            <!-- <td>
-                <p>Average hourly fuel consumption by the boiler; total operating hours of the pump motors; hourly outside air temperature</p>
-            </td> -->
         </tr>
         <tr>
             <td>
                 <p>Steam plant electricity consumption (kWh)</p>
             </td>
             <td>
-                <p>Average hourly burner fan motor kWh</p>
-                <p>Total operating hours of burner fan motor</p>
-                <p>Hourly average condensate pump motor kWh</p>
-                <p>Hourly average feedwater pump kWh</p>
-                <p>Total operating time for pump motors</p>
+                <ul>
+                    <li>Average hourly burner fan motor kWh</li>
+                    <li>Total operating hours of burner fan motor</li>
+                    <li>Hourly average condensate pump motor kWh</li>
+                    <li>Hourly average feedwater pump kWh</li>
+                    <li>Total operating time for pump motors</li>
+                </ul>
             </td>
             <td>
-                <p>Burner fan motor</p>
-                <p>Condensate pump motor</p>
-                <p>Feedwater pump</p>
+                <ul>
+                    <li>Burner fan motor</li>
+                    <li>Condensate pump motor</li>
+                    <li>Feedwater pump</li>
+                </ul>
             </td>
-            <!-- <td>
-                <p>Average hourly electricity consumption of the burner fan motor; average hourly electricity consumption of the condensate pump motor; average hourly electricity consumption of the feedwater pump; total operating hours of the pump motors; hourly outside air temperature</p>
-            </td> -->
         </tr>
     </tbody>
 </table>

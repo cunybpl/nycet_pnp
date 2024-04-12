@@ -113,9 +113,6 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
             <td>
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
         </tr>
     <tbody>
         <tr>
@@ -123,20 +120,21 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
                 <p>Water-cooled chilled water plant electricity consumption</p>
             </td>
             <td>
-                <p>Average hourly chiller kWh</p>
-                <p>Average hourly pump kWh</p>
-                <p>Average hourly cooling tower fan kWh</p>
+                <ul>
+                    <li>Average hourly chiller kWh</li>
+                    <li>Average hourly pump kWh</li>
+                    <li>Average hourly cooling tower fan kWh</li>
+                </ul>
             </td>
             <td>
-                <p>Chiller compressor motor</p>
-                <p>Chilled water pump motors</p>
-                <p>Condenser water pump motors</p>
-                <p>Heat exchanger pump motor (if present)</p>
-                <p>Cooling tower fan motors&nbsp;</p>
+                <ul>
+                    <li>Chiller compressor motor</li>
+                    <li>Chilled water pump motors</li>
+                    <li>Condenser water pump motors</li>
+                    <li>Heat exchanger pump motor (if present)</li>
+                    <li>Cooling tower fan motors</li>
+                </ul>
             </td>
-            <!-- <td>
-                <p>Power supply to compressor motor; power supply to pump motors; power supply to fan motors</p>
-            </td> -->
         </tr>
         <tr>
             <td>
@@ -147,25 +145,23 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
             </td>
             <td>
             </td>
-            <!-- <td>
-                <p>Flow rate of chilled water pumps; temperature difference across chiller evaporator</p>
-            </td> -->
         </tr>
         <tr>
             <td>
                 <p>Coefficient of Performance (COP)</p>
             </td>
             <td>
-                <p>Electricity input</p>
-                <p>Cooling load output</p>
+                <ul>
+                    <li>Electricity input</li>
+                    <li>Cooling load output</li>
+                </ul>
             </td>
             <td>
-                <p>Water-cooled chilled water plant electricity consumption</p>
-                <p>Cooling load</p>
+                <ul>
+                    <li>Water-cooled chilled water plant electricity consumption</li>
+                    <li>Cooling load</li>
+                </ul>
             </td>
-            <!-- <td>
-                <p>See above</p>
-            </td> -->
         </tr>
     </tbody>
 </table>
