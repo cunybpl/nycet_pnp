@@ -36,7 +36,7 @@ Total head is calculated by taking the difference between discharge and suction 
 <p class="equation equation-center">\begin{equation*} \Delta P = Discharge \hspace{2mm} Pressure - Suction \hspace{2mm} Pressure\end{equation*}</p>
 <p class="equation equation-center">\begin{equation*} Total \hspace{2mm} Head = \Delta P * 2.31 Pressure\end{equation*}</p>
 
-<p class="equation">Where,</p>
+<p class="step-indent">Where,</p>
 <p class="equation">$\Delta P =$ differential pressure across the pump, psi</p>
 <p class="equation">$Discharge \hspace{2mm} Pressure =$ water pressure leaving the pump, psi</p>
 <p class="equation">$Suction \hspace{2mm} Pressure =$ water pressure entering the pump, psi</p>

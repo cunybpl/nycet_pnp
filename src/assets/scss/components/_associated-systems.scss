@@ -1,7 +1,7 @@
 .associated-systems-modal {
   &-content {
     max-height: 90vh;
-    border-radius: 6px;
+    border-radius: 8px;
     @include ipad {
       height: 850px;
     }

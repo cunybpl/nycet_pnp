@@ -26,16 +26,16 @@ Table 1 shows the plant and system configurations that may contain variable-spee
     <caption>Table 1. Plants and systems containing variable-speed fans.</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Plant</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>System</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Controlling Variable</strong></p>
             </td>
         </tr>
@@ -120,13 +120,13 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Component Quantification</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Measurement</strong></p>
             </td>
         </tr>

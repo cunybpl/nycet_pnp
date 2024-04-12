@@ -30,7 +30,7 @@
           <div class="d-flex flex-wrap">
             {{ range where .all_pages "Title" "in" .content }}
               <div class="col-lg-6">
-                <div class="card mb-5">
+                <div class="card">
                   <div class="guide-thumbnail" style="height: 300px !important;">
                     {{ if isset .Params  "thumbnail_image" }}
                     <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .Params.thumbnail_image | absURL }});">

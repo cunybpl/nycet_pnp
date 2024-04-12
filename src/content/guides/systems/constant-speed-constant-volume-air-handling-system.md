@@ -50,16 +50,16 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>System Quantification</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Measurements</strong></p>
             </td>
         </tr>

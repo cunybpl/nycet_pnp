@@ -81,13 +81,13 @@ The energy consumption in an air handling plant is the sum of the energy used by
     <caption>Table 1. Key values, components, and measurements</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>System(s)</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Values to Quantify</strong></p>
             </td>
         </tr>

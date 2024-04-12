@@ -9,20 +9,36 @@
   align-items: baseline;
   padding-left: 0;
   margin-bottom: 0;
+  font-size: medium;
   li {
     display: inline;
     white-space: nowrap;
-    color:$body-color;
+    color:#ffffff82;
     &:not(:first-of-type)::before {
-      content: "/";
-      padding: .5rem;
+      content: "›";
+      padding: 1.5rem;
+    }
+    a {
+      color: white;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   }
 }
 
-a:hover:not(.btn) {
-  text-decoration: underline !important;
+.breadcrumbs {
+  background-color: $primary;
 }
+
+.content a {
+  text-decoration: underline;
+}
+
+// a:hover:not(.btn),
+// a:hover:not(.navbar-brand) {
+//   text-decoration: underline;
+// }
 
 h2, h3, h4 {
   margin-top: 3rem;
@@ -48,6 +64,28 @@ h2, h3, h4 {
   }
 }
 
+.chip {
+  border-radius: 50rem;
+  background-color:#36733c;
+  font-size: medium;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.guide-header-wrapper {
+  position: relative;
+}
+
+.guide-header-wrapper::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #36733c;
+  bottom: 0;
+}
+
 .guide-header {
   display: flex;
   justify-content: space-between;
@@ -61,27 +99,47 @@ h2, h3, h4 {
   }
   &-tab-items {
     display: flex;
-    align-items: stretch;
+    align-items: end;
     button {
-      background-color: $primary;
+      border: var(--tab-border);
+      background-color: transparent;
       color: white;
-      width: 150px;
-      font-size: small;
-      border: none;
+      width: 160px;
+      font-size: 14px;
+      font-weight: bold;
+      padding-block: 1em;
+      border-radius: 5px 5px 0 0;
+      height: 7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 8px;
+      align-items: center;
       @include ipad {
         width: 100px;
       }
+      // > div {
+      //   display: flex;
+      //   flex-direction: column;
+      //   justify-content: center;
+      // }
     }
     button.active {
-      background-color: $dark-bg !important;
-      color: white !important;
+      background-color: white !important;
+      color: $dark-bg !important;
+      border-top: var(--tab-border-active);
+      border-inline: var(--tab-border-active);
+      z-index: 2;
+      img {
+        filter: invert(1);
+      }
     }
   }
 }
 
 .header-tab-item:hover,
 .tabLink:hover {
-  background-color: #429049;
+  background-color: #387e3e;
 }
 
 .toc-header {
@@ -97,11 +155,10 @@ h2, h3, h4 {
   position: relative;
   .mg-toc {
     position: sticky;
-    top: 20px;
-    // height: 100%;
+    top: 1rem;
     nav#TableOfContents {
       li.active-item {
-        background-color: rgba(66, 144, 73, .20);
+        background-color: #ebf4ec;
         font-weight: bold;
         padding: 1rem;
         border-radius: 10px;
@@ -151,6 +208,7 @@ h2, h3, h4 {
 }
 
 a#back-to-top {
+  display: inline-block;
   border: none;
   display: none;
   font-size: 1rem;
@@ -169,6 +227,7 @@ a#back-to-top:hover {
 
 .guide-header-title h1 {
   font-size: 2.3rem;
+  font-weight: bold;
 }
 
 .content > h2:first-of-type {
@@ -206,63 +265,75 @@ table {
   /* Change these properties */
   --border: 1px solid #bdbdbd;
   border-radius: 5px;
-   
+  border: var(--border);
   /* Don't change these properties */
   border-spacing: 0;
   border-collapse: separate;
-  border: var(--border);
   min-width: 825px;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   position: relative;
+  table-layout: auto;
+  line-height: 1.65;
+  overflow: hidden;
 }
 
 thead {
   position: sticky;
   top: 0;
+  background-color: #f7f7f7;
+  z-index: 2;
+
+	th {
+		background-color: #f7f7f7;
+	}
+
+  td {
+    vertical-align: bottom;
+  }
 }
 
 caption {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: 90%;
-  color: #6c757d;
+  color: $body-color;
+  font-weight: bold;
   text-align: left;
   caption-side: top;
 }
 
+.figure-caption { 
+  color: $body-color;
+  font-weight: bold;
+}
+
 th,
 td {
-	padding: 12px;
+	padding: 14px 20px;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 td {
-	color: #000;
+	color: inherit;
   vertical-align: top;
-
 }
 
 th {
 	text-align: left;
-  color: #000;
-  vertical-align: top;
-}
-
-thead {
-	th {
-		background-color: #f7f7f7;
-
-	}
 }
 
  /* Apply a border to the right of all but the last column */
- table th:not(:last-child),
- table td:not(:last-child) {
-  border-right: var(--border);
- }
+//  table th:not(:last-child),
+//  table td:not(:last-child) {
+//   border-right: var(--border);
+//  }
  
  /* Apply a border to the bottom of all but the last row */
- table>thead>tr:not(:last-child)>th,
- table>thead>tr:not(:last-child)>td,
+ table>thead>tr>th,
+ table>thead>tr>td,
  table>tbody>tr:not(:last-child)>th,
  table>tbody>tr:not(:last-child)>td,
  table>tfoot>tr:not(:last-child)>th,
@@ -316,13 +387,17 @@ table.equation-table {
     vertical-align: middle;
   }
 }
+.step-indent {
+  margin-left: 2.5em;
+}
 .equation {
   display: block;
-  margin-block: 2em;
-  margin-left: 2em;
+  margin-block: 1.5em;
+  margin-left: 5em;
 }
 .equation-center {
   text-align: center;
+  margin-left: 2em;
 }
 .equation-left {
  text-align: left;
@@ -357,7 +432,7 @@ table.equation-table {
   transform: rotate(45deg);
   background-color: inherit;
   padding: 5px;
-  z-index: 1;
+  z-index: 3;
   top: -5px;
   left: 50%;
 }
@@ -369,4 +444,12 @@ table.equation-table {
 .tooltip-pnp:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-block: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #b4b4b4;
 }

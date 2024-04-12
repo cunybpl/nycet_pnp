@@ -26,16 +26,16 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
     <caption>Table 1. Plants and systems containing constant-speed fans.</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Plant</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>System</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Component</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Controlling Variable</strong></p>
             </td>
         </tr>
@@ -121,13 +121,13 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
         <tr>
-            <td width="30.073349633251834%" bgcolor="#e7e6e6">
+            <td width="30.073349633251834%">
                 <p><strong>Component Quantification</strong></p>
             </td>
-            <td width="33.251833740831295%" bgcolor="#e7e6e6">
+            <td width="33.251833740831295%">
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td width="36.67481662591687%" bgcolor="#e7e6e6">
+            <td width="36.67481662591687%">
                 <p><strong>Measurement</strong></p>
             </td>
         </tr>

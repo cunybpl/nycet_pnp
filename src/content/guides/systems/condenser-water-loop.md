@@ -64,16 +64,16 @@ The primary energy consumption of a condenser water loop is the electricity used
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th width="17.699115044247787%" bgcolor="#e7e6e6">
+            <th width="17.699115044247787%">
                 <p><strong>System Quantification</strong></p>
             </th>
-            <th width="26.902654867256636%" bgcolor="#e7e6e6">
+            <th width="26.902654867256636%">
                 <p><strong>Value to be Quantified</strong></p>
             </th>
-            <th width="26.371681415929203%" bgcolor="#e7e6e6">
+            <th width="26.371681415929203%">
                 <p><strong>Energy Consuming Components</strong></p>
             </th>
-            <th width="29.02654867256637%" bgcolor="#e7e6e6">
+            <th width="29.02654867256637%">
                 <p><strong>Measurements</strong></p>
             </th>
         </tr>

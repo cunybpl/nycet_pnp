@@ -91,16 +91,16 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>System Quantification</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Component to be Measured</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Measurements</strong></p>
             </td>
         </tr>

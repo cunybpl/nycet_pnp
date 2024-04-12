@@ -58,18 +58,18 @@ To quantify the energy consumption of the lighting plant, the components of all 
     <caption>Table 1. Lighting Plant Values</caption>
     <thead>
         <tr>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Plant Quantification</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <!-- <td bgcolor="#e7e6e6">
+            <td>
                 <p><strong>Measurements</strong></p>
-            </td> -->
+            </td>
         </tr>
     <tbody>
         <tr>

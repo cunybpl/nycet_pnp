@@ -6,13 +6,13 @@
      {{ if $element.enable }}
       <div 
         class="
-          {{if eq $index 2 }} middle-nav-item {{ else }} normal-nav-item {{ end }} 
+          {{if eq $index 2 }} middle-nav-item normal-nav-item {{ else }} normal-nav-item {{ end }} 
           {{if eq $index 0 }} first-nav-item {{ end }}
           {{if eq $index 4 }} last-nav-item {{ end }}
           no-gutters
         "
       >
-        <button id="{{ $element.name }}" class="tabLink text-light" onclick="displayGuides(event)">
+        <button id="{{ $element.name }}" class="tabLink" onclick="displayGuides(event)">
         <!-- Chnage to per tab icon -->
           <div class="mr-2">
             <img src="{{ $element.icon }}" class="img-fluid guide-icon">
