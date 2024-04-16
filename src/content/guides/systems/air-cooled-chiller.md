@@ -73,7 +73,10 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
                 <p>Air-cooled chiller Energy consumption</p>
             </td>
             <td>
-                <p>Average hourly chiller kWh; annual operating time for the chiller</p>
+                <ul>
+                    <li>Average hourly chiller kWh</li> 
+                    <li>Annual operating time for the chiller</li>
+                </ul>
             </td>
             <td>
                 <p>Condenser fan motor, compressor motor and its controls</p>

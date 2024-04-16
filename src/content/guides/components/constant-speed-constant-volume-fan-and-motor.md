@@ -98,7 +98,11 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
         </tr>
         <tr>
             <td>
-                <p>Hot Water Heating; Domestic Hot Water; Steam</p>
+                <ul>
+                <li>Hot Water Heating</li> 
+                <li>Domestic Hot Water</li> 
+                <li>Steam</li>
+                </ul>
             </td>
             <td>
                 <p>Boiler</p>

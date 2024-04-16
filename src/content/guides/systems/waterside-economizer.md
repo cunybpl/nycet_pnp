@@ -71,8 +71,10 @@ The cooling energy savings are equivalent to the heat rejected through the water
                 <p>Heat exchanger of waterside economizer</p>
             </td>
             <td width="26.748251748251747%">
-                <p>Average hourly flow rate of the supply stream (gpm)</p>
-                <p>Temperature of supply stream entering and leaving the heat exchange (degrees F)&nbsp;</p>
+                <ul>
+                    <li>Average hourly flow rate of the supply stream (gpm)</li>
+                    <li>Temperature of supply stream entering and leaving the heat exchange (degrees F)&nbsp;</li>
+                </ul>
             </td>
         </tr>
     </tbody>

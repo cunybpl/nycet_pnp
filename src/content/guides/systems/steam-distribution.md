@@ -97,13 +97,20 @@ The steam distribution system distributes heat energy, with losses to the non-co
                 <p>Vacuum pump electricity consumption (kWh) - if present</p>
             </td>
             <td>
-                <p>Average hourly pump motor (kWh); total operating time for the pumps</p>
+                <ul>
+                    <li>Average hourly pump motor (kWh)</li>
+                    <li>Total operating time for the pumps</li>
+                </ul>
             </td>
             <td>
                 <p>Pump Motor</p>
             </td>
             <td>
-                <p>Average hourlt electricity consumption by the pump motor; total operating hours; outdoor air temperature</p>
+                <ul>
+                    <li>Average hourlt electricity consumption by the pump motor</li>
+                    <li>Total operating hours</li> 
+                    <li>Outdoor air temperature</li>
+                </ul>
             </td>
         </tr>
     </tbody>

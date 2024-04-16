@@ -110,13 +110,19 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 <p>Primary HWH loop pump electricity usage (kWh) - constant-speed system</p>
             </td>
             <td>
-                <p>Average hourly primary HWH pump motors kWh; total operating time of the pump motors</p>
+                <ul>
+                    <li>Average hourly primary HWH pump motors kWh</li> 
+                    <li>Total operating time of the pump motors</li>
+                </ul>
             </td>
             <td>
                 <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a></p>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>; <a href="/documents/measurement-technique/motor-runtime">hourly measurement of motor runtime</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/motor-runtime">hourly measurement of motor runtime</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -124,13 +130,20 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 <p>Primary HWH loop pump electricity usage (kWh) - variable-speed system</p>
             </td>
             <td>
-                <p>Average hourly primary HWH pump motor kWh; total operating time for the pumps; outdoor air temperature as a proxy for heating load</p>
+                <ul>
+                    <li>Average hourly primary HWH pump motor kWh</li> 
+                    <li>Total operating time for the pumps</li> 
+                    <li>Outdoor air temperature as a proxy for heating load</li>
+                </ul>
             </td>
             <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -138,13 +151,20 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 <p>Secondary HWH loop pump electricity usage (kWh) - variable-speed system (if present)</p>
             </td>
             <td>
-                <p>Average hourly primary HWH pump motor kWh; total operating time for the pumps; outdoor air temperature as a proxy for heating load</p>
+                <ul>
+                    <li>Average hourly primary HWH pump motor kWh</li> 
+                    <li>Total operating time for the pumps</li> 
+                    <li>Outdoor air temperature as a proxy for heating load</li>
+                </ul>
             </td>
             <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -172,7 +192,10 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 <p></p>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of water flow rate</a>; <a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of supply and return water temperature</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of water flow rate</a></li> 
+                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">Hourly measurement of supply and return water temperature</a></li>
+                </ul>
             </td>
         </tr>
     </tbody>

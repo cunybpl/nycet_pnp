@@ -109,17 +109,6 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
     </tbody>
 </table>
 
-<!-- ### Steam Plant Measurement Point Locations
-
-The measurement locations for a steam plant are schematically shown in Figure 3. 
-
-<a href="/images/plants/steam-plant/steam-plant figure 3.png">
-    <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/steam-plant/steam-plant figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. Steam plant measurement points (www.iqsdirectory.com)">
-        <figcaption class="figure-caption text-left"><span class="tooltip-pnp">Figure 3. Steam plant measurement points (www.iqsdirectory.com)<span class="tooltiptext">https://www.iqsdirectory.com/articles/boiler/steam-boilers.html Accessed on 08/16/2022</span></span></figcaption>
-    </figure>
-</a> -->
-
 ## References
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 11. STEAM SYSTEMS. I-P Edition. 

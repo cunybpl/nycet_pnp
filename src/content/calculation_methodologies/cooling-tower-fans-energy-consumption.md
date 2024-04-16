@@ -44,7 +44,11 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
                 <p>Uses measures hourly current data to calculate annual energy for a VS cooling tower fan. Also requires spot measurements of coltage and power factor.</p>
             </td>
             <td>
-                <p>Current (amps) - (one-time current at rated speeds); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
+                <ul>
+                <li>Current (amps) - (one-time current at rated speeds)</li> 
+                <li>Outdoor air temperature (dry-bulb F)</li> 
+                <li>Relative humidity (%)</li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -55,7 +59,12 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
                 <p>Uses measured hourly runtime in minutes or seconds of a CS cooling tower fan. Also required a spot measurement of kW.</p>
             </td>
             <td>
-                <p>Runtime (seconds); One-time true RMS power; Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
+                <ul>
+                <li>Runtime (seconds)</li> 
+                <li>One-time true RMS power</li> 
+                <li>Outdoor air temperature (dry-bulb F)</li> 
+                <li>Relative humidity (%)</li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -66,7 +75,11 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
                 <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
             </td>
             <td>
-                <p>Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
+                <ul>
+                <li>Fan power (kW)</li> 
+                <li>Outdoor air temperature (dry-bulb F)</li> 
+                <li>Relative humidity (%)</li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -77,7 +90,11 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
                 <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
             </td>
             <td>
-                <p>Fan power (kW); Outdoor air temperature (dry-bulb F); Relative humidity (%)</p>
+                <ul>
+                <li>Fan power (kW)</li> 
+                <li>Outdoor air temperature (dry-bulb F)</li> 
+                <li>Relative humidity (%)</li>
+                <ul>
             </td>
         </tr>
     </tbody>

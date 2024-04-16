@@ -131,17 +131,6 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
     </tbody>
 </table>
 
-<!-- ### Hot-water Heating Plant Measurement Point Locations
-
-The measurement locations for a HWH plant are schematically shown in Figure 2.
-
-<a href="/images/plants/hot-water-heating-plant/hot-water heating plant figure 5.png">
-    <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/hot-water-heating-plant/hot-water heating plant figure 5.png" class="figure-img img-fluid rounded" alt="Figure 5. HWH plant measurement points">
-        <figcaption class="figure-caption text-left">Figure 5. HWH plant measurement points.</figcaption>
-    </figure>
-</a> -->
-
 ## References
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 32. BOILERS. I-P Edition. 

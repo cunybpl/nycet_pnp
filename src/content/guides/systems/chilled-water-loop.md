@@ -94,13 +94,18 @@ Table 1 provides a summary of system component measurements and values needed to
                 <p>Primary CHW loop pump electricity usage (kWh) - constant-speed system</p>
             </td>
             <td width="26.01769911504425%">
-                <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
+                <ul>
+                    <li>Average hourly primary CHW pump motor kWh</li> 
+                    <li>Total operating time for the pumps</li>
+                </ul>
             </td>
             <td width="22.371681415929203%">
                 <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a></p>
             </td>
             <td width="21.946902654867255%">
-                <p><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>; <a href="/documents/measurement-technique/motor-runtime">hourly measurement of motor runtime</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>,-</li> 
+                    <li><a href="/documents/measurement-technique/motor-runtime">hourly measurement of motor runtime</a></li>
             </td>
         </tr>
         <tr>
@@ -108,13 +113,18 @@ Table 1 provides a summary of system component measurements and values needed to
                 <p>Primary CHW loop pump electricity usage (kWh) - variable-speed system</p>
             </td>
             <td width="26.01769911504425%">
-                <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
+                <ul>
+                    <li>Average hourly primary CHW pump motor kWh</li> 
+                    <li>Total operating time for the pumps</li>
+                </ul>
             </td>
             <td width="22.371681415929203%">
                 <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
             <td width="21.946902654867255%">
-                <p><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></li>
             </td>
         </tr>
         <tr>
@@ -122,13 +132,19 @@ Table 1 provides a summary of system component measurements and values needed to
                 <p>Secondary CHW loop pump electricity usage (kWh) - variable-speed system (if present)</p>
             </td>
             <td width="26.01769911504425%">
-                <p>Average hourly primary CHW pump motor kWh; total operating time for the pumps</p>
+                <ul>
+                    <li>Average hourly primary CHW pump motor kWh</li> 
+                    <li>Total operating time for the pumps</li>
+                </ul>
             </td>
             <td width="22.371681415929203%">
                 <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
             <td width="21.946902654867255%">
-                <p><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -136,12 +152,18 @@ Table 1 provides a summary of system component measurements and values needed to
                 <p>Flow (gpm)</p>
             </td>
             <td width="26.01769911504425%">
-                <p>Average hourly chilled water flow (gpm) through a pump; average hourly loop pressure differential</p>
+                <ul>
+                <li>Average hourly chilled water flow (gpm) through a pump</li> 
+                <li>Average hourly loop pressure differential</li>
+                </ul>
             </td>
             <td width="22.371681415929203%">
             </td>
             <td width="21.946902654867255%">
-                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of water flow rate</a>; <a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of supply and return water temperature</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of water flow rate</a></li>
+                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of supply and return water temperature</a></li>
+                </ul>
             </td>
         </tr>
     </tbody>

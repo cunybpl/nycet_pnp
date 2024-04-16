@@ -149,7 +149,10 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
                 <p>Service hot water loop</p>
             </td>
             <td class="fr-cell-fixed " style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Service hot water; recirculation pump</p>
+                <ul>
+                <li>Service hot water</li> 
+                <li>Recirculation pump</li>
+                </ul>
             </td>
         </tr>
     </tbody>
@@ -260,7 +263,10 @@ Table 3 provides a summary of the values to measure to quantify the flow rate th
                 <p>Average hourly water flow through a constant-speed pump</p>
             </td>
             <td width="36.660929432013766%">
-                <p>Differential pressure across pump; pump curve</p>
+                <ul>
+                <li>Differential pressure across pump</li> 
+                <li>Pump curve</li>
+                </ul>
             </td>
         </tr>
     </tbody>

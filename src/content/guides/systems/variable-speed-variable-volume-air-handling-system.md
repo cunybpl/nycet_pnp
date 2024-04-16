@@ -79,7 +79,10 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
                 <p>Fan motors and associated VFDs</p>
             </td>
             <td>
-                <p>Average hourly true RMS energy; outside air temperature (if VFD is temperature dependent)</p>
+                <ul>
+                    <li>Average hourly true RMS energy</li> 
+                    <li>Outside air temperature (if VFD is temperature dependent)</li>
+                </ul>
             </td>
         </tr>
         <tr>
