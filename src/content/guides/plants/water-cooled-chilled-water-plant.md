@@ -145,6 +145,8 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
 </table>
 
 ## References
+<!-- Must have emty line after the opeing div tag  -->
+<div class="indent">
 
 ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 43. SUPERVISORY CONTROL STRATEGIES AND OPTIMIZATION. I-P Edition.
 
@@ -158,4 +160,6 @@ Consulting Specifying Engineer (2021). “Understanding chilled water plant perf
 
 Taylor, S (2012). “Optimizing Design & Control of Chilled Water Plants Part 5: Optimized Control Sequences”. ASHRAE Journal, Vol. 54, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 56-74. 
 
-Taylor, S (2014). “How to Design & Control Waterside Economizers.” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 30-36. 
+Taylor, S (2014). “How to Design & Control Waterside Economizers.” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 30-36.
+
+</div>
