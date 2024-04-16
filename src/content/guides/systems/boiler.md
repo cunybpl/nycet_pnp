@@ -85,7 +85,11 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
                 <p>Burner</p>
             </td>
             <td>
-                <p>Average hourly fuel consumption by the boiler; total operating hours of the pump motors; hourly outside air temperature</p>
+                <ul>
+                    <li>Average hourly fuel consumption by the boiler</li> 
+                    <li>Total operating hours of the pump motors</li> 
+                    <li>Hourly outside air temperature</li>
+                <ul>
             </td>
         </tr>
         <tr>
@@ -93,13 +97,19 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
                 <p>Fan electricity consumption</p>
             </td>
             <td>
-                <p>Average hourly burner fan motor kWh; total operating hours of burner fan motor</p>
+                <ul>
+                    <li>Average hourly burner fan motor kWh</li> 
+                    <li>Total operating hours of burner fan motor</li>
+                </ul>
             </td>
             <td>
                 <p>Burner fan motor</p>
             </td>
             <td>
-                <p>Average hourly electricity consumption of the burner fan motor; total operating hours of the pump motors</p>
+                <ul>
+                <li>Average hourly electricity consumption of the burner fan motor</li>
+                <li>Total operating hours of the pump motors</li>
+                </ul>
             </td>
         </tr>
     </tbody>

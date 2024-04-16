@@ -145,7 +145,10 @@ The primary energy consumption of a condenser water loop is the electricity used
             <td width="26.371681415929203%">
             </td>
             <td width="29.02654867256637%">
-                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate</a>; <a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of condenser suppy and return water temperature</a></p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate</a></li> 
+                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of condenser suppy and return water temperature</a></li>
+                </ul>
             </td>
         </tr>
     </tbody>

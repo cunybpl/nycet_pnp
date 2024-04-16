@@ -32,7 +32,10 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
                 <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.</p>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/motor-runtime">Hourly motor runtime (seconds);</a> <a href="/documents/measurement-technique/electrical-spot-measurement">one-time true RMS power (kW)</a></p>
+                <ul>
+                <li><a href="/documents/measurement-technique/motor-runtime">Hourly motor runtime (seconds)</a></li> 
+                <li><a href="/documents/measurement-technique/electrical-spot-measurement">One-time true RMS power (kW)</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -43,7 +46,10 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
                 <p>Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor</p>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS power (kW);</a> <a href="/documents/measurement-technique/outside-air-temperature">hourly outside air temperature (F)</a></p>
+                <ul>
+                <li><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS power (kW)</a></li> 
+                <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly outside air temperature (F)</a></li>
+                </ul>
             </td>
         </tr>
     </tbody>
@@ -99,46 +105,6 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 <p class="equation">$DaysPerYear =$ 365.24</p>
 <p class="equation">$P =$ Measured pump power, kW</p>
 
-<!-- ### Constant-speed, constant-volume pumps using data logging power meters
-
-This calculation tool is forr a constant-speed, constant-volume pump. Measured input data is average hourly powerly draw (in kW) as measured by a DENT data logging power logger.
-
-5. Average % hour motor is on for each hour of each day of the wek (Worksheet: "Step 3. Ave Day of Week Calcs").
-
-<p class="equation equation-center">\begin{equation} \overline{P}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} P(t)}{N(d,h)} \end{equation}</p>
-
-<p class="step-indent">Where,</p>
-<p class="equation">$\overline{P}_{d,h} =$ Average motor power for given day of week, d, and hour of the day, h, kW</p>
-<p class="equation">$P(t) =$ Measured motor power, kW</p>
-<p class="equation">$t =$ Index for measured data points</p>
-<p class="equation">$N(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
-<p class="equation">$n \in t(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of the day, h</p>
-
-6. Calculate energy used for full (Worksheet: "Step 4. Results"). WeeksChillerOn is from Equation 5. 
-
-<p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{d=1}^{7} \sum_{h=1}^{24} \overline{P}_{d,h} \end{equation}</p>
-
-<p class="step-indent">Where,</p>
-<p class="equation">$E =$ Annual pump energy, kWh</p>
-<p class="equation">$WeeksPerYear =$ 52</p> -->
-
-<!-- ### Constant-speed, constant-volume pumps using current transformers
-
-This calculation tool is for a constant-speed, constant-volume pump. Measured input data include hourly average current (in Amps) as directly measured by current transformers, and sport measurements for true power. 
-
-7. Convert average hourly current to percent on per hour (Worksheet: "Step 2. Percent Runtime Calcs").
-
-<p class="equation equation-center">\begin{equation} \begin{cases} \frac{I(t)}{I_{max}} & \text{if } I(t) < I_{max}\\
-    100\% & \text{otherwise } \end{cases} \end{equation}</p>
-
-<p class="step-indent">Where,</p>
-<p class="equation">$\%On(t) =$ Percent of an hour that the pump motor is on, %</p>
-<p class="equation">$I(t) =$ Measured time that pump motor is on, seconds</p>
-<p class="equation">$t =$ Index for each measured data point</p>
-<p class="equation">$I_{max} =$ Current measured at the maximum constant speed, Amps</p>
-
-8. Equations 3 to 6 are used to calculate the annual pump energy. -->
-
 ### Variable-speed, variable-volume pump energy calculator
 
 This calculation tool is for VFD-controlled pumps that are operated at speeds proportional to the heating/cooling load as represented by proxy with OAT. Measured input data include average hourly power draw (kW) as measured by a DENT data logging power logger, and the average hourly OAT as measured by a temperature/RH logger. 
@@ -174,24 +140,6 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 <p class="equation">$E =$ Annual energy usage, kWh</p>
 <p class="equation">$OAT'(t) =$ Hourly climate normal outside air temperature from National Weather Service at station closest to site, F</p>
 <p class="equation">$WeeksChillerOn =$ Cooling season (see Equation 5), weeks</p>
-
-<!-- ### Variable-speed, variable-volume pumps using speed data from BAS or VFD
-
-This calculation tool is for VFD-controlled pumps using hourly average motor speed (in RPM) as downloaded from as BAS or VFD, and spot measurements for true power.
-
-12. Convert the speed data from the BAS of VFD to power (Worksheet: "Step 2. Aggregate Data").
-
-<p class="equation equation-center">\begin{equation} P(t) = P_{max}(\frac{\omega(t)}{\omega_{max}})^{2.5} \end{equation}</p>
-
-<p class="step-indent">Where,</p>
-<p class="equation">$P(t) =$ Average hourly true RMS power, kW</p>
-<p class="equation">$P_{max} =$ Full speed true RMS, kW</p>
-<p class="equation">$\omega_{max} =$ Maximum motor speed, rpm</p>
-<p class="equation">$\omega(t) =$ Motor speed, rpm</p>
-
-This equation represents the pump affinity law, where theoretically the exponent is 3. <span class="tooltip-pnp">To represent the motor loses, the Consortium for Energy Efficiency recommends using a value of 2.5.<span class="tooltiptext">Consortium for Energy Efficiency. Motor Efficiency, Selection, and Management: A Gudiebook for Indutrial Efficiency Programs (May 2011).</span></span>
-
-13. Equations 10 to 13 are used to calculate the annual pump energy.  -->
 
 ## Additional Resources
 

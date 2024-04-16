@@ -59,7 +59,10 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
                 <p>Steam Plant</p>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
-                <p>Blowdown Tank&ndash; heat recovery system</p>
+                <ul>
+                <li>Blowdown Tank</li> 
+                <li>Heat recovery system</li>
+                </ul>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
                 <p>Liquid-to-liquid heat exchanger</p>
@@ -126,8 +129,10 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Average hourly Btu/h transferred&nbsp;</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly flow rate of the supply stream (gpm)</p>
-                <p>Temperature of supply stream entering and leaving the heat exchange (degrees F)&nbsp;</p>
+                <ul>
+                <li>Average hourly flow rate of the supply stream (gpm)</li>
+                <li>Temperature of supply stream entering and leaving the heat exchange (degrees F)&nbsp;</li>
+                </ul>
             </td>
         </tr>
         <tr>

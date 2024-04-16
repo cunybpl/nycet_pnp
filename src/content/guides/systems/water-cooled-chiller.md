@@ -86,7 +86,10 @@ The primary energy consumption in a water-cooled chiller is the electricity used
                 <p>Constant-speed compressor, motor and controls</p>
             </td>
             <td valign="top">
-                <p>Average hourly electricity consumption by the constant-speed compressor motor and controls; annual operating hours</p>
+                <ul>
+                    <li>Average hourly electricity consumption by the constant-speed compressor motor and controls</li>
+                    <li>Annual operating hours</li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -100,7 +103,10 @@ The primary energy consumption in a water-cooled chiller is the electricity used
                 <p>Variable-speed compressor, motor and its controls</p>
             </td>
             <td valign="top">
-                <p>Average hourly electricity consumption by the constant-speed compressor motor and controls; annual operating hours; outdoor air temperature</p>
+                <ul>
+                    <li>Average hourly electricity consumption by the constant-speed compressor motor and controls</li> 
+                    <li>Annual operating hours</li> 
+                    <li>Outdoor air temperature</li>
             </td>
         </tr>
         <tr>

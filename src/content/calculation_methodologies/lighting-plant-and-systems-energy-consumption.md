@@ -35,7 +35,12 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
                 <p>Uses measurements of currents per circuit to give average electricity use for the panel in kWh.</p>
             </td>
             <td>
-                <p>Average hourly amperage per circuit; Circuit voltage and power facto; True RMS power (kW); current amps</p>
+                <ul>
+                <li>Average hourly amperage per circuit</li>
+                <li>Circuit voltage and power facto</li> 
+                <li>True RMS power (kW)</li> 
+                <li>Current amps</li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -46,7 +51,12 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
                 <p>Uses measurements of currents per circuit to give average electricity use for the panel in kWh.</p>
             </td>
             <td>
-                <p>Average hourly amperage per circuit; Circuit voltage and power facto; True RMS power (kW); current amps</p>
+                <ul>
+                <li>Average hourly amperage per circuit</li> 
+                <li>Circuit voltage and power factor</li> 
+                <li>True RMS power (kW)</li> 
+                <li>Current amps</li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -68,7 +78,12 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
                 <p>Uses runtime and power draw in order to calculate averafe runtime (hours/day)</p>
             </td>
             <td>
-                <p>Lighting runtime per hour; Expected fixture wattaged; Fixture counts; Total power draw (kW)</p>
+                <ul>
+                <li>Lighting runtime per hour</li> 
+                <li>Expected fixture wattaged</li>
+                <li>Fixture counts</li> 
+                <li>Total power draw (kW)</li>
+                </ul>
             </td>
         </tr>
     </tbody>

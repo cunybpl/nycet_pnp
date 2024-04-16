@@ -176,17 +176,6 @@ The energy consumption in an air handling plant is the sum of the energy used by
     </tbody>
 </table>
 
-<!-- ### Air Handling Plant Measurement Locations
-
-The measurement locations for an air handling plant will vary with the type of systems that make up the plant. In general, the measurement locations will occur at the energy consuming components of each system that make up the plant. An example of some measurement locations is shown below. 
-
-<a href="/images/plants/air-handling-plant/air handling plant figure 3.png">
-    <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-handling-plant/air handling plant figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. Constant-speed, constant-volume AHU measurement points">
-        <figcaption class="figure-caption text-left">Figure 3. Constant-speed, constant-volume AHU measurement points</figcaption>
-    </figure>
-</a> -->
-
 ## References
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 1. HVAC SYSTEM ANALYSIS AND SELECTION. I-P Edition.  

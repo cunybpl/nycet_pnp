@@ -99,17 +99,6 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
     </tbody>
 </table>
 
-<!-- ### Air-cooled Chilled Water Plant Measurement Point Locations
-
-The measurement locations for an air-cooled chilled water plant are schematically shown in Figure 4. 
-
-<a href="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 4.png">
-    <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4. Measurement point locations.">
-        <figcaption class="figure-caption text-left">Figure 4. Measurement point locations.</figcaption>
-    </figure>
-</a> -->
-
 ## References
 
 ASHRAE (2020). 2020 ASHRAE Handbook: HVAC Systems and Equipment. Atlanta, GA: ASHRAE. 
