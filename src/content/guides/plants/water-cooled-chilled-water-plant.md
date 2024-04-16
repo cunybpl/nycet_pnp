@@ -145,8 +145,11 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
 </table>
 
 ## References
-<!-- Must have emty line after the opeing div tag  -->
-<div class="indent">
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
+
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
 ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 43. SUPERVISORY CONTROL STRATEGIES AND OPTIMIZATION. I-P Edition.
 

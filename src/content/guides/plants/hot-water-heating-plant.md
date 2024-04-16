@@ -133,4 +133,9 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
 
 ## References
 
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
+
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 32. BOILERS. I-P Edition. 
+
+</div>

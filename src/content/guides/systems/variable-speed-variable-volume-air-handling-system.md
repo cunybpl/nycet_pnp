@@ -156,6 +156,8 @@ The measurement locations for a VSVV air handling system are schematically shown
 </a>
 
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
 ASHRAE (2014). “ASHRAE Guideline 14-2014 – Measurement of Energy, Demand, and Water Savings.” Annex A. 
 
@@ -163,4 +165,6 @@ ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 1. HVA
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 4. AIR HANDLING AND DISTRIBUTION. I-P Edition.  
  
-Li, Y. (2015). “Variable Frequency Drive Applications in HVAC Systems”, in M. Chomat (ed.), New Applications of Electric Drives, IntechOpen, London. 10.5772/61782. 
+Li, Y. (2015). “Variable Frequency Drive Applications in HVAC Systems”, in M. Chomat (ed.), New Applications of Electric Drives, IntechOpen, London. 10.5772/61782.
+
+</div>

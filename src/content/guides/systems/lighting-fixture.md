@@ -145,5 +145,9 @@ An auditor can develop a sampling plan and use a light on/off logger to measure 
 {{< calculation_methodology calculation_methodology_id=3 >}}
 
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
-California Energy Commission (June 2015). 2016 Building Energy Efficiency Standard for Residential and Nonresidential Buildings, Title 24, Part 6, Chapter 6: Residential Compliance Manual, CA: California
+California Energy Commission (June 2015). 2016 Building Energy Efficiency Standard for Residential and Nonresidential Buildings, Title 24, Part 6, Chapter 6: Residential Compliance Manual, CA: California.
+
+</div>

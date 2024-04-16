@@ -208,6 +208,8 @@ The general methodology for quantifying the energy consumption of a variable-spe
 A more detailed explanation of the calculation methodology can be found in <link to calculation methodology>. 
   
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
 Boyd, BK.; McMordie Stoughton, KL.; Lewis, T. (2017). “Cooling Tower (Evaporative Cooling System) Measurement and Verification Protocol.” Golden, CO: National Renewable Energy Laboratory. https://www.nrel.gov/docs/fy18osti/70219.pdf.  
 
@@ -216,3 +218,5 @@ Crowther, H.; Furlong, J. (2004). “Optimizing Chillers and Towers.” ASHRAE J
 Morrison, F. (2014). “Saving Energy with Cooling Towers.” ASHRAE Journal, Vol. 56, No. 2; pp. 34-40. 
 
 Tom, S. (July 2017). “CHILLED WATER SYSTEM OPTIMIZER.” Cat. No. 11-808-616-01. Farmington, Connecticut: Carrier Corporation.  
+
+</div>

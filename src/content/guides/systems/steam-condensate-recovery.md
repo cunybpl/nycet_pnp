@@ -45,9 +45,13 @@ The pipe network of a condensate recovery system transports flash steam and cond
 The primary effect of the condensate recovery system on the steam plant is to minimize heat losses and manage condensate that could otherwise be damaging to the steam plant. Generally, the energy related to the condensate system is not quantified; instead, the energy consumption of the overall low-pressure steam plant is quantified. For more information, see <a href="/documents/plants/steam-plant"> this link </a>.
 
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
 ASHRAE (2014). “ASHRAE Guideline 14-2014 – Measurement of Energy, Demand, and Water Savings.” Annex A. 
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 11. STEAM SYSTEMS. I-P Edition. 
 
-U.S. Department of Energy. (2014). “A Sourcebook for Industry – Energy,” https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf 
+U.S. Department of Energy. (2014). “A Sourcebook for Industry – Energy,” https://www.energy.gov/sites/prod/files/2014/05/f15/steamsourcebook.pdf
+
+</div>

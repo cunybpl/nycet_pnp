@@ -49,5 +49,9 @@ Where,
 For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23
 
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
-ASHRAE (2020) “2020 ASHRAE Handbook-HVAC Systems and Equipment” 
+ASHRAE (2020) “2020 ASHRAE Handbook-HVAC Systems and Equipment”
+
+</div>

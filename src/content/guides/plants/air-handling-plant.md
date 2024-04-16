@@ -178,6 +178,9 @@ The energy consumption in an air handling plant is the sum of the energy used by
 
 ## References
 
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
+
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 1. HVAC SYSTEM ANALYSIS AND SELECTION. I-P Edition.  
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 4. AIR HANDLING AND DISTRIBUTION. I-P Edition.  
@@ -185,3 +188,5 @@ ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 4. AIR
 ASHRAE (2019). “ANSI/ASHRAE/IES Standard 90.1-2019 -- Energy Standard for Buildings Except Low-Rise Residential Buildings”. ASHRAE. 
 
 Taylor, S (2014). “Return Fans in VAV Systems”. ASHRAE Journal, Vol. 56; pp. 54-58.
+
+</div>

@@ -127,9 +127,13 @@ The measurement locations for a boiler system are shown in Figure 2. More detail
 </a>
 
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
 ASHRAE (2014). “ASHRAE Guideline 14-2014 – Measurement of Energy, Demand, and Water Savings.” Annex A.
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 11. STEAM SYSTEMS. I-P Edition.
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 21. FANS. I-P Edition.  
+ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 21. FANS. I-P Edition.
+
+</div>

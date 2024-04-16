@@ -101,8 +101,13 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
 
 ## References
 
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
+
 ASHRAE (2020). 2020 ASHRAE Handbook: HVAC Systems and Equipment. Atlanta, GA: ASHRAE. 
 
 Gordon, J.M.; Ng, K.C. (2000). Cool thermodynamics: The engineering and physics of predictive, diagnostic and optimization methods for cooling systems. Cambridge International Science Publishing; pp. 159-177.
 
 Wei, J.; Reddy, T.A. (2003). “Reevaluation of the Gordon-Ng Performance Models for Water-Cooled Chillers.” ASHRAE Transactions, Vol. 109, Part 2. Atlanta, GA: American Society of Heating, Refrigerating and Air Conditioning Engineers.  
+
+</div>

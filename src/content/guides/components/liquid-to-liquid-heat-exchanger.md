@@ -191,6 +191,8 @@ The general methodology for quantifying the useful energy supplied by a liquid-t
 {{< calculation_methodology calculation_methodology_id=2 >}}
 
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
 Apogee Interactive (2022). “Free Cooling.” Commercial Library. https://c03.apogee.net/mvc/home/hes/land/el?utilityname=union-power&spc=cel&id=1094; accessed February 4, 2021.
 
@@ -210,3 +212,5 @@ Trane (2010). CDS-PRM001-EN. TRACE 700 User’s Manual-Building Energy and Econo
 Taylor, S (2014). “How to Design & Control Waterside Economizers,” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp. 30-36.
 
 Trane (2016). “Waterside Economizers - Keeping the ‘Free’ In Free-Cooling.” Engineers Newsletter, Vol. 45-2. Also available at https://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/waterside-design/ADM-APN058-EN_06012016.pdf; accessed February 4, 2021.
+
+</div>

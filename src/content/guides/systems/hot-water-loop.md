@@ -213,7 +213,11 @@ The measurement locations for a primary-flow and primary-secondary flow hot wate
 </a>
 
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 13. Hydronic Heating and Cooling. I-P Edition.
  
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 44. Centrifugal Pumps. I-P Edition. 
+ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 44. Centrifugal Pumps. I-P Edition.
+
+</div>

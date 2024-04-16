@@ -171,7 +171,11 @@ The measurement locations for a water-cooled chiller are schematically shown in 
 </a>
 
 ## References
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
 
 ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 38. COMPRESSORS. I-P Edition.
 
 Consulting Specifying Engineer (2021). “Understanding chilled water plant performance”. Consulting - Specifying Engineer | Understanding chilled water plant performance (csemag.com).
+
+</div>

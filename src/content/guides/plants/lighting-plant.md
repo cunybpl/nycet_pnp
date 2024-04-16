@@ -85,4 +85,9 @@ To quantify the energy consumption of the lighting plant, the components of all 
 
 ## References
 
+<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
+<div class="references">
+
 Richman, EE. (2016). “Measurement and Verification of Energy Savings and Performance from Advanced Lighting Control.” Richland, WA: Pacific Northwest National Laboratory.
+
+</div>
