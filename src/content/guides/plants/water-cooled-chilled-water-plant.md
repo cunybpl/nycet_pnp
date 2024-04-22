@@ -83,7 +83,7 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
     <thead>
         <tr>
             <td>
-                <p><strong>Plant / System Quantification</strong></p>
+                <p><strong>Plant Quantification</strong></p>
             </td>
             <td>
                 <p><strong>Values to be Quantified</strong></p>
@@ -95,13 +95,13 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
     <tbody>
         <tr>
             <td>
-                <p>Water-cooled chilled water plant electricity consumption</p>
+                <p>Water-cooled chilled water plant electricity usage (kWh)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly chiller kWh</li>
-                    <li>Average hourly pump kWh</li>
-                    <li>Average hourly cooling tower fan kWh</li>
+                    <li>Average hourly chiller (kWh)</li>
+                    <li>Average hourly pump motors (kWh)</li>
+                    <li>Average hourly cooling tower fan motors (kWh)</li>
                 </ul>
             </td>
             <td>
@@ -119,7 +119,7 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
                 <p>Cooling load on building/Heat rejected to the outdoors</p>
             </td>
             <td>
-                <p>Average hourly thermal load of chiller evaporator (BTUH)</p>
+                <p>Average hourly thermal load on chiller evaporator (BTUH)</p>
             </td>
             <td>
             </td>
@@ -135,10 +135,6 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
                 </ul>
             </td>
             <td>
-                <ul>
-                    <li>Water-cooled chilled water plant electricity consumption</li>
-                    <li>Cooling load</li>
-                </ul>
             </td>
         </tr>
     </tbody>

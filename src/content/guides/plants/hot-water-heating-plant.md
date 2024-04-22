@@ -86,7 +86,7 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
                 <p>Average hourly fuel consumption (Btuh)</p>
             </td>
             <td>
-                <p>Boiler</p>
+                <p><a href="/documents/systems/boiler">Boiler</a></p>
             </td>
         </tr>
         <tr>
@@ -95,10 +95,10 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             </td>
             <td>
                 <ul>
-                    <li>Average hourly burner fan motor kWh</li>
-                    <li>Average hourly primary HWH pump motor kWh</li>
-                    <li>Average hourly secondary HWH pump motor kWh</li>
-                    <li>Average hourly feedwater pump kWh</li>
+                    <li>Average hourly burner fan motor (kWh)</li>
+                    <li>Average hourly primary HWH pump motor (kWh)</li>
+                    <li>Average hourly secondary HWH pump motor (kWh)</li>
+                    <li>Average hourly feedwater pump (kWh)</li>
                     <li>Total operating time for the pump motors</li>
                     <li>Outdoor air</li>
                 </ul>
@@ -108,10 +108,10 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
         </tr>
         <tr>
             <td>
-                <p>Terminal Units - Heat load delivered</p>
+                <p>Heat load delivered</p>
             </td>
             <td>
-                <p>Average hourly Btu rejected from the hot water loop</p>
+                <p>Average hourly heat rejected from the hot water loop (Btu/h)</p>
             </td>
             <td>
                 <p>Terminal Units</p>
@@ -122,10 +122,10 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
                 <p>Heat Recovered</p>
             </td>
             <td>
-                <p>Average hourly Btu delivered to the make-up water</p>
+                <p>Average hourly heat delivered to the make-up water (Btu/h)</p>
             </td>
             <td>
-                <p>Heat exchanger (if present)</p>
+                <p><a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger (if present)</a></p>
             </td>
         </tr>
     </tbody>
