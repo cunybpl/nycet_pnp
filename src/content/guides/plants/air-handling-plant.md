@@ -84,11 +84,11 @@ The energy consumption in an air handling plant is the sum of the energy used by
             <td style="width: 40%;">
                 <p><strong>System(s)</strong></p>
             </td>
-            <td style="width: 25%;">
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
             <td>
                 <p><strong>Values to Quantify</strong></p>
+            </td>
+            <td style="width: 25%;">
+                <p><strong>Energy Consuming Component</strong></p>
             </td>
         </tr>
     <tbody>
@@ -104,15 +104,15 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <ul>
-                    <li>Fan motors</li>
-                    <li>Heating coil</li>
-                    <li>Cooling coil</li>
+                    <li>Average hourly fan motor kWh</li>
+                    <li>Average Btu/h at coils</li>
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly fan motor kWh</li>
-                    <li>Average BTUH at coils</li>
+                    <li><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></li>
+                    <li>Heating coil</li>
+                    <li>Cooling coil</li>
                 </ul>
             </td>
         </tr>
@@ -121,13 +121,13 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Heat pump</p>
             </td>
             <td>
+                <p>Average hourly heat pump kWh (includes supply and condenser fan motors and compressor motors)</p>
+            </td>
+            <td>
                 <ul>
                     <li>Fan motors</li>
                     <li>Compressor</li>
                 </ul>
-            </td>
-            <td>
-                <p>Average hourly heat pump kWh (includes supply and condenser fan motors and compressor motors)</p>
             </td>
         </tr>
         <tr>
@@ -136,14 +136,14 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <ul>
-                    <li>Burner</li>
-                    <li>Fan motor</li>
+                    <li>Average hourly furnace fuel consumption</li>
+                    <li>Average hourly burnger kWh (includes supply fan motors)</li>
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly furnace fuel consumption</li>
-                    <li>Average hourly burnger kWh (includes supply fan motors)</li>
+                    <li>Burner</li>
+                    <li>Fan motor</li>
                 </ul>
             </td>
         </tr>
@@ -152,14 +152,14 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Rooftop Unit</p>
             </td>
             <td>
+                <p>Average hourly fuel consumption: average hourly rooftop unit kWh (includes supply and condenser fan motors and compressor motors)</p>
+            </td>
+            <td>
                 <ul>
                     <li>Burner</li>
                     <li>Fan motors</li>
-                    <p>Compressor</li>
+                    <li>Compressor</li>
                 </ul>
-            </td>
-            <td>
-                <p>Average hourly fuel consumption: average hourly rooftop unit kWh (includes supply and condenser fan motors and compressor motors)</p>
             </td>
         </tr>
         <tr>
@@ -167,10 +167,10 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Induction Unit</p>
             </td>
             <td>
-                <p>Heating coil</p>
+                <p>Average Btu/h at coils</p>
             </td>
             <td>
-                <p>Average BTUH at coils</p>
+                <p>Heating coil</p>
             </td>
         </tr>
     </tbody>

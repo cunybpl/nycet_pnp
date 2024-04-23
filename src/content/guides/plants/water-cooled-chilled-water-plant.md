@@ -34,9 +34,9 @@ A water-cooled chilled water plant consists of a water-cooled chiller system, a 
 
 A water-cooled chiller produces chilled water through the basic refrigeration cycle to the chilled water loop to distribute to the facility. The primary systems and components of a water-cooled chiller are shown in Figure 2.
 
-<a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 2.jpeg">
+<a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 2 updated.jpeg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 2.jpeg" class="figure-img img-fluid rounded" alt="Figure 2. Water-cooled chiller.">
+        <img src="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 2 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 2. Water-cooled chiller.">
         <figcaption class="figure-caption text-left">Figure 2. Water-cooled chiller.</figcaption>
     </figure>
 </a>
@@ -56,9 +56,9 @@ A chilled water loop consists of a closed loop distribution system that supplies
 
 A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower where the condenser water is cooled and returned to the chiller condenser. Components of a condenser water loop are shown in Figure 4.
 
-<a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4.jpeg">
+<a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg">
     <figure class="figure">
-        <img src="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4.jpeg" class="figure-img img-fluid rounded" alt="Figure 4. Condenser water loop.">
+        <img src="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 4. Condenser water loop.">
         <figcaption class="figure-caption text-left">Figure 4. Condenser water loop.</figcaption>
     </figure>
 </a>
@@ -100,8 +100,8 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
             <td>
                 <ul>
                     <li>Average hourly chiller (kWh)</li>
-                    <li>Average hourly pump motors (kWh)</li>
-                    <li>Average hourly cooling tower fan motors (kWh)</li>
+                    <li>Average hourly <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motors</a> (kWh)</li>
+                    <li>Average hourly cooling tower <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motors</a> (kWh)</li>
                 </ul>
             </td>
             <td>
@@ -119,7 +119,7 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
                 <p>Cooling load on building/Heat rejected to the outdoors</p>
             </td>
             <td>
-                <p>Average hourly thermal load on chiller evaporator (BTUH)</p>
+                <p>Average hourly thermal load on chiller evaporator (Btu/h)</p>
             </td>
             <td>
             </td>
