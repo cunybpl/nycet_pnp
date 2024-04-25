@@ -36,10 +36,10 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
             </td>
             <td>
                 <ul>
-                <li>Average hourly amperage per circuit</li>
-                <li>Circuit voltage and power facto</li> 
-                <li>True RMS power (kW)</li> 
-                <li>Current amps</li>
+                    <li>Average hourly amperage per circuit</li>
+                    <li>Circuit voltage and power facto</li> 
+                    <li>True RMS power (kW)</li> 
+                    <li>Current amps</li>
                 </ul>
             </td>
         </tr>
@@ -52,10 +52,10 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
             </td>
             <td>
                 <ul>
-                <li>Average hourly amperage per circuit</li> 
-                <li>Circuit voltage and power factor</li> 
-                <li>True RMS power (kW)</li> 
-                <li>Current amps</li>
+                    <li>Average hourly amperage per circuit</li> 
+                    <li>Circuit voltage and power factor</li> 
+                    <li>True RMS power (kW)</li> 
+                    <li>Current amps</li>
                 </ul>
             </td>
         </tr>
@@ -79,10 +79,10 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
             </td>
             <td>
                 <ul>
-                <li>Lighting runtime per hour</li> 
-                <li>Expected fixture wattaged</li>
-                <li>Fixture counts</li> 
-                <li>Total power draw (kW)</li>
+                    <li>Lighting runtime per hour</li> 
+                    <li>Expected fixture wattaged</li>
+                    <li>Fixture counts</li> 
+                    <li>Total power draw (kW)</li>
                 </ul>
             </td>
         </tr>
