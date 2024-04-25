@@ -166,6 +166,9 @@ h2, h3, h4 {
       a {
         color: #6a6a6a;
       }
+      a:hover {
+        text-decoration: underline;
+      }
       ul {
         list-style-type: none;
         margin: 0;
