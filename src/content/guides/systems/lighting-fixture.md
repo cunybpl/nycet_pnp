@@ -120,7 +120,7 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
     </tbody>
 </table>
 
-### Lighting Fixture System Measurement Point Locations
+### Measurement Locations
 
 Electrical measurements of lighting fixtures must be taken at the electrical distribution components. Further details can be found in the <a href="/documents/systems/electrical-distribution">Electrical Distribution</a> page.  
 

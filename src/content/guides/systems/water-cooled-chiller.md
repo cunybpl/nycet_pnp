@@ -77,89 +77,89 @@ The primary energy consumption in a water-cooled chiller is the electricity used
     <tbody>
         <tr>
             <td height="25">
-                <p>Constant-speed water-cooled chiller power consumption</p>
+                <p>Constant-speed water-cooled chiller power draw</p>
             </td>
             <td>
                 <p>Average hourly chiller kWh and annual operating time for the chiller</p>
             </td>
             <td>
-                <p>Constant-speed compressor, motor and controls</p>
+                <p>Constant-speed compressor motor and controls</p>
             </td>
             <td valign="top">
                 <ul>
-                    <li>Average hourly electricity consumption by the constant-speed compressor motor and controls</li>
-                    <li>Annual operating hours</li>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the constant-speed compressor motor and controls</li>
+                    <li><a href="/documents/measurement-technique/motor-runtime">Compressor motor runtime</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td height="25">
-                <p>Variable-speed water-cooled chiller power consumption</p>
+                <p>Variable-speed water-cooled chiller power draw</p>
             </td>
             <td>
-                <p>Average hourly chiller kWh and annual operating time for the chiller</p>
+                <p>Hourly chiller kWh and annual operating time for the chiller</p>
             </td>
             <td>
-                <p>Variable-speed compressor, motor and its controls</p>
+                <p>Variable-speed compressor motor and its controls</p>
             </td>
             <td valign="top">
                 <ul>
-                    <li>Average hourly electricity consumption by the constant-speed compressor motor and controls</li> 
-                    <li>Annual operating hours</li> 
-                    <li>Outdoor air temperature</li>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the constant-speed compressor motor and controls</li> 
+                    <li><a href="/documents/measurement-technique/motor-runtime">Compressor motor runtime</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
             </td>
         </tr>
         <tr>
             <td rowspan="4" height="24" style="vertical-align:middle;">
-                <p>Cooling load on building and heat rejected to the outdoors</p>
+                <p>Cooling load on building/Heat rejected to the outdoors</p>
             </td>
             <td>
-                <p>Average hourly chilled water temperature difference across evaporator (F)</p>
+                <p>Hourly chilled water temperature difference across evaporator (F)</p>
             </td>
             <td>
                 <p>Evaporator</p>
             </td>
             <td valign="top">
-                <p>Average hourly temperature of chilled water entering and leaving the chiller evaporator</p>
+                <p>Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller evaporator</p>
             </td>
         </tr>
         <tr>
             <td width="34.51143451143451%">
-                <p>Average hourly condenser water temperature difference across condenser (F)</p>
+                <p>Hourly condenser water temperature difference across condenser (F)</p>
             </td>
             <td width="24.74012474012474%">
                 <p>Condenser</p>
             </td>
             <td width="40.74844074844075%" valign="top">
-                <p>Average hourly temperature of chilled water entering and leaving the chiller condenser.</p>
+                <p>Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller condenser.</p>
             </td>
         </tr>
         <tr>
             <td width="34.51143451143451%">
-                <p>Average hourly chilled water flow rate (GPM)</p>
+                <p>Hourly chilled water flow rate (GPM)</p>
             </td>
             <td width="24.74012474012474%">
-                <p>Chilled water pump</p>
+                <p>Chilled <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a></p>
             </td>
             <td width="40.74844074844075%">
-                <p>Average hourly chilled water flow rate</p>
+                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of chilled water flow rate</a></p>
             </td>
         </tr>
         <tr>
             <td width="34.51143451143451%">
-                <p>Average hourly condenser water flow rate (GPM)</p>
+                <p>Hourly condenser water flow rate (GPM)</p>
             </td>
             <td width="24.74012474012474%">
-                <p>Condenser water pump&nbsp;</p>
+                <p>Condenser <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a>&nbsp;</p>
             </td>
             <td width="40.74844074844075%">
-                <p>Average hourly condenser water flow rate&nbsp;</p>
+                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate&nbsp;</a></p>
             </td>
         </tr>
     </tbody>
 </table>
 
-### Water-cooled Chiller System Measurement Point Locations
+### Measurement Locations
 
 The measurement locations for a water-cooled chiller are schematically shown in Figure 2.
 

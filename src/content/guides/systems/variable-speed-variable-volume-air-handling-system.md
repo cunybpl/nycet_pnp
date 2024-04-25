@@ -144,7 +144,7 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
     </tbody>
 </table>
 
-### Variable-speed, Variable-volume System Measurement Point Locations
+### Measurement Locations
 
 The measurement locations for a VSVV air handling system are schematically shown in Figure 2.
 

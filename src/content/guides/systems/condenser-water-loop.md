@@ -154,7 +154,7 @@ The primary energy consumption of a condenser water loop is the electricity used
     </tbody>
 </table>
 
-### Condenser Water Loop System Measurement Point Locations
+### Measurement Locations
 
 The measurements for the condenser water loop are schematically shown in Figure 2, include:
 

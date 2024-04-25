@@ -95,7 +95,7 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
     </tbody>
 </table>
 
-### Constant-speed, Constant-volume System Measurement Point Locations
+### Measurement Locations
 
 The measurement locations for a CSCV AHU are shown in Figure 2. 
 
