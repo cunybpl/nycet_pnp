@@ -60,94 +60,120 @@ The overall cooling capacity of the condenser water loop in a cooling tower with
 
 The primary energy consumption of a condenser water loop is the electricity used for the pump motors and the cooling tower fans. Table 1 provides a summary of system component measurements and value calculations needed to quantify the annual energy consumption and operating characteristics of a CW loop.
 
-<table cellspacing="0" cellpadding="7">
+<table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <th width="17.699115044247787%">
+            <th>
                 <p><strong>System Quantification</strong></p>
             </th>
-            <th width="26.902654867256636%">
+            <th>
                 <p><strong>Value to be Quantified</strong></p>
             </th>
-            <th width="26.371681415929203%">
+            <th>
                 <p><strong>Energy Consuming Components</strong></p>
             </th>
-            <th width="29.02654867256637%">
+            <th>
                 <p><strong>Measurements</strong></p>
             </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td width="17.699115044247787%">
+            <td>
                 <p>Variable-flow CW loop electricity usage (kWh)</p>
             </td>
-            <td width="26.902654867256636%">
-                <p>Average hourly pump motor kWh; total operating time for the pump</p>
+            <td>
+                <ul>
+                    <li>Average hourly pump motor kWh</li>
+                    <li>Total operating time for the pump</li>
+                </ul>
             </td>
-            <td width="26.371681415929203%">
+            <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
-            <td width="29.02654867256637%">
-                <p><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></p>
+            <td>
+                <ul>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
-            <td width="17.699115044247787%">
+            <td>
                 <p>Variable-speed cooling tower electricity usage (kWh)</p>
             </td>
-            <td width="26.902654867256636%">
-                <p>Average hourly fan motor kWh; total operating time for the fan</p>
+            <td>
+                <ul>
+                    <li>Average hourly fan motor kWh</li>
+                    <li>Total operating time for the fan</li>
+                </ul>
             </td>
-            <td width="26.371681415929203%">
+            <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Variable-speed cooling tower fan motors</a></p>
             </td>
-            <td width="29.02654867256637%">
-                <p><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a>; <a href="/documents/measurement-technique/relative-humidity">hourly measurement of relative humidity</a></p>
+            <td>
+                <ul>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
+                    <li><a href="/documents/measurement-technique/relative-humidity">Hourly measurement of relative humidity</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
-            <td width="17.699115044247787%">
+            <td>
                 <p>Constant-flow CW loop electricity usage (kWh)</p>
             </td>
-            <td width="26.902654867256636%">
-                <p>Average hourly pump motor kWh; total operating time for the pump</p>
+            <td>
+                <ul>
+                    <li>Average hourly pump motor kWh</li>
+                    <li>Total operating time for the pump</li>
+                </ul>
             </td>
-            <td width="26.371681415929203%">
+            <td>
                 <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a></p>
             </td>
-            <td width="29.02654867256637%">
-                <p><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>; <a href="/documents/measurement-technique/motor-runtime">hourly measurement of motor runtime</a></p>
+            <td>
+                <ul>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
-            <td width="17.699115044247787%">
+            <td>
                 <p>Constant-speed cooling tower electricity usage (kWh)</p>
             </td>
-            <td width="26.902654867256636%">
-                <p>Average hourly fan motor kWh; total operating time for the fan</p>
+            <td>
+                <ul>
+                    <li>Average hourly fan motor kWh</li>
+                    <li>Total operating time for the fan</li>
+                </ul>
             </td>
-            <td width="26.371681415929203%">
+            <td>
                 <p><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Constant-speed cooling tower fan motors</a></p>
             </td>
-            <td width="29.02654867256637%">
-                <p><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>; <a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a>; <a href="/documents/measurement-technique/relative-humidity">hourly measurement of relative humidity</a></p>
+            <td>
+                <ul>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a></li>
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
+                    <li><a href="/documents/measurement-technique/relative-humidity">Hourly measurement of relative humidity</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
-            <td width="17.699115044247787%">
-                <p>Heat rejected to the outdoors.</p>
+            <td>
+                <p>Heat rejected to the outdoors</p>
             </td>
-            <td width="26.902654867256636%">
-                <p>Average hourly Btu rejected from the condenser water loop&nbsp;</p>
+            <td>
+                <p>Average hourly Btu rejected from the condenser water loop</p>
             </td>
-            <td width="26.371681415929203%">
+            <td>
             </td>
-            <td width="29.02654867256637%">
+            <td>
                 <ul>
                     <li><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate</a></li> 
-                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of condenser suppy and return water temperature</a></li>
+                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">Hourly measurement of condenser suppy and return water temperature</a></li>
                 </ul>
             </td>
         </tr>

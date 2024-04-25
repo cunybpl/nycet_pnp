@@ -15,7 +15,7 @@ layout: guide
 url: "/documents/systems/chilled-water-loop"
 ---
 
-{{< image_hotspot image_id=1 >}}
+<!-- {{< image_hotspot image_id=1 >}} -->
 
 ## General Overview
 
@@ -70,99 +70,100 @@ The primary energy consumption in a CHW loop is the electricity used to run the 
 
 Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a CHW loop.
 
-<table cellspacing="0" cellpadding="7">
+<table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
         <tr>
-            <td width="25.663716814159294%">
+            <td>
                 <p><strong>System Quantification</strong></p>
             </td>
-            <td width="26.01769911504425%">
+            <td>
                 <p><strong>Values to be Quantified</strong></p>
             </td>
-            <td width="22.371681415929203%">
+            <td>
                 <p><strong>Energy Consuming Component</strong></p>
             </td>
-            <td width="21.946902654867255%">
+            <td>
                 <p><strong>Measurements</strong></p>
             </td>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td width="25.663716814159294%">
+            <td>
                 <p>Primary CHW loop pump electricity usage (kWh) - constant-speed system</p>
             </td>
-            <td width="26.01769911504425%">
+            <td ">
                 <ul>
                     <li>Average hourly primary CHW pump motor kWh</li> 
                     <li>Total operating time for the pumps</li>
                 </ul>
             </td>
-            <td width="22.371681415929203%">
+            <td>
                 <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a></p>
             </td>
-            <td width="21.946902654867255%">
+            <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a>,-</li> 
-                    <li><a href="/documents/measurement-technique/motor-runtime">hourly measurement of motor runtime</a></li>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
-            <td width="25.663716814159294%">
+            <td>
                 <p>Primary CHW loop pump electricity usage (kWh) - variable-speed system</p>
             </td>
-            <td width="26.01769911504425%">
+            <td>
                 <ul>
                     <li>Average hourly primary CHW pump motor kWh</li> 
                     <li>Total operating time for the pumps</li>
                 </ul>
             </td>
-            <td width="22.371681415929203%">
+            <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
-            <td width="21.946902654867255%">
+            <td>
                 <ul>
                     <li><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a></li> 
-                    <li><a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></li>
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
             </td>
         </tr>
         <tr>
-            <td width="25.663716814159294%">
+            <td>
                 <p>Secondary CHW loop pump electricity usage (kWh) - variable-speed system (if present)</p>
             </td>
-            <td width="26.01769911504425%">
+            <td>
                 <ul>
                     <li>Average hourly primary CHW pump motor kWh</li> 
                     <li>Total operating time for the pumps</li>
                 </ul>
             </td>
-            <td width="22.371681415929203%">
+            <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
             </td>
-            <td width="21.946902654867255%">
+            <td>
                 <ul>
                     <li><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a></li> 
-                    <li><a href="/documents/measurement-technique/outside-air-temperature">hourly measurement of outdoor air temperature</a></li>
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td width="25.663716814159294%">
+            <td>
                 <p>Flow (gpm)</p>
             </td>
-            <td width="26.01769911504425%">
+            <td>
                 <ul>
                 <li>Average hourly chilled water flow (gpm) through a pump</li> 
                 <li>Average hourly loop pressure differential</li>
                 </ul>
             </td>
-            <td width="22.371681415929203%">
+            <td>
             </td>
-            <td width="21.946902654867255%">
+            <td>
                 <ul>
                     <li><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of water flow rate</a></li>
-                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">hourly measurement of supply and return water temperature</a></li>
+                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">Hourly measurement of supply and return water temperature</a></li>
                 </ul>
             </td>
         </tr>
