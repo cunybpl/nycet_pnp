@@ -20,7 +20,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
             <td>
                 <p><strong>Calculator</strong></p>
             </td>
-            <td>
+            <td width="50%">
                 <p><strong>Description</strong></p>
             </td>
             <td>
