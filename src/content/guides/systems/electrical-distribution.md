@@ -109,7 +109,7 @@ The electrical distribution system does not consume electricity, but it can be a
     </tbody>
 </table>
 
-### Electrical Distribution System Measurement Point Locations
+### Measurement Locations
 
 Figures 5 and 6 show typical measurement points in an electrical distribution system.
 

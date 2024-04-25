@@ -76,46 +76,46 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
     <tbody>
         <tr>
             <td>
-                <p>Boiler fuel consumption</p>
+                <p>Boiler energy consumption</p>
             </td>
             <td>
-                <p>Average hourly fuel consumption (Btuh)</p>
+                <p>Average hourly fuel consumption (Btu/h)</p>
             </td>
             <td>
                 <p>Burner</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly fuel consumption by the boiler</li> 
-                    <li>Total operating hours of the pump motors</li> 
-                    <li>Hourly outside air temperature</li>
+                    <li>Hourly fuel consumption by the boiler</li> 
+                    <li><a href="/documents/measurement-technique/motor-runtime">Pump Motor Runtime</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outside air temperature</a></li>
                 <ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Fan electricity consumption</p>
+                <p>Burner fan electricity usage (kWh)</p>
             </td>
             <td>
                 <ul>
                     <li>Average hourly burner fan motor kWh</li> 
-                    <li>Total operating hours of burner fan motor</li>
+                    <li>Pump Motor Runtime</li>
                 </ul>
             </td>
             <td>
-                <p>Burner fan motor</p>
+                <p><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Burner fan motor</a></p>
             </td>
             <td>
                 <ul>
-                <li>Average hourly electricity consumption of the burner fan motor</li>
-                <li>Total operating hours of the pump motors</li>
+                <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the burner fan motor</li>
+                <li><a href="/documents/measurement-technique/motor-runtime">Pump Motor Runtime</a></li>
                 </ul>
             </td>
         </tr>
     </tbody>
 </table>   
 
-### Boiler System Measurement Point Locations
+### Measurement Locations
 
 The measurement locations for a boiler system are shown in Figure 2. More detail on performing measurements can be found in in <link to gas meter reading> and <link to fan motor measurements> 
 

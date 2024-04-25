@@ -70,7 +70,7 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
     <tbody>
         <tr>
             <td>
-                <p>Air-cooled chiller Energy consumption</p>
+                <p>Air-cooled chiller electricty usage (kWh)</p>
             </td>
             <td>
                 <ul>
@@ -82,21 +82,25 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
                 <p>Condenser fan motor, compressor motor and its controls</p>
             </td>
             <td>
-                <p><span class="tooltip-pnp">Average hourly electricity usage by the chiller<span class="tooltiptext">In some cases, it may be necessary to measure the compressor motor or the condenser fan motor separately, however air-cooled chillers are generally considered a packaged unit and it is not viable ot upgrade just one or the other.</span></span>; annual operating hours; outdoor air temperature</p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurement of true RMS power</a></li>
+                    <li>Annual operating hours</li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></p>
+                </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Cooling load on building, heat rejected to the outdoors</p>
+                <p>Cooling load on building/Heat rejected to the outdoors</p>
             </td>
             <td>
                 <p>Average hourly chilled water flow rate (GPM)</p>
             </td>
             <td>
-                <p>Chilled water pump</p>
+                <p>Chilled <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a></p>
             </td>
             <td>
-                <p>Average hourly chilled water flow rate</p>
+                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of chilled water flow rate</a></p>
             </td>
         </tr>
         <tr>
@@ -110,13 +114,13 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
                 <p>Evaporator</p>
             </td>
             <td>
-                <p>Average hourly temperature of chilled water entering and leaving the chiller evaporator</p>
+                <p>Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller evaporator</p>
             </td>
         </tr>
     </tbody>
 </table>  
 
-### Air-cooled Chiller System Measurement Point Locations
+### Measurement Locations
 
 The measurement locations for an air-cooled chiller and chilled water pumps are shown in Figure 2. 
 
