@@ -41,36 +41,36 @@ The primary effect of waterside economizer is the savings in electricity usage a
 
 The cooling energy savings are equivalent to the heat rejected through the waterside economizer. Table 1 provides a summary of the components to measure to arrive at values needed to quantify the heat rejected from the chilled water to condenser water by free cooling. 
 
-<table width="100%" cellspacing="0" cellpadding="7">
+<table>
 <caption>Table 1. Key values, components and measurements</caption>
     <tbody>
         <thead>
             <tr>
-                <th class="fr-cell-handler " style="background-color: rgb(231, 230, 230);" width="23.6013986013986%">
+                <th>
                     <p><strong>System Quantification</strong></p>
                 </th>
-                <th style="background-color: rgb(231, 230, 230);" width="27.797202797202797%">
+                <th>
                     <p><strong>Values to be Quantified</strong></p>
                 </th>
-                <th style="background-color: rgb(231, 230, 230);" width="21.853146853146853%">
+                <th>
                     <p><strong>Energy Consuming Components</strong></p>
                 </th>
-                <th class="fr-cell-fixed " style="background-color: rgb(231, 230, 230);" width="26.748251748251747%">
+                <th>
                     <p><strong>Measurements</strong></p>
                 </th>
             </tr>
         </thead>
         <tr>
-            <td width="23.6013986013986%">
+            <td>
                 <p>Waterside economizer heat rejection load</p>
             </td>
-            <td width="27.797202797202797%">
+            <td>
                 <p>Average hourly Btu/h transferred, differential of temperature for chilled water loop.</p>
             </td>
-            <td width="21.853146853146853%">
+            <td>
                 <p>Heat exchanger of waterside economizer</p>
             </td>
-            <td width="26.748251748251747%">
+            <td>
                 <ul>
                     <li>Average hourly flow rate of the supply stream (gpm)</li>
                     <li>Temperature of supply stream entering and leaving the heat exchange (degrees F)&nbsp;</li>
