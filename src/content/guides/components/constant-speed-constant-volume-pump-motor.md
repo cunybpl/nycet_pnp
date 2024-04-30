@@ -2,7 +2,7 @@
 title: Constant-speed, Constant-volume Pump and Motor
 type: component
 excerpt: Operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/components/2024_0410_cscv pump component_thumbnail.jpeg"
 associated_systems:
   - Chilled Water Loop
   - Condenser Water Loop

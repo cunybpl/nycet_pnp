@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 6
 excerpt: This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (OF) at one-hour intervals.
+thumbnail_image: "/images/measurement-technique/outside-air-temperature/2024_0410_outdoor air temperature MT_thumbnail.jpeg"
 related_systems:
   - Chilled Water Loop 
   - Condenser Water Loop

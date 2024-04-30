@@ -2,7 +2,7 @@
 title: Boiler
 type: system
 excerpt: A boiler system provides either hot water or steam to distribute the heating load within a facility.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/systems/boiler/2024_0410_boiler system_thumbnail.jpeg"
 system_id: 11
 associated_systems:
   - Burner
@@ -87,7 +87,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
             <td>
                 <ul>
                     <li>Hourly fuel consumption by the boiler</li> 
-                    <li><a href="/documents/measurement-technique/motor-runtime">Pump Motor Runtime</a></li> 
+                    <li>Hours of operation of the motors</li> 
                     <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outside air temperature</a></li>
                 <ul>
             </td>
@@ -108,7 +108,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
             <td>
                 <ul>
                 <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the burner fan motor</li>
-                <li><a href="/documents/measurement-technique/motor-runtime">Pump Motor Runtime</a></li>
+                <li>Hours of operation of the motors</li>
                 </ul>
             </td>
         </tr>

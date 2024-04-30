@@ -2,7 +2,7 @@
 title: Condenser Water Loop
 type: system
 excerpt: Consists of a CW pump and motor, an evaporative cooling tower with a fan and motor, and a CW piping network.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/systems/condenser-water-loop/2024_0410_condenser water loop system_thumbnail.jpeg"
 system_id: 3
 associated_systems:
   - Constant-speed, Constant-volume Fan and Motor

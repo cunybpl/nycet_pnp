@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 4
 excerpt: Use data loggers to take long-term measurements of the runtime duration for a constant or dual-speed motor. This technique can be used on motors with any end-use, including both air and water distribution.
+thumbnail_image: "/images/measurement-technique/motor-runtime/2024_0410_motor runtime MT_thumbnail.jpeg"
 related_systems:
   - Boiler
   - Chilled Water Loop
