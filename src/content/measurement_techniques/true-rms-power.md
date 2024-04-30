@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 1
 excerpt: This technique uses a data logger to take long- term measurements of the electrical energy (kWh) and power draw (kW) of a system or component at one- hour intervals.
+thumbnail_image: "/images/measurement-technique/true-RMS-power/2024_0410_true RMS power MT_thumbnail.jpeg"
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
@@ -62,7 +63,7 @@ An example of how to setup the Dent EliteProXC power data logger is shown in the
 
 <a href="https://www.youtube.com/embed/HS9k_L59IX8?si=v4kqZXDcbGSTxhHc">
 <figure class="figure">
-  <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure1.png" class="figure-img img-fluid rounded" alt="Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram">
+  <img src="/images/measurement-technique/true-RMS-power/electrical_energy_figure1.png" class="figure-img img-fluid rounded" alt="Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram">
   <figcaption class="figure-caption text-left">Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram</figcaption>
 </figure>
 </a>
@@ -83,14 +84,14 @@ This section illustrates the most common wire configurations for a panelboard an
 
 <a href="">
 <figure class="figure">
-  <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram">
+  <img src="/images/measurement-technique/true-RMS-power/electrical_energy_figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram">
   <figcaption class="figure-caption text-left">Figure 2. Single phase, two-wire. Image courtesy of ELOG19 software configuration diagram</figcaption>
 </figure>
 </a>
 
 <a href="">
 <figure class="figure">
-  <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Typical single phase, three-wire (sometimes called split-phase). Image courtesy of ELOG19 software configuration diagram.">
+  <img src="/images/measurement-technique/true-RMS-power/electrical_energy_figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Typical single phase, three-wire (sometimes called split-phase). Image courtesy of ELOG19 software configuration diagram.">
   <figcaption class="figure-caption text-left">Figure 3. Typical single phase, three-wire (sometimes called split-phase). Image courtesy of ELOG19 software configuration diagram.</figcaption>
 </figure>
 </a>
@@ -99,14 +100,14 @@ This section illustrates the most common wire configurations for a panelboard an
 
 <a href="">
 <figure class="figure">
-  <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure4.png" class="figure-img img-fluid rounded" alt="Figure 4. Typical 3-phase, 3-wire setup (delta). Image courtesy of ELOG19 software configuration diagram.">
+  <img src="/images/measurement-technique/true-RMS-power/electrical_energy_figure4.png" class="figure-img img-fluid rounded" alt="Figure 4. Typical 3-phase, 3-wire setup (delta). Image courtesy of ELOG19 software configuration diagram.">
   <figcaption class="figure-caption text-left">Figure 4. Typical 3-phase, 3-wire setup (delta). Image courtesy of ELOG19 software configuration diagram.</figcaption>
 </figure>
 </a>
 
 <a href="">
 <figure class="figure">
-  <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure5.png" class="figure-img img-fluid rounded" alt="Figure 5: Typical 3-phase, 4-wire setup (Wye). Image courtesy of ELOG19 software configuration diagram.">
+  <img src="/images/measurement-technique/true-RMS-power/electrical_energy_figure5.png" class="figure-img img-fluid rounded" alt="Figure 5: Typical 3-phase, 4-wire setup (Wye). Image courtesy of ELOG19 software configuration diagram.">
   <figcaption class="figure-caption text-left">Figure 5: Typical 3-phase, 4-wire setup (Wye). Image courtesy of ELOG19 software configuration diagram.</figcaption>
 </figure>
 </a>
@@ -115,7 +116,7 @@ Figure 5 displays the power logger installed on a panel with a Wye configuration
 
 <a href="https://youtu.be/Fel5t-KzTO0?si=2VCuofNPz3o-OPrW">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure6.png" class="figure-img img-fluid rounded zoom" alt="Figure 6. Power logger installed at a power panel that had a Wye configuration.">
+  <img src="/images/measurement-technique/true-RMS-power/electrical_energy_figure6.png" class="figure-img img-fluid rounded zoom" alt="Figure 6. Power logger installed at a power panel that had a Wye configuration.">
   <figcaption class="figure-caption text-left">Figure 6. Power logger installed at a power panel that had a Wye configuration.</figcaption>
 </figure>
 </a>
@@ -133,7 +134,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 <a href="https://youtu.be/gbChGMLI7W8?si=AgYuoiOdORG-deSX">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure7.png" class="figure-img img-fluid rounded zoom" alt="Figure 7: Plot graph of energy (kWh) over several days. This data was measured with the Dent power logger. The plot graph was generated with the ELOG19 software.">
+  <img src="/images/measurement-technique/true-RMS-power/electrical_energy_figure7.png" class="figure-img img-fluid rounded zoom" alt="Figure 7: Plot graph of energy (kWh) over several days. This data was measured with the Dent power logger. The plot graph was generated with the ELOG19 software.">
   <figcaption class="figure-caption text-left">Figure 7: Plot graph of energy (kWh) over several days. This data was measured with the Dent power logger. The plot graph was generated with the ELOG19 software.</figcaption>
 </figure>
 </a>
@@ -152,7 +153,7 @@ After verifying that the logger is collecting data, do the following:
 
 <a href="https://youtu.be/fLDJ8E2pa9A?si=Iwx027Ogo7QMUpl6">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/electrical_energy/electrical_energy_figure8.png" class="figure-img img-fluid rounded zoom" alt="Figure 8: Final data table in .csv format. Data was extracted from the Dent EliteProXC logger using the ELOG19 software and exported for analysis.">
+  <img src="/images/measurement-technique/true-RMS-power/electrical_energy_figure8.png" class="figure-img img-fluid rounded zoom" alt="Figure 8: Final data table in .csv format. Data was extracted from the Dent EliteProXC logger using the ELOG19 software and exported for analysis.">
   <figcaption class="figure-caption text-left">Figure 8: Final data table in .csv format. Data was extracted from the Dent EliteProXC logger using the ELOG19 software and exported for analysis.</figcaption>
 </figure>
 </a>

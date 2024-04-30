@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 7
 excerpt: This technique uses data loggers to take long-term measurements of air temperature (oF) at one-hour intervals.
+thumbnail_image: "/images/measurement-technique/system-air-temperature/2024_0410_system air temperature MT_thumbnail.jpeg"
 related_systems:
 related_components:
 url: "/documents/measurement-technique/system-air-temperature"

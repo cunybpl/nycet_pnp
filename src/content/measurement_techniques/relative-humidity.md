@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 8
 excerpt: This technique uses data loggers to take long-term measurements of relative humidity (% RH) at one-hour intervals.
+thumbnail_image: "/images/measurement-technique/relative-humidity/2024_0410_relative humidity MT_thumbnail.jpeg"
 related_systems:
 related_components:
 url: "/documents/measurement-technique/relative-humidity"

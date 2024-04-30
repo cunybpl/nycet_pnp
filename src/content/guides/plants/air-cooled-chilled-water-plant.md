@@ -2,7 +2,7 @@
 title: Air-cooled Chilled Water Plant
 type: plant
 excerpt: An air-cooled chilled water plant consists of an air-cooled chiller system and a chilled water loop system operating to meet the cooling demand in a facility.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/plants/air-cooled-chilled-water-plant/2024_0410_air cooled chiller plant_thumbnail.jpeg"
 associated_systems:
   - Air-cooled Chiller
   - Chilled Water Loop

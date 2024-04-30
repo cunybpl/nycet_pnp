@@ -55,7 +55,7 @@ Identify the location where the flow meter will be installed. Refer to the equip
 - Confirm if properties of fluid matches with the fluid to be measured
 
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/UX90-004-installed-on-pump-motor-casing.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed.">
+  <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 1.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed.">
   <figcaption class="figure-caption text-left">Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed. FPO</figcaption>
 </figure>
 
@@ -69,17 +69,17 @@ Identify the location where the flow meter will be installed. Refer to the equip
 - Refer to the user manual of the measurement equipment to determine how to install the transducers.
 
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/UX90-004-installed-on-pump-motor-casing.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Insulation is being removed and the piping is exposed.">
+  <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 2.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Insulation is being removed and the piping is exposed.">
   <figcaption class="figure-caption text-left">Figure 2. Insulation is being removed and the piping is exposed. FPO</figcaption>
 </figure>
 
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/UX90-004-installed-on-pump-motor-casing.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 3. Insulation is fully removed for a section of the piping.">
+  <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 3.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 3. Insulation is fully removed for a section of the piping.">
   <figcaption class="figure-caption text-left">Figure 3. Insulation is fully removed for a section of the piping. FPO</figcaption>
 </figure>
 
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/UX90-004-installed-on-pump-motor-casing.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System. FPO">
+  <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 4.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System. FPO">
   <figcaption class="figure-caption text-left">Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System. FPO</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 - Determine if measured results align with the expected operation of the system or component.
 
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/graph-of-motor-runtime-data.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 5. Retrieve data screen on the DXN Portable Ultrasonic Measurement System. For this meter, a USB storage device is connected to the back of the meter. FPO">
+  <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 5.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 5. Retrieve data screen on the DXN Portable Ultrasonic Measurement System. For this meter, a USB storage device is connected to the back of the meter. FPO">
   <figcaption class="figure-caption text-left">Figure 5. Retrieve data screen on the DXN Portable Ultrasonic Measurement System. For this meter, a USB storage device is connected to the back of the meter. FPO</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ After verifying the meter is collecting data do the following:
 - Download all data from the meter and convert to csv file format for analysis.
 
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/Final data table.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 6. Final data table in .csv format. Data was extracted from the DXN Portable Ultrasonic Measurement System and exported for analysis. FPO">
+  <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 6.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 6. Final data table in .csv format. Data was extracted from the DXN Portable Ultrasonic Measurement System and exported for analysis. FPO">
   <figcaption class="figure-caption text-left">Figure 6. Final data table in .csv format. Data was extracted from the DXN Portable Ultrasonic Measurement System and exported for analysis. FPO</figcaption>
 </figure>
 

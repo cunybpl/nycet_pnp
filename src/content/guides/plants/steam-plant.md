@@ -2,7 +2,7 @@
 title: Steam Plant
 type: plant
 excerpt: A low pressure steam plant takes input energy (e.g., fuel, gas, biomass) and uses a boiler to generate steam that is distributed throughout a facility or group of facilities to provide heating.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/plants/steam-plant/2024_0411_steam plant_thumbnail.jpeg"
 associated_systems:
   - Boiler
   - Steam Condensate Recovery

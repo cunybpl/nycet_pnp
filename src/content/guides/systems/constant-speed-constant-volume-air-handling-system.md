@@ -66,21 +66,21 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
     <tbody>
         <tr>
             <td>
-                <p>Air handling unit power consumption</p>
+                <p>Air handling unit electricity usage (kWh)</p>
             </td>
             <td>
-                <p>Average hourly fan motor kWh</p>
+                <p>Average hourly fan motor (kWh)</p>
             </td>
             <td>
-                <p>Fan motors</p>
+                <p><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></p>
             </td>
             <td>
-                <p>Average hourly true RMS energy</p>
+                <p><a href="/documents/measurement-technique/true-rms-power">Spot measurements of true RMS power</a></p>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Heating/cooling load on building</p>
+                <p>Heating/cooling load on building (Btu/h)</p>
             </td>
             <td>
                 <p>Average hourly thermal load of heating/cooling coils (Btuh)</p>
@@ -89,7 +89,10 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
                 <p>Heating/cooling coils</p>
             </td>
             <td>
-                <p>Average hourly airflow and temperature difference across heating/cooling coil.</p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/system-air-temperature">System air measurement</a></li>
+                    <li>Air flow rate measurement</li>
+                </ul>
             </td>
         </tr>
     </tbody>

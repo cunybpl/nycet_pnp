@@ -2,7 +2,7 @@
 title: Steam Distribution
 type: system
 excerpt: A steam distribution system is responsible for distributing the steam produced by a steam boiler system as well as handling any condensate generated in the process.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/systems/steam-distribution/2024_0411_steam distribution system_thumbnail.jpeg"
 system_id: 13
 associated_systems:
   - Constant-speed, Constant-volume Pump and Motor
@@ -94,7 +94,7 @@ The steam distribution system distributes heat energy, with losses to the non-co
     <tbody>
         <tr>
             <td>
-                <p>Vacuum pump electricity consumption (kWh) - if present</p>
+                <p>Vacuum pump electricity usage (kWh) - if present</p>
             </td>
             <td>
                 <ul>
@@ -103,13 +103,13 @@ The steam distribution system distributes heat energy, with losses to the non-co
                 </ul>
             </td>
             <td>
-                <p>Pump Motor</p>
+                <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Pump Motor</a></p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourlt electricity consumption by the pump motor</li>
-                    <li>Total operating hours</li> 
-                    <li>Outdoor air temperature</li>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Spot measurements of true RMS power</a></li>
+                    <li><a href="/documents/measurement-technique/motor-runtime">Hours of operation of the pump motor</a></li> 
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
                 </ul>
             </td>
         </tr>
