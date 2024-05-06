@@ -10,6 +10,16 @@ related_systems:
 url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consumption"
 ---
 
+## Introduction
+
+The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (kWh.) Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated to a full year and summed to obtain the annual estimate of consumption for the systems. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
+
+The calculation tools will extrapolate data to a full year regardless of how much input data is used, but a minimum of six (6) weeks of data at one-hour intervals is required to adhere to Measurement and Verification standards. If the total fixture inventory for the project is known, data can be used by the calculation tools to determine how much of the lighting load was directly measured, but this data is not necessary for the calculation tools to work. This is useful for someone who only measured a sample of fixtures as part of a sampling plan and wants to compare the annual estimates to the total lighting load. 
+
+All lighting calculation tools generate an average hourly energy schedule using the input data. The schedule can be used to determine the interactive heating and cooling effects associated with the lighting retrofit but this requires separate analysis. 
+
+A.1, A.2 and A.3 are the methodologies used when measuring electricity with data loggers and power meters to determine the annual energy consumption estimate of an <u>electrical distribution system</u>. A.4 is the methodology used when measuring lighting runtime (operating schedule) to determine the annual energy consumption estimate of a <u>lighting fixture system</u>.
+
 ## Calculators
 
 <table>
@@ -88,16 +98,6 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
         </tr>
     </tbody>
 </table>
-
-## Introduction
-
-The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (kWh.) Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated to a full year and summed to obtain the annual estimate of consumption for the systems. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
-
-The calculation tools will extrapolate data to a full year regardless of how much input data is used, but a minimum of six (6) weeks of data at one-hour intervals is required to adhere to Measurement and Verification standards. If the total fixture inventory for the project is known, data can be used by the calculation tools to determine how much of the lighting load was directly measured, but this data is not necessary for the calculation tools to work. This is useful for someone who only measured a sample of fixtures as part of a sampling plan and wants to compare the annual estimates to the total lighting load. 
-
-All lighting calculation tools generate an average hourly energy schedule using the input data. The schedule can be used to determine the interactive heating and cooling effects associated with the lighting retrofit but this requires separate analysis. 
-
-A.1, A.2 and A.3 are the methodologies used when measuring electricity with data loggers and power meters to determine the annual energy consumption estimate of an <u>electrical distribution system</u>. A.4 is the methodology used when measuring lighting runtime (operating schedule) to determine the annual energy consumption estimate of a <u>lighting fixture system</u>.
 
 ## Lighting Plant and Systems Energy Consumption Calculations
 
@@ -183,7 +183,7 @@ Lighting fixtures generally require single-phase power to operate but <u>electri
 
 To estimate the energy consumption of the panelboard, including all fixtures served by it, current should be measured for all three electrical lines of the three-phase system. <span class="tooltip-pnp">Current data should be at one-hour intervals and data should consist of an average sample of measurements<span class="tooltiptext">CUNY BPL recommends taking a sample of measurements and find the average. The average value will be used to calculate annual energy consumption. As an example, the Onset HOBO 4-channel analog logger can measure a sample of current data at a predefined interval known as the sampling interval. If the logging interval is set to one-hour and the sampling interval is set to one-second, the logger will measure current every second for one hour then determine the average. The average will be stored in the logger as the one-hour interval measurement. This process will continue every hour for the duration of the measurement period.</span></span> for each one-hour interval. Power factor, line-to-line voltage, and true RMS power can be obtained from spot measurements with a handheld power meter. CUNY BPL recommends taking multiple spot measurements of those variables and averaging them (e.g., measure power factor at least three times at five-minute intervals and calculate the average), see equation (9). The average of the spot measurements helps reduce measurement uncertainty and should be used as inputs to the calculation tools. Equation (9) should be applied to power factor, voltage, and true RMS power.
 
-<p class="equation equation-center">\begin{equation} {V}_{avg,LL} = \frac{V_{t1}+V_{t2}+V_{t3}+V_{t4}}{x} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} {V}_{avg,LL} = \frac{V_{t1}+V_{t2}+V_{t3}+V_{tx}}{x} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$V_{avg,LL} =$ Average line-to-line voltage</p>
@@ -253,7 +253,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 
 7. Calculate the average energy consumption for weekend days (Worksheet: "Step 4. Results," cell D6.)
 
-<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd} = \frac{\sum_{d=1}^{7} \overline{kWh}_{we,d}}{2} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd} = \frac{\overline{kWh}_{we,1} + \overline{kWh}_{we,7}}{2} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WEd} =$ Average energy consumption for a weekend day (in kWh)</p>
@@ -368,7 +368,7 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 
 6. Calculate the average energy consumption for weekend days in a week for all circuits (Worksheet: "Step 4. Results," cell D6.)
 
-<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEdCT} = \frac{\sum_{d=7}^{1} \overline{kWh}_{d,w}}{2} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEdCT} = \frac{\overline{kWh}_{1,w} + \overline{kWh}_{7,w}}{2} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WEdCT} =$ Average energy on a weekend day (in kWh)</p>
@@ -468,7 +468,7 @@ This calculation tool can be used for different fixture types within a single sp
 
 7. Calculate the average energy use per weekend day (Worksheet: "Step 4. Results").
 
-<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd,fix1} = \frac{\sum_{d=1}^{7} T_{we,fix1,d}}{5} * kW_{fix1} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd,fix1} = \frac{T_{we,fix1,1} + T_{we,fix1,7}}{2} * kW_{fix1} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WEd,fix1} =$ Average consumption during weekend days for fixture type 1 (in kWh)</p>
