@@ -19,9 +19,9 @@ url: "/documents/plants/air-handling-plant"
 
 The air handling plant (AHP) takes input energy (e.g., electricity, heated or chilled water) and conditions the air to meet required indoor environmental conditions (e.g., temperature, humidity, fresh air). The AHP may be made up of different types of air handling units (AHUs) at the system level (e.g., rooftop unit, fan coil unit, constant speed unit) which will be discussed at the system level descriptions. For a more detailed overview of various system configurations for this plant, please refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4 – Air Handling and Distribution.
 
-<a href="/images/plants/air-handling-plant/air handling plant figure 1.png">
+<a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-handling-plant/air handling plant figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Air Handling Plant">
+        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air Handling Plant">
         <figcaption class="figure-caption text-left">Figure 1. Air Handling Plant</figcaption>
     </figure>
 </a>
@@ -30,10 +30,17 @@ The air handling plant (AHP) takes input energy (e.g., electricity, heated or ch
 
 The systems and components that make up the air handling plant are listed and described further in Table 1 below. It should be noted that for a given AHP, there may be a mix of air handling systems installed (e.g., constant-speed, constant-volume, variable air volume) and configurations (e.g., split heat pump, rooftop unit). 
 
-<a href="/images/plants/air-handling-plant/air handling plant figure 2.png">
+<a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-handling-plant/air handling plant figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Air Handling Plant Systems and Components">
+        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Air Handling Plant Systems and Components">
         <figcaption class="figure-caption text-left">Figure 2. Air Handling Plant Systems and Components</figcaption>
+    </figure>
+</a>
+
+<a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Air Handling Plant Systems and Components Continued">
+        <figcaption class="figure-caption text-left">Figure 2. Air Handling Plant Systems and Components Continued</figcaption>
     </figure>
 </a>
 

@@ -17,9 +17,9 @@ url: "/documents/plants/air-cooled-chilled-water-plant"
 
 An air-cooled chilled water plant consists of an air-cooled chiller system and a chilled water loop system operating to meet the cooling demand in a facility. The air-cooled chiller produces chilled water through the basic refrigeration cycle. The primary chilled water pump circulates the chilled water between the chiller and the chilled water loop. In some cases, a secondary chilled water pump distributes the chilled water produced by the chiller to air handling units (AHUs) in the building.
 
-<a href="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 1.png">
+<a href="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Air-cooled chilled water plant.">
+        <img src="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air-cooled chilled water plant.">
         <figcaption class="figure-caption text-left">Figure 1. Air-cooled chilled water plant.</figcaption>
     </figure>
 </a>
@@ -30,9 +30,9 @@ An air-cooled chilled water plant consists of an air-cooled chiller system and a
 
 Figure 2 shows an air-cooled chiller providing chilled water to the chilled water loop system and components. 
 
-<a href="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 2.png">
+<a href="/images/plants/air-cooled-chilled-water-plant/2024_0423_ACCW plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Air cooled chiller.">
+        <img src="/images/plants/air-cooled-chilled-water-plant/2024_0423_ACCW plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Air cooled chiller.">
         <figcaption class="figure-caption text-left">Figure 2. Air cooled chiller.</figcaption>
     </figure>
 </a>
@@ -41,9 +41,9 @@ Figure 2 shows an air-cooled chiller providing chilled water to the chilled wate
 
 A chilled water loop system consists of a closed loop distribution system that supplies chilled water to the building and includes components (see Figure 3).
 
-<a href="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 3.png">
+<a href="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-cooled-chilled-water-plant/air-cooled chilled water plant figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water loop.">
+        <img src="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water loop.">
         <figcaption class="figure-caption text-left">Figure 3. Chilled water loop.</figcaption>
     </figure>
 </a>
