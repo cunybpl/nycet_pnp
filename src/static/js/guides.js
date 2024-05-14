@@ -3,11 +3,11 @@ var SYSTEMS = "system";
 var COMPONENTS = "component";
 var CALCULATIONS = 'calculation'
 var MEASUREMENTS = 'measurement'
-var initialDisplayedPlantGuides = 6;
-var initialDisplayedSystemGuides = 6;
-var initialDisplayedComponentGuides = 6;
-var initialDisplayedCalculations = 6;
-var initialDisplayedMeasurements = 6;
+var initialDisplayedPlantGuides = 8;
+var initialDisplayedSystemGuides = 8;
+var initialDisplayedComponentGuides = 8;
+var initialDisplayedCalculations = 8;
+var initialDisplayedMeasurements = 8;
 
 function filterPlantGuides(searchKeyWord='') {
   let totalPlantGuides = 0;
@@ -322,7 +322,7 @@ function getSearchKeywordValue(searchBarId) {
   return searchKeyWord
 }
 
-function loadMoreGuides(guideType, incrementBy=4) {
+function loadMoreGuides(guideType, incrementBy=6) {
   const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS, 
     CALCULATIONS, MEASUREMENTS]
 
