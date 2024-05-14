@@ -17,9 +17,9 @@ url: "/documents/plants/hot-water-heating-plant"
 
 The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, biomass) and generates hot water that is distributed throughout a facility to provide space heating. A HWH boiler may also generate hot water to provide for other loads, such as domestic hot water or process heat. A hot water heating plant consists of a hot water heating boiler, a feedwater system, and a hot water heating loop.  
 
-<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP figure 1.jpeg">
+<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP figure 1.jpeg" class="figure-img img-fluid rounded" alt="Figure 1. Hot-Water Heater.">
+        <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Hot-Water Heater.">
         <figcaption class="figure-caption text-left">Figure 1. Hot water heating plant</figcaption>
     </figure>
 </a>
@@ -30,9 +30,9 @@ The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, b
 
 The HWH boiler system is the largest energy-consuming system in the hot water heating plant. Hot water is produced primarily through the heat transfer from combustion gases in the combustion chamber to the water. The hot water produced by the system is then transported out to the facility to meet required heating loads or domestic hot water needs. The main components of a HWH boiler system are burner, combustion chamber, heat exchanger, and draft fan and are shown in Figure 2. 
 
-<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP figure 2.jpeg">
+<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP figure 2.jpeg" class="figure-img img-fluid rounded" alt="Figure 2. Hot water heating boiler system">
+        <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Hot water heating boiler system">
         <figcaption class="figure-caption text-left">Figure 2. Hot water heating boiler system</figcaption>
     </figure>
 </a>
@@ -41,9 +41,9 @@ The HWH boiler system is the largest energy-consuming system in the hot water he
 
 The hot water loop system encompasses the distribution system responsible for moving hot water throughout the building. Components of a typical hot water loop system are primary-only or primary-secondary pumps, piping network and piping insulation and are shown in Figure 3.  
 
-<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP figure 3.jpeg">
+<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP figure 3.jpeg" class="figure-img img-fluid rounded" alt="Figure 3. Hot water loop system">
+        <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Hot water loop system">
         <figcaption class="figure-caption text-left">Figure 3. Hot water loop system</figcaption>
     </figure>
 </a>
@@ -52,9 +52,9 @@ The hot water loop system encompasses the distribution system responsible for mo
 
 The feedwater system provides treated make-up water and returned hot water from the hot water loop. Feedwater requires proper treatment to remove pollutants and preserve the efficiency of the boiler. Figure 4 shows the components for the feedwater system.
 
-<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP figure 4.jpeg">
+<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP figure 4.jpeg" class="figure-img img-fluid rounded" alt="Figure 4. Make- up water system and Chemical Treatment for make-up water">
+        <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Make- up water system and Chemical Treatment for make-up water">
         <figcaption class="figure-caption text-left">Figure 4. Make- up water system and Chemical Treatment for make-up water</figcaption>
     </figure>
 </a>
