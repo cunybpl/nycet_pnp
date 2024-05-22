@@ -77,7 +77,7 @@ Post-retrofit measurements provide verification that the ECM is installed and op
 
 ## Direct and Proxy Measurements
 
-There are two types of measurements used in the M&V guides:
+There are two types of measurements used in the Procedures and Protocols:
 
 ### Direct Measurement
 
