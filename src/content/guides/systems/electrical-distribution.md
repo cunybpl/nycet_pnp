@@ -22,9 +22,9 @@ An electrical distribution system is made up of switchgear and panelboards conne
 
 Figure 1 shows the main components associated with the electrical distribution system: switchgear and panelboard.
 
-<a href="/images/systems/electrical-distribution/electrical distribution figure1.png">
+<a href="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/electrical-distribution/electrical distribution figure1.png" class="figure-img img-fluid rounded" alt="Figure 1. Diagram of an electrial distribution system">
+        <img src="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Diagram of an electrial distribution system">
         <figcaption class="figure-caption text-left">Figure 1. Diagram of an electrial distribution system</figcaption>
     </figure>
 </a>
