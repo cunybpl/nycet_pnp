@@ -23,9 +23,9 @@ A constant-speed, constant-volume (CSCV) air handling unit provides conditioning
 
 The major components of a CSCV system are fans and motors, heat exchanger coils, and dampers. Figure 1 shows the components associated with the CSCV. In general, the mixed air is conditioned by heating or cooling coils that use the output of the heating or cooling loops, using mechanical valves to regulate the amount of energy introduced to the coils. Supply and return fans move air to and from the zones served and dampers control airflows. 
 
-<a href="/images/systems/constant-speed-constant-volume-air-handling-unit/constant speed constant volume ahu figure 1.png">
+<a href="/images/systems/constant-speed-constant-volume-air-handling-unit/2024_0503_CSCV AHU system_figure 1 updated.jpeg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/constant-speed-constant-volume-air-handling-unit/constant speed constant volume ahu figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Constant-volume, constant-speed AHU components">
+        <img src="/images/systems/constant-speed-constant-volume-air-handling-unit/2024_0503_CSCV AHU system_figure 1 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 1. Constant-volume, constant-speed AHU components">
         <figcaption class="figure-caption text-left">Figure 1. Constant-volume, constant-speed AHU components</figcaption>
     </figure>
 </a>
