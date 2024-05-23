@@ -56,9 +56,9 @@ A chilled water loop consists of a closed loop distribution system that supplies
 
 A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower where the condenser water is cooled and returned to the chiller condenser. Components of a condenser water loop are shown in Figure 4.
 
-<a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpg">
+<a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg">
     <figure class="figure">
-        <img src="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Condenser water loop.">
+        <img src="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 4. Condenser water loop.">
         <figcaption class="figure-caption text-left">Figure 4. Condenser water loop.</figcaption>
     </figure>
 </a>

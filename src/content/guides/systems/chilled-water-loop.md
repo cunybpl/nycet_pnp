@@ -41,6 +41,13 @@ A **variable-primary variable-secondary flow system** has variable frequency dri
 
 The main components associated with the CHW loop are primary pumps for primary-flow systems and primary and secondary pumps for primary-secondary flow systems.
 
+<a href="/images/systems/chilled-water-loop/CHW-Loop-Diagram_11302022.jpg">
+    <figure class="figure">
+        <img src="/images/systems/chilled-water-loop/CHW-Loop-Diagram_11302022.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Chilled water loop components.">
+        <figcaption class="figure-caption text-left">Figure 1. Chilled water loop components.</figcaption>
+    </figure>
+</a>
+
 ### Primary CHW Pump and Motor
 
 A primary CHW pump and motor circulate chilled water from the evaporator section of the chiller to the building in a primary-only system or to the secondary pump and motor through the piping network. A primary CHW pump and motor can operate at constant speed or variable speed based on the design of the chilled water plant.
@@ -56,13 +63,6 @@ The primary CHW piping network is connected to the evaporator section of the chi
 ### Secondary CHW Piping Network
 
 The secondary CHW piping network is connected to the primary piping network to deliver chilled water to the facility.
-
-<a href="/images/systems/chilled-water-loop/CHW-Loop-Diagram_11302022.jpg">
-    <figure class="figure">
-        <img src="/images/systems/chilled-water-loop/CHW-Loop-Diagram_11302022.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Chilled water loop components.">
-        <figcaption class="figure-caption text-left">Figure 1. Chilled water loop components.</figcaption>
-    </figure>
-</a>
 
 ## Key Values Needed to Assess Energy Consumption
 
