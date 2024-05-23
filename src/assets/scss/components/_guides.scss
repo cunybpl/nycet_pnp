@@ -75,12 +75,13 @@ h2, h3, h4 {
 
 .guide-header-wrapper {
   position: relative;
+  padding-inline: 1rem;
 }
 
 .guide-header-wrapper::before {
   content: '';
   position: absolute;
-  width: 100%;
+  inset-inline: 0;
   height: 2px;
   background-color: #36733c;
   bottom: 0;
@@ -91,6 +92,7 @@ h2, h3, h4 {
   justify-content: space-between;
   padding-left: 0;
   padding-right: 0;
+  max-width: 1280px;
   @include ipad {
   }
   &-title {
@@ -142,6 +144,10 @@ h2, h3, h4 {
   background-color: #387e3e;
 }
 
+.guide-wrapper {
+  padding-inline: 1rem;
+}
+
 .toc-header {
   width: 100%;
   display: inline-block;
@@ -161,7 +167,7 @@ h2, h3, h4 {
       top: 0;
       max-height: 100dvh;
       overflow-y: auto;
-      padding-inline: 1rem;
+      padding-right: 1rem;
       padding-top: 3rem;
       padding-bottom: 4rem;
       scrollbar-width: thin;
@@ -242,6 +248,11 @@ a.btt-btn:hover {
 
 // .associated_systems_see_more_btn {
 // }
+
+#guide-page-measurement-guides {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 #guide-mg-content {
   padding-left: 2rem;
