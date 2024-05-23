@@ -75,12 +75,13 @@ h2, h3, h4 {
 
 .guide-header-wrapper {
   position: relative;
+  padding-inline: 1rem;
 }
 
 .guide-header-wrapper::before {
   content: '';
   position: absolute;
-  width: 100%;
+  inset-inline: 0;
   height: 2px;
   background-color: #36733c;
   bottom: 0;
@@ -91,6 +92,7 @@ h2, h3, h4 {
   justify-content: space-between;
   padding-left: 0;
   padding-right: 0;
+  max-width: 1280px;
   @include ipad {
   }
   &-title {
@@ -142,20 +144,34 @@ h2, h3, h4 {
   background-color: #387e3e;
 }
 
+.guide-wrapper {
+  padding-inline: 1rem;
+}
+
 .toc-header {
   width: 100%;
   display: inline-block;
   font-size: 16px;
-  padding-bottom: 8px;
+  padding-bottom: 1rem;
   line-height: 1.5;
 }
 
 #guide-mg-side-nav {
   --connection-color: #b4b4b4;
   position: relative;
-  .mg-toc {
-    position: sticky;
-    top: 1rem;
+  margin-top: -3rem;
+  border-right: 1px solid #b4b4b445;
+  padding-inline: 0;
+    .mg-toc {
+      position: sticky;
+      top: 0;
+      max-height: 100dvh;
+      overflow-y: auto;
+      padding-right: 1rem;
+      padding-top: 3rem;
+      padding-bottom: 4rem;
+      scrollbar-width: thin;
+
     nav#TableOfContents {
       li.active-item {
         background-color: #ebf4ec;
@@ -204,23 +220,28 @@ h2, h3, h4 {
       }
     }
   }
+  .btt-container {
+    margin: 1rem 0 2rem 0;
+  }
   .mg-back-to-top {
     position: sticky;
     bottom: 20px;
+    display: none;
   }
 }
 
-a#back-to-top {
+a.btt-btn {
   display: inline-block;
   border: none;
-  display: none;
   font-size: 1rem;
-  padding: 1rem;
+  padding: .75rem;
   border: 1px solid #52a85a;
   border-radius: 6px;
+  width: 100%;
+  text-align: center;
 }
 
-a#back-to-top:hover {
+a.btt-btn:hover {
   background-color: #52a85a;
   color: white;
 }
@@ -228,11 +249,23 @@ a#back-to-top:hover {
 // .associated_systems_see_more_btn {
 // }
 
+#guide-page-measurement-guides {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#guide-mg-content {
+  padding-left: 2rem;
+}
+
 .guide-header-title h1 {
   font-size: 2.3rem;
   font-weight: bold;
 }
 
+.content {
+  padding-bottom: 5rem;
+}
 .content > h2:first-of-type {
   margin-top: 0;
 }

@@ -4,6 +4,8 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding: 3rem;
+  overflow: auto;
 }
 
 #content {
