@@ -23,9 +23,9 @@ A hot water heating (HWH) loop system uses hot water produced by a hydronic boil
 
 The main components associated with the HWH loop system are primary pumps for primary-flow systems, primary and secondary pumps for primary-secondary flow systems, piping network and terminal units.
 
-<a href="">
+<a href="/images/systems/hot-water-loop/2024_0503_HW Loop system_figure 1 updated.jpg">
 <figure class="figure">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Hot Water Loop Components.">
+  <img src="/images/systems/hot-water-loop/2024_0503_HW Loop system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Hot Water Loop Components.">
   <figcaption class="figure-caption text-left">Figure 1. Hot Water Loop Components.</figcaption>
 </figure>
 </a>
@@ -205,9 +205,9 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
 
 The measurement locations for a primary-flow and primary-secondary flow hot water loop system are shown in Figure 3. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop
 
-<a href="/images/systems/hot-water-loop/hot-water system figure3.png">
+<a href="/images/systems/hot-water-loop/2024_0507_HW Loop system_figure 2 updated.jpg">
 <figure class="figure">
-  <img src="/images/systems/hot-water-loop/hot-water system figure3.png" class="figure-img img-fluid rounded" alt="Figure 2. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.">
+  <img src="/images/systems/hot-water-loop/2024_0507_HW Loop system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.">
   <figcaption class="figure-caption text-left">Figure 2. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.</figcaption>
 </figure>
 </a>

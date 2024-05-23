@@ -23,9 +23,9 @@ A variable-speed, variable-volume (VSVV) air handling system conditions provides
 
 The major components of a VSVV system are the fans and motors, motor VFDs, heat exchanger coils, dampers, and VAV boxes. The components associated with the VSVV are shown in Figure 1. In general, the mixed air is conditioned by heating or cooling coils that use the output of the heating or cooling loops, using mechanical valves to regulate the amount of energy introduced to the coils. Supply and return fans with VFDs and dampers control airflows inside the main AHU. Dampers in the VAV boxes control zone airflows. Occasionally a VAV box will also be equipped with a supply fan.  
 
-<a href="/images/systems/variable-speed-variable-volume-air-handling-unit/variable speed variable volume ahu figure 1.png">
+<a href="/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0503_VSVV AHU system_figure 1 updated.jpeg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/variable-speed-variable-volume-air-handling-unit/variable speed variable volume ahu figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Variable-Speed, Variable-Volume Components">
+        <img src="/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0503_VSVV AHU system_figure 1 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 1. Variable-Speed, Variable-Volume Components">
         <figcaption class="figure-caption text-left">Figure 1. Variable-Speed, Variable-Volume Components</figcaption>
     </figure>
 </a>

@@ -30,23 +30,16 @@ The air handling plant (AHP) takes input energy (e.g., electricity, heated or ch
 
 The systems and components that make up the air handling plant are listed and described further in Table 1 below. It should be noted that for a given AHP, there may be a mix of air handling systems installed (e.g., constant-speed, constant-volume, variable air volume) and configurations (e.g., split heat pump, rooftop unit). 
 
-<a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg">
-    <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Air Handling Plant Systems and Components">
-        <figcaption class="figure-caption text-left">Figure 2. Air Handling Plant Systems and Components</figcaption>
-    </figure>
-</a>
-
-<a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg">
-    <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Air Handling Plant Systems and Components Continued">
-        <figcaption class="figure-caption text-left">Figure 2. Air Handling Plant Systems and Components Continued</figcaption>
-    </figure>
-</a>
-
 ### Constant-speed, Constant-volume (CSCV) AHU
 
-A CSCV air handling system provides heating, cooling and ventilation air to a space in a facility. The AHU is built on-site out of various sections. The volume of outside air in the AHU can be modulated from 0% (outside air damper fully closed) to a typical ventilation rate (minimum outside air damper position) and in some cases can provide 100% outside air (economizer mode). 
+A CSCV air handling system provides heating, cooling and ventilation air to a space in a facility. The AHU is built on-site out of various sections. The volume of outside air in the AHU can be modulated from 0% (outside air damper fully closed) to a typical ventilation rate (minimum outside air damper position) and in some cases can provide 100% outside air (economizer mode).
+
+<a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. CSCV Air Handling Plant Systems and Components">
+        <figcaption class="figure-caption text-left">Figure 2. CSCV Air Handling Plant Systems and Components</figcaption>
+    </figure>
+</a>
 
 ### Dual-speed, Constant-Volume (DSCV) AHU 
 
@@ -55,6 +48,13 @@ A DSCV system is similar to a CSCV system except the fan motors in the AHU have 
 ### Variable Air Volume (VAV) AHU 
 
 A VAV system consists of a main AHU and multiple VAV boxes that serve different zones. The AHU has fan motors that are equipped with variable frequency drives (VFDs) which allow the fan speed (and associated air volume) to modulate as the building demand changes. VAV boxes are installed in the supply air ductwork in the zones served and are generally installed with a heating coil, also known as a reheat coil. This enables the system to adjust the supply air temperature to prevent over-cooling a space. The VAV system allows for space temperature and ventilation air control in each zone. VAV boxes are usually set with a minimum damper position associated with the minimum required ventilation airflow needed for the zone.  
+
+<a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Air Handling Plant Systems and Components Continued">
+        <figcaption class="figure-caption text-left">Figure 3. VSVV Air Handling Plant Systems and Components Continued</figcaption>
+    </figure>
+</a>
 
 ### Dedicated Outdoor Air System (DOAS) 
 
