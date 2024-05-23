@@ -2,20 +2,20 @@
 {{ partial "guides/header.html" . }}
 <section id="{{ .Params.type }}-page-content" class="container {{ .Params.type }}-page-content"
 >
-  <div class="row" style="padding-top: 3rem; padding-bottom: 5rem;">
-    <div id="guide-mg-side-nav" class="col-3 pl-3 pr-4">
+  <div class="row" style="padding-top: 3rem; margin-left: 0; margin-right: 0;">
+    <div id="guide-mg-side-nav" class="col-3">
       <div class="mg-toc">
         <span class="text-muted font-weight-bold toc-header">{{ .Title }}</span>
         {{ .TableOfContents }}
-        <div class="pl-3 pt-5">
-          <a id="back-to-top" href="#" class="" role="button">
+        <div class="btt-container">
+          <a id="back-to-top" href="#" class="btt-btn" role="button">
             <span class="mr-2">Back to top</span><i class="fa fa-arrow-up"></i>
           </a>
         </div>
-      </div>
-      
+      </div>      
     </div>
-    <div class="col-9">
+    <!-- GUIDE CONTENT -->
+    <div id="guide-mg-content" class="col-9">
       <div class="content">
         {{ .Content }}
       </div>
