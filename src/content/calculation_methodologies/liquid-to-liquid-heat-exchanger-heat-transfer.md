@@ -145,7 +145,12 @@ The following equations are used to calculate the sensible heat transferred by t
 
 4. Calculate the total heat transfer by the heat exchanger for a whole year.
 
-<p class="equation equation-center">\begin{equation} \overline{Q}_{s,y} = \sum_{t=0}^{8760} \overline{q}_{s,h} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} Q_s = \sum_{t=0}^{8760} q_s \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$Q_s =$ total sensible heat transfer for a whole year (Btu/h)</p>
+<p class="equation">$q_s =$ sensible heat transferred by the heat exchanger every hour (Btu/h)</p>
+<p class="equation">$t =$ hours</p>
 
 ## Additional Resources
 
