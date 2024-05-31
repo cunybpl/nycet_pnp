@@ -1,11 +1,14 @@
 enable: true
 documents:
   - type: calculation
-    title: "Fan Motors Energy Consumption"
-    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
+    title: "Air-to-air Heat Exchanger Heat Transfer"
+    measurement_type: "cooling, heating, energy-recovery"
   - type: calculation
     title: "Cooling Tower Fans Energy Consumption"
     measurement_type: "water-side, cooling"
+  - type: calculation
+    title: "Fan Motors Energy Consumption"
+    measurement_type: "water-side, cooling, heating, steam, energy-recovery"
   - type: calculation
     title: "Lighting Plant and Systems Energy Consumption"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
