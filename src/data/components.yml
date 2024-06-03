@@ -1,6 +1,9 @@
 enable: true
 documents:
   - type: component
+    title: "Air-to-air Heat Exchanger"
+    measurement_type: "cooling, heating, energy-recovery"
+  - type: component
     title: "Constant-speed, Constant-volume Fan and Motor"
     measurement_type: "cooling"
   - type: component
