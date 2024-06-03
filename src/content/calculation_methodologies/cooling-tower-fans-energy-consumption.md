@@ -43,7 +43,7 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
                 <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Current.xlsx" download><p></p>Constant Speed Cooling Tower Fan Current</a>
             </td>
             <td>
-                <p>Uses measures hourly current data to calculate annual energy for a VS cooling tower fan. Also requires spot measurements of coltage and power factor.</p>
+                <p>Uses measured hourly current data to calculate annual energy for a VS cooling tower fan. Also requires spot measurements of voltage and power factor.</p>
             </td>
             <td>
                 <ul>

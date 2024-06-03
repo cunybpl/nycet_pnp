@@ -103,7 +103,7 @@ The following equations are used to calculate the sensible heat transferred by t
 <p class="equation equation-center">\begin{equation} \dot{m_1} = Q_1 * 0.13368 * d \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\dot{m_1} =$ hourly mass flow rate of fluid 1 leaving the heat exchanger (lbm/min)</p>
+<p class="equation">$\dot{m_1} =$ hourly mass flow rate of fluid 1 leaving the heat exchanger ($lb_m$/min)</p>
 <p class="equation">$Q_1 =$ hourly flow rate of fluid 1 leaving the heat exchanger (GPM)</p>
 <p class="equation">$d =$ density of water, 62 $(lb/ft^3)$</p>
 <p class="equation">$0.13368 =$ unit conversion, GPM to $(ft^3/min)$</p>
