@@ -126,7 +126,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 This calculation tool is for VFD-controlled fans that are operated at two speeds, as well as for a constant speed, constant volume system. Measured input data include hourly average current (in Amps), as directly measured by current transformers, and spot measurements for true power at both high and low speed operation for the supply and return fans in the Fan Motor. If the tool is used for a constant speed, constant volume system, then set the low speed input data to zeroes and enter the all the input data for high speed. 
 
-1. Convert seconds fan is on per our to percent fan is on per hour (Worksheet: "Step 2. Percent Runtime Calcs") for supply and return fans.
+1. Convert seconds fan is on per hour to percent fan is on per hour (Worksheet: "Step 2. Percent Runtime Calcs") for supply and return fans.
 
 <p class="equation equation-center">\begin{equation} \%FanOn_{high,f}(t_{f}) = \begin{cases} 100\% & \text{if } i_{high,f} * (1+\varepsilon) < i_{f}(t_{f}) \\ \frac{i_{f}(t_{f}) - i_{low,f}}{i_{high,f} - i_{low,f}} & \text{if } i_{low,f} * (1+\varepsilon) < i_{f}(t_{f}) < i_{high,f}* (1-\varepsilon) \\ 0\% & \text{if } i_{f}(t_{f}) < i_{low,f} * (1+\varepsilon) \end{cases} \end{equation}</p>
 
@@ -146,7 +146,7 @@ This calculation tool is for VFD-controlled fans that are operated at two speeds
 <p class="equation equation-center">\begin{equation} \overline{\%FanOn}_{s,d,h,f} = \frac{\sum_{n_f=1}^{N_{f}(d,h)} \%FanOn_{s,f}(n)}{N_{f}(d,h)} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{\%FanOn}_{s,d,h,f} =$ Average % time motor is at either low speed or high speed setpoint, s, per hour for given day of wekk, d, and hour of they day, h, for either supple of return fan, %</p>
+<p class="equation">$\overline{\%FanOn}_{s,d,h,f} =$ Average % time motor is at either low speed or high speed setpoint, s, per hour for given day of wekk, d, and hour of the day, h, for either supple of return fan, %</p>
 <p class="equation">$N_{f}(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
 <p class="equation">$n_{f} \in i_{f}(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
 
@@ -217,4 +217,4 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 <p class="step-indent">Where,</p>
 <p class="equation">$E =$ Total energy usage for the Fan Motor, kWh</p>
 
-## Additional Resources 
+## Resources 

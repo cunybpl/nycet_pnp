@@ -109,13 +109,13 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 This calculation tool is for VFD-controlled pumps that are operated at speeds proportional to the heating/cooling load as represented by proxy with OAT. Measured input data include average hourly power draw (kW) as measured by a DENT data logging power logger, and the average hourly OAT as measured by a temperature/RH logger. 
 
-9. Fit a second-order polynomial regression model of true RMW power as a function OAT. (Worksheet: "Step 3. Regression").
+9. Fit a second-order polynomial regression model of true RMS power as a function OAT. (Worksheet: "Step 3. Regression").
 
 <p class="equation equation-center">\begin{equation} P(OAT) = a * OAT^{2} + b * OAT + c \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$P =$ Average hourly true RMS power</p>
-<p class="equation">$a,b,c =$ Regression coefficients$</p>
+<p class="equation">$a,b,c =$ Regression coefficients</p>
 <p class="equation">$OAT =$ Outdoor air temperature, F</p>
 
 10. Average % hour motor is on for each hour of each day of the week (Worksheets: "Step 4. Schedule Calcs" and "Step 5. Daily Ave Schedule Calc").
@@ -132,7 +132,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 <p class="equation">$N(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
 <p class="equation">$n \in t(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of the day, h</p>
 
-11. Total annual pump energy (Woeksheets: "Step 6. Energy Calcs" and "Step 7. Results").
+11. Total annual pump energy (Worksheets: "Step 6. Energy Calcs" and "Step 7. Results").
 
 <p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{t=1}^{8760} P(OAT'(t)) * \overline{\%On}_{d,h}(t) \end{equation}</p>
 
@@ -141,7 +141,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 <p class="equation">$OAT'(t) =$ Hourly climate normal outside air temperature from National Weather Service at station closest to site, F</p>
 <p class="equation">$WeeksChillerOn =$ Cooling season (see Equation 5), weeks</p>
 
-## Additional Resources
+## Resources
 
 For more information on the different types of fans found in AHU systems, please read “Application of Fans in Commercial HVAC Equipment” from the Carrier Corporation: https://www.utcccs-cdn.com/hvac/docs/1001/Public/0F/04-581070-01.pdf 
  

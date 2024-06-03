@@ -12,7 +12,7 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
 
 ## Introduction
 
-The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (kWh.) Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated to a full year and summed to obtain the annual estimate of consumption for the systems. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
+The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not for estimating savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (kWh.) Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated and summed to obtain a full-year estimate. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
 
 The calculation tools will extrapolate data to a full year regardless of how much input data is used, but a minimum of six (6) weeks of data at one-hour intervals is required to adhere to Measurement and Verification standards. If the total fixture inventory for the project is known, data can be used by the calculation tools to determine how much of the lighting load was directly measured, but this data is not necessary for the calculation tools to work. This is useful for someone who only measured a sample of fixtures as part of a sampling plan and wants to compare the annual estimates to the total lighting load. 
 
@@ -74,7 +74,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
                 <p><a href="/calculators/2022_0614_lighting_kwh_panelboard.xlsx" download>Lighting kWh Panelboard Calculator</a></p>
             </td>
             <td>
-                <p>Uses the panel energy use in order to obratin electricity usage.</p>
+                <p>Uses the panel energy use in order to obtain electricity usage.</p>
             </td>
             <td>
                 <p>Lighting Panel Total Energy Use (kWh)</p>
@@ -85,7 +85,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
                 <p><a href="/calculators/2023_0606_lighting_runtime_fixtures.xlsx" download>Lighting Runtime Fixtures Calculator</a></p>
             </td>
             <td>
-                <p>Uses runtime and power draw in order to calculate averafe runtime (hours/day)</p>
+                <p>Uses runtime and power draw in order to calculate average runtime (hours/day)</p>
             </td>
             <td>
                 <ul>
@@ -338,7 +338,7 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation">$kW_{h} =$ Total power at each hour of each day of each week (in kW)</p>
 <p class="equation">$N_{f} =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
 
-3. Calculate the sum of average hourly energy of all circuits (Worksheet: "Stel 3. Avg Energy Calc" column G.)
+3. Calculate the sum of average hourly energy of all circuits (Worksheet: "Step 3. Avg Energy Calc" column G.)
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h,n} = \sum_{c=1}^{4} \overline{kWh}_{d,h,c} \end{equation}</p>
 
@@ -445,7 +445,7 @@ This calculation tool can be used for different fixture types within a single sp
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\%_{daily} =$ Daily average hours the fixtures are on</p>
-<p class="equation">$\%_{hourly} =$ Hourly average perdentage fixtures are on</p>
+<p class="equation">$\%_{hourly} =$ Hourly average percentage fixtures are on</p>
 <p class="equation">$h =$ Hour of the day where 0 is 12:00 a.m. and 23 is 11:00 p.m.</p>
 
 5. Convert percentage to hours to determing hours per day fixtures are on in space being measured (Worksheet: "Step 4. Results").
@@ -458,25 +458,25 @@ This calculation tool can be used for different fixture types within a single sp
 
 6. Calculate the average energy use per weekday (Worksheet: "Step 4. Results").
 
-<p class="equation equation-center">\begin{equation} \overline{kWh}_{Wd,fix1} = \frac{\sum_{d=2}^{6} T_{wd,fix1,d}}{5} * kW_{fix1} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} \overline{kWh}_{Wd,fix1} = \frac{\sum_{d=2}^{6} T_{Wd,fix1,d}}{5} * kW_{fix1} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{Wd,fix1} =$ Average energy consumption during weekdays for fixture type 1 (in kWh)</p>
-<p class="equation">$kW_{fix1} =$ Total fixture power from from Eq. 26 (in kW)</p>
-<p class="equation">$T_{we,fix1,n} =$ Number of hours the fixtures are on for a given d weekday (in hours)</p>
+<p class="equation">$kW_{fix1} =$ Total power draw of single fixture type 1 (in kW)</p>
+<p class="equation">$T_{Wd,fix1,d} =$ Number of hours the fixtures are on for a given d weekday (in hours)</p>
 <p class="equation">$d =$ Day of week (2 = Monday, 3 = Tuesday, ..., 6 = Friday)</p>
 
 7. Calculate the average energy use per weekend day (Worksheet: "Step 4. Results").
 
-<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd,fix1} = \frac{T_{we,fix1,1} + T_{we,fix1,7}}{2} * kW_{fix1} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd,fix1} = \frac{T_{We,fix1,1} + T_{We,fix1,7}}{2} * kW_{fix1} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WEd,fix1} =$ Average consumption during weekend days for fixture type 1 (in kWh)</p>
-<p class="equation">$kW_{fix1} =$ Total fixture power draw from Eq. 26 (in kW)</p>
-<p class="equation">$T_{we,fix1,d} =$ Number of hours the fixtures are on for a given n weekend days (in hours)</p>
+<p class="equation">$kW_{fix1} =$ Total power draw of single fixture type 1 (in kW)</p>
+<p class="equation">$T_{We,fix1,d} =$ Number of hours the fixtures are on for a given d weekend days (in hours)</p>
 <p class="equation">$d =$ Day of week (7 = Saturday, 1 = Sunday)</p>
 
-8. Calculate the annual weekday energy consumption for the foxture type (Worksheet: "Step 4. Results").
+8. Calculate the annual weekday energy consumption for the fixture type (Worksheet: "Step 4. Results").
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WdYr,fix1} = \overline{kWh}_{Wd,fix1} * (261 \hspace{2mm} weekdays \hspace{2mm} per \hspace{2mm} year - X) \end{equation}</p>
 
@@ -485,7 +485,7 @@ This calculation tool can be used for different fixture types within a single sp
 <p class="equation">$\overline{kWh}_{Wd,fix1} =$ Average energy consumption during weekdays for fixture type 1 (in kWh)</p>
 <p class="equation">$X =$ Number of weekdays that are adjusted to use weekend day average energy consumption</p>
 
-9. Calculate the annual weekend energy consumption for the ficture type (Worksheet: "Step 4. Results").
+9. Calculate the annual weekend energy consumption for the fixture type (Worksheet: "Step 4. Results").
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd,Yr,fix1} = \overline{kWh}_{WEd,fix1} * (104 \hspace{2mm} weekend \hspace{2mm} days \hspace{2mm} per \hspace{2mm} year + X) \end{equation}</p>
 
@@ -509,18 +509,16 @@ This calculation tool can be used for different fixture types within a single sp
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{ann} =$ Total annual energy of all measured fixture types (in kWh)</p>
-<p class="equation">$\overline{kWh}_{ann,fix1} = \text{Annual estimated energy consumption of each measured fixture type (in kWh)</p>
+<p class="equation">$\overline{kWh}_{ann,fix1} =$ Annual estimated energy consumption of each measured fixture type (in kWh)</p>
 <p class="equation">$n =$ Number of fixture types measured</p>
 
 ## Hourly Results Worksheet
 
 Measurement data that is input in the calculation tools is used to generate an hourly energy consumption schedule for each hour in each day of the week. The schedule exists in the “Hourly Results” worksheet that is included in all four calculation tools. This data is useful to estimate the heating and cooling effects. CUNY BPL calculation tools do not calculate heating or cooling interactive effects.
 
-## Additional Resources
+## Resources
 
 For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23
-
-## Resources
 
 Richman, EE. (October 2012) “Standard Measurement and Verification Plan for Lighting Retrofit Projects for Buildings and Building Sites.” Richland, WA: Pacific Northwest National Laboratory. 
  
