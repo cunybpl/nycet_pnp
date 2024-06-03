@@ -5,9 +5,11 @@ excerpt: Achieves heat transfer using temperature difference between two liquids
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
   - Air-cooled Chiller
+  - Water-cooled Chiller
   - Waterside Economizer
 related_systems:
   - Air-cooled Chiller
+  - Water-cooled Chiller
   - Waterside Economizer
 layout: guide
 url: "/documents/components/liquid-to-liquid-heat-exchanger"
