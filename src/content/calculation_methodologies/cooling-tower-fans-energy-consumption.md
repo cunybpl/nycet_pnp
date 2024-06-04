@@ -21,6 +21,15 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 
 ## Introduction
 
+This methodology applies to evaporative cooling towers and the ECM is the installation of VFDs on the fan motors. In the pre-retrofit condition, a single- or two-speed fan in each cooling tower cell is run at a constant speed. There are several operating modes for a cooling tower, based upon how much variation is possible with the fan speeds. Cells are turned on or off depending on how much cooling is needed in the building. With two-speed fans, operational optimization occurs by staging each cell to turn on sequentially at low speed until all cells are on, and then begin turning the fans to full speed as the load increases. With single-speed fans, each cell is turned on as the load increases.
+
+
+In a retrofit with VFDs, the fans in all cells are run simultaneously and their speed is modulated based on the cooling load. As fan power is the cube of the fan speed, energy can be saved by running the fans at lower speeds. The speed modulation is controlled in three possible modes: 1) to keep the condenser water entering temperature constant; 2) to keep the approach temperature1 constant; and 3) to minimize overall system power consumption. This methodology only covers the measurement of energy consumption with respect to maintaining a constant condensing water entering temperature.
+
+
+Regardless of the operating sequence of the cells or the speed of the fans, there is usually a minimum water flow per cell and minimum flow per chiller that must be maintained. This guide assumes that the pre- and post-retrofit flow rates through the cooling tower do not change, as would be expected if a VFD was installed on the condenser water pump at the same time as the VFDs on the fans. 
+
+
 ## Calculators
 
 <table>
@@ -94,7 +103,7 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers on each fan in the tower.
 
-1. Convert seconds on per hour to average energy per hour (Worksheet: “Step 2. Energy Calcs”).  Repeat for all fans and then sum to get a total for the cooling tower. Note that since the data loggers cannot be perfectly synched, the time stamp for the dataset for each fan will be different. The workbook time-aligns the datasets.
+1. Convert seconds on per hour to average energy per hour (Worksheet: “Step 2. Energy Calcs”).  Repeat for all fans and then sum to get a total for the cooling tower. Note that since the data loggers cannot be perfectly synced, the time stamp for the dataset for each fan will be different. The workbook time-aligns the datasets.
 
 <p class="equation equation-center">\begin{equation} \overline{E}_{f}(t) = \frac{On_f(t)*P_f}{3600} \end{equation}</p>
 
@@ -202,7 +211,7 @@ This calculation is for a cooling tower with variable-speed fans. Measured input
 
 2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
 
-## Additional Resources
+## Resources
 
 For more information on the different types of fans found in AHU systems, please read “Application of Fans in Commercial HVAC Equipment” from the Carrier Corporation: https://www.utcccs-cdn.com/hvac/docs/1001/Public/0F/04-581070-01.pdf 
  
