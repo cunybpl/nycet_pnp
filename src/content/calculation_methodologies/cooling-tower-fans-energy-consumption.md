@@ -3,7 +3,7 @@ title: Cooling Tower Fans Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 4
-excerpt: Measure the electricity consumed by the pump motor. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. The typical energy consumption of a constant-speed pump is estimated using the simulated yearly schedule of the pump. 
+excerpt: 
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop  

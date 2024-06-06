@@ -132,7 +132,7 @@ The primary energy source in an air-to-air heat exchanger is thermal energy. Tab
     </tbody>
 </table>
 
-## Measurement Strategy 
+### Measurement Strategy 
 
 The measurement strategy for an air-to-air heat exchanger is to measure the heat transfer (Btu/h) from airstream to airstream within the heat exchanger, as well as any energy consuming components associated with the heat exchanger, such as the energy wheel motor. 
 
@@ -154,9 +154,11 @@ Figure 2 shows the measurement points in a rotary wheel heat exchanger.
 </figure>
 </a>
 
-## Calculation Methodology 
+### Calculation Methodology 
 
 The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow.  If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model.  Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.  
+
+{{< calculation_methodology calculation_methodology_id=8 >}}
 
 ## References 
 

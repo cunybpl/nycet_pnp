@@ -113,7 +113,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
     </tbody>
 </table>
 
-## Key Values Needed to Assess Power Consumption for Variable-speed Fan and Motor
+## Evaluation of Energy Consumption
 The primary energy source for a variable-speed fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the variable-speed fan and motor.  
 
 <table>
@@ -178,7 +178,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     </tbody>
 </table>
 
-### Measuring Energy Consumption of Fan and Motor
+### Measurement Strategy
 
 The measurement boundary for quantifying energy consumption for a variable-speed fan and motor is shown in Figure 1 below. 
 
@@ -193,19 +193,11 @@ The measurement strategy for a variable-speed fan and its motor is to measure po
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for VSVV fan and motor>.  
 
-{{< measurement_technique measurement_technique_id=1 >}}
-
-{{< measurement_technique measurement_technique_id=4 >}}
-
-{{< measurement_technique measurement_technique_id=3 >}}
-
-{{< measurement_technique measurement_technique_id=6 >}}
-
 ### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a variable-speed fan and motor is determined by the true RMS power of the 3-phase power supply either at the main electrical panel of the motor or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable (OAT, WBT). Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.  
 
-A more detailed explanation of the calculation methodology can be found in <link to calculation methodology>. 
+{{< calculation_methodology calculation_methodology_id=2 >}} 
   
 ## References
 <!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->

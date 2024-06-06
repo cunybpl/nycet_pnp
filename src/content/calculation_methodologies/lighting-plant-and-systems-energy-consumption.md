@@ -3,7 +3,7 @@ title:  Lighting Plant and Systems Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 3
-excerpt: The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not savings. 
+excerpt:
 related_systems:
   - Electrical Distribution
   - Lighting Fixture

@@ -53,7 +53,7 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
                 <p>Liquid-to-liquid heat exchanger</p>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -91,7 +91,7 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
 </table>
 
 
-## Key Values Needed to Assess Energy Consumption
+## Evaluation of Heat Transfer
 
 In a liquid-to-liquid heat exchanger heat transferred from the liquid with excess heat (waste heat stream) to the liquid where the heat recovered is beneficial to the process (supply stream). This is the principal energy phenomenon that reduces the overall energy usage of the entire plant or system where the heat exchanger is installed. A pump and motor may be needed to move the liquid in the waste heat and supply streams.
 
@@ -173,7 +173,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
     </tbody>
 </table>
 
-## Measuring Supply Stream Flow of Heat Exchanger
+### Measurement Strategy
 
 The measurement strategy for a liquid-to-liquid heat exchanger is to measure the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet of the heat exchanger. The flow rate can be measured at the supply stream pump if one is used in the system. Further information on pump flow measurement strategy can be found < here: Link to the pump flow content>. Measurement points are generically represented in Figure 2.
 
@@ -184,13 +184,11 @@ The measurement strategy for a liquid-to-liquid heat exchanger is to measure the
 </figure>
 </a>
 
-{{< measurement_technique measurement_technique_id=11 >}}
-
-## Calculation Methodology
+### Calculation Methodology
 
 The general methodology for quantifying the useful energy supplied by a liquid-to-liquid heat exchanger is determined by the differential of temperature and rate of flow of the supply stream. These values are multiplied by the heat capacity and density of the liquid (e.g., water, water-glycol mix) to find the energy flow rate. The energy flow rate can be regressed against a controlling variable (such as outdoor air, pump runtime or flow rate) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
 
-{{< calculation_methodology calculation_methodology_id=2 >}}
+{{< calculation_methodology calculation_methodology_id=24 >}}
 
 ## References
 <!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->

@@ -201,7 +201,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
     </tbody>
 </table>
 
-## Key Values Needed to Assess Energy Consumption for Variable-speed Pump and Motor
+## Evaluation of Energy Consumption
 
 The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
@@ -245,7 +245,7 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
     </tbody>
 </table>
 
-### Measuring Energy Consumption of Pump and Motor
+### Measurement Strategy
 
 The measurement boundary for quantifying energy consumption for the VSVV pump motor is shown in Figure 1. 
 
@@ -258,105 +258,11 @@ The measurement strategy for a variable-speed pump and motor is to measure power
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here (link).
 
-{{< measurement_technique measurement_technique_id=1 >}}
-
-{{< measurement_technique measurement_technique_id=6 >}}
-
 ### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a VSVV pump motor is determined by the true RMS power of the three-phase power supply either at the power main for the motor or at the three-phase input to the VFD. These values are regressed against outside air temperature to develop a temperature-dependent regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the system. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed pump.  
-A more detailed explanation of the calculation methodology can be found in <link>.
 
-## Key Values Needed to Assess Variable-Speed Pump Flow
-
-Table 3 provides a summary of the values to measure to quanfity the flow rate through a variable-speed pump.
-
-<table>
-    <caption>Table 3. Key Values and measurements to quantify pump flow.</caption>
-    <thead>
-        <tr>
-            <th>
-                <p><strong>Component Quantification</strong></p>
-            </th>
-            <th>
-                <p><strong>Values to be Quantified</strong></p>
-            </th>
-            <th>
-                <p><strong>Measurement</strong></p>
-            </th>
-        </tr>
-    <tbody>
-        <tr>
-            <td>
-                <p>Flow rate through a variable-speed pump</p>
-            </td>
-            <td>
-                <p>Average hourly through a variable-speed pump</p>
-            </td>
-            <td>
-                <p>Pump flow rate (GPM)</p>
-                <p>If direct flow measurement is not feasible then develop a relationship between motor speed and flow using short-term measurements, and long-term measurements of motor speed:</p>
-                <ul>
-                  <li>Pump curve with motor speed</li>
-                  <li>Short-term flow with motor speed</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Weather temperature</p>
-            </td>
-            <td>
-                <p>Average hourly average outside air temperature (OAT)</p>
-            </td>
-            <td>
-                <p>OAT (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Non-weather dependent operating schedule for a variable-speed pump motor</p>
-            </td>
-            <td>
-                <p>Yearly operating schedule</p>
-            </td>
-            <td>
-                <p>Cuurent tansducer logging as a proxy for motor speed</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-### Measuring Pump Flow of Pump and Motor
-
-The measurement boundary for quantifying water flow rate across a variable-speed pump is shown in Figure 2.
-
-<a href="">
-<figure class="figure">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 2. Measurement boundary to estimate flow through a variable-speed pump">
-  <figcaption class="figure-caption text-left">Figure 2. Measurement boundary to estimate flow through a variable-speed pump</figcaption>
-</figure>
-</a>
-
-The measurement of the VSVVV pump flow rate relies on having access to the specific pump curve for the pump, which is a function of the specific pump model, the impeller diameter, and the horsepower of the pump motor. This information is found on the nameplate of a packaged pump and motor or may be found in the as-built construction documentations. If this data can be accessed, short-term measurements of the pressure differential across the pump at several known speeds can be converted to feet of head, which then can be converted to flow rate using the pump curve. From this information a mathematical relationship can be developed between the pump motor speed and flow rate. Collect hourly average motor speed and associated OAT to develop a relationship between flow rate and OAT. 
-
-If a pump curve is not available and a straight run of piping approximately 17 times the diameter of the pipe is accessible near the pump, flow rate can also be measured with an ultrasonic flow meter at several known motor speeds to develop the motor speed/flow relationship. Collect hourly average motor speed and associated OAT to develop a relationship between flow rate and OAT. 
-
-If pump motor speed cannot be trended by the VFD or BAS, a current transducer and logger can be installed on one leg of the power supply to the motor. A relationship between short-term apparent current and known motor speeds can be developed and used as a proxy for motor speed in the relationships above. A CT and logger are also needed if the speed of the motor is based on the occupancy schedule of the building rather than the OAT. 
-
-Measurement points are generically represented in Figure 2. 
-
-Further details about measurement tools and equipment associated with measurements in Table 3  can be found here (link). 
-
-{{< measurement_technique measurement_technique_id=11 >}}
-
-{{< measurement_technique measurement_technique_id=6 >}}
-
-### Calculation Methodology
-
-As described above, the calculation methodology for VSVV pump flow rate is based on a series of relationships and long-term measurement of the motor speed as a proxy for flow. Average hourly flow rates at different OAT are developed and used with typical weather to develop temperature-dependent pump flows for times when the pumps are operating. The flow rate and operations of a pump are typically used to undertake calculations of the thermal energy being transferred by the plant or system the pump serves (e.g., chilled water plant, hot water boiler, etc.). 
-
-A more detailed explanation of the calculation methodology can be found in <link>. 
+{{< calculation_methodology calculation_methodology_id=6 >}} 
 
 ## References
 <!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
