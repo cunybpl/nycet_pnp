@@ -117,7 +117,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
     </tbody>
 </table>   
 
-## Key Values Needed to Assess Energy Consumption for Constant-speed Constant-volume Fan and Motor 
+## Evaluation of Energy Consumption
 
 The primary energy source for a CSCV fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV fan and motor.  
 
@@ -172,7 +172,7 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     </tbody>
 </table>  
 
-### Measuring Energy Consumption of Fan and Motor
+### Measurement Strategy
 
 The measurement boundary for quantifying energy consumption for the CSCV fan and motor is shown in Figure 1 below. 
 
@@ -190,12 +190,6 @@ If the fans are in a modular configuration (assuming they all run at the same sp
 In some cases, the operational schedule of the motor will be related to the heating or cooling load of the facility. OAT can be used as a proxy variable for the heating and cooling load. OAT can be measured onsite or data from a nearby weather station may also be used for OAT.
 
 Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for CSCV fan and motor> 
-
-{{< measurement_technique measurement_technique_id=4 >}}
-
-{{< measurement_technique measurement_technique_id=2 >}}
-
-{{< measurement_technique measurement_technique_id=3 >}}
 
 ### Calculation Methodology
 
