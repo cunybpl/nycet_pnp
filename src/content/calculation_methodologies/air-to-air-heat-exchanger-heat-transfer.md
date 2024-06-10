@@ -160,9 +160,11 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
             </td>
             <td>
                 <ul>
-                    <li><a href=""></a>Air Temperature (F)</li>
-                    <li><a href=""></a>Relative Air Humidity (%)</li>
-                    <li><a href=""></a>Fan/Motor power (kW)</li>
+                    <li><a href="/documents/measurement-technique/system-air-temperature">System air temperature (F)</a></li>
+                    <li><a href="/documents/measurement-technique/relative-humidity">Relative air humidity (%)</a></li>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Fan motor power (kW)</a></li>
+                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></li>
+                    <li>Air flow rate (ft$^3$/min)</li>
                 </ul>
             </td>
         </tr>
@@ -299,7 +301,7 @@ The following methodology is used to calculate the sensible and latent heat tran
 <p class="step-indent">Where,</p>
 <p class="equation">$Q_3 =$ air flow rate of return air entering the ERV (ft$^3$/min)</p>
 
-### Sensible and Latent Heat Effectiveness
+<h3>Sensible and Latent Heat Effectiveness</h3>
 
 Sensible and latent heat effectiveness has the same conditions as heat transfer where effectiveness should be calculated only when the energy/heat recovery mode is on and the supply fan motor must be running.  
 
@@ -395,7 +397,7 @@ To estimate the full year heat transfer, the occupancy patterns and schedule def
     </tbody>
 </table>
 
-### Regressions 1 and 2
+<h3>Regressions 1 and 2</h3>
 
 There is a cubic relationship between fan motor draw and air flow rate. The equation that describes the relationship between these variables is: 
 
@@ -408,7 +410,7 @@ There is a cubic relationship between fan motor draw and air flow rate. The equa
 
 With this formula, the air flow rate Q2 and Q3 can be projected for the full year by plugging in values for x, the supply fan motor power draw. This data is the measured power draw of the supply and return fan motors.
 
-### Regressions 3 and 4 
+<h3>Regressions 3 and 4</h3> 
 
 These steps yield an assessment of the relationship between the measured air flow rate of supply air leaving the ERV system (Q2) and the sensible and latent heat effectiveness that was calculated in section A.1. The relationship between air flow rate and effectiveness is linear and the equation that describes the relationship is: 
 
@@ -626,10 +628,9 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation">$\overline{kWh}_{supply} =$ esimated annual energy consumption of the supply fan motor (kWh)</p>
 <p class="equation">$\overline{kWh}_{exhaust} =$ estimated annual energy consumption of the exhaust fan motor (kWh)</p>
 
-## Additional Resources 
+## Resources 
 For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23 
- 
-## References 
+
 ASHRAE (2020) “2020 ASHRAE Handbook-HVAC Systems and Equipment” Chapter 26. 
  
 CUNY Building Performance Lab (May 2020). “Quantification of Energy Savings from Implementing Building Re-tuning Recommendations.” (pp. 21–22). New York, NY: Department of Citywide Administrative Services. 

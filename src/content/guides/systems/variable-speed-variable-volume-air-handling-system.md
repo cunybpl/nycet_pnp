@@ -46,7 +46,7 @@ Dampers are generally interlocked and are controlled to supply appropriate quant
 
 A device that includes a damper to control zone specific airflow. A VAV box is sometimes equipped with a fan based on the overall system design. VAV boxes are typically equipped with reheat coils to prevent over-cooling of zones with low cooling loads and high ventilation air requirements.  
 
-## Key Values Needed to Assess Energy Consumption 
+## Evaluation of Energy Consumption 
 
 The energy consumption of a VSVV air handling system is electricity for the fan motors and VFD, thermal energy for heating or cooling across the VSVV AHU heat exchanger and the electricity or thermal energy used at the VAV reheat boxes. Table 1 provides a summary of the components and operating characteristics of a variable speed system. 
 

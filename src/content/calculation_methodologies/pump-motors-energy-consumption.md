@@ -28,7 +28,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-06_chiller_pump_cscv_kwh_pc.xlsx" download>Constant-speed, constant-volume pump energy calculator</a></p>
+                <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-08_chiller_pump_cscv_on_off_pc.xlsx" download>Constant-speed, constant-volume pump energy calculator</a></p>
             </td>
             <td>
                 <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.</p>

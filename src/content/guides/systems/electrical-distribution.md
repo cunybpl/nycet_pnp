@@ -64,7 +64,7 @@ A Mixed electrical panelboard supplies electricity to the lighting fixture syste
     </figure>
 </a>
 
-## Key Values Needed to Assess Energy Consumption
+## Evaluation of Energy Consumption
 
 The electrical distribution system does not consume electricity, but it can be a useful point at which to measure the electrical energy associated with the Lighting Plant.
 

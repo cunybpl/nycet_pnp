@@ -19,6 +19,22 @@ url: "/documents/systems/hot-water-loop"
 
 A hot water heating (HWH) loop system uses hot water produced by a hydronic boiler and circulates it to terminal units (e.g., heating coils in air handling units, radiant equipment) in the facility and then back to the boiler using primary-only or primary-secondary pumps and a piping network.  
 
+<h3>Primary-flow System</h3>
+
+A primary-flow HWH loop system consists of pumps that circulate hot water from the designated zone to the boilers. The components are shown in Figure 1.  Primary pumps are usually headered to allow for the minimum flow through the boiler and there are usually multiple pumps to allow for staging and redundancy; however, a boiler-dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow. 
+
+A constant-primary-flow system usually has a staged heating system and constant speed HWH loop pumps.   
+
+A variable-primary-flow system has primary HWH loop pumps with variable speed drives that regulate the flow of the system based on the heating load of the building. The heating system may be staged or constant. 
+
+<h3>Primary-secondary Flow System</h3>
+
+A system with primary-secondary pumps will have the primary pumps circulate the hot water to a low loss header, while the secondary pumps circulate the hot water to the zones in the facility. The components of a primary-secondary flow system are shown in Figure 2. The following arrangements can be found in a primary-secondary flow system: 
+
+A constant-primary variable-secondary flow system has constant speed pumps that drive the flow through the primary loop and variable-speed pumps of a separate secondary loop that distribute the heating load to the terminal units. The secondary pumps are controlled by the heat load demand in the terminal units. 
+
+A variable-primary variable-secondary flow system has variable-speed pumps on both the primary and secondary loops. They are controlled by the firing rate in the boiler and the heat load demand in the terminal units. 
+
 ## Hot Water Heating Loop Components
 
 The main components associated with the HWH loop system are primary pumps for primary-flow systems, primary and secondary pumps for primary-secondary flow systems, piping network and terminal units.
@@ -29,23 +45,6 @@ The main components associated with the HWH loop system are primary pumps for pr
   <figcaption class="figure-caption text-left">Figure 1. Hot Water Loop Components.</figcaption>
 </figure>
 </a>
-
-### Primary Flow System
-
-A primary-flow HWH loop system consists of pumps that circulate hot water from the designated zone to the boilers. The components are shown in Figure 1.  Primary pumps are usually headered to allow for the minimum flow through the boiler and there are usually multiple pumps to allow for staging and redundancy; however, a boiler-dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow. 
-
-A constant-primary-flow system usually has a staged heating system and constant speed HWH loop pumps.   
-
-A variable-primary-flow system has primary HWH loop pumps with variable speed drives that regulate the flow of the system based on the heating load of the building. The heating system may be staged or constant. 
-
-
-### Primary-secondary flow system
-
-A system with primary-secondary pumps will have the primary pumps circulate the hot water to a low loss header, while the secondary pumps circulate the hot water to the zones in the facility. The components of a primary-secondary flow system are shown in Figure 2. The following arrangements can be found in a primary-secondary flow system: 
-
-A constant-primary variable-secondary flow system has constant speed pumps that drive the flow through the primary loop and variable-speed pumps of a separate secondary loop that distribute the heating load to the terminal units. The secondary pumps are controlled by the heat load demand in the terminal units. 
-
-A variable-primary variable-secondary flow system has variable-speed pumps on both the primary and secondary loops. They are controlled by the firing rate in the boiler and the heat load demand in the terminal units. 
 
 ### Primary HWH Loop Pump and Motor
 
@@ -83,7 +82,7 @@ Radiators are a common terminal unit to distribute heat to space. By routing hot
 
 Convectors are similar to radiators in how energy is received but rely almost exclusively on convection to distribute heat to a space. This leads to a cooler temperature to the touch, as well as a smaller terminal unit. 
 
-## Key Values Needed to Assess Energy Consumption
+## Evaluation of Energy Consumption
 
 The primary energy consumption in a HWH loop is the electricity used to run the pump motors. The heat loss across the piping network contributes to the overall energy consumption for the entire HWH plant, in particular the boiler system. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a HWH loop system. 
 
