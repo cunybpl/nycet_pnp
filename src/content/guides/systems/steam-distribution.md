@@ -70,7 +70,7 @@ Thermostatic traps rely on the temperature difference between the condensate and
 
 If present, a vacuum pump is located after the steam traps and lowers the pressure in the piping network, which increases the rate at which the piping network and terminal units fill with steam, and may allow the boiler to operate at a lower temperature in that putting the system under a vacuum reduces the boiling point of water.
 
-## Key Values Needed to Assess System Performance
+## Evaluation of Energy Consumption
 
 The steam distribution system distributes heat energy, with losses to the non-conditioned environment along the way, but does not inherently consume energy. The exceptions are systems with a vacuum pump, which consumes electricity. Generally the energy related to the steam distribution system is not quantified; instead the energy consumption of the overall low pressure steam plant is quantified. For more information see <a href="/documents/plants/steam-plant"> this link </a>.
 

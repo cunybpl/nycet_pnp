@@ -35,7 +35,7 @@ Typical heat exchangers installed in waterside economizers systems are plate and
 
 Piping can have different arrangements to allow the desirable operation of the waterside economizer.  
 
-## Key Values Needed to Assess Energy Consumption
+## Evaluation of Energy Consumption
 
 The primary effect of waterside economizer is the savings in electricity usage at plant level to meet the cooling load of the building. For more information about the energy consumption of the overall water-cooled chilled water plant see the Protocol and Procedure PnP-P-01: Water-Cooled Chilled Water Plant.
 

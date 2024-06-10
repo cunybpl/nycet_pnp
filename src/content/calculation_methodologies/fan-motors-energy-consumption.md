@@ -32,7 +32,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/air-handling-unit/2023_0227_PnP-EC-18_ahu_fan_cscv_1_speed_kwh_lc.xlsx" download>Constant-speed, constant-volume single-speed fan energy calculator</a></p>
+                <p><a href="/calculators/air-handling-unit/2023_0214_PnP-EC-16_ahu_fan cscv_on_off_lc.xlsx" download>Constant-speed, constant-volume single-speed fan energy calculator</a></p>
             </td>
             <td>
                 <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV single-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>

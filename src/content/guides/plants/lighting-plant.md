@@ -50,7 +50,7 @@ The light fixture system is comprised of the luminaires, lamps, and controls. Co
     </figure>
 </a>
 
-## Key Values Needed to Assess Energy Consumption
+## Evaluation of Energy Consumption
 
 To quantify the energy consumption of the lighting plant, the components of all lighting systems should be measured. Some facilities may have a combination of the above-mentioned systems and a level of engineering judgement will be necessary to determine how much of what to measure.
 

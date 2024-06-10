@@ -40,7 +40,7 @@ Condensate pumps are responsible for moving condensate from the receiver tank(s)
 
 The pipe network of a condensate recovery system transports flash steam and condensate. Designs should consider differential of pressure between different lines. It is usually covered with insulation material to minimize heat losses with the environment.
 
-## Key Values Needed to Assess System Performance
+## Evaluation of Energy Consumption
 
 The primary effect of the condensate recovery system on the steam plant is to minimize heat losses and manage condensate that could otherwise be damaging to the steam plant. Generally, the energy related to the condensate system is not quantified; instead, the energy consumption of the overall low-pressure steam plant is quantified. For more information, see <a href="/documents/plants/steam-plant"> this link </a>.
 

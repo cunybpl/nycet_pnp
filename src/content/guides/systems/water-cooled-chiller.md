@@ -17,11 +17,11 @@ url: "/documents/systems/water-cooled-chiller"
 
 The water-cooled chiller system produces chilled water through the basic refrigeration cycle and consists of an evaporator, a compressor, a condenser, and an expansion valve. The system can be constant-speed or variable-speed.
 
-### Constant-speed Water-cooled Chiller
+<h3>Constant-speed System</h3>
 
 A constant-speed water-cooled chiller has a compressor motor that runs at a constant speed based on the total capacity of the chiller and adjusts the refrigerant flow with modulating vanes in the compressor when partial capacity of the chiller is needed.
 
-### Variable-speed Water-cooled Chiller
+<h3>Variable-speed System</h3>
 
 A variable-speed water-cooled chiller has a variable frequency drive on the compressor motor and can reduce the speed of the compressor during partial load conditions. 
 
@@ -52,7 +52,7 @@ The condenser rejects heat from the refrigerant to the condenser water loop thro
 
 The expansion valve depressurizes the warm refrigerant between the condenser and evaporator to reduce the temperature of the refrigerant, then the cold refrigerant is delivered to the evaporator to pick up more heat from the chilled water loop. 
 
-## Key Values and Components Needed to Assess Energy Consumption
+## Evaluation of Energy Consumption
 
 The primary energy consumption in a water-cooled chiller is the electricity used by the compressor motor and its controls. Thermal energy rejected by the chiller to the outdoors can be measured to evaluate the overall performance of the chiller, which can be expressed as kilowatts of power consumption per ton of cooling provided (kW/ton). Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a water-cooled chiller. 
 

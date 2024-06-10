@@ -42,7 +42,7 @@ The heat exchanger includes a set of heating and cooling coils which provide hea
 
 Dampers are generally interlocked and are controlled to supply appropriate quantities of fresh air to the AHU and exhaust air to the outdoors. The dampers can also be set to maintain desired building pressures.  
 
-## Key Values Needed to Assess Energy Consumption 
+## Evaluation of Energy Consumption
 
 The primary energy consumption of a CSCV is the electricity that is used to run the fan and motor and the energy transferred to the air for heating and cooling. Table 1 provides a summary of measurements needed to quantify the annual consumption and operating characteristics of the CSCV pump and motor. 
 

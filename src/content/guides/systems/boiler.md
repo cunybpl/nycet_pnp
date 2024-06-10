@@ -50,7 +50,7 @@ The main function of the burner is to deliver fuel and air, mix them in the requ
 
 Mechanical draft boilers usually have a draft fan that creates the required pressure difference. It is driven by a motor to provide oxygen to the combustion chamber for adequate combustion.   
 
-## Key Values Needed to Assess Energy Consumption
+## Evaluation of Energy Consumption
 
 The boiler is one of the largest energy consuming systems in any heating plant. The key energy consuming components of a boiler system are the burner and draft fan (if present). The energy consumed is primarily in the form of liquid fuel or natural gas, however there may be electricity consumption via the draft fan.
 

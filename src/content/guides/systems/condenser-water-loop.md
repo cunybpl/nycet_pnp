@@ -23,15 +23,15 @@ url: "/documents/systems/condenser-water-loop"
 
 A condenser water (CW) loop consists of a CW pump and motor, an evaporative cooling tower with a fan and motor, and a CW piping network. The CW loop system is designed to reject the heat given off by the condenser side of the chiller. A CW loop can have the following configurations:
 
-### Variable-speed Fans and Constant-flow Condenser Water Loop
+<h3>Variable-speed Fans and Constant-flow System</h3>
 
 A variable-speed constant-flow CW loop consists of variable-speed cooling tower fans and constant-speed CW pumps. 
 
-### Variable-speed Fans and Variable-flow Condenser Water Loop
+<h3>Variable-speed Fans and Variable-flow System</h3>
 
 A variable-speed variable-flow CW loop consists of variable-speed CW pumps and a cooling tower with variable-speed fans. 
 
-### Constant-speed Fans and Constant-flow Condenser Water Loop
+<h3>Constant-speed Fans and Constant-flow System</h3>
 
 A constant-speed constant-flow CW loop consists of constant-speed cooling tower fans and constant-speed CW pumps.
 
@@ -56,7 +56,14 @@ A constant-speed CW pump provides a fixed flow to the cooling tower and chiller,
 An evaporative cooling tower rejects heat from the condenser section of the chiller, using forced airflow and the latent heat of evaporation to provide the cooling effect on the condenser water. A colling tower may have one or more sections (called cells) and each cell typically has one fan and motor. The cooling tower fan and motor may operate at a constant or variable speed. 
 The overall cooling capacity of the condenser water loop in a cooling tower with multiple cells and constant speed fans and motors is controlled by staging (turning on) the cells. Cooling towers with variable speed fans and motors generally operate the fans at the lowest speed possible and stage fans based on the overall CW heat rejection needed to satisfy the specific sequence of operation of the chilled water plant. 
 
-## Key Values Needed to Assess Energy Consumption
+<a href="/images/systems/condenser-water-loop/2024_0509_CW system_figure 2 updated.jpg">
+<figure class="figure">
+  <img src="/images/systems/condenser-water-loop/2024_0509_CW system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Evaporative Cooling Tower.">
+  <figcaption class="figure-caption text-left">Figure 2. Evaporative Cooling Tower.</figcaption>
+</figure>
+</a>
+
+## Evaluation of Energy Consumption
 
 The primary energy consumption of a condenser water loop is the electricity used for the pump motors and the cooling tower fans. Table 1 provides a summary of system component measurements and value calculations needed to quantify the annual energy consumption and operating characteristics of a CW loop.
 
@@ -186,8 +193,8 @@ The measurements for the condenser water loop are schematically shown in Figure 
 
 <a href="/images/systems/condenser-water-loop/2024_0502_CW system_figure 3 updated.jpg">
 <figure class="figure">
-  <img src="/images/systems/condenser-water-loop/2024_0502_CW system_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Condenser water loop system measurement points.">
-  <figcaption class="figure-caption text-left">Figure 2. Condenser water loop system measurement points.</figcaption>
+  <img src="/images/systems/condenser-water-loop/2024_0502_CW system_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Condenser water loop system measurement points.">
+  <figcaption class="figure-caption text-left">Figure 3. Condenser water loop system measurement points.</figcaption>
 </figure>
 </a>
 

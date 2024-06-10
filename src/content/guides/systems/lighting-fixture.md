@@ -47,7 +47,7 @@ The fixture housing is the physical receptacle that houses the lamp and ballast.
 
 Controls regulate the operation of the light fixtures, such as when they are turned on and off and their brightness. Controls can be manual or automatic. Manual controls are wall switches within a space and circuit breakers at the electrical panelboard and switchgear. Automatic controls use sensors and/or timers to determine when and how to regulate the fixture operation. The two most common sensors used in lighting controls are motion sensors, which approximate when a space is occupied or not and daylight sensors which determine when natural sources are providing enough light for the fixtures to be turned off or dimmed.  Some automatic controls have their own control panel that is wired directly to the circuits at the lighting panelboards or the ballasts of individual fixtures.
 
-## Key Values Needed to Assess Energy Consumption
+## Evaluation of Energy Consumption
 
 Electricity is the energy source for all modern lighting systems. Table 1 provides a summary of system component measurements and values needed to quantify the hourly energy consumption and operating characteristics of a lighting fixture system.  
 

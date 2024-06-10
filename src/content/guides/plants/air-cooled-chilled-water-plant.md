@@ -48,7 +48,7 @@ A chilled water loop system consists of a closed loop distribution system that s
     </figure>
 </a>
 
-## Key Values Needed to Assess Energy Consumption
+## Evaluation of Energy Consumption
 
 The primary energy consumption of an air-cooled chilled water plant is the sum of the energy consumption of the components of each system. The thermal energy rejected from the building to the outdoors can also be measured to evaluate the overall performance of the plant, usually in kilowatts of power consumer per ton of cooling provided (kW/ton). Table 1  provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of an air-cooled chilled-water plant. 
 
