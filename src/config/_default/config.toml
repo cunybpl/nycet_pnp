@@ -289,12 +289,11 @@ bplURL = "https://cunybpl.org/"
 nycDcasLogo = "images/site-navigation/nyc_dcas_logo.png"
 nycDcasURL = "https://www.nyc.gov/site/dcas/about/our-mission.page"
 logo = "images/site-navigation/nyc_logo.png"
-disqusShortname = "pez-ai"
 contactPersonName = "Felix Rodriguez"
 contactPersonEmail = "frodriguez3@ccny.cuny.edu"
 municipalLibraryLocation = "31 Chambers St, New York, NY 10007"
 dropOffLocation = "96 Greenwich Street, 4th Floor, New York, NY 10006"
-wordpressWebsiteURL = "https://nycetdev.wpengine.com/"
+wordpressWebsiteURL = "https://nycenergytools.com/"
 
 # Social icons
 [[params.social]]
