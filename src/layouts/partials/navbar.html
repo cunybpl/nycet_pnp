@@ -10,11 +10,11 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-      <ul class="nav navbar-nav main-navigation my-0" style="display: flex; justify-content: center; align-items: center; gap:1rem">
-        <li class="nav-item mx-1">
+      <ul class="nav navbar-nav main-navigation my-0" style="display: flex; justify-content: center; align-items: center; gap:0.75rem">
+        <li class="nav-item">
           <a class="nav-link nav-btn" href="/about">About</a>
         </li>
-        <li class="nav-item mx-1">
+        <li class="nav-item">
           <a class="nav-link nav-btn" href="/getting-started">Getting Started</a>
         </li>
         {{ $current := . }}
@@ -25,11 +25,33 @@
         {{ $active := or $active (eq (trim .URL "/" | lower ) (lower $current.Type)) }}
         {{ $active := or $active (eq (replace .URL "-" "" | lower) (lower $current.Type)) }}
         {{ if .HasChildren }}
+        <li class="nav-item">
+          <a 
+            href="{{ $wordpress_website_url }}{{ .URL }}"
+            id="navbarDropdownMenuLink" 
+            class="nav-link dropdown-toggle nav-link_label {{ if $active }} active {{ end }} text-sm-center p-2 {{ if $.IsHome }}scroll{{ end }}"
+          >
+            {{ .Name }}
+          </a>
+          <div class="nav-sub-menu" aria-labelledby="navbarDropdownMenuLink">
+            {{ range .Children }}
+              <a 
+                class="dropdown-item" 
+                href="{{ $wordpress_website_url }}{{ .URL }}"{{ if $.IsHome }} 
+                data-target="{{ $wordpress_website_url }}{{ .URL }}"{{ end }}
+              >
+              <span class="">{{ .Name }}</span>
+            </a>
+            {{ end }}
+          </div>
+        </li>
+        {{ else }}
         <li class="nav-item mx-1">
             {{ if eq .Params.type "icon" }}
             <a class="nav-link nav-link_label" style="font-size: larger !important;" href="{{ $wordpress_website_url }}{{ .Params.link }}">
               <i class="fa {{ .Params.icon }}" ></i>
             </a>
+            
             {{ else }}
             <a 
               href="{{ $wordpress_website_url }}{{ .URL }}"
@@ -42,6 +64,9 @@
         </li>
         {{ end }}
         {{ end }}
+        <!-- <a class="nav-link login-btn ml-3" href="{{ $wordpress_website_url }}login/">
+          Login
+        </a> -->
       </ul>
     </div>
   </div>
