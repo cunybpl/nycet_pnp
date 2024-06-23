@@ -3,7 +3,7 @@ title: Outdoor Air Temperature
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 6
-excerpt: This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (OF) at one-hour intervals.
+excerpt: This technique uses weatherproof data loggers to measure outside air temperature (OAT) at one-hour intervals.
 thumbnail_image: "/images/measurement-technique/outside-air-temperature/2024_0410_outdoor air temperature MT_thumbnail.jpeg"
 related_systems:
   - Chilled Water Loop 
@@ -63,7 +63,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 <a href="https://www.youtube.com/embed/D178xIAkoUA?si=2dEZ_k-hlvfSiECA">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/outside-air-temperature/outside air temperature figure 1.png" class="figure-img img-fluid rounded zoom" alt="Figure 1. How to configure on HOBOConnect.">
+  <img src="/images/measurement-technique/outside-air-temperature/Outdoor Air Temperature Figure 1 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 1. How to configure on HOBOConnect.">
   <figcaption class="figure-caption text-left">Figure 1. How to configures on HOBOConnect.</figcaption>
 </figure>
 </a>
@@ -79,14 +79,14 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/outside-air-temperature/outside air temperature figure 2.png" class="figure-img img-fluid rounded zoom" alt="Figure 2. Onset HOBO MX2301 installed next to the outside air damper in the ductwork of an AHU.">
+  <img src="/images/measurement-technique/outside-air-temperature/Outdoor Air Temperature Figure 2 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 2. Onset HOBO MX2301 installed next to the outside air damper in the ductwork of an AHU.">
   <figcaption class="figure-caption text-left">Figure 2. Onset HOBO MX2301 installed next to the outside air damper in the ductwork of an AHU.</figcaption>
 </figure>
 </a>
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/outside-air-temperature/outside air temperature figure 3.png" class="figure-img img-fluid rounded zoom" alt="Figure 3. Onset HOBO MX2301 logger installed outdoors with zip ties.">
+  <img src="/images/measurement-technique/outside-air-temperature/Outdoor Air Temperature Figure 3 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 3. Onset HOBO MX2301 logger installed outdoors with zip ties.">
   <figcaption class="figure-caption text-left">Figure 3. Onset HOBO MX2301 installed outdoores with zip ties</figcaption>
 </figure>
 </a>
@@ -104,7 +104,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 <a href="https://www.youtube.com/watch?v=EOb9EqQcRXY&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=3">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/outside-air-temperature/outside air temperature figure 4.png" class="figure-img img-fluid rounded zoom" alt="Figure 4. Plot graph of OAT data from the Onset HOBO MX2301 logger. Software used is HOBOConnect.">
+  <img src="/images/measurement-technique/outside-air-temperature/Outdoor Air Temperature Figure 4 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 4. Plot graph of OAT data from the Onset HOBO MX2301 logger. Software used is HOBOConnect.">
   <figcaption class="figure-caption text-left">Figure 4. Plot graph of OAT data from the Onset HOBO MX2301 logger. Software used is HOBOConnect.</figcaption>
 </figure>
 </a>
@@ -122,7 +122,7 @@ After verifying that the logger is collecting data, do the following:
 
 <a href="https://www.youtube.com/watch?v=sF_c_7LHR5s&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=4">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/outside-air-temperature/outside air temperature figure 5.png" class="figure-img img-fluid rounded zoom" alt="Figure 5. Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.">
+  <img src="/images/measurement-technique/outside-air-temperature/Outdoor Air Temperature Figure 5 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 5. Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.">
   <figcaption class="figure-caption text-left">Figure 5. Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.</figcaption>
 </figure>
 </a>

@@ -3,7 +3,7 @@ title: Pipe Surface Water Temperature
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 16
-excerpt: This technique uses a 4-channel analog logger with a thermocouple sensor to take long-term measurements of water temperature (oF) at one-hour intervals.
+excerpt: This technique uses a 4-channel analog logger with a thermocouple sensor to take measurements of water temperature in piping networks at one-hour intervals.
 thumbnail_image: "/images/measurement-technique/pipe-surface-water-temperature/2024_0410_pipe surface water temperature MT_thumbnail.jpeg"
 related_systems:
 related_components: 
@@ -44,7 +44,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 <a href="https://www.youtube.com/watch?v=fUjz0qj7GVM&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa">
 <figure class="figure">
-  <img src="/images/measurement-technique/pipe-surface-water-temperature/pipe surface water temperature figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1: How to configure the 4-channel analog logger & Onset Current Transducer using HOBOware">
+  <img src="/images/measurement-technique/pipe-surface-water-temperature/Pipe Surface Water Temperature Figure 1 Updated.png" class="figure-img img-fluid rounded" alt="Figure 1: How to configure the 4-channel analog logger & Onset Current Transducer using HOBOware">
   <figcaption class="figure-caption text-left">Figure 1: How to configure the 4-channel analog logger & Onset Current Transducer using HOBOware</figcaption>
 </figure>
 </a>
@@ -60,14 +60,14 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 <a href="https://www.youtube.com/watch?v=FWgM0-VSlEQ&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=2">
 <figure class="figure">
-  <img src="/images/measurement-technique/pipe-surface-water-temperature/pipe surface water temperature figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2: Data logger placed on a chiller with two thermocouple sensors connected to it. Data logger in use is the Onset HOBO 4-Channel analog logger (UX120-14M).">
+  <img src="/images/measurement-technique/pipe-surface-water-temperature/Pipe Surface Water Temperature Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2: Data logger placed on a chiller with two thermocouple sensors connected to it. Data logger in use is the Onset HOBO 4-Channel analog logger (UX120-14M).">
   <figcaption class="figure-caption text-left">Figure 2: Data logger placed on a chiller with two thermocouple sensors connected to it. Data logger in use is the Onset HOBO 4-Channel analog logger (UX120-14M).</figcaption>
 </figure>
 </a>
 
 <a href="https://www.youtube.com/watch?v=MCP9YBEGtrE&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=3">
 <figure class="figure">
-  <img src="/images/measurement-technique/pipe-surface-water-temperature/pipe surface water temperature figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3: Thermocouple sensor taped to the pipe surface of a chilled water return line. The sensor in use is the TC6-T.">
+  <img src="/images/measurement-technique/pipe-surface-water-temperature/Pipe Surface Water Temperature Figure 3 Updated.png" class="figure-img img-fluid rounded" alt="Figure 3: Thermocouple sensor taped to the pipe surface of a chilled water return line. The sensor in use is the TC6-T.">
   <figcaption class="figure-caption text-left">Figure 3: Thermocouple sensor taped to the pipe surface of a chilled water return line. The sensor in use is the TC6-T.</figcaption>
 </figure>
 </a>
@@ -85,7 +85,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 <a href="https://www.youtube.com/watch?v=KyLO5ARQbuA&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=4">
 <figure class="figure">
-  <img src="/images/measurement-technique/pipe-surface-water-temperature/pipe surface water temperature figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4: Plot graph of data of a chiller system supply and return line. HOBOware Free is the software used to setup the logger and extract data. This logger had two sensors connected to it and results in two separate measurements as shown on the plot graph.">
+  <img src="/images/measurement-technique/pipe-surface-water-temperature/Pipe Surface Water Temperature Figure 4 Updated.png" class="figure-img img-fluid rounded" alt="Figure 4: Plot graph of data of a chiller system supply and return line. HOBOware Free is the software used to setup the logger and extract data. This logger had two sensors connected to it and results in two separate measurements as shown on the plot graph.">
   <figcaption class="figure-caption text-left">Figure 4: Plot graph of data of a chiller system supply and return line. HOBOware Free is the software used to setup the logger and extract data. This logger had two sensors connected to it and results in two separate measurements as shown on the plot graph.</figcaption>
 </figure>
 </a>
@@ -104,7 +104,7 @@ After verifying that the logger is collecting data, do the following:
 
 <a href="https://www.youtube.com/watch?v=47hqmeOh5X4&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=5">
 <figure class="figure">
-  <img src="/images/measurement-technique/pipe-surface-water-temperature/pipe surface water temperature figure 5.png" class="figure-img img-fluid rounded" alt="Figure 5: Final data table. Data was extracted from the logger using HOBOware free and exported for analysis. This data set contains two columns of temperature data, one for each sensor that was used.">
+  <img src="/images/measurement-technique/pipe-surface-water-temperature/Pipe Surface Water Temperature Figure 5 Updated.png" class="figure-img img-fluid rounded" alt="Figure 5: Final data table. Data was extracted from the logger using HOBOware free and exported for analysis. This data set contains two columns of temperature data, one for each sensor that was used.">
   <figcaption class="figure-caption text-left">Figure 5: Final data table. Data was extracted from the logger using HOBOware free and exported for analysis. This data set contains two columns of temperature data, one for each sensor that was used.</figcaption>
 </figure>
 </a>

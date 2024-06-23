@@ -3,7 +3,7 @@ title: Motor Runtime
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 4
-excerpt: Use data loggers to take long-term measurements of the runtime duration for a constant or dual-speed motor. This technique can be used on motors with any end-use, including both air and water distribution.
+excerpt: This technique uses data loggers to measure the duration a motor remains on. This is applicable to any motor including compressor, fan and pump motors.
 thumbnail_image: "/images/measurement-technique/motor-runtime/2024_0410_motor runtime MT_thumbnail.jpeg"
 related_systems:
   - Boiler
@@ -59,7 +59,7 @@ An example of how to setup the UX90-004 Onset HOBO Motor runtime logger is shown
 
 <a href="https://www.youtube.com/embed/J472dkp5D3g?si=vlqnvQ-ophL4v08h">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/Motor-Runtime-Video-1.jpg" class="figure-img img-fluid rounded zoom" alt="Video on how to set up HOBO Motor Runtime Logger.">
+  <img src="/images/measurement-technique/motor-runtime/Motor Runtime Figure 1 Updated.png" class="figure-img img-fluid rounded zoom" alt="Video on how to set up HOBO Motor Runtime Logger.">
   <figcaption class="figure-caption text-left">Figure 1. Video on how to set up HOBO Motor Runtime Logger.</figcaption>
 </figure>
 </a>
@@ -73,7 +73,7 @@ An example of how to setup the UX90-004 Onset HOBO Motor runtime logger is shown
 
 <a href="https://www.youtube.com/watch?v=zQBLq7Wonqw">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/UX90-004-installed-on-pump-motor-casing.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.">
+  <img src="/images/measurement-technique/motor-runtime/Motor Runtime Figure 2 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 1. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.">
   <figcaption class="figure-caption text-left">Figure 2. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.</figcaption>
 </figure>
 </a>
@@ -92,7 +92,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 <a href="https://www.youtube.com/watch?v=JkNpQ81sdcQ">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/graph-of-motor-runtime-data.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.">
+  <img src="/images/measurement-technique/motor-runtime/Motor Runtime Figure 3 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 2. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.">
   <figcaption class="figure-caption text-left">Figure 3. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.</figcaption>
 </figure>
 </a>
@@ -108,7 +108,7 @@ After verifying that the logger is collecting data, do the following:
 
 <a href="https://www.youtube.com/watch?v=M_ky5lMORBk">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/Final data table.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 3. Final data table in .csv format. Data was extracted from the logger using HOBOware Free and exported for analysis.">
+  <img src="/images/measurement-technique/motor-runtime/Motor Runtime Figure 4 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 3. Final data table in .csv format. Data was extracted from the logger using HOBOware Free and exported for analysis.">
   <figcaption class="figure-caption text-left">Figure 4. Final data table in .csv format. Data was extracted from the logger using HOBOware Free and exported for analysis.</figcaption>
 </figure>
 </a>
