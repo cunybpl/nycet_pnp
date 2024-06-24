@@ -3,7 +3,7 @@ title: Electrical Current
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 3
-excerpt: This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals.
+excerpt: This technique uses a data logger and current transformers to take measurements of electrical current (Amps) at the electrical distribution system such as a panelboard at one-hour intervals.
 thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_electrical current MT_thumbnail.jpeg"
 associated_systems:
   - Air-cooled Chiller
@@ -71,6 +71,13 @@ An example of how to setup the Onset HOBO 4-channel analog logger (UX120-006M) i
 
 <iframe class ="video" src="https://www.youtube.com/embed/fUjz0qj7GVM?si=tSIiXYE0bUuRB5LX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<a href="https://www.youtube.com/embed/fUjz0qj7GVM?si=tSIiXYE0bUuRB5LX">
+<figure class="figure">
+  <img src="/images/measurement-technique/electrical_current/Electrical Current Figure 1 Updated.png" class="figure-img img-fluid rounded" alt="Figure 1. Setting up Onset HOBO 4-Channel analog logger (UX120-006M).">
+  <figcaption class="figure-caption text-left">Figure 1. Setting up Onset HOBO 4-Channel analog logger (UX120-006M).</figcaption>
+</figure>
+</a>
+
 ### 2. Installation of Equipment
 
 <ul>
@@ -85,7 +92,7 @@ An example of how to setup the Onset HOBO 4-channel analog logger (UX120-006M) i
 
 <a href="https://youtu.be/FWgM0-VSlEQ?si=rFLFwPDXpXN7iOLy">
 <figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/electrical_current_figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Onset HOBO 4-Channel analog logger (UX120-006M) connected on a panelboard.">
+  <img src="/images/measurement-technique/electrical_current/Electrical Current Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2. Onset HOBO 4-Channel analog logger (UX120-006M) connected on a panelboard.">
   <figcaption class="figure-caption text-left">Figure 2. Onset HOBO 4-Channel analog logger (UX120-006M) connected on a panelboard.</figcaption>
 </figure>
 </a>
@@ -118,7 +125,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 <a href="https://youtu.be/KyLO5ARQbuA?si=r91vAKoqICA1lKNQ">
 <figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/electrical_current_figure6.png" class="figure-img img-fluid rounded" alt="Figure 6. Plot graph of measured current for a power panel that serves a lighting system. Software in use is HOBOware Free.">
+  <img src="/images/measurement-technique/electrical_current/Electrical Current Figure 6 Updated.png" class="figure-img img-fluid rounded" alt="Figure 6. Plot graph of measured current for a power panel that serves a lighting system. Software in use is HOBOware Free.">
   <figcaption class="figure-caption text-left">Figure 6. Plot graph of measured current for a power panel that serves a lighting system. Software in use is HOBOware Free.</figcaption>
 </figure>
 </a>
@@ -137,7 +144,7 @@ After verifying that the logger is collecting data, do the following:
 
 <a href="https://youtu.be/47hqmeOh5X4?si=RSfef24Fo98Co7hS">
 <figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/electrical_current_figure7.png" class="figure-img img-fluid rounded" alt="Figure 7. Final data table in .csv format. Data was extracted from the logger using HOBOware free and exported for analysis.">
+  <img src="/images/measurement-technique/electrical_current/Electrical Current Figure 7 Updated.png" class="figure-img img-fluid rounded" alt="Figure 7. Final data table in .csv format. Data was extracted from the logger using HOBOware free and exported for analysis.">
   <figcaption class="figure-caption text-left">Figure 7. Final data table in .csv format. Data was extracted from the logger using HOBOware free and exported for analysis.</figcaption>
 </figure>
 </a>

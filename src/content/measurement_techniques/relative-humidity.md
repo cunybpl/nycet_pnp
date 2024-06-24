@@ -3,7 +3,7 @@ title: Relative Humidity
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 8
-excerpt: This technique uses data loggers to take long-term measurements of relative humidity (% RH) at one-hour intervals.
+excerpt: This technique uses data loggers to measure ments of relative humidity (% RH) of outdoor air and air handling units air streams at one-hour intervals.
 thumbnail_image: "/images/measurement-technique/relative-humidity/2024_0410_relative humidity MT_thumbnail.jpeg"
 related_systems:
 related_components:
@@ -46,7 +46,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 <a href="https://www.youtube.com/watch?v=D178xIAkoUA&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=1">
 <figure class="figure">
-  <img src="/images/measurement-technique/relative-humidity/relative humidity figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1: Configuring MX2301 Logger using HOBOconnect">
+  <img src="/images/measurement-technique/relative-humidity/Relative Humidity Figure 1 Updated.png" class="figure-img img-fluid rounded" alt="Figure 1: Configuring MX2301 Logger using HOBOconnect">
   <figcaption class="figure-caption text-left">Figure 1: Configuring MX2301 Logger using HOBOconnect</figcaption>
 </figure>
 </a>
@@ -58,16 +58,16 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 <li>Place the logger inside of the air duct as close as possible to the outside air damper. Alternatively install the logger on the roof or somewhere with little foot traffic and away from direct sunlight.</li>
 </ul>
 
-<a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2 ">
+<a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2">
 <figure class="figure">
-  <img src="/images/measurement-technique/relative-humidity/relative humidity figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2: Data logger installed next to the outside air damper in the ductwork of an AHU. The data logger in use is the Onset HOBO MX2301.">
+  <img src="/images/measurement-technique/relative-humidity/Relative Humidity Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2: Data logger installed next to the outside air damper in the ductwork of an AHU. The data logger in use is the Onset HOBO MX2301.">
   <figcaption class="figure-caption text-left">Figure 2: Data logger installed next to the outside air damper in the ductwork of an AHU. The data logger in use is the Onset HOBO MX2301.</figcaption>
 </figure>
 </a>
 
-<a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2 ">
+<a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2">
 <figure class="figure">
-  <img src="/images/measurement-technique/relative-humidity/relative humidity figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3: Onset HOBO MX2301 logger installed outdoors with zip ties.">
+  <img src="/images/measurement-technique/relative-humidity/Relative Humidity Figure 3 Updated.png" class="figure-img img-fluid rounded" alt="Figure 3: Onset HOBO MX2301 logger installed outdoors with zip ties.">
   <figcaption class="figure-caption text-left">Figure 3: Onset HOBO MX2301 logger installed outdoors with zip ties. </figcaption>
 </figure>
 </a>
@@ -82,14 +82,14 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2">
 <figure class="figure">
-  <img src="/images/measurement-technique/relative-humidity/relative humidity figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4: Access panel removed. Data logger is installed on the inside of the access panel. Data logger in use is the Onset HOBO UX-100-001 temperature/RH.">
+  <img src="/images/measurement-technique/relative-humidity/Relative Humidity Figure 4 Updated.png" class="figure-img img-fluid rounded" alt="Figure 4: Access panel removed. Data logger is installed on the inside of the access panel. Data logger in use is the Onset HOBO UX-100-001 temperature/RH.">
   <figcaption class="figure-caption text-left">Figure 4: Access panel removed. Data logger is installed on the inside of the access panel. Data logger in use is the Onset HOBO UX-100-001 temperature/RH. </figcaption>
 </figure>
 </a>
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2">
 <figure class="figure">
-  <img src="/images/measurement-technique/relative-humidity/relative humidity figure 5.png" class="figure-img img-fluid rounded" alt="Figure 5: 3D representation of an AHU with the direction of air streams. One data logger must be used for each air stream, if necessary and one data logger (depending on the model) can measure temperature and humidity at the same time.">
+  <img src="/images/measurement-technique/relative-humidity/Relative Humidity Figure 5 Updated.png" class="figure-img img-fluid rounded" alt="Figure 5: 3D representation of an AHU with the direction of air streams. One data logger must be used for each air stream, if necessary and one data logger (depending on the model) can measure temperature and humidity at the same time.">
   <figcaption class="figure-caption text-left">Figure 5: 3D representation of an AHU with the direction of air streams. One data logger must be used for each air stream, if necessary and one data logger (depending on the model) can measure temperature and humidity at the same time.</figcaption>
 </figure>
 </a>
@@ -108,7 +108,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 <a href="https://www.youtube.com/watch?v=EOb9EqQcRXY&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=3">
 <figure class="figure">
-  <img src="/images/measurement-technique/relative-humidity/relative humidity figure 6.png" class="figure-img img-fluid rounded" alt="Figure 6: Plot graph of data from the Onset HOBO MX2301 logger. HOBOConnect app is the software used to setup the logger and extract data from the MX2301 logger.">
+  <img src="/images/measurement-technique/relative-humidity/Relative Humidity Figure 6 Updated.png" class="figure-img img-fluid rounded" alt="Figure 6: Plot graph of data from the Onset HOBO MX2301 logger. HOBOConnect app is the software used to setup the logger and extract data from the MX2301 logger.">
   <figcaption class="figure-caption text-left">Figure 6: Plot graph of data from the Onset HOBO MX2301 logger. HOBOConnect app is the software used to setup the logger and extract data from the MX2301 logger.</figcaption>
 </figure>
 </a>
@@ -124,7 +124,7 @@ After verifying the logger is collecting data, do the following:
 
 <a href="https://www.youtube.com/watch?v=sF_c_7LHR5s&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=4">
 <figure class="figure">
-  <img src="/images/measurement-technique/relative-humidity/relative humidity figure 7.png" class="figure-img img-fluid rounded" alt="Figure 7: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.">
+  <img src="/images/measurement-technique/relative-humidity/Relative Humidity Figure 7 Updated.png" class="figure-img img-fluid rounded" alt="Figure 7: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.">
   <figcaption class="figure-caption text-left">Figure 7: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.</figcaption>
 </figure>
 </a>

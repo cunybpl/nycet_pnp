@@ -3,7 +3,7 @@ title: Water Flow Rate
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 11
-excerpt: Uses a flow meter to measure the flow rate of a fluid within a pipe. The technique is typically used on water loop systems to measure the flow through heating and cooling plants, but it can also be used to measure the flow rate of other fluids (e.g., glycol).
+excerpt: This technique uses an ultrasonic flow meter to measure the flow rate of a fluid within a pipe at one-hour intervals.
 related_systems:
   - Air Cooled Chiller
   - Boiler

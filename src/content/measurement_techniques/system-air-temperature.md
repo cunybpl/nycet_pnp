@@ -3,7 +3,7 @@ title: System Air Temperature
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 7
-excerpt: This technique uses data loggers to take long-term measurements of air temperature (oF) at one-hour intervals.
+excerpt: This technique uses data loggers to measure ments of the air temperature of various air streams within air handling units at one-hour intervals.
 thumbnail_image: "/images/measurement-technique/system-air-temperature/2024_0410_system air temperature MT_thumbnail.jpeg"
 related_systems:
 related_components:
@@ -45,7 +45,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 <a href="https://www.youtube.com/watch?v=sbUBDB2eg_U&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=1">
 <figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1: Configuring the Temp/RH Logger using HOBOconnect">
+  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 1 Updated.png" class="figure-img img-fluid rounded" alt="Figure 1: Configuring the Temp/RH Logger using HOBOconnect">
   <figcaption class="figure-caption text-left">Figure 1: Configuring the Temp/RH Logger using HOBOconnect</figcaption>
 </figure>
 </a>
@@ -60,14 +60,14 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=2">
 <figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2: Data logger installed inside of the ductwork of an AHU. The data logger in use is the Onset HOBO MX1101.">
+  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2: Data logger installed inside of the ductwork of an AHU. The data logger in use is the Onset HOBO MX1101.">
   <figcaption class="figure-caption text-left">Figure 2: Data logger installed inside of the ductwork of an AHU. The data logger in use is the Onset HOBO MX1101.</figcaption>
 </figure>
 </a>
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=2">
 <figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3: Onset HOBO MX1101 data installed on the access panel of the ductwork. After complete installation, the panel will be closed and the logger will remain inside the ductwork.">
+  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 3 Updated.png" class="figure-img img-fluid rounded" alt="Figure 3: Onset HOBO MX1101 data installed on the access panel of the ductwork. After complete installation, the panel will be closed and the logger will remain inside the ductwork.">
   <figcaption class="figure-caption text-left">Figure 3: Onset HOBO MX1101 data installed on the access panel of the ductwork. After complete installation, the panel will be closed and the logger will remain inside the ductwork.</figcaption>
 </figure>
 </a>
@@ -85,7 +85,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 <a href="https://www.youtube.com/watch?v=EOb9EqQcRXY&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=3">
 <figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4: Plot graph of temperature data from the Onset HOBO UX90-002m data logger. Software used is HOBOware Free.">
+  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 4 Updated.png" class="figure-img img-fluid rounded" alt="Figure 4: Plot graph of temperature data from the Onset HOBO UX90-002m data logger. Software used is HOBOware Free.">
   <figcaption class="figure-caption text-left">Figure 4: Plot graph of temperature data from the Onset HOBO UX90-002m data logger. Software used is HOBOware Free. </figcaption>
 </figure>
 </a>
@@ -104,7 +104,7 @@ After verifying that the logger is collecting data, do the following:
 
 <a href="https://www.youtube.com/watch?v=-vxr8pnguIQ&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=4">
 <figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/system air temperature figure 5.png" class="figure-img img-fluid rounded" alt="Figure 5: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.">
+  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 5 Updated.png" class="figure-img img-fluid rounded" alt="Figure 5: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.">
   <figcaption class="figure-caption text-left">Figure 5: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.</figcaption>
 </figure>
 </a>

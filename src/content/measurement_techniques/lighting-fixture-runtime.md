@@ -3,7 +3,7 @@ title: Lighting Fixture Runtime
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 5
-excerpt: "This technique uses data loggers to take long-term measurements of the runtime duration for a lamp or lighting fixture."
+excerpt: This technique uses data loggers to measure the duration a lamp or light fixture remains on.
 thumbnail_image: "/images/measurement-technique/lighting-fixture-runtime/2024_0410_lighting fixture runtime MT_thumbnail.jpeg"
 related_systems:
 related_components:
@@ -49,7 +49,7 @@ Use the manufacturer’s software to ​set up ​​and launch ​the logger​
 
 <a href="https://www.youtube.com/watch?v=zcR39ATSAbM&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=1">
 <figure class="figure">
-  <img src="/images/measurement-technique/lighting-fixture-runtime/lighting fixture runtime figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Light On/Off Logger Configuration.">
+  <img src="/images/measurement-technique/lighting-fixture-runtime/Lighting Fixture Runtime Figure 1 Updated.png" class="figure-img img-fluid rounded" alt="Figure 1. Light On/Off Logger Configuration.">
   <figcaption class="figure-caption text-left">Figure 1. Light On/Off Logger Configuration.</figcaption>
 </figure>
 </a>
@@ -61,12 +61,12 @@ Use the manufacturer’s software to ​set up ​​and launch ​the logger​
 <li>Place the data logger near the light fixture​ in a non-hazardous location.​</li> 
 <li>​​​While the light is on, c​alibrate the data logger to the fixture (refer to the ​data logger’s ​user manual for instructions​ and requirements for calibration​)​.​​</li>
 <li>​​​Visually confirm that the logger is recording, and that the sensor is accurately identifying whether or not the lights are on.</li> ​
-<li><strong>Do not move the logger after it has been calibrated​.​</strong>>/li>
+<strong><li>Do not move the logger after it has been calibrated​.</li>​</strong>
 </ul> 
 
 <a href="https://www.youtube.com/watch?v=0OJvUP_NdYM&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=2">
 <figure class="figure">
-  <img src="/images/measurement-technique/lighting-fixture-runtime/lighting fixture runtime figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Onset HOBO UX90-002x​ ​installed near a light fixture and measuring runtime.">
+  <img src="/images/measurement-technique/lighting-fixture-runtime/Lighting Fixture Runtime Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2. Onset HOBO UX90-002x​ ​installed near a light fixture and measuring runtime.">
   <figcaption class="figure-caption text-left">Figure 2. Onset HOBO UX90-002x​ ​installed near a light fixture and measuring runtime.</figcaption>
 </figure>
 </a>
@@ -84,7 +84,7 @@ Wait ​24-48 hours to verify data collection. Return to the location of the mea
 
 <a href="https://www.youtube.com/watch?v=JkNpQ81sdcQ&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=3 ">
 <figure class="figure">
-  <img src="/images/measurement-technique/lighting-fixture-runtime/lighting fixture runtime figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. ​P​lot graph of ​lighting runtime ​data from the Onset HOBO UX90-002m data logger.​ Software used is HOBOware Free.">
+  <img src="/images/measurement-technique/lighting-fixture-runtime/Lighting Fixture Runtime Figure 3 Updated.png" class="figure-img img-fluid rounded" alt="Figure 3. ​P​lot graph of ​lighting runtime ​data from the Onset HOBO UX90-002m data logger.​ Software used is HOBOware Free.">
   <figcaption class="figure-caption text-left">Figure 3. ​P​lot graph of ​lighting runtime ​data from the Onset HOBO UX90-002m data logger.​ Software used is HOBOware Free.</figcaption>
 </figure>
 </a>
@@ -101,7 +101,7 @@ After verifying ​that ​the logger is collecting data​,​ do the following
 
 <a href="https://www.youtube.com/watch?v=BP5RZugx20o&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=4">
 <figure class="figure">
-  <img src="/images/measurement-technique/lighting-fixture-runtime/lighting fixture runtime figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4. Final data​ table ​in .csv format. Data was extracted from the logger using HOBOware Free and exported ​for analysis.">
+  <img src="/images/measurement-technique/lighting-fixture-runtime/Lighting Fixture Runtime Figure 4 Updated.png" class="figure-img img-fluid rounded" alt="Figure 4. Final data​ table ​in .csv format. Data was extracted from the logger using HOBOware Free and exported ​for analysis.">
   <figcaption class="figure-caption text-left">Figure 4. Final data​ table ​in .csv format. Data was extracted from the logger using HOBOware Free and exported ​for analysis.</figcaption>
 </figure>
 </a>
