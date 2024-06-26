@@ -21,7 +21,8 @@ The duration of the long-term measurement should be a minimum of six weeks. Meas
 
 Proxy 
 
-## Equipment 
+### Equipment 
+
 The measurement equipment needed for this procedure is a 4-channel analog logger that is compatible with thermocouple sensors. Thermocouple sensors are specially designed to measure very high temperatures such as the flue stack of a boiler and very low temperatures such as the surface of water pipes for a chiller system. Different thermocouple sensors are used to measure hot or cold pipes. Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify the correct loggers and sensors for your project. The contents of this guide are largely based off the Onset HOBO UX120-14M logger and the TC6-T sensor, which can be found and borrowed through FELL. 
  
 For sensors installed at a pipe surface the sensor must be secured with thermal tape and the pipe surface should be cleaned prior to installation. Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.  

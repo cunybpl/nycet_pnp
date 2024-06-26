@@ -22,7 +22,7 @@ The duration of the long-term measurement should be a minimum of six weeks. Meas
 
 Direct 
 
-## Equipment 
+### Equipment 
 
 The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify temperature/humidity data loggers. The contents of this guide are largely based off the Onset HOBO MX1101 logger, which can be found and borrowed through FELL. 
  

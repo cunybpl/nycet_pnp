@@ -22,7 +22,7 @@ The duration of the long-term measurement should be a minimum of six weeks. Meas
 
 Direct 
 
-## Equipment 
+### Equipment 
 
 The measurement equipment needed for this procedure is a humidity data logger. Most loggers offered at the FELL can measure temperature and humidity at the same time. Relative humidity and temperature measurements should be taken at the same time if both variables are required. If outside air temperature or system air temperature, the same data loggers can be used to measure humidity. Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify temperature/humidity data loggers. The contents of this guide are largely based off the Onset HOBO MX2301 logger, which can be found and borrowed through FELL. 
  

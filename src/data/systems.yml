@@ -4,6 +4,9 @@ documents:
     title: "Air-cooled Chiller"
     measurement_type: "water-side, cooling"
   - type: system
+    title: "Air-to-air Energy Recovery"
+    measurement_type: "air, electrical"
+  - type: system
     title: "Boiler"
     measurement_type: "water-side, heating"
   - type: system

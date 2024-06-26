@@ -37,7 +37,7 @@ The duration of the long-term measurement should be a minimum of six weeks and d
 
 Direct
 
-## Equipment
+### Equipment
 
 The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). Refer to the [Fell Catalog](https://nycenergytools.com/equipment/) to identify weatherproof data loggers that measure outside air temperature. The contents of this guide are largely based off of the [Onset Hobo MX2301](https://nycenergytools.com/equipment/temp-rh-mx2301/) logger, which can be found and borrowed through FELL.  
 
