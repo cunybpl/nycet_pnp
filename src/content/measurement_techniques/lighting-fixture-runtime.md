@@ -26,7 +26,7 @@ The duration of the long-term measurement should be a minimum of six weeks and d
 
 Proxy
 
-## Equipment
+### Equipment
 
 The measurement equipment needed for this procedure is a lighting on/off data logger. Some data loggers may have an additional occupancy sensor that detects the motion of people, but this is not necessary for this measurement technique. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_search_equipment=light) to identify data loggers to measure lighting runtime. The contents of this guide are largely based off of the [Onset HOBO UX90-002 Light on/off logger](https://nycenergytools.com/equipment/light-on-off-data-logger-3/) which can be found and borrowed through FELL. 
 
