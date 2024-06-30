@@ -2,7 +2,7 @@
 title: Variable-speed, Variable-volume Fan and Motor
 type: component
 excerpt: A variable speed fan and motor uses a power-driven rotating impeller to circulate air.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/components/thumbnail-images/2024_0624_vsvv fan component_thumbnail.png"
 associated_systems:
   - Boiler
   - Condenser Water Loop
@@ -51,7 +51,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
                 <p>Condenser Fan</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -65,7 +65,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
                 <p>Cooling Tower Fan</p>
             </td>
             <td>
-                <p>Wet Bulb Temperature (WBT)</p>
+                <p>Wet bulb temperature (WBT)</p>
             </td>
         </tr>
         <tr>
@@ -79,12 +79,12 @@ Table 1 shows the plant and system configurations that may contain variable-spee
                 <p>AHU Supply Fan</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
             <td>
-                <p>AHU</p>
+                <p>Air Handling Plant</p>
             </td>
             <td>
                 <p>AHUs</p>
@@ -93,7 +93,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
                 <p>AHU Return Fan</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -104,10 +104,10 @@ Table 1 shows the plant and system configurations that may contain variable-spee
                 <p>Boiler</p>
             </td>
             <td>
-                <p>Burner Fan</p>
+                <p>Burner fan</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
     </tbody>
@@ -133,46 +133,35 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     <tbody>
         <tr>
             <td>
-                <p>Electricity profile of a variable-speed fan motor</p>
+                <p>Electricity usafe of VSVV fan motor (kWh)</p>
             </td>
             <td>
                 <p>Power input to the motor at known speeds (e.g., 30%, 50%, 75%, 100%)</p>
             </td>
             <td>
-                <p>True RMS power of motor that drives the fan (kW)</p>
+                <p><a href="/documents/measurement-technique/true-rms-power">True RMS power</a> of motor that drives the fan (kW)</p>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Same as above^</p>
-            </td>
-            <td>
-                <p>Hourly Average motor speed</p>
-            </td>
-            <td>
-                <p>VFD speed trend from BAS</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Controlling variable, non-weather dependent</p>
+                <p><span class="tooltip-pnp">Controlling variable, non-weather dependent<span class="tooltiptext">This variable should be measured to quantify the electricity usafe of the VSVV fan if the operation is weather dependent</span></span></p>
             </td>
             <td>
                 <p>Yearly operating schedule</p>
             </td>
             <td>
-                <p>Fan motor runtime (h)</p>
+                <p><a href="/documents/measurement-technique/motor-runtime">Fan motor runtime (h)</a></p>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Controlling variable, weather dependent</p>
+                <p><span class="tooltip-pnp">Controlling variable, weather dependent<span class="tooltiptext">This variable should be measured to quantify the electricity usafe of the VSVV fan if the operation is not weather dependent</span></span></p>
             </td>
             <td>
                 <p>Average hourly outside air temperature (OAT)</p>
             </td>
             <td>
-                <p>OAT (f)</p>
+                <p><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></p>
             </td>
         </tr>
     </tbody>
@@ -180,18 +169,15 @@ The primary energy source for a variable-speed fan is the electricity used to ru
 
 ### Measurement Strategy
 
-The measurement boundary for quantifying energy consumption for a variable-speed fan and motor is shown in Figure 1 below. 
-
-<a href="/images/components/Measurement-boundary-of-a-fan-motor_with_VFD.png">
-<figure class="figure">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a CSCV fan.">
-  <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a fan motor with VFD.</figcaption>
-</figure>
-</a>
-
 The measurement strategy for a variable-speed fan and its motor is to measure power draw of the fan motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated controlling variable (OAT, WBT). Measurement points are generically represented in Figure 1. 
 
-Further details about measurement tools and equipment associated with measurements in Table 2 can be found here: <link here FELL Kit for VSVV fan and motor>.  
+<!-- Temporary image until new one given by Orlando -->
+<a href="/images/components/Measurement-boundary-of-a-fan-motor-with-VFD.png">
+<figure class="figure">
+  <img src="/images/components/Measurement-boundary-of-a-fan-motor-with-VFD.png" class="figure-img img-fluid rounded" alt="Figure 1. VSVV fan measurement points.">
+  <figcaption class="figure-caption text-left">Figure 1. VSVV fan measurement points.</figcaption>
+</figure>
+</a>
 
 ### Calculation Methodology
 

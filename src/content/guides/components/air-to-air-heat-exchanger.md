@@ -2,7 +2,7 @@
 title: Air-to-air Heat Exchanger
 type: component
 excerpt: Achieves heat transfer using temperature difference between two airstreams without direct contact of these airstreams.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/components/thumbnail-images/2024_0606_air to air hx component_thumbnail.jpg"
 associated_systems:
   - 
 related_systems:
@@ -49,7 +49,7 @@ Table 1 shows the plant and system configurations that may contain an air-to-air
                 <p>Fixed plate heat exchanger</p>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -63,7 +63,7 @@ Table 1 shows the plant and system configurations that may contain an air-to-air
                 <p>Rotary wheel heat exchanger</p>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>OAT</p>
+                <p>Outdoor air temperature (OAT)</p>
             </td>
         </tr>
         <tr>
@@ -77,7 +77,7 @@ Table 1 shows the plant and system configurations that may contain an air-to-air
                 <p>Fixed plate or rotary wheel heat exchanger</p>
             </td>
             <td class="fr-cell-fixed " style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
     </tbody>
@@ -85,7 +85,7 @@ Table 1 shows the plant and system configurations that may contain an air-to-air
 
 ## Evaluation of Heat Transfer 
 
-The primary energy source in an air-to-air heat exchanger is thermal energy. Table 2 provides a summary of measurements needed to quantify the annual energy transfer and operating characteristics of an air-to-air heat exchanger. 
+Table 2 provides a summary of measurements needed to quantify the annual energy transfer and operating characteristics of an air-to-air heat exchanger. 
 
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 2. Key values and measurements.</caption>
@@ -108,13 +108,13 @@ The primary energy source in an air-to-air heat exchanger is thermal energy. Tab
                 <p>Energy recovered by the heat exchanger</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly Btu/h transferred to the incoming air&nbsp;</p>
+                <p>Hourly Btu/h transferred to the outside air entering the system&nbsp;</p>
             </td>
             <td width="33.333333333333336%">
                 <ul>
-                <li>Average hourly incoming airflow (cfm)</li>
-                <li>Temperature on each side of heat exchanger for incoming airstream (two measurement points total, F)&nbsp;</li>
-                <li>Humidity of supply air on either side of the heat exchanger (two measurement points total, only for latent heat recovering exchangers, RH)</li>
+                <li>Hourly air flow rate (CFM) of incoming air</li>
+                <li>Hourly <a href="/documents/measurement-technique/system-air-temperature">air temperature (F)</a> of incoming air on both sides of the heat exchanger (two measurement points total)&nbsp;</li>
+                <li>Hourly <a href="/documents/measurement-technique/relative-humidity">relative humidity</a> of the incoming air on both sides of the heat exchanger (two measurement points total, only for latent heat recovery systems)</li>
                 </ul>
             </td>
         </tr>
@@ -126,7 +126,7 @@ The primary energy source in an air-to-air heat exchanger is thermal energy. Tab
                 <p>Average hourly motor kWh (for rotary wheel heat exchangers)</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly true RMS energy (kWh)</p>
+                <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> of the motor that drives the rotary fan (kW)</p>
             </td>
         </tr>
     </tbody>
@@ -138,25 +138,27 @@ The measurement strategy for an air-to-air heat exchanger is to measure the heat
 
 Figure 1 shows the measurement points in a fixed plate heat exchanger. 
 
-<a href="/images/components/air-to-air-heat-exchanger/2024_0603_air-to-air heat exchanger component figure 1.png">
+<a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg">
 <figure class="figure">
-  <img src="/images/components/air-to-air-heat-exchanger/2024_0603_air-to-air heat exchanger component figure 1.png" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement boundary for an air-to-air heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 1. Measurement boundary for an air-to-air heat exchanger.</figcaption>
+  <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement boundary for an air-to-air heat exchanger.">
+  <figcaption class="figure-caption text-left">Figure 1. Fixed plate heat exchanger measurement points.</figcaption>
 </figure>
 </a>
 
 Figure 2 shows the measurement points in a rotary wheel heat exchanger.
 
-<a href="/images/components/air-to-air-heat-exchanger/2024_0603_air-to-air heat exchanger component figure 2.png">
+<a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg">
 <figure class="figure">
-  <img src="/images/components/air-to-air-heat-exchanger/2024_0603_air-to-air heat exchanger component figure 2.png" class="figure-img img-fluid rounded zoom" alt="Figure 2. Rotary wheel heat exchanger measurement points.">
+  <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Rotary wheel heat exchanger measurement points.">
   <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement points.</figcaption>
 </figure>
 </a>
 
 ### Calculation Methodology 
 
-The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow.  If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model.  Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.  
+The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow. If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.  
+
+<strong>This methodology only applied to systems with rotary wheel heat exchangers.</strong>
 
 {{< calculation_methodology calculation_methodology_id=8 >}}
 

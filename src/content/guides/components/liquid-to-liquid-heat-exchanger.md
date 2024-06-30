@@ -2,7 +2,7 @@
 title: Liquid-to-liquid Heat Exchanger
 type: component
 excerpt: Achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
-thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
+thumbnail_image: "/images/components/thumbnail-images/2024_0606_liquid to liquid hx component_thumbnail.jpg"
 associated_systems:
   - Air-cooled Chiller
   - Water-cooled Chiller
@@ -70,7 +70,7 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
                 <p>Liquid-to-liquid heat exchanger</p>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>Blowdown water temperature</p>
+                <p>Blowdown water temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -94,16 +94,6 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
 ## Evaluation of Heat Transfer
 
 In a liquid-to-liquid heat exchanger heat transferred from the liquid with excess heat (waste heat stream) to the liquid where the heat recovered is beneficial to the process (supply stream). This is the principal energy phenomenon that reduces the overall energy usage of the entire plant or system where the heat exchanger is installed. A pump and motor may be needed to move the liquid in the waste heat and supply streams.
-
-Figure 1 demonstrates a schematic of a liquid-to-liquid heat exchanger.
-
-<a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
-<figure class="figure">
-  <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt="Figure 1. Liquid-to-liquid heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 1. Liquid-to-liquid heat exchanger. FPO</figcaption>
-</figure>
-</a>
-
 
 Table 2 provides a summary of measurements needed to quantify the annual energy transfer and operating characteristics of a liquid-to-liquid heat exchanger.
 
@@ -132,8 +122,8 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
             </td>
             <td width="33.333333333333336%">
                 <ul>
-                <li>Average hourly flow rate of the supply stream (gpm)</li>
-                <li>Temperature of supply stream entering and leaving the heat exchange (degrees F)&nbsp;</li>
+                <li><a href="/documents/measurement-technique/water-flow-rate">Average hourly flow rate of the supply stream (gpm)</a></li>
+                <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">Temperature of supply stream entering and leaving the heat exchange (F)</a>&nbsp;</li>
                 </ul>
             </td>
         </tr>
@@ -145,7 +135,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Average hourly pump motor kWh (if needed)</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly true RMS energy (kWh)</p>
+                <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (kWh)</p>
             </td>
         </tr>
         <tr>
@@ -156,7 +146,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Operating schedule&nbsp;</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Supply stream pump runtime (h)</p>
+                <p>Supply stream pump <a href="/documents/measurement-technique/motor-runtime">motor runtime (h)</a></p>
             </td>
         </tr>
         <tr>
@@ -167,7 +157,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Average hourly outdoor air temperature (OAT)</p>
             </td>
             <td width="33.333333333333336%">
-                <p>OAT (F)</p>
+                <p><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></p>
             </td>
         </tr>
     </tbody>
@@ -175,12 +165,12 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 ### Measurement Strategy
 
-The measurement strategy for a liquid-to-liquid heat exchanger is to measure the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet of the heat exchanger. The flow rate can be measured at the supply stream pump if one is used in the system. Further information on pump flow measurement strategy can be found < here: Link to the pump flow content>. Measurement points are generically represented in Figure 2.
+The measurement strategy for a liquid-to-liquid heat exchanger is to measure the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet of the heat exchanger. The flow rate can be measured at the supply stream pump if one is used in the system. Measurement points are generically represented in Figure 1.
 
-<a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
+<a href="/images/components/2024_0625_LtL HX component_figure 1.jpg">
 <figure class="figure">
-  <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt="Figure 2. Measurement points in a liquid-to-liquid heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 2. Measurement points in a liquid-to-liquid heat exchanger. FPO</figcaption>
+  <img src="/images/components/2024_0625_LtL HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement points in a liquid-to-liquid heat exchanger.">
+  <figcaption class="figure-caption text-left">Figure 1. Measurement points in a liquid-to-liquid heat exchanger</figcaption>
 </figure>
 </a>
 
