@@ -32,7 +32,7 @@ Section A.1 describes how to calculate the sensible and latent heat transfer for
 To calculate latent heat transfer and effectiveness, first the humidity ratio $(lb_m/lb_m)$ must be calculated. Table 1 summarizes the equations used to determine humidity ratio for a given relative humidity value. The calculator selects the appropriate equation based on the measured hourly relative humidity and then uses the measured hourly temperature to run the calculation (CUNY BPL BRT, 2022, pp. 22). The equations in Table 1 result in a humidity ratio with units of grains of water per pound of dry air (grains/lb). The calculator performs an additional calculation to convert the units of grain/lb to $lb_m/lb_m$. 
 
 <table>
-    <caption><span class="tooltip-pnp">Table 1. Liquid-to-liquid Heat Exchanger Calculators<span class="tooltiptext">CUNY Building Performance Lab. (n.d.).Quantification of Energy Savings from Implementing BuildingRe-tuning Recommendations(pp. 21–22) [Review ofQuantification of Energy Savings fromImplementing Building Re-tuning Recommendations].DCAS.</span></span></caption>
+    <caption><span class="tooltip-pnp">Table 1. Humidity Ratio Equations for Various Relative Humidity Values Based on Dry-Bulb Temperature<span class="tooltiptext">CUNY Building Performance Lab. (n.d.).Quantification of Energy Savings from Implementing BuildingRe-tuning Recommendations(pp. 21–22) [Review ofQuantification of Energy Savings fromImplementing Building Re-tuning Recommendations].DCAS.</span></span></caption>
     <thead>
         <tr>
             <td>
@@ -134,10 +134,10 @@ To estimate heat transfer for a full year, simple linear regression (used to ass
 
 Section A.3 describes how to calculate the electrical energy consumption of the supply and return fan motors using hourly power draw data. The hourly data is used to develop an average hourly schedule of both fan motors for all seven days of the week as a proxy of the occupancy schedule of the facility. This occupancy schedule is used in Section A.2 to conduct the simple linear regressions. 
 
-## Calculators
+## Calculator
 
 <table>
-    <caption>Table 2. Air-to-air Energy Consumption Calculators</caption>
+    <caption>Table 2. Air-to-air heat transfer calculator</caption>
     <thead>
         <tr>
             <td>
@@ -153,7 +153,7 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
     <tbody>
         <tr>
             <td>
-                <a href="/calculators/air-to-air-heat-exchanger-heat-transfer/2023_0706_PnP-EC-22_a2a_heat_exchanger.xlsx" download>Air-to-air Heat Transfer Calculation</a>
+                <a href="/calculators/air-to-air-heat-exchanger-heat-transfer/air_to_air_heat_transfer_calculator_2023_0706.xlsx" download>Air-to-air Heat-exchanger Heat-transfer Calculator</a>
             </td>
             <td>
                 <p>Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.</p>
@@ -171,12 +171,14 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
     </tbody>
 </table>
 
-## A.1: Heat Transfer for the Measurement Period
+## Air-to-air Heat Exchanger Calculations
+
+### A.1: Heat Transfer for the Measurement Period
 
 The following methodology is used to calculate the sensible and latent heat transferred by the ERV system during the measurement period only. Sensible and latent effectiveness are also calculated in this process. All data used in section A.1 should rely on data being measured with either data loggers or BMS historical trends. Measured data used in this section is summarized in Table 3. 
 
 <table>
-    <caption>Table 3. Hourly measured data to calculate heat transfer.</caption>
+    <caption>Table 3. Hourly measured data required to calculate heat transfer.</caption>
     <thead>
         <tr>
             <td>
@@ -331,7 +333,7 @@ Sensible and latent heat effectiveness has the same conditions as heat transfer 
 <p class="equation">$T_2 =$ hourly temperature of supply air leaving the ERV (F)</p>
 <p class="equation">$T_3 =$ hourly temperature of return air entering the ERV (F)</p>
 
-## A.2: Heat Transfer for the Full Year  
+### A.2: Heat Transfer for the Full Year  
 
 To estimate the full year heat transfer, the occupancy patterns and schedule defined in the measurement period are extrapolated to the entire year. Supply air flow (Q2), return air flow (Q3), and sensible and latent effectiveness are calculated by performing a regression analysis with the variables listed in Table 4. Regression analysis plots data on a graph and generates a line that traces the distribution of data. The line has a formula associated with it and the formula is used to project the dependent variable for the full year. To accomplish this, the Microsoft Excel function LINEST is used with the values in Table 4. 
 
@@ -540,7 +542,7 @@ CUNYBPL assumes that T3 and W3 are constant values with the reasoning being that
 <p class="step-indent">Where,</p>
 <p class="equation">$Q_3 =$ air flow rate of return air entering the ERV (ft$^3$/min)</p>
 
-## A.3: Annual Supply Fan Energy Consumption 
+### A.3: Annual Supply Fan Energy Consumption 
 
 This calculation methodology assumes that the power draw of the supply and exhaust fan motors were measured with a power logger at one-hour intervals for a minimum of six weeks. The power logger should have measured the three phases of the panelboard. The following formulas will calculate three phase power first. Next, the calculator reduces the dataset to an hourly schedule for all seven days of the week. This schedule is used to determine when heat transfer occurs. Then, the schedule is extrapolated to a full year and the resultant value is the estimated annual energy consumption of the fan motors. 
 

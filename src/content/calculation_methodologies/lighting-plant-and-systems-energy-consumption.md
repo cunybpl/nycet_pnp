@@ -12,7 +12,7 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
 
 ## Introduction
 
-The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not for estimating savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (kWh.) Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated and summed to obtain a full-year estimate. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
+The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not for estimating savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (kWh). Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated and summed to obtain a full-year estimate. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
 
 The calculation tools will extrapolate data to a full year regardless of how much input data is used, but a minimum of six (6) weeks of data at one-hour intervals is required to adhere to Measurement and Verification standards. If the total fixture inventory for the project is known, data can be used by the calculation tools to determine how much of the lighting load was directly measured, but this data is not necessary for the calculation tools to work. This is useful for someone who only measured a sample of fixtures as part of a sampling plan and wants to compare the annual estimates to the total lighting load. 
 
@@ -23,7 +23,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
 ## Calculators
 
 <table>
-    <caption>Table 1. Lighting Calculators</caption>
+    <caption>Table 1. Lighting energy calculators</caption>
     <thead>
         <tr>
             <td>
@@ -39,69 +39,69 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/2023_0411_lighting_ac_current_panelb.xlsx" download>Lighting AC Current Panel Calculator</a></p>
+                <p><a href="/calculators/lighting-plant-and-systems-energy-consumption/lighting_power_panelboard_2023_0417.xlsx" download>Lighting True RMS Power Output from Electric Panelboard</a></p>
             </td>
             <td>
-                <p>Uses measurements of currents per circuit to give average electricity use for the panel in kWh.</p>
-            </td>
-            <td>
-                <ul>
-                    <li>Average hourly amperage per circuit</li>
-                    <li>Circuit voltage and power facto</li> 
-                    <li>True RMS power (kW)</li> 
-                    <li>Current amps</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><a href="/calculators/2022_0603_lighting_ac_current_circuits.xlsx" download>Lighting AC Current Circuits Calculator</a></p>
-            </td>
-            <td>
-                <p>Uses measurements of currents per circuit to give average electricity use for the panel in kWh.</p>
+                <p>Uses the runtime and power of the panelboard to calculate the annual anergy consumption of a lighting electrical distribution system.</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly amperage per circuit</li> 
-                    <li>Circuit voltage and power factor</li> 
-                    <li>True RMS power (kW)</li> 
-                    <li>Current amps</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><a href="/calculators/2022_0614_lighting_kwh_panelboard.xlsx" download>Lighting kWh Panelboard Calculator</a></p>
-            </td>
-            <td>
-                <p>Uses the panel energy use in order to obtain electricity usage.</p>
-            </td>
-            <td>
-                <p>Lighting Panel Total Energy Use (kWh)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><a href="/calculators/2023_0606_lighting_runtime_fixtures.xlsx" download>Lighting Runtime Fixtures Calculator</a></p>
-            </td>
-            <td>
-                <p>Uses runtime and power draw in order to calculate average runtime (hours/day)</p>
-            </td>
-            <td>
-                <ul>
-                    <li>Lighting runtime per hour</li> 
-                    <li>Expected fixture wattaged</li>
+                    <a href="/documents/measurement-technique/lighting-fixture-runtime"><li>Hourly lighting runtime</li></a> 
+                    <li>Expected fixture wattage</li>
                     <li>Fixture counts</li> 
-                    <li>Total power draw (kW)</li>
+                    <a href="/documents/measurement-technique/true-rms-power"><li>True RMS Power (total power draw) (kW)</li></a>
                 </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/calculators/lighting-plant-and-systems-energy-consumption/lighting_current_panelboard_2023_0816.xlsx" download>Lighting Electrical Current Output from Electric Panelboard</a></p>
+            </td>
+            <td>
+                <p>Uses voltage measurements alongside power, circuit amperage and current from the electrical panelboard to measure the total energy output from the system.</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Hourly amperage per circuit (amps)</li>
+                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Circuit voltage (V)</li></a> 
+                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Power factor (kW)</li></a> 
+                    <a href="/documents/measurement-technique/electrical-current"><li>Hourly current (amps)</li></a>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/calculators/lighting-plant-and-systems-energy-consumption/lighting_current_circuit_breakers_2023_0818.xlsx" download>Lighting Electrical Current from Circuit Breakers</a></p>
+            </td>
+            <td>
+                <p>Uses voltage measurements alongside power, circuit amperage and current from circuit breakers to measure the total energy output from the system.</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Hourly amperage per circuit (amps)</li>
+                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Circuit voltage (V)</li></a> 
+                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Power factor (kW)</li></a> 
+                    <a href="/documents/measurement-technique/electrical-current"><li>Hourly current (amps)</li></a>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/calculators/lighting-plant-and-systems-energy-consumption/lighting_inventory_schedule_2023_0417.xlsx" download>Lighting Inventory and Operating Schedule</a></p>
+            </td>
+            <td>
+                <p>Uses the panel energy use to calculate the operating schedule of the system.</p>
+            </td>
+            <td>
+                <a href="/documents/measurement-technique/electrical-spot-measurement"><p>Lighting Panel Total Energy Use (kW)</p></a>
             </td>
         </tr>
     </tbody>
 </table>
 
-## Lighting Plant and Systems Energy Consumption Calculations
+## Lighting Energy Consumption
 
-### Long-term Energy Measurements Using a Data-logging Power Logger
+### A.1 Lighting True RMS Power Output from Electric Panelboard
 
 The following equations are used to calculate the annual energy consumption of a <u>lighting electrical distribution system</u> where energy in kilowatt hours (kWh) is measured at the output end of an electrical panelboard or switchgear. It is assumed that data is collected for six (6) weeks at one-hour intervals with a data-logging power meter that has the capacity to measure three-phase power. 
 
@@ -134,7 +134,7 @@ The following equations are used to calculate the annual energy consumption of a
 
 4. Calculate the average energy consumption for weekend days (Worksheet: "Step 3. Results," cell D6.)
 
-<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd} = \frac{\sum_{h = 1}^{7} \overline{kWh}_{w,e,d}}{2} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd} = \frac{\overline{kWh}_{we,1} + \overline{kWh}_{we,7}}{2} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WEd} =$ Average energy consumption for each day of the week (in kWh)</p>
@@ -177,7 +177,7 @@ The following equations are used to calculate the annual energy consumption of a
 <p class="equation">$\overline{kWh}_{n} =$ Total energy consumption for each panel or switchgear(in kWh)</p>
 <p class="equation">$n =$ Number of panels or switchgear measured</p>
 
-### Current Measurement at the Output of a Panelboard using Current Transformers
+### A.2 Lighting Electrical Current Output from Electric Panelboard
 
 Lighting fixtures generally require single-phase power to operate but <u>electrical distribution systems</u> are commonly three-phase. This methodology only applies to a three-phase, four wire system (wye configuration), additionally the panelboard load must be balanced (i.e., all three electrical lines, or phases, must have the same current and line-to-neutral voltage.) For an unbalanced load, where voltage and current are not equal across the three lines, energy should be measured directly with a data-logging power logger capable of measuring a three-phase system, see section A.1. 
 
@@ -258,8 +258,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WEd} =$ Average energy consumption for a weekend day (in kWh)</p>
 <p class="equation">$\overline{kWh}_{we,n} =$ Average energy consumption of each n weekend day (in kWh)</p>
-<p class="equation">$d =$ Day of week (7 = Saturday, 1 = Sunday)</p>
-<p class="equation">$24 =$ Constant, hours per day</p>
+<p class="equation">$n =$ Day of week (7 = Saturday, 1 = Sunday)</p>
 <p class="equation">$2 =$ Constant, weekends per week</p>
 
 8. Calculate the total annual weekday energy consumption (Worksheet: "Step 4. Results," cell E3.)
@@ -300,7 +299,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$\overline{kWh}_{n} =$ Total energy consumption for each panelboard (in kWh)</p>
 <p class="equation">$n =$ Number of panelboards measured</p>
 
-### Current Measurement at the Circuit Breaker in a Panelboard using Current Transformers
+### A.3 Lighting Electrical Current from Circuit Breakers
 
 Lighting fixtures generally require single-phase power to operate but <u>electrical distribution systems</u> are commonly three-phase. When measuring individual circuits of a panelboard it is important to know what phase the circuit is connected to. This is because the proper line-to-neutral connection is required to accurately measure voltage for that circuit. 
 
@@ -405,7 +404,7 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 
 Equation (26) is the annual energy consumption of the measured circuits for a panelboard. If additional circuits were measured for the same panelboard with a different data logger be sure to consolidate the results (annual energy consumption) to obtain the total panelboard annual energy consumption. Additionally, if multiple panelboards were measured be sure to sum up the annual consumption of all panelboards to obtain the total system energy consumption.
 
-### Fixture Inventory and Long-term Fixture On/Off Operation
+### A.4 Lighting Inventory and Operating Schedule
 
 The following equations are used to calculate the annual energy consumption of a <u>lighting fixture system</u>. This methodology does not require electrical measurements, only lighting runtime (operating schedule) of the fixtures. Runtime data is collected with a light logger that detects when a light source turns on and off. If multiple fixture types operate with the same schedule the same runtime data can be used for calculations. 
 

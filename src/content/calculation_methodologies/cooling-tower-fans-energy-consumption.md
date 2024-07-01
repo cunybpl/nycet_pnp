@@ -23,12 +23,9 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 
 This methodology applies to evaporative cooling towers and the ECM is the installation of VFDs on the fan motors. In the pre-retrofit condition, a single- or two-speed fan in each cooling tower cell is run at a constant speed. There are several operating modes for a cooling tower, based upon how much variation is possible with the fan speeds. Cells are turned on or off depending on how much cooling is needed in the building. With two-speed fans, operational optimization occurs by staging each cell to turn on sequentially at low speed until all cells are on, and then begin turning the fans to full speed as the load increases. With single-speed fans, each cell is turned on as the load increases.
 
-
 In a retrofit with VFDs, the fans in all cells are run simultaneously and their speed is modulated based on the cooling load. As fan power is the cube of the fan speed, energy can be saved by running the fans at lower speeds. The speed modulation is controlled in three possible modes: 1) to keep the condenser water entering temperature constant; 2) to keep the approach temperature1 constant; and 3) to minimize overall system power consumption. This methodology only covers the measurement of energy consumption with respect to maintaining a constant condensing water entering temperature.
 
-
 Regardless of the operating sequence of the cells or the speed of the fans, there is usually a minimum water flow per cell and minimum flow per chiller that must be maintained. This guide assumes that the pre- and post-retrofit flow rates through the cooling tower do not change, as would be expected if a VFD was installed on the condenser water pump at the same time as the VFDs on the fans. 
-
 
 ## Calculators
 
@@ -49,7 +46,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
     <tbody>
         <tr>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant OnOff.xlsx" download><p></p>Constant-speed cooling tower fans energy consumption</a>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/cscv_single_speed_CT_fan_energy_calculator_2023_0117.xlsx" download><p></p>Constant-speed or single-speed cooling tower fans energy consumption</a>
             </td>
             <td>
                 <p>Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.</p>
@@ -65,7 +62,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
         </tr>
         <tr>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Constant Current.xlsx" download><p></p>Constant or two-speed cooling tower fans energy consumption</a>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/cscv_two_speed_CT_fan_energy_calculator_2023_0117.xlsx" download><p></p>Constant or two-speed cooling tower fans energy consumption</a>
             </td>
             <td>
                 <p>Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans. Spot measurements of voltage and power factor are required.</p>
@@ -81,7 +78,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
         </tr>
         <tr>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/CT Fan Variable Power.xlsx" download><p></p>Variable-speed cooling tower fans energy consumption</a>
+                <a href="/calculators/cooling-tower-fans-energy-consumption/vsvv_CT_fan_energy_calculator_2023_0110.xlsx" download><p></p>Variable-speed cooling tower fans energy consumption</a>
             </td>
             <td>
                 <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
@@ -99,7 +96,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
 
 ## Cooling Tower Fan Calculations
 
-### Constant-speed Fans Using Motor On/Off Logger
+### Constant-speed or Single-speed Cooling Tower Fans Energy Consumption
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers on each fan in the tower.
 
@@ -158,23 +155,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$E =$ Annual energy, kWh</p> 
 <p class="equation">$CoolingSeason(t) =$ Does the given hour, t, fall within the cooling season, binary</p> 
 
-### Constant-speed Fans Using a Data-logging Power Meter
-
-This calculation is for a cooling tower with constant-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for each fan in the cooling tower. 
-
-1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (kWh).
-
-<p class="equation equation-center">\begin{equation} \overline{E}(t) = \sum_{f=1}^{F} \overline{E}_{f}(t) \end{equation}</p>
-
-<p class="step-indent">Where,</p>
-<p class="equation">$\overline{E}_{f}(t) =$ Average hourly fan motor energy on for each fan, f, kWh</p> 
-<p class="equation">$\overline{E} =$ Total average energy of all fan motors, kWh</p> 
-<p class="equation">$F =$ Total number of fans in the cooling tower</p> 
-<p class="equation">$t =$Time index</p> 
-
-2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
-
-### Constant-speed Fans Using a Current Transformer
+### Constant or Two-speed Cooling Tower Fans Energy Consumption
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include hourly average current (in Amps) as directly measured by current transformers, and spot measurements for true power for each fan in the cooling tower. 
 
@@ -195,7 +176,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
 
-### Variable-speed Fans Using a Data-logging Power Meter
+### Variable-speed Cooling Tower Fans Energy Consumption
 
 This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed. 
 
