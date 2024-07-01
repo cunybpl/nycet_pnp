@@ -2,7 +2,7 @@
 title: Chilled Water Loop
 type: system
 excerpt: Consists of two main components – the pump and motors and a piping network.
-thumbnail_image: "/images/systems/chilled-water-loop/2024_0410_chilled water loop system_thumbnail.jpeg"
+thumbnail_image: "/images/systems/chilled-water-loop/2024_0606_chilled  water loop system_thumbnail.jpg"
 system_id: 1
 associated_systems:
   - Constant-speed, Constant-volume Pump and Motor

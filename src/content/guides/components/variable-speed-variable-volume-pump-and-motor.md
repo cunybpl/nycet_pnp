@@ -2,7 +2,7 @@
 title: Variable-speed, Variable-volume Pump and Motor
 type: component
 excerpt: A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve.
-thumbnail_image: "/images/components/2024_0410_vsvv pump component_thumbnail.jpeg"
+thumbnail_image: "/images/components/thumbnail-images/2024_0606_vsvv pump component_thumbnail.jpg"
 associated_systems:
   - Chilled Water Loop
   - Condenser Water Loop
@@ -27,7 +27,7 @@ A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., 
 Table 1 shows the plant and system configurations that may contain a VSVV pump and motor and the controlling variable. 
 
 <table>
-    <caption>Table 1. Plants systems applicable to variable-speed pumps</caption>
+    <caption>Table 1. Plants and systems applicable to variable-speed pumps</caption>
     <thead>
         <tr>
             <td>
@@ -55,7 +55,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Primary chilled water pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -69,7 +69,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Condenser water pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -83,7 +83,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Primary chilled water pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -97,7 +97,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Primary chilled water pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -111,7 +111,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Secondary chilled water pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -125,7 +125,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Waterside economizer pump (if present)</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -139,7 +139,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Makeup water pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air tempearature (F)</p>
             </td>
         </tr>
         <tr>
@@ -153,7 +153,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Building Loop Pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -167,7 +167,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Makeup water pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -181,7 +181,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 <p>Feedwater pump</p>
             </td>
             <td>
-                <p>OAT</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -225,21 +225,16 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
                 <p>Electricity input to a variable-speed pump motor</p>
             </td>
             <td>
-                <p>Hourly power input to a VSVV pump motor at known speeds (e.g. 30%, 50%, 75%, 100%)</p>
+                <ul>
+                    <li>Hourly power input to a VSVV pump motor at known speeds (e.g. 30%, 50%, 75%, 100%)</li>
+                    <li>Average hourly outside air temperature (OAT)</li>
+                </ul>
             </td>
             <td>
-                <p>True RMS power of pump motor that drives the pump (kW)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Electricity input to a variable-speed pump motor</p>
-            </td>
-            <td>
-                <p>Average hourly outside air temperature (OAT)</p>
-            </td>
-            <td>
-                <p>OAT (F)</p>
+                <ul>
+                    <li><a href="/documents/measurement-technique/true-rms-power">True RMS power</a> of pump motor that drives the pump (kW)</li>
+                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></li>
+                </ul>
             </td>
         </tr>
     </tbody>
@@ -247,16 +242,13 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
 
 ### Measurement Strategy
 
-The measurement boundary for quantifying energy consumption for the VSVV pump motor is shown in Figure 1. 
+The measurement strategy for a variable-speed pump and motor is to measure power draw of the pump motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect hourly OAT. Measurement points are generically represented in Figure 1.
 
+<!-- Will update image below after getting new image from Orlando -->
 <figure class="figure">
   <img src="/images/components/VSVV-pump-and-motor-figure1.png" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a pump with a VFD.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a pump with a VFD.</figcaption>
 </figure>
-
-The measurement strategy for a variable-speed pump and motor is to measure power draw of the pump motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated OAT. Measurement points are generically represented in Figure 1.
-
-Further details about measurement tools and equipment associated with measurements in Table 2 can be found here (link).
 
 ### Calculation Methodology
 

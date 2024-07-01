@@ -2,7 +2,7 @@
 title: Constant-speed, Constant-volume Pump and Motor
 type: component
 excerpt: Operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
-thumbnail_image: "/images/components/2024_0410_cscv pump component_thumbnail.jpeg"
+thumbnail_image: "/images/components/thumbnail-images/2024_0606_cscv pump component_thumbnail.jpg"
 associated_systems:
   - Chilled Water Loop
   - Condenser Water Loop
@@ -180,24 +180,19 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
     <tbody>
         <tr>
             <td class="fr-cell-handler " style="vertical-align: top;" width="28.571428571428573%" height="17">
-                <p>Power input to a constant-speed pump motor</p>
+                <p>Electricity usage of a CSCV pump motor</p>
             </td>
             <td style="vertical-align: top;" width="34.76764199655766%">
-                <p>Average hourly power input to the pump motor</p>     
+                <ul>
+                    <li>Average hourly power input to the pump motor</li>
+                    <li>Average hourly operating time for the pump motor</li>
+                </ul>     
             </td>
             <td style="vertical-align: top;" width="36.660929432013766%">
-                <p>True RMS power of pump motor that drives the pump (kW)</p>
-            </td>
-        </tr>
-        <tr>
-            <td style="vertical-align: top;" width="28.571428571428573%">
-                <p>Non-weather dependent operating schedule for a constant-speed pump motor</p>
-            </td>
-            <td style="vertical-align: top;" width="34.76764199655766%">
-                <p>Average hourly operating time for the pump motor</p>
-            </td>
-            <td class="fr-cell-fixed " style="vertical-align: top;" width="36.660929432013766%">
-                <p>Pump motor runtime</p>
+                <ul>
+                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>True RMS power of pump motor that drives the pump (kW)</li></a>
+                    <a href="/documents/measurement-technique/motor-runtime"><li>Pump motor runtime</li></a>
+                </ul>
             </td>
         </tr>
     </tbody>
@@ -205,21 +200,12 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
 
 ### Measurement Strategy
 
-The measurement boundary for quantifying energy consumption for the constant-speed pump and motor is shown in Figure 1 below.
-
-<a href="/images/components/Measurement-boundary-of-a-constant-speed-pump.png">
-<figure class="figure">
-  <img src="/images/components/Measurement-boundary-of-a-constant-speed-pump.png" class="figure-img img-fluid rounded zoom" alt=" Figure 1. Measurement boundary of a constant-speed pump.">
-  <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a constant-speed pump. FPO</figcaption>
-</figure>
-</a>
-
 The measurement strategy for a CSCV pump and motor is to do a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant-speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at the main feed to the constant-speed motor. Measurement points are generically represented in Figure 2.
 
-<a href="/images/components/Measurement-points-for-motor-on-off-operation-FPO.png">
+<a href="/images/components/2024_0626_CSCV pump component_figure 1.jpg">
 <figure class="figure">
-  <img src="/images/components/Measurement-points-for-motor-on-off-operation-FPO.png" class="figure-img img-fluid rounded zoom" alt=" Figure 2. Measurement points for motor on /off operation.">
-  <figcaption class="figure-caption text-left">Figure 2. Measurement points for motor on /off operation. FPO</figcaption>
+  <img src="/images/components/2024_0626_CSCV pump component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt=" Figure 1. Measurement points for a CSCV pump motor.">
+  <figcaption class="figure-caption text-left">Figure 1. Measurement points for a CSCV pump motor.</figcaption>
 </figure>
 </a>
 
