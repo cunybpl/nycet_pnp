@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 4
 excerpt: This technique uses data loggers to measure the duration a motor remains on. This is applicable to any motor including compressor, fan and pump motors.
+borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 thumbnail_image: "/images/measurement-technique/motor-runtime/2024_0410_motor runtime MT_thumbnail.jpeg"
 related_systems:
   - Boiler

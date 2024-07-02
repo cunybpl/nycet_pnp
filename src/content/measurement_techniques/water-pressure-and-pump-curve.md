@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 12
 excerpt: This technique uses water pressure measurements at the from the pump to infer the water flow rate (in GPM).
+borrow_equipment_url: "https://nycenergytools.com/equipment/gauge-pressure-sensor/"
 thumbnail_image: "/images/measurement-technique/water-pressure-and-pump-curve/2024_0410_water pressure and pump curve MT_thumbnail.jpeg"
 related_systems:
   - Constant-speed, Constant-volume Pump and Motor

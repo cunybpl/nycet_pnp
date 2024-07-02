@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 6
 excerpt: This technique uses weatherproof data loggers to measure outside air temperature (OAT) at one-hour intervals.
+borrow_equipment_url: "https://nycenergytools.com/equipment/temp-rh-mx2301/"
 thumbnail_image: "/images/measurement-technique/outside-air-temperature/2024_0410_outdoor air temperature MT_thumbnail.jpeg"
 related_systems:
   - Chilled Water Loop 
