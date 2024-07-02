@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 8
 excerpt: This technique uses data loggers to measure ments of relative humidity (% RH) of outdoor air and air handling units air streams at one-hour intervals.
+borrow_equipment_url: "https://nycenergytools.com/equipment/temp-rh-mx2301/"
 thumbnail_image: "/images/measurement-technique/relative-humidity/2024_0410_relative humidity MT_thumbnail.jpeg"
 related_systems:
 related_components:
@@ -24,7 +25,7 @@ Direct
 
 ### Equipment 
 
-The measurement equipment needed for this procedure is a humidity data logger. Most loggers offered at the FELL can measure temperature and humidity at the same time. Relative humidity and temperature measurements should be taken at the same time if both variables are required. If outside air temperature or system air temperature, the same data loggers can be used to measure humidity. Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify temperature/humidity data loggers. The contents of this guide are largely based off the Onset HOBO MX2301 logger, which can be found and borrowed through FELL. 
+The measurement equipment needed for this procedure is a humidity data logger. Most loggers offered at the FELL can measure temperature and humidity at the same time. Relative humidity and temperature measurements should be taken at the same time if both variables are required. If outside air temperature or system air temperature, the same data loggers can be used to measure humidity. Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify temperature/humidity data loggers. The contents of this guide are largely based off the [Onset HOBO MX2301 logger](https://nycenergytools.com/equipment/temp-rh-mx2301/), which can be found and borrowed through FELL. 
  
 The data loggers should be installed in the ductwork with the air stream. The relative humidity data measured by the logger should be collected as hourly average values and not instantaneous. With this method, the logger will detect humidity fluctuations across the hour and store the average value of those fluctuations, rather than the measured relative humidity value at an instantaneous point in time (which does not account for those changes).
 

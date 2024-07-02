@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 7
 excerpt: This technique uses data loggers to measure ments of the air temperature of various air streams within air handling units at one-hour intervals.
+borrow_equipment_url: "https://nycenergytools.com/equipment/temp-rh-logger-mx1101/"
 thumbnail_image: "/images/measurement-technique/system-air-temperature/2024_0410_system air temperature MT_thumbnail.jpeg"
 related_systems:
 related_components:
@@ -24,7 +25,7 @@ Direct
 
 ### Equipment 
 
-The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify temperature/humidity data loggers. The contents of this guide are largely based off the Onset HOBO MX1101 logger, which can be found and borrowed through FELL. 
+The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify temperature/humidity data loggers. The contents of this guide are largely based off the [Onset HOBO MX1101 logger](https://nycenergytools.com/equipment/temp-rh-logger-mx1101/), which can be found and borrowed through FELL. 
  
 The data loggers should be installed in the ductwork with the air stream. Users should avoid placing the loggers near heat exchangers, such as the heating or cooling coils within the air handling unit, because the logger will detect the temperature of air around those components instead of the true air temperature. The temperature data measured by the logger should be collected as hourly average values and not instantaneous. With this method, the logger will detect temperature fluctuations across the hour and store the average value of those fluctuations rather than the measured temperature value at an instantaneous point in time (which does not account for those changes).  
 Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.  

@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 16
 excerpt: This technique uses a 4-channel analog logger with a thermocouple sensor to take measurements of water temperature in piping networks at one-hour intervals.
+borrow_equipment_url: ""
 thumbnail_image: "/images/measurement-technique/pipe-surface-water-temperature/2024_0410_pipe surface water temperature MT_thumbnail.jpeg"
 related_systems:
 related_components: 

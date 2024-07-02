@@ -4,6 +4,7 @@ type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 6
 excerpt: 
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-motor-kit-variable-speed/"
 url: "/documents/calculation-methodology/pump-motors-energy-consumption"
 ---
 

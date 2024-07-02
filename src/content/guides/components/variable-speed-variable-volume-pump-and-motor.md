@@ -15,7 +15,7 @@ related_systems:
   - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-and-motor-variable-speed-2/"
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-motor-kit-variable-speed/"
 layout: guide
 url: "/documents/components/variable-speed-variable-volume-pump-and-motor"
 ---

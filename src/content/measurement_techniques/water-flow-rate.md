@@ -4,6 +4,7 @@ type: measurement
 layout: measurement_technique
 measurement_technique_id: 11
 excerpt: This technique uses an ultrasonic flow meter to measure the flow rate of a fluid within a pipe at one-hour intervals.
+borrow_equipment_url: "https://nycenergytools.com/equipment/ultrasonic-flow-meter-dxnp/"
 thumbnail_image: "/images/measurement-technique/water-flow-rate/Water flow rate thumbnail image.JPG"
 related_systems:
   - Air Cooled Chiller

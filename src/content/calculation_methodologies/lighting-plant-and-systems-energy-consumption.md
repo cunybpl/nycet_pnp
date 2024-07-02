@@ -62,7 +62,6 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
             </td>
             <td>
                 <ul>
-                    <li>Hourly amperage per circuit (amps)</li>
                     <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Circuit voltage (V)</li></a> 
                     <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Power factor (kW)</li></a> 
                     <a href="/documents/measurement-technique/electrical-current"><li>Hourly current (amps)</li></a>
@@ -78,7 +77,6 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
             </td>
             <td>
                 <ul>
-                    <li>Hourly amperage per circuit (amps)</li>
                     <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Circuit voltage (V)</li></a> 
                     <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Power factor (kW)</li></a> 
                     <a href="/documents/measurement-technique/electrical-current"><li>Hourly current (amps)</li></a>
