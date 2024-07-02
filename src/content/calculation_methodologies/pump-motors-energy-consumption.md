@@ -1,5 +1,5 @@
 ---
-title: Pump Motors Energy Consumption
+title: Pump Motor Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 6
@@ -12,7 +12,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
 ## Calculators
 
 <table>
-    <caption>Table 1. Pump and Motor Calculators</caption>
+    <caption>Table 1. Pump motor energy calculators</caption>
     <thead>
         <tr>
             <td>
@@ -28,7 +28,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-08_chiller_pump_cscv_on_off_pc.xlsx" download>Constant-speed, constant-volume pump energy calculator</a></p>
+                <p><a href="/calculators/pump-motors-energy-consumption/cscv_pump_energy_calculator_2020_0427.xlsx" download>Constant-speed, constant-volume pump energy calculator</a></p>
             </td>
             <td>
                 <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.</p>
@@ -42,7 +42,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
         </tr>
         <tr>
             <td>
-                <p><a href="/calculators/secondary-chilled-water-pump-motors-energy-consumption/2020_0427_PnP-EC-10_chiller_pump_variable_volume_pc.xlsx" download>Variable-speed, variable-volume pump energy calculator</a></p>
+                <p><a href="/calculators/pump-motors-energy-consumption/vsvv_pump_energy_calculator_2020_0427.xlsx" download>Variable-speed, variable-volume pump energy calculator</a></p>
             </td>
             <td>
                 <p>Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor</p>
@@ -57,9 +57,9 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
     </tbody>
 </table>
 
-## Pump and Motor Calculations
+## Pump Motor Calculations
 
-### Constant-speed, constant-volume pump energy calculator
+### Constant-speed, constant-volume pump energy calculations
 
 This calculation tool is for a constant speed, constant volume system. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers. 
 
@@ -105,7 +105,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 <p class="equation">$DaysPerYear =$ 365.24</p>
 <p class="equation">$P =$ Measured pump power, kW</p>
 
-### Variable-speed, variable-volume pump energy calculator
+### Variable-speed, variable-volume pump energy calculations
 
 This calculation tool is for VFD-controlled pumps that are operated at speeds proportional to the heating/cooling load as represented by proxy with OAT. Measured input data include average hourly power draw (kW) as measured by a DENT data logging power logger, and the average hourly OAT as measured by a temperature/RH logger. 
 

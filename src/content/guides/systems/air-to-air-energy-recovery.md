@@ -2,7 +2,7 @@
 title: Air-to-air Energy Recovery 
 type: system
 excerpt: An air-to-air energy recovery (AAER) system consists of a heat exchanger component, air ducts and any associated device for its operation.
-thumbnail_image: "/images/systems/air-cooled-chiller/2024_0410_air cooled chiller system_thumbnail.jpeg"
+thumbnail_image: "/images/systems/air-to-air-energy-recovery/2024_0710_AtA energy recovery system_thumbnail.jpg"
 system_id: 16
 associated_systems:
   - Air-to-air Heat Exchanger

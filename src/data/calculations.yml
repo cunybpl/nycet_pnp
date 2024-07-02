@@ -7,7 +7,7 @@ documents:
     title: "Cooling Tower Fans Energy Consumption"
     measurement_type: "water-side, cooling"
   - type: calculation
-    title: "Fan Motors Energy Consumption"
+    title: "Fan Motor Energy Consumption"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
   - type: calculation
     title: "Lighting Plant and Systems Energy Consumption"
@@ -16,5 +16,5 @@ documents:
     title: "Liquid-to-liquid Heat Exchanger Heat Transfer"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
   - type: calculation
-    title: "Pump Motors Energy Consumption"
+    title: "Pump Motor Energy Consumption"
     measurement_type: "water-side, cooling, heating, steam, energy-recovery"
