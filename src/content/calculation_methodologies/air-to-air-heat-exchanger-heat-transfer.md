@@ -141,7 +141,7 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator</strong></p>
+                <p><strong>Calculator (Downloadable Link)</strong></p>
             </td>
             <td>
                 <p><strong>Description</strong></p>
@@ -153,7 +153,7 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
     <tbody>
         <tr>
             <td>
-                <a href="/calculators/air-to-air-heat-exchanger-heat-transfer/air_to_air_heat_transfer_calculator_2023_0706.xlsx" download>Air-to-air Heat-exchanger Heat-transfer Calculator</a>
+                <a href="/calculators/air-to-air-heat-exchanger-heat-transfer/air_to_air_heat_transfer_calculator_2023_0706.xlsx" download>Air-to-air Heat-exchanger Heat-transfer Calculator.xlsx</a>
             </td>
             <td>
                 <p>Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.</p>

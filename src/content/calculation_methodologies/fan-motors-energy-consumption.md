@@ -20,7 +20,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator</strong></p>
+                <p><strong>Calculator (Downloadable Links)</strong></p>
             </td>
             <td width="50%">
                 <p><strong>Description</strong></p>
@@ -32,7 +32,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/fan-motors-energy-consumption/cscv_single_speed_fan_energy_calculator_2023_0214.xlsx" download>Constant-speed, constant-volume single-speed fan energy calculator</a></p>
+                <p><a href="/calculators/fan-motors-energy-consumption/cscv_single_speed_fan_energy_calculator_2023_0214.xlsx" download>Constant-speed, constant-volume single-speed fan energy calculator.xlsx</a></p>
             </td>
             <td>
                 <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV single-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>
@@ -46,7 +46,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
         </tr>
         <tr>
             <td>
-                <p><a href="/calculators/fan-motors-energy-consumption/cscv_two_speed_fan_energy_calculator_2023_0320.xlsx" download>Constant-speed, constant-volume two-speed fan energy calculator</a></p>
+                <p><a href="/calculators/fan-motors-energy-consumption/cscv_two_speed_fan_energy_calculator_2023_0320.xlsx" download>Constant-speed, constant-volume two-speed fan energy calculator.xlsx</a></p>
             </td>
             <td>
                 <p>Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>
@@ -60,7 +60,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
         </tr>
         <tr>
             <td>
-                <p><a href="/calculators/fan-motors-energy-consumption/vsvv_fan_energy_calculator_2023_0203.xlsx" download>Variable-speed, variable-volume fan energy calculator</a></p>
+                <p><a href="/calculators/fan-motors-energy-consumption/vsvv_fan_energy_calculator_2023_0203.xlsx" download>Variable-speed, variable-volume fan energy calculator.xlsx</a></p>
             </td>
             <td>
                 <p>Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>
