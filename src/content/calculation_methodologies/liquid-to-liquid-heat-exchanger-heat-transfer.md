@@ -34,7 +34,7 @@ This methodology works with hourly data only and each measurement is taken at th
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator</strong></p>
+                <p><strong>Calculator (Downloadable Link)</strong></p>
             </td>
             <td>
                 <p><strong>Description</strong></p>
@@ -46,7 +46,7 @@ This methodology works with hourly data only and each measurement is taken at th
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/liquid-to-liquid-heat-exchanger/liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx" download>Liquid-to-liquid Heat-transfer Calculator</a></p>
+                <p><a href="/calculators/liquid-to-liquid-heat-exchanger/liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx" download>Liquid-to-liquid Heat-transfer Calculator.xlsx</a></p>
             </td>
             <td>
                 <p>Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.</p>

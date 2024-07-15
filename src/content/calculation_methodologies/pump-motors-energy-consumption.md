@@ -17,7 +17,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator</strong></p>
+                <p><strong>Calculator (Downloadable Links)</strong></p>
             </td>
             <td>
                 <p><strong>Description</strong></p>
@@ -29,7 +29,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/pump-motors-energy-consumption/cscv_pump_energy_calculator_2020_0427.xlsx" download>Constant-speed, constant-volume pump energy calculator</a></p>
+                <p><a href="/calculators/pump-motors-energy-consumption/cscv_pump_energy_calculator_2020_0427.xlsx" download>Constant-speed, constant-volume pump energy calculator.xlsx</a></p>
             </td>
             <td>
                 <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.</p>
@@ -43,7 +43,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
         </tr>
         <tr>
             <td>
-                <p><a href="/calculators/pump-motors-energy-consumption/vsvv_pump_energy_calculator_2020_0427.xlsx" download>Variable-speed, variable-volume pump energy calculator</a></p>
+                <p><a href="/calculators/pump-motors-energy-consumption/vsvv_pump_energy_calculator_2020_0427.xlsx" download>Variable-speed, variable-volume pump energy calculator.xlsx</a></p>
             </td>
             <td>
                 <p>Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor</p>
