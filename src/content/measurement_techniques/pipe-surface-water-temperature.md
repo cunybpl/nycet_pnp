@@ -7,7 +7,11 @@ excerpt: This technique uses a 4-channel analog logger with a thermocouple senso
 borrow_equipment_url: ""
 thumbnail_image: "/images/measurement-technique/pipe-surface-water-temperature/2024_0410_pipe surface water temperature MT_thumbnail.jpeg"
 related_systems:
+  - Air-cooled Chiller
+  - Water-cooled Chiller
+  - Waterside Economizer
 related_components: 
+  - Liquid-to-liquid Heat Exchanger
 url: "/documents/measurement-technique/pipe-surface-water-temperature"
 ---
 

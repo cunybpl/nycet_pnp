@@ -7,7 +7,9 @@ excerpt: This technique uses data loggers to measure ments of the air temperatur
 borrow_equipment_url: "https://nycenergytools.com/equipment/temp-rh-logger-mx1101/"
 thumbnail_image: "/images/measurement-technique/system-air-temperature/2024_0410_system air temperature MT_thumbnail.jpeg"
 related_systems:
+  - Air-to-air Energy Recovery
 related_components:
+  - Air-to-air Heat Exchanger
 url: "/documents/measurement-technique/system-air-temperature"
 ---
 

@@ -5,10 +5,8 @@ excerpt: A variable-speed, variable-volume (VSVV) air handling system conditions
 thumbnail_image: "/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0702_VSVV AHU_system_thumbnail.jpg"
 system_id: 10
 associated_systems: 
-  - Liquid-to-air Heat Exchanger
   - Variable-speed, Variable-volume Fan and Motor
 related_components:
-  - Liquid-to-air Heat Exchanger
   - Variable-speed, Variable-volume Fan and Motor
 borrow_equipment_url: 
 layout: guide

@@ -7,20 +7,19 @@ excerpt: This technique uses weatherproof data loggers to measure outside air te
 borrow_equipment_url: "https://nycenergytools.com/equipment/temp-rh-mx2301/"
 thumbnail_image: "/images/measurement-technique/outside-air-temperature/2024_0410_outdoor air temperature MT_thumbnail.jpeg"
 related_systems:
-  - Chilled Water Loop 
+  - Air-cooled Chiller
+  - Air-to-air Energy Recovery
+  - Boiler
+  - Chilled Water Loop
   - Condenser Water Loop
-  - Constant-speed, Constant-volume Air Handling Unit
-  - Dual-speed Air Handling Unit
   - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
   - Variable-speed, Variable-volume Air Handling Unit
-  - Water Chooled Chiller
+  - Water-cooled Chiller
 related_components: 
   - Air-to-air Heat Exchanger
-  - Constant-speed, Constant-volume Pump and Motor
-  - Liquid-to-air Heat Exchanger
-  - Variable-speed, Variable-volume Compressor and Motor
+  - Constant-speed, Constant-volume Fan and Motor
   - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Pump and Motor
 url: "/documents/measurement-technique/outdoor-air-temperature"

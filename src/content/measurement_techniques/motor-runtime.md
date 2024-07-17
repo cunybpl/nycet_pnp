@@ -11,16 +11,12 @@ related_systems:
   - Chilled Water Loop
   - Condenser Water Loop
   - Constant-speed, Constant-volume Air Handling Unit
-  - Dual-speed Air Handling Unit
-  - Steam Condensate Recovery
+  - Hot Water Loop
+  - Steam Condensate Recovery System
   - Steam Distribution
-  - Variable-speed, Variable-volume Air Handling Unit
-  - Water Cooled Chiller
 related_components:
-  - Constant-speed, Constant-volume Compressor and Motor
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
-  - Variable-speed, Variable-volume Fan and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/motor-runtime"
 ---

@@ -5,14 +5,10 @@ excerpt: A boiler system provides either hot water or steam to distribute the he
 thumbnail_image: "/images/systems/boiler/2024_0410_boiler system_thumbnail.jpeg"
 system_id: 11
 associated_systems:
-  - Burner
   - Constant-speed, Constant-volume Fan and Motor
-  - Liquid-to-air Heat Exchanger
   - Variable-speed, Variable-volume Fan and Motor
 related_components:
-  - Burner
   - Constant-speed, Constant-volume Fan and Motor
-  - Liquid-to-air Heat Exchanger
   - Variable-speed, Variable-volume Fan and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide

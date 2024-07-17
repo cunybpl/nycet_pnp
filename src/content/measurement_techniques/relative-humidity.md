@@ -7,7 +7,12 @@ excerpt: This technique uses data loggers to measure ments of relative humidity 
 borrow_equipment_url: "https://nycenergytools.com/equipment/temp-rh-mx2301/"
 thumbnail_image: "/images/measurement-technique/relative-humidity/2024_0410_relative humidity MT_thumbnail.jpeg"
 related_systems:
+  - Air-to-air Energy Recovery
+  - Condenser Water Loop
 related_components:
+  - Air-to-air Heat Exchanger
+  - Constant-speed, Constant-volume Fan and Motor
+  - Variable-speed, Variable-volume Fan and Motor
 url: "/documents/measurement-technique/relative-humidity"
 ---
 

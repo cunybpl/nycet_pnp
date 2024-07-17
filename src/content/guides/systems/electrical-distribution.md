@@ -5,9 +5,7 @@ excerpt: An electrical distribution system is made up of switchgear and panelboa
 thumbnail_image: "/images/systems/electrical-distribution/2024_0701_electrical distribution_system_thumbnail.jpg"
 system_id: 6
 associated_systems:
-  - Lighting Fixture
 related_components:
-  - Lighting Fixture
 related_measurements:
   - Electrical Current
 layout: guide

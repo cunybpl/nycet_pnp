@@ -7,17 +7,15 @@ excerpt: This technique uses a handheld power meter to take one-time measurement
 borrow_equipment_url: "https://nycenergytools.com/equipment/power-quality-clamp-meter-2/"
 thumbnail_image: "/images/measurement-technique/electrical-spot-measurement/2024_0410_electrical spot measurement MT_thumbnail.jpeg"
 related_systems:
+  - Boiler
   - Chilled Water Loop
   - Condenser Water Loop
   - Constant-speed, Constant-volume Air Handling Unit
-  - Dual-speed Air Handling Unit
   - Electrical Distribution
   - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-  - Water Cooled Chiller
 related_components:
-  - Constant-speed, Constant-volume Compressor and Motor
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
 url: "/documents/measurement-technique/electrical-spot-measurement"

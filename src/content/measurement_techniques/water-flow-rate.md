@@ -8,12 +8,9 @@ borrow_equipment_url: "https://nycenergytools.com/equipment/ultrasonic-flow-mete
 thumbnail_image: "/images/measurement-technique/water-flow-rate/Water flow rate thumbnail image.JPG"
 related_systems:
   - Air Cooled Chiller
-  - Boiler
-  - Steam Condensate Recovery
   - Water-cooled Chiller
   - Waterside Economizer
 related_components:
-  - Liquid-to-air Heat Exchanger
   - Liquid-to-liquid Heat Exchanger
 url: "/documents/measurement-technique/water-flow-rate"
 ---

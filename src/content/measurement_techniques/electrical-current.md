@@ -7,22 +7,10 @@ excerpt: This technique uses a data logger and current transformers to take meas
 borrow_equipment_url: "https://nycenergytools.com/equipment/4-channel-analog-data-logger/"
 thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_electrical current MT_thumbnail.jpeg"
 associated_systems:
-  - Air-cooled Chiller
   - Boiler
-  - Chilled Water Loop
-  - Condenser Water Loop
-  - Constant-speed, Constant-volume Air Handling Unit
-  - Dual-speed Air Handling Unit
   - Electrical Distribution
-  - Hot Water Loop
-  - Steam Condensate Recovery
-  - Steam Distribution
-  - Water Cooled Chiller
 related_components:
-  - Constant-speed, Constant-volume Compressor and Motor
   - Constant-speed, Constant-volume Fan and Motor
-  - Constant-speed, Constant-volume Pump and Motor
-  - Variable-speed, Variable-volume Fan and Motor
 related_calculations:
   - Cooling Tower Fans Energy Consumption
 associated_calculations:
