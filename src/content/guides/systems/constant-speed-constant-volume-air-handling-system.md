@@ -6,10 +6,8 @@ thumbnail_image: "/images/systems/constant-speed-constant-volume-air-handling-un
 system_id: 8
 associated_systems: 
   - Constant-speed, Constant-volume Fan and Motor
-  - Liquid-to-air Heat Exchanger
 related_components:
   - Constant-speed, Constant-volume Fan and Motor
-  - Liquid-to-air Heat Exchanger
 borrow_equipment_url: 
 layout: guide
 url: "/documents/systems/constant-speed-constant-volume-air-handling-system"

@@ -4,12 +4,8 @@ type: component
 excerpt: Achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_liquid to liquid hx component_thumbnail.jpg"
 associated_systems:
-  - Air-cooled Chiller
-  - Water-cooled Chiller
   - Waterside Economizer
 related_systems:
-  - Air-cooled Chiller
-  - Water-cooled Chiller
   - Waterside Economizer
 layout: guide
 url: "/documents/components/liquid-to-liquid-heat-exchanger"

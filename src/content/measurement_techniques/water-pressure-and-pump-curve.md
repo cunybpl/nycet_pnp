@@ -7,9 +7,11 @@ excerpt: This technique uses water pressure measurements at the from the pump to
 borrow_equipment_url: "https://nycenergytools.com/equipment/gauge-pressure-sensor/"
 thumbnail_image: "/images/measurement-technique/water-pressure-and-pump-curve/2024_0410_water pressure and pump curve MT_thumbnail.jpeg"
 related_systems:
-  - Constant-speed, Constant-volume Pump and Motor
-  - Liquid-to-liquid heat exchanger
+  - Air Cooled Chiller
+  - Water-cooled Chiller
+  - Waterside Economizer
 related_components:
+  - Liquid-to-liquid Heat Exchanger
 url: "/documents/measurement-technique/water-pressure-and-pump-curve"
 ---
 

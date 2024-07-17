@@ -5,9 +5,9 @@ excerpt: An air-cooled chiller consists of an evaporator, a compressor, condense
 thumbnail_image: "/images/systems/air-cooled-chiller/2024_0606_air cooled chiller system_thumbnail.jpg"
 system_id: 5
 associated_systems:
-  - Liquid-to-liquid Heat Exchanger
+  - 
 related_components:
-  - Liquid-to-liquid Heat Exchanger
+  - 
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chilled-water-loop"
 layout: guide
 url: "/documents/systems/air-cooled-chiller"

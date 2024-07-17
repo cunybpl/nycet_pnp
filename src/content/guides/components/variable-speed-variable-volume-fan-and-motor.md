@@ -114,7 +114,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
 </table>
 
 ## Evaluation of Energy Consumption
-The primary energy source for a variable-speed fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the variable-speed fan and motor.  
+The primary energy source for a variable-speed fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the variable-speed fan and motor.
 
 <table>
     <caption>Table 2. Key Values and measurements.</caption>
@@ -133,7 +133,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     <tbody>
         <tr>
             <td>
-                <p>Electricity usafe of VSVV fan motor (kWh)</p>
+                <p>Electricity usage of VSVV fan motor (kWh)</p>
             </td>
             <td>
                 <p>Power input to the motor at known speeds (e.g., 30%, 50%, 75%, 100%)</p>
@@ -144,7 +144,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
         </tr>
         <tr>
             <td>
-                <p><span class="tooltip-pnp">Controlling variable, non-weather dependent<span class="tooltiptext">This variable should be measured to quantify the electricity usafe of the VSVV fan if the operation is weather dependent</span></span></p>
+                <p><span class="tooltip-pnp">Controlling variable, non-weather dependent<span class="tooltiptext">This variable should be measured to quantify the electricity usage of the VSVV fan if the operation is weather dependent</span></span></p>
             </td>
             <td>
                 <p>Yearly operating schedule</p>
@@ -155,7 +155,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
         </tr>
         <tr>
             <td>
-                <p><span class="tooltip-pnp">Controlling variable, weather dependent<span class="tooltiptext">This variable should be measured to quantify the electricity usafe of the VSVV fan if the operation is not weather dependent</span></span></p>
+                <p><span class="tooltip-pnp">Controlling variable, weather dependent<span class="tooltiptext">This variable should be measured to quantify the electricity usage of the VSVV fan if the operation is not weather dependent</span></span></p>
             </td>
             <td>
                 <p>Average hourly outside air temperature (OAT)</p>

@@ -6,11 +6,9 @@ thumbnail_image: "/images/systems/steam-condensate-recovery/2024_0411_steam cond
 system_id: 12
 associated_systems:
   - Constant-speed, Constant-volume Pump and Motor
-  - Liquid-to-air Heat Exchanger
   - Variable-speed, Variable-volume Pump and Motor
 related_components:
   - Constant-speed, Constant-volume Pump and Motor
-  - Liquid-to-air Heat Exchanger
   - Variable-speed, Variable-volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=condenser-water-loop"
 layout: guide

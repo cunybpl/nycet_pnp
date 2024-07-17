@@ -7,18 +7,21 @@ excerpt: This technique uses a data logger to take long- term measurements of th
 borrow_equipment_url: "https://nycenergytools.com/equipment/energy-logger-2/"
 thumbnail_image: "/images/measurement-technique/true-RMS-power/2024_0410_true RMS power MT_thumbnail.jpeg"
 related_systems:
+  - Air-to-air Energy Recovery
+  - Air-cooled Chiller
+  - Boiler
   - Chilled Water Loop
   - Condenser Water Loop
   - Electrical Distribution
   - Hot Water Loop
-  - Steam Distribution
   - Steam Condensate Recovery
+  - Steam Distribution
+  - Water-cooled Chiller
   - Variable-speed, Variable-volume Air Handling Unit
-  - Water Cooled Chiller
 related_components:
-  - Variable-speed, Variable-volume Compressor and Motor
   - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Pump and Motor
+  - 
 url: "/documents/measurement-technique/true-rms-power"
 ---
 
