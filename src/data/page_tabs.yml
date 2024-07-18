@@ -3,7 +3,7 @@ tabs:
     tabs:
       - name: measurement-guides
         label: Guide
-        icon: images/hero/guide-icon.png
+        icon: images/hero/plant-icon.png
       - name: related-systems
         label: Related Systems
         icon: images/hero/system-icon.png
@@ -22,7 +22,7 @@ tabs:
     tabs:
       - name: measurement-guides
         label: Guide
-        icon: images/hero/guide-icon.png
+        icon: images/hero/component-icon.png
       - name: related-systems
         label: Related Systems
         icon: images/hero/system-icon.png
@@ -32,22 +32,22 @@ tabs:
   - name: measurement
     tabs:
       - name: measurement
-        label: Technique
-        icon: images/measurement-technique/measurement-technique-icon-white.png
+        label: Guide
+        icon: images/hero/measurement-icon.png
       - name: related-cm
         label: Related Calculations
-        icon: images/hero/guide-icon.png
+        icon: images/hero/calc-icon.png
       - name: borrow-equipments
         label: Borrow Equipment
         icon: images/hero/borrow-icon.png
   - name: calculation
     tabs:
       - name: calculation
-        label: Methodology
-        icon: images/calculation-methodology/calculation-methodology-icon-white.png
+        label: Guide
+        icon: images/hero/calc-icon.png
       - name: related-mt
         label: Related Measurements
-        icon: images/hero/guide-icon.png
+        icon: images/hero/measurement-icon.png
       - name: borrow-equipments
         label: Borrow Equipment
         icon: images/hero/borrow-icon.png
