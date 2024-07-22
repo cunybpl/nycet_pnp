@@ -52,14 +52,14 @@ h2, h3, h4 {
     h2:not(:first-of-type) {
       margin-top: 3rem;
       padding-top: 2rem;
-      &:before {
-        content: "";
-        display: block;
-        position: relative;
-        width: 80px;
-        border: 4px solid #ebf4ec;
-        top: -25px;
-      }
+      // &:before {
+      //   content: "";
+      //   display: block;
+      //   position: relative;
+      //   width: 80px;
+      //   border: 4px solid #ebf4ec;
+      //   top: -25px;
+      // }
     }
   }
 }
@@ -481,6 +481,37 @@ table.equation-table {
   visibility: visible;
   opacity: 1;
 }
+sup {
+  padding-left: .25em;
+}
+a.footnote-ref,
+a.footnote-backref {
+  text-decoration: none;
+}
+a.footnote-ref::before {
+  content: "[";
+}
+a.footnote-ref::after {
+  content: "]";
+}
+a.footnote-ref:hover,
+a.footnote-backref:hover {
+  text-decoration: underline;
+}
+.footnotes {
+  font-size: 90%;
+  margin-top: 2rem;
+}
+.footnotes::before {
+  content: "Notes";
+  display: block;
+  font-size: 2.1875rem;
+  color: inherit;
+  font-weight: 500;
+}
+table caption p {
+  margin-block: 0;
+} 
 
 .video {
   width: 100%;
