@@ -480,9 +480,6 @@ table.equation-table {
   visibility: visible;
   opacity: 1;
 }
-sup {
-  padding-left: .25em;
-}
 a.footnote-ref,
 a.footnote-backref {
   text-decoration: none;
@@ -496,6 +493,11 @@ a.footnote-ref::after {
 a.footnote-ref:hover,
 a.footnote-backref:hover {
   text-decoration: underline;
+}
+[id^=fn]:target,
+[id^=fnref]:target a {
+  background-color:#d9e9da;
+  border-radius: 4px;
 }
 .footnotes {
   font-size: 90%;
