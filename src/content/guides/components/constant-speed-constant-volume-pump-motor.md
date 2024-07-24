@@ -213,12 +213,8 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 
 {{< calculation_methodology calculation_methodology_id=6 >}}
 
-## References
-<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
-<div class="references">
+## Further Reading
 
-Evans , P. (2017, Sept 26). How a Chiller, Cooling Tower and Air Handling Unit work together. Retrieved from The Engineering Mindset.com: https://theengineeringmindset.com/chiller-cooling-tower-air-handling-unit-work-together/
+- Evans , P. (2017, Sept 26). How a Chiller, Cooling Tower and Air Handling Unit work together. Retrieved from The Engineering Mindset.com: https://theengineeringmindset.com/chiller-cooling-tower-air-handling-unit-work-together/
 
-Evans, P. (2023, Jan 6). How Do Centrifugal Pumps Work. Retrieved from The Engineering Mindset.com: https://theengineeringmindset.com/how-do-centrifugal-pumps-work/
-
-</div>
+- Evans, P. (2023, Jan 6). How Do Centrifugal Pumps Work. Retrieved from The Engineering Mindset.com: https://theengineeringmindset.com/how-do-centrifugal-pumps-work/

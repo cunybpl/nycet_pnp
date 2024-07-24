@@ -61,15 +61,13 @@ Please note that loggers will require setup with a computer or phone using the m
 
 Identify the temperature (hot or cold) of the pipes that will be measured. Use the manufacturer’s software to setup the logger. Refer to the user manual for detailed instructions on how to setup the logger. 
 
-<ul>
-<li>Logging interval: 1-hour</li> 
-<li>Date and time to start logging</li> 
-<li>Date and time to stop logging</li> 
-<li>Values to measure: voltage (V) or pressure <span class="tooltip-pnp">(psi)<span class="tooltiptext">This is dependent on the measurement capability of the chosen logger.</span></span></li>
-<li>Activate input channels on the logger</li> 
-<li>Type of sensor</li> 
-<li>Sampling interval: 1-second</li>
-</ul>
+- Logging interval: 1-hour 
+- Date and time to start logging 
+- Date and time to stop logging
+- Values to measure: voltage (V) or pressure (psi)[^1]
+- Activate input channels on the logger
+- Type of sensor
+- Sampling interval: 1-second
 
 <a href="https://www.youtube.com/watch?v=fUjz0qj7GVM&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=1">
 <figure class="figure">
@@ -80,17 +78,15 @@ Identify the temperature (hot or cold) of the pipes that will be measured. Use t
 
 ### Installation at the Site 
 
-<ul>
-<li>Confirm that the equipment is operational.<li> 
-<li>Locate the pressure gauges that are installed on the suction and discharge sides of the pump, (Figure 2).</li> 
-<li>Connect the transducers to the data logger.</li> 
-<li>Place the data logger near the pipes, avoid placing the logger on the pipe itself.</li>
-<li>Confirm that the pressure gauge has a stop-valve to prevent water from flowing.</li>
-<li><i>If there is no stop valve on the piping system, then consider using the direct water flow measurement.</i></li> 
-<li>Remove the stop-valve and replace it with a T-shaped valve to stop the flow of water, as shown in Figure 3.</li> 
-<li>Connect the transducer to the T-shaped valve.</li> 
-<li>To avoid leaks, wrap Teflon tape around the installed equipment.</li> 
-</ul>
+- Confirm that the equipment is operational.
+- Locate the pressure gauges that are installed on the suction and discharge sides of the pump, (Figure 2).
+- Connect the transducers to the data logger.
+- Place the data logger near the pipes, avoid placing the logger on the pipe itself.
+- Confirm that the pressure gauge has a stop-valve to prevent water from flowing.
+- If there is no stop valve on the piping system, then consider using the direct water flow measurement. 
+- Remove the stop-valve and replace it with a T-shaped valve to stop the flow of water, as shown in Figure 3.
+- Connect the transducer to the T-shaped valve.
+- To avoid leaks, wrap Teflon tape around the installed equipment.
 
 Figure 2 illustrates a pressure gauge installed on an access port to the return chilled water line of a water-cooled chilled water plant. Notice the stop valve handle to the bottom right of the pressure gauge. This is used to stop the flow of water. 
 
@@ -153,4 +149,6 @@ After verifying the logger is collecting data, do the following:
 
 <div class="alert alert-warning" role="alert">
 <strong>Solution:</strong> Verify that the logger is calibrated and re-calibrate the equipment if necessary. 
-</div> 
+</div>
+
+[^1]: This is dependent on the measurement capability of the chosen logger.

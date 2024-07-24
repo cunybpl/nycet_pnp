@@ -150,8 +150,8 @@ The following equations are used to calculate the sensible heat transferred by t
 <p class="equation">$q_s =$ sensible heat transferred by the heat exchanger every hour (Btu/h)</p>
 <p class="equation">$t =$ hours</p>
 
-## Resources
+## Further Reading
 
-For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23
+- For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23
 
-ASHRAE (2020) “2020 ASHRAE Handbook-HVAC Systems and Equipment”
+- ASHRAE (2020) “2020 ASHRAE Handbook-HVAC Systems and Equipment”

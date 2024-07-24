@@ -176,27 +176,23 @@ The general methodology for quantifying the useful energy supplied by a liquid-t
 
 {{< calculation_methodology calculation_methodology_id=24 >}}
 
-## References
-<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
-<div class="references">
+## Further Reading
 
-Apogee Interactive (2022). “Free Cooling.” Commercial Library. https://c03.apogee.net/mvc/home/hes/land/el?utilityname=union-power&spc=cel&id=1094; accessed February 4, 2021.
+- Apogee Interactive (2022). “Free Cooling.” Commercial Library. https://c03.apogee.net/mvc/home/hes/land/el?utilityname=union-power&spc=cel&id=1094; accessed February 4, 2021.
 
-ASHRAE (2019). ASHRAE Handbook: HVAC Applications. Chapter 48. DESIGN AND APPLICATION OF CONTROLS. I-P Edition.
+- ASHRAE (2019). ASHRAE Handbook: HVAC Applications. Chapter 48. DESIGN AND APPLICATION OF CONTROLS. I-P Edition.
 
-ASHRAE (2020). ASHRAE Handbook: HVAC Systems and Equipment. Chapter 40. COOLING TOWERS. I-P Edition.
+- ASHRAE (2020). ASHRAE Handbook: HVAC Systems and Equipment. Chapter 40. COOLING TOWERS. I-P Edition.
 
-Carrier (2016). “How to Model a Waterside Economizer Application.” Carrier Engineering Newsletter, Vol. 4, Issue 1.
+- Carrier (2016). “How to Model a Waterside Economizer Application.” Carrier Engineering Newsletter, Vol. 4, Issue 1.
 
-Gordon, J.M.; Ng, K.C. (2001). “Cool Thermodynamics: The Engineering and Physics of Predictive, Diagnostic and Optimization Methods for Cooling Systems,” Cambridge: Cambridge International Science Pub; pp. 159-177.
+- Gordon, J.M.; Ng, K.C. (2001). “Cool Thermodynamics: The Engineering and Physics of Predictive, Diagnostic and Optimization Methods for Cooling Systems,” Cambridge: Cambridge International Science Pub; pp. 159-177.
 
-Trane (2008). “’Free’ Cooling Using Water Economizers.” Engineers Newsletter, Vol. 37-3. Also available at https://www.trane.com/Commercial/Uploads/PDF/11598/
+- Trane (2008). “’Free’ Cooling Using Water Economizers.” Engineers Newsletter, Vol. 37-3. Also available at https://www.trane.com/Commercial/Uploads/PDF/11598/
 News-%20Free%20Cooling%20using%20Water%20Economizers.pdf; accessed February 4, 2021.
 
-Trane (2010). CDS-PRM001-EN. TRACE 700 User’s Manual-Building Energy and Economic Analysis, Version 6.2; pp. 43-49. Also available at https://tranecds.custhelp.com/ci/fattach/get/55941/0/filename/FreeCooling%5B1%5D.pdf; accessed June 17, 2022. 
+- Trane (2010). CDS-PRM001-EN. TRACE 700 User’s Manual-Building Energy and Economic Analysis, Version 6.2; pp. 43-49. Also available at https://tranecds.custhelp.com/ci/fattach/get/55941/0/filename/FreeCooling%5B1%5D.pdf; accessed June 17, 2022. 
 
-Taylor, S (2014). “How to Design & Control Waterside Economizers,” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp. 30-36.
+- Taylor, S (2014). “How to Design & Control Waterside Economizers,” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp. 30-36.
 
-Trane (2016). “Waterside Economizers - Keeping the ‘Free’ In Free-Cooling.” Engineers Newsletter, Vol. 45-2. Also available at https://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/waterside-design/ADM-APN058-EN_06012016.pdf; accessed February 4, 2021.
-
-</div>
+- Trane (2016). “Waterside Economizers - Keeping the ‘Free’ In Free-Cooling.” Engineers Newsletter, Vol. 45-2. Also available at https://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/waterside-design/ADM-APN058-EN_06012016.pdf; accessed February 4, 2021.

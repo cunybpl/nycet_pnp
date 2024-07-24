@@ -216,5 +216,3 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 
 <p class="step-indent">Where,</p>
 <p class="equation">$E =$ Total energy usage for the Fan Motor, kWh</p>
-
-## Resources 

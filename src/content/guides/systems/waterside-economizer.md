@@ -91,16 +91,12 @@ The measurement locations for the waterside economizer are schematically shown i
 </figure>
 </a>
 
-## References
-<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
-<div class="references">
+## Further Reading
 
-ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 48. DESIGN AND APPLICATION OF CONTROLS. I-P Edition.
+- ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 48. DESIGN AND APPLICATION OF CONTROLS. I-P Edition.
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 40. COOLING TOWERS. I-P Edition.
+- ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 40. COOLING TOWERS. I-P Edition.
 
-Taylor, S (2014). “How to Design & Control Waterside Economizers,” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 30-36.
+- Taylor, S (2014). “How to Design & Control Waterside Economizers,” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 30-36.
 
-Trane Engineers Newsletter (2016). “Waterside Economizers - Keep the ‘Free’ In Free-Cooling.” Trane, 2016. https://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/waterside-design/ADM-APN058-EN_06012016.pdf.
-
-</div>
+- Trane Engineers Newsletter (2016). “Waterside Economizers - Keep the ‘Free’ In Free-Cooling.” Trane, 2016. https://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/waterside-design/ADM-APN058-EN_06012016.pdf.
