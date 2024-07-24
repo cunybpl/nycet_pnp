@@ -4,10 +4,10 @@ type: system
 excerpt: Produces chilled water through the basic refrigeration cycle and consists of an evaporator, a compressor, a condenser, and an expansion valve. The system can be constant-speed or variable-speed.
 thumbnail_image: "/images/systems/water-cooled-chiller/2024_0606_water cooled chiller system_thumbnail.jpg"
 system_id: 2
-associated_systems:
-  - 
+associated_components:
+  - Liquid-to-liquid Heat Exchanger
 related_components:
-  - 
+  - Liquid-to-liquid Heat Exchanger
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chiller"
 layout: guide
 url: "/documents/systems/water-cooled-chiller"

@@ -8,7 +8,6 @@ borrow_equipment_url: "https://nycenergytools.com/equipment/light-on-off-data-lo
 thumbnail_image: "/images/measurement-technique/lighting-fixture-runtime/2024_0410_lighting fixture runtime MT_thumbnail.jpeg"
 related_systems:
   - Lighting Fixture
-related_components:
 url: "/documents/measurement-technique/lighting-fixture-runtime"
 ---
 

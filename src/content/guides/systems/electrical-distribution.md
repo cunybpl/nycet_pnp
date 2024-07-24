@@ -4,8 +4,6 @@ type: system
 excerpt: An electrical distribution system is made up of switchgear and panelboards connected by wires.
 thumbnail_image: "/images/systems/electrical-distribution/2024_0701_electrical distribution_system_thumbnail.jpg"
 system_id: 6
-associated_systems:
-related_components:
 related_measurements:
   - Electrical Current
 layout: guide

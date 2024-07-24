@@ -4,7 +4,7 @@ type: system
 excerpt: A boiler system provides either hot water or steam to distribute the heating load within a facility.
 thumbnail_image: "/images/systems/boiler/2024_0410_boiler system_thumbnail.jpeg"
 system_id: 11
-associated_systems:
+associated_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Variable-speed, Variable-volume Fan and Motor
 related_components:

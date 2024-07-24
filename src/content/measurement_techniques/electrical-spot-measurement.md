@@ -15,7 +15,7 @@ related_systems:
   - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-related_components:
+associated_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
 url: "/documents/measurement-technique/electrical-spot-measurement"

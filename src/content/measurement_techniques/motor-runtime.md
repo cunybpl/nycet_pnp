@@ -14,7 +14,7 @@ related_systems:
   - Hot Water Loop
   - Steam Condensate Recovery System
   - Steam Distribution
-related_components:
+associated_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
