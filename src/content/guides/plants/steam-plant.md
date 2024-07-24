@@ -130,17 +130,12 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
     </tbody>
 </table>
 
-## References
+## Further Reading
 
-<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
-<div class="references">
+- ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 11. STEAM SYSTEMS. I-P Edition. 
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 11. STEAM SYSTEMS. I-P Edition. 
+- ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 32. BOILERS. I-P Edition. 
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 32. BOILERS. I-P Edition. 
+- ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 50, Section 2.5. WATER TREATEMENT: DEPOSITION, CORROSION, AND BIOLOGICAL CONTROL. I-P Edition. 
 
-ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 50, Section 2.5. WATER TREATEMENT: DEPOSITION, CORROSION, AND BIOLOGICAL CONTROL. I-P Edition. 
-
-Spirax Sarco (2022). “Learn More About Steam” Steam Insights. https://www.spiraxsarco.com/learn-about-steam.
-
-</div>
+- Spirax Sarco (2022). “Learn More About Steam” Steam Insights. https://www.spiraxsarco.com/learn-about-steam.

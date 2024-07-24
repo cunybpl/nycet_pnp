@@ -116,6 +116,6 @@ If you have issues with permissions, add `sudo` prior to the command(_for Linux 
 Access the site at http://localhost:1313/
 
 
-## References
+## Further Reading
 
 - [Slite documentation for setting up and managing the guide pages](https://zatonovo.slite.com/app/docs/i-b2RUm-5lJf1F/How-to-setup-the-repository-local)

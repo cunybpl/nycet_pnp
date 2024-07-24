@@ -72,7 +72,7 @@ If present, a vacuum pump is located after the steam traps and lowers the pressu
 
 ## Evaluation of Energy Consumption
 
-The steam distribution system distributes heat energy, with losses to the non-conditioned environment along the way, but does not inherently consume energy. The exceptions are systems with a vacuum pump, which consumes electricity. Generally the energy related to the steam distribution system is not quantified; instead the energy consumption of the overall low pressure steam plant is quantified. For more information see <a href="/documents/plants/steam-plant"> this link </a>.
+The steam distribution system distributes heat energy, with losses to the non-conditioned environment along the way, but does not inherently consume energy. The exceptions are systems with a vacuum pump, which consumes electricity. Generally the energy related to the steam distribution system is not quantified; instead the energy consumption of the overall low pressure steam plant is quantified. For more information see <a href="/documents/plants/steam-plant">Steam Plant</a>.
 
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
@@ -116,12 +116,8 @@ The steam distribution system distributes heat energy, with losses to the non-co
     </tbody>
 </table>  
 
-## References
-<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
-<div class="references">
+## Further Reading
 
-ASHRAE (2014). “ASHRAE Guideline 14-2014 – Measurement of Energy, Demand, and Water Savings.” Annex A.
+- ASHRAE (2014). “ASHRAE Guideline 14-2014 – Measurement of Energy, Demand, and Water Savings.” Annex A.
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 11. STEAM SYSTEMS. I-P Edition.
-
-</div>
+- ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 11. STEAM SYSTEMS. I-P Edition.

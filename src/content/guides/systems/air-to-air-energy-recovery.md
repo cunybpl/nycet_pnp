@@ -165,15 +165,15 @@ The measurement locations for a heat recovery system are shown in Figure 7.
     </figure>
 </a>
 
-## References 
+## Further Reading 
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 1. HVAC SYSTEM ANALYSIS AND SELECTION. I-P Edition.  
+- ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 1. HVAC SYSTEM ANALYSIS AND SELECTION. I-P Edition.  
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 26. AIR-TO-AIR ENERGY RECOVERY EQUIPMENT. I-P Edition.  
+- ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 26. AIR-TO-AIR ENERGY RECOVERY EQUIPMENT. I-P Edition.  
 
-CenterPoint Energy (2022). “Runaround Loops.” Energy Recovery Systems. https://www.centerpointenergy.com/en-us/Services/Pages/Runaround-loops-MN.aspx?sa=MN&au=bus 
+- CenterPoint Energy (2022). “Runaround Loops.” Energy Recovery Systems. https://www.centerpointenergy.com/en-us/Services/Pages/Runaround-loops-MN.aspx?sa=MN&au=bus 
 
-Heatex (2022). “Heat Exchanger Basics.” https://www.heatex.com/knowledge/heat-exchanger-basics. 
+- Heatex (2022). “Heat Exchanger Basics.” https://www.heatex.com/knowledge/heat-exchanger-basics. 
 National Renewable Energy Laboratory (2003). “Laboratories for the 21st Century: Best Practices” https://www.nrel.gov/docs/fy04osti/34349.pdf 
 
-Paulina Kanaś (2019).” The influence of geometrical parameters on heat and mass transfer processes in rotary heat exchangers.” SN Applied Sciences. 
+- Paulina Kanaś (2019).” The influence of geometrical parameters on heat and mass transfer processes in rotary heat exchangers.” SN Applied Sciences. 

@@ -3,7 +3,7 @@ title: Air-to-air Heat Exchanger Heat Transfer
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 8
-excerpt: 
+excerpt: This calculation methodology is used to estimate a full year of sensible and latent heat transfer in an energy recovery ventilation (ERV) system. This methodology assumes that the air handling unit (AHU) uses a variable speed supply fan, and that the energy recovery component is a rotary wheel.
 url: "/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer"
 ---
 
@@ -31,8 +31,12 @@ Section A.1 describes how to calculate the sensible and latent heat transfer for
  
 To calculate latent heat transfer and effectiveness, first the humidity ratio $(lb_m/lb_m)$ must be calculated. Table 1 summarizes the equations used to determine humidity ratio for a given relative humidity value. The calculator selects the appropriate equation based on the measured hourly relative humidity and then uses the measured hourly temperature to run the calculation (CUNY BPL BRT, 2022, pp. 22). The equations in Table 1 result in a humidity ratio with units of grains of water per pound of dry air (grains/lb). The calculator performs an additional calculation to convert the units of grain/lb to $lb_m/lb_m$. 
 
-<table>
-    <caption><span class="tooltip-pnp">Table 1. Humidity Ratio Equations for Various Relative Humidity Values Based on Dry-Bulb Temperature<span class="tooltiptext">CUNY Building Performance Lab. (n.d.).Quantification of Energy Savings from Implementing BuildingRe-tuning Recommendations(pp. 21–22) [Review ofQuantification of Energy Savings fromImplementing Building Re-tuning Recommendations].DCAS.</span></span></caption>
+<table markdown="1">
+<caption>
+
+Table 1. Humidity Ratio Equations for Various Relative Humidity Values Based on Dry-Bulb Temperature.[^1]
+
+</caption>
     <thead>
         <tr>
             <td>
@@ -554,7 +558,7 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation">$\overline{kW}_{h,3P} =$ hourly three-phase power draw of the motor (kW)</p>
 <p class="equation">$\overline{kW}_{h,n} =$ hourly single-phase power for electrical line n (kW)</p>
 
-2. Calculate average energy consumption for each hour of each day of the week.  This step generates an hourly schedule for a week and this schedule is used to calculate the full year heat transfer. <span class="tooltip-pnp">In this step, the hourly power draw (kW) gets converted to hourly energy consumption (kWh) because data is in one-hour intervals.<span class="tooltiptext">$kWh = kW * h$, where $h = 1$</span></span>
+2. Calculate average energy consumption for each hour of each day of the week.  This step generates an hourly schedule for a week and this schedule is used to calculate the full year heat transfer. In this step, the hourly power draw (kW) gets converted to hourly energy consumption (kWh) because data is in one-hour intervals[^2].
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h} = \frac{\sum_1^{N_f(d,h)} \overline{kW}_{h,3P}}{N_f(d,h)} \end{equation}</p>
 
@@ -630,9 +634,13 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation">$\overline{kWh}_{supply} =$ esimated annual energy consumption of the supply fan motor (kWh)</p>
 <p class="equation">$\overline{kWh}_{exhaust} =$ estimated annual energy consumption of the exhaust fan motor (kWh)</p>
 
-## Resources 
-For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23 
+## Further Reading
 
-ASHRAE (2020) “2020 ASHRAE Handbook-HVAC Systems and Equipment” Chapter 26. 
+- For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23 
+
+- ASHRAE (2020) “2020 ASHRAE Handbook-HVAC Systems and Equipment” Chapter 26. 
  
-CUNY Building Performance Lab (May 2020). “Quantification of Energy Savings from Implementing Building Re-tuning Recommendations.” (pp. 21–22). New York, NY: Department of Citywide Administrative Services. 
+- CUNY Building Performance Lab (May 2020). “Quantification of Energy Savings from Implementing Building Re-tuning Recommendations.” (pp. 21–22). New York, NY: Department of Citywide Administrative Services.
+
+[^1]: CUNY Building Performance Lab. (n.d.). Quantification of Energy Savings from Implementing BuildingRe-tuning Recommendations (pp. 21–22) [Review of Quantification of Energy Savings from Implementing Building Re-tuning Recommendations]. DCAS.
+[^2]: $kWh = kW * h$, where $h = 1$

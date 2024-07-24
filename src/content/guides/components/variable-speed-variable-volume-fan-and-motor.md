@@ -143,9 +143,11 @@ The primary energy source for a variable-speed fan is the electricity used to ru
             </td>
         </tr>
         <tr>
-            <td>
-                <p><span class="tooltip-pnp">Controlling variable, non-weather dependent<span class="tooltiptext">This variable should be measured to quantify the electricity usage of the VSVV fan if the operation is weather dependent</span></span></p>
-            </td>
+<td>
+
+Controlling variable, non-weather dependent[^1]
+
+</td>
             <td>
                 <p>Yearly operating schedule</p>
             </td>
@@ -154,9 +156,11 @@ The primary energy source for a variable-speed fan is the electricity used to ru
             </td>
         </tr>
         <tr>
-            <td>
-                <p><span class="tooltip-pnp">Controlling variable, weather dependent<span class="tooltiptext">This variable should be measured to quantify the electricity usage of the VSVV fan if the operation is not weather dependent</span></span></p>
-            </td>
+<td>
+
+Controlling variable, weather dependent[^2]
+
+</td>
             <td>
                 <p>Average hourly outside air temperature (OAT)</p>
             </td>
@@ -185,16 +189,15 @@ The general methodology for quantifying the energy consumption of a variable-spe
 
 {{< calculation_methodology calculation_methodology_id=2 >}} 
   
-## References
-<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
-<div class="references">
+## Further Reading
 
-Boyd, BK.; McMordie Stoughton, KL.; Lewis, T. (2017). “Cooling Tower (Evaporative Cooling System) Measurement and Verification Protocol.” Golden, CO: National Renewable Energy Laboratory. https://www.nrel.gov/docs/fy18osti/70219.pdf.  
+- Boyd, BK.; McMordie Stoughton, KL.; Lewis, T. (2017). “Cooling Tower (Evaporative Cooling System) Measurement and Verification Protocol.” Golden, CO: National Renewable Energy Laboratory. https://www.nrel.gov/docs/fy18osti/70219.pdf.  
 
-Crowther, H.; Furlong, J. (2004). “Optimizing Chillers and Towers.” ASHRAE Journal, Vol. 46, No. 7; pp. 34-40. 
+- Crowther, H.; Furlong, J. (2004). “Optimizing Chillers and Towers.” ASHRAE Journal, Vol. 46, No. 7; pp. 34-40. 
 
-Morrison, F. (2014). “Saving Energy with Cooling Towers.” ASHRAE Journal, Vol. 56, No. 2; pp. 34-40. 
+- Morrison, F. (2014). “Saving Energy with Cooling Towers.” ASHRAE Journal, Vol. 56, No. 2; pp. 34-40. 
 
-Tom, S. (July 2017). “CHILLED WATER SYSTEM OPTIMIZER.” Cat. No. 11-808-616-01. Farmington, Connecticut: Carrier Corporation.  
+- Tom, S. (July 2017). “CHILLED WATER SYSTEM OPTIMIZER.” Cat. No. 11-808-616-01. Farmington, Connecticut: Carrier Corporation.
 
-</div>
+[^1]: This variable should be measured to quantify the electricity usage of the VSVV fan if the operation is weather dependent.
+[^2]: This variable should be measured to quantify the electricity usage of the VSVV fan if the operation is not weather dependent

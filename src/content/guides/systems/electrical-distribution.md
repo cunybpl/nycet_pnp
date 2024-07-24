@@ -131,14 +131,10 @@ Measurement points in the electrical distribution system are at the conductors i
 
 {{< calculation_methodology calculation_methodology_id=3 >}}
 
-## References
-<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
-<div class="references">
+## Further Reading
 
-Consulting-Specifying Engineer (20). “Back to Basics: Switchgear, Transformers and UPSs.”. https://www.csemag.com/articles/back-to-basics-switchgear-transformers-and-upss/; accessed May 24, 2022. 
+- Consulting-Specifying Engineer (20). “Back to Basics: Switchgear, Transformers and UPSs.”. https://www.csemag.com/articles/back-to-basics-switchgear-transformers-and-upss/; accessed May 24, 2022. 
 
-Bonneville Power Administration (July 2018). “Sampling for M&V: Reference Guide.” 
+- Bonneville Power Administration (July 2018). “Sampling for M&V: Reference Guide.” 
 
-EE Richman (February 2016). PNNL-SA-25222. “Measurement and Verification of Energy Savings and Performance from Advantage Lighting Controls” Richland, WA: Pacific Northwest National Laboratory.
-
-</div>
+- EE Richman (February 2016). PNNL-SA-25222. “Measurement and Verification of Energy Savings and Performance from Advantage Lighting Controls” Richland, WA: Pacific Northwest National Laboratory.

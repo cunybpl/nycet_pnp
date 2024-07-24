@@ -140,22 +140,18 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
     </tbody>
 </table>
 
-## References
-<!-- Must have emty line after the opeing div tag. If we use a numbered list to relate to in text citations, remove the div  -->
-<div class="references">
+## Further Reading
 
-ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 43. SUPERVISORY CONTROL STRATEGIES AND OPTIMIZATION. I-P Edition.
+- ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 43. SUPERVISORY CONTROL STRATEGIES AND OPTIMIZATION. I-P Edition.
 
-ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 48. DESIGN AND APPLICATION OF CONTROLS. I-P Edition.
+- ASHRAE (2019). “ASHRAE Handbook: HVAC Applications,” Chapter 48. DESIGN AND APPLICATION OF CONTROLS. I-P Edition.
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 38. COMPRESSORS. I-P Edition. 
+- ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 38. COMPRESSORS. I-P Edition. 
 
-ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 40. COOLING TOWERS. I-P Edition.
+- ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 40. COOLING TOWERS. I-P Edition.
 
-Consulting Specifying Engineer (2021). “Understanding chilled water plant performance”. [Consulting - Specifying Engineer | Understanding chilled water plant performance (csemag.com)](https://www.csemag.com/articles/understanding-chilled-water-plant-performance/?oly_enc_id=2793H1310167C4G).
+- Consulting Specifying Engineer (2021). “Understanding chilled water plant performance”. [Consulting - Specifying Engineer | Understanding chilled water plant performance (csemag.com)](https://www.csemag.com/articles/understanding-chilled-water-plant-performance/?oly_enc_id=2793H1310167C4G).
 
-Taylor, S (2012). “Optimizing Design & Control of Chilled Water Plants Part 5: Optimized Control Sequences”. ASHRAE Journal, Vol. 54, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 56-74. 
+- Taylor, S (2012). “Optimizing Design & Control of Chilled Water Plants Part 5: Optimized Control Sequences”. ASHRAE Journal, Vol. 54, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 56-74. 
 
-Taylor, S (2014). “How to Design & Control Waterside Economizers.” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 30-36.
-
-</div>
+- Taylor, S (2014). “How to Design & Control Waterside Economizers.” ASHRAE Journal, Vol. 56, No 6. American Society of Heating, Refrigerating and Air Conditioning Engineers; pp: 30-36.
