@@ -199,5 +199,7 @@ The general methodology for quantifying the energy consumption of a variable-spe
 
 - Tom, S. (July 2017). “CHILLED WATER SYSTEM OPTIMIZER.” Cat. No. 11-808-616-01. Farmington, Connecticut: Carrier Corporation.
 
+## Footnotes
+
 [^1]: This variable should be measured to quantify the electricity usage of the VSVV fan if the operation is weather dependent.
 [^2]: This variable should be measured to quantify the electricity usage of the VSVV fan if the operation is not weather dependent

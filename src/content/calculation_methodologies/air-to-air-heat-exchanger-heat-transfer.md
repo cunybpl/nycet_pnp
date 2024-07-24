@@ -642,5 +642,7 @@ This calculation methodology assumes that the power draw of the supply and exhau
  
 - CUNY Building Performance Lab (May 2020). “Quantification of Energy Savings from Implementing Building Re-tuning Recommendations.” (pp. 21–22). New York, NY: Department of Citywide Administrative Services.
 
+## Footnotes
+
 [^1]: CUNY Building Performance Lab. (n.d.). Quantification of Energy Savings from Implementing BuildingRe-tuning Recommendations (pp. 21–22) [Review of Quantification of Energy Savings from Implementing Building Re-tuning Recommendations]. DCAS.
 [^2]: $kWh = kW * h$, where $h = 1$

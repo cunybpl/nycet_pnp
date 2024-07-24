@@ -521,4 +521,6 @@ Measurement data that is input in the calculation tools is used to generate an h
  
 - Richman, EE. (February 2016) “Measurement and Verification of Energy Savings and Performance from Advanced Lighting Controls.” Richland, WA: Pacific Northwest National Laboratory.
 
+## Footnotes
+
 [^1]: We reccomend taking a sample of measurements and find the average. The average value will be used to calculate annual energy consumption. As an example, the Onset HOBO 4-channel analog logger can measure a sample of current data at a predefined interval known as the sampling interval. If the logging interval is set to one-hour and the sampling interval is set to one-second, the logger will measure current every second for one hour then determine the average. The average will be stored in the logger as the one-hour interval measurement. This process will continue every hour for the duration of the measurement period.

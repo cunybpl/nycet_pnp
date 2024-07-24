@@ -272,4 +272,6 @@ The general methodology for quantifying the energy consumption of a VSVV pump mo
 
 ​- Trane. (2002). Variable-Primary-Flow Systems Revisited. Trane Engineers Newsletter, 31(4). Retrieved November 2019, from https://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/waterside-design/adm_apn005_en.pdf
 
+## Footnotes
+
 [^1]: Option 1: Measure hourly true RMS power of pump and motor and measure hourly OAT; Option 2: Measure hourly pump and motor speed and hourly OAT

@@ -151,4 +151,6 @@ After verifying the logger is collecting data, do the following:
 <strong>Solution:</strong> Verify that the logger is calibrated and re-calibrate the equipment if necessary. 
 </div>
 
+## Footnotes
+
 [^1]: This is dependent on the measurement capability of the chosen logger.
