@@ -9,6 +9,7 @@ thumbnail_image: "/images/measurement-technique/lighting-fixture-runtime/2024_04
 related_systems:
   - Lighting Fixture
 related_components:
+associated_components:
 url: "/documents/measurement-technique/lighting-fixture-runtime"
 ---
 

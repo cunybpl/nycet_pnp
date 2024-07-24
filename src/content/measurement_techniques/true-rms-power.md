@@ -18,7 +18,7 @@ related_systems:
   - Steam Distribution
   - Water-cooled Chiller
   - Variable-speed, Variable-volume Air Handling Unit
-related_components:
+associated_components:
   - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Pump and Motor
   - 

@@ -9,7 +9,7 @@ thumbnail_image: "/images/measurement-technique/relative-humidity/2024_0410_rela
 related_systems:
   - Air-to-air Energy Recovery
   - Condenser Water Loop
-related_components:
+associated_components:
   - Air-to-air Heat Exchanger
   - Constant-speed, Constant-volume Fan and Motor
   - Variable-speed, Variable-volume Fan and Motor

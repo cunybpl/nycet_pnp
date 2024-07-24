@@ -45,11 +45,11 @@
               {{ partial "thumbnail/see_more_associated_calculators.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_calculators "all_calculators" $calculators "guide_title" $_title) }}
             {{ end }}
           {{ else if eq .Params.type "measurement" }}
-            {{ $labelassoc = "systems" }}
+            {{ $labelassoc = "components" }}
             <h6 class="related-title">Associated {{ $labelassoc }}:</h6>
             <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
-            {{ if isset .Params "associated_systems" }}
-              {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_systems) }}
+            {{ if isset .Params "related_components" }}
+              {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.related_components) }}
                 {{ partial "thumbnail/associated_systems.html" .  }}
               {{ end }}
               {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_systems "all_pages" .Site.RegularPages "guide_title" $_title) }}

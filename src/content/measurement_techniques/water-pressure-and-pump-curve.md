@@ -10,7 +10,7 @@ related_systems:
   - Air Cooled Chiller
   - Water-cooled Chiller
   - Waterside Economizer
-related_components:
+associated_components:
   - Liquid-to-liquid Heat Exchanger
 url: "/documents/measurement-technique/water-pressure-and-pump-curve"
 ---

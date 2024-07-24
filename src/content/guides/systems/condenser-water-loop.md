@@ -4,7 +4,7 @@ type: system
 excerpt: Consists of a CW pump and motor, an evaporative cooling tower with a fan and motor, and a CW piping network.
 thumbnail_image: "/images/systems/condenser-water-loop/2024_0410_condenser water loop system_thumbnail.jpeg"
 system_id: 3
-associated_systems:
+associated_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
   - Variable-speed, Variable-volume Fan and Motor
