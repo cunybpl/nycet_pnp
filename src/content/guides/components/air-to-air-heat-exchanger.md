@@ -162,8 +162,6 @@ The general methodology for quantifying the energy impact of an air-to-air heat 
 
 {{< calculation_methodology calculation_methodology_id=8 >}}
 
-{{< page_hyperlink page_title="Water-cooled Chiller" img="images/systems/system-short-icon.png" icon="fa-arrow-right" >}}
-
 ## Further Reading 
 
 - ASHRAE (2020). “ASHRAE Handbook: HVAC Systems and Equipment,” Chapter 1. HVAC SYSTEM ANALYSIS AND SELECTION. I-P Edition.  
