@@ -27,7 +27,7 @@ url: "/documents/measurement-technique/outdoor-air-temperature"
 
 ## Description of Outdoor Air Temperature (OAT)
 
-This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (OF) at one-hour intervals. This technique can be used to characterize the cooling or heating load for any temperature-dependent system such as chillers, boilers, variable speed air handling units and ventilation systems. Accurate measurements can only be taken when data loggers are properly installed.  
+This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (F) at one-hour intervals. This technique can be used to characterize the cooling or heating load for any temperature-dependent system such as chillers, boilers, variable-speed air handling units and ventilation systems. Accurate measurements can only be taken when data loggers are properly installed.  
 
 Measurements should be taken at one-hour intervals and will provide insight into the temperature values which are driving the control mechanisms of the building equipment. OAT should be paired with other information about the specific systems’ operating conditions in order to calculate annual energy consumption. For more information about how this data is used to estimate annual energy consumption, please refer to the calculation methodology of the type of equipment that relies on the outside air temperature.  
 
@@ -35,7 +35,7 @@ The duration of the long-term measurement should be a minimum of six weeks and d
 
 ### Type of Measurement
 
-Direct
+<strong>Direct</strong>
 
 ### Equipment
 
@@ -95,8 +95,11 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following: 
 
+<div class="alert alert-warning" role="alert">
+<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
+</div>
+
 <ul>
-<li><strong>Do not remove the logger. (If you remove the logger, you may need to start over with the setup and installation process.)</li></strong>  
 <li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>  
 <li>Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li>   
 <li>Determine if the measured results align with the expected OAT values based on observed weather trends or known outside air damper schedules.</li>  

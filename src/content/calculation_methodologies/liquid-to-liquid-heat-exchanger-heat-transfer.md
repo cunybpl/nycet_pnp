@@ -34,7 +34,7 @@ This methodology works with hourly data only and each measurement is taken at th
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator (Downloadable Link)</strong></p>
+                <p><strong>Calculator (Downloadable File)</strong></p>
             </td>
             <td>
                 <p><strong>Description</strong></p>

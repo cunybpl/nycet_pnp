@@ -19,11 +19,11 @@ The water-cooled chiller system produces chilled water through the basic refrige
 
 <h3>Constant-speed System</h3>
 
-A constant-speed water-cooled chiller has a compressor motor that runs at a constant speed based on the total capacity of the chiller and adjusts the refrigerant flow with modulating vanes in the compressor when partial capacity of the chiller is needed.
+A <strong>constant-speed water-cooled chiller</strong> has a compressor motor that runs at a constant speed based on the total capacity of the chiller and adjusts the refrigerant flow with modulating vanes in the compressor when partial capacity of the chiller is needed.
 
 <h3>Variable-speed System</h3>
 
-A variable-speed water-cooled chiller has a variable frequency drive on the compressor motor and can reduce the speed of the compressor during partial load conditions. 
+A <strong>variable-speed water-cooled chiller</strong> has a variable frequency drive on the compressor motor and can reduce the speed of the compressor during partial load conditions. 
 
 ## Water-cooled Chiller Components
 

@@ -17,7 +17,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator (Downloadable Links)</strong></p>
+                <p><strong>Calculator (Downloadable Files)</strong></p>
             </td>
             <td>
                 <p><strong>Description</strong></p>

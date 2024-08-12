@@ -50,11 +50,11 @@ The main components associated with the CHW loop are primary pumps for primary-f
 
 ### Primary CHW Pump and Motor
 
-A primary CHW pump and motor circulate chilled water from the evaporator section of the chiller to the building in a primary-only system or to the secondary pump and motor through the piping network. A primary CHW pump and motor can operate at constant speed or variable speed based on the design of the chilled water plant.
+A primary CHW pump and motor circulates chilled water from the evaporator section of the chiller to the building in a primary-only system or to the secondary pump and motor through the piping network. A primary CHW pump and motor can operate at constant speed or variable speed based on the design of the chilled water plant.
 
 ### Secondary CHW Pump and Motor
 
-A secondary CHW pump and motor circulates chilled water from the primary piping network to the building. A secondary CHW pump and motor are found in primary-secondary flow systems and can be at constant speed or can be equipped with variable frequency drives that are controlled by the differential pressure in the secondary piping network. 
+A secondary CHW pump and motor circulates chilled water from the primary piping network to the building. A secondary CHW pump and motor are found in primary-secondary flow systems and can be at constant-speed or can be equipped with variable frequency drives that are controlled by the differential pressure in the secondary piping network. 
 
 ### Primary CHW Piping Network
 

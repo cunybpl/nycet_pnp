@@ -21,8 +21,8 @@ The air handling plant (AHP) takes input energy (e.g., electricity, heated or ch
 
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air Handling Plant">
-        <figcaption class="figure-caption text-left">Figure 1. Air Handling Plant</figcaption>
+        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air Handling Plant.">
+        <figcaption class="figure-caption text-left">Figure 1. Air Handling Plant.</figcaption>
     </figure>
 </a>
 
@@ -36,8 +36,8 @@ A CSCV air handling system provides heating, cooling and ventilation air to a sp
 
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. CSCV Air Handling Plant Systems and Components">
-        <figcaption class="figure-caption text-left">Figure 2. CSCV Air Handling Plant Systems and Components</figcaption>
+        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. CSCV Air Handling Unit Systems and Components.">
+        <figcaption class="figure-caption text-left">Figure 2. CSCV Air Handling Unit Systems and Components.</figcaption>
     </figure>
 </a>
 
@@ -45,14 +45,14 @@ A CSCV air handling system provides heating, cooling and ventilation air to a sp
 
 A DSCV system is similar to a CSCV system except the fan motors in the AHU have a high and low speed setting. This configuration allows the AHU to operate at a slower speed during setbacks during unoccupied times such as night or weekends.  
 
-### Variable Air Volume (VAV) AHU 
+### Variable-air Volume AHU 
 
 A VAV system consists of a main AHU and multiple VAV boxes that serve different zones. The AHU has fan motors that are equipped with variable frequency drives (VFDs) which allow the fan speed (and associated air volume) to modulate as the building demand changes. VAV boxes are installed in the supply air ductwork in the zones served and are generally installed with a heating coil, also known as a reheat coil. This enables the system to adjust the supply air temperature to prevent over-cooling a space. The VAV system allows for space temperature and ventilation air control in each zone. VAV boxes are usually set with a minimum damper position associated with the minimum required ventilation airflow needed for the zone.  
 
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Air Handling Plant Systems and Components Continued">
-        <figcaption class="figure-caption text-left">Figure 3. VSVV Air Handling Plant Systems and Components Continued</figcaption>
+        <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Air Handling Plant Systems and Components.">
+        <figcaption class="figure-caption text-left">Figure 3. VAV Air Handling Plant Systems and Components.</figcaption>
     </figure>
 </a>
 
@@ -132,7 +132,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <ul>
-                    <li>Fan motors</li>
+                    <li><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></li>
                     <li>Compressor</li>
                 </ul>
             </td>
@@ -144,13 +144,13 @@ The energy consumption in an air handling plant is the sum of the energy used by
             <td>
                 <ul>
                     <li>Average hourly furnace fuel consumption</li>
-                    <li>Average hourly burnger kWh (includes supply fan motors)</li>
+                    <li>Average hourly burner kWh (includes supply fan motors)</li>
                 </ul>
             </td>
             <td>
                 <ul>
                     <li>Burner</li>
-                    <li>Fan motor</li>
+                    <li><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></li>
                 </ul>
             </td>
         </tr>
@@ -164,7 +164,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
             <td>
                 <ul>
                     <li>Burner</li>
-                    <li>Fan motors</li>
+                    <li><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></li>
                     <li>Compressor</li>
                 </ul>
             </td>

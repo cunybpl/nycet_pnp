@@ -18,7 +18,7 @@ url: "/documents/components/constant-speed-constant-volume-fan-and-motor"
 
 ## General Overview
 
-A constant speed constant volume (CSCV) fan uses a power-driven rotating impeller to circulate air at a single speed. Fans can be either axial or centrifugal. 
+A constant-speed, constant-volume (CSCV) fan uses a power-driven rotating impeller to circulate air at a single speed. Fans can be either axial or centrifugal. 
 
 Table 1 shows the plant and system configurations that may contain a CSCV fan and motor and the most common respective controlling variables. 
 
@@ -192,8 +192,6 @@ In some cases, the operational schedule of the motor will be related to the heat
 The general methodology for quantifying the energy consumption of a CSCV fan motor is to measure the true RMS power of the motor. The estimated annual energy consumption of a CSCV fan is estimated using the simulated yearly schedule of the fan. Many CSCV fans run on a set daily or weekly schedule. 
 
 However, the yearly schedule may be dependent on OAT. If so, the operating hours values can be regressed against OAT to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical annual operating schedule, which is in turn used in conjunction with the true RMS power to calculate the estimated annual electricity consumption.
-
-A more detailed explanation of the calculation methodology can be found in <link to calculation methodology>. 
 
 {{< calculation_methodology calculation_methodology_id=2 >}}
 

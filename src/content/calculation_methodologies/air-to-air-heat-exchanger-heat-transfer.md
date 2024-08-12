@@ -145,7 +145,7 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator (Downloadable Link)</strong></p>
+                <p><strong>Calculator (Downloadable File)</strong></p>
             </td>
             <td>
                 <p><strong>Description</strong></p>

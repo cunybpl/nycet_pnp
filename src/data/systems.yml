@@ -22,6 +22,9 @@ documents:
     title: "Electrical Distribution"
     measurement_type: "electrical"
   - type: system
+    title: "Feedwater"
+    measurement_type: "water-side"
+  - type: system
     title: "Hot Water Loop"
     measurement_type: "water-side, heating"
   - type: system

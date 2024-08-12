@@ -20,8 +20,8 @@ Figure 1 shows the main components associated with the electrical distribution s
 
 <a href="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Diagram of an electrial distribution system">
-        <figcaption class="figure-caption text-left">Figure 1. Diagram of an electrial distribution system</figcaption>
+        <img src="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Diagram of an electrial distribution system.">
+        <figcaption class="figure-caption text-left">Figure 1. Diagram of an electrial distribution system.</figcaption>
     </figure>
 </a>
 
@@ -35,8 +35,8 @@ A dedicated electrical panelboard supplies electricity only to the light fixture
 
 <a href="/images/systems/electrical-distribution/electrical distribution figure2.png">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/electrical-distribution/electrical distribution figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Dedicated panelboard system">
-        <figcaption class="figure-caption text-left">Figure 2. Dedicated panelboard system</figcaption>
+        <img src="/images/systems/electrical-distribution/electrical distribution figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Dedicated panelboard system.">
+        <figcaption class="figure-caption text-left">Figure 2. Dedicated panelboard system.</figcaption>
     </figure>
 </a>
 
@@ -44,8 +44,8 @@ Figure 3 is an example of a schedule of circuits on a dedicated panelboard. The 
 
 <a href="/images/systems/electrical-distribution/electrical distribution figure3.png">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/electrical-distribution/electrical distribution figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Example of a dedicated panelboard schedule">
-        <figcaption class="figure-caption text-left">Figure 3. Example of a dedicated panelboard schedule</figcaption>
+        <img src="/images/systems/electrical-distribution/electrical distribution figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Example of a dedicated panelboard schedule.">
+        <figcaption class="figure-caption text-left">Figure 3. Example of a dedicated panelboard schedule.</figcaption>
     </figure>
 </a>
 
@@ -53,12 +53,16 @@ Figure 3 is an example of a schedule of circuits on a dedicated panelboard. The 
 
 A Mixed electrical panelboard supplies electricity to the lighting fixture system and other loads, typically receptacle circuits. Mixed panelboards typically exist in small or older facilities. The electricity from the primary or secondary switchgear enters from the top (or bottom) of the panelboard then splits across all of the branch circuits. The interior of a mixed panelboard will look similar to Figure 2 but the panel schedule will highlight a collection of different loads as shown in Figure 4.
 
-<a href="/images/systems/electrical-distribution/electrical distribution figure4.png">
-    <figure class="figure mb-4 mt-3">
+<figure class="figure mb-4 mt-3">
+    <a href="/images/systems/electrical-distribution/electrical distribution figure4.png">
         <img src="/images/systems/electrical-distribution/electrical distribution figure4.png" class="figure-img img-fluid rounded" alt="Figure 4: Example of a mixed panelboard schedule. Blue represents lighting fixtures, red represents others electrical loads">
-        <figcaption class="figure-caption text-left">Figure 4: Example of a mixed panelboard schedule. Blue represents lighting fixtures, red represents others electrical loads</figcaption>
-    </figure>
-</a>
+    </a>
+<figcaption class="figure-caption text-left">
+
+Figure 4: Example of a mixed panelboard schedule.[^1]
+
+</figcaption>
+</figure>
 
 ## Evaluation of Energy Consumption
 
@@ -136,3 +140,7 @@ Measurement points in the electrical distribution system are at the conductors i
 - Bonneville Power Administration (July 2018). “Sampling for M&V: Reference Guide.” 
 
 - EE Richman (February 2016). PNNL-SA-25222. “Measurement and Verification of Energy Savings and Performance from Advantage Lighting Controls” Richland, WA: Pacific Northwest National Laboratory.
+
+## Footnotes
+
+[^1]: Blue represents lighting fixtures, red represents others electrical loads.

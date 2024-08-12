@@ -25,13 +25,13 @@ url: "/documents/measurement-technique/electrical-current"
 
 This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals. This data provides insight on the operating schedule of the system or component and can be used to calculate energy consumption of the target equipment at the power panel or electrical panelboard. A system or component that is running (i.e., consuming energy) will have high current draw. A system or component that is not running (i.e., has no energy consumption) will have low or no current draw.  
 
-Data loggers and current sensors use instantaneous measurements of current over the course of an hour to calculate the average amperage. As such, current data should be recorded as hourly average values1, not instantaneous. When taking one-hour measurements, the logger will detect current over the course of every hour and store that value. Sometimes current can fluctuate over a one-hour period (motors turn off or change speed) but the instantaneous current value will not indicate that change.  
+Data loggers and current sensors use instantaneous measurements of current over the course of an hour to calculate the average amperage. As such, current data should be recorded as hourly average values, not instantaneous. When taking one-hour measurements, the logger will detect current over the course of every hour and store that value. Sometimes current can fluctuate over a one-hour period (motors turn off or change speed) but the instantaneous current value will not indicate that change.  
 
 The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. The best practice is a minimum of six weeks and data should be collected at one-hour intervals; longer measurement periods are encouraged for deeper analysis of the equipment. Measurements should be taken when the system or component is operating under normal conditions.
 
 ### Type of Measurement
 
-Direct and Proxy
+<strong>Direct and Proxy</strong>
 
 This methodology is a direct measurement of current, however it is also considered a proxy measurement of power and energy, as well as operational hours of the system or component.
 
@@ -108,10 +108,13 @@ An example of how to setup the Onset HOBO 4-channel analog logger (UX120-006M) i
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with the manufacturer’s proprietary software installed to do the following:
 
+<div class="alert alert-warning" role="alert">
+<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
+</div>
+
 <ul>
-  <li><strong>Do not remove the logger or sensors.</strong></li>
   <li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
-  <li>Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.<li>
+  <li>Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li>
   <li>Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.</li>
 </ul>
 

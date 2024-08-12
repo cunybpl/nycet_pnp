@@ -25,8 +25,8 @@ Condensate recovery systems are typically equipped with pumps, pipe networks, an
 
 <a href="/images/systems/steam-condensate-recovery/2024_00507_STEAM CONDENSATE system_figure 1 updated.jpg">
 <figure class="figure">
-  <img src="/images/systems/steam-condensate-recovery/2024_00507_STEAM CONDENSATE system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Condensate recovery system diagram">
-  <figcaption class="figure-caption text-left">Figure 1. Condensate recovery system diagram</figcaption>
+  <img src="/images/systems/steam-condensate-recovery/2024_00507_STEAM CONDENSATE system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Condensate recovery system diagram.">
+  <figcaption class="figure-caption text-left">Figure 1. Condensate recovery system diagram.</figcaption>
 </figure>
 </a>
 

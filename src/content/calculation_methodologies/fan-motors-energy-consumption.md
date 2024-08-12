@@ -20,7 +20,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator (Downloadable Links)</strong></p>
+                <p><strong>Calculator (Downloadable Files)</strong></p>
             </td>
             <td width="50%">
                 <p><strong>Description</strong></p>
@@ -95,10 +95,8 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{\%FanOn}_{d,h,f} =$ Average % time motor is on per hour for given day of week, d, and hour of day, h, for either supply of return fan, f, %</p>
-<ul>
-<li><p class="equation">$N_{f}(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p></li>
-<li><p class="equation">$n_{f} \in t_{f}(d,h) =$ Index for the subset of measured data points that fall on day of week, d, and hour of the day, h, for either supply or return fan</p></li>
-</ul>
+<p class="equation">$N_{f}(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
+<p class="equation">$n_{f} \in t_{f}(d,h) =$ Index for the subset of measured data points that fall on day of week, d, and hour of the day, h, for either supply or return fan</p>
 
 3. Find average hours per day fan is on (Worksheet: "Step 4. Results").
 

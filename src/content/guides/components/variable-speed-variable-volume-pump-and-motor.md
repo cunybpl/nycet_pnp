@@ -208,7 +208,7 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
 <table>
 <caption>
     
-Table 2. Key Values and measurements[^1]
+Table 2. Key values and measurements[^1]
     
 </caption>
     <thead>

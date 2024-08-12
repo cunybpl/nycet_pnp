@@ -53,7 +53,8 @@ A constant-speed CW pump provides a fixed flow to the cooling tower and chiller,
 
 ### Evaporative Cooling Tower
 
-An evaporative cooling tower rejects heat from the condenser section of the chiller, using forced airflow and the latent heat of evaporation to provide the cooling effect on the condenser water. A colling tower may have one or more sections (called cells) and each cell typically has one fan and motor. The cooling tower fan and motor may operate at a constant or variable speed. 
+An evaporative cooling tower rejects heat from the condenser section of the chiller, using forced airflow and the latent heat of evaporation to provide the cooling effect on the condenser water. A cooling tower may have one or more sections (called cells) and each cell typically has one fan and motor. The cooling tower fan and motor may operate at a constant- or variable-speed. 
+
 The overall cooling capacity of the condenser water loop in a cooling tower with multiple cells and constant speed fans and motors is controlled by staging (turning on) the cells. Cooling towers with variable speed fans and motors generally operate the fans at the lowest speed possible and stage fans based on the overall CW heat rejection needed to satisfy the specific sequence of operation of the chilled water plant. 
 
 <a href="/images/systems/condenser-water-loop/2024_0509_CW system_figure 2 updated.jpg">

@@ -23,8 +23,8 @@ The major components of a CSCV system are fans and motors, heat exchanger coils,
 
 <a href="/images/systems/constant-speed-constant-volume-air-handling-unit/2024_0503_CSCV AHU system_figure 1 updated.jpeg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/constant-speed-constant-volume-air-handling-unit/2024_0503_CSCV AHU system_figure 1 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 1. Constant-volume, constant-speed AHU components">
-        <figcaption class="figure-caption text-left">Figure 1. Constant-volume, constant-speed AHU components</figcaption>
+        <img src="/images/systems/constant-speed-constant-volume-air-handling-unit/2024_0503_CSCV AHU system_figure 1 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 1. Constant-volume, constant-speed AHU components.">
+        <figcaption class="figure-caption text-left">Figure 1. Constant-volume, constant-speed AHU components.</figcaption>
     </figure>
 </a>
 
@@ -102,8 +102,8 @@ The measurement locations for a CSCV AHU are shown in Figure 2.
 
 <a href="/images/systems/constant-speed-constant-volume-air-handling-unit/constant speed constant volume ahu figure 2.png">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/constant-speed-constant-volume-air-handling-unit/constant speed constant volume ahu figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Measurement points locations">
-        <figcaption class="figure-caption text-left">Figure 2. Measurement points locations</figcaption>
+        <img src="/images/systems/constant-speed-constant-volume-air-handling-unit/constant speed constant volume ahu figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Measurement points locations.">
+        <figcaption class="figure-caption text-left">Figure 2. Measurement points locations.</figcaption>
     </figure>
 </a>
 
