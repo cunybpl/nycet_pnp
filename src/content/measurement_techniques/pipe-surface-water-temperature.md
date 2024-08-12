@@ -17,14 +17,15 @@ url: "/documents/measurement-technique/pipe-surface-water-temperature"
 
 ## Description of Pipe Surface Water Temperature
 
-This technique uses a 4-channel analog logger with a thermocouple sensor to take long-term measurements of water temperature (oF) at one-hour intervals. This technique can be used to measure the fluid temperature from the surface of a pipe and not directly in the water stream. Data can be used to determine the cooling load and heat rejected to the outdoors by a cooling plant, the heat load delivered by a heating plant and heat recovered by an economizer. For more details on how collected data is used for calculations refer to the calculation methodology of the system being measured. 
+This technique uses a 4-channel analog logger with a thermocouple sensor to take long-term measurements of water temperature (F) at one-hour intervals. This technique can be used to measure the fluid temperature from the surface of a pipe and not directly in the water stream. Data can be used to determine the cooling load and heat rejected to the outdoors by a cooling plant, the heat load delivered by a heating plant and heat recovered by an economizer. For more details on how collected data is used for calculations refer to the calculation methodology of the system being measured. 
 
 Measurements should be taken at one-hour intervals and not instantaneous values. When taking one-hour measurements, the logger will detect the temperature several times every hour and store the average value. Sometimes temperature can fluctuate over a one-hour period, but the instantaneous temperature value will not indicate that change.  
+
 The duration of the long-term measurement should be a minimum of six weeks. Measurements should be when the system of interest is operating under normal conditions. 
 
 ### Type of measurement 
 
-Proxy 
+<strong>Proxy</strong> 
 
 ### Equipment 
 
@@ -82,8 +83,11 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following: 
 
-<ul>
-<li><strong>Do not remove the logger or sensors. <i>(If you remove the logger, you may need to start over with the setup and installation process.) </i></strong></li>  
+<div class="alert alert-warning" role="alert">
+<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
+</div>
+
+<ul>  
 <li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>  
 <li>Analyze the data with a plot graph. This can be done with proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li> 
 <li>Determine if measured results align with the expected operation of the system or component.</li> 

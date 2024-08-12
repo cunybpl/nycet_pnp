@@ -65,7 +65,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
                 <p>Cooling Tower Fan</p>
             </td>
             <td>
-                <p>Wet bulb temperature (WBT)</p>
+                <p>Wet bulb temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -162,7 +162,7 @@ Controlling variable, weather dependent[^2]
 
 </td>
             <td>
-                <p>Average hourly outside air temperature (OAT)</p>
+                <p>Average hourly outside air temperature (F)</p>
             </td>
             <td>
                 <p><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></p>

@@ -17,12 +17,12 @@ url: "/documents/plants/steam-plant"
 
 ## General Overview
 
-A low pressure steam plant takes input energy (e.g., fuel, gas, biomass) and uses a boiler to generate steam that is distributed throughout a facility or group of facilities to provide heating. Low pressure steam plants are generally operated at 15 psig or less (steam temperature below ~250oF). Low pressure steam can be used directly as a heating medium and distributed to the terminal equipment, or it can be used indirectly by being piped to heat exchangers to heat water to use at terminal equipment and/or domestic hot water (DHW) systems. A low pressure steam plant and associated systems are shown in Figure 1. A steam plant consists of a steam boiler, steam distribution system, condensate recovery system, blowdown system and economizer. 
+A low pressure steam plant takes input energy (e.g., fuel, gas, biomass) and uses a boiler to generate steam that is distributed throughout a facility or group of facilities to provide heating. Low pressure steam plants are generally operated at 15 psig or less (steam temperature below ~250 F). Low pressure steam can be used directly as a heating medium and distributed to the terminal equipment, or it can be used indirectly by being piped to heat exchangers to heat water to use at terminal equipment and/or domestic hot water (DHW) systems. A low pressure steam plant and associated systems are shown in Figure 1. A steam plant consists of a steam boiler, steam distribution system, condensate recovery system, blowdown system and economizer. 
 
 <a href="/images/plants/steam-plant/2024_0419_STEAM plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/steam-plant/2024_0419_STEAM plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Steam plant diagram">
-        <figcaption class="figure-caption text-left">Figure 1. Steam plant diagram</figcaption>
+        <img src="/images/plants/steam-plant/2024_0419_STEAM plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Steam plant diagram.">
+        <figcaption class="figure-caption text-left">Figure 1. Steam plant diagram.</figcaption>
     </figure>
 </a>
 
@@ -34,8 +34,8 @@ A steam boiler system is the largest energy-consuming system in the steam plant.
 
 <a href="/images/plants/steam-plant/2024_0415_STEAM plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/steam-plant/2024_0415_STEAM plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Steam plant diagram">
-        <figcaption class="figure-caption text-left">Figure 2. Steam Boiler System</figcaption>
+        <img src="/images/plants/steam-plant/2024_0415_STEAM plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Steam Boiler System.">
+        <figcaption class="figure-caption text-left">Figure 2. Steam Boiler System.</figcaption>
     </figure>
 </a>
 
@@ -45,8 +45,8 @@ A low-pressure steam distribution system supplies the steam to the facility or f
 
 <a href="/images/plants/steam-plant/2024_0416_STEAM plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/steam-plant/2024_0416_STEAM plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Steam plant diagram">
-        <figcaption class="figure-caption text-left">Figure 3. Steam Distribution System</figcaption>
+        <img src="/images/plants/steam-plant/2024_0416_STEAM plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Steam Distribution System.">
+        <figcaption class="figure-caption text-left">Figure 3. Steam Distribution System.</figcaption>
     </figure>
 </a>
 
@@ -56,8 +56,8 @@ A condensate recovery system complements the steam distribution system to mainta
 
 <a href="/images/plants/steam-plant/2024_0416_STEAM plant_figure 4 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/steam-plant/2024_0416_STEAM plant_figure 4 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Steam plant diagram">
-        <figcaption class="figure-caption text-left">Figure 4. Condensate Recovery System</figcaption>
+        <img src="/images/plants/steam-plant/2024_0416_STEAM plant_figure 4 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Condensate Recovery System.">
+        <figcaption class="figure-caption text-left">Figure 4. Condensate Recovery System.</figcaption>
     </figure>
 </a>
 
@@ -67,12 +67,12 @@ The feedwater system provides fresh or, at times, treated water to the steam boi
 
 ### Blowdown System
 
-The blowdown system removes suspended solids and sludge from the boiler water in order to preserve the operation and efficiency of the steam plant components. An integrated blowdown system reduces unnecessary blowdown by monitoring water quality and allows for heat recovery from the blowdown water to pre-heat the feedwater, generate service hot water or other applications.
+The blowdown system removes suspended solids and sludge from the boiler water in order to preserve the operation and efficiency of the steam plant components. An integrated blowdown system reduces unnecessary blowdown by monitoring water quality and allows for heat recovery from the blowdown water to pre-heat the feedwater, generates service hot water or other applications.
 
 <a href="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Steam plant diagram">
-        <figcaption class="figure-caption text-left">Figure 5. Blowdown System</figcaption>
+        <img src="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Blowdown System.">
+        <figcaption class="figure-caption text-left">Figure 5. Blowdown System.</figcaption>
     </figure>
 </a>
 

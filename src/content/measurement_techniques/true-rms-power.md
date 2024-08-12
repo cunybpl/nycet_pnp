@@ -34,7 +34,8 @@ Data loggers and power meters use instantaneous measurements of current and volt
 The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. The best practice is a minimum of six weeks and data should be collected at one-hour intervals; longer measurement periods are encouraged for deeper analysis of the equipment. Measurements should be taken when the system or component is operating under normal conditions. 
 
 ### Type of Measurement
-Direct and Proxy 
+
+<strong>Direct and Proxy</strong> 
 
 <strong>Electrical energy measurements are direct measurements of energy</strong>, and the obtained data can be used to calculate the annual energy consumption of the system or component.
 
@@ -129,8 +130,11 @@ Figure 5 displays the power logger installed on a panel with a Wye configuration
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with the manufacturer’s proprietary software installed to do the following: 
 
+<div class="alert alert-warning" role="alert">
+<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
+</div>
+
 <ul>
-  <strong><li>Do not remove the logger. (If you move the logger, then you may need to start over with the setup and installation process​​​.​​)</li></strong>
   <li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
   <li>Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li>
   <li>Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.</li>
@@ -151,7 +155,7 @@ After verifying that the logger is collecting data, do the following:
   <li>Allow the logger to collect data for the remainder of the measurement period.</li>
   <li>After the measurement period has concluded, remove the logger from the panel.</li>
   <li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
-  <li>Use the proprietary software to Stop the logger and end data collection.</li>
+  <li>Use the proprietary software to stop the logger and end data collection.</li>
   <li>Download all data from the logger and save the file in the .csv file format for analysis.</li>
 </ul>
 

@@ -27,7 +27,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator (Downloadable Links)</strong></p>
+                <p><strong>Calculator (Downloadable Files)</strong></p>
             </td>
             <td>
                 <p><strong>Description</strong></p>
@@ -266,7 +266,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WdYr} =$ Estimated annual weekday energy consumption (in kWh)</p>
 <p class="equation">$\overline{kWh}_{Wd} =$ Average energy consumption for weekdays (in kWh)</p>
-<p class="equation">$X =$ Number of weekdays that are considered holidays and adjusted to weekday day average energy consumption</p>
+<p class="equation">$X =$ Number of weekdays that are considered holidays and adjusted to weekend day average energy consumption</p>
 <p class="equation">$261 =$ Constant, number of weekdays per year</p>
 
 9. Calculate the total annual weekend day energy consumption (Worksheet: "Step 4. Results," cell E6.)

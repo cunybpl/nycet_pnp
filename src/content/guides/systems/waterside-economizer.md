@@ -65,15 +65,15 @@ The cooling energy savings are equivalent to the heat rejected through the water
                 <p>Waterside economizer heat rejection load</p>
             </td>
             <td>
-                <p>Average hourly Btu/h transferred, differential of temperature for chilled water loop.</p>
+                <p>Hourly Btu/h transferred, differential of temperature for chilled water loop.</p>
             </td>
             <td>
-                <p>Heat exchanger of waterside economizer</p>
+                <p><a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger</a> of waterside economizer</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly flow rate of the supply stream (gpm)</li>
-                    <li>Temperature of supply stream entering and leaving the heat exchange (degrees F)&nbsp;</li>
+                    <li><a href="/documents/measurement-technique/water-flow-rate">Hourly flow rate of the supply stream (GPM)</a></li>
+                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">Temperature of supply stream entering and leaving the heat exchange (F)&nbsp;</a></li>
                 </ul>
             </td>
         </tr>

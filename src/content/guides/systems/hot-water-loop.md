@@ -23,17 +23,17 @@ A hot water heating (HWH) loop system uses hot water produced by a hydronic boil
 
 A primary-flow HWH loop system consists of pumps that circulate hot water from the designated zone to the boilers. The components are shown in Figure 1.  Primary pumps are usually headered to allow for the minimum flow through the boiler and there are usually multiple pumps to allow for staging and redundancy; however, a boiler-dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow. 
 
-A constant-primary-flow system usually has a staged heating system and constant speed HWH loop pumps.   
+A <strong>constant-primary-flow system</strong> usually has a staged heating system and constant speed HWH loop pumps.   
 
-A variable-primary-flow system has primary HWH loop pumps with variable speed drives that regulate the flow of the system based on the heating load of the building. The heating system may be staged or constant. 
+A <strong>variable-primary-flow system</strong> has primary HWH loop pumps with variable speed drives that regulate the flow of the system based on the heating load of the building. The heating system may be staged or constant. 
 
 <h3>Primary-secondary Flow System</h3>
 
 A system with primary-secondary pumps will have the primary pumps circulate the hot water to a low loss header, while the secondary pumps circulate the hot water to the zones in the facility. The components of a primary-secondary flow system are shown in Figure 2. The following arrangements can be found in a primary-secondary flow system: 
 
-A constant-primary variable-secondary flow system has constant speed pumps that drive the flow through the primary loop and variable-speed pumps of a separate secondary loop that distribute the heating load to the terminal units. The secondary pumps are controlled by the heat load demand in the terminal units. 
+A <strong>constant-primary variable-secondary flow system</strong> has constant speed pumps that drive the flow through the primary loop and variable-speed pumps of a separate secondary loop that distribute the heating load to the terminal units. The secondary pumps are controlled by the heat load demand in the terminal units. 
 
-A variable-primary variable-secondary flow system has variable-speed pumps on both the primary and secondary loops. They are controlled by the firing rate in the boiler and the heat load demand in the terminal units. 
+A <strong>variable-primary variable-secondary flow system</strong> has variable-speed pumps on both the primary and secondary loops. They are controlled by the firing rate in the boiler and the heat load demand in the terminal units. 
 
 ## Hot Water Heating Loop Components
 
@@ -52,7 +52,7 @@ A primary HWH loop pump and motor circulate water from the boiler to the buildin
 
 ### Secondary HWH Loop Pump and Motor
 
-A secondary HWH loop pump and motor circulates water from the primary piping network to the building. A secondary HWH loop pump and motor are found in primary-secondary flow systems and can be at constant speed or can be equipped with variable frequency drives that are controlled by the differential pressure in the secondary piping network.  
+A secondary HWH loop pump and motor circulates water from the primary piping network to the building. A secondary HWH loop pump and motor are found in primary-secondary flow systems and can be at constant-speed or can be equipped with variable frequency drives that are controlled by the differential pressure in the secondary piping network.  
 
 ### Primary HWH Loop Piping Network
 
@@ -202,7 +202,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
 
 ### Measurement Locations
 
-The measurement locations for a primary-flow and primary-secondary flow hot water loop system are shown in Figure 3. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop
+The measurement locations for a primary-flow and primary-secondary flow hot water loop system are shown in Figure 3.
 
 <a href="/images/systems/hot-water-loop/2024_0507_HW Loop system_figure 2 updated.jpg">
 <figure class="figure">

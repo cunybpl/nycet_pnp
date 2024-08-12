@@ -18,7 +18,7 @@ url: "/documents/measurement-technique/relative-humidity"
 
 ## Description of Relative Humidity
 
-This technique uses data loggers to take long-term measurements of relative humidity (% RH) at one-hour intervals. This technique can be used to characterize the performance of heat/energy recovery ventilators. Data is used for calculations such as regression models to estimate the heat and energy recovered by an air-to-air heat/energy recovery system. For a more detailed description of how relative humidity data is used in calculations please refer to the PnP-S-16 - Air-to-Air Energy Recovery System and calculation methodology of the system being measured.
+This technique uses data loggers to take long-term measurements of relative humidity (% RH) at one-hour intervals. This technique can be used to characterize the performance of heat/energy recovery ventilators. Data is used for calculations such as regression models to estimate the heat and energy recovered by an air-to-air heat/energy recovery system. For a more detailed description of how relative humidity data is used in calculations please refer to the <a href="/documents/systems/air-to-air-energy-recovery">Air-to-Air Energy Recovery System</a> and calculation methodology of the system being measured.
 
 Relative humidity measurements should be taken at one-hour intervals and should be paired with the temperature of the system if both variables are required to characterize performance. Measurements should be taken at one-hour average interval and not instantaneous values. When taking one-hour measurements, the logger will detect humidity several times every hour and store the average value. Sometimes humidity can fluctuate over a one-hour period, but the instantaneous value will not indicate that change.  
 
@@ -26,7 +26,7 @@ The duration of the long-term measurement should be a minimum of six weeks. Meas
 
 ### Type of Measurement
 
-Direct 
+<strong>Direct</strong> 
 
 ### Equipment 
 
@@ -81,10 +81,12 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 <ul>
 <li>To measure relative humidity of the air streams inside of an AHU, place the loggers inside of the ductwork. AHUs typically have panels that open to reach inside of ductwork (Figure 3).</li>  
 <li>There are up to four air streams inside an AHU: outside air, return air, mixed air and supply/discharge air (Figure 4). To measure some or all the air streams a different data logger should be used for each air stream.</li> 
-<li><i>Mixed air relative humidity is the most difficult data to collect because some mixed air chambers make it difficult to install a data logger to accurately capture mixed air. The measurement uncertainty introduced is unknown and CUNY BPL suggests experimenting with different logger placements within the air chamber. Do not place the loggers near the heating and cooling coils.</i></li> 
 <li>Confirm that the logger is recording, and that the sensor is accurately identifying the airstream’s temperature. If the logger has a screen check the temperature value on the logger screen. If the logger does not have a screen, then use the software to connect to the logger and check the temperature it detects.</li> 
-<li>Do not move the logger after it has been installed.</li>  
 </ul>
+
+<div class="alert alert-warning" role="alert">
+<strong>Do not place the loggers near the heating and cooling coils.</strong> Mixed air relative humidity is the most difficult data to collect because some mixed air chambers make it difficult to install a data logger to accurately capture mixed air. The measurement uncertainty introduced is unknown and CUNY BPL suggests experimenting with different logger placements within the air chamber.
+</div>
 
 <a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Uo8mxaFa8glUd_X4-bd0R7&index=2">
 <figure class="figure">
@@ -104,9 +106,11 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following: 
 
+<div class="alert alert-warning" role="alert">
+<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
+</div>
+
 <ul>
-<li><strong>Do not remove the logger.</strong></li> 
-<li><i>If you remove the logger, you may need to start over with the setup and installation process.</i></li>  
 <li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>  
 <li>Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li> 
 <li>Determine if the measured results align with the expected operation of the system or component.</li> 

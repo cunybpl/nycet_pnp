@@ -126,7 +126,7 @@ The measurement locations for an air-cooled chiller and chilled water pumps are 
 <a href="/images/systems/air-cooled-chiller/2024_0502_ACC system_figure 2 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/air-cooled-chiller/2024_0502_ACC system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Air cooled chiller measurement point locations">
-  <figcaption class="figure-caption text-left">Figure 2. Air cooled chilled measurement point locations</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Air cooled chilled measurement point locations.</figcaption>
 </figure>
 </a>
 

@@ -30,12 +30,14 @@ Measurements should be taken at one-hour intervals and will provide insight into
 The duration of the long-term measurement should be a minimum of six weeks and data should be collected at one-hour intervals. Measurements should be taken when the system or component is operating under normal conditions.
 
 ### Type of Measurement
-Direct: 
+
+<strong>Direct</strong>
+
 This is a direct measurement of motor runtime and determines the operating schedule of the motor.
 
 ### Equipment
 
-The measurement equipment needed for this procedure is a motor on/off data logger. Refer to the [NYC Energy Tools equipment catalog](https://nycenergytools.com/equipment/) to identify data loggers that measure motor runtime. The contents of this guide are largely based off of the [UX90-004 Onset HOBO Motor runtime logger](https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/), which can be found and borrowed through NYC Energy Tools. 
+The measurement equipment needed for this procedure is a motor on/off data logger. Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify data loggers that measure motor runtime. The contents of this guide are largely based off of the [UX90-004 Onset HOBO Motor runtime logger](https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/), which can be found and borrowed through NYC Energy Tools. 
 
 When a motor turns on, it generates a magnetic field. The motor on/off sensor operates by detecting the field and recording the length of time for which it is detected. The runtime period is considered complete once the motor turns off, the magnetic field weakens, and the sensor no longer detects the field. The logger will record the amount of time the field was detected for (i.e., the motor was running) and document the duration in its internal storage for each hour interval. A separate data logger should be used for each motor if more than one is measured. 
 

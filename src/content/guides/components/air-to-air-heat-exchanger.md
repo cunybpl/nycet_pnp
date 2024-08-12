@@ -63,7 +63,7 @@ Table 1 shows the plant and system configurations that may contain an air-to-air
                 <p>Rotary wheel heat exchanger</p>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>Outdoor air temperature (OAT)</p>
+                <p>Outdoor air temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -141,7 +141,7 @@ Figure 1 shows the measurement points in a fixed plate heat exchanger.
 <a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement boundary for an air-to-air heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 1. Fixed plate heat exchanger measurement points.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Fixed-plate heat exchanger measurement points.</figcaption>
 </figure>
 </a>
 

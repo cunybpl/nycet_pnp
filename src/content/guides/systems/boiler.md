@@ -26,7 +26,7 @@ The main components of a boiler system are burner, combustion chamber, heat exch
 <a href="/images/systems/boiler/2024_0423_BOILER system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/boiler/2024_0423_BOILER system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Boiler System.">
-  <figcaption class="figure-caption text-left">Figure 1. Boiler System</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Boiler System.</figcaption>
 </figure>
 </a>
 
@@ -113,7 +113,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
 
 ### Measurement Locations
 
-The measurement locations for a boiler system are shown in Figure 2. More detail on performing measurements can be found in in <link to gas meter reading> and <link to fan motor measurements> 
+The measurement locations for a boiler system are shown in Figure 2.
 
 <a href="/images/systems/boiler/2024_0507_BOILER system_figure 3 updated.jpg">
 <figure class="figure">

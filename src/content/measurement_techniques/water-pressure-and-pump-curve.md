@@ -28,7 +28,7 @@ Figure 1 illustrates a typical pump curve with the flow rate (in GPM) marked on 
 
 ### Type of Measurement 
 
-Proxy 
+<strong>Proxy</strong> 
 
 <figure class="figure">
   <img src="/images/measurement-technique/water-pressure-and-pump-curve/water pressure and pump curve figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. A typical pump curve marked with the determined flow rate on the bottom axis.">
@@ -57,7 +57,7 @@ Please note that loggers will require setup with a computer or phone using the m
 
 ## Measurement Steps 
 
-### Preparation for Data Acquisition
+### 1. Preparation for Data Acquisition
 
 Identify the temperature (hot or cold) of the pipes that will be measured. Use the manufacturer’s software to setup the logger. Refer to the user manual for detailed instructions on how to setup the logger. 
 
@@ -76,10 +76,10 @@ Identify the temperature (hot or cold) of the pipes that will be measured. Use t
 </figure>
 </a>
 
-### Installation at the Site 
+### 2. Installation at the Site 
 
 - Confirm that the equipment is operational.
-- Locate the pressure gauges that are installed on the suction and discharge sides of the pump, (Figure 2).
+- Locate the pressure gauges that are installed on the suction and discharge sides of the pump, (Figure 3).
 - Connect the transducers to the data logger.
 - Place the data logger near the pipes, avoid placing the logger on the pipe itself.
 - Confirm that the pressure gauge has a stop-valve to prevent water from flowing.
@@ -106,14 +106,16 @@ Figure 4 illustrates a pressure transducer connected to the T-shaped valve (on t
 </figure>
 </a>
 
-### Verify Data is Being Collected 
+### 3. Verify Data is Being Collected 
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with manufacturer’s propriety software installed to do the following:  
 
+<div class="alert alert-warning" role="alert">
+<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
+</div>
+
 <ul>
-<li><strong>Do not remove the logger.</strong></li>
-<li><strong><i>If you move the logger, then you may need to start over with the setup and installation process. 
-If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li></strong></i> 
+<li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
 <li>Analyze the data with a plot graph. This can be done with proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li>  
 <li>Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.</li>  
 </ul>

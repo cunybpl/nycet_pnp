@@ -25,11 +25,11 @@ However, a major challenge with this technique is that measurements must be take
 
 Measurements should be taken at one-hour intervals and not instantaneous values. When taking one-hour measurements, the flow meter will detect the flow several times every hour and store the average value. Sometimes flow can fluctuate over a one-hour period, but the instantaneous flow value will not indicate that change.
 
-The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. For water loop systems that operate year-round and are driven by outside air temperature (OAT), one full year of measurement (12 consecutive months, 52 consecutive weeks, or 365 consecutive days) is required for the baseline and one full year for the reporting period. For water loop systems that operate during a particular season, the full season must be measured for the baseline and reporting periods. For water loop systems that are not driven by OAT it is recommended to measure flow rate for a minimum of six weeks. Measurements should be taken when the system or component is operating under normal conditions. 
+The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. For water loop systems that operate year-round and are driven by outside air temperature (F), one full year of measurement (12 consecutive months, 52 consecutive weeks, or 365 consecutive days) is required for the baseline and one full year for the reporting period. For water loop systems that operate during a particular season, the full season must be measured for the baseline and reporting periods. For water loop systems that are not driven by OAT it is recommended to measure flow rate for a minimum of six weeks. Measurements should be taken when the system or component is operating under normal conditions. 
 
 ### Type of Measurement
 
-Direct
+<strong>Direct</strong>
 
 ### Equipment
 
