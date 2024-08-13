@@ -1,6 +1,9 @@
 terms:
-  - name: "air"
-  - name: "water"
+  - name: "space-heating"
+  - name: "water-heating"
   - name: "cooling"
-  - name: "water-side"
-  - name: "solar"
+  - name: "lighting"
+  - name: "ventilation"
+  - name: "energy-recovery"
+  - name: "direct-measurement"
+  - name: "proxy-measurement"

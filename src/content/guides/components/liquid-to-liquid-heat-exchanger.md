@@ -174,6 +174,8 @@ The measurement strategy for a liquid-to-liquid heat exchanger is to measure the
 
 The general methodology for quantifying the useful energy supplied by a liquid-to-liquid heat exchanger is determined by the differential of temperature and rate of flow of the supply stream. These values are multiplied by the heat capacity and density of the liquid (e.g., water, water-glycol mix) to find the energy flow rate. The energy flow rate can be regressed against a controlling variable (such as outdoor air, pump runtime or flow rate) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
 
+<i>Click the button below to go to the calculators for this component.</i>
+
 {{< calculation_methodology calculation_methodology_id=24 >}}
 
 ## Further Reading

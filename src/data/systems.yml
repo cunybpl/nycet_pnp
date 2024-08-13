@@ -2,46 +2,46 @@ enable: true
 documents:
   - type: system
     title: "Air-cooled Chiller"
-    measurement_type: "water-side, cooling"
+    measurement_type: "cooling"
   - type: system
     title: "Air-to-air Energy Recovery"
-    measurement_type: "air, electrical"
+    measurement_type: "energy-recovery"
   - type: system
     title: "Boiler"
-    measurement_type: "water-side, heating"
+    measurement_type: "space-heating, water-heating"
   - type: system
     title: "Chilled Water Loop"
-    measurement_type: "water-side, cooling"
+    measurement_type: "cooling"
   - type: system
     title: "Condenser Water Loop"
-    measurement_type: "water-side, cooling"
+    measurement_type: "cooling"
   - type: system
     title: "Constant-speed, Constant-volume Air Handling Unit"
-    measurement_type: "air"
+    measurement_type: "space-heating, cooling, ventilation"
   - type: system
     title: "Electrical Distribution"
-    measurement_type: "electrical"
+    measurement_type: "lighting"
   - type: system
     title: "Feedwater"
-    measurement_type: "water-side"
+    measurement_type: "space-heating"
   - type: system
     title: "Hot Water Loop"
-    measurement_type: "water-side, heating"
+    measurement_type: "space-heating, water-heating"
   - type: system
     title: "Lighting Fixture"
-    measurement_type: "electrical"
+    measurement_type: "lighting"
   - type: system
     title: "Steam Condensate Recovery"
-    measurement_type: "water-side, heating"
+    measurement_type: "space-heating"
   - type: system
     title: "Steam Distribution"
-    measurement_type: "water-side, heating"
+    measurement_type: "space-heating"
   - type: system
     title: "Variable-speed, Variable-volume Air Handling Unit"
-    measurement_type: "air"
+    measurement_type: "space-heating, cooling, ventilation"
   - type: system
     title: "Water-cooled Chiller"
-    measurement_type: "water-side, cooling"
+    measurement_type: "cooling"
   - type: system
     title: "Waterside Economizer"
-    measurement_type: "water-side, cooling"
+    measurement_type: "cooling"

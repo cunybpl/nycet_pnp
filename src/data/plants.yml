@@ -2,22 +2,22 @@ enable: true
 documents:
   - type: plant
     title: "Air-cooled Chilled Water Plant"
-    measurement_type: "water-side, cooling"
+    measurement_type: "cooling"
   - type: plant
     title: "Air Handling Plant"
-    measurement_type: "air"
+    measurement_type: "space-heating, cooling, ventilation"
   - type: plant
     title: "Hot-water Heating Plant"
-    measurement_type: "water"
+    measurement_type: "space-heating, water-heating"
   - type: plant
     title: "Lighting Plant"
-    measurement_type: "electric"
+    measurement_type: "lighting"
   - type: plant
     title: "Steam Plant"
-    measurement_type: "heating"
+    measurement_type: "space-heating"
   - type: plant
     title: "Water-cooled Chilled Water Plant"
-    measurement_type: "water-side, cooling"
+    measurement_type: "cooling"
 
 
 

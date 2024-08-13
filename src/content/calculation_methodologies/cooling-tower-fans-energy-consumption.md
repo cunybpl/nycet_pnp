@@ -1,5 +1,5 @@
 ---
-title: Cooling Tower Fans Energy Consumption
+title: Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 4

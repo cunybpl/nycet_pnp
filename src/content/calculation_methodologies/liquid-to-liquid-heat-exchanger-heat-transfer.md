@@ -1,5 +1,5 @@
 ---
-title:  Liquid-to-liquid Heat Exchanger Heat Transfer
+title:  Liquid-to-liquid Heat Exchanger Heat Transfer Calculation Methodology and Calculator
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 24
