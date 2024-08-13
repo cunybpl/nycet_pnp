@@ -193,6 +193,8 @@ The general methodology for quantifying the energy consumption of a CSCV fan mot
 
 However, the yearly schedule may be dependent on OAT. If so, the operating hours values can be regressed against OAT to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical annual operating schedule, which is in turn used in conjunction with the true RMS power to calculate the estimated annual electricity consumption.
 
+<i>Click the button below to go to the calculators for this component.</i>
+
 {{< calculation_methodology calculation_methodology_id=2 >}}
 
 ## Further Reading

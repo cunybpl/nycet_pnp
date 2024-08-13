@@ -1,5 +1,5 @@
 ---
-title: Pump Motor Energy Consumption
+title: Pump Motor Energy Consumption Calculation Methodology and Calculator
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 6

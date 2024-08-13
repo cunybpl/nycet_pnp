@@ -1,5 +1,5 @@
 ---
-title: Air-to-air Heat Exchanger Heat Transfer
+title: Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 8

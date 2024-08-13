@@ -1,5 +1,5 @@
 ---
-title:  Lighting Plant and Systems Energy Consumption
+title:  Lighting Plant and Systems Energy Consumption Calculation Methodology and Calculator
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 3

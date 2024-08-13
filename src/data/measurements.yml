@@ -2,34 +2,34 @@ enable: true
 documents:
   - type: measurement
     title: "Electrical Current"
-    measurement_type: "current"
+    measurement_type: "direct-measurement, proxy-measurement"
   - type: measurement
     title: "Electrical Spot Measurement"
-    measurement_type: "power, rms"
+    measurement_type: "proxy-measurement"
   - type: measurement
     title: "Lighting Fixture Runtime"
-    measurement_type: "lighting, runtime"
+    measurement_type: "proxy-measurement"
   - type: measurement
     title: "Motor Runtime"
-    measurement_type: "runtime"
+    measurement_type: "direct-measurement"
   - type: measurement
     title: "Outdoor Air Temperature"
-    measurement_type: "air, temperature"
+    measurement_type: "direct-measurement"
   - type: measurement    
     title: "Pipe Surface Water Temperature"
-    measurement_type: "water, temperature"
+    measurement_type: "proxy-measurement"
   - type: measurement    
     title: "Relative Humidity"
-    measurement_type: "air, temperature"
+    measurement_type: "direct-measurement"
   - type: measurement    
     title: "System Air Temperature"
-    measurement_type: "air, temperature"
+    measurement_type: "direct-measurement"
   - type: measurement
     title: "True RMS Power"
-    measurement_type: "power, rms"
+    measurement_type: "direct-measurement, proxy-measurement"
   - type: measurement
     title: "Water Flow Rate"
-    measurement_type: "water, flow"
+    measurement_type: "direct-measurement"
   - type: measurement    
     title: "Water Pressure and Pump Curve"
-    measurement_type: "water, temperature"
+    measurement_type: "proxy-measurement"
