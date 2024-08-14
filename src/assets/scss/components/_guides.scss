@@ -44,6 +44,16 @@ h2, h3, h4 {
   margin-top: 3rem;
 }
 
+a.header-link {
+  opacity: 0;
+  color: $primary;
+  text-decoration: underline 3px;
+}
+
+:is(h1, h2, h3, h4, h5, h6):hover a.header-link {
+  opacity: 1;
+}
+
 [class$="page-content"] {
   .title {
     text-align: center;
