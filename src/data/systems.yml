@@ -22,7 +22,7 @@ documents:
     title: "Electrical Distribution"
     measurement_type: "lighting"
   - type: system
-    title: "Feedwater"
+    title: "Feedwater System"
     measurement_type: "space-heating"
   - type: system
     title: "Hot Water Loop"

@@ -10,6 +10,10 @@ related_systems:
   - Air-to-air Energy Recovery
 associated_components:
   - Air-to-air Heat Exchanger
+related_calculations:
+  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+associated_calculations:
+  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
 url: "/documents/measurement-technique/system-air-temperature"
 ---
 

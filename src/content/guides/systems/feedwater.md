@@ -1,13 +1,15 @@
 ---
-title: Feedwater
+title: Feedwater System
 type: system
 excerpt: The feedwater system usually receives condensate recovered from the condensate recovery system and make-up water (treated fresh water). It maintains water levels in the boiler extending its lifespan.
 thumbnail_image: "/images/systems/hot-water-loop/2024_0606_hot water loop system_thumbnail.jpg"
 system_id: 14
-associated_systems:
-  - 
+associated_components:
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 related_components:
-  - 
+  - Constant-speed, Constant-volume Pump and Motor
+  - Variable-speed, Variable-volume Pump and Motor
 borrow_equipment_url: ""
 layout: guide
 url: "/documents/systems/feedwater"
@@ -31,11 +33,11 @@ The main components of a boiler feedwater system are one or more feed pumps, and
 </figure>
 </a>
 
-### Feedwater Pumps and Motors 
+### Pumps and Motors 
 
 The feedwater pumps and motors inject the feedwater stored in the feedwater tank into the boiler. The pumps and motors are driven by a feedwater controller that monitors the water level of the boiler and the water contaminant levels. When the controller receives the signal, it will turn on the pumps and feedwater will flow into the boiler.  
 
-### Feedwater Piping Network 
+### Piping Network 
 
 The piping network for a feedwater system can serve one or multiple boilers for a hot water or steam plant where each boiler has its own feedwater valve. The feedwater valve opens and closes based on the boiler controller signal. 
 
@@ -75,16 +77,16 @@ The primary energy consumption in a feedwater system is the electricity used to 
             </td>
             <td>
                 <ul>
-                <li>Average Hourly pump motor (kW)<li>
+                <li>Average Hourly pump motor (kW)</li>
                 <li>Total operating time for the pump</li>
                 </ul>
             </td>
             <td>
-                Light fixtures and automatic controls (if applicable).
+                Pump motor
             </td>
             <td>
                 <ul>
-                <li>Average hourly power supply to the pump motor</li>
+                <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power draw to the pump motor</li></a>
                 <li>Total operating hours</li>
                 </ul>
             </td>

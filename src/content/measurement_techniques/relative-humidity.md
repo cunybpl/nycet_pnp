@@ -13,6 +13,12 @@ associated_components:
   - Air-to-air Heat Exchanger
   - Constant-speed, Constant-volume Fan and Motor
   - Variable-speed, Variable-volume Fan and Motor
+related_calculations:
+  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+  - Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator
+associated_calculations:
+  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+  - Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator
 url: "/documents/measurement-technique/relative-humidity"
 ---
 

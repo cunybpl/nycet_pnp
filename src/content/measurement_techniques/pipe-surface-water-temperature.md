@@ -12,6 +12,10 @@ related_systems:
   - Waterside Economizer
 associated_components: 
   - Liquid-to-liquid Heat Exchanger
+related_calculations:
+  - Liquid-to-liquid Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+associated_calculations:
+  - Liquid-to-liquid Heat Exchanger Heat Transfer Calculation Methodology and Calculator
 url: "/documents/measurement-technique/pipe-surface-water-temperature"
 ---
 

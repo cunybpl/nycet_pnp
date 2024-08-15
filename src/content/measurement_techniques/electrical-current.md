@@ -11,13 +11,10 @@ thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_ele
 #   - Electrical Distribution
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
-  - Air-to-air Heat Exchanger
-  - Constant-speed, Constant-volume Pump and Motor
-  - Liquid-to-liquid Heat Exchanger
 related_calculations:
-  - Cooling Tower Fans Energy Consumption
+  - Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator
 associated_calculations:
-  - Cooling Tower Fans Energy Consumption
+  - Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator
 url: "/documents/measurement-technique/electrical-current"
 ---
 

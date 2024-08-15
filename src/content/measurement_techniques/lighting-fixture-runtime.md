@@ -8,6 +8,10 @@ borrow_equipment_url: "https://nycenergytools.com/equipment/light-on-off-data-lo
 thumbnail_image: "/images/measurement-technique/lighting-fixture-runtime/2024_0410_lighting fixture runtime MT_thumbnail.jpeg"
 related_systems:
   - Lighting Fixture
+related_calculations:
+  - Lighting Plant and Systems Energy Consumption Calculation Methodology and Calculator
+associated_calculations:
+  - Lighting Plant and Systems Energy Consumption Calculation Methodology and Calculator
 url: "/documents/measurement-technique/lighting-fixture-runtime"
 ---
 

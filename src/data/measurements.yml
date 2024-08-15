@@ -5,13 +5,13 @@ documents:
     measurement_type: "direct-measurement, proxy-measurement"
   - type: measurement
     title: "Electrical Spot Measurement"
-    measurement_type: "proxy-measurement"
+    measurement_type: "direct-measurement"
   - type: measurement
     title: "Lighting Fixture Runtime"
     measurement_type: "proxy-measurement"
   - type: measurement
     title: "Motor Runtime"
-    measurement_type: "direct-measurement"
+    measurement_type: "proxy-measurement"
   - type: measurement
     title: "Outdoor Air Temperature"
     measurement_type: "direct-measurement"
@@ -26,7 +26,7 @@ documents:
     measurement_type: "direct-measurement"
   - type: measurement
     title: "True RMS Power"
-    measurement_type: "direct-measurement, proxy-measurement"
+    measurement_type: "direct-measurement"
   - type: measurement
     title: "Water Flow Rate"
     measurement_type: "direct-measurement"
