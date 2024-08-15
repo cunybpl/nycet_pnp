@@ -19,9 +19,17 @@ related_systems:
   - Water-cooled Chiller
   - Variable-speed, Variable-volume Air Handling Unit
 associated_components:
+  - Air-to-air Heat Exchanger
   - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Pump and Motor
-  - 
+related_calculations:
+  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+  - Fan Motor Energy Consumption Calculation Methodology and Calculator
+  - Pump Motor Energy Consumption Calculation Methodology and Calculator
+associated_calculations:
+  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+  - Fan Motor Energy Consumption Calculation Methodology and Calculator
+  - Pump Motor Energy Consumption Calculation Methodology and Calculator
 url: "/documents/measurement-technique/true-rms-power"
 ---
 

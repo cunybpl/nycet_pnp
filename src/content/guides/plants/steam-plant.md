@@ -5,10 +5,12 @@ excerpt: A low pressure steam plant takes input energy (e.g., fuel, gas, biomass
 thumbnail_image: "/images/plants/steam-plant/2024_0411_steam plant_thumbnail.jpeg"
 associated_systems:
   - Boiler
+  - Feedwater System
   - Steam Condensate Recovery
   - Steam Distribution
 related_systems:
   - Boiler
+  - Feedwater System
   - Steam Condensate Recovery
   - Steam Distribution
 layout: guide
