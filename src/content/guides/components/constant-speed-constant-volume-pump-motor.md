@@ -213,7 +213,9 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 
 ### Calculation Methodology
 
+<br></br>
 <i>Click the button below to go to the calculators for this component.</i>
+<br></br>
 
 {{< calculation_methodology calculation_methodology_id=6 >}}
 

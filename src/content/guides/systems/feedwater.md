@@ -26,9 +26,9 @@ boiler blowdown, steam traps, hot water use or other losses. The feedwater syste
 
 The main components of a boiler feedwater system are one or more feed pumps, and a receiver tank. Feedwater systems may include an economizer and larger systems also can have a deaerator tank. These components are shown in Figure 1.
 
-<a href="">
+<a href="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg">
 <figure class="figure">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Feedwater system and components.">
+  <img src="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Feedwater system and components.">
   <figcaption class="figure-caption text-left">Figure 1. Feedwater system and components.</figcaption>
 </figure>
 </a>
@@ -100,9 +100,9 @@ The primary effect of the economizer is to minimize the fuel usage by recovering
 
 The measurement locations for a feedwater water system are shown in Figure 2. 
 
-<a href="">
+<a href="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 2.jpg">
 <figure class="figure">
-  <img src="" class="figure-img img-fluid rounded" alt="Figure 2. Feedwater system measurement locations.">
+  <img src="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Feedwater system measurement locations.">
   <figcaption class="figure-caption text-left">Figure 2. Feedwater system measurement locations.</figcaption>
 </figure>
 </a>

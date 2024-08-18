@@ -160,7 +160,9 @@ The general methodology for quantifying the energy impact of an air-to-air heat 
 
 <strong>This methodology only applies to systems with rotary wheel heat exchangers.</strong>
 
+<br></br>
 <i>Click the button below to go to the calculators for this component.</i>
+<br></br>
 
 {{< calculation_methodology calculation_methodology_id=8 >}}
 
