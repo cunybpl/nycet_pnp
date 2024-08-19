@@ -34,12 +34,8 @@ function filterPlantGuides(searchKeyWord='') {
 
       if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
-        const guideTitle = getGuideTitle(x[i]).toLowerCase()
-        const guideContent = getGuideContent(x[i]).toLowerCase()
         
-        if (guideTitle.includes(searchKeyWord) 
-            || guideContent.includes(searchKeyWord) 
-            || measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -83,12 +79,8 @@ function filterSystemGuides(searchKeyWord='') {
 
       if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
-        const guideTitle = getGuideTitle(x[i]).toLowerCase()
-        const guideContent = getGuideContent(x[i]).toLowerCase()
 
-        if (guideTitle.includes(searchKeyWord) 
-            || guideContent.includes(searchKeyWord) 
-            || measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -133,12 +125,8 @@ function filterComponentGuides(searchKeyWord='') {
       
       if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
-        const guideTitle = getGuideTitle(x[i]).toLowerCase()
-        const guideContent = getGuideContent(x[i]).toLowerCase()
 
-        if (guideTitle.includes(searchKeyWord) 
-            || guideContent.includes(searchKeyWord) 
-            || measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -183,12 +171,8 @@ function filterCalculations(searchKeyWord='') {
 
       if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
-        const guideTitle = getGuideTitle(x[i]).toLowerCase()
-        const guideContent = getGuideContent(x[i]).toLowerCase()
 
-        if (guideTitle.includes(searchKeyWord) 
-            || guideContent.includes(searchKeyWord) 
-            || measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -236,9 +220,7 @@ function filterMeasurements(searchKeyWord='') {
         const guideTitle = getGuideTitle(x[i]).toLowerCase()
         const guideContent = getGuideContent(x[i]).toLowerCase()
 
-        if (guideTitle.includes(searchKeyWord) 
-            || guideContent.includes(searchKeyWord) 
-            || measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -307,6 +289,12 @@ function removeClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+/**
+ * Facade for performing the search action to guides, measurement techniques,
+ * and calculation methodologies.
+ * 
+ * @param {string} searchBarId HTML element id of the search bar. 
+ */
 function doSearchGuides(searchBarId) {
   let searchKeyword = getSearchKeywordValue(searchBarId)
   filterPlantGuides(searchKeyword)
