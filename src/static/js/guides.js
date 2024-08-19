@@ -217,8 +217,6 @@ function filterMeasurements(searchKeyWord='') {
 
       if (searchKeyWord.length > 0) {
         searchKeyWord = searchKeyWord.toLowerCase()
-        const guideTitle = getGuideTitle(x[i]).toLowerCase()
-        const guideContent = getGuideContent(x[i]).toLowerCase()
 
         if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
