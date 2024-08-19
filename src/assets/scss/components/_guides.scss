@@ -47,11 +47,12 @@ h2, h3, h4 {
 a.header-link {
   opacity: 0;
   color: $primary;
-  text-decoration: underline 3px;
 }
-
 :is(h1, h2, h3, h4, h5, h6):hover a.header-link {
   opacity: 1;
+}
+.header-link-icon {
+  fill: $primary;
 }
 
 [class$="page-content"] {
