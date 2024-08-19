@@ -62,14 +62,6 @@ a.header-link {
   .content {
     h2:not(:first-of-type) {
       margin-top: 3rem;
-      // &:before {
-      //   content: "";
-      //   display: block;
-      //   position: relative;
-      //   width: 80px;
-      //   border: 4px solid #ebf4ec;
-      //   top: -25px;
-      // }
     }
   }
 }
