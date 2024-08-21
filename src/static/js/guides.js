@@ -31,9 +31,13 @@ function filterPlantGuides(searchKeyWord='') {
       displayedPlantGuides += 1;
 
       removeClass(x[i], "show-html-element");
+      let measurementType = getMeasurementTypes(x[i].classList);
+      measurementType = measurementType.map(element => {
+        return cleanKeyword(element)
+      });
 
       if (searchKeyWord.length > 0) {
-        searchKeyWord = searchKeyWord.toLowerCase()
+        searchKeyWord = cleanKeyword(searchKeyWord)
         
         if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
@@ -61,7 +65,7 @@ function filterSystemGuides(searchKeyWord='') {
   var x, i;
   x = document.getElementsByClassName("guide-card");
 
-  // Get the total plant guides
+  // This loop is to get the total system guides
   for (i = 0; i < x.length; i++) {
     let type = x[i].id.split("-")[0];
     if (type == SYSTEMS) totalSystemGuides += 1;
@@ -70,15 +74,18 @@ function filterSystemGuides(searchKeyWord='') {
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
-    const measurementType = getMeasurementTypes(x[i].classList);
 
     if (guideType == SYSTEMS) {
       displayedSystemGuides += 1;
 
       removeClass(x[i], "show-html-element");
+      let measurementType = getMeasurementTypes(x[i].classList);
+      measurementType = measurementType.map(element => {
+        return cleanKeyword(element)
+      });
 
       if (searchKeyWord.length > 0) {
-        searchKeyWord = searchKeyWord.toLowerCase()
+        searchKeyWord = cleanKeyword(searchKeyWord)
 
         if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
@@ -107,7 +114,7 @@ function filterComponentGuides(searchKeyWord='') {
   var x, i;
   x = document.getElementsByClassName("guide-card");
 
-  // Get the total plant guides
+  // This loop is to get the total component guides
   for (i = 0; i < x.length; i++) {
     let type = x[i].id.split("-")[0];
     if (type == COMPONENTS) totalComponentGuides += 1;
@@ -116,15 +123,17 @@ function filterComponentGuides(searchKeyWord='') {
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
-    const measurementType = getMeasurementTypes(x[i].classList);
 
     if (guideType == COMPONENTS) {
       displayedComponentGuides += 1;
 
       removeClass(x[i], "show-html-element");
-      
+      let measurementType = getMeasurementTypes(x[i].classList);
+      measurementType = measurementType.map(element => {
+        return cleanKeyword(element)
+      });
       if (searchKeyWord.length > 0) {
-        searchKeyWord = searchKeyWord.toLowerCase()
+        searchKeyWord = cleanKeyword(searchKeyWord)
 
         if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
@@ -153,7 +162,7 @@ function filterCalculations(searchKeyWord='') {
   var x, i;
   x = document.getElementsByClassName("guide-card");
 
-  // Get the total plant guides
+  // This loop is to get the total calculation methodologies
   for (i = 0; i < x.length; i++) {
     let type = x[i].id.split("-")[0];
     if (type == CALCULATIONS) totalCalculationGuides += 1;
@@ -162,15 +171,19 @@ function filterCalculations(searchKeyWord='') {
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
-    const measurementType = getMeasurementTypes(x[i].classList);
+    
 
     if (guideType == CALCULATIONS) {
       displayedCalculations += 1;
 
       removeClass(x[i], "show-html-element");
+      let measurementType = getMeasurementTypes(x[i].classList);
+      measurementType = measurementType.map(element => {
+        return cleanKeyword(element)
+      });
 
       if (searchKeyWord.length > 0) {
-        searchKeyWord = searchKeyWord.toLowerCase()
+        searchKeyWord = cleanKeyword(searchKeyWord)
 
         if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
@@ -199,7 +212,7 @@ function filterMeasurements(searchKeyWord='') {
   var x, i;
   x = document.getElementsByClassName("guide-card");
 
-  // Get the total plant guides
+  // This loop is to get the total measurement techniques
   for (i = 0; i < x.length; i++) {
     let type = x[i].id.split("-")[0];
     if (type == MEASUREMENTS) totalMeasurementGuides += 1;
@@ -208,21 +221,25 @@ function filterMeasurements(searchKeyWord='') {
   for (i = 0; i < x.length; i++) {
     let htmlElementId = x[i].id;
     let guideType = htmlElementId.split("-")[0];
-    const measurementType = getMeasurementTypes(x[i].classList);
 
     if (guideType == MEASUREMENTS) {
       displayedMeasurements += 1;
 
       removeClass(x[i], "show-html-element");
+      let measurementType = getMeasurementTypes(x[i].classList);
+      measurementType = measurementType.map(element => {
+        return cleanKeyword(element)
+      });
 
       if (searchKeyWord.length > 0) {
-        searchKeyWord = searchKeyWord.toLowerCase()
+        searchKeyWord = cleanKeyword(searchKeyWord)
 
         if (measurementType.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
         updateSearchResults(MEASUREMENTS, totalSearchResult)
+        hideLoadMoreButton(MEASUREMENTS);
       }
       if (!searchKeyWord 
           && displayedMeasurements <= initialDisplayedMeasurements) {
@@ -294,18 +311,13 @@ function removeClass(element, name) {
  * @param {string} searchBarId HTML element id of the search bar. 
  */
 function doSearchGuides(searchBarId) {
-  let searchKeyword = getSearchKeywordValue(searchBarId)
-  filterPlantGuides(searchKeyword)
-  filterSystemGuides(searchKeyword)
-  filterComponentGuides(searchKeyword)
-  filterCalculations(searchKeyword)
-  filterMeasurements(searchKeyword)
-}
-
-function getSearchKeywordValue(searchBarId) {
-  let searchKeyWord = document.getElementById(searchBarId).value;
-  searchKeyWord = searchKeyWord.trim();
-  return searchKeyWord
+  let keyword = document.getElementById(searchBarId).value;
+  keyword = cleanKeyword(keyword)
+  filterPlantGuides(keyword)
+  filterSystemGuides(keyword)
+  filterComponentGuides(keyword)
+  filterCalculations(keyword)
+  filterMeasurements(keyword)
 }
 
 function loadMoreGuides(guideType, incrementBy=6) {
@@ -596,6 +608,13 @@ function updateGuideHeader(guideType, label) {
   if (guideType == MEASUREMENTS) {
     $('#guide-header-measurements').text(label);
   }
+}
+
+function cleanKeyword(keyword) {
+  return keyword
+    .replace(/[\-]/g, " ")
+    .replace(/\s+/g, " ")
+    .toLowerCase()
 }
 
 $('.open-popup-link').magnificPopup({
