@@ -211,6 +211,63 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 </figure>
 </a>
 
+### Measurement Equipment
+
+Table 3 provides the equipment required to carry out the measurements of this component. 
+
+<table width="100%" cellspacing="0" cellpadding="7">
+    <caption>Table 3. Measurement equipment.</caption>
+    <thead>
+        <tr>
+            <td width="33.333333333333336%">
+                <p><strong>Equipment</strong></p>
+            </td>
+            <td width="33.333333333333336%">
+                <p><strong>Description</strong></p>
+            </td>
+            <td width="33.333333333333336%">
+                <p><strong>Measurement (Units)</strong></p>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                <a href="https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/">Onset HOBO Motor On/Off Data Logger (UX90-004)</a>
+            </td>
+            <td width="33.333333333333336%">       
+                Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/motor-runtime">Motor Runtime (minutes)</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300@2x.jpeg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300@2x.jpeg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                <a href="https://nycenergytools.com/equipment/power-quality-clamp-meter/">Fluke 345 Power Quality Clamp Meter</a>
+            </td>
+            <td width="33.333333333333336%">
+                Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time.
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ### Calculation Methodology
 
 <br></br>

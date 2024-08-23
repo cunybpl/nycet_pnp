@@ -258,6 +258,82 @@ The measurement strategy for a variable-speed pump and motor is to measure power
 </figure>
 </a>
 
+### Measurement Equipment
+
+Table 3 provides the equipment required to carry out the measurements of this component. 
+
+<table width="100%" cellspacing="0" cellpadding="7">
+    <caption>Table 3. Measurement equipment.</caption>
+    <thead>
+        <tr>
+            <td width="33.333333333333336%">
+                <p><strong>Equipment</strong></p>
+            </td>
+            <td width="33.333333333333336%">
+                <p><strong>Description</strong></p>
+            </td>
+            <td width="33.333333333333336%">
+                <p><strong>Measurement (Units)</strong></p>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                <a href="https://nycenergytools.com/equipment/energy-logger-2/">DENT ELITEproXC Portable Power Data Logger (EXCUNC)</a>
+                <br></br>
+                DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
+            </td>
+            <td width="33.333333333333336%">   
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.    
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                <a href="https://nycenergytools.com/equipment/temp-rh-mx2301/">Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)</a>
+            </td>
+            <td width="33.333333333333336%">
+                Records outdoor air temperature and relative humidity using internal sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.       
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor Air Temperature (F)</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                <a href="https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/">Onset HOBO Motor On/Off Data Logger (UX90-004)</a>
+            </td>
+            <td width="33.333333333333336%">   
+                Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.    
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/motor-runtime">Motor Runtime (Minutes)</a>   
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a VSVV pump motor is determined by the true RMS power of the three-phase power supply either at the power main for the motor or at the three-phase input to the VFD. These values are regressed against outside air temperature to develop a temperature-dependent regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the system. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed pump.  

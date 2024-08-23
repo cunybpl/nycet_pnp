@@ -183,6 +183,68 @@ The measurement strategy for a variable-speed fan and its motor is to measure po
 </figure>
 </a>
 
+### Measurement Equipment
+
+Table 3 provides the equipment required to carry out the measurements of this component. 
+
+<table width="100%" cellspacing="0" cellpadding="7">
+    <caption>Table 3. Measurement equipment.</caption>
+    <thead>
+        <tr>
+            <td width="33.333333333333336%">
+                <p><strong>Equipment</strong></p>
+            </td>
+            <td width="33.333333333333336%">
+                <p><strong>Description</strong></p>
+            </td>
+            <td width="33.333333333333336%">
+                <p><strong>Measurement (Units)</strong></p>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                <a href="https://nycenergytools.com/equipment/energy-logger-2/">DENT ELITEproXC Portable Power Data Logger (EXCUNC)</a>
+                <br></br>
+                DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
+            </td>
+            <td width="33.333333333333336%">   
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.    
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                <a href="https://nycenergytools.com/equipment/temp-rh-mx2301/">Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)</a>
+            </td>
+            <td width="33.333333333333336%">
+                Records outdoor air temperature and relative humidity using internal sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.       
+            </td>
+            <td width="33.333333333333336%">
+                <ul>
+                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor Air Temperature (F)</a></li>
+                    <li><a href="/documents/measurement-technique/relative-humidity">Relative Humidity (%)</a></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a variable-speed fan and motor is determined by the true RMS power of the 3-phase power supply either at the main electrical panel of the motor or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable (OAT, WBT). Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.  
