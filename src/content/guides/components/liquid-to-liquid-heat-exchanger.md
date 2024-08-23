@@ -170,6 +170,46 @@ The measurement strategy for a liquid-to-liquid heat exchanger is to measure the
 </figure>
 </a>
 
+### Measurement Equipment
+
+Table 3 provides the equipment required to carry out the measurements of this component. 
+
+<table width="100%" cellspacing="0" cellpadding="7">
+    <caption>Table 3. Measurement equipment.</caption>
+    <thead>
+        <tr>
+            <td width="33.333333333333336%">
+                <p><strong>Equipment</strong></p>
+            </td>
+            <td width="33.333333333333336%">
+                <p><strong>Description</strong></p>
+            </td>
+            <td width="33.333333333333336%">
+                <p><strong>Measurement (Units)</strong></p>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                <a href="https://nycenergytools.com/equipment/4-channel-analog-data-logger/">Onset HOBO 4-Channel Analog Data Logger (UX120-006M)</a>
+            </td>
+            <td width="33.333333333333336%">   
+                Used in conjunction with the CTV series of sensors. Records measurements from up to four CTV sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.    
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/water-flow-rate">Water Flow Rate (Gpm)</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ### Calculation Methodology
 
 The general methodology for quantifying the useful energy supplied by a liquid-to-liquid heat exchanger is determined by the differential of temperature and rate of flow of the supply stream. These values are multiplied by the heat capacity and density of the liquid (e.g., water, water-glycol mix) to find the energy flow rate. The energy flow rate can be regressed against a controlling variable (such as outdoor air, pump runtime or flow rate) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
