@@ -2,7 +2,7 @@
 title: Feedwater System
 type: system
 excerpt: The feedwater system usually receives condensate recovered from the condensate recovery system and make-up water (treated fresh water). It maintains water levels in the boiler extending its lifespan.
-thumbnail_image: "/images/systems/hot-water-loop/2024_0606_hot water loop system_thumbnail.jpg"
+thumbnail_image: "/images/systems/hot-water-loop/2024_0606_hot water loop system_thumbnail_RESIZED-01.jpg"
 system_id: 14
 associated_components:
   - Constant-speed, Constant-volume Pump and Motor

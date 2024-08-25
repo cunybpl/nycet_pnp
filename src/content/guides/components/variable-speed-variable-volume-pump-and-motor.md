@@ -2,7 +2,7 @@
 title: Variable-speed, Variable-volume Pump and Motor
 type: component
 excerpt: A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve.
-thumbnail_image: "/images/components/thumbnail-images/2024_0606_vsvv pump component_thumbnail.jpg"
+thumbnail_image: "/images/components/thumbnail-images/2024_0606_vsvv pump component_thumbnail_RESIZED-01.jpg"
 associated_systems:
   - Chilled Water Loop
   - Condenser Water Loop

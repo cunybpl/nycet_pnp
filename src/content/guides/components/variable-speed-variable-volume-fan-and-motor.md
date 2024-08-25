@@ -2,7 +2,7 @@
 title: Variable-speed, Variable-volume Fan and Motor
 type: component
 excerpt: A variable speed fan and motor uses a power-driven rotating impeller to circulate air.
-thumbnail_image: "/images/components/thumbnail-images/2024_0624_vsvv fan component_thumbnail.png"
+thumbnail_image: "/images/components/thumbnail-images/2024_0624_vsvv fan component_thumbnail_RESIZED-01.jpg"
 associated_systems:
   - Boiler
   - Condenser Water Loop

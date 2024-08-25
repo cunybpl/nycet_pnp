@@ -2,7 +2,7 @@
 title: Hot Water Loop
 type: system
 excerpt: A hot water heating (HWH) loop system uses hot water produced by a hydronic boiler and circulates it to terminal units in the facility and then back to the boiler using primary-only or primary-secondary pumps and a piping network.
-thumbnail_image: "/images/systems/hot-water-loop/2024_0606_hot water loop system_thumbnail.jpg"
+thumbnail_image: "/images/systems/hot-water-loop/2024_0606_hot water loop system_thumbnail_RESIZED-01.jpg"
 system_id: 15
 associated_systems:
   - Constant-speed, Constant-volume Pump and Motor

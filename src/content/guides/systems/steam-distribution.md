@@ -2,7 +2,7 @@
 title: Steam Distribution
 type: system
 excerpt: A steam distribution system is responsible for distributing the steam produced by a steam boiler system as well as handling any condensate generated in the process.
-thumbnail_image: "/images/systems/steam-distribution/2024_0612_steam distribution system_thumbnail.jpg"
+thumbnail_image: "/images/systems/steam-distribution/2024_0612_steam distribution system_thumbnail_RESIZED-01.jpg"
 system_id: 13
 associated_systems:
   - Constant-speed, Constant-volume Pump and Motor
