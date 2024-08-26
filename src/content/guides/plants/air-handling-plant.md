@@ -2,7 +2,7 @@
 title: Air Handling Plant
 type: plant
 excerpt: The air handling plant (AHP) takes input energy (e.g., electricity, heated or chilled water) and conditions the air to meet required indoor environmental conditions
-thumbnail_image: "/images/plants/air-handling-plant/2024_0625_air handling plant_thumbnail.png"
+thumbnail_image: "/images/plants/air-handling-plant/AHU_THUMBNAIL_RESIZED-01.jpg"
 associated_systems:
   - Air-to-air Energy Recovery
   - Constant-speed, Constant-volume Air Handling Unit

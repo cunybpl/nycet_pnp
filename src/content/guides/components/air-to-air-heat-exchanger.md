@@ -2,7 +2,7 @@
 title: Air-to-air Heat Exchanger
 type: component
 excerpt: Achieves heat transfer using temperature difference between two airstreams without direct contact of these airstreams.
-thumbnail_image: "/images/components/thumbnail-images/2024_0606_air to air hx component_thumbnail.jpg"
+thumbnail_image: "/images/components/thumbnail-images/2024_0606_air to air hx component_thumbnail_RESIZED-01.jpg"
 associated_systems:
   - Air-to-air Energy Recovery
 related_systems:

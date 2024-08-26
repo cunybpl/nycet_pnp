@@ -2,7 +2,7 @@
 title: Lighting Fixture
 type: system
 excerpt: A lighting fixture system produces light to illuminate a specific area or areas.
-thumbnail_image: "/images/systems/lighting-fixture/2024_0606_lighting fixture system_thumbnail.jpg"
+thumbnail_image: "/images/systems/lighting-fixture/2024_0606_lighting fixture system_thumbnail_RESIZED-01.jpg"
 system_id: 7
 borrow_equipment_url: //Ask Orlando
 layout: guide
