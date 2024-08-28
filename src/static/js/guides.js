@@ -38,8 +38,12 @@ function filterPlantGuides(searchKeyWord='') {
 
       if (searchKeyWord.length > 0) {
         searchKeyWord = cleanKeyword(searchKeyWord)
+        const guideTitle = cleanKeyword(getGuideTitle(x[i]).toLowerCase())
+        const guideContent = cleanKeyword(getGuideContent(x[i]).toLowerCase())
         
-        if (measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)
+            || guideTitle.includes(searchKeyWord)
+            || guideContent.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -86,8 +90,12 @@ function filterSystemGuides(searchKeyWord='') {
 
       if (searchKeyWord.length > 0) {
         searchKeyWord = cleanKeyword(searchKeyWord)
+        const guideTitle = cleanKeyword(getGuideTitle(x[i]).toLowerCase())
+        const guideContent = cleanKeyword(getGuideContent(x[i]).toLowerCase())
 
-        if (measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)
+            || guideTitle.includes(searchKeyWord)
+            || guideContent.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -134,8 +142,12 @@ function filterComponentGuides(searchKeyWord='') {
       });
       if (searchKeyWord.length > 0) {
         searchKeyWord = cleanKeyword(searchKeyWord)
+        const guideTitle = cleanKeyword(getGuideTitle(x[i]).toLowerCase())
+        const guideContent = cleanKeyword(getGuideContent(x[i]).toLowerCase())
 
-        if (measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)
+            || guideTitle.includes(searchKeyWord)
+            || guideContent.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -184,8 +196,12 @@ function filterCalculations(searchKeyWord='') {
 
       if (searchKeyWord.length > 0) {
         searchKeyWord = cleanKeyword(searchKeyWord)
+        const guideTitle = cleanKeyword(getGuideTitle(x[i]).toLowerCase())
+        const guideContent = cleanKeyword(getGuideContent(x[i]).toLowerCase())
 
-        if (measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)
+            || guideTitle.includes(searchKeyWord)
+            || guideContent.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
@@ -233,8 +249,12 @@ function filterMeasurements(searchKeyWord='') {
 
       if (searchKeyWord.length > 0) {
         searchKeyWord = cleanKeyword(searchKeyWord)
+        const guideTitle = getGuideTitle(x[i]).toLowerCase()
+        const guideContent = getGuideContent(x[i]).toLowerCase()
 
-        if (measurementType.includes(searchKeyWord)) {
+        if (measurementType.includes(searchKeyWord)
+            || guideTitle.includes(searchKeyWord)
+            || guideContent.includes(searchKeyWord)) {
           totalSearchResult += 1;
           addClass(x[i], "show-html-element")
         }
