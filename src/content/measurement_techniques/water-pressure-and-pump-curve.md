@@ -127,7 +127,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 </figure>
 </a>
 
-### Retrieve Measurement Equipment and Download All Final Data
+### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying the logger is collecting data, do the following: 
 
