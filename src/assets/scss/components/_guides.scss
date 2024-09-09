@@ -193,7 +193,7 @@ h2, h3, h4 {
   padding-inline: 0;
     .mg-toc {
       position: sticky;
-      top: 0;
+      top: 4em;
       max-height: 100dvh;
       overflow-y: auto;
       padding-right: 1rem;
