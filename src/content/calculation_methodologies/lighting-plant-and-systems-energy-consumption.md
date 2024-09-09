@@ -181,6 +181,16 @@ Lighting fixtures generally require single-phase power to operate but <u>electri
 
 To estimate the energy consumption of the panelboard, including all fixtures served by it, current should be measured for all three electrical lines of the three-phase system. Current data should be at one-hour intervals and data should consist of an average sample of measurements[^1] for each one-hour interval. Power factor, line-to-line voltage, and true RMS power can be obtained from spot measurements with a handheld power meter. CUNY BPL recommends taking multiple spot measurements of those variables and averaging them (e.g., measure power factor at least three times at five-minute intervals and calculate the average), see equation (9). The average of the spot measurements helps reduce measurement uncertainty and should be used as inputs to the calculation tools. Equation (9) should be applied to power factor, voltage, and true RMS power.
 
+<p class="equation equation-center">\begin{equation} \overline{PF} = \frac{PF_{t1} + PF_{t2} + PF_{t3} + PF_{tx}}{x} \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$\overline{PF} =$ Average of measured power factor</p>
+<p class="equation">$PF =$ Spot measurement of power factor at the panelboard</p>
+<p class="equation">$t1 =$ First measurement</p>
+<p class="equation">$t2 =$ Second measurement, at least five minutes after the first measurement</p>
+<p class="equation">$t3 =$ Third measurement, at least five minutes after the second measurement</p>
+<p class="equation">$x =$ Number of spot measurements taken, at least five minutes apart</p>
+
 <p class="equation equation-center">\begin{equation} {V}_{avg,LL} = \frac{V_{t1}+V_{t2}+V_{t3}+V_{tx}}{x} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
@@ -202,25 +212,25 @@ To estimate the energy consumption of the panelboard, including all fixtures ser
 
 Equation 11 calculates the three-phase power of the panelboard if line-to-line voltage is measured. If line-to-neutral voltage is measured (from hot wire to ground) the <u>square root of 3</u> should be replaced with 3 and the line-to-neutral voltage should be used.
 
-2. Calculate three-phase power for each hour interval using the results from equation (8) and (9) (i.e., average current for each hour interval, average voltage, and average power factor). (Worksheet: “Step 2. Power Calcs,” column E, G, I.)
+2. Calculate three-phase power for each hour interval using the results from equation (8), (9) and (10) (i.e., average current for each hour interval, average voltage, and average power factor). (Worksheet: “Step 2. Power Calcs,” column E, G, I.)
 
-<p class="equation equation-center">\begin{equation} \overline{kW}_{h,Sn} = \frac{\sqrt{3} * I_{h,avg} * V_{LL,avg} * PF}{1000} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} \overline{kW}_{h,3P} = \frac{\sqrt{3} * I_{h,avg} * V_{LL,avg} * PF}{1000} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kW}_{h,Sn} =$ Hourly single-phase power draw for electrical line n (in kW)</p>
+<p class="equation">$\overline{kW}_{h,3P} =$ Hourly three-phase power draw of the panelboard (in kW)</p>
 <p class="equation">$I_{h,avg} =$ Average current for each hour interval (in Amps)</p>
 <p class="equation">$V_{LL,avg} =$ Measured average line-to-line voltage (in V)</p>
 <p class="equation">$PF =$ Measured average power factor</p>
 
-3. Calculate the hourly three-phase power of the panelboard by summing the single-phase power of each electrical line for each hour interval. (Worksheet: “Step 2. Power Calcs,” column J.) 
+<!-- 3. Calculate the hourly three-phase power of the panelboard by summing the single-phase power of each electrical line for each hour interval. (Worksheet: “Step 2. Power Calcs,” column J.) 
 
 <p class="equation equation-center">\begin{equation} \overline{kW}_{h,3P} = \sum_{n=1}^{3} \overline{kW}_{h,n} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kW}_{h,3P} =$ Hourly three-phase power draw of the panelboard (in kW)</p>
-<p class="equation">$\overline{kW}_{h,n} =$ Hourly single-phase power for electrical line n (in kW)</p>
+<p class="equation">$\overline{kW}_{h,n} =$ Hourly single-phase power for electrical line n (in kW)</p> -->
 
-4. Calculate average energy consumption for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs,” column C.) This equation helps to reduce the amount of data points to a week by taking the average of each hour for a given day of the week. In this step the hourly power draw (kW) gets converted to hourly energy consumption (kWh) because data is in one-hour intervals. kWh = kW ∗ h, where h = 1.
+3. Calculate average energy consumption for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs,” column C.) This equation helps to reduce the amount of data points to a week by taking the average of each hour for a given day of the week. In this step the hourly power draw (kW) gets converted to hourly energy consumption (kWh) because data is in one-hour intervals. kWh = kW ∗ h, where h = 1.
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h} = \frac{\sum_{1}^{N_{f}(d,h)} kW_{h,3P}}{N_{f}(d,h)} \end{equation}</p>
 
@@ -229,7 +239,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$\overline{kW}_{h,3P} =$ Hourly three-phase power draw of the panelboard (in kW)</p>
 <p class="equation">$N_{f}(d,h) =$ Total number of data points that fall on day of week, d, and hour of the day, h</p>
 
-5. Calculate total hourly energy consumption for a given day of the week (Worksheet: "Step 4. Results," column C.)
+4. Calculate total hourly energy consumption for a given day of the week (Worksheet: "Step 4. Results," column C.)
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,w} = \frac{\sum_{h=0}^{23} \overline{kWh}_{d,h}}{h} \end{equation}</p>
 
@@ -238,7 +248,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$\overline{kWh}_{d,h} =$ Average energy consumption for each hour of each day of the week (in kWh)</p>
 <p class="equation">$h =$ Hour of the day where 0 is 12:00 a.m. and 23 is 11:00 p.m.</p>
 
-6. Calculate the average energy consumption for weekdays (Worksheet: "Step 4. Results," cell D3.)
+5. Calculate the average energy consumption for weekdays (Worksheet: "Step 4. Results," cell D3.)
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{Wd} = \frac{\sum_{d=2}^{6} \overline{kWh}_{w,d}}{5} \end{equation}</p>
 
@@ -249,7 +259,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$24 =$ Constant, hours per day</p>
 <p class="equation">$5 =$ Constant, weekdays per week</p>
 
-7. Calculate the average energy consumption for weekend days (Worksheet: "Step 4. Results," cell D6.)
+6. Calculate the average energy consumption for weekend days (Worksheet: "Step 4. Results," cell D6.)
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd} = \frac{\overline{kWh}_{we,1} + \overline{kWh}_{we,7}}{2} \end{equation}</p>
 
@@ -259,7 +269,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$n =$ Day of week (7 = Saturday, 1 = Sunday)</p>
 <p class="equation">$2 =$ Constant, weekends per week</p>
 
-8. Calculate the total annual weekday energy consumption (Worksheet: "Step 4. Results," cell E3.)
+7. Calculate the total annual weekday energy consumption (Worksheet: "Step 4. Results," cell E3.)
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WdYr} = \overline{kWh}_{Wd} * (261-X) \end{equation}</p>
 
@@ -269,7 +279,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$X =$ Number of weekdays that are considered holidays and adjusted to weekend day average energy consumption</p>
 <p class="equation">$261 =$ Constant, number of weekdays per year</p>
 
-9. Calculate the total annual weekend day energy consumption (Worksheet: "Step 4. Results," cell E6.)
+8. Calculate the total annual weekend day energy consumption (Worksheet: "Step 4. Results," cell E6.)
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEdYr} = \overline{kWh} * (104+X) \end{equation}</p>
 
@@ -279,7 +289,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$X =$ Number of weekdays that are considered holidays and adjusted to weekend day average energy consumption</p>
 <p class="equation">$104 =$ Constant, number of weekend days per year</p>
 
-10. Calculate total annual energy consumption of the panelboard
+9. Calculate total annual energy consumption of the panelboard
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{ann} = \overline{kWh}_{WdYr} + \overline{kWh}_{WEdYr} \end{equation}</p>
 
@@ -288,7 +298,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$\overline{kWh}_{WdYr} =$ Estimated annual weekday energy consumption (in kWh)</p>
 <p class="equation">$\overline{kWh}_{WEdYr} =$ Estimated annual weekend day energy consumption (in kWh)</p>
 
-11. If more than one panelboard was measured sum the annual energy consumption of all panels to find the total energy consumption of all measured panelboards.
+10. If more than one panelboard was measured sum the annual energy consumption of all panels to find the total energy consumption of all measured panelboards.
 
 <p class="equation equation-center">\begin{equation} \overline{kWh} = \overline{kWh}_{{n}_{1}} + \overline{kWh}_{{n}_{1}} + ... \end{equation}</p>
 

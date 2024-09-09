@@ -251,7 +251,7 @@ Table 2. Key values and measurements[^1]
 The measurement strategy for a variable-speed pump and motor is to measure power draw of the pump motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect hourly OAT. Measurement points are generically represented in Figure 1.
 
 <!-- Will update image below after getting new image from Orlando -->
-<a href="src/static/images/components/2024_0626_VSVV pump component_figure 1.jpg">
+<a href="/images/components/2024_0626_VSVV pump component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/2024_0626_VSVV pump component_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a pump with a VFD.">
   <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a pump with a VFD.</figcaption>

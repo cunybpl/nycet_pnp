@@ -66,6 +66,13 @@ A condensate recovery system complements the steam distribution system to mainta
 ### Feedwater System
 
 The feedwater system provides fresh or, at times, treated water to the steam boiler system and allows for removal of water that contains pollutants (i.e., unwanted minerals and/or sediment). This increases the longevity of the system equipment, at a cost of the energy required to heat the feedwater, which is colder than the recirculated condensate. Feedwater systems may include a heat exchanger – commonly called an economizer – which recovers heat from the boiler fuel gases and uses it to pre-heat the feedwater.  
+'
+<a href="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg">
+<figure class="figure">
+  <img src="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 5. Feedwater System.">
+  <figcaption class="figure-caption text-left">Figure 5. Feedwater System.</figcaption>
+</figure>
+</a>
 
 ### Blowdown System
 
@@ -73,8 +80,8 @@ The blowdown system removes suspended solids and sludge from the boiler water in
 
 <a href="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Blowdown System.">
-        <figcaption class="figure-caption text-left">Figure 5. Blowdown System.</figcaption>
+        <img src="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 6. Blowdown System.">
+        <figcaption class="figure-caption text-left">Figure 6. Blowdown System.</figcaption>
     </figure>
 </a>
 
