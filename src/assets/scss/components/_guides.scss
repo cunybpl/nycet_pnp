@@ -289,7 +289,14 @@ a.btt-btn:hover {
 
 .guide-header-title h1 {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 700;
+  max-height: 36px;
+  text-overflow: ellipsis ellipsis;
+  overflow-x: scroll;
+  display: block;
+  white-space: nowrap;
+  max-width: 50ch;
+  scrollbar-width: thin;
 }
 
 .content {
