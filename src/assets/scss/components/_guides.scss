@@ -95,8 +95,11 @@ h2, h3, h4 {
 }
 
 .guide-header-wrapper {
-  position: relative;
   padding-inline: 1rem;
+  padding-block: .75rem;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 
 .guide-header-wrapper::before {
@@ -122,22 +125,27 @@ h2, h3, h4 {
   }
   &-tab-items {
     display: flex;
+    gap: .75rem;
     align-items: end;
     button {
-      border: var(--tab-border);
-      background-color: transparent;
-      color: white;
-      width: 160px;
+      border: 2px solid #2e6633;
+      background-color: #36733c;
+      color: #fff;
       font-size: 14px;
-      font-weight: bold;
-      padding-block: 1em;
-      border-radius: 5px 5px 0 0;
-      height: 7rem;
+      font-weight: 700;
+      padding-block: .5em;
+      padding-inline: 1rem;
+      border-radius: 8px;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       gap: 8px;
       align-items: center;
+      width: max-content;
+      .tab-icon {
+        width: 30px;
+        aspect-ratio: 1;
+      }
       @include ipad {
         width: 100px;
       }

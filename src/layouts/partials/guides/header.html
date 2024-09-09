@@ -1,23 +1,17 @@
 {{ $page_type := .Params.type }}
 <section class="guide-header-wrapper bg-primary text-light">
   <div class="guide-header container">
-    <div class="guide-header-title w-100 py-4 pr-2">
+    <div class="guide-header-title w-100">
       <div class="px-0 mr-3">
-        <h1 class="mb-0">{{ .Title }}<span class="chip px-3 py-2">
-          {{ .Params.type | title }}
-        </span></h1>
+        <h1 class="mb-0">{{ .Title }}<span class="chip px-3 py-2">{{ .Params.type | title }}</span></h1>
       </div>
     </div>
     <div class="guide-header-tab-items">
       {{ range .Site.Data.page_tabs.tabs }}
         {{ if eq .name $page_type }}
           {{ range .tabs }}
-            <button 
-              id="tab-item-{{ .name }}" 
-              class="header-tab-item" 
-              onclick="displayGuideContent(event)"
-            >
-              <div>
+            <button id="tab-item-{{ .name }}" class="header-tab-item" onclick="displayGuideContent(event)">
+              <div class="tab-icon">
                 <img src="{{ .icon | absURL }}" class="img-fluid">
               </div>
               {{ .label }}
