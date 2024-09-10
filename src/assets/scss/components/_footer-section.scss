@@ -1,12 +1,14 @@
 .footer {
     box-sizing: border-box;
     margin: 0;
-    padding-block: 3rem;
     background: #f7f7f7;
     position: relative;
     color: #979797;
     font-size: medium;
     border-top: 1px solid #dfdfdf;
+    height: 12rem;
+    display: flex;
+    align-items: center;
     &-site-map {
       h5 {
         font-size: 19.2px;

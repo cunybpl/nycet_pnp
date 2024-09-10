@@ -4,12 +4,12 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding: 3rem;
-  overflow: auto;
+  scroll-padding: 7.5rem;
+  overflow-y: auto;
 }
 
 #content {
-  min-height: calc(100vh - 169px - 4rem);
+  min-height: calc(100vh - 17.2rem);
 }
 
 .section {

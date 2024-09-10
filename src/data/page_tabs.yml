@@ -16,7 +16,7 @@ tabs:
         label: Related Components
         icon: images/hero/component-icon.png
       - name: borrow-equipments
-        label: Borrow Equipments
+        label: Borrow Equipment
         icon: images/hero/borrow-icon.png
   - name: component
     tabs:

@@ -29,6 +29,9 @@
 
 .breadcrumbs {
   background-color: $primary;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .content a {
@@ -95,17 +98,16 @@ h2, h3, h4 {
 }
 
 .guide-header-wrapper {
-  position: relative;
   padding-inline: 1rem;
-}
-
-.guide-header-wrapper::before {
-  content: '';
-  position: absolute;
-  inset-inline: 0;
-  height: 2px;
-  background-color: #36733c;
-  bottom: 0;
+  padding-block: .75rem;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  border-bottom: 2px solid #36733c;
 }
 
 .guide-header {
@@ -122,24 +124,29 @@ h2, h3, h4 {
   }
   &-tab-items {
     display: flex;
+    gap: .75rem;
     align-items: end;
     button {
-      border: var(--tab-border);
-      background-color: transparent;
-      color: white;
-      width: 160px;
+      border: 2px solid #2e6633;
+      background-color: #36733c;
+      color: #fff;
       font-size: 14px;
-      font-weight: bold;
-      padding-block: 1em;
-      border-radius: 5px 5px 0 0;
-      height: 7rem;
+      font-weight: 700;
+      padding-block: .5em;
+      padding-inline: 1rem;
+      border-radius: 8px;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       gap: 8px;
       align-items: center;
+      width: max-content;
+      .tab-icon {
+        width: 30px;
+        aspect-ratio: 1;
+      }
       @include ipad {
-        width: 100px;
+        // width: 100px;
       }
       // > div {
       //   display: flex;
@@ -185,7 +192,7 @@ h2, h3, h4 {
   padding-inline: 0;
     .mg-toc {
       position: sticky;
-      top: 0;
+      top: 4em;
       max-height: 100dvh;
       overflow-y: auto;
       padding-right: 1rem;
@@ -280,8 +287,16 @@ a.btt-btn:hover {
 }
 
 .guide-header-title h1 {
-  font-size: 2.3rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 700;
+  max-height: 45px;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis ellipsis;
+  overflow-x: hidden;
+  display: block;
+  white-space: nowrap;
+  max-width: 50ch;
+  scrollbar-width: thin;
 }
 
 .content {
