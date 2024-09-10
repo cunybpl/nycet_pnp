@@ -61,22 +61,6 @@ h2, h3, h4 {
   fill: $primary;
 }
 
-.header-link:hover:after {
-  content: "Right click to copy a link to this heading";
-  position: absolute;
-  font-size: 1rem;
-  padding: .75rem;
-  background-color: #ebf4ec;
-  width: clamp(10vw, 19rem, 19vw);
-  display: inline-block;
-  color: #429049;
-  border-radius: 4px;
-  margin-left: 8px;
-  font-weight: normal;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 [class$="page-content"] {
   .title {
     text-align: center;
