@@ -3,35 +3,26 @@
   position: relative;
   display: flex;
   background-color: $primary;
-  padding-left: 0;
-  padding-right: 0;
+  padding-inline: .5em;
   justify-content: center;
+  border-bottom: var(--tab-border-active);
+  padding-bottom: .5em;
+  gap: .5em
 }
 
 /* Style the buttons inside the tab */
 .tab button {
   display: flex;
-  background-color: $primary;
+  background-color: #36733c;
   width: 100%;
   height: 100%;
-  border-top: var(--tab-border);
-  border-inline: var(--tab-border);
-  border-bottom: var(--tab-border);
+  border: 2px solid #2e6633;
   outline: none;
-  padding: 16px;
+  padding: 1em;
   transition: 0.3s;
   font-size: 17px;
   text-align: left;
-  border-radius: 8px 8px 0 0;
-}
-
-.tab::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #36733c;
-  bottom: 0;
+  border-radius: 8px;
 }
 
 /* Create an active/current tablink class */
@@ -39,8 +30,7 @@
   position: relative;
   background-color: white;
   color: $dark-bg;
-  border-top: var(--tab-border-active);
-  border-inline: var(--tab-border-active);
+  border: var(--tab-border-active);
   z-index: 2;
 }
 
@@ -56,7 +46,7 @@
 }
 
 .normal-nav-item {
-  width: 22rem;
+  width: 20rem;
   min-width: 8rem;
   max-width: 20%;
   button {
@@ -134,7 +124,7 @@
 }
 
 .search-result-label {
-  background-color: #f7f7f7;
+  background-color: #e8e8e8;
   color: black !important;
   width: 31px;
   height: 31px;

@@ -107,15 +107,7 @@ h2, h3, h4 {
   display: flex;
   align-items: center;
   overflow-x: auto;
-}
-
-.guide-header-wrapper::before {
-  content: '';
-  position: absolute;
-  inset-inline: 0;
-  height: 2px;
-  background-color: #36733c;
-  bottom: 0;
+  border-bottom: 2px solid #36733c;
 }
 
 .guide-header {
