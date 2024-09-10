@@ -1,12 +1,14 @@
 /* Style the tab */
 .tab {
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 3;
   display: flex;
   background-color: $primary;
   padding-inline: .5em;
   justify-content: center;
   border-bottom: var(--tab-border-active);
-  padding-bottom: .5em;
+  padding-block: .5em;
   gap: .5em
 }
 
