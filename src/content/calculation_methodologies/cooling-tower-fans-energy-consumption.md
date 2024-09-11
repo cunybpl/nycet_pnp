@@ -12,10 +12,9 @@ related_components:
 related_measurements:
   - Electrical Current
 associated_calculators:
-  - Calculator 1 but the name is super long and I am truncating it
-  - Calculator 2
-  - Calculator 3
-  - Calculator 4
+  - CSCV Single-speed CT Fan Energy Calculator
+  - CSCV Two-speed CT Fan Energy Calculator
+  - VSVV CT Fan Energy Calculator
 url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 ---
 
@@ -52,7 +51,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
     <tbody>
         <tr>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/cscv_single_speed_CT_fan_energy_calculator_2023_0117.xlsx" download><p></p>Constant-speed or single-speed cooling tower fans energy consumption.xlsx</a>
+                <a href="/downloadables/cscv_single_speed_CT_fan_energy_calculator_2023_0117.xlsx" download><p></p>Constant-speed or single-speed cooling tower fans energy consumption.xlsx</a>
             </td>
             <td>
                 <p>Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.</p>
@@ -68,7 +67,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
         </tr>
         <tr>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/cscv_two_speed_CT_fan_energy_calculator_2023_0117.xlsx" download><p></p>Constant or two-speed cooling tower fans energy consumption.xlsx</a>
+                <a href="/downloadables/cscv_two_speed_CT_fan_energy_calculator_2023_0117.xlsx" download><p></p>Constant or two-speed cooling tower fans energy consumption.xlsx</a>
             </td>
             <td>
                 <p>Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans. Spot measurements of voltage and power factor are required.</p>
@@ -84,7 +83,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
         </tr>
         <tr>
             <td>
-                <a href="/calculators/cooling-tower-fans-energy-consumption/vsvv_CT_fan_energy_calculator_2023_0110.xlsx" download><p></p>Variable-speed cooling tower fans energy consumption.xlsx</a>
+                <a href="/downloadables/vsvv_CT_fan_energy_calculator_2023_0110.xlsx" download><p></p>Variable-speed cooling tower fans energy consumption.xlsx</a>
             </td>
             <td>
                 <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
