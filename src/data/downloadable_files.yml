@@ -1,15 +1,45 @@
 files:
-  - name: "Calculator 1 but the name is super long and I am truncating it"
-    description: "A dummy description about the calculator that will be truncated in a certian number of characters."
     # calculators can have images if ever needed - for now they all use the same placeholder image in the html partial
     # image: "/images/plants/water-cooled-chilled-water-plant/3D-Chillers-diagram_1.jpg"
-    filename: "file1.pdf" 
-  - name: "Calculator 2"
-    description: "Another dummy description"
-    filename: "sample_file.pdf"
-  - name: "Calculator 3"
-    description: "Another dummy description"
-    filename: "sample_file.pdf"
-  - name: "Calculator 4"
-    description: "Another dummy description"
-    filename: "sample_file.pdf"
+  - name: Air-to-air Heat Transfer Calculator
+    description: Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.
+    filename: "air_to_air_heat_transfer_calculator_2023_0706.xlsx"
+  - name: Liquid-to-liquid Heat Transfer Calculator
+    description: Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.
+    filename: "liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx"
+  - name: CSCV Single-speed CT Fan Energy Calculator
+    description: Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.
+    filename: "cscv_single_speed_CT_fan_energy_calculator_2023_0117.xlsx"
+  - name: CSCV Two-speed CT Fan Energy Calculator
+    description: Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans. Spot measurements of voltage and power factor are required.
+    filename: "cscv_two_speed_CT_fan_energy_calculator_2023_0117.xlsx"
+  - name: VSVV CT Fan Energy Calculator
+    description: Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan
+    filename: "vsvv_CT_fan_energy_calculator_2023_0110.xlsx"
+  - name: CSCV Single-speed Fan Energy Calculator
+    description: Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV single-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
+    filename: cscv_single_speed_fan_energy_calculator_2023_0214.xlsx
+  - name: CSCV Two-speed Fan Energy Calculator
+    description: Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
+    filename: cscv_two_speed_fan_energy_calculator_2023_0320.xlsx
+  - name: VSVV Fan Energy Calculator
+    description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
+    filename: vsvv_fan_energy_calculator_2023_0203.xlsx
+  - name: Lighting Current Circuit Breakers Calculator
+    description: Uses voltage measurements alongside power, circuit amperage and current from circuit breakers to measure the total energy output from the system.
+    filename: lighting_current_circuit_breakers_2023_0818.xlsx
+  - name: Lighting Current Panelboard Calculator
+    description: Uses voltage measurements alongside power, circuit amperage and current from the electrical panelboard to measure the total energy output from the system.
+    filename: lighting_current_panelboard_2023_0816.xlsx
+  - name: Lighting Inventory Schedule Calculator
+    description: Uses the panel energy use to calculate the operating schedule of the system.
+    filename: lighting_inventory_schedule_2023_0417.xlsx
+  - name: Lighting True RMS Power Panelboard Calculator
+    description: Uses the runtime and power of the panelboard to calculate the annual anergy consumption of a lighting electrical distribution system.
+    filename: lighting_power_panelboard_2023_0417.xlsx
+  - name: CSCV Pump Energy Calculator
+    description: Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.
+    filename: cscv_pump_energy_calculator_2020_0427.xlsx
+  - name: VSVV Pump Energy Calculator
+    description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor.
+    filename: vsvv_pump_energy_calculator_2020_0427.xlsx
