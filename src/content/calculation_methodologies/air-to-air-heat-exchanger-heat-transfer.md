@@ -4,6 +4,8 @@ type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 8
 excerpt: This calculation methodology is used to estimate a full year of sensible and latent heat transfer in an energy recovery ventilation (ERV) system. This methodology assumes that the air handling unit (AHU) uses a variable speed supply fan, and that the energy recovery component is a rotary wheel.
+associated_calculators:
+  - Air-to-air Heat Transfer Calculator
 url: "/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer"
 ---
 
@@ -157,7 +159,7 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
     <tbody>
         <tr>
             <td>
-                <a href="/calculators/air-to-air-heat-exchanger-heat-transfer/air_to_air_heat_transfer_calculator_2023_0706.xlsx" download>Air-to-air Heat-exchanger Heat-transfer Calculator.xlsx</a>
+                <a href="/downloadables/air_to_air_heat_transfer_calculator_2023_0706.xlsx" download>Air-to-air Heat-exchanger Heat-transfer Calculator.xlsx</a>
             </td>
             <td>
                 <p>Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.</p>

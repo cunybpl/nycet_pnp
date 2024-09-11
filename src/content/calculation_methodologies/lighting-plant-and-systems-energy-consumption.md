@@ -7,6 +7,11 @@ excerpt:
 related_systems:
   - Electrical Distribution
   - Lighting Fixture
+associated_calculators:
+  - Lighting Current Circuit Breakers Calculator
+  - Lighting Current Panelboard Calculator
+  - Lighting Inventory Schedule Calculator
+  - Lighting True RMS Power Panelboard Calculator
 url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consumption"
 ---
 
@@ -39,7 +44,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/lighting-plant-and-systems-energy-consumption/lighting_power_panelboard_2023_0417.xlsx" download>Lighting True RMS Power Output from Electric Panelboard.xlsx</a></p>
+                <p><a href="/downloadables/lighting_power_panelboard_2023_0417.xlsx" download>Lighting True RMS Power Output from Electric Panelboard.xlsx</a></p>
             </td>
             <td>
                 <p>Uses the runtime and power of the panelboard to calculate the annual anergy consumption of a lighting electrical distribution system.</p>
@@ -55,7 +60,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
         </tr>
         <tr>
             <td>
-                <p><a href="/calculators/lighting-plant-and-systems-energy-consumption/lighting_current_panelboard_2023_0816.xlsx" download>Lighting Electrical Current Output from Electric Panelboard.xlsx</a></p>
+                <p><a href="/downloadables/lighting_current_panelboard_2023_0816.xlsx" download>Lighting Electrical Current Output from Electric Panelboard.xlsx</a></p>
             </td>
             <td>
                 <p>Uses voltage measurements alongside power, circuit amperage and current from the electrical panelboard to measure the total energy output from the system.</p>
@@ -70,7 +75,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
         </tr>
         <tr>
             <td>
-                <p><a href="/calculators/lighting-plant-and-systems-energy-consumption/lighting_current_circuit_breakers_2023_0818.xlsx" download>Lighting Electrical Current from Circuit Breakers.xlsx</a></p>
+                <p><a href="/downloadables/lighting_current_circuit_breakers_2023_0818.xlsx" download>Lighting Electrical Current from Circuit Breakers.xlsx</a></p>
             </td>
             <td>
                 <p>Uses voltage measurements alongside power, circuit amperage and current from circuit breakers to measure the total energy output from the system.</p>
@@ -85,7 +90,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
         </tr>
         <tr>
             <td>
-                <p><a href="/calculators/lighting-plant-and-systems-energy-consumption/lighting_inventory_schedule_2023_0417.xlsx" download>Lighting Inventory and Operating Schedule.xlsx</a></p>
+                <p><a href="/downloadables/lighting_inventory_schedule_2023_0417.xlsx" download>Lighting Inventory and Operating Schedule.xlsx</a></p>
             </td>
             <td>
                 <p>Uses the panel energy use to calculate the operating schedule of the system.</p>

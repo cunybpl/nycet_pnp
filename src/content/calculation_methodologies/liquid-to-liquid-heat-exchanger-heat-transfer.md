@@ -9,6 +9,8 @@ related_systems:
   - Waterside Economizer
 related_components:
   - Liquid-to-liquid Heat Exchanger
+associated_calculators:
+  - Liquid-to-liquid Heat Transfer Calculator
 url: "/documents/calculation-methodology/liquid-to-liquid-heat-exchanger-heat-transfer"
 ---
 
@@ -46,7 +48,7 @@ This methodology works with hourly data only and each measurement is taken at th
     <tbody>
         <tr>
             <td>
-                <p><a href="/calculators/liquid-to-liquid-heat-exchanger/liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx" download>Liquid-to-liquid Heat-transfer Calculator.xlsx</a></p>
+                <p><a href="/downloadables/liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx" download>Liquid-to-liquid Heat-transfer Calculator.xlsx</a></p>
             </td>
             <td>
                 <p>Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.</p>
