@@ -8,13 +8,13 @@
             <img src="{{ "images/calculation-methodology/calculation-short-icon.png" | absURL }}" class="img-fluid" >
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 ">
           <div class="py-5">
-            <h5 class="mb-2">
-              {{ .Title }}
+            <h5 class="mb-2 content-card-title">
+              {{ .Title }}<span class="chip content-chip px-3 py-2">{{ .Params.type | title }}</span>
             </h5>
-            <p class="mb-0">
-              {{ .Params.excerpt | truncate 180 }}
+            <p class="mb-0 content-card-excerpt">
+              {{ .Params.excerpt | truncate 250 }}
             </p>
           </div>
         </div>
