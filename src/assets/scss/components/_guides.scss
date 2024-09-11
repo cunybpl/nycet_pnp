@@ -83,7 +83,7 @@ h2, h3, h4 {
 
 .guide-header-wrapper {
   padding-inline: 1rem;
-  padding-block: .75rem;
+  padding-block: 0;
   position: sticky;
   top: 0;
   z-index: 3;
@@ -91,6 +91,7 @@ h2, h3, h4 {
   display: flex;
   align-items: center;
   overflow-x: auto;
+  overflow-y: hidden;
   border-bottom: 2px solid #36733c;
 }
 
@@ -99,7 +100,7 @@ h2, h3, h4 {
   justify-content: space-between;
   padding-left: 0;
   padding-right: 0;
-  max-width: 1280px;
+  // max-width: 1280px;
   @include ipad {
   }
   &-title {
