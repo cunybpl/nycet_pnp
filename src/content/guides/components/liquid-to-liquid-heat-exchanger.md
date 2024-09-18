@@ -118,7 +118,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
             </td>
             <td width="33.333333333333336%">
                 <ul>
-                <li><a href="/documents/measurement-technique/water-flow-rate">Average hourly flow rate of the supply stream (gpm)</a></li>
+                <li><a href="/documents/measurement-technique/water-flow-rate">Average hourly flow rate of the supply stream (GPM)</a></li>
                 <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">Temperature of supply stream entering and leaving the heat exchange (F)</a>&nbsp;</li>
                 </ul>
             </td>
@@ -204,7 +204,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 Used in conjunction with the CTV series of sensors. Records measurements from up to four CTV sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.    
             </td>
             <td width="33.333333333333336%">
-                <a href="/documents/measurement-technique/water-flow-rate">Water Flow Rate (Gpm)</a>
+                <a href="/documents/measurement-technique/water-flow-rate">Water Flow Rate (GPM)</a>
             </td>
         </tr>
     </tbody>

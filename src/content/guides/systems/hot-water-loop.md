@@ -171,7 +171,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 <p>Primary HWH loop water flow – constant speed system</p>
             </td>
             <td>
-                <p>Average hourly water flow (gpm) through a pump</p>
+                <p>Average hourly water flow (GPM) through a pump</p>
             </td>
             <td>
                 <p></p>
