@@ -150,11 +150,11 @@ Table 1 provides a summary of system component measurements and values needed to
         </tr>
         <tr>
             <td>
-                <p>Flow (gpm)</p>
+                <p>Flow (GPM)</p>
             </td>
             <td>
                 <ul>
-                <li>Average hourly chilled water flow (gpm) through a pump</li> 
+                <li>Average hourly chilled water flow (GPM) through a pump</li> 
                 <li>Average hourly loop pressure differential</li>
                 </ul>
             </td>

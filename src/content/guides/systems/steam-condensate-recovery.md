@@ -42,6 +42,56 @@ The pipe network of a condensate recovery system transports flash steam and cond
 
 The primary effect of the condensate recovery system on the steam plant is to minimize heat losses and manage condensate that could otherwise be damaging to the steam plant. Generally, the energy related to the condensate system is not quantified; instead, the energy consumption of the overall low-pressure steam plant is quantified. For more information, see <a href="/documents/plants/steam-plant">Steam Plant</a>.
 
+<table>
+    <caption>Table 1. Steam Plant Values</caption>
+    <thead>
+        <tr>
+            <td style="width: 26%">
+                <p><strong>Plant Quantification</strong></p>
+            </td>
+            <td>
+                <p><strong>Values to be Quantified</strong></p>
+            </td>
+            <td>
+                <p><strong>Energy Consuming Component</strong></p>
+            </td>
+        </tr>
+    <tbody>
+        <tr>
+            <td>
+                <p>Steam boiler plant fuel consumption (Btu)</p>
+            </td>
+            <td>
+                <p>Average hourly fuel consumption (Btu/h)</p>
+            </td>
+            <td>
+                <p><a href="/documents/systems/boiler">Boiler</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Steam plant electricity consumption (kWh)</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Average hourly burner <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motor</a> (kWh)</li>
+                    <li>Total operating hours of burner fan motor</li>
+                    <li>Average hourly condensate <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motor</a> kWh</li>
+                    <li>Average hourly feedwater pump motor (kWh)</li>
+                    <li>Total operating time for pump motors</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Burner fan motor</li>
+                    <li>Condensate pump motor</li>
+                    <li>Feedwater pump motor</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ## Further Reading
 
 - ASHRAE (2014). “ASHRAE Guideline 14-2014 – Measurement of Energy, Demand, and Water Savings.” Annex A. 
