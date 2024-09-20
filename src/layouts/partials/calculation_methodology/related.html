@@ -1,18 +1,17 @@
 {{ $_title := .Title }}
 {{ $_id := replace (urlize $_title | lower) " " "-" }}
 {{ $label := "" }}
-{{ $labelassoc := "" }}
 {{ if eq .Params.type "calculation" }}
   {{ $label = "calculators" }}
 {{ end }}
 {{ if eq .Params.type "measurement" }}
-  {{ $label = "measurements" }}
+  {{ $label = "components" }}
 {{ end }}
 <div class="col-md-12 col-lg-6">
   <section class="card">
     <div class="guide-thumbnail">
       {{ if isset .Params  "thumbnail_image" }}
-      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image:url({{ .Params.thumbnail_image | absURL }});">
+      <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .Params.thumbnail_image | absURL }});">
       {{ else if eq .Params.type "measurement" }}
         <!-- If guide doesn't have featured image and is measuerement -->
       <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/measurement-guide-thumb-placeholder.jpg);">
@@ -32,31 +31,44 @@
           </div>
         </div>
         <hr class="my-3">
+        {{ if isset .Params "associated_components" }}
         <div class="px-4">
-          {{ if eq .Params.type "calculation" }}
-            {{ $labelassoc = "calculators" }}
-            <h6 class="related-title"> Download {{ $labelassoc }}:</h6>
-            <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
-            {{ if isset .Params "associated_calculators" }}
-              {{ $calculators := where .Site.Data.downloadable_files.files "name" "in" .Params.associated_calculators }}
-              {{ range first 3 $calculators }}
-                {{ partial "thumbnail/associated_calculators.html" .  }}
-              {{ end }}
-              {{ partial "thumbnail/see_more_associated_calculators.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_calculators "all_calculators" $calculators "guide_title" $_title) }}
+          <h6 class="related-title"> Associated {{ $label }}:</h6>
+          <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
+            {{ $counter := 0 }}
+            {{ range where .Site.RegularPages "Title" "in" .Params.associated_components }}
+            <!-- This loop is for counter -->
+              {{ $counter = add $counter 1 }}
             {{ end }}
-          {{ else if eq .Params.type "measurement" }}
-            {{ $labelassoc = "components" }}
-            <h6 class="related-title">Associated {{ $labelassoc }}:</h6>
-            <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
-            {{ if isset .Params "related_components" }}
-              {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.related_components) }}
-                {{ partial "thumbnail/associated_systems.html" .  }}
-              {{ end }}
-              {{ partial "thumbnail/see_more_associated_systems.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_systems "all_pages" .Site.RegularPages "guide_title" $_title) }}
+            {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_components) }}
+            <!-- This loop is for the actual data -->
+              {{ partial "thumbnail/associated_systems.html" .  }}
             {{ end }}
-          {{ end }}                      
+            {{ if gt $counter 3 }}
+              {{ partial "thumbnail/see_more_associated_components.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_components "all_pages" .Site.RegularPages "guide_title" $_title) }}
+            {{ end }}
           </ul>
         </div>
+        {{ else if isset .Params "associated_calculators" }}
+        <div class="px-4">
+          <h6 class="related-title"> Associated {{ $label }}:</h6>
+          <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0 card-related-list">
+            {{ $counter := 0 }}
+            {{ $calculators := where .Site.Data.downloadable_files.files "name" "in" .Params.associated_calculators }}
+            {{ range $calculators }}
+            <!-- This loop is for counter -->
+              {{ $counter = add $counter 1 }}
+            {{ end }}
+            {{ range first 3 $calculators }}
+            <!-- This loop is for the actual data -->
+              {{ partial "thumbnail/associated_calculators.html" . }}
+            {{ end }}
+            {{ if gt $counter 3 }}
+              {{ partial "thumbnail/see_more_associated_calculators.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_calculators "all_calculators" $calculators "guide_title" $_title) }}
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
       </div>
     </div>
   </section>
