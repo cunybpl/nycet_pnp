@@ -45,6 +45,24 @@
             {{ end }}
           </ul>
         </div>
+        {{ else if isset .Params "associated_components" }}
+        <div class="px-4">
+          <h6 class="related-title">Associated {{ $label }}:</h6>
+          <ul id="list-related-{{ $_id }}" class="mt-n3 mb-0">
+            {{ $counter := 0 }}
+            {{ range where .Site.RegularPages "Title" "in" .Params.associated_components }}
+            <!-- This loop is for counter -->
+              {{ $counter = add $counter 1 }}
+            {{ end }}
+            {{ range first 3 (where .Site.RegularPages "Title" "in" .Params.associated_components) }}
+            <!-- This loop is for the actual data -->
+              {{ partial "thumbnail/associated_systems.html" .  }}
+            {{ end }}
+            {{ if gt $counter 3 }}
+              {{ partial "thumbnail/see_more_associated_components.html" (dict "id" $_id "type" .Params.type "content" .Params.associated_components "all_pages" .Site.RegularPages "guide_title" $_title) }}
+            {{ end }}
+          </ul>
+        </div>
         {{ end }}
       </div>
     </div>
