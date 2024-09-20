@@ -1,9 +1,9 @@
 {{ partial "calculation_methodology/breadcrumb.html" . }}
 {{ partial "guides/header.html" . }}
 <section class="guide-wrapper">
-  <section id="{{ .Params.type }}-page-content" class="container {{ .Params.type }}-page-content"
-  >
+  <section id="{{ .Params.type }}-page-content" class="container {{ .Params.type }}-page-content">
     <div class="row" style="padding-top: 3rem; margin-left: 0; margin-right: 0;">
+      <!-- TABLE OF CONTENTS -->
       <div id="guide-mg-side-nav" class="col-3">
         <div class="mg-toc">
           {{ .TableOfContents }}
@@ -22,9 +22,7 @@
       </div>
     </div>
   </section>
-</section>
 <!-- Related Calculation Methodologies -->
-<section class="guide-wrapper">
   <section id="{{ .Params.type }}-page-related-cm" class="container {{ .Params.type }}-page-content px-0">
     {{ $total_related_cm := 0 }}
     {{ $cm := "" }}
@@ -46,9 +44,7 @@
     {{ end }}
     </div>
   </section>
-</section>
 <!-- Related Measurement Techniques -->
-<section class="guide-wrapper">
   <section id="{{ .Params.type }}-page-related-mt" class="container {{ .Params.type }}-page-content px-0">
     {{ $total_related_mt := 0 }}
     {{ $mt := "" }}
@@ -71,6 +67,7 @@
     </div>
   </section>
 </section>
+
 
 <script>
   function hideRelatedSystems() {
