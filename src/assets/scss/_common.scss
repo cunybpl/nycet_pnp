@@ -1,11 +1,15 @@
 :root {
-  --tab-border-active: 2px solid #36733c;
+  --tab-border-active: 2px solid $dark-green;
   --tab-border: 2px solid transparent;
 }
 html {
   scroll-behavior: smooth;
   scroll-padding: 7.5rem;
   overflow-y: auto;
+}
+
+body {
+  background: linear-gradient($dark-green 50%, #f7f7f7 50%) fixed;
 }
 
 #content {
