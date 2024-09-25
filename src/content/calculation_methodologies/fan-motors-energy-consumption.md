@@ -1,9 +1,9 @@
 ---
-title: Fan Motor Energy Consumption Calculation Methodology and Calculator
+title: Fan Motor Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 2
-excerpt: 
+excerpt: The equations and calculators in this page estimate the annual energy consumption of variable-speed and constant-speed fan motors.
 realted_systems:
   - Constant-Speed, Constant-Volume System
 related_measurements:

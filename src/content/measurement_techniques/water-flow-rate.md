@@ -3,7 +3,7 @@ title: Water Flow Rate
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 11
-excerpt: This technique uses an ultrasonic flow meter to measure the flow rate of a fluid within a pipe at one-hour intervals.
+excerpt: Use this technique to measure water flow rate in a piping system with an ultrasonic flow meter with logging capabilities.
 borrow_equipment_url: "https://nycenergytools.com/equipment/ultrasonic-flow-meter-dxnp/"
 thumbnail_image: "/images/measurement-technique/water-flow-rate/Water flow rate thumbnail image.JPG"
 related_systems:

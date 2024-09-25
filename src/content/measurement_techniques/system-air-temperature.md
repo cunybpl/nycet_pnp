@@ -3,7 +3,7 @@ title: System Air Temperature
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 7
-excerpt: This technique uses data loggers to measure ments of the air temperature of various air streams within air handling units at one-hour intervals.
+excerpt: Use this technique to measure the air temperature of various air streams in an air handling unit at one-hour intervals with data loggers.
 borrow_equipment_url: "https://nycenergytools.com/equipment/temp-rh-logger-mx1101/"
 thumbnail_image: "/images/measurement-technique/system-air-temperature/2024_0410_system air temperature MT_thumbnail.jpeg"
 related_systems:

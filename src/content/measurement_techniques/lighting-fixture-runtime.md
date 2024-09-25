@@ -3,7 +3,7 @@ title: Lighting Fixture Runtime
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 5
-excerpt: This technique uses data loggers to measure the duration a lamp or light fixture remains on.
+excerpt: Use this technique to measure the hours of operation of a light fixture or lamp with a data logger.
 borrow_equipment_url: "https://nycenergytools.com/equipment/light-on-off-data-logger-3/"
 thumbnail_image: "/images/measurement-technique/lighting-fixture-runtime/2024_0410_lighting fixture runtime MT_thumbnail.jpeg"
 related_systems:

@@ -1,7 +1,7 @@
 ---
 title: Variable-speed, Variable-volume Air Handling Unit
 type: system
-excerpt: A variable-speed, variable-volume (VSVV) air handling system conditions provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors.
+excerpt: Provides conditioned air to one or more spaces. The supply and return fans operate at variable speeds.
 thumbnail_image: "/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0702_VSVV AHU_system_thumbnail_RESIZED-01.jpg"
 system_id: 10
 associated_systems: 

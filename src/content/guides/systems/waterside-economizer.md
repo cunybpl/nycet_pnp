@@ -1,7 +1,7 @@
 ---
 title: Waterside Economizer
 type: system
-excerpt: Used to cool or partially cool the chilled water without mechanical heat transfer when outdoor air temperatures are cold enough to meet the building’s cooling demand. 
+excerpt: Used to cool or partially cool the chilled water without mechanical heat transfer when outdoor air temperatures are cold enough to meet the building’s cooling demand.
 thumbnail_image: "/images/systems/waterside-economizer/2024_0410_waterside economizer system_thumbnail.jpeg"
 system_id: 4
 associated_systems:

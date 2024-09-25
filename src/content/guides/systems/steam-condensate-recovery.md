@@ -1,7 +1,7 @@
 ---
 title: Steam Condensate Recovery
 type: system
-excerpt: The steam condensate recovery system is responsible for collecting condensate from the steam distribution system through steam tramps and recovering waste heat.
+excerpt: The steam condensate recovery system is responsible for collecting condensate from the steam distribution system through steam traps.
 thumbnail_image: "/images/systems/steam-condensate-recovery/2024_0411_steam condensate recovery system_thumbnail.jpeg"
 system_id: 12
 associated_systems:

@@ -1,7 +1,7 @@
 ---
 title: Liquid-to-liquid Heat Exchanger
 type: component
-excerpt: Achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
+excerpt: The fixed plate achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_liquid to liquid hx component_thumbnail.jpg"
 associated_systems:
   - Waterside Economizer
@@ -198,7 +198,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/4-channel-analog-data-logger/">Onset HOBO 4-Channel Analog Data Logger (UX120-006M)</a>
+                Onset HOBO 4-Channel Analog Data Logger (UX120-006M)
             </td>
             <td width="33.333333333333336%">   
                 Used in conjunction with the CTV series of sensors. Records measurements from up to four CTV sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.    

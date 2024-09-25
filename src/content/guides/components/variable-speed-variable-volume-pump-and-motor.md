@@ -1,7 +1,7 @@
 ---
 title: Variable-speed, Variable-volume Pump and Motor
 type: component
-excerpt: A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve.
+excerpt: Operates at different speeds with a variable frequency drive to circulate liquid (water or glycol solution) through a piping network.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_vsvv pump component_thumbnail_RESIZED-01.jpg"
 associated_systems:
   - Chilled Water Loop
@@ -286,7 +286,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/energy-logger-2/">DENT ELITEproXC Portable Power Data Logger (EXCUNC)</a>
+                DENT ELITEproXC Portable Power Data Logger (EXCUNC)
                 <br></br>
                 DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
             </td>
@@ -305,7 +305,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/temp-rh-mx2301/">Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)</a>
+                Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)
             </td>
             <td width="33.333333333333336%">
                 Records outdoor air temperature and relative humidity using internal sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.       
@@ -322,7 +322,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/">Onset HOBO Motor On/Off Data Logger (UX90-004)</a>
+                Onset HOBO Motor On/Off Data Logger (UX90-004)
             </td>
             <td width="33.333333333333336%">   
                 Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.    
