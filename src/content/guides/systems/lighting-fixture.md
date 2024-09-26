@@ -1,7 +1,7 @@
 ---
 title: Lighting Fixture
 type: system
-excerpt: A lighting fixture system produces light to illuminate a specific area or areas.
+excerpt: A lighting fixture system uses ballasts to regulate electricity to the lamps which produce light to illuminate areas in the facility.
 thumbnail_image: "/images/systems/lighting-fixture/2024_0606_lighting fixture system_thumbnail_RESIZED-01.jpg"
 system_id: 7
 borrow_equipment_url: //Ask Orlando

@@ -3,7 +3,7 @@ title: True RMS Power
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 1
-excerpt: This technique uses a data logger to take long- term measurements of the electrical energy (kWh) and true RMS power (kW) at the electrical distribution system such as a panelboard at one-hour intervals.
+excerpt: Use this technique to measure power draw (true RMS power) at one-hour intervals using a data logger.
 borrow_equipment_url: "https://nycenergytools.com/equipment/energy-logger-2/"
 thumbnail_image: "/images/measurement-technique/true-RMS-power/2024_0410_true RMS power MT_thumbnail.jpeg"
 related_systems:

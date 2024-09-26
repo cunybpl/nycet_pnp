@@ -1,7 +1,7 @@
 ---
 title: Constant-speed, Constant-volume Pump and Motor
 type: component
-excerpt: Operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. Centrifugal pumps are the most common type of pumps used.
+excerpt: Operates at a single speed to circulate liquid (water or glycol solution) through a piping network.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_cscv pump component_thumbnail_RESIZED-01.jpg"
 associated_systems:
   - Chilled Water Loop
@@ -239,7 +239,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/">Onset HOBO Motor On/Off Data Logger (UX90-004)</a>
+                Onset HOBO Motor On/Off Data Logger (UX90-004)
             </td>
             <td width="33.333333333333336%">       
                 Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.
@@ -256,7 +256,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/power-quality-clamp-meter/">Fluke 345 Power Quality Clamp Meter</a>
+                Fluke 345 Power Quality Clamp Meter
             </td>
             <td width="33.333333333333336%">
                 Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time.

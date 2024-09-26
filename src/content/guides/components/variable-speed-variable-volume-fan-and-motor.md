@@ -1,7 +1,7 @@
 ---
 title: Variable-speed, Variable-volume Fan and Motor
 type: component
-excerpt: A variable speed fan and motor uses a power-driven rotating impeller to circulate air.
+excerpt: This type of fan uses a variable frequency drive (VFD) to regulate its speed to conserve energy. 
 thumbnail_image: "/images/components/thumbnail-images/2024_0624_vsvv fan component_thumbnail_RESIZED-01.jpg"
 associated_systems:
   - Boiler
@@ -211,7 +211,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/energy-logger-2/">DENT ELITEproXC Portable Power Data Logger (EXCUNC)</a>
+                DENT ELITEproXC Portable Power Data Logger (EXCUNC)
                 <br></br>
                 DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
             </td>
@@ -230,7 +230,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/temp-rh-mx2301/">Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)</a>
+                Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)
             </td>
             <td width="33.333333333333336%">
                 Records outdoor air temperature and relative humidity using internal sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.       

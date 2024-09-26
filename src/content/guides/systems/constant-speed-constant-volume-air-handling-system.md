@@ -1,7 +1,7 @@
 ---
 title: Constant-speed, Constant-volume Air Handling Unit
 type: system
-excerpt: A constant-speed, constant-volume (CSCV) air handling unit provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors.
+excerpt: Provides conditioned air to one or more spaces. The supply and return fans operate at constant-speed.
 thumbnail_image: "/images/systems/constant-speed-constant-volume-air-handling-unit/2024_0702_CSCV AHU_system_thumbnail_RESIZED-01.jpg"
 system_id: 8
 associated_systems: 

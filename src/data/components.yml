@@ -4,7 +4,7 @@ documents:
     title: "Air-to-air Heat Exchanger"
     measurement_type: "energy-recovery"
   - type: component
-    title: "Constant-speed, Constant-volume Compressor and Motor"
+    title: "Constant-speed Compressor and Motor"
     measurement_type: "cooling"
   - type: component
     title: "Constant-speed, Constant-volume Fan and Motor"

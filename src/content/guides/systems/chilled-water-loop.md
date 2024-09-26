@@ -1,7 +1,7 @@
 ---
 title: Chilled Water Loop
 type: system
-excerpt: Consists of two main components – the pump and motors and a piping network.
+excerpt: Connected to the evaporator side of a chiller, this system moves chilled water or other liquid in the facility to provide cooling with the help of pumps and a piping system.
 thumbnail_image: "/images/systems/chilled-water-loop/2024_0606_chilled  water loop system_thumbnail_RESIZED.jpg"
 system_id: 1
 associated_systems:

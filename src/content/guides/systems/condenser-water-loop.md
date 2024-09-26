@@ -1,7 +1,7 @@
 ---
 title: Condenser Water Loop
 type: system
-excerpt: Consists of a CW pump and motor, an evaporative cooling tower with a fan and motor, and a CW piping network.
+excerpt: Connects to the condenser side of a water-cooled chiller and uses pumps to transfer water or other liquid to cooling tower fans which reject heat to the outdoor air.
 thumbnail_image: "/images/systems/condenser-water-loop/2024_0410_condenser water loop system_thumbnail.jpeg"
 system_id: 3
 associated_components:

@@ -1,20 +1,20 @@
 enable: true
 documents:
   - type: calculation
-    title: "Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator"
+    title: "Air-to-air Heat Exchanger Heat Transfer"
     measurement_type: "energy-recovery"
   - type: calculation
-    title: "Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator"
+    title: "Cooling Tower Fans Energy Consumption"
     measurement_type: "cooling"
   - type: calculation
-    title: "Fan Motor Energy Consumption Calculation Methodology and Calculator"
+    title: "Fan Motor Energy Consumption"
     measurement_type: "space-heating, cooling, ventilation"
   - type: calculation
-    title: "Lighting Plant and Systems Energy Consumption Calculation Methodology and Calculator"
+    title: "Lighting Plant and Systems Energy Consumption"
     measurement_type: "lighting"
   - type: calculation
-    title: "Liquid-to-liquid Heat Exchanger Heat Transfer Calculation Methodology and Calculator"
+    title: "Liquid-to-liquid Heat Exchanger Heat Transfer"
     measurement_type: "energy-recovery"
   - type: calculation
-    title: "Pump Motor Energy Consumption Calculation Methodology and Calculator"
+    title: "Pump Motor Energy Consumption"
     measurement_type: "water-heating, cooling"

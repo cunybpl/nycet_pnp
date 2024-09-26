@@ -3,7 +3,7 @@ title: Water Pressure and Pump Curve
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 12
-excerpt: This technique uses water pressure measurements at the from the pump to infer the water flow rate (in GPM).
+excerpt: Use this technique to measure the pressure differential across pumps at one-hour intervals with data loggers. Data can be used to infer the water flow rate of pumps.
 borrow_equipment_url: "https://nycenergytools.com/equipment/gauge-pressure-sensor/"
 thumbnail_image: "/images/measurement-technique/water-pressure-and-pump-curve/2024_0410_water pressure and pump curve MT_thumbnail.jpeg"
 related_systems:

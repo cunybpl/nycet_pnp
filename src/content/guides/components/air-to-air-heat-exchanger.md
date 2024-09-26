@@ -1,7 +1,7 @@
 ---
 title: Air-to-air Heat Exchanger
 type: component
-excerpt: Achieves heat transfer using temperature difference between two airstreams without direct contact of these airstreams.
+excerpt: The rotary wheel achieves heat transfer using temperature difference between two airstreams without direct contact of these airstreams.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_air to air hx component_thumbnail_RESIZED-01.jpg"
 associated_systems:
   - Air-to-air Energy Recovery
@@ -182,7 +182,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/energy-logger-2/">DENT ELITEproXC Portable Power Data Logger (EXCUNC)</a>
+                DENT ELITEproXC Portable Power Data Logger (EXCUNC)
                 <br></br>
                 DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
             </td>
@@ -201,7 +201,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/temp-rh-logger-mx1101/">Onset HOBO MX1101 logger</a>
+                Onset HOBO MX1101 logger
             </td>
             <td width="33.333333333333336%">
                 Measures and records temperature and relative humidity. Using bluetooth technology you can transmit your data wirelessly to your mobile device using the <a href=https://www.onsetcomp.com/products/software/hoboconnect/>HOBOconnect app</a>. Stores 84,000 measurements.
@@ -221,7 +221,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/temp-rh-mx2301/">Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)</a>
+                Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)
             </td>
             <td width="33.333333333333336%">
                 Records outdoor air temperature and relative humidity using internal sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.

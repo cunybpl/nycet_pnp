@@ -1,7 +1,7 @@
 ---
 title: Constant-speed, Constant-volume Fan and Motor
 type: component
-excerpt: A constant speed constant volume (CSCV) fan uses a power-driven rotating impeller to circulate air at a single speed. Fans can be either axial or centrifugal.
+excerpt: This type of fan circulates air at a single speed and can be either axial or centrifugal.
 thumbnail_image: "/images/components/thumbnail-images/2024_0612_cscv fan component_thumbnail_RESIZED-01.jpg"
 associated_systems:
   - Boiler
@@ -215,7 +215,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/temp-rh-mx2301/">Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)</a>
+                Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)
             </td>
             <td width="33.333333333333336%">
                 Records outdoor air temperature and relative humidity using internal sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.
@@ -235,7 +235,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/">Onset HOBO Motor On/Off Data Logger (UX90-004)</a>
+                Onset HOBO Motor On/Off Data Logger (UX90-004)
             </td>
             <td width="33.333333333333336%">       
                 Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.
@@ -252,7 +252,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/power-quality-clamp-meter/">Fluke 345 Power Quality Clamp Meter</a>
+                Fluke 345 Power Quality Clamp Meter
             </td>
             <td width="33.333333333333336%">
                 Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time.
@@ -269,7 +269,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/4-channel-analog-data-logger/">Onset HOBO 4-Channel Analog Data Logger (UX120-006M)</a>
+                Onset HOBO 4-Channel Analog Data Logger (UX120-006M)
             </td>
             <td width="33.333333333333336%">
                 Used in conjunction with the CTV series of sensors. Records measurements from up to four CTV sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.

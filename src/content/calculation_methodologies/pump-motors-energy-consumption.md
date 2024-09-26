@@ -1,9 +1,9 @@
 ---
-title: Pump Motor Energy Consumption Calculation Methodology and Calculator
+title: Pump Motor Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 6
-excerpt: 
+excerpt: The equations and calculators in this page estimate the annual energy consumption of variable-speed and constant-speed pump motors.
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-motor-kit-variable-speed/"
 associated_calculators:
   - CSCV Pump Energy Calculator

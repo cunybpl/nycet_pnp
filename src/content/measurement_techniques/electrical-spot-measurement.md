@@ -3,7 +3,7 @@ title: Electrical Spot Measurement
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 2
-excerpt: This technique uses a handheld power meter to take one-time measurements of various electrical properties at an the electrical distribution system such as a panelboard.
+excerpt: Use this technique to take one-time measurements of different electrical properties such as voltage, current, power draw and power factor with a handheld power meter.
 borrow_equipment_url: "https://nycenergytools.com/equipment/power-quality-clamp-meter-2/"
 thumbnail_image: "/images/measurement-technique/electrical-spot-measurement/2024_0410_electrical spot measurement MT_thumbnail.jpeg"
 related_systems:
