@@ -1,7 +1,7 @@
 ---
 title: Boiler
 type: system
-excerpt: A boiler system provides either hot water or steam to distribute the heating load within a facility.
+excerpt: Produces hot water or steam with the use of fuel oil or natural gas.
 thumbnail_image: "/images/systems/boiler/2024_0410_boiler system_thumbnail.jpeg"
 system_id: 11
 associated_components:

@@ -1,7 +1,7 @@
 ---
 title: Hot-water Heating Plant
 type: plant
-excerpt: Consists of a hot water heating boiler system, hot water loop system, and feedwater system operating to meet heating demand in a facility.
+excerpt: Produces and distributes hot water in a facility. Terminal units are used to reject heat from the hot water and provide heating to one or more spaces.
 thumbnail_image: "/images/plants/hot-water-heating-plant/2024_0606_hot water plant_thumbnail-RESIZED-01.jpg"
 associated_systems:
   - Boiler

@@ -3,7 +3,7 @@ title: Relative Humidity
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 8
-excerpt: This technique uses data loggers to measure ments of relative humidity (% RH) of outdoor air and air handling units air streams at one-hour intervals.
+excerpt: Use this technique to measure relative humidity (RH %) of various air streams in an air handling unit at one-hour intervals with data loggers.
 borrow_equipment_url: "https://nycenergytools.com/equipment/temp-rh-mx2301/"
 thumbnail_image: "/images/measurement-technique/relative-humidity/2024_0410_relative humidity MT_thumbnail.jpeg"
 related_systems:

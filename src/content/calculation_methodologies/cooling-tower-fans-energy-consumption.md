@@ -1,9 +1,9 @@
 ---
-title: Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator
+title: Cooling Tower Fans Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 4
-excerpt: 
+excerpt: For evaporative cooling towers, the equations and calculators in this page estimate the annual energy consumption of single-speed or variable-speed cooling tower fans.
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop  

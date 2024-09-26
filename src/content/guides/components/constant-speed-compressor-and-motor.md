@@ -1,7 +1,7 @@
 ---
-title: Constant-speed, Constant-volume Compressor and Motor
+title: Constant-speed Compressor and Motor
 type: component
-excerpt: 
+excerpt: This equipment is typically used in a chiller system to increase the temperature and pressure of refrigerant.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_liquid to liquid hx component_thumbnail.jpg"
 associated_systems:
   - Air-cooled Chiller
@@ -10,7 +10,7 @@ related_systems:
   - Air-cooled Chiller
   - Water-cooled Chiller
 layout: guide
-url: "/documents/components/constant-speed-constant-volume-compressor-and-motor"
+url: "/documents/components/constant-speed-compressor-and-motor"
 ---
 
 ## General Overview
@@ -138,7 +138,7 @@ A motor on/off data logger is used to record the operating schedule. The true RM
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/">Onset HOBO Motor On/Off Data Logger (UX90-004)</a>
+                Onset HOBO Motor On/Off Data Logger (UX90-004)
             </td>
             <td width="33.333333333333336%">       
                 Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.
@@ -149,19 +149,21 @@ A motor on/off data logger is used to record the operating schedule. The true RM
         </tr>
         <tr>
             <td width="33.333333333333336%">
-                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300@2x.jpeg">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg">
                 <figure class="figure">
-                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300@2x.jpeg" class="figure-img img-fluid rounded" alt="">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg" class="figure-img img-fluid rounded" alt="">
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                <a href="https://nycenergytools.com/equipment/power-quality-clamp-meter/">Fluke 345 Power Quality Clamp Meter</a>
+                DENT ELITEproXC Portable Power Data Logger (EXCUNC)
+                <br></br>
+                DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
             </td>
             <td width="33.333333333333336%">
-                Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time.
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
             </td>
             <td width="33.333333333333336%">
-                <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
+                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
             </td>
         </tr>
     </tbody>
