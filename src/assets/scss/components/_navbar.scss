@@ -28,10 +28,10 @@ a.navbar-brand {
 }
 
 .nav-link {
-    color: white;
+    color: $nycet-gray-darker;
     font-size: medium;
     &:hover {
-        color: white;
+        color: $nav-color;
         text-decoration: underline;
     }
     &.active {
