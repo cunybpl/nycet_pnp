@@ -15,7 +15,7 @@ url: "/documents/components/liquid-to-liquid-heat-exchanger"
 
 A liquid-to-liquid heat exchanger achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
 
-In a building, a heat exchanger of this type can be installed in condensate cooling, vent condensing, boiler blowdown, and waterside economizer (free cooling), and in refrigeration applications such as evaporators and condensers. Typical liquid-to-liquid heat exchangers are plate and frame heat exchangers and tube heat exchangers. 
+In a building, a heat exchanger of this type can be installed in condensate cooling, vent condensing, boiler blowdown, and waterside economizer (free cooling), and in refrigeration applications such as evaporators and condensers. Typical liquid-to-liquid heat exchangers are plate-and-frame heat exchangers and tube heat exchangers. 
 
 Table 1 shows the plant and system configurations that may contain a liquid-to-liquid heat exchanger.
 
@@ -125,10 +125,13 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
         </tr>
         <tr>
             <td width="33.333333333333336%">
-                <p>Heat recovery system electricity consumption (if applicable)</p>
+                <p>Heat recovery system electricity consumption (if applicable), non-weather dependent system</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly pump motor kWh (if needed)</p>
+                <ul>
+                    <li>Average hourly pump motor kWh (if needed)</li>
+                    <li>Operating schedule</li>
+                </ul>
             </td>
             <td width="33.333333333333336%">
                 <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (kWh)</p>
@@ -136,24 +139,35 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
         </tr>
         <tr>
             <td width="33.333333333333336%">
-                <p>Controlling variable, non-weather dependent</p>
+                Heat recovery system electricity consumption (if applicable), weather dependent system
             </td>
             <td width="33.333333333333336%">
-                <p>Operating schedule&nbsp;</p>
+                <ul>
+                    <li>Average hourly pump motor kWh (if needed)</li>
+                    <li>Average hourly outdoor air temperature (OAT)</li>
+                </ul>
             </td>
             <td width="33.333333333333336%">
-                <p>Supply stream pump <a href="/documents/measurement-technique/motor-runtime">motor runtime (h)</a></p>
+                <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a>
             </td>
         </tr>
         <tr>
             <td width="33.333333333333336%">
-                <p>Controlling variable, weather dependent</p>
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                DENT ELITEproXC Portable Power Data Logger (EXCUNC)
+                <br></br>
+                DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly outdoor air temperature (OAT)</p>
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
             </td>
             <td width="33.333333333333336%">
-                <p><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></p>
+                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
             </td>
         </tr>
     </tbody>
@@ -192,19 +206,63 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <tbody>
         <tr>
             <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/DXN-1.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/DXN-1.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                Ultrasonic Flow Meter DXNP (DXNP-ABS-NN)
+            </td>
+            <td width="33.333333333333336%">   
+                Designed for systems engineers to quickly troubleshoot problems and verify performance during system commissioning and diagnostics. Allows measurement of flows throughout the plumbing infrastructure without intrusion.
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/water-flow-rate">Water Flow Rate (GPM)</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                DENT ELITEproXC Portable Power Data Logger (EXCUNC)
+                <br></br>
+                DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
+            </td>
+            <td width="33.333333333333336%">
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
+            </td>
+            <td width="33.333333333333336%">
+                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="33.333333333333336%">
                 <a href="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1.jpg">
                 <figure class="figure">
                 <img src="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1.jpg" class="figure-img img-fluid rounded" alt="">
                 <figcaption class="figure-caption text-left"></figcaption>
                 </figure>
                 </a>
-                Onset HOBO 4-Channel Analog Data Logger (UX120-006M)
-            </td>
-            <td width="33.333333333333336%">   
-                Used in conjunction with the CTV series of sensors. Records measurements from up to four CTV sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.    
+                4-Channel Analog Data Logger (UX120-006M)
+                <br></br>
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Type-T-6-ft-Beaded-Thermocouple-Sensor_TC6-T-5-300x225@2x.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Type-T-6-ft-Beaded-Thermocouple-Sensor_TC6-T-5-300x225@2x.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                Thermocouple Sensor (TC6-T)
             </td>
             <td width="33.333333333333336%">
-                <a href="/documents/measurement-technique/water-flow-rate">Water Flow Rate (GPM)</a>
+                An analog logger that supports up to four external sensors allowing you to measure temperature, current, voltage, air flow, pressure and more in one single logger. HOBOware Pro or HOBOware free software is required for logger operation.
+            </td>
+            <td width="33.333333333333336%">
+                <a href="/documents/measurement-technique/pipe-surface-water-temperature">Pipe Surface Water Temperature</a> 
             </td>
         </tr>
     </tbody>
