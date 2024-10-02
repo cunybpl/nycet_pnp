@@ -163,7 +163,7 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
                 <p>Controlling variable, weather dependent</p>
             </td>
             <td>
-                <p>Average hourly outside air temperature (F)</p>
+                <p>Average hourly outdoor air temperature (OAT)</p>
             </td>
             <td>
                 <a href="/documents/measurement-technique/outdoor-air-temperature"><p>Outdoor Air Temperature (F)</p></a>

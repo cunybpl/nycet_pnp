@@ -5,7 +5,9 @@ excerpt: Produces chilled liquid and works in conjunction with an AHU to provide
 thumbnail_image: "/images/systems/water-cooled-chiller/2024_0606_water cooled chiller system_thumbnail_RESIZED-01.jpg"
 system_id: 2
 associated_components:
+  - Constant-speed Compressor and Motor
 related_components:
+  - Constant-speed Compressor and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chiller"
 layout: guide
 url: "/documents/systems/water-cooled-chiller"
