@@ -128,24 +128,32 @@ h2, h3, h4 {
     align-items: center;
   }
   &-tab-items {
+    --tab-border: .25rem;
     display: flex;
-    gap: .75rem;
-    align-items: end;
+    gap: 0;
+    align-items: center;
+    border: 1px solid $nycet-gray;
+    border-radius: var(--tab-border);
+    background-color:$nycet-gray-light;
     button {
-      border: transparent;
-      background-color: $nycet-green;
-      color: #fff;
+      img {
+        filter: invert(1);
+      }
+      background-color: transparent;
+      border: none;
+      border-right: 1px solid $nycet-gray;
+      color: black;
       font-size: 14px;
       font-weight: 700;
-      padding-block: .5em;
+      padding-block: .75em;
       padding-inline: 1rem;
-      border-radius: 0.25rem;
       display: flex;
       flex-direction: row;
       justify-content: center;
       gap: 8px;
       align-items: center;
       width: max-content;
+      white-space: nowrap;
       .tab-icon {
         width: 30px;
         aspect-ratio: 1;
@@ -158,13 +166,33 @@ h2, h3, h4 {
       //   flex-direction: column;
       //   justify-content: center;
       // }
+      &:first-of-type {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: var(--tab-border);
+        border-bottom-left-radius: var(--tab-border);
+      }
+      &:last-of-type {
+        border-right: none;
+        border-top-right-radius: var(--tab-border);
+        border-bottom-right-radius: var(--tab-border);
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      &:hover {
+        img {
+          filter: none;
+        }
+        background-color: $nycet-green;
+        color: white;
+      }
     }
     button.active {
-      background-color: $nycet-gray-light !important;
-      color: black !important;
+      background-color: $nycet-green !important;
+      color: white !important;
       z-index: 2;
       img {
-        filter: invert(1);
+        filter: none;
       }
     }
   }
@@ -174,10 +202,14 @@ h2, h3, h4 {
   max-width: 1140px;
 }
 
-.header-tab-item:hover,
-.tabLink:hover {
-  background-color: $nycet-green-dark;
-}
+// .header-tab-item:hover,
+// .tabLink:hover {
+//   img {
+//     filter: none;
+//   }
+//   background-color: $nycet-gray-darker;
+//   color: white;
+// }
 
 .guide-wrapper {
   padding-inline: 1rem;
