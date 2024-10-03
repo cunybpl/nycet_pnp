@@ -13,16 +13,18 @@
   li {
     display: inline;
     white-space: nowrap;
-    color:#ffffff82;
+    color: $body-color;
     &:not(:first-of-type)::before {
       content: "/";
       padding: .5rem;
+      color: $nycet-gray-dark
     }
     a {
-      color: white;
+      color: $primary;
     }
     a:hover {
       text-decoration: underline;
+      color: $nycet-green-dark;
     }
   }
 }
