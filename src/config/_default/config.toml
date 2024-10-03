@@ -169,6 +169,14 @@ title = "Protocols & Procedures"
   icon = "fa-shopping-cart"
   link = "cart/"
 
+## Login
+[[menu.main]]
+  name = "Icon 3 -- Login"
+  identifier="icon-3-login"
+[menu.main.params]
+  type = "icon"
+  icon = "fa-power-off"
+  link = "login/"
 
 # Footer Sitemap Menu
 ## Equipment
