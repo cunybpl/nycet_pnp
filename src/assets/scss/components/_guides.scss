@@ -79,7 +79,8 @@ h2, h3, h4 {
 
 .chip {
   border-radius: 50rem;
-  background-color:$dark-green;
+  background-color:$nycet-gray-dark;
+  color: white;
   font-size: medium;
   vertical-align: middle;
   display: inline-block;
@@ -108,7 +109,8 @@ h2, h3, h4 {
   align-items: center;
   overflow-x: auto;
   overflow-y: hidden;
-  border-bottom: 2px solid $dark-green;
+  background-color: white;
+  border-bottom: 1px solid $nycet-gray;
 }
 
 .guide-header {
@@ -166,6 +168,10 @@ h2, h3, h4 {
       }
     }
   }
+}
+
+.guide-header.container {
+  max-width: 1140px;
 }
 
 .header-tab-item:hover,
