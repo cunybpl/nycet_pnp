@@ -15,8 +15,8 @@
     white-space: nowrap;
     color:#ffffff82;
     &:not(:first-of-type)::before {
-      content: "›";
-      padding: 1.5rem;
+      content: "/";
+      padding: .5rem;
     }
     a {
       color: white;
