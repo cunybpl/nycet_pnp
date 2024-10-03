@@ -21,6 +21,10 @@
     }
 }
 
+.navbar .container {
+    max-width: 1140px;
+}
+
 a.navbar-brand {
     display: flex;
     gap: 1rem;
