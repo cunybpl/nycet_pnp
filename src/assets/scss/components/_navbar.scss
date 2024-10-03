@@ -33,7 +33,7 @@ a.navbar-brand {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:0.75rem
+    gap:8px;
 }
 
 .nav-link {
@@ -76,13 +76,6 @@ a.navbar-brand {
 
 .nav-icons {
   color: $light-gray !important;
-}
-
-.nav-item {
-  @include desktop-xxl {
-    margin-left: 0.850rem; 
-    margin-right: 0.850rem;
-  }
 }
 
 .nav-item:hover .nav-sub-menu {
