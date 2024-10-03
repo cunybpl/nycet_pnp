@@ -67,6 +67,8 @@ h2, h3, h4 {
 }
 
 [class$="page-content"] {
+  max-width: 1140px;
+  padding-inline: 0;
   .title {
     text-align: center;
   }
@@ -130,14 +132,14 @@ h2, h3, h4 {
     gap: .75rem;
     align-items: end;
     button {
-      border: 2px solid #2e6633;
-      background-color: $dark-green;
+      border: transparent;
+      background-color: $nycet-green;
       color: #fff;
       font-size: 14px;
       font-weight: 700;
       padding-block: .5em;
       padding-inline: 1rem;
-      border-radius: 8px;
+      border-radius: 0.25rem;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -158,10 +160,8 @@ h2, h3, h4 {
       // }
     }
     button.active {
-      background-color: white !important;
-      color: $dark-bg !important;
-      border-top: var(--tab-border-active);
-      border-inline: var(--tab-border-active);
+      background-color: $nycet-gray-light !important;
+      color: black !important;
       z-index: 2;
       img {
         filter: invert(1);
@@ -174,13 +174,9 @@ h2, h3, h4 {
   max-width: 1140px;
 }
 
-.guide-page-content {
-  max-width: 1140px;
-}
-
 .header-tab-item:hover,
 .tabLink:hover {
-  background-color: #387e3e;
+  background-color: $nycet-green-dark;
 }
 
 .guide-wrapper {
@@ -308,7 +304,7 @@ a.btt-btn:hover {
   overflow-x: hidden;
   display: block;
   white-space: nowrap;
-  max-width: 50ch;
+  max-width: 42ch;
   scrollbar-width: thin;
 }
 
