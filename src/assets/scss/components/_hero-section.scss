@@ -6,11 +6,11 @@
   &_container {
     padding: 0;
     .content {
-      background-color: $primary;
+      background-color: white;
       display: flex;
       flex-direction: row;
       height: inherit;
-      padding-block: 4em 3em;
+      padding-block: 2em 3em;
     }
     text-align: center;
     @include ipad {
@@ -20,13 +20,13 @@
   &_content {
     width: 100%;
     text-align: center;
-    color: $white;
+    color: $body-color;
     .mb-2.content-text  {
       padding: 0 5% !important;
     }
     margin: 0 auto;
     h1 {
-      color: $white !important;
+      color: $body-color !important;
       font-size: 40px;
       font-weight: bold;
     }
