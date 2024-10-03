@@ -32,7 +32,6 @@ a.navbar-brand {
     font-size: medium;
     &:hover {
         color: $nav-color;
-        text-decoration: underline;
     }
     &.active {
         color: black !important;
