@@ -151,6 +151,13 @@ title = "Protocols & Procedures"
   url = "support/contact/"
   weight = 3
 
+## Blog
+[[menu.main]]
+  name = "Blog"
+  identifier="blog"
+  url = "blog/"
+  weight = 5
+
 ## Search
 [[menu.main]]
   name = "Icon 1 -- Search"
