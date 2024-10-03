@@ -11,6 +11,8 @@
       flex-direction: row;
       height: inherit;
       padding-block: 2em 3em;
+      max-width: 1140px;
+      margin-inline: auto;
     }
     text-align: center;
     @include ipad {
