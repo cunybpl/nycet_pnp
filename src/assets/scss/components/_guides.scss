@@ -28,14 +28,9 @@
 }
 
 .breadcrumbs {
-  background-color: $primary;
   height: 3.5rem;
   display: flex;
   align-items: center;
-}
-
-#content {
-  background: linear-gradient($primary 50%, white 50%) fixed;
 }
 
 .content a {

@@ -8,10 +8,6 @@ html {
   overflow-y: auto;
 }
 
-body {
-  background: linear-gradient($dark-green 50%, #f7f7f7 50%) fixed;
-}
-
 #content {
   min-height: calc(100vh - 17.2rem);
 }
