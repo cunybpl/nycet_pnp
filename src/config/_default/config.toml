@@ -152,22 +152,22 @@ title = "Protocols & Procedures"
   weight = 3
 
 ## Search
-##[[menu.main]]
-##  name = "Icon 1 -- Search"
-##  identifier="icon-1-search"
-##  [menu.main.params]
-##    type = "icon"
-##    icon = "fa-search"
-##    link = "?s"
+[[menu.main]]
+  name = "Icon 1 -- Search"
+  identifier="icon-1-search"
+[menu.main.params]
+  type = "icon"
+  icon = "fa-search"
+  link = "?s"
 
 ## Cart
-##[[menu.main]]
-##  name = "Icon 2 -- Cart"
-##  identifier="icon-2-cart"
-##  [menu.main.params]
-##    type = "icon"
-##   icon = "fa-shopping-cart"
-##    link = "cart/"
+[[menu.main]]
+  name = "Icon 2 -- Cart"
+  identifier="icon-2-cart"
+[menu.main.params]
+  type = "icon"
+  icon = "fa-shopping-cart"
+  link = "cart/"
 
 
 # Footer Sitemap Menu
