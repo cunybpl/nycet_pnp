@@ -169,10 +169,19 @@ title = "Protocols & Procedures"
   icon = "fa-shopping-cart"
   link = "cart/"
 
+## Account
+[[menu.main]]
+  name = "Icon 3 -- Account"
+  identifier="icon-3-account"
+[menu.main.params]
+  type = "icon"
+  icon = "fa-user"
+  link = "my-profile/"
+
 ## Login
 [[menu.main]]
-  name = "Icon 3 -- Login"
-  identifier="icon-3-login"
+  name = "Icon 4 -- Login"
+  identifier="icon-4-login"
 [menu.main.params]
   type = "icon"
   icon = "fa-power-off"
