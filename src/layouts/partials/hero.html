@@ -7,9 +7,9 @@
           <div class="container content-text px-5">{{ .content | markdownify }}</div>
           <div class="hero_content-search-bar">
             <form action="#" class="mb-0" onsubmit="doSearchGuides(guideSearchBarId);return false">
-              <input id="guide-search-bar" type="search" placeholder="Search a plant, system or component">
+              <input id="guide-search-bar" type="search" placeholder="Search">
               <button type="submit">Search</button>
-              <button id="dropdown-trigger" onclick="toggleDropdown()" type="button" class="btn btn-primary px-4">
+              <button id="dropdown-trigger" onclick="toggleDropdown()" type="button" class="btn px-4">
                 <i id="dropdown-icon" class="fa fa-chevron-down"></i>
               </button>
             </form>
