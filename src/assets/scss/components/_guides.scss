@@ -244,13 +244,10 @@
 
     nav#TableOfContents {
       li.active-item {
-        background-color: $nycet-gray-light;
         font-weight: bold;
-        padding: 1rem;
-        border-radius: .25rem;
       }
       a {
-        color: #6a6a6a;
+        color: $nycet-gray-darker;
       }
       a:hover {
         text-decoration: underline;
