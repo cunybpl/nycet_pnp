@@ -10,7 +10,7 @@
 
 .tab {
   --tab-border: .25rem;
-  max-width: 1140px;
+  max-width: $max-width;
   margin-inline: auto;
   display: flex;
   justify-content: center;
@@ -66,7 +66,7 @@
   padding: 6px 12px 4em 12px;
   border-top: none;
   .container:not(.search-header) {
-    max-width: calc(1140px + 30px);
+    max-width: calc(#{$max-width} + 30px);
   }
 }
 
