@@ -1,3 +1,6 @@
+.nav {
+    flex-wrap: nowrap;
+}
 .navbar {
     background-color: $light-gray;
     transition: all 0.3s ease;
@@ -35,9 +38,10 @@ a.navbar-brand {
 
 .main-navigation {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    gap:0;
+    gap: 8px;
+    flex-grow: 1;
 }
 
 .nav-link {
