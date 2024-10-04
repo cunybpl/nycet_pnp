@@ -64,7 +64,9 @@
   fill: $primary;
 }
 
-.guide-page-content {
+.guide-page-content,
+.measurement-page-content,
+.calculation-page-content {
   max-width: 1140px;
   padding-inline: 0;
   .title {
