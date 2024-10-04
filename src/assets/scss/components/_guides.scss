@@ -50,10 +50,6 @@
 //   text-decoration: underline;
 // }
 
-h2, h3, h4 {
-  margin-top: 3rem;
-}
-
 .header-link {
   opacity: 0;
   color: $primary;
@@ -348,10 +344,6 @@ a.btt-btn:hover {
 
 .content > h2:first-of-type {
   margin-top: 0;
-}
-
-.content > h2 {
-  font-size: 1rem;
 }
 
 [id*="page-related"] > div > h3 {
