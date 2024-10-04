@@ -103,6 +103,7 @@
 .guide-header-wrapper {
   padding-inline: 1rem;
   padding-block: 0;
+  margin-top: 0.75rem;
   position: sticky;
   top: 0;
   z-index: 3;
@@ -243,10 +244,10 @@
 
     nav#TableOfContents {
       li.active-item {
-        background-color: #ebf4ec;
+        background-color: $nycet-gray-light;
         font-weight: bold;
         padding: 1rem;
-        border-radius: 10px;
+        border-radius: .25rem;
       }
       a {
         color: #6a6a6a;
