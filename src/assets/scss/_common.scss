@@ -4,6 +4,10 @@ html {
   overflow-y: auto;
 }
 
+body {
+  line-height: 1.6;
+}
+
 #content {
   min-height: calc(100vh - 17.2rem);
 }
