@@ -80,10 +80,11 @@
 
       #dropdown-trigger {
         background-color: $nycet-gray;
+        font-size: 1.2rem;
       }
 
       #dropdown-icon {
-        color: black;
+        color: #4b4b4b;
       }
       
       button[type="submit"]:hover {
@@ -117,7 +118,7 @@
   position: absolute;
   top: 105%;
   width: 40rem;
-  max-height: 69vh;
+  max-height: 315px;
   padding: 0.5rem;
   overflow: scroll;
   cursor: pointer;
