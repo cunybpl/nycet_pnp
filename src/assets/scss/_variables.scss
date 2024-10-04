@@ -3,7 +3,7 @@
 //
 
 //NYCET
-$nycet-green: #1dac50;
+$nycet-green: #1dac50; //try #17823d for AA
 $nycet-green-dark: #189143;
 $nycet-blue: #16232b;
 $nycet-gray-light: #f8f9fa;
@@ -12,7 +12,7 @@ $nycet-gray-dark: #6c757d;
 $nycet-gray-darker: #5a6268;
 
 // General
-$primary: #1dac50;
+$primary: $nycet-green;
 $light-gray: #f7f7f7;
 $dark-gray: #ced4da;
 $secondary: #42904933;
