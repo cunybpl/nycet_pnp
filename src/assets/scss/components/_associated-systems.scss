@@ -35,14 +35,14 @@
 
 .see-more-associated-systems-button::after {
   position: absolute;
-  content: '›';
+  content: '￫';
   font-size: 1.4rem;
   line-height: 1;
-  top:2px;
+  top:4px;
   left: 55px;
   transition: left .3s ease 0s;
 }
 
 .see-more-associated-systems-button:hover::after {
-  left: 115%;
+  left: 120%;
 }
