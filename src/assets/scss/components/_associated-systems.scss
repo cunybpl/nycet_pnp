@@ -24,7 +24,7 @@
   padding: 0;
   text-transform: none;
   font-weight: normal;
-  font-size: 80%;
+  font-size: inherit;
   letter-spacing: normal;
   position: relative;
   text-decoration: underline;
@@ -38,8 +38,8 @@
   content: '›';
   font-size: 1.4rem;
   line-height: 1;
-  top:1px;
-  left: 48px;
+  top:2px;
+  left: 55px;
   transition: left .3s ease 0s;
 }
 
