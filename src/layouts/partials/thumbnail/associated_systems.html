@@ -1,7 +1,5 @@
 <li>
-  <small>
-    <a href="{{ .RelPermalink }}">
-      {{ .Title | truncate 39 }}
+    <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+      {{ .Title | truncate 32 }}
     </a>
-  </small>
 </li>
