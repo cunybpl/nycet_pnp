@@ -55,9 +55,9 @@ title = "Protocols & Procedures"
   url = "equipment/?_equipment_type=software"
   weight = 7
 
-## Equipment Kits
+## Kits
 [[menu.main]]
-  name = "Equipment Kits"
+  name = "Kits"
   identifier="equipment-kits"
   url = "equipment-kits/"
   weight = 2
