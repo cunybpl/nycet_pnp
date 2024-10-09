@@ -39,6 +39,7 @@ button:focus {
 
 .btn-primary {
   &:hover {
+    border-color: $nycet-gray-dark;
     background-color: $nycet-green-dark;
     color: $white;
   }
@@ -53,13 +54,13 @@ button:focus {
 }
 
 .btn-outlined {
-  border-color: white;
-  background-color: $primary;
-  color: white;
+  border-color: $primary;
+  background-color: transparent;
+  color: $nycet-green;
   &:hover {
     border-color: $primary;
     background-color: white;
-    color: $primary;
+    color: $nycet-green-dark;
   }
 }
 

@@ -56,9 +56,8 @@ h5.card-title {
 
 h6.related-title {
   font-weight: bold;
-  font-size: .85rem;
+  font-size: 85%;
   text-transform: uppercase;
-  color: $nycet-gray-darker;
   margin-bottom: 1.5rem;
 }
 
@@ -74,4 +73,5 @@ h6.related-title {
 .card-related-list li {
   overflow: hidden;
   text-overflow: ellipsis;
+  color: $primary;
 }
