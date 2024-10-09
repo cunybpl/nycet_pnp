@@ -56,12 +56,12 @@
   position: relative;
 }
 
-:is(h1, h2, h3, h4, h5, h6):hover a.header-link {
-  opacity: 1;
+.header-link i {
+  font-size: 80%;
 }
 
-.header-link-icon {
-  fill: $primary;
+:is(h1, h2, h3, h4, h5, h6):hover a.header-link {
+  opacity: 1;
 }
 
 .guide-page-content,
