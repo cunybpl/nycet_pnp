@@ -43,7 +43,7 @@
                       <div class="px-4 d-flex flex-column justify-content-between" style="height: 100%;">
                         <div>
                           <h5>{{ .name }}</h5>
-                          <p>{{ .description | safeHTML | truncate 100 }}</p>
+                          <p>{{ .description | safeHTML | truncate 160 }}</p>
                         </div>  
                         <div>
                           <a class="btn btn-primary" href="/downloadables/{{ .filename }}" download="{{ .filename }}">
