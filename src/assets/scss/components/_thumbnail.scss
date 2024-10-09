@@ -40,6 +40,7 @@
 
       a {
         text-decoration: underline;
+        white-space: nowrap;
       }
     }
   }
@@ -57,7 +58,7 @@ h6.related-title {
   font-weight: bold;
   font-size: .85rem;
   text-transform: uppercase;
-  color: #484848;
+  color: $nycet-gray-darker;
   margin-bottom: 1.5rem;
 }
 
@@ -68,4 +69,9 @@ h6.related-title {
 .no-thumb {
   background-color: #e8e8e8;
   background-image: url(/images/hero/guide-thumb-placeholder.jpg);
+}
+
+.card-related-list li {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
