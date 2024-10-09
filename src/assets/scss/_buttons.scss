@@ -39,8 +39,7 @@ button:focus {
 
 .btn-primary {
   &:hover {
-    border-color: $primary;
-    background-color: $primary;
+    background-color: $nycet-green-dark;
     color: $white;
   }
 }
