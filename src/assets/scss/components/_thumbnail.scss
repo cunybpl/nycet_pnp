@@ -35,8 +35,9 @@
     }
 
     li {
-      line-height: 1.4rem;
-      margin-left: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: $primary;
 
       a {
         text-decoration: underline;
@@ -70,9 +71,9 @@ h6.related-title {
   background-image: url(/images/hero/guide-thumb-placeholder.jpg);
 }
 
-.card-related-list li {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: $primary;
-  margin-bottom: .125rem;
-}
+// .card-related-list li {
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   color: $primary;
+//   margin-bottom: .125rem;
+// }

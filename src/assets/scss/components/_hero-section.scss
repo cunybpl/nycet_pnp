@@ -84,6 +84,14 @@
         padding-block: .5rem;
       }
 
+      #dropdown-trigger:hover,
+      #dropdown-trigger:focus {
+        background-color: #1dac50;
+        i {
+          color: white;
+        }
+      }
+
       #dropdown-icon {
         color: #4b4b4b;
       }
