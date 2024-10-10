@@ -30,7 +30,6 @@
 
 a.navbar-brand {
     display: flex;
-    gap: 1rem;
     &:hover {
         text-decoration: none !important;
     }
@@ -38,9 +37,8 @@ a.navbar-brand {
 
 .main-navigation {
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     align-items: center;
-    gap: 16px;
     flex-grow: 1;
 }
 
@@ -107,6 +105,8 @@ a.navbar-brand {
     }
     .navbar-nav {
         padding-block: 2rem;
+        flex-basis: auto;
+        justify-content: space-around;
     }
     .nav-item {
         margin: 0 -1rem;
