@@ -250,6 +250,10 @@
     nav#TableOfContents {
       li.active-item {
         font-weight: bold;
+        > a,
+        > ul > li > a {
+          color: black;
+        }
       }
       a {
         color: $nycet-gray-darker;
