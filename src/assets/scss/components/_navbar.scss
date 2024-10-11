@@ -4,12 +4,13 @@
 .navbar {
     background-color: $light-gray;
     transition: all 0.3s ease;
-    height: 98.13px;
     border-bottom: 1px solid $dark-gray;
     &-brand {
       max-width: 340px;
       margin-right: 3vw;
       width: 69%;
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
     }
     &.nav__color__change {
         // background: $white !important;
@@ -52,6 +53,7 @@ a.navbar-brand {
 
 .dropdown-toggle::after {
     margin-left: 0;
+    display: inline-block;
 }
 
 .nav-sub-menu {
@@ -101,20 +103,17 @@ a.navbar-brand {
         } 
     }
     .navbar-nav {
-        padding-block: 2rem;
         flex-basis: auto;
         justify-content: space-around;
     }
     .nav-item {
         margin: 0 -1rem;
-        border-bottom: 1px solid rgba(50, 65, 141, 0.1);
     }
     .nav-link {
         &_label {
             display: flex;
             justify-content: flex-start;
             margin: 0 1rem;
-            font-size: small;
         }
     }
     .navbar-toggler {
@@ -139,7 +138,7 @@ a.navbar-brand {
             }
             &:nth-child(3) {
                 transform: rotate(-45deg);
-                transform-origin: 10% 90%;
+                transform-origin: 0% 90%;
             }
         }
         &.collapsed {
@@ -156,5 +155,9 @@ a.navbar-brand {
                 }
             }
         }
+    }
+    .dropdown-toggle::after {
+        display: none;
+        border: none;
     }
 }
