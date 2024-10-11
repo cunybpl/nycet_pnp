@@ -1,5 +1,5 @@
 .associated-systems-modal {
-  max-width: $max-width;
+  max-width: var(--max-width);
   &-content {
     max-height: 90vh;
     border-radius: 8px;

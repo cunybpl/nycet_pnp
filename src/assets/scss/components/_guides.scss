@@ -1,6 +1,6 @@
 .search-header {
   align-items: center;
-  max-width: $max-width;
+  max-width: var(--max-width);
   padding-inline: 0;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .breadcrumbs .container {
-  max-width: $max-width;
+  max-width: var(--max-width);
 }
 
 .content a {
@@ -67,7 +67,7 @@
 .guide-page-content,
 .measurement-page-content,
 .calculation-page-content {
-  max-width: $max-width;
+  max-width: var(--max-width);
   padding-inline: 0;
   .title {
     text-align: center;
@@ -200,7 +200,7 @@
 }
 
 .guide-header.container {
-  max-width: $max-width;
+  max-width: var(--max-width);
 }
 
 .guide-header-description {
