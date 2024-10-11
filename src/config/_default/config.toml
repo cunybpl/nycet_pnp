@@ -55,43 +55,43 @@ title = "Protocols & Procedures"
   url = "equipment/?_equipment_type=software"
   weight = 7
 
-## Equipment Kits
+## Kits
 [[menu.main]]
-  name = "Equipment Kits"
-  identifier="equipment-kits"
+  name = "Kits"
+  identifier="kits"
   url = "equipment-kits/"
-  weight = 2
+  weight = 1
 ### Equipment kits sub-menu
 [[menu.main]]
-  parent = "equipment-kits"
+  parent = "kits"
   identifier = "equipment-kits-brt"
   name = "Building Re-tuning"
   url = "equipment-kits/?_application=brt"
-  weight = 1
+  weight = 2
 [[menu.main]]
-  parent = "equipment-kits"
+  parent = "kits"
   identifier = "equipment-kits-lm"
   name = "Load Management"
   url = "equipment-kits/?_application=lm"
-  weight = 2
+  weight = 3
 [[menu.main]]
-  parent = "equipment-kits"
+  parent = "kits"
   identifier = "equipment-kits-mv"
   name = "M&V"
   url = "equipment-kits/?_application=mv"
-  weight = 3
+  weight = 4
 [[menu.main]]
-  parent = "equipment-kits"
+  parent = "kits"
   identifier = "equipment-kits-om"
   name = "O&M"
   url = "equipment-kits/?_application=om"
-  weight = 4
+  weight = 5
 [[menu.main]]
-  parent = "equipment-kits"
+  parent = "kits"
   identifier = "equipment-kits-survey"
   name = "Survey"
   url = "equipment-kits/?_application=survey"
-  weight = 5
+  weight = 6
 
 ## Resources
 [[menu.main]]
@@ -116,7 +116,7 @@ title = "Protocols & Procedures"
   parent = "resources"
   identifier = "resources-case-studies"
   name = "Case Studies"
-  url = "case-studies/"
+  url = "resources/case-studies/"
   weight = 3
 [[menu.main]]
   parent = "resources"
@@ -151,24 +151,48 @@ title = "Protocols & Procedures"
   url = "support/contact/"
   weight = 3
 
+## Blog
+[[menu.main]]
+  name = "Blog"
+  identifier="blog"
+  url = "blog/"
+  weight = 5
+
 ## Search
-##[[menu.main]]
-##  name = "Icon 1 -- Search"
-##  identifier="icon-1-search"
-##  [menu.main.params]
-##    type = "icon"
-##    icon = "fa-search"
-##    link = "?s"
+[[menu.main]]
+  name = "Icon 1 -- Search"
+  identifier="icon-1-search"
+[menu.main.params]
+  type = "icon"
+  icon = "fa-search"
+  link = "?s"
 
 ## Cart
-##[[menu.main]]
-##  name = "Icon 2 -- Cart"
-##  identifier="icon-2-cart"
-##  [menu.main.params]
-##    type = "icon"
-##   icon = "fa-shopping-cart"
-##    link = "cart/"
+[[menu.main]]
+  name = "Icon 2 -- Cart"
+  identifier="icon-2-cart"
+[menu.main.params]
+  type = "icon"
+  icon = "fa-shopping-cart"
+  link = "shopping-cart/"
 
+## Account
+[[menu.main]]
+  name = "Icon 3 -- Account"
+  identifier="icon-3-account"
+[menu.main.params]
+  type = "icon"
+  icon = "fa-user"
+  link = "my-profile/"
+
+## Login
+[[menu.main]]
+  name = "Icon 4 -- Login"
+  identifier="icon-4-login"
+[menu.main.params]
+  type = "icon"
+  icon = "fa-power-off"
+  link = "login/"
 
 # Footer Sitemap Menu
 ## Equipment
@@ -280,7 +304,7 @@ url = "support/contact/"
 postFix = "- NYC Energy Tools"
 custom_scss = ['scss/custom.scss']
 blogPageURL = "blog"
-copyright = "© 2024 CUNY BPL"
+copyright = "© 2024 CUNY Building Performance Lab"
 footerLogo = "images/site-navigation/nyc_logo.png"
 footerHeading = "A FREE Resource for City Agency Employees"
 footerDescription = "We are fully stocked with equipment for measuring, diagnosing, and optimizing building equipment and systems, from boilers to air handling units to solar panels."
@@ -291,7 +315,6 @@ nycDcasURL = "https://www.nyc.gov/site/dcas/about/our-mission.page"
 logo = "images/site-navigation/nyc_logo.png"
 contactPersonName = "Felix Rodriguez"
 contactPersonEmail = "frodriguez3@ccny.cuny.edu"
-municipalLibraryLocation = "31 Chambers St, New York, NY 10007"
 dropOffLocation = "96 Greenwich Street, 4th Floor, New York, NY 10006"
 wordpressWebsiteURL = "https://nycenergytools.com/"
 

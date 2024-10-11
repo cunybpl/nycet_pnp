@@ -71,3 +71,4 @@ src/resources
 src/public
 *.swp
 themes/portio/*
+themes/*

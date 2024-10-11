@@ -1,28 +1,30 @@
 {{ if .data.contents.enable }}
 <div id="all-guide-contents">
 {{ $activeButton := ""}}
-  <div class="tab col-md-12 no-gutters">
-    {{ range $index, $element := .data.contents.contents }}
-     {{ if $element.enable }}
-      <div 
-        class="
-          {{if eq $index 2 }} middle-nav-item normal-nav-item {{ else }} normal-nav-item {{ end }} 
-          {{if eq $index 0 }} first-nav-item {{ end }}
-          {{if eq $index 4 }} last-nav-item {{ end }}
-          no-gutters
-        "
-      >
-        <button id="{{ $element.name }}" class="tabLink" onclick="displayGuides(event)">
-        <!-- Chnage to per tab icon -->
-          <div class="mr-2">
-            <img src="{{ $element.icon }}" class="img-fluid guide-icon">
-          </div>
-          <span>{{ $element.label }}</span>
-          <div id="total-{{ $element.name }}-search-result" class="search-result-label ml-3">0</div>
-        </button>
-      </div>
-     {{ end }}
-    {{ end }}
+  <div class="tab-group">
+    <div class="tab col-md-12 no-gutters">
+      {{ range $index, $element := .data.contents.contents }}
+       {{ if $element.enable }}
+        <div
+          class="
+            {{if eq $index 2 }} middle-nav-item normal-nav-item {{ else }} normal-nav-item {{ end }}
+            {{if eq $index 0 }} first-nav-item {{ end }}
+            {{if eq $index 4 }} last-nav-item {{ end }}
+            no-gutters
+          "
+        >
+          <button id="{{ $element.name }}" class="tabLink" onclick="displayGuides(event)">
+          <!-- Chnage to per tab icon -->
+            <div class="mr-2">
+              <img src="{{ $element.icon }}" class="img-fluid guide-icon">
+            </div>
+            <span>{{ $element.label }}</span>
+            <div id="total-{{ $element.name }}-search-result" class="search-result-label ml-3">0</div>
+          </button>
+        </div>
+       {{ end }}
+      {{ end }}
+    </div>
   </div>
   {{ partial "guides/all_guides.html" (dict "guides" .data "pages" .pages "filters" .data.filters.type ) }}
   {{ partial "guides/no_result.html" . }}

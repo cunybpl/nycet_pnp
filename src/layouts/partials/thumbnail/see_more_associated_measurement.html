@@ -18,7 +18,7 @@
   >
     <div class="modal-dialog modal-dialog-centered modal-xl associated-systems-modal">
       <div class="modal-content associated-systems-modal-content">
-        <div class="modal-header bg-primary text-light associated-systems-modal-header">
+        <div class="modal-header associated-systems-modal-header">
           <h5 class="modal-title" id="associated-systems-modal-label-{{ .type }}-{{ .id }}">
             Associated measurements of {{ .guide_title }}
           </h5>
@@ -31,7 +31,7 @@
             {{ range where .all_pages "Title" "in" .content }}
               <div class="col-lg-6">
                 <div class="card">
-                  <div class="guide-thumbnail" style="height: 300px !important;">
+                  <div class="guide-thumbnail" style="height: 350px !important;">
                     {{ if isset .Params  "thumbnail_image" }}
                     <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .Params.thumbnail_image | absURL }});">
                     {{ else }}
@@ -40,10 +40,10 @@
                     {{ end }}
                     </div>
                     <div class="guide-thumbnail-content">
-                      <div class="px-4 d-flex flex-column justify-content-between" style="height: 65%;">
+                      <div class="px-4 d-flex flex-column justify-content-between" style="height: 100%;">
                         <div>
                           <h5>{{ .Title }}</h5>
-                          <p>{{ .Params.excerpt | safeHTML | truncate 100 }}</p>
+                          <p>{{ .Params.excerpt | safeHTML | truncate 169 }}</p>
                         </div>  
                         <div>
                           <a class="btn btn-primary" href="{{ .RelPermalink | relURL }}">

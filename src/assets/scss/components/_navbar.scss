@@ -1,12 +1,16 @@
+.nav {
+    flex-wrap: nowrap;
+}
 .navbar {
-    background-color: $dark-green;
+    background-color: $light-gray;
     transition: all 0.3s ease;
-    height: 5.2rem;
+    border-bottom: 1px solid $dark-gray;
     &-brand {
       max-width: 340px;
-    }
-    @include desktop {
-        padding: 15px 20px;
+      margin-right: 3vw;
+      width: 69%;
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
     }
     &.nav__color__change {
         // background: $white !important;
@@ -18,30 +22,44 @@
     }
 }
 
+.navbar .container {
+    max-width: var(--max-width);
+}
+
 a.navbar-brand {
     display: flex;
-    gap: 1rem;
     &:hover {
         text-decoration: none !important;
     }
 }
 
+.main-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
 .nav-link {
-    color: white;
+    color: $nav-color;
     font-size: medium;
     &:hover {
-        color: white;
-        text-decoration: underline;
+        color: $primary;
     }
     &.active {
         color: black !important;
     }
 }
 
+.dropdown-toggle::after {
+    margin-left: 0;
+    display: inline-block;
+}
+
 .nav-sub-menu {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: white;
   background-clip: padding-box;
   border: 1px solid rgba(0,0,0,.15);
   border-radius: 0.25rem;
@@ -52,8 +70,8 @@ a.navbar-brand {
 }
 
 .nav-sub-menu a {
-  float: none;
-  color: rgb(74, 74, 74);
+  float: none;  
+  color: black;
   padding: .5rem 1.5rem;
   text-decoration: none;
   display: block;
@@ -63,17 +81,11 @@ a.navbar-brand {
   
 .nav-sub-menu a:hover {
   color: $primary;
+  background-color: transparent !important;
 }
 
 .nav-icons {
   color: $light-gray !important;
-}
-
-.nav-item {
-  @include desktop-xxl {
-    margin-left: 0.850rem; 
-    margin-right: 0.850rem;
-  }
 }
 
 .nav-item:hover .nav-sub-menu {
@@ -91,31 +103,30 @@ a.navbar-brand {
         } 
     }
     .navbar-nav {
-        padding-block: 2rem;
+        flex-basis: auto;
+        justify-content: space-around;
     }
     .nav-item {
         margin: 0 -1rem;
-        border-bottom: 1px solid rgba(50, 65, 141, 0.1);
     }
     .nav-link {
         &_label {
             display: flex;
             justify-content: flex-start;
             margin: 0 1rem;
-            font-size: small;
         }
     }
     .navbar-toggler {
         outline: 0;
-        padding: 0;
+        padding: .25rem .75rem;
         &-icon {
             height: 2px;
             width: 25px;
             transition: all 0.2s;
-            background: rgba(255, 255, 255, 0.7);
+            background: rgba(0,0,0,.5);
             display: block;
             &:not(:last-child) {
-                margin-bottom: 5px;
+                margin-bottom: 6px;
             }
             &:nth-child(1) {
                 transform: rotate(45deg);
@@ -127,7 +138,7 @@ a.navbar-brand {
             }
             &:nth-child(3) {
                 transform: rotate(-45deg);
-                transform-origin: 10% 90%;
+                transform-origin: 0% 90%;
             }
         }
         &.collapsed {
@@ -144,5 +155,9 @@ a.navbar-brand {
                 }
             }
         }
+    }
+    .dropdown-toggle::after {
+        display: none;
+        border: none;
     }
 }

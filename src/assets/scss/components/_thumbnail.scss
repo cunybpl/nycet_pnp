@@ -18,14 +18,14 @@
   }
 
   &-content {
-    background-color: $light-gray;
+    background-color: $nycet-gray-light;
     height: 100%;
     width: 55%;
     padding: 1.5rem 0;
 
     p {
       color: black;
-      font-size: smaller;
+      font-size: inherit;
     }
 
     ul {
@@ -35,11 +35,13 @@
     }
 
     li {
-      line-height: 1.4rem;
-      margin-left: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: $primary;
 
       a {
         text-decoration: underline;
+        white-space: nowrap;
       }
     }
   }
@@ -55,9 +57,9 @@ h5.card-title {
 
 h6.related-title {
   font-weight: bold;
-  font-size: 12px;
+  font-size: 85%;
   text-transform: uppercase;
-  color: #484848;
+  margin-bottom: 1.5rem;
 }
 
 .show-html-element {
@@ -68,3 +70,10 @@ h6.related-title {
   background-color: #e8e8e8;
   background-image: url(/images/hero/guide-thumb-placeholder.jpg);
 }
+
+// .card-related-list li {
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   color: $primary;
+//   margin-bottom: .125rem;
+// }

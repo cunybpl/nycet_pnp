@@ -1,7 +1,25 @@
 :root {
-  --tab-border-active: 2px solid #{$dark-green};
-  --tab-border: 2px solid transparent;
+  --max-width: unset;
 }
+
+@media (min-width: 768px) {
+  :root {
+    --max-width: 688px;
+  } 
+}
+
+@media (min-width: 992px) {
+  :root {
+    --max-width: 928px;
+  }  
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --max-width: 1108px;
+  }  
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding: 7.5rem;
@@ -9,7 +27,7 @@ html {
 }
 
 body {
-  background: linear-gradient($dark-green 50%, #f7f7f7 50%) fixed;
+  line-height: 1.5;
 }
 
 #content {
@@ -52,4 +70,12 @@ img[src*="#center"] {
 
 table ul {
   padding-left: 1rem;
+}
+
+.fa {
+  font-size: 1.2rem;
+}
+
+li > p {
+  margin-bottom: .5rem;
 }

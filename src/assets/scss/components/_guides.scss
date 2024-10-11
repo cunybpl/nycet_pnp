@@ -1,5 +1,7 @@
 .search-header {
   align-items: center;
+  max-width: var(--max-width);
+  padding-inline: 0;
 }
 
 #guide-breadcrumbs {
@@ -13,29 +15,30 @@
   li {
     display: inline;
     white-space: nowrap;
-    color:#ffffff82;
+    color: $body-color;
     &:not(:first-of-type)::before {
-      content: "›";
-      padding: 1.5rem;
+      content: "/";
+      padding: .5rem;
+      color: $nycet-gray-dark
     }
     a {
-      color: white;
+      color: $primary;
     }
     a:hover {
       text-decoration: underline;
+      color: $nycet-green-dark;
     }
   }
 }
 
 .breadcrumbs {
-  background-color: $primary;
-  height: 3.5rem;
   display: flex;
   align-items: center;
+  padding: .75rem 1rem;
 }
 
-#content {
-  background: linear-gradient($primary 50%, white 50%) fixed;
+.breadcrumbs .container {
+  max-width: var(--max-width);
 }
 
 .content a {
@@ -47,25 +50,25 @@
 //   text-decoration: underline;
 // }
 
-h2, h3, h4 {
-  margin-top: 3rem;
-}
-
 .header-link {
   opacity: 0;
   color: $primary;
   position: relative;
 }
 
+.header-link i {
+  font-size: 80%;
+}
+
 :is(h1, h2, h3, h4, h5, h6):hover a.header-link {
   opacity: 1;
 }
 
-.header-link-icon {
-  fill: $primary;
-}
-
-[class$="page-content"] {
+.guide-page-content,
+.measurement-page-content,
+.calculation-page-content {
+  max-width: var(--max-width);
+  padding-inline: 0;
   .title {
     text-align: center;
   }
@@ -78,8 +81,9 @@ h2, h3, h4 {
 
 .chip {
   border-radius: 50rem;
-  background-color:$dark-green;
-  font-size: medium;
+  background-color:$nycet-gray-dark;
+  color: white;
+  font-size: 60%;
   vertical-align: middle;
   display: inline-block;
   margin-left: 14px;
@@ -99,6 +103,7 @@ h2, h3, h4 {
 .guide-header-wrapper {
   padding-inline: 1rem;
   padding-block: 0;
+  margin-top: 0.75rem;
   position: sticky;
   top: 0;
   z-index: 3;
@@ -107,7 +112,8 @@ h2, h3, h4 {
   align-items: center;
   overflow-x: auto;
   overflow-y: hidden;
-  border-bottom: 2px solid $dark-green;
+  background-color: white;
+  border-bottom: 1px solid $nycet-gray;
 }
 
 .guide-header {
@@ -123,24 +129,32 @@ h2, h3, h4 {
     align-items: center;
   }
   &-tab-items {
+    --tab-border: .25rem;
     display: flex;
-    gap: .75rem;
-    align-items: end;
+    gap: 0;
+    align-items: center;
+    border: 1px solid $nycet-gray;
+    border-radius: var(--tab-border);
+    background-color:$nycet-gray-light;
     button {
-      border: 2px solid #2e6633;
-      background-color: $dark-green;
-      color: #fff;
+      img {
+        filter: invert(1);
+      }
+      background-color: transparent;
+      border: none;
+      border-right: 1px solid $nycet-gray;
+      color: black;
       font-size: 14px;
       font-weight: 700;
-      padding-block: .5em;
+      padding-block: .75em;
       padding-inline: 1rem;
-      border-radius: 8px;
       display: flex;
       flex-direction: row;
       justify-content: center;
       gap: 8px;
       align-items: center;
       width: max-content;
+      white-space: nowrap;
       .tab-icon {
         width: 30px;
         aspect-ratio: 1;
@@ -153,28 +167,59 @@ h2, h3, h4 {
       //   flex-direction: column;
       //   justify-content: center;
       // }
+      &:first-of-type {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: var(--tab-border);
+        border-bottom-left-radius: var(--tab-border);
+      }
+      &:last-of-type {
+        border-right: none;
+        border-top-right-radius: var(--tab-border);
+        border-bottom-right-radius: var(--tab-border);
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      &:hover {
+        img {
+          filter: none;
+        }
+        background-color: $nycet-green;
+        color: white;
+      }
     }
     button.active {
-      background-color: white !important;
-      color: $dark-bg !important;
-      border-top: var(--tab-border-active);
-      border-inline: var(--tab-border-active);
+      background-color: $nycet-green !important;
+      color: white !important;
       z-index: 2;
       img {
-        filter: invert(1);
+        filter: none;
       }
     }
   }
 }
 
-.header-tab-item:hover,
-.tabLink:hover {
-  background-color: #387e3e;
+.guide-header.container {
+  max-width: var(--max-width);
 }
+
+.guide-header-description {
+  margin: 1rem 0 0 0;
+}
+
+// .header-tab-item:hover,
+// .tabLink:hover {
+//   img {
+//     filter: none;
+//   }
+//   background-color: $nycet-gray-darker;
+//   color: white;
+// }
 
 .guide-wrapper {
   padding-inline: 1rem;
   background-color: white;
+  line-height: 1.7;
   min-height: 50vh;
 }
 
@@ -204,13 +249,14 @@ h2, h3, h4 {
 
     nav#TableOfContents {
       li.active-item {
-        background-color: #ebf4ec;
         font-weight: bold;
-        padding: 1rem;
-        border-radius: 10px;
+        > a,
+        > ul > li > a {
+          color: black;
+        }
       }
       a {
-        color: #6a6a6a;
+        color: $nycet-gray-darker;
       }
       a:hover {
         text-decoration: underline;
@@ -265,14 +311,14 @@ a.btt-btn {
   border: none;
   font-size: 1rem;
   padding: .75rem;
-  border: 1px solid #52a85a;
+  border: 1px solid $nycet-green;
   border-radius: 6px;
   width: 100%;
   text-align: center;
 }
 
 a.btt-btn:hover {
-  background-color: #52a85a;
+  background-color: $nycet-green;
   color: white;
 }
 
@@ -297,13 +343,14 @@ a.btt-btn:hover {
   overflow-x: hidden;
   display: block;
   white-space: nowrap;
-  max-width: 50ch;
+  max-width: 42ch;
   scrollbar-width: thin;
 }
 
 .content {
   padding-bottom: 5rem;
 }
+
 .content > h2:first-of-type {
   margin-top: 0;
 }
@@ -338,7 +385,7 @@ a.btt-btn:hover {
 table {
   /* Change these properties */
   --border: 1px solid #bdbdbd;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   border: var(--border);
   /* Don't change these properties */
   border-spacing: 0;
@@ -547,7 +594,7 @@ a.footnote-backref:hover {
 }
 .footnotes {
   font-size: 90%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 table caption p {
   margin-block: 0;

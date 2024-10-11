@@ -1,14 +1,15 @@
 {{ $pages := .pages }}
 <!-- PLANT GUIDES -->
 <section id="textPlants" class="tabcontent">
-  <div class="search-header container px-3 d-flex justify-content-between mt-5">
+  <div class="search-header container d-flex justify-content-between mt-4">
     <div>
       <h2 id="guide-header-plants">
         All Plants
       </h2>
+      <p class="guide-header-description">Placeholder for description of this equipment</p>
     </div>
   </div>
-  <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
+  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
     {{ range .guides.plants.documents }}
       {{ $guideTitle := .title }}
       {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -36,14 +37,15 @@
 </section>
 <!-- SYSTEM GUIDES -->
 <section id="textSystems" class="tabcontent">
-  <div class="search-header container px-3 d-flex justify-content-between" style="margin-top: 3rem;">
+  <div class="search-header container d-flex justify-content-between mt-4">
     <div>
       <h2 id="guide-header-systems">
         All Systems
       </h2>
+      <p class="guide-header-description">Placeholder for description of this equipment</p>
     </div>
   </div>
-  <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
+  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
     {{ range .guides.systems.documents }}
     {{ $guideTitle := .title }}
     {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -71,14 +73,15 @@
 </section>
 <!-- COMPONENT GUIDES -->
 <section id="textComponents" class="tabcontent">
-  <div class="search-header container px-3 d-flex justify-content-between" style="margin-top: 3rem;">
+  <div class="search-header container d-flex justify-content-between mt-4">
     <div>
       <h2 id="guide-header-components">
         All Components
       </h2>
+      <p class="guide-header-description">Placeholder for description of this equipment</p>
     </div>
   </div>
-  <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
+  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
     {{ range .guides.components.documents }}
     {{ $guideTitle := .title }}
     {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -106,14 +109,15 @@
 </section>
 <!-- CALCULATION METHODOLOGIES -->
 <section id="textCalculations" class="tabcontent">
-  <div class="search-header container px-3 d-flex justify-content-between" style="margin-top: 3rem;">
+  <div class="search-header container d-flex justify-content-between mt-4">
     <div>
       <h2 id="guide-header-calculations">
         All Calculations
       </h2>
+      <p class="guide-header-description">Placeholder for description of this equipment</p>
     </div>
   </div>
-  <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
+  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
     {{ range .guides.calculations.documents }}
     {{ $guideTitle := .title }}
     {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -141,14 +145,15 @@
 </section>
 <!-- MEASUREMENT TECHNIQUES -->
 <section id="textMeasurements" class="tabcontent">
-  <div class="search-header container px-3 d-flex justify-content-between" style="margin-top: 3rem;">
+  <div class="search-header container d-flex justify-content-between mt-4">
     <div>
       <h2 id="guide-header-measurements">
         All Measurements
       </h2>
+      <p class="guide-header-description">Placeholder for description of this equipment</p>
     </div>
   </div>
-  <div class="container px-0 mt-5 d-flex flex-wrap justify-content-between">
+  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
     {{ range .guides.measurements.documents }}
       {{ $guideTitle := .title }}
       {{ $guideId := replace (urlize .title | lower) " " "-" }}

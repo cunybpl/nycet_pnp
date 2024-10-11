@@ -2,16 +2,28 @@
 // Colors
 //
 
+//NYCET
+$nycet-green: #1dac50; //try #17823d for AA
+$nycet-green-dark: #189143;
+$nycet-green-darker: #147a38;
+$nycet-blue: #16232b;
+$nycet-gray-light: #f8f9fa;
+$nycet-gray: #ced4da;
+$nycet-gray-dark: #6c757d;
+$nycet-gray-darker: #5a6268;
+
 // General
-$primary: #429049;
+$primary: $nycet-green;
 $light-gray: #f7f7f7;
+$dark-gray: #ced4da;
 $secondary: #42904933;
 $light-yellow: #fff8e1;
 $dark-bg: #19232A;
 $dark-green: #36733c;
+
 // Text
-$headings-color: #353535;
-$body-color: #353535;
+$nav-color: #7B7B7B;
+$body-color: #212529;
 
 //
 // Typography
@@ -23,7 +35,7 @@ $font-family-base: "Roboto", sans-serif;
 $headings-font-family: "Roboto", sans-serif;
 
 // Size
-$font-size-base: 1.125rem; // 18px
+$font-size-base: 1rem; // 18px
 $h1-font-size: 48px;
 $h2-font-size: 35px;
 $h3-font-size: 28px;

@@ -1,7 +1,10 @@
-<section class="p-3 breadcrumbs">
+<section class="breadcrumbs">
   <div class="container p-0">
     <ol id="guide-breadcrumbs">
-      <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+      <li><a href="{{ .Site.Params.wordpressWebsiteURL }}">Home</a></li>
+      <li><a href="https://nycenergytools.com/resources/">Resources</a></li>
+      <li><a href="https://nycenergytools.com/resources/all-guides/">Guides</a></li>
+      <li><a href="{{ .Site.Home.RelPermalink }}">{{.Site.Title}}</a></li>
       <li>{{ .Title }}</li>
     </ol>
   </div>
