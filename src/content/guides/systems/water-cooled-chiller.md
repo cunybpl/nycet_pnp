@@ -54,6 +54,7 @@ The expansion valve depressurizes the warm refrigerant between the condenser and
 
 The primary energy consumption in a water-cooled chiller is the electricity used by the compressor motor and its controls. Thermal energy rejected by the chiller to the outdoors can be measured to evaluate the overall performance of the chiller, which can be expressed as kilowatts of power consumption per ton of cooling provided (kW/ton). Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a water-cooled chiller. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -155,7 +156,8 @@ The primary energy consumption in a water-cooled chiller is the electricity used
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Locations
 

@@ -86,6 +86,7 @@ Convectors are similar to radiators in how energy is received but rely almost ex
 
 The primary energy consumption in a HWH loop is the electricity used to run the pump motors. The heat loss across the piping network contributes to the overall energy consumption for the entire HWH plant, in particular the boiler system. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a HWH loop system. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -198,7 +199,8 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Locations
 

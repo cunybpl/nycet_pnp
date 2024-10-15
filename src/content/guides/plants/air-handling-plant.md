@@ -84,6 +84,7 @@ A system that uses a fast-moving primary air stream (usually created by a set of
 
 The energy consumption in an air handling plant is the sum of the energy used by each AHU system, including the electricity to power the supply and return fans and the energy needed to heat or cool the air through the AHU. Heating and cooling energy may come from a central heating or cooling plant or from an energy source processed directly at the AHU, such as natural gas for heating or electricity to drive compressor-based cooling. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption of an air handling plant.
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components, and measurements</caption>
     <thead>
@@ -181,7 +182,8 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Further Reading
 

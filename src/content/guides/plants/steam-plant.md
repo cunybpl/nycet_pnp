@@ -89,6 +89,7 @@ The blowdown system removes suspended solids and sludge from the boiler water in
 
 The total energy consumption of a steam plant is the sum of the energy consumption of the components of each system: the fuel usage consumed by the boiler to satisfy the heating load of the building, and the electricity required by the burner fan motor, condensate pump and feedwater pump. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the steam plant. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Steam Plant Values</caption>
     <thead>
@@ -137,7 +138,8 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Further Reading
 

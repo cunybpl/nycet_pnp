@@ -22,6 +22,7 @@ A constant-speed, constant-volume (CSCV) fan uses a power-driven rotating impell
 
 Table 1 shows the plant and system configurations that may contain a CSCV fan and motor and the most common respective controlling variables. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Plants and systems containing constant-speed fans.</caption>
     <thead>
@@ -115,12 +116,14 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
         </tr>
     </tbody>
-</table>   
+</table> 
+</div>  
 
 ## Evaluation of Energy Consumption
 
 The primary energy source for a CSCV fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV fan and motor.  
 
+<div class="table-wrapper">
 <table>
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
@@ -170,7 +173,8 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
             </td>
         </tr>
     </tbody>
-</table>  
+</table> 
+</div> 
 
 ### Measurement Strategy
 
@@ -191,6 +195,7 @@ In some cases, the operational schedule of the motor will be related to the heat
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
@@ -279,7 +284,8 @@ Table 3 provides the equipment required to carry out the measurements of this co
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Calculation Methodology
 

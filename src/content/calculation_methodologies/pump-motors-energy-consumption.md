@@ -15,6 +15,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
 
 ## Calculators
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Pump motor energy calculators</caption>
     <thead>
@@ -59,7 +60,8 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Pump Motor Calculations
 

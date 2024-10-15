@@ -52,6 +52,7 @@ The boiler is one of the largest energy consuming systems in any heating plant. 
 
 The primary energy consumption of a boiler system is the fuel that is used to drive the combustion reaction to heat the water. Table 1 provides a summary of measurements needed to quantify the annual consumption and operating characteristics of a boiler.  
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -109,7 +110,8 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
             </td>
         </tr>
     </tbody>
-</table>   
+</table> 
+</div>  
 
 ### Measurement Locations
 

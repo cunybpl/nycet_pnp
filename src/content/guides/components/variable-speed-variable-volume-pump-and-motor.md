@@ -28,6 +28,7 @@ A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., 
 
 Table 1 shows the plant and system configurations that may contain a VSVV pump and motor and the controlling variable. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Plants and systems applicable to variable-speed pumps</caption>
     <thead>
@@ -201,12 +202,14 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Evaluation of Energy Consumption
 
 The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
+<div class="table-wrapper">
 <table>
 <caption>
     
@@ -244,7 +247,8 @@ Table 2. Key values and measurements[^1]
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Strategy
 
@@ -262,6 +266,7 @@ The measurement strategy for a variable-speed pump and motor is to measure power
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
@@ -332,7 +337,8 @@ Table 3 provides the equipment required to carry out the measurements of this co
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Calculation Methodology
 

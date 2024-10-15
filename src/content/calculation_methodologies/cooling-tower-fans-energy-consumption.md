@@ -34,6 +34,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
 
 ## Calculators
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Calculators for Cooling Tower Fans Energy Consumption</caption>
     <thead>
@@ -97,7 +98,8 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Cooling Tower Fan Calculations
 

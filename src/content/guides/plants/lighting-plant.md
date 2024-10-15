@@ -54,6 +54,7 @@ The light fixture system is comprised of the luminaires, lamps, and controls. Co
 
 To quantify the energy consumption of the lighting plant, the components of all lighting systems should be measured. Some facilities may have a combination of the above-mentioned systems and a level of engineering judgement will be necessary to determine how much of what to measure.
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Lighting Plant Values</caption>
     <thead>
@@ -81,7 +82,8 @@ To quantify the energy consumption of the lighting plant, the components of all 
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Further Reading
 
