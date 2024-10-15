@@ -168,7 +168,8 @@ Table 1 provides a summary of system component measurements and values needed to
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Locations
 

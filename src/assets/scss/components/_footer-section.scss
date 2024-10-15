@@ -17,6 +17,9 @@
       a {
         color: black;
       }
+      li > a:hover {
+        text-decoration: underline;
+      }
     }
     &__widget {
         display: flex;
@@ -24,9 +27,6 @@
         // padding: 100px 0;
         > div {
             padding-left: 0;
-        }
-        @include desktop {
-            text-align: center;
         }
     }
     &__footer {
@@ -53,28 +53,42 @@
     }
 }
 
-.site-links li {
-    font-size: .875rem;
+.site-map-cats {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
 }
 
-@media (max-width:800px){
-.footer {
-    &__cta {
-        .form {
-            input {
+.site-links li {
+    font-size: .875rem;
+    > a {
+        color: $body-color;
+    }
+}
+
+@media (max-width:800px) {
+    .footer {
+        &__cta {
+            .form {
+                input {
+                width: 100%;
+                }
             }
-            width: 100%;
         }
     }
 }
-@media (max-width:575) {
+
+@media (max-width:575px) {
     .footer {
         &__cta {
             padding: 40px 40px;
         }
     }
+    .site-map-cats {
+        flex-direction: column;
+    }
 }
-}
+
 @keyframes moveLeft {
     0%,
     100% {

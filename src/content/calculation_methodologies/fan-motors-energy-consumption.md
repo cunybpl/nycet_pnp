@@ -19,6 +19,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
 
 ## Calculators
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Fan motor energy calculators</caption>
     <thead>
@@ -76,7 +77,8 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
                 </ul>
             </td>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Fan Motor Calculations
 

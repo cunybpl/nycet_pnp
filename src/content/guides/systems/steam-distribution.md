@@ -74,6 +74,7 @@ If present, a vacuum pump is located after the steam traps and lowers the pressu
 
 The steam distribution system distributes heat energy, with losses to the non-conditioned environment along the way, but does not inherently consume energy. The exceptions are systems with a vacuum pump, which consumes electricity. Generally the energy related to the steam distribution system is not quantified; instead the energy consumption of the overall low pressure steam plant is quantified. For more information see <a href="/documents/plants/steam-plant">Steam Plant</a>.
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -114,7 +115,8 @@ The steam distribution system distributes heat energy, with losses to the non-co
             </td>
         </tr>
     </tbody>
-</table>  
+</table> 
+</div> 
 
 ## Further Reading
 

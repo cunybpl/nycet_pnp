@@ -27,6 +27,7 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
 
 ## Calculators
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Lighting energy calculators</caption>
     <thead>
@@ -100,7 +101,8 @@ A.1, A.2 and A.3 are the methodologies used when measuring electricity with data
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Lighting Energy Consumption
 

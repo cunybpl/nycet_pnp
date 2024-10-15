@@ -53,6 +53,7 @@ An economizer or flue gas heat recovery unit is a heat exchanger that is install
 
 The primary energy consumption in a feedwater system is the electricity used to run the pump motors. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the feedwater system.
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -92,7 +93,8 @@ The primary energy consumption in a feedwater system is the electricity used to 
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 The primary effect of the economizer is to minimize the fuel usage by recovering heat from the flue stack to pre-heat the feedwater injected into the boiler. Generally, the economizer effect can be reflected in the energy consumption of the overall low pressure steam plant. For more information see the <a href="/documents/plants/water-cooled-chilled-water-plant">steam plant</a>. 
 

@@ -380,6 +380,10 @@ a.btt-btn:hover {
   margin: -1rem 0 -1rem auto;
 }
 
+.table-wrapper {
+  overflow-x:auto;
+  margin-bottom: 3rem;
+}
 // custom table style
 
 table {
@@ -387,11 +391,10 @@ table {
   --border: 1px solid #bdbdbd;
   border-radius: 0.25rem;
   border: var(--border);
+  margin-bottom: .25rem;
   /* Don't change these properties */
   border-spacing: 0;
   border-collapse: separate;
-  min-width: 825px;
-  margin-bottom: 4rem;
   position: relative;
   table-layout: auto;
   line-height: 1.65;

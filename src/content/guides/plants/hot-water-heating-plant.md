@@ -63,6 +63,7 @@ The feedwater system provides treated make-up water and returned hot water from 
 
 The total energy consumption of a HWH plant is the sum of the energy consumption of the components of each system. In a HWH plant this includes the fuel usage consumed by the boiler to satisfy the heating load and the electricity required by the burner fan motor, primary and secondary pumps and feedwater pump. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the HWH plant.  
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Hot Water Heating Plant Values</caption>
     <thead>
@@ -129,7 +130,8 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Further Reading
 

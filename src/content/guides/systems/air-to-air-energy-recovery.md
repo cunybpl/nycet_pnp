@@ -100,6 +100,7 @@ The primary effect of air-to-air energy recovery is to reduce fuel and/or electr
 
 Table 1 provides a summary of the components to measure to arrive at values needed to quantify the annual energy consumption of a heat recovery system.  
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -152,7 +153,8 @@ Table 1 provides a summary of the components to measure to arrive at values need
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Locations
 

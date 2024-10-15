@@ -98,32 +98,32 @@ title = "Protocols & Procedures"
   name = "Resources"
   identifier="resources"
   url = "resources/"
-  weight = 3
+  weight = 1
 ### Resources sub-menu
 [[menu.main]]
   parent = "resources"
   identifier = "resources-guides"
   name = "Guides"
-  url = "all-guides/"
-  weight = 1
+  url = "resources/all-guides/"
+  weight = 2
 [[menu.main]]
   parent = "resources"
   identifier = "resources-tools"
   name = "Tools"
   url = "resources/tools/"
-  weight = 2
+  weight = 3
 [[menu.main]]
   parent = "resources"
   identifier = "resources-case-studies"
   name = "Case Studies"
   url = "resources/case-studies/"
-  weight = 3
+  weight = 4
 [[menu.main]]
   parent = "resources"
   identifier = "resources-coaching"
   name = "Coaching"
   url = "resources/coaching/"
-  weight = 4
+  weight = 5
 
 ## Support
 [[menu.main]]
@@ -198,104 +198,110 @@ title = "Protocols & Procedures"
 ## Equipment
 ### Logger
 [[menu.sitemap]]
-name = "Logger"
-url = "equipment-type/logger/"
+  name = "Logger"
+  url = "equipment-type/logger/"
 [menu.sitemap.params]
   category = "equipment"
 ### Meter
 [[menu.sitemap]]
-name = "Meter"
-url = "equipment-type/meter/"
+  name = "Meter"
+  url = "equipment-type/meter/"
 [menu.sitemap.params]
   category = "equipment"
 ### Receiver
 [[menu.sitemap]]
-name = "Receiver"
-url = "equipment-type/receiver/"
+  name = "Receiver"
+  url = "equipment-type/receiver/"
 [menu.sitemap.params]
   category = "equipment"
 ### Sensor
 [[menu.sitemap]]
-name = "Sensor"
-url = "equipment-type/sensor/"
+  name = "Sensor"
+  url = "equipment-type/sensor/"
 [menu.sitemap.params]
   category = "equipment"
 ### Sensor Node
 [[menu.sitemap]]
-name = "Sensor Node"
-url = "equipment-type/sensor-node/"
+  name = "Sensor Node"
+  url = "equipment-type/sensor-node/"
 [menu.sitemap.params]
   category = "equipment"
 ### Simulation
 [[menu.sitemap]]
-name = "Simulaiton"
-url = "equipment-type/simulation/"
+  name = "Simulaiton"
+  url = "equipment-type/simulation/"
 [menu.sitemap.params]
   category = "equipment"
 ### Software
 [[menu.sitemap]]
-name = "Software"
-url = "equipment-type/software/"
+  name = "Software"
+  url = "equipment-type/software/"
 [menu.sitemap.params]
   category = "equipment"
 
-## Equipment Kits
-### Measurement and Verification
-[[menu.sitemap]]
-name = "Measurement and Verification"
-url = "equipment-kits/?_application=mv"
-[menu.sitemap.params]
-  category = "equipment-kits"
+## Kits
 ### Building Re-tuning
 [[menu.sitemap]]
-name = "Building Re-tuning"
-url = "equipment-kits/?_application=brt"
+  name = "Building Re-tuning"
+  url = "equipment-kits/?_application=brt"
 [menu.sitemap.params]
   category = "equipment-kits"
-### Operations and Maintenance
+### Energy Audit
 [[menu.sitemap]]
-name = "Operations and Maintenance"
-url = "equipment-kits/?_application=om"
+  name = "Energy Audit"
+  url = "equipment-kits/?_application=energy-audit"
+[menu.sitemap.params]
+  category = "equipment-kits"
+### Measurement and Verification
+[[menu.sitemap]]
+  name = "Measurement and Verification"
+  url = "equipment-kits/?_application=mv"
+[menu.sitemap.params]
+  category = "equipment-kits"
+### Troubleshoot Issue
+[[menu.sitemap]]
+  name = "Troubleshoot Issue"
+  url = "equipment-kits/?_application=troubleshoot-issue"
 [menu.sitemap.params]
   category = "equipment-kits"
 
 ## Resources
 ### Guides
 [[menu.sitemap]]
-name = "Guides"
-url = "/"
+  name = "Guides"
+  url = "resources/all-guides/"
 [menu.sitemap.params]
   category = "resources"
 ### Tools
 [[menu.sitemap]]
-name = "Tools"
-url = "resources/tools/"
+  name = "Tools"
+  url = "resources/tools/"
 [menu.sitemap.params]
   category = "resources"
 ### Coaching
 [[menu.sitemap]]
-name = "Guides"
-url = "resources/coaching/"
+  name = "Coaching"
+  url = "resources/coaching/"
 [menu.sitemap.params]
   category = "resources"
 ### Case Studies
 [[menu.sitemap]]
-name = "Guides"
-url = "case-studies/"
+  name = "Case Studies"
+  url = "case-studies/"
 [menu.sitemap.params]
   category = "resources"
 
 ## Support
 ### Borrowing Guidelines
 [[menu.sitemap]]
-name = "Borrowing Guidelines"
-url = "support/borrowing-guidelines/"
+  name = "Borrowing Guidelines"
+  url = "support/borrowing-guidelines/"
 [menu.sitemap.params]
   category = "support"
 ### Contact
 [[menu.sitemap]]
-name = "Contact"
-url = "support/contact/"
+  name = "Contact"
+  url = "support/contact/"
 [menu.sitemap.params]
   category = "support"
 

@@ -44,6 +44,7 @@ Dampers are generally interlocked and are controlled to supply appropriate quant
 
 The primary energy consumption of a CSCV is the electricity that is used to run the fan and motor and the energy transferred to the air for heating and cooling. Table 1 provides a summary of measurements needed to quantify the annual consumption and operating characteristics of the CSCV pump and motor. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -94,7 +95,8 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Locations
 

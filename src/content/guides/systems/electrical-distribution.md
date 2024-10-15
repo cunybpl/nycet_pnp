@@ -68,6 +68,7 @@ Figure 4: Example of a mixed panelboard schedule.[^1]
 
 The electrical distribution system does not consume electricity, but it can be a useful point at which to measure the electrical energy associated with the Lighting Plant.
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -107,7 +108,8 @@ The electrical distribution system does not consume electricity, but it can be a
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Locations
 

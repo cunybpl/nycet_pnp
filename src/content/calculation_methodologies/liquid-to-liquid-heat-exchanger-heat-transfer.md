@@ -31,6 +31,7 @@ This methodology works with hourly data only and each measurement is taken at th
 
 ## Calculator
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Liquid-to-liquid heat transfer calculator</caption>
     <thead>
@@ -61,12 +62,14 @@ This methodology works with hourly data only and each measurement is taken at th
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Heat-transfer Calculation
 
 The following equations are used to calculate the sensible heat transferred by the heat exchanger for a full year. All data used in this section should be measured with data loggers. A list of data that is required is summarized in Table 1.
 
+<div class="table-wrapper">
 <table>
     <caption>Table 2. Hourly measured data to calculate heat transfer.</caption>
     <thead>
@@ -96,7 +99,8 @@ The following equations are used to calculate the sensible heat transferred by t
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 1. Calculate the mass flow rate of fluid 1 leaving the heat exchanger for each hour interval.
 

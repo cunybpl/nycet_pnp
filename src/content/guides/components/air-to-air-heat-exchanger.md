@@ -19,6 +19,7 @@ In a building, an air-to-air heat exchanger can be used to recover latent or sen
 
 Table 1 shows the plant and system configurations that may contain an air-to-air heat exchanger. 
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 1. Plants and systems applicable to air-to-air heat exchanger.</caption>
     <thead>
@@ -81,12 +82,14 @@ Table 1 shows the plant and system configurations that may contain an air-to-air
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Evaluation of Heat Transfer 
 
 Table 2 provides a summary of measurements needed to quantify the annual energy transfer and operating characteristics of an air-to-air heat exchanger. 
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 2. Key values and measurements.</caption>
     <thead>
@@ -130,7 +133,8 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Strategy 
 
@@ -158,6 +162,7 @@ Figure 2 shows the measurement points in a rotary wheel heat exchanger.
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
@@ -254,7 +259,8 @@ Table 3 provides the equipment required to carry out the measurements of this co
             </td>
         </tr>   
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Calculation Methodology 
 

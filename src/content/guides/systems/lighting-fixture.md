@@ -51,6 +51,7 @@ Controls regulate the operation of the light fixtures, such as when they are tur
 
 Electricity is the energy source for all modern lighting systems. Table 1 provides a summary of system component measurements and values needed to quantify the hourly energy consumption and operating characteristics of a lighting fixture system.  
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Key values, components and measurements</caption>
     <thead>
@@ -118,7 +119,8 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Locations
 

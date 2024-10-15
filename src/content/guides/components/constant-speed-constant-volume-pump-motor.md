@@ -28,6 +28,7 @@ A constant-speed, constant-volume (CSCV) pump and motor operates at a single spe
 
 Table 1 shows the plant and system configurations that may contain a CSCV pump and motor that operate based on a regular schedule (e.g., same time of day, same days of week).
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 1. Plants and systems applicable to CSCV pumps and motors.</caption>
     <thead>
@@ -158,12 +159,14 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Evaluation of Energy Consumption
 
 The primary energy source for a CSCV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV pump and motor.
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 2. Key values and measurements.</caption>
     <thead>
@@ -198,7 +201,8 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Strategy
 
@@ -215,6 +219,7 @@ The measurement strategy for a CSCV pump and motor is to do a one-time measureme
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
@@ -266,7 +271,8 @@ Table 3 provides the equipment required to carry out the measurements of this co
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Calculation Methodology
 

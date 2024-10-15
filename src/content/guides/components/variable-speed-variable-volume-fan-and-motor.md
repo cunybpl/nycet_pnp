@@ -22,6 +22,7 @@ A variable speed fan and motor uses a power-driven rotating impeller to circulat
 
 Table 1 shows the plant and system configurations that may contain variable-speed fans and motors and the most common respective controlling variables. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 1. Plants and systems containing variable-speed fans.</caption>
     <thead>
@@ -111,11 +112,13 @@ Table 1 shows the plant and system configurations that may contain variable-spee
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Evaluation of Energy Consumption
 The primary energy source for a variable-speed fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the variable-speed fan and motor.
 
+<div class="table-wrapper">
 <table>
     <caption>Table 2. Key Values and measurements.</caption>
     <thead>
@@ -169,7 +172,8 @@ Controlling variable, weather dependent[^2]
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Strategy
 
@@ -187,6 +191,7 @@ The measurement strategy for a variable-speed fan and its motor is to measure po
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
@@ -243,7 +248,8 @@ Table 3 provides the equipment required to carry out the measurements of this co
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Calculation Methodology
 

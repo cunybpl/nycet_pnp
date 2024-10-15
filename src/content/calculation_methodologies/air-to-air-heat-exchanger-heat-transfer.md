@@ -35,6 +35,7 @@ Section A.1 describes how to calculate the sensible and latent heat transfer for
  
 To calculate latent heat transfer and effectiveness, first the humidity ratio $(lb_m/lb_m)$ must be calculated. Table 1 summarizes the equations used to determine humidity ratio for a given relative humidity value. The calculator selects the appropriate equation based on the measured hourly relative humidity and then uses the measured hourly temperature to run the calculation (CUNY BPL BRT, 2022, pp. 22). The equations in Table 1 result in a humidity ratio with units of grains of water per pound of dry air (grains/lb). The calculator performs an additional calculation to convert the units of grain/lb to $lb_m/lb_m$. 
 
+<div class="table-wrapper">
 <table markdown="1">
 <caption>
 
@@ -132,7 +133,8 @@ Table 1. Humidity Ratio Equations for Various Relative Humidity Values Based on 
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div> 
 
 <p class="step-indent">Where,</p>
 <p class="equation">$T =$ hourly measured air temperature of the respective air stream (F)</p>
@@ -144,6 +146,7 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
 
 ## Calculator
 
+<div class="table-wrapper">
 <table>
     <caption>Table 2. Air-to-air heat transfer calculator</caption>
     <thead>
@@ -177,7 +180,8 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Air-to-air Heat Exchanger Calculations
 
@@ -185,6 +189,7 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
 
 The following methodology is used to calculate the sensible and latent heat transferred by the ERV system during the measurement period only. Sensible and latent effectiveness are also calculated in this process. All data used in section A.1 should rely on data being measured with either data loggers or BMS historical trends. Measured data used in this section is summarized in Table 3. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 3. Hourly measured data required to calculate heat transfer.</caption>
     <thead>
@@ -230,7 +235,8 @@ The following methodology is used to calculate the sensible and latent heat tran
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 1. Calculate the mass flow rate of supply air leaving the ERV for each hour interval.
 
@@ -345,6 +351,7 @@ Sensible and latent heat effectiveness has the same conditions as heat transfer 
 
 To estimate the full year heat transfer, the occupancy patterns and schedule defined in the measurement period are extrapolated to the entire year. Supply air flow (Q2), return air flow (Q3), and sensible and latent effectiveness are calculated by performing a regression analysis with the variables listed in Table 4. Regression analysis plots data on a graph and generates a line that traces the distribution of data. The line has a formula associated with it and the formula is used to project the dependent variable for the full year. To accomplish this, the Microsoft Excel function LINEST is used with the values in Table 4. 
 
+<div class="table-wrapper">
 <table>
     <caption>Table 4. List of dependent and independent variables used in the regression analysis.</caption>
     <thead>
@@ -405,7 +412,8 @@ To estimate the full year heat transfer, the occupancy patterns and schedule def
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 <h3>Regressions 1 and 2</h3>
 

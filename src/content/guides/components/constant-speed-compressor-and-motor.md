@@ -18,6 +18,7 @@ url: "/documents/components/constant-speed-compressor-and-motor"
 A compressor is one of the main components of a chiller. A constant-speed compressor operates at a
 constant speed to raise the vapor pressure of the refrigerant and power the refrigeration cycle of the chiller. 
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 1. Plants and systems containing liquid-to-liquid heat exchangers.</caption>
     <thead>
@@ -57,12 +58,14 @@ constant speed to raise the vapor pressure of the refrigerant and power the refr
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ## Evaluation of Energy Transfer
 
 The primary energy source for a constant-speed compressor is the electricity used to run the compressor motor. Table 2 provides a summary of measurements needed to quantify the annual power consumption and operating characteristics of the constant-speed compressor and motor.
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 2. Key Values and Measurements.</caption>
     <thead>
@@ -97,7 +100,8 @@ The primary energy source for a constant-speed compressor is the electricity use
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 ### Measurement Strategy
 
@@ -114,6 +118,7 @@ A motor on/off data logger is used to record the operating schedule. The true RM
 
 ### Measurement Equipment
 
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
@@ -167,7 +172,8 @@ A motor on/off data logger is used to record the operating schedule. The true RM
             </td>
         </tr>
     </tbody>
-</table>
+</table> 
+</div>
 
 Further details about measurement tools and equipment associated with measurements in Figure 1 can be found <a href="">here</a> <!--link here FELL Kit for a constant-speed compressor and motor -->.
 
