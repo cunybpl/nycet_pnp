@@ -12,7 +12,7 @@
           {{ range .tabs }}
             <button id="tab-item-{{ .name }}" class="header-tab-item" onclick="displayGuideContent(event)">
               <div class="tab-icon">
-                <img src="{{ .icon | absURL }}" class="img-fluid">
+                {{ .icon | absURL }}
               </div>
               {{ .label }}
             </button>

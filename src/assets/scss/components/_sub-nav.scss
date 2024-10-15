@@ -37,7 +37,6 @@
   color: $body-color;
   border: none;
   border-right: 1px solid $nycet-gray;
-
   > svg {
     fill: inherit;
     margin-right: .5rem;
@@ -48,7 +47,6 @@
 .tab button.active {
   background-color: $nycet-green;
   color: white;
-
   > svg {
     fill: white;
   }
