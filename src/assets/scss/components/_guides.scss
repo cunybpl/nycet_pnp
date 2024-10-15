@@ -137,9 +137,6 @@
     border-radius: var(--tab-border);
     background-color:$nycet-gray-light;
     button {
-      img {
-        filter: invert(1);
-      }
       background-color: transparent;
       border: none;
       border-right: 1px solid $nycet-gray;
@@ -156,7 +153,6 @@
       width: max-content;
       white-space: nowrap;
       .tab-icon {
-        width: 30px;
         aspect-ratio: 1;
       }
       @include ipad {
@@ -180,20 +176,13 @@
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
       }
-      &:hover {
-        img {
-          filter: none;
-        }
+      &:hover,
+      &.active {
         background-color: $nycet-green;
         color: white;
-      }
-    }
-    button.active {
-      background-color: $nycet-green !important;
-      color: white !important;
-      z-index: 2;
-      img {
-        filter: none;
+        svg {
+          fill: white;
+        }
       }
     }
   }
@@ -332,6 +321,7 @@ a.btt-btn:hover {
 
 #guide-mg-content {
   padding-left: 2rem;
+  padding-right: 0;
 }
 
 .guide-header-title h1 {
