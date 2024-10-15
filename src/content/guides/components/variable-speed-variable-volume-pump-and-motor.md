@@ -236,7 +236,7 @@ Table 2. Key values and measurements[^1]
             <td>
                 <ul>
                     <li>Hourly power input to a VSVV pump motor at known speeds (e.g. 30%, 50%, 75%, 100%)</li>
-                    <li>Average hourly outside air temperature (OAT)</li>
+                    <li>Average hourly outdoor air temperature (OAT)</li>
                 </ul>
             </td>
             <td>
@@ -342,7 +342,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
 
 ### Calculation Methodology
 
-The general methodology for quantifying the energy consumption of a VSVV pump motor is determined by the true RMS power of the three-phase power supply either at the power main for the motor or at the three-phase input to the VFD. These values are regressed against outside air temperature to develop a temperature-dependent regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the system. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed pump.  
+The general methodology for quantifying the energy consumption of a VSVV pump motor is determined by the true RMS power of the three-phase power supply either at the power main for the motor or at the three-phase input to the VFD. These values are regressed against outdoor air temperature to develop a temperature-dependent regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the system. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed pump.  
 
 <br></br>
 <i>Click the button below to go to the calculators for this component.</i>

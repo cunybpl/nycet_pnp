@@ -18,7 +18,7 @@ url: "/documents/components/variable-speed-variable-volume-fan-and-motor"
 
 ## General Overview
 
-A variable speed fan and motor uses a power-driven rotating impeller to circulate air. Air flow rates fluctuate as required by the plant and system it serves.  Outdoor air temperature (OAT) is the independent variable that drives the fan speed. The heating and cooling loads are affected by OAT. Axial and centrifugal fans with a variable speed drive are the most common type of variable speed fans used in buildings.  
+A variable speed fan and motor uses a power-driven rotating impeller to circulate air. Air flow rates fluctuate as required by the plant and system it serves. Outdoor air temperature (OAT) is the independent variable that drives the fan speed. The heating and cooling loads are affected by OAT. Axial and centrifugal fans with a variable speed drive are the most common type of variable speed fans used in buildings.  
 
 Table 1 shows the plant and system configurations that may contain variable-speed fans and motors and the most common respective controlling variables. 
 
@@ -165,10 +165,10 @@ Controlling variable, weather dependent[^2]
 
 </td>
             <td>
-                <p>Average hourly outside air temperature (F)</p>
+                <p>Average hourly outdoor air temperature (OAT)</p>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></p>
+                <p><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (OAT)</a></p>
             </td>
         </tr>
     </tbody>
@@ -242,7 +242,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
             </td>
             <td width="33.333333333333336%">
                 <ul>
-                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor Air Temperature (F)</a></li>
+                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor Air Temperature (OAT)</a></li>
                     <li><a href="/documents/measurement-technique/relative-humidity">Relative Humidity (%)</a></li>
                 </ul>
             </td>

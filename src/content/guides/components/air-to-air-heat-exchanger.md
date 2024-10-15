@@ -111,7 +111,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Energy recovered by the heat exchanger</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Hourly Btu/h transferred to the outside air entering the system&nbsp;</p>
+                <p>Hourly Btu/h transferred to the outdoor air entering the system&nbsp;</p>
             </td>
             <td width="33.333333333333336%">
                 <ul>
@@ -238,6 +238,26 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Hot-Wire-Anenomenter-TSI-9545-300x300@2x.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Hot-Wire-Anenomenter-TSI-9545-300x300@2x.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                Hot Wire Anemometer (Blue) (TSI 9545)
+            </td>
+            <td width="33.333333333333336%">
+                Simultaneously measures and logs data for several ventilation parameters using a single probe with multiple sensors. It measures velocity, temperature, and relative humidity, and calculates flow, wet bulb, and dew point temperature.
+            </td>
+            <td width="33.333333333333336%">
+                <ul>
+                <li><a href="/documents/measurement-technique/system-air-temperature">System Air Temperature (F)</a></li>
+                <li><a href="/documents/measurement-technique/relative-humidity">Relative Humidity (%)</a></li>
+                </ul>
+            </td>
+        </tr>   
     </tbody>
 </table> 
 </div>
