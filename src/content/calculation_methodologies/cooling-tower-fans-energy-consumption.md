@@ -12,9 +12,10 @@ related_components:
 related_measurements:
   - Electrical Current
 associated_calculators:
-  - CSCV Single-speed CT Fan Energy Calculator
-  - CSCV Two-speed CT Fan Energy Calculator
-  - VSVV CT Fan Energy Calculator
+  - Constant Speed CT Fan Energy Using Motor Runtime Data
+  - Constant One or Two Speed CT Fan Energy Using kW Data
+  - Constant One or Two Speed CT Fan Energy Using Electrical Current Data
+  - Variable Speed CT Fan Energy Using kW Data
 url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 ---
 
@@ -36,64 +37,79 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Calculators for Cooling Tower Fans Energy Consumption</caption>
+    <caption>Table 1. Calculators for Cooling Tower (CT) Fans Energy Consumption</caption>
     <thead>
         <tr>
             <td>
-                <p><strong>Calculator (Downloadable Files)</strong></p>
+                <strong>Calculator (Downloadable Files)</strong>
             </td>
             <td>
-                <p><strong>Description</strong></p>
+                <strong>Description</strong>
             </td>
             <td>
-                <p><strong>Required Data To Use This Calculator</strong></p>
+                <strong>Required Data To Use This Calculator</strong>
             </td>
         </tr>
     <tbody>
         <tr>
             <td>
-                <a href="/downloadables/cscv_single_speed_CT_fan_energy_calculator_2023_0117.xlsx" download><p></p>Constant-speed or single-speed cooling tower fans energy consumption.xlsx</a>
+                <a href="/downloadables/cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx" download>Constant Speed CT Fan Energy Using Motor Runtime Data.xlsx</a>
             </td>
             <td>
-                <p>Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.</p>
+                Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.
             </td>
             <td>
                 <ul>
                 <a href="/documents/measurement-technique/motor-runtime"><li>Hourly motor runtime (seconds)</li></a> 
                 <a href="/documents/measurement-technique/true-rms-power"><li>One-time true RMS power (kW)</li></a> 
-                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Outdoor air temperature (F)</li></a> 
-                <a href="/documents/measurement-technique/relative-humidity"><li>Relative humidity (%)</li></a>
+                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Hourly Outdoor air temperature (F)</li></a> 
+                <a href="/documents/measurement-technique/relative-humidity"><li>Hourly Relative humidity (%)</li></a>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/downloadables/cscv_two_speed_CT_fan_energy_calculator_2023_0117.xlsx" download><p></p>Constant or two-speed cooling tower fans energy consumption.xlsx</a>
+                <a href="/downloadables/cscv_CT_fan_single_speed_kW_data_calculator_2023_0113.xlsx" download>Constant One or Two Speed CT Fan Energy Using kW Data.xlsx</a>
             </td>
             <td>
-                <p>Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans. Spot measurements of voltage and power factor are required.</p>
+                Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed cooling tower fan motor.
+            </td>
+            <td>
+                <ul>
+                    <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power (kW)</li></a>
+                    <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Hourly Outdoor air temperature (F)</li></a>
+                    <a href="/documents/measurement-technique/relative-humidity"><li>Hourly Relative Humidity (%)</li></a>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/downloadables/cscv_CT_fan_two_speed_current_data_calculator_2023_0117.xlsx" download>Constant One or Two Speed CT Fan Energy Using Electrical Current Data.xlsx</a>
+            </td>
+            <td>
+                Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans. Spot measurements of voltage and power factor are required.
             </td>
             <td>
                 <ul>
                 <a href="/documents/measurement-technique/electrical-current"><li>Hourly current (Amps)</li></a> 
-                <a href="/documents/measurement-technique/true-rms-power"><li>True RMS power (kW) at different fan speeds</li></a>
-                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Outdoor air temperature (F)</li></a> 
-                <a href="/documents/measurement-technique/relative-humidity"><li>Relative humidity (%)</li></a>
+                <a href="/documents/measurement-technique/true-rms-power"><li>One-time true RMS power (kW) at different fan speeds</li></a>
+                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Hourly Outdoor air temperature (F)</li></a> 
+                <a href="/documents/measurement-technique/relative-humidity"><li>Hourly Relative humidity (%)</li></a>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/downloadables/vsvv_CT_fan_energy_calculator_2023_0110.xlsx" download><p></p>Variable-speed cooling tower fans energy consumption.xlsx</a>
+                <a href="/downloadables/vsvv_CT_fan_kW_data_calculator_2023_0110.xlsx" download>Variable Speed CT Fan Energy Using kW Data.xlsx</a>
             </td>
             <td>
-                <p>Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan</p>
+                Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan
             </td>
             <td>
                 <ul>
                 <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power (kW)</li></a> 
-                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Outdoor air temperature (F)</li></a>
-                <a href="/documents/measurement-technique/relative-humidity"><li>Relative humidity (%)</li></a>
+                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Hourly Outdoor air temperature (F)</li></a>
+                <a href="/documents/measurement-technique/relative-humidity"><li>Hourly Relative humidity (%)</li></a>
                 <ul>
             </td>
         </tr>
@@ -101,9 +117,9 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
 </table> 
 </div>
 
-## Cooling Tower Fan Calculations
+## Cooling Tower (CT) Fan Calculations
 
-### Constant-speed or Single-speed Cooling Tower Fans Energy Consumption
+### Constant Speed CT Fan Energy Using Motor Runtime Data
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers on each fan in the tower.
 
@@ -162,7 +178,23 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$E =$ Annual energy, kWh</p> 
 <p class="equation">$CoolingSeason(t) =$ Does the given hour, t, fall within the cooling season, binary</p> 
 
-### Constant or Two-speed Cooling Tower Fans Energy Consumption
+### Constant One or Two Speed CT Fan Energy Using kW Data
+
+This calculation is for a cooling tower with constant-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger for each fan in the cooling tower.
+
+1. Total energy for each hour (Worksheet: "Step 2 Energy Calcs"). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (kWh).
+
+<p class="equation equation-center">\begin{equation} \bar{E}(t) = \sum_{f = 1}^F \bar{E}_{f}(t) \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$\bar{E}_{f}(t) =$ average hourly fan motor energy on for each fan, f, kWh</p> 
+<p class="equation">$\bar{E} =$ total average energy of all fan motors, kWh</p>
+<p class="equation">$F =$ total number of fans in the cooling tower</p>
+<p class="equation">$t =$ time index</p>
+
+2. The remainder of the workbook is the same as the motor runtime logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy.
+
+### Constant One or Two Speed CT Fan Energy Using Electrical Current Data
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include hourly average current (in Amps) as directly measured by current transformers, and spot measurements for true power for each fan in the cooling tower. 
 
@@ -183,7 +215,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
 
-### Variable-speed Cooling Tower Fans Energy Consumption
+### Variable Speed CT Fan Energy Using kW Data
 
 This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed. 
 
