@@ -6,12 +6,19 @@ calculation_methodology_id: 6
 excerpt: The equations and calculators in this page estimate the annual energy consumption of variable-speed and constant-speed pump motors.
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-motor-kit-variable-speed/"
 associated_calculators:
-  - CSCV Pump Energy Calculator
-  - VSVV Pump Energy Calculator
+  - Constant Speed Pump Energy Using Motor Runtime Data
+  - Constant One or Two Speed Pump Energy Using kW Data
+  - Constant One or Two Speed Pump Energy Using Electrical Current Data
+  - Variable Speed Pump Energy Using kW Data
+  - Variable Speed Pump Energy Using Motor Speed Data
 url: "/documents/calculation-methodology/pump-motors-energy-consumption"
 ---
 
 ## Introduction
+
+This methodology applies to pump motors that operate at constant or variable speed. Pump motors are used to move water throughout the building for heating or cooling. The calculators provided in this page use equations that estimate the annual energy consumption of a pump motor regardless of the system it is a part of. 
+    
+The type of data that is measured from the pump motor will determine the calculator to use. For more information on the type of data to collect, refer to table 1 in the next section.
 
 ## Calculators
 
@@ -32,7 +39,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
     <tbody>
         <tr>
             <td>
-                <p><a href="/downloadables/cscv_pump_energy_calculator_2020_0427.xlsx" download>Constant-speed, constant-volume pump energy calculator.xlsx</a></p>
+                <p><a href="/downloadables/cscv_pump_runtime_data_calculator_2020_0427.xlsx" download>Constant Speed Pump Energy Using Motor Runtime Data.xlsx</a></p>
             </td>
             <td>
                 <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.</p>
@@ -46,7 +53,34 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
         </tr>
         <tr>
             <td>
-                <p><a href="/dowdnloadables/vsvv_pump_energy_calculator_2020_0427.xlsx" download>Variable-speed, variable-volume pump energy calculator.xlsx</a></p>
+                <a href="/downloadables/cscv_pump_kW_data_calculator_2020_0427.xlsx" download>Constant One or Two Speed Pump Energy Using kW Data.xlsx</a>
+            </td>
+            <td>
+                Uses hourly electrical current data and spot measurement data of kW to estimate the annual energy consumption for a constant-speed one- or two-speed pump motor.
+            </td>
+            <td>
+                <ul>
+                    <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power (kW)</li></a>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/downloadables/cscv_pump_current_data_calculator_2020_0427.xlsx" download>Constant One or Two Speed Pump Energy Using Electrical Current Data.xlsx</a>
+            </td>
+            <td>
+                Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed pump motor.
+            </td>
+            <td>
+                <ul>
+                    <a href="/documents/measurement-technique/electrical-current"><li>Hourly electrical current (Amps)</li></a>
+                    <a href="/documents/measurement-technique/true-rms-power"><li>One-time measurement of true RMS power (kW)</li></a>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/downloadables/vsvv_pump_kW_data_calculator_2020_0427.xlsx" download>Variable Speed Pump Energy Using kW Data.xlsx</a></p>
             </td>
             <td>
                 <p>Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor</p>
@@ -58,12 +92,26 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="/downloadables/vsvv_pump_motor_speed_data_calculator_2020_0601.xlsx" download>Variable Speed Pump Energy Using Motor Speed Data.xlsx</a>
+            </td>
+            <td>
+                Uses hourly motor speed data obtained from the VFD or BMS and spot measurements of kW to estimate the annual energy consumption of a variable-speed pump motor.
+            </td>
+            <td>
+                <ul>
+                    <li>Hourly motor speed (RPM)</li>
+                    <a href="/documents/measurement-technique/true-rms-power"><li>One-time measurement of true RMS power (kW)</li></a>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
 ## Pump Motor Calculations
 
-### Constant-speed, constant-volume pump energy calculations
+### Constant Speed Pump Energy Using Motor Runtime Data
 
 This calculation tool is for a constant speed, constant volume system. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers. 
 
@@ -109,7 +157,46 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 <p class="equation">$DaysPerYear =$ 365.24</p>
 <p class="equation">$P =$ Measured pump power, kW</p>
 
-### Variable-speed, variable-volume pump energy calculations
+### Constant One or Two Speed Pump Energy Using kW Data
+
+This calculation tool is for a constant-speed, constant-volume pump. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger.
+
+1. Average % hour motor is on for each hour of each day of the week (Worksheet: "Step 3. Avg Day of Week Calcs").
+
+<p class="equation equation-center">\begin{equation} \bar{P}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} P(t)}{N(d,h)} \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$\bar{P}_{d,h} =$ average motor power for given day of week, d, and hour of day, h, kW</p>
+<p class="equation">$P(t) =$ measured motor power, kW</p>
+<p class="equation">$t =$ index for measured data points</p>
+<p class="equation">$N(h,d) =$ total number of measured data points that fall on day of week, d, and hour of the day, h</p>
+<p class="equation">$n \in t(d,h) =$ index for subset of measured data points that fall on day of week, d, and hour of the day, h</p>
+
+2. Calculate every used for full year (Worksheet: "Step 4. Results"). WeeksChillerOn is from Equation 5.
+
+<p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{d = 1}^7 \sum_{h = 1}^{24} \bar{P}_{d,h} \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$E =$ annual pump energy, kWh</p>
+<p class="equation">$WeeksChillerOn =$ 52</p>
+
+### Constant One or Two Speed Pump Energy Using Electrical Current Data
+
+This calculation tool is for a constant-speed, constant-volume pump. Measured input data include hourly average current (in Amps) as directly measured by current sensors, and spot measurements for true power.
+
+1. Convert average hourly current to percent on per hour (Worksheet: "Step 2. Percent Runtime Calcs").
+
+<p class="equation equation-center">\begin{equation} \%FanOn_{high,f}(t_{f}) = \begin{cases} \frac{I(t)}{I_{max}} & \text{if } I(t) < I_{max} \\  100\% & \text{o.w.} \end{cases} \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$\%On(t) =$ percent of an hour that the pump motor is on, %</p>
+<p class="equation">$I(t) =$ measured time that pump motor is on, seconds</p>
+<p class="equation">$t =$ index for each measured data point</p>
+<p class="equation">$I_{max} =$ current measured at the maximum constnat speed, Amps</p>
+
+2. Equations 3 to 6 are used to calculate the annual pump energy.
+
+### Variable Speed Pump Energy Using kW Data
 
 This calculation tool is for VFD-controlled pumps that are operated at speeds proportional to the heating/cooling load as represented by proxy with OAT. Measured input data include average hourly power draw (kW) as measured by a DENT data logging power logger, and the average hourly OAT as measured by a temperature/RH logger. 
 
@@ -145,6 +232,24 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 <p class="equation">$OAT'(t) =$ Hourly climate normal outside air temperature from National Weather Service at station closest to site, F</p>
 <p class="equation">$WeeksChillerOn =$ Cooling season (see Equation 5), weeks</p>
 
+### Variable Speed Pump Energy Using Motor Speed Data
+
+This calculation tool is for VFD-controlled pumps using hourly average motor speed (in RPM) as downloaded from a BAS or VFD, and spot measurements for true power.
+
+1. Convert the speed data from the BAS or VFD to power (Worksheet: "Step 2. Aggregate Data")
+
+<p class="equation equation-center">\begin{equation} P(t) = P_{max}(\frac{\omega(t)}{\omega_{max}})^{2.5} \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$P(t) =$ average hourly true RMS power, kW</p>
+<p class="equation">$P_{max} =$ full speed true RMS power, kW</p>
+<p class="equation">$\omega_{max} =$ maximum motor speed, rpm</p>
+<p class="equation">$\omega(t) =$ motor speed, rpm</p>
+
+This equation represents the pump affinity law, where theoretically the exponent is 3. To represent motor losses, the Consortium for Energy Efficiency recommends using a value of 2.5.[^1]
+
+2. Equations 9 to 12 are used to calculate the annual pump energy.
+
 ## Further Reading
 
 - For more information on the different types of fans found in AHU systems, please read “Application of Fans in Commercial HVAC Equipment” from the Carrier Corporation: https://www.utcccs-cdn.com/hvac/docs/1001/Public/0F/04-581070-01.pdf 
@@ -152,3 +257,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 - For more information of the different types of motors that can be used in an AHU retrofit, please read Chapter 7 (starts on page 91) of the Premium Efficiency Motor Selection and Application Guide from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_handbook_web.pdf#page=91 
  
 - For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-Based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23 
+
+## Footnotes
+
+[^1]: Consortium for Energy Efficiency. Motor Efficiency, Selection, and Management: A Guidebook for Industrial Efficiency Programs (May 2011)

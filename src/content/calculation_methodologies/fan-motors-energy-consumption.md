@@ -9,13 +9,19 @@ realted_systems:
 related_measurements:
   - Electrical Current
 associated_calculators:
-  - CSCV Single-speed Fan Energy Calculator
-  - CSCV Two-speed Fan Energy Calculator
-  - VSVV Fan Energy Calculator
+  - Constant Speed Fan Energy Using Motor Runtime Data
+  - Constant One or Two Speed Fan Energy using kW Data
+  - Constant One or Two Speed Fan Energy Using Electrical Current Data
+  - Constant One or Two Speed Fan Energy Using Motor Speed Data
+  - Variable Speed Fan Energy Using kW Data
 url: "/documents/calculation-methodology/fan-motors-energy-consumption"
 ---
 
 ## Introduction
+
+This methodology applies to fan motors that operate at constant or variable speed. Fan motors exist in many building systems including air handling units, energy recovery ventilation units, condensers in an air-cooled chiller and many others. The calculators provided in this page use equations that estimate the annual energy consumption of a fan motor regardless of the system it is a part of, the exception to this are cooling tower fans which have their own <a href="/documents/calculation-methodology/cooling-tower-fans-energy-consumption">methodology here</a>
+
+The type of data that is measured from the fan motor will determine the calculator to use.
 
 ## Calculators
 
@@ -36,10 +42,10 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
     <tbody>
         <tr>
             <td>
-                <p><a href="/downloadables/cscv_single_speed_fan_energy_calculator_2023_0214.xlsx" download>Constant-speed, constant-volume single-speed fan energy calculator.xlsx</a></p>
+                <a href="/downloadables/cscv_single_speed_fan_energy_calculator_2023_0214.xlsx" download>Constant Speed Fan Energy Using Motor Runtime Data.xlsx</a>
             </td>
             <td>
-                <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV single-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>
+                Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV single-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
             </td>
             <td>
                 <ul>
@@ -50,7 +56,20 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
         </tr>
         <tr>
             <td>
-                <p><a href="/downloadables/cscv_two_speed_fan_energy_calculator_2023_0320.xlsx" download>Constant-speed, constant-volume two-speed fan energy calculator.xlsx</a></p>
+                <a href="/downloadables/cscv_fan_single_speed_kW_data_calculator_2023_0227.xlsx" download>Constant One or Two Speed Fan Energy Using kW Data.xlsx</a>
+            </td>
+            <td>
+                Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed fan motor.
+            </td>
+            <td>
+                <ul>
+                    <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power (kW)</li></a>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/downloadables/cscv_fan_two_speed_current_data_calculator_2023_0320.xlsx" download>Constant One of Two Speed Fan Energy Using Electrical Current Data.xlsx</a></p>
             </td>
             <td>
                 <p>Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>
@@ -64,7 +83,21 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
         </tr>
         <tr>
             <td>
-                <p><a href="/downloadables/vsvv_fan_energy_calculator_2023_0203.xlsx" download>Variable-speed, variable-volume fan energy calculator.xlsx</a></p>
+                <a href="/downloadables/cscv_fan_two_speed_motor_speed_data_calculator_2020_0512.xlsx" download>Constant One or Two Speed Fan Energy Using Motor Speed Data.xlsx</a>
+            </td>
+            <td>
+                Uses hourly motor speed data obtained from the VFD or BMS and spot measurement data of kW to estimate the annual energy consumption of a constant-speed one- or two-speed fan motor.
+            </td>
+            <td>
+                <ul>
+                    <li>Hourly motor speed (RPM)</li>
+                    <a href="/documents/measurement-technique/true-rms-power"><li>One-time measurement of true RMS power (kW)</li></a>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/downloadables/vsvv_fan_kW_data_calculator_2023_0203.xlsx" download>Variable Speed Fan Energy Using kW Data.xlsx</a></p>
             </td>
             <td>
                 <p>Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>
@@ -80,7 +113,7 @@ url: "/documents/calculation-methodology/fan-motors-energy-consumption"
 
 ## Fan Motor Calculations
 
-### Constant-speed, constant-volume single-speed fan energy calculations
+### Constant Speed Fan Energy Using Motor Runtime Data
 
 This calculation tool is for a constant speed, constant volume system. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers for the supply and return fans in the Fan Motor.
 
@@ -124,7 +157,37 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 <p class="step-indent">Where,</p>
 <p class="equation">$E =$ Total energy usage for the Fan Motor, kWh</p>
 
-### Constant-speed, constant-volume two-speed fan energy calculations 
+### Constant One or Two Speed Fan Energy Using kW Data
+
+This calculation tool is for a constant-speed or two-speed, constant-volume system. Measured input data is average hourly power draw (in kW) as measured by a data logging power meter for the supply and return fans in the AHU.
+
+1. Average equivalent % hour motor is on full speed for each hour, h, of each day of the week, d, (Worksheet: "Step 3. Avg Day of Week Calcs").
+
+<p class="equation equation-center">\begin{equation} \bar{P}_{d,h,f} = \frac{\sum_{n_f = 1}^{N_f(d,h)} P_f(t_f)}{N_f(d,h)} \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$\bar{P}_{d,h,f} =$ average motor power for given day of week, d, and hour of day, h, for either suply or return fan, f, kW</p>
+<p class="equation">$P_f(t_f) =$ measured motor power for either supply or return fan, f, kW</p>
+<p class="equation">$t_f =$ index for measured data points for either supply or return fan, f, datasets</p>
+<p class="equation">$N_f(d,h) =$ total number of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
+<p class="equation">$n_f \in t_f(d,h) =$ index for subset of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
+
+2. Calculate energy used for the simulation period that users input for each fan (Worksheet: "Step 4. Results").
+
+<p class="equation equation-center">\begin{equation} E_f = \sum_{d = 1}^7 \sum_{h = 1}^24 \bar{P}_{d,h,f} * [\textit{operating weeks per year}] \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$E_f =$ annual energy for either supply or return fan, f, kWh</p>
+<p class="equation">$\bar{P}_{d,h,f} =$ average motor power for given day of week, d, and hour of day, h, for either supply or return fan, f, kW</p>
+
+3. Total energy used by the AHU (Worksheet: "Step 4. Results").
+
+<p class="equation equation-center">\begin{equation} E = E_{supply} + E_{return} \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$E =$ total energy usage for AHU, kWh</p>
+
+### Constant One or Two Speed Fan Energy using Electrical Current Data
 
 This calculation tool is for VFD-controlled fans that are operated at two speeds, as well as for a constant speed, constant volume system. Measured input data include hourly average current (in Amps), as directly measured by current transformers, and spot measurements for true power at both high and low speed operation for the supply and return fans in the Fan Motor. If the tool is used for a constant speed, constant volume system, then set the low speed input data to zeroes and enter the all the input data for high speed. 
 
@@ -174,7 +237,28 @@ This calculation tool is for VFD-controlled fans that are operated at two speeds
 <p class="step-indent">Where,</p>
 <p class="equation">$E =$ Total energy usage for the Fan Motor, kWh</p>
 
-### Variable-speed, variable-volume fan energy calculations  
+### Constant One or Two Speed Fan Energy Using Motor Speed Data
+
+This calculation tool is for VFD-controlled fans that are operated at two speeds. Measured input data include hourly average motor speed (in RPM) as downloaded from a BAS or a VFD, and spot measurements for true power at both high and low speeds for supply and return fans in the AHU. 
+
+1. Convert seconds fan is on per hour to percent fan is on per hour (Worksheet: “Step 2. Percent Runtime Calcs”) for supply and return fans. 
+
+<p class="equation equation-center">\begin{equation} \%FanOn_{high,f}(t_{f}) = \begin{cases} 100\% & \text{if } S_{high,f} * (1+\varepsilon) < S_{f}(t_{f}) \\ \frac{S_{f}(t_{f}) - S_{low,f}}{S_{high,f} - S_{low,f}} & \text{if } S_{low,f} * (1+\varepsilon) < S_{f}(t_{f}) < S_{high,f}* (1-\varepsilon) \\ 0\% & \text{if } S_{f}(t_{f}) < S_{low,f} * (1+\varepsilon) \end{cases} \end{equation}</p>
+
+<p class="equation equation-center">\begin{equation} \%FanOn_{low,f}(t_{f}) = \begin{cases} 100\% & \text{if } S_{f}(t_{f}) < S_{low,f} * (1+\varepsilon) \\ 1 - \frac{S_{f}(t_{f}) - S_{low,f}}{S_{high,f} - S_{low,f}} & \text{if } S_{low,f} * (1+\varepsilon) < S_{f}(t_{f}) < S_{high,f}* (1-\varepsilon) \\ 0\% & \text{if } S_{high,f} * (1-\varepsilon) < S_{f}(i) \end{cases} \end{equation}</p>
+
+<p class="step-indent">Where,</p>
+<p class="equation">$\%FanOn_{high,f}(i) =$ percent of an hour that motor is running at high speed for either supply or return fan, f, %</p>
+<p class="equation">$\%FanOn_{low,f}(i) =$ percent of an hour that motor is running at low speed for either supply or return fan, f, %</p>
+<p class="equation">$S_f(t_f) =$ measured speed from VFD for either supply or return fan, f, rpm</p>
+<p class="equation">$t_f =$ index for each measured data point for either supply or return fan, f, datasets</p>
+<p class="equation">$S_{high,f} =$ high speed setpoint for either supply or return fan, f, rpm</p>
+<p class="equation">$S_{low,f} =$ low speed setpoint for either supply or return fan, f, rpm</p>
+<p class="equation">$\varepsilon =$ error tolerance to classify current as representing high-speed or low-speed operation</p>
+
+2. The remaining calculations for this workbook are equations (12), (13), (14) and (15), as described in the section for the “Two-speed VFD-controlled Fans OR Constant Speed, Constant Volume Fans Using a Current Transformer” workbook.
+
+### Variable Speed Fan Energy Using kW Data
 
 This calculation tool is for VFD-controlled fans that are operated at different speeds proportional to the heating/cooling load. Because the heating/cooling load of a facility is mainly affected by outdoor air temperature (OAT), this data must be collected as well. Measured input data include average hourly power draw (kW) and average hourly OAT. 
 
