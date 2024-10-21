@@ -83,7 +83,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
         </tr>
         <tr>
             <td>
-                <a href="/downloadables/cscv_two_speed_CT_fan_energy_calculator_2023_0117.xlsx" download>Constant One or Two Speed CT Fan Energy Using Electrical Current Data.xlsx</a>
+                <a href="/downloadables/cscv_CT_fan_two_speed_current_data_calculator_2023_0117.xlsx" download>Constant One or Two Speed CT Fan Energy Using Electrical Current Data.xlsx</a>
             </td>
             <td>
                 Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans. Spot measurements of voltage and power factor are required.
