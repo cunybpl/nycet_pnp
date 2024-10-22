@@ -47,7 +47,7 @@
       <hr class="mt-4 mb-3">
         {{ if isset .params "associated_systems" }}
         <div class="px-4">
-          <h6 class="related-title">Associated {{ $label }}</h6>
+          <h6 class="related-title">Related {{ $label }}</h6>
           <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0 card-related-list">
             {{ $counter := 0 }}
             {{ range where .pages "Title" "in" .params.associated_systems }}
@@ -66,7 +66,7 @@
       {{ end }}
       {{ if isset .params "associated_calculators" }}
         <div class="px-4">
-          <h6 class="related-title">Associated {{ $label }}</h6>
+          <h6 class="related-title">Related {{ $label }}</h6>
           <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0 card-related-list">
             {{ $counter := 0 }}
             {{ $calculators := where site.Data.downloadable_files.files "name" "in" .params.associated_calculators }}
@@ -86,7 +86,7 @@
       {{ end }}
       {{ if isset .params "associated_components" }}
         <div class="px-4">
-          <h6 class="related-title">Associated Components</h6>
+          <h6 class="related-title">Related Components</h6>
           <ul id="list-{{ .guide_id }}" class="mt-n3 mb-0 card-related-list">
             {{ $counter := 0 }}
             {{ range where .pages "Title" "in" .params.associated_components }}
