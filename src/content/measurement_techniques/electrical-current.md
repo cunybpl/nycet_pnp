@@ -18,7 +18,7 @@ associated_calculations:
 url: "/documents/measurement-technique/electrical-current"
 ---
 
-## Description of Electrical Current
+## Understanding Electrical Current Measurements
 
 This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals. This data provides insight on the operating schedule of the system or component and can be used to calculate energy consumption of the target equipment at the power panel or electrical panelboard. A system or component that is running (i.e., consuming energy) will have high current draw. A system or component that is not running (i.e., has no energy consumption) will have low or no current draw.  
 
@@ -32,7 +32,7 @@ The duration of the long-term measurement and when to measure is dependent on th
 
 This methodology is a direct measurement of current, however it is also considered a proxy measurement of power and energy, as well as operational hours of the system or component.
 
-### Equipment
+### Measurement Equipment to Use
 
 The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC current over time and record measurement data in its internal storage. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger) to identify data loggers that measure current draw by an electricity-powered system. The contents of this guide are largely based off of the [Onset HOBO 4-channel analog logger (UX120-006M)](https://nycenergytools.com/equipment/4-channel-analog-data-logger/) and the [Onset Split-Core AC Current Transformer (CTV-x)](https://nycenergytools.com/equipment/?_search_equipment=split%20core), which can be found and borrowed through FELL. 
 
@@ -46,60 +46,31 @@ Please note that loggers will require setup with a computer or phone using the m
 
 Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger. Before the following steps are taken, the current rating(s) for wires to be measured should be identified in advance so as to choose the properly sized current transformer for this measurement approach. See the equipment’s instruction manual for further instructions about how to properly size the current transformers for the target system or component.  
 
-<ul>
-  <li>Logging interval: 1-hour</li>
-  <li>Date and time to start logging</li>
-  <li>Date and time to stop logging</li>
-  <li>Sampling interval: 1-second</li>
-  <li>Value to measure: AC current (Amps)</li>
-  <li>Activate input channels of the logger</li>
-  <li>Select the current rating of transformers being used</li>
-</ul>
+- Logging interval: 1-hour
+- Date and time to start logging
+- Date and time to stop logging
+- Sampling interval: 1-second
+- Value to measure: AC current (Amps)
+- Activate input channels of the logger
+- Select the current rating of transformers being used
 
 An example of how to setup the Onset HOBO 4-channel analog logger (UX120-006M) is shown in the video below 
 
 <iframe class ="video" src="https://www.youtube.com/embed/fUjz0qj7GVM?si=tSIiXYE0bUuRB5LX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<a href="https://www.youtube.com/embed/fUjz0qj7GVM?si=tSIiXYE0bUuRB5LX">
-<figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/Electrical Current Figure 1 Updated.png" class="figure-img img-fluid rounded" alt="Figure 1. Setting up Onset HOBO 4-Channel analog logger (UX120-006M).">
-  <figcaption class="figure-caption text-left">Figure 1. Setting up Onset HOBO 4-Channel analog logger (UX120-006M).</figcaption>
-</figure>
-</a>
+<figcaption class="figure-caption text-left">Figure 1. How to configure the 4-channel analog logger with CT on HOBOware (Click to Start Video).</figcaption>
 
 ### 2. Installation of Equipment
 
-<ul>
-  <li>Confirm that the equipment is operational.</li>
-  <li>Connect the sensors to the data logger.</li> 
-  <li>Identify if the distribution system supplied electricity to other loads that are not relevant to the project (to avoid measuring unwanted loads).</li>
-  <li>Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.</li> 
-  <li>Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the current draw by the system. The current transformers are clamps that open and surround the wire, see Figure 2.</li>
-  <li>Clamp the sensors around the electrical wires. Make sure they are facing the right direction, or else the current may be recorded with negative values.</li>
-  <li>Adhere the data logger to the panelboard. Some loggers have magnets that allow for placement on the panelboard itself, while others do not.</li>
-</ul>
+1. Confirm that the equipment is operational.
+2. Connect the sensors to the data logger.
+3. Identify if the distribution system supplied electricity to other loads that are not relevant to the project (to avoid measuring unwanted loads).
+4. Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.
+5. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the current draw by the system. The current transformers are clamps that open and surround the wire, see Figure 2.
+6. Clamp the sensors around the electrical wires. Make sure they are facing the right direction, or else the current may be recorded with negative values.
+7. Adhere the data logger to the panelboard. Some loggers have magnets that allow for placement on the panelboard itself, while others do not.
 
-<a href="https://youtu.be/FWgM0-VSlEQ?si=rFLFwPDXpXN7iOLy">
-<figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/Electrical Current Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2. Onset HOBO 4-Channel analog logger (UX120-006M) connected on a panelboard.">
-  <figcaption class="figure-caption text-left">Figure 2. Onset HOBO 4-Channel analog logger (UX120-006M) connected on a panelboard.</figcaption>
-</figure>
-</a>
-
-<figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/electrical_current_figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Example of how the current transducer sensors typically clamp around electrical wires.">
-  <figcaption class="figure-caption text-left">Figure 3. Example of how the current transducer sensors typically clamp around electrical wires.</figcaption>
-</figure>
-
-<figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/electrical_current_figure4.png" class="figure-img img-fluid rounded" alt="Figure 4. Onset Split-core AC Current Transformer (CTV-x) connected to the incoming feed lines of a three-phase electrical panelboard.">
-  <figcaption class="figure-caption text-left">Figure 4. Onset Split-core AC Current Transformer (CTV-x) connected to the incoming feed lines of a three-phase electrical panelboard.</figcaption>
-</figure>
-
-<figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/electrical_current_figure5.png" class="figure-img img-fluid rounded" alt="Figure 5. Example of a current sensor attached to a single wire. The wire is connected to a circuit breaker within a panelboard. ">
-  <figcaption class="figure-caption text-left">Figure 5. Example of a current sensor attached to a single wire. The wire is connected to a circuit breaker within a panelboard.</figcaption>
-</figure>
+<iframe class ="video" src="https://www.youtube.com/embed/FWgM0-VSlEQ?si=B_0BwGasy2X2L-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 2. How to install the 4-channel analog logger with CT onsite (Click to Start Video).</figcaption>
 
 ### 3. Verify Data is Being Collected
 
@@ -109,39 +80,27 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 <strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
 </div>
 
-<ul>
-  <li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
-  <li>Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li>
-  <li>Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.</li>
-</ul>
+1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
+3. Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
-<a href="https://youtu.be/KyLO5ARQbuA?si=r91vAKoqICA1lKNQ">
-<figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/Electrical Current Figure 6 Updated.png" class="figure-img img-fluid rounded" alt="Figure 6. Plot graph of measured current for a power panel that serves a lighting system. Software in use is HOBOware Free.">
-  <figcaption class="figure-caption text-left">Figure 6. Plot graph of measured current for a power panel that serves a lighting system. Software in use is HOBOware Free.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/KyLO5ARQbuA?si=y6RlF5ZOMLpWvEB2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 3. How to check data of logger using HOBOware. (Click to Start Video)</figcaption>
 
 ### 4. Retrieve Measurement Equipment and Download Data
 
 After verifying that the logger is collecting data, do the following: 
 
-<ul>
-  <li>Allow the logger to collect data for the remainder of the measurement period.</li>
-  <li>After the measurement period has concluded, remove the logger from the panel.</li>
-  <li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
-  <li>Use the proprietary software to Stop the logger and end data collection.</li>   
-  <li>Download all data from the logger and save the file in the .csv file format for analysis.</li>
-</ul>
+1. Allow the logger to collect data for the remainder of the measurement period.
+2. After the measurement period has concluded, remove the logger from the panel.
+3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+4. Use the proprietary software to Stop the logger and end data collection.  
+5. Download all data from the logger and save the file in the .csv file format for analysis.
 
-<a href="https://youtu.be/47hqmeOh5X4?si=RSfef24Fo98Co7hS">
-<figure class="figure">
-  <img src="/images/measurement-technique/electrical_current/Electrical Current Figure 7 Updated.png" class="figure-img img-fluid rounded" alt="Figure 7. Final data table in .csv format. Data was extracted from the logger using HOBOware free and exported for analysis.">
-  <figcaption class="figure-caption text-left">Figure 7. Final data table in .csv format. Data was extracted from the logger using HOBOware free and exported for analysis.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/47hqmeOh5X4?si=VMH71cMG6C5e9jmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger using HOBOware. (Click to Start Video)</figcaption>
 
-## Troubleshooting
+## Troubleshooting Our Measurement Equipment
 
 <strong>Problem 1:</strong> Unexpected Negative Readings
 

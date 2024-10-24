@@ -25,7 +25,7 @@ borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-
 url: "/documents/measurement-technique/motor-runtime"
 ---
 
-## Description of Motor Runtime
+## Understanding Motor Runtime Measurements
 
 This technique uses data loggers to take long-term measurements of the runtime duration for a constant or dual-speed motor. This technique can be used on motors with any end-use, including both air and water distribution. Accurate measurements can only be taken when data loggers are properly placed on the motor enclosure. The equipment’s on/off status is detected based on the AC magnetic field that is generated when the motors are running.
 
@@ -39,7 +39,7 @@ The duration of the long-term measurement should be a minimum of six weeks and d
 
 This is a direct measurement of motor runtime and determines the operating schedule of the motor.
 
-### Equipment
+### Measurement Equipment to Use
 
 The measurement equipment needed for this procedure is a motor on/off data logger. Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify data loggers that measure motor runtime. The contents of this guide are largely based off of the [UX90-004 Onset HOBO Motor runtime logger](https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/), which can be found and borrowed through NYC Energy Tools. 
 
@@ -60,26 +60,20 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 An example of how to setup the UX90-004 Onset HOBO Motor runtime logger is shown in the video below.
 
-<a href="https://www.youtube.com/embed/J472dkp5D3g?si=vlqnvQ-ophL4v08h">
-<figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/Motor Runtime Figure 1 Updated.png" class="figure-img img-fluid rounded zoom" alt="Video on how to set up HOBO Motor Runtime Logger.">
-  <figcaption class="figure-caption text-left">Figure 1. Video on how to set up HOBO Motor Runtime Logger.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/J472dkp5D3g?si=vVdPlas5NFqchzyf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 1. How to configure the motor on/off data logger on HOBOware. (Click to Start Video)</figcaption>
+
 
 ### 2. Installation of Equipment
 
 1. Confirm that the motor is operational.
-1. Place the data logger on the motor casing in a non-hazardous location.
-1. When the motor is running, calibrate the data logger (refer to the data logger’s user manual for instructions and requirements for calibration).
-1. Visually confirm that the logger is recording, and that the sensor is accurately identifying whether or not the motor is running.
+2. Place the data logger on the motor casing in a non-hazardous location.
+3. When the motor is running, calibrate the data logger (refer to the data logger’s user manual for instructions and requirements for calibration).
+4. Visually confirm that the logger is recording, and that the sensor is accurately identifying whether or not the motor is running.
 
-<a href="https://www.youtube.com/watch?v=zQBLq7Wonqw">
-<figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/Motor Runtime Figure 2 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 1. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.">
-  <figcaption class="figure-caption text-left">Figure 2. Onset HOBO UX90-004 installed on a pump motor casing and measuring runtime.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/zQBLq7Wonqw?si=mIv92t7EOPY5994W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 2. How to calibrate and install the motor on/off data logger on a motor. (Click to Start Video)</figcaption>
+
 
 ### 3. Verify Data is Being Collected
 
@@ -90,33 +84,26 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 </div>
 
 1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
-1. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a csv file.
-1. Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
+2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a csv file.
+3. Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
-<a href="https://www.youtube.com/watch?v=JkNpQ81sdcQ">
-<figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/Motor Runtime Figure 3 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 2. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.">
-  <figcaption class="figure-caption text-left">Figure 3. Plot graph of motor runtime data from the Onset HOBO UX90-004 data logger. Software used is HOBOware Free.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/JkNpQ81sdcQ?si=VUmDNF8eaWuB45n8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 3. How to check data of runtime loggers using HOBOware. (Click to Start Video)</figcaption>
+
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying that the logger is collecting data, do the following:
 1. Allow the logger to collect data for the remainder of the measurement period.
-1. After the measurement period has concluded, remove the logger from the motor.
-1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
-1. Use the proprietary software to Stop the logger and end data collection. 
-1. Download all data from the logger and save the file in the .csv format for analysis.
+2. After the measurement period has concluded, remove the logger from the motor.
+3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
+4. Use the proprietary software to Stop the logger and end data collection. 
+5. Download all data from the logger and save the file in the .csv format for analysis.
 
-<a href="https://www.youtube.com/watch?v=M_ky5lMORBk">
-<figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/motor-runtime/Motor Runtime Figure 4 Updated.png" class="figure-img img-fluid rounded zoom" alt="Figure 3. Final data table in .csv format. Data was extracted from the logger using HOBOware Free and exported for analysis.">
-  <figcaption class="figure-caption text-left">Figure 4. Final data table in .csv format. Data was extracted from the logger using HOBOware Free and exported for analysis.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/M_ky5lMORBk?si=EmUoRsGYXoxIzaqr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to .csv file on HOBOware. (Click to Start Video)</figcaption>
 
-## Troubleshooting 
+## Troubleshooting Our Measurement Equipment
 
 <strong>Problem 1: </strong>Detecting the Signal from Another Motor
 

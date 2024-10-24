@@ -17,7 +17,7 @@ associated_calculations:
 url: "/documents/measurement-technique/system-air-temperature"
 ---
 
-## Description of System Air Temperature
+## Understanding System Air Temperature Measurements
 
 This technique uses data loggers to take long-term measurements of air temperature (F) at one-hour intervals. This technique can be used to characterize air handling unit (AHU) performance; supply/discharge air, return air, exhaust air and mixed air temperatures are measured with this technique. Each air stream requires a different logger for data collection. This data is used to estimate the thermal loads of the system during the heating and cooling seasons. For a more detailed description of how to characterize an AHU, please refer to the protocols and procedures <a href="/documents/plants/air-handling-plant">Air Handling Plant</a>. 
 
@@ -29,7 +29,7 @@ The duration of the long-term measurement should be a minimum of six weeks. Meas
 
 <strong>Direct</strong> 
 
-### Equipment 
+### Measurement Equipment to Use
 
 The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify temperature/humidity data loggers. The contents of this guide are largely based off the [Onset HOBO MX1101 logger](https://nycenergytools.com/equipment/temp-rh-logger-mx1101/), which can be found and borrowed through FELL. 
  
@@ -43,42 +43,23 @@ Please note that loggers will require setup with a computer or phone using the m
 
 Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger. 
 
-<ul>
-<li>Logging interval: 1-hour</li>
-<li>Date and time to start logging</li>
-<li>Date and time to stop logging</li>
-<li>Value(s) to measure: Temperature (F), Relative Humidity (%) if necessary</li> 
-<li>Sampling interval: 1-second</li>
-</ul>
+- Logging interval: 1-hour
+- Date and time to start logging
+- Date and time to stop logging
+- Value(s) to measure: Temperature (F), Relative Humidity (%) if necessary
+- Sampling interval: 1-second
 
-<a href="https://www.youtube.com/watch?v=sbUBDB2eg_U&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=1">
-<figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 1 Updated.png" class="figure-img img-fluid rounded" alt="Figure 1: Configuring the Temp/RH Logger using HOBOconnect">
-  <figcaption class="figure-caption text-left">Figure 1: Configuring the Temp/RH Logger using HOBOconnect</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/sbUBDB2eg_U?si=e2hwK0QFusNwQSX9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 1. How to configure the MX1101 logger on HOBOConnect. (Click to Start Video)</figcaption>
 
 ### 2. Installation of equipment 
 
-<ul>
-<li>To measure temperature of the air streams inside of an AHU, place the loggers inside of the ductwork. <strong>(Mixed air temperature is the most difficult data to collect because some mixed air chambers make it difficult to install a data logger to accurately capture mixed air. The measurement uncertainty introduced is unknown and CUNY BPL suggests experimenting with different logger placements within the air chamber. Do not place the loggers near the heating and cooling coils.)</strong></li>
-<li>Confirm that the logger is recording, and that the sensor is accurately identifying the airstream’s temperature. If the logger has a screen check the temperature value on the logger screen. If the logger does not have a screen, then use the software to connect to the logger and check the temperature it detects.</li>
-<li>Do not move the logger after it has been installed.</li>
-</ul>
+1. To measure temperature of the air streams inside of an AHU, place the loggers inside of the ductwork. <strong>(Mixed air temperature is the most difficult data to collect because some mixed air chambers make it difficult to install a data logger to accurately capture mixed air. The measurement uncertainty introduced is unknown and CUNY BPL suggests experimenting with different logger placements within the air chamber. Do not place the loggers near the heating and cooling coils.)</strong>
+2. Confirm that the logger is recording, and that the sensor is accurately identifying the airstream’s temperature. If the logger has a screen check the temperature value on the logger screen. If the logger does not have a screen, then use the software to connect to the logger and check the temperature it detects.
+3. Do not move the logger after it has been installed.
 
-<a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=2">
-<figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2: Data logger installed inside of the ductwork of an AHU. The data logger in use is the Onset HOBO MX1101.">
-  <figcaption class="figure-caption text-left">Figure 2: Data logger installed inside of the ductwork of an AHU. The data logger in use is the Onset HOBO MX1101.</figcaption>
-</figure>
-</a>
-
-<a href="https://www.youtube.com/watch?v=R9MDkohMD-E&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=2">
-<figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 3 Updated.png" class="figure-img img-fluid rounded" alt="Figure 3: Onset HOBO MX1101 data installed on the access panel of the ductwork. After complete installation, the panel will be closed and the logger will remain inside the ductwork.">
-  <figcaption class="figure-caption text-left">Figure 3: Onset HOBO MX1101 data installed on the access panel of the ductwork. After complete installation, the panel will be closed and the logger will remain inside the ductwork.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/R9MDkohMD-E?si=odLhnqUNiW_KlZgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 2. How to install the MX2301 MX1101 UX100 temperature loggers. (Click to Start Video)</figcaption>
 
 ### 3. Verify data is being collected
 
@@ -88,39 +69,28 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 <strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
 </div>
 
-<ul>
-<li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
-<li>Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li> 
-<li>Determine if the measured results align with the expected operation of the system or component based on observed equipment schedules.</li>
-</ul> 
+1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
+3. Determine if the measured results align with the expected operation of the system or component based on observed equipment schedules.
 
-<a href="https://www.youtube.com/watch?v=EOb9EqQcRXY&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=3">
-<figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 4 Updated.png" class="figure-img img-fluid rounded" alt="Figure 4: Plot graph of temperature data from the Onset HOBO UX90-002m data logger. Software used is HOBOware Free.">
-  <figcaption class="figure-caption text-left">Figure 4: Plot graph of temperature data from the Onset HOBO UX90-002m data logger. Software used is HOBOware Free. </figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/EOb9EqQcRXY?si=IEUp1L86en5LPqyf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 3. How to check data of bluetooth loggers using HOBOConnect. (Click to Start Video)</figcaption>
+
 
 ### 4. Retrieve measurement equipment and download all final data 
 
 After verifying that the logger is collecting data, do the following:
 
-<ul>
-<li>Allow the logger to collect data for the remainder of the measurement period.</li> 
-<li>After the measurement period has concluded, remove the logger.</li>  
-<li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the logger via Bluetooth.</li>  
-<li>Use the proprietary software to stop the logger and end data collection.</li>  
-<li>Download all data from the logger and save the file in the.csv file format for analysis.</li>
-</ul>
+1. Allow the logger to collect data for the remainder of the measurement period.
+2. After the measurement period has concluded, remove the logger.
+3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the logger via Bluetooth.
+4. Use the proprietary software to stop the logger and end data collection.
+5. Download all data from the logger and save the file in the.csv file format for analysis.
 
-<a href="https://www.youtube.com/watch?v=-vxr8pnguIQ&list=PL-NERcBsKg4Vy0UmvmBucYBBNSjQspKqB&index=4">
-<figure class="figure">
-  <img src="/images/measurement-technique/system-air-temperature/System Air Temperature Figure 5 Updated.png" class="figure-img img-fluid rounded" alt="Figure 5: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.">
-  <figcaption class="figure-caption text-left">Figure 5: Final data table. Data was extracted from the logger using HOBOConnect and exported for analysis.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/-vxr8pnguIQ?si=ViyTyV2-lHhgWwb-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to csv on HOBOConnect. (Click to Start Video)</figcaption>
 
-## Troubleshooting 
+## Troubleshooting Our Measurement Equipment
 
 Air handling units come in all sizes and there is no single method on how to properly install the temperature loggers. Installing at the mixing plenum/chamber is the most challenging because you are trying to measure the mixed air temperature which is the combination of return air and outside air. 
 

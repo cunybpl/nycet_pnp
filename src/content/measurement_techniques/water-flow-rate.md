@@ -19,7 +19,7 @@ associated_calculations:
 url: "/documents/measurement-technique/water-flow-rate"
 ---
 
-## Description of Water Flow Rate 
+## Understanding Water Flow Rate Measurements 
 
 This technique uses a flow meter to measure the flow rate of a fluid within a pipe. The technique is typically used on water loop systems to measure the flow through heating and cooling plants, but it can also be used to measure the flow rate of other fluids (e.g., glycol). Measurement data is used to calculate how much heat is added or removed by the heating or cooling plant; energy/heat recovered by a liquid-to-liquid heat recovery system, and heating energy for domestic hot water.
 
@@ -35,7 +35,7 @@ The duration of the long-term measurement and when to measure is dependent on th
 
 <strong>Direct</strong>
 
-### Equipment
+### Measurement Equipment to Use
 
 The measurement equipment needed for this procedure is an ultrasonic flow meter. Flow meters work by emitting ultrasonic sounds from the transducers to the pipe surface and into the fluid. Transducers operate in sets of two and both transducers act as transmitters and receivers of ultrasonic sound. The time it takes for sound to travel from one transducer to the other is called transit time. Flow rate is calculated by the meter using the transit time. This is the commonly used method to measure water or other liquids in a pipe. Refer to the [NYC Energy Tools catalog](https://nycenergytools.com/equipment/?_search_equipment=flow%20meter) to identify the correct flow meters for your project. The sensors of the ultrasonic flow meters available are clamp-on so there is no need to drill into the piping. By default, some flow meters are set to measure the properties of water. If glycol or other liquids will be measured refer to the user manual and change the settings of the meter to measure the fluid in the system. The contents of this guide are largely based off the [DXN Portable Ultrasonic Measurement System](https://nycenergytools.com/equipment/ultrasonic-flow-meter-dxnp/), which can be found and borrowed through the NYC Energy Tools field equipment library.
 
@@ -59,31 +59,29 @@ Identify the location where the flow meter will be installed. Refer to the equip
 
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 1.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed.">
-  <figcaption class="figure-caption text-left">Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed. FPO</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed.</figcaption>
 </figure>
 
 ### 2. Installation of Equipment
 
-- Confirm that the equipment is operational. 
-- Some piping systems have a layer of insulation to minimize heat loss. There are scenarios where the insulation must be cut to install the transducers of the flow meter. 
-   - Consult with personnel who work in the facility to determine if this is appropriate. 
-   - See , Figure 4 for reference.
-- If installing the flow meter is not possible then consider using the pump curve method to determine flow rate of the fluid.
-- Refer to the user manual of the measurement equipment to determine how to install the transducers.
+1. Confirm that the equipment is operational. 
+2.  Some piping systems have a layer of insulation to minimize heat loss. There are scenarios where the insulation must be cut to install the transducers of the flow meter. <i>Consult with personnel who work in the facility to determine if this is appropriate. See , Figure 4 for reference.</i>
+3.  If installing the flow meter is not possible then consider using the pump curve method to determine flow rate of the fluid.
+4. Refer to the user manual of the measurement equipment to determine how to install the transducers.
 
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 2.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Insulation is being removed and the piping is exposed.">
-  <figcaption class="figure-caption text-left">Figure 2. Insulation is being removed and the piping is exposed. FPO</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Insulation is being removed and the piping is exposed.</figcaption>
 </figure>
 
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 3.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 3. Insulation is fully removed for a section of the piping.">
-  <figcaption class="figure-caption text-left">Figure 3. Insulation is fully removed for a section of the piping. FPO</figcaption>
+  <figcaption class="figure-caption text-left">Figure 3. Insulation is fully removed for a section of the piping.</figcaption>
 </figure>
 
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 4.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System. FPO">
-  <figcaption class="figure-caption text-left">Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System. FPO</figcaption>
+  <figcaption class="figure-caption text-left">Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System.</figcaption>
 </figure>
 
 ### 3. Verify Data is Being Collected
@@ -94,31 +92,31 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
   <b>Do not remove the logger.</b> If you remove it, you may need to start over with the setup and installation process. 
 </div>
 
-- If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
-- Analyze the data with a plot graph. This can be done with the software or Microsoft Excel after exporting the dataset as a .csv file. Please note that the format file may vary based on the measurement equipment.
-- Determine if measured results align with the expected operation of the system or component.
+1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
+2. Analyze the data with a plot graph. This can be done with the software or Microsoft Excel after exporting the dataset as a .csv file. Please note that the format file may vary based on the measurement equipment.
+3. Determine if measured results align with the expected operation of the system or component.
 
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 5.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 5. Retrieve data screen on the DXN Portable Ultrasonic Measurement System. For this meter, a USB storage device is connected to the back of the meter. FPO">
-  <figcaption class="figure-caption text-left">Figure 5. Retrieve data screen on the DXN Portable Ultrasonic Measurement System. For this meter, a USB storage device is connected to the back of the meter. FPO</figcaption>
+  <figcaption class="figure-caption text-left">Figure 5. Retrieve data screen on the DXN Portable Ultrasonic Measurement System. For this meter, a USB storage device is connected to the back of the meter.</figcaption>
 </figure>
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying the meter is collecting data do the following:
 
-- Allow the meter to collect data for the remainder of the measurement period.
-- After the measurement period has concluded, remove the meter. 
-- If necessary, connect the meter to the laptop or phone via USB cable. Otherwise, use the software to connect with the logger via Bluetooth. 
-- If applicable, use the proprietary software to Stop the meter and end data collection. 
-- Download all data from the meter and convert to csv file format for analysis.
+1. Allow the meter to collect data for the remainder of the measurement period.
+2. After the measurement period has concluded, remove the meter. 
+3. If necessary, connect the meter to the laptop or phone via USB cable. Otherwise, use the software to connect with the logger via Bluetooth. 
+4. If applicable, use the proprietary software to Stop the meter and end data collection. 
+5. Download all data from the meter and convert to csv file format for analysis.
 
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 6.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 6. Final data table in .csv format. Data was extracted from the DXN Portable Ultrasonic Measurement System and exported for analysis. FPO">
-  <figcaption class="figure-caption text-left">Figure 6. Final data table in .csv format. Data was extracted from the DXN Portable Ultrasonic Measurement System and exported for analysis. FPO</figcaption>
+  <figcaption class="figure-caption text-left">Figure 6. Final data table in .csv format. Data was extracted from the DXN Portable Ultrasonic Measurement System and exported for analysis.</figcaption>
 </figure>
 
-## Troubleshooting 
+## Troubleshooting Our Measurement Equipment
 
 <strong>Problem 1: </strong>Presence of Turbulence
 

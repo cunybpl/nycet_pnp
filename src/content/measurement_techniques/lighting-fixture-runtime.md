@@ -15,7 +15,7 @@ associated_calculations:
 url: "/documents/measurement-technique/lighting-fixture-runtime"
 ---
 
-## Description of Lighting Fixture Runtime
+## Understanding Lighting Fixture Runtime Measurements
 
 This technique uses data loggers to take long-term measurements of the runtime duration for a lamp or lighting fixture. This technique can be used on lighting systems with any schedule and located in any space type. Accurate measurements can only be taken when data loggers are properly installed. The equipment’s on/off status is detected based on the light level that is generated when the lights are on. 
 
@@ -31,7 +31,7 @@ The duration of the long-term measurement should be a minimum of six weeks and d
 
 <strong>Proxy</strong>
 
-### Equipment
+### Measurement Equipment to Use
 
 The measurement equipment needed for this procedure is a lighting on/off data logger. Some data loggers may have an additional occupancy sensor that detects the motion of people, but this is not necessary for this measurement technique. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_search_equipment=light) to identify data loggers to measure lighting runtime. The contents of this guide are largely based off of the [Onset HOBO UX90-002 Light on/off logger](https://nycenergytools.com/equipment/light-on-off-data-logger-3/) which can be found and borrowed through FELL. 
 
@@ -45,35 +45,24 @@ Please ​note ​​that loggers ​will​​​ ​require setup with a compu
 
 Use the manufacturer’s software to ​set up ​​and launch ​the logger​(s)​. Refer to the ​equipment’s ​user manual for detailed instructions on how to ​set up​ the logger. 
 
-<ul>
-<li>Logging interval: 1-hour </li>
-<li>Date and time to start logging</li>
-<li>Date and time to stop logging</li>
-<li>Value to measure: ​R​untime (minutes)</li>
-</ul>
+- Logging interval: 1-hour 
+- Date and time to start logging<
+- Date and time to stop logging
+- Value to measure: ​R​untime (minutes)
 
-<a href="https://www.youtube.com/watch?v=zcR39ATSAbM&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=1">
-<figure class="figure">
-  <img src="/images/measurement-technique/lighting-fixture-runtime/Lighting Fixture Runtime Figure 1 Updated.png" class="figure-img img-fluid rounded" alt="Figure 1. Light On/Off Logger Configuration.">
-  <figcaption class="figure-caption text-left">Figure 1. Light On/Off Logger Configuration.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/zcR39ATSAbM?si=kxsyJA0jMpb7AKMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 1. How to configure the light on/off data logger on HOBOware. (Click to Start Video)</figcaption>
+
 
 ### 2. Installation of Equipment
 
-<ul>
-​​​<li>Confirm that the fixture is operational and turn the light fixture on.​​</li> 
-<li>Place the data logger near the light fixture​ in a non-hazardous location.​</li> 
-<li>​​​While the light is on, c​alibrate the data logger to the fixture (refer to the ​data logger’s ​user manual for instructions​ and requirements for calibration​)​.​​</li>
-<li>​​​Visually confirm that the logger is recording, and that the sensor is accurately identifying whether or not the lights are on.</li> 
-</ul> 
+1. Confirm that the fixture is operational and turn the light fixture on.​
+2. Place the data logger near the light fixture​ in a non-hazardous location.
+3. ​While the light is on, c​alibrate the data logger to the fixture (refer to the ​data logger’s ​user manual for instructions​ and requirements for calibration​)​.​
+4. ​​​Visually confirm that the logger is recording, and that the sensor is accurately identifying whether or not the lights are on.
 
-<a href="https://www.youtube.com/watch?v=0OJvUP_NdYM&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=2">
-<figure class="figure">
-  <img src="/images/measurement-technique/lighting-fixture-runtime/Lighting Fixture Runtime Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2. Onset HOBO UX90-002x​ ​installed near a light fixture and measuring runtime.">
-  <figcaption class="figure-caption text-left">Figure 2. Onset HOBO UX90-002x​ ​installed near a light fixture and measuring runtime.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/0OJvUP_NdYM?si=39x6ZQwBbhWzBRpN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 2. How to calibrate and install the light on/off logger. (Click to Start Video)</figcaption>
 
 ### 3. Verify Data is Being Collected
 
@@ -83,37 +72,27 @@ Wait ​24-48 hours to verify data collection. Return to the location of the mea
 <strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
 </div>
 
-<ul> 
-<li>​​​​If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
-<li>​​​Analyze the data with a ​​plot graph​. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li>
-<li>Determine if ​the ​measured results align with ​the ​expected operation of the fixtures or space​ based on observed operational patterns or known equipment schedules.</li> ​ 
-</ul>
+1. ​​​​If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+2. ​​​Analyze the data with a ​​plot graph​. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
+3. Determine if ​the ​measured results align with ​the ​expected operation of the fixtures or space​ based on observed operational patterns or known equipment schedules.
 
-<a href="https://www.youtube.com/watch?v=JkNpQ81sdcQ&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=3 ">
-<figure class="figure">
-  <img src="/images/measurement-technique/lighting-fixture-runtime/Lighting Fixture Runtime Figure 3 Updated.png" class="figure-img img-fluid rounded" alt="Figure 3. ​P​lot graph of ​lighting runtime ​data from the Onset HOBO UX90-002m data logger.​ Software used is HOBOware Free.">
-  <figcaption class="figure-caption text-left">Figure 3. ​P​lot graph of ​lighting runtime ​data from the Onset HOBO UX90-002m data logger.​ Software used is HOBOware Free.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/JkNpQ81sdcQ?si=Zv30_vcXT5tCskjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 3. How to check data of runtime loggers using HOBOware. (Click to Start Video)</figcaption>
+
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying ​that ​the logger is collecting data​,​ do the following: 
-<ul>
-<li>Allow the logger to collect data for the remainder of the measurement period​.​​</li>
-<li>​​After the measurement period ​has concluded, ​remove the logger​.</li>
-<li>​​​If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
-<li>Download all data from the logger and ​save the file in the​​ .​csv format for analysis​.​</li> 
-</ul>
 
-<a href="https://www.youtube.com/watch?v=BP5RZugx20o&list=PL-NERcBsKg4VRiNsxpXVgfI9RaTywiMVC&index=4">
-<figure class="figure">
-  <img src="/images/measurement-technique/lighting-fixture-runtime/Lighting Fixture Runtime Figure 4 Updated.png" class="figure-img img-fluid rounded" alt="Figure 4. Final data​ table ​in .csv format. Data was extracted from the logger using HOBOware Free and exported ​for analysis.">
-  <figcaption class="figure-caption text-left">Figure 4. Final data​ table ​in .csv format. Data was extracted from the logger using HOBOware Free and exported ​for analysis.</figcaption>
-</figure>
-</a>
+1. Allow the logger to collect data for the remainder of the measurement period​.​​
+2. ​​After the measurement period ​has concluded, ​remove the logger​.
+3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+4. Download all data from the logger and ​save the file in the​​ .​csv format for analysis​.
 
-## Troubleshooting 
+<iframe class ="video" src="https://www.youtube.com/embed/BP5RZugx20o?si=BwMHgGtxP943uhMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to .csv file on HOBOware. (Click to Start Video)</figcaption>
+
+## Troubleshooting Our Measurement Equipment
 
 <strong>Problem 1:</strong> Light logger continues to detect light despite the fixture being turned off 
 
