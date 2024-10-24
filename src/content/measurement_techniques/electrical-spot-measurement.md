@@ -27,7 +27,7 @@ associated_calculations:
 url: "/documents/measurement-technique/electrical-spot-measurement"
 ---
 
-## Description of Electrical Spot Measurement
+## Understanding Electrical Spot Measurements
 
 This technique uses a handheld power meter to take one-time measurements of true RMS power draw (kW) at an electrical distribution system such as a panelboard, power panel or switchgear. One-time measurements work as snapshots of power draw, voltage, current and power factor for a system or component such as lighting fixtures, chillers and fan and pump motors. This measurement technique is commonly used with loads that have constant power draw such as constant speed fans and pumps, as well as some lighting fixture systems. If power draw changes over time CUNY BPL recommends using a data logger to take direct measurements of <a href="/documents/measurement-technique/electrical-current">electrical energy consumption</a> (kWh).  
 
@@ -43,7 +43,7 @@ Electrical distribution systems can have different configurations such as three-
 
 This is a proxy measurement of electrical energy consumption of a system or component. Energy consumption is calculated with true RMS power draw and the runtime (operating schedule) of the system or component. 
 
-### Equipment
+### Measurement Equipment to Use
 
 The measurement equipment needed for this procedure is a handheld power meter with a current transformer and voltage cables. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off the [Fluke 345 PQ Clamp Meter](https://nycenergytools.com/equipment/power-quality-clamp-meter/) and the [Extech PQ2071](https://nycenergytools.com/equipment/power-quality-clamp-meter-2/), both of which can be found and borrowed through FELL. A power meter will typically measure AC voltage, current and power factor and can display all values simultaneously. Please note that some power meters can log data for a short amount of time or take a screen shot of the measurements while the meter is connected to the load. Taking a picture with a phone is another option for saving measurement data. 
 
@@ -56,25 +56,23 @@ While some power meters can measure true three-phase power by measuring each pha
 The following sections will discuss the most common wire configurations found in a distribution system and assume a handheld power meter is being used, for details on how to install data loggers refer to the <strong>True RMS Energy guide.</strong>  
 
 Values to measure:  
-<ul>
-    <li>True RMS power (kW)</li>
-    <li>Voltage (V)</li> 
-    <li>Current (Amps)</li> 
-    <li>Power Factor</li>
-</ul>
+
+- True RMS power (kW)
+- Voltage (V)
+- Current (Amps)
+- Power Factor
 
 ### 2. Installation of Equipment
 
-<ul>
-    <li>Confirm that the equipment is operational.</li>  
-    <li>Identify if the distribution system supplies electricity to other loads that are not relevant to the project (to avoid measuring unwanted loads).</li>
-    <li>Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.</li>
-    <li>Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the current, voltage and power factor to the system.</li>
-</ul>
+1. Confirm that the equipment is operational. 
+2. Identify if the distribution system supplies electricity to other loads that are not relevant to the project (to avoid measuring unwanted loads).
+3. Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.
+4. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the current, voltage and power factor to the system.
 
 An example of how to connect the Fluke 345 PQ Clamp Meter is shown below
 
-<iframe class="video" src="https://www.youtube.com/embed/FaWG8QRf7pE?si=mAjHxyWZ5hJOPmNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+<iframe class="video" src="https://www.youtube.com/embed/FaWG8QRf7pE?si=mAjHxyWZ5hJOPmNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 1. How to install the fluke 345 PQ clamp meter. (Click to Start Video)</figcaption> 
 
 Some power meters offered through FELL can measure three-phase power with different calculation methods. Carefully read the user manual of the power meter to identify the calculations used to estimate three-phase power.
 
@@ -123,7 +121,7 @@ For the connection illustrated in Figure 3, this power meter can only measure li
 </figure>
 </a>
 
-## Troubleshooting
+## Troubleshooting Our Measurement Equipment
 
 <strong>Problem 1:</strong> It can be difficult or confusing to know how to connect a power meter to a panelboard because panelboards can have many different colored wires. Older panelboards might not have clear or accurate labeling at the circuit breakers, making it challenging to make proper connections.
 

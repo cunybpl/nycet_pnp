@@ -15,7 +15,7 @@ associated_components:
 url: "/documents/measurement-technique/water-pressure-and-pump-curve"
 ---
 
-## Description of Water Pressure and Pump Curve
+## Understanding Water Pressure and Pump Curve Measurements
 
 This technique uses water pressure measurements to infer the water flow rate (in GPM) for a pump. This is called the pump curve method because it uses the pump curve, pressure data and technical specifications of a pump to determine the water flow rate, as illustrated in Figure 1. A water loop system can have multiple pumps and the water flow rate for each pump must be determined and then summed to obtain the total flow rate of the water loop. Measurement data is used to calculate how much heat is added or removed by the heating or cooling plant; data is also used to calculate energy/heat recovered with a liquid-to-liquid heat recovery system. 
 
@@ -47,7 +47,7 @@ Total head is calculated by taking the difference between discharge and suction 
 <p class="equation">$Total \hspace{2mm} Head =$ operating pressure of the pump converted from psi, feet</p>
 <p class="equation">$2.31 =$ constant equivalent to one poune of pressure per in $^2$ of water (at 60 degrees F), feet/psi</p>
 
-### Equipment 
+### Measurement Equipment to Use 
 
 The measurement equipment needed for this procedure is a data logger with pressure transducers. The contents of this guide are largely based off of [Onset HOBO UX120-006M](https://nycenergytools.com/equipment/4-channel-analog-data-logger/) data logger and the [Ashcroft Pressure Transducer](https://nycenergytools.com/equipment/gauge-pressure-sensor/), which can be found and borrowed through the FELL. The Ashcroft Pressure Transducer measures voltage between 0V and 5V. The pressure transducer connects to the UX120-006M data logger which then converts the voltage signal to pressure in PSI units. Please refer to [our video instructions](https://youtu.be/9SxjYiv0sWw) for details on how to configure the UX120-006M to detect voltage and convert to pressure. 
 
@@ -69,42 +69,26 @@ Identify the temperature (hot or cold) of the pipes that will be measured. Use t
 - Type of sensor
 - Sampling interval: 1-second
 
-<a href="https://www.youtube.com/watch?v=fUjz0qj7GVM&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=1">
-<figure class="figure">
-  <img src="/images/measurement-technique/water-pressure-and-pump-curve/Water Pressure and Pump Curve Figure 2 Updated.png" class="figure-img img-fluid rounded" alt="Figure 2. How to configure the 4-channel analog logger.">
-  <figcaption class="figure-caption text-left">Figure 2. How to configure the 4-channel analog logger.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/fUjz0qj7GVM?si=uagmEkC-vst8SKMx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 2. How to setup 4-channel analog logger with CT to measure water pressure and pump curve. (Click to Start Video)</figcaption>
+
 
 ### 2. Installation at the Site 
 
-- Confirm that the equipment is operational.
-- Locate the pressure gauges that are installed on the suction and discharge sides of the pump, (Figure 3).
-- Connect the transducers to the data logger.
-- Place the data logger near the pipes, avoid placing the logger on the pipe itself.
-- Confirm that the pressure gauge has a stop-valve to prevent water from flowing.
-- If there is no stop valve on the piping system, then consider using the direct water flow measurement. 
-- Remove the stop-valve and replace it with a T-shaped valve to stop the flow of water, as shown in Figure 3.
-- Connect the transducer to the T-shaped valve.
-- To avoid leaks, wrap Teflon tape around the installed equipment.
+1. Confirm that the equipment is operational.
+2. Locate the pressure gauges that are installed on the suction and discharge sides of the pump, (Figure 3).
+3. Connect the transducers to the data logger.
+4. Place the data logger near the pipes, avoid placing the logger on the pipe itself.
+5. Confirm that the pressure gauge has a stop-valve to prevent water from flowing.
+6. If there is no stop valve on the piping system, then consider using the direct water flow measurement. 
+7. Remove the stop-valve and replace it with a T-shaped valve to stop the flow of water, as shown in Figure 3.
+8. Connect the transducer to the T-shaped valve.
+9. To avoid leaks, wrap Teflon tape around the installed equipment.
 
 Figure 2 illustrates a pressure gauge installed on an access port to the return chilled water line of a water-cooled chilled water plant. Notice the stop valve handle to the bottom right of the pressure gauge. This is used to stop the flow of water. 
 
-<a href="https://www.youtube.com/watch?v=FWgM0-VSlEQ&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=2">
-<figure class="figure">
-  <img src="/images/measurement-technique/water-pressure-and-pump-curve/Water Pressure and Pump Curve Figure 3 Updated.png" class="figure-img img-fluid rounded" alt="Figure 3. A pressure gauge and stop-valve.">
-  <figcaption class="figure-caption text-left">Figure 3. A pressure gauge and stop-valve.</figcaption>
-</figure>
-</a>
-
-Figure 4 illustrates a pressure transducer connected to the T-shaped valve (on the right) and to the pressure gauge (on the top). The T-shaped valve was installed as an extension for the pressure transducer.  
-
-<a href="https://www.youtube.com/watch?v=MCP9YBEGtrE&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=3">
-<figure class="figure">
-  <img src="/images/measurement-technique/water-pressure-and-pump-curve/Water Pressure and Pump Curve Figure 4 Updated.png" class="figure-img img-fluid rounded" alt="Figure 4. Pressure transducer and T-shaped valve.">
-  <figcaption class="figure-caption text-left">Figure 4. Pressure transducer and T-shaped valve.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/FWgM0-VSlEQ?si=NtSU7hFdv8PJe6fy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 3. How to install the 4-channel analog logger with CT  onsite. (Click to Start Video)</figcaption>
 
 ### 3. Verify Data is Being Collected 
 
@@ -114,38 +98,26 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 <strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
 </div>
 
-<ul>
-<li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.</li>
-<li>Analyze the data with a plot graph. This can be done with proprietary software or Microsoft Excel after exporting the dataset as a .csv file.</li>  
-<li>Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.</li>  
-</ul>
+1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+2. Analyze the data with a plot graph. This can be done with proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
+3. Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
-<a href="https://www.youtube.com/watch?v=KyLO5ARQbuA&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=4">
-<figure class="figure">
-  <img src="/images/measurement-technique/water-pressure-and-pump-curve/Water Pressure and Pump Curve Figure 5 Updated.png" class="figure-img img-fluid rounded" alt="Figure 5. Plot graph of pressure data collected from the supply and return lines of chilled water. Software in use is HOBOware Free. This logger had two pressure transducers connected to it and resulted in two separate measurements as shown on the plot graph.">
-  <figcaption class="figure-caption text-left">Figure 5. Plot graph of pressure data collected from the supply and return lines of chilled water. Software in use is HOBOware Free. This logger had two pressure transducers connected to it and resulted in two separate measurements as shown on the plot graph.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/KyLO5ARQbuA?si=bH-uztsGf-A5vOe2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 4. How to check the data of loggers using HOBOware. (Click to Start Video)</figcaption>
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data
 
 After verifying the logger is collecting data, do the following: 
 
-<ul>
-<li>Allow the logger to collect data for the remainder of the measurement period.</li> 
-<li>After the measurement period has concluded, remove the transducers and data logger.</li> 
-<li>If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to Stop the logger and end data collection.</li>     
-<li>Download all data from the logger and save the file in the .csv file format for analysis.</li> 
-</ul>
+1. Allow the logger to collect data for the remainder of the measurement period.
+2. After the measurement period has concluded, remove the transducers and data logger.
+3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to Stop the logger and end data collection.
+4. Download all data from the logger and save the file in the .csv file format for analysis.
 
-<a href="https://www.youtube.com/watch?v=47hqmeOh5X4&list=PL-NERcBsKg4WejBFb8CkJGuDocttfgSqa&index=5">
-<figure class="figure">
-  <img src="/images/measurement-technique/water-pressure-and-pump-curve/Water Pressure and Pump Curve Figure 6 Updated.png" class="figure-img img-fluid rounded" alt="Figure 6: Final data table in .csv format. Data was extracted from the logger using the HOBOware free software and exported for analysis. This dataset contains two columns of average hourly pressure data, one for each pressure transducer that was used.">
-  <figcaption class="figure-caption text-left">Figure 6: Final data table in .csv format. Data was extracted from the logger using the HOBOware free software and exported for analysis. This dataset contains two columns of average hourly pressure data, one for each pressure transducer that was used.</figcaption>
-</figure>
-</a>
+<iframe class ="video" src="https://www.youtube.com/embed/47hqmeOh5X4?si=5qJEs5wrLmwS0SBP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figcaption class="figure-caption text-left">Figure 5. How to extract the data from the logger using HOBOware. (Click to Start Video)</figcaption>
 
-## Troubleshooting 
+## Troubleshooting Our Measurement Equipment
 
 <strong>Problem:</strong> the logger is measuring unexpected values 
 
