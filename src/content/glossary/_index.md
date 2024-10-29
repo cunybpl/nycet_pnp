@@ -1,7 +1,7 @@
 ---
 title: Glorassy of Terms
 # type: calculation
-layout: basic
+layout: glossary
 # calculation_methodology_id: 4
 excerpt: 
 url: "/glossary"
