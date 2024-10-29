@@ -625,3 +625,33 @@ table caption p {
   padding-left: 4rem;
   text-indent: -4rem;
 }
+.glossary {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  section {
+    h2 {
+      position: sticky;
+      padding-top: 50px;
+      inset: 5rem;
+      z-index: 2;
+      background-color: white;
+      border-bottom: 1px solid #ebebeb;
+      padding-block: 0.5rem;
+      margin-top: 1rem;
+    }
+    dl {
+      dt {
+        scroll-margin-top: 20px;
+        padding-left: 2rem;
+        font-size: 1.2rem;
+      }
+      dd {
+        padding-left: 2rem;
+      }
+      dt + dd {
+      margin-bottom: 1.8rem;
+      }
+  }
+  }  
+}
