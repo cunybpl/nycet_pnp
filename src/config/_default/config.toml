@@ -150,6 +150,13 @@ title = "Protocols & Procedures"
   name = "Contact"
   url = "support/contact/"
   weight = 3
+[[menu.main]]
+  parent = "support"
+  identifier = "faq"
+  name = "FAQ"
+  url = "support/frequently-asked-questions/"
+  weight = 3
+
 
 ## Blog
 [[menu.main]]
@@ -302,6 +309,12 @@ title = "Protocols & Procedures"
 [[menu.sitemap]]
   name = "Contact"
   url = "support/contact/"
+[menu.sitemap.params]
+  category = "support"
+### FAQ
+[[menu.sitemap]]
+  name = "FAQ"
+  url = "support/frequently-asked-questions/"
 [menu.sitemap.params]
   category = "support"
 
