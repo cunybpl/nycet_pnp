@@ -7,7 +7,7 @@ excerpt:
 url: "/glossary"
 ---
 
-Explore the commonly used terms withih the P+P.
+Explore the commonly used terms withih the Protocols and Procedures. Hover over the term to see the full name. 
 
 <div class="glossary">
 
