@@ -71,11 +71,11 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
     <tbody>
         <tr>
             <td>
-                <p>Air-cooled chiller electricty usage (kWh)</p>
+                <p>Air-cooled chiller electricty usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly chiller kWh</li> 
+                    <li>Average hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
                     <li>Annual operating time for the chiller</li>
                 </ul>
             </td>

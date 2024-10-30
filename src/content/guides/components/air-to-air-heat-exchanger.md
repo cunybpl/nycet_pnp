@@ -111,7 +111,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Energy recovered by the heat exchanger</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Hourly Btu/h transferred to the outdoor air entering the system&nbsp;</p>
+                <p>Hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h transferred to the outdoor air entering the system&nbsp;</p>
             </td>
             <td width="33.333333333333336%">
                 <ul>
@@ -126,7 +126,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Heat recovery system electricity consumption (if applicable)</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly motor kWh (for rotary wheel heat exchangers)</p>
+                <p>Average hourly motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> (for rotary wheel heat exchangers)</p>
             </td>
             <td width="33.333333333333336%">
                 <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> of the motor that drives the rotary fan (kW)</p>
@@ -192,7 +192,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
             </td>
             <td width="33.333333333333336%">
-                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
             </td>
             <td width="33.333333333333336%">
                  <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>

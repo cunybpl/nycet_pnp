@@ -107,11 +107,11 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
     <tbody>
         <tr>
             <td>
-                <p>Primary HWH loop pump electricity usage (kWh) - constant-speed system</p>
+                <p>Primary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly primary HWH pump motors kWh</li> 
+                    <li>Average hourly primary HWH pump motors <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
                     <li>Total operating time of the pump motors</li>
                 </ul>
             </td>
@@ -127,11 +127,11 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
         </tr>
         <tr>
             <td>
-                <p>Primary HWH loop pump electricity usage (kWh) - variable-speed system</p>
+                <p>Primary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly primary HWH pump motor kWh</li> 
+                    <li>Average hourly primary HWH pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
                     <li>Total operating time for the pumps</li> 
                     <li>Outdoor air temperature as a proxy for heating load</li>
                 </ul>
@@ -148,11 +148,11 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
         </tr>
         <tr>
             <td>
-                <p>Secondary HWH loop pump electricity usage (kWh) - variable-speed system (if present)</p>
+                <p>Secondary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system (if present)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly primary HWH pump motor kWh</li> 
+                    <li>Average hourly primary HWH pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
                     <li>Total operating time for the pumps</li> 
                     <li>Outdoor air temperature as a proxy for heating load</li>
                 </ul>
@@ -186,7 +186,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 <p>Terminal units – heating load delivered</p>
             </td>
             <td>
-                <p>Average hourly Btu rejected from the hot water loop</p>
+                <p>Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> rejected from the hot water loop</p>
             </td>
             <td>
                 <p></p>

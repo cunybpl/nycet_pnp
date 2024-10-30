@@ -81,7 +81,7 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
     <tbody>
         <tr>
             <td>
-                <p>Hot water heating plant fuel consumption (Btu)</p>
+                <p>Hot water heating plant fuel consumption (<a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>)</p>
             </td>
             <td>
                 <p>Average hourly fuel consumption (Btuh)</p>
@@ -92,14 +92,14 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
         </tr>
         <tr>
             <td>
-                <p>Hot water heating plant electricity consumption (kWh)</p>
+                <p>Hot water heating plant electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly burner <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motor</a> (kWh)</li>
-                    <li>Average hourly primary HWH pump motor (kWh)</li>
-                    <li>Average hourly secondary HWH pump motor (kWh)</li>
-                    <li>Average hourly feedwater pump (kWh)</li>
+                    <li>Average hourly burner <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motor</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly primary HWH pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly secondary HWH pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly feedwater pump (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Total operating time for the <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motors</a></li>
                     <li>Outdoor air temperature (F)</li>
                 </ul>

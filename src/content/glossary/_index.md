@@ -27,8 +27,8 @@ Explore the commonly used terms withih the Protocols and Procedures. Hover over 
 ## B
 
 <dl>
-    <dt id="btu"><abbr title="British Thermal Unit">BTU (Btu)</abbr></dt>
-    <dd>Measure of the heat content of fuels or energy sources. One Btu is the quantity of heat required to raise the temperature of one pound of liquid water by 1° Fahrenheit at the temperature that water has its greatest density (approximately 39° F).</dd>
+    <dt id="btu"><abbr title="British Thermal Unit">BTU (<a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>)</abbr></dt>
+    <dd>Measure of the heat content of fuels or energy sources. One <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> is the quantity of heat required to raise the temperature of one pound of liquid water by 1° Fahrenheit at the temperature that water has its greatest density (approximately 39° F).</dd>
 </dl>
 
 </section>

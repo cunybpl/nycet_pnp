@@ -35,7 +35,7 @@ url: "/documents/measurement-technique/true-rms-power"
 
 ## Understanding Hourly True RMS Power Measurements
 
-This technique uses a data logger to take long- term measurements of the electrical energy (kWh) and power draw (kW) of a system or component at one- hour intervals. Measurements are taken at the electrical distribution system (more specifically at a panelboard , power panel or switchgear) that serves the system or component. Measurement data is used to estimate the annual energy consumption of the system or component. 
+This technique uses a data logger to take long- term measurements of the electrical energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) and power draw (kW) of a system or component at one- hour intervals. Measurements are taken at the electrical distribution system (more specifically at a panelboard , power panel or switchgear) that serves the system or component. Measurement data is used to estimate the annual energy consumption of the system or component. 
 
 Data loggers and power meters use instantaneous measurements of current and voltage to calculate the instantaneous power draw. Over time, the logger or meter calculates the average power draw. Manufacturers of measurement equipment use different calculations for power draw. In order to compare data obtained from different measurement equipment it is important to understand the calculation used by the equipment. The manufacturer’s user manual or technical specifications discuss these features in detail. 
 
@@ -68,7 +68,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 - Logging interval: 1-hour
 - Date and time to start logging
 - Date and time to stop logging
-- Values to measure: Power (kW), Energy (kWh)
+- Values to measure: Power (kW), Energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
 
 An example of how to setup the Dent EliteProXC power data logger is shown in the video below.
 

@@ -125,7 +125,7 @@ Table 1 provides a summary of the components to measure to arrive at values need
                 <p>Heat Recovered</p>
             </td>
             <td>
-                <p>Average hourly Btu recovered</p>
+                <p>Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> recovered</p>
             </td>
             <td>
                 <p><a href="/documents/components/air-to-air-heat-exchanger">Heat Exchanger</a></p>
@@ -140,10 +140,10 @@ Table 1 provides a summary of the components to measure to arrive at values need
         </tr>
         <tr>
             <td>
-                <p>Heat recovery system electricity consumption (kWh) (if applicable)</p>
+                <p>Heat recovery system electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) (if applicable)</p>
             </td>
             <td>
-                <p>Average hourly fan motor (and rotary wheel motor if applicable) kWh</p>
+                <p>Average hourly fan motor (and rotary wheel motor if applicable) <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
             </td>
             <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motor (and rotary wheel motor if applicable)</a></p>

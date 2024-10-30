@@ -141,7 +141,7 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     <tbody>
         <tr>
             <td>
-                <p>Electricity usage of CSCV fan motor (kWh)</p>
+                <p>Electricity usage of CSCV fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <p>Average hourly true RMS power of the motor</p>

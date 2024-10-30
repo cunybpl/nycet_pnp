@@ -96,13 +96,13 @@ The primary energy consumption of a water-cooled chilled water plant is the sum 
     <tbody>
         <tr>
             <td>
-                <p>Water-cooled chilled water plant electricity usage (kWh)</p>
+                <p>Water-cooled chilled water plant electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly chiller (kWh)</li>
-                    <li>Average hourly <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motors</a> (kWh)</li>
-                    <li>Average hourly cooling tower <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motors</a> (kWh)</li>
+                    <li>Average hourly chiller (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motors</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly cooling tower <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motors</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                 </ul>
             </td>
             <td>

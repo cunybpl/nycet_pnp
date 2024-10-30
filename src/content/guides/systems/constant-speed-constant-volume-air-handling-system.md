@@ -65,10 +65,10 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
     <tbody>
         <tr>
             <td>
-                <p>Air handling unit electricity usage (kWh)</p>
+                <p>Air handling unit electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
-                <p>Average hourly fan motor (kWh)</p>
+                <p>Average hourly fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <p><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></p>

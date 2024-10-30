@@ -90,11 +90,11 @@ The primary energy consumption of a condenser water loop is the electricity used
     <tbody>
         <tr>
             <td>
-                <p>Variable-flow CW loop electricity usage (kWh)</p>
+                <p>Variable-flow CW loop electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly pump motor kWh</li>
+                    <li>Average hourly pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
                     <li>Total operating time for the pump</li>
                 </ul>
             </td>
@@ -110,11 +110,11 @@ The primary energy consumption of a condenser water loop is the electricity used
         </tr>
         <tr>
             <td>
-                <p>Variable-speed cooling tower electricity usage (kWh)</p>
+                <p>Variable-speed cooling tower electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly fan motor kWh</li>
+                    <li>Average hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
                     <li>Total operating time for the fan</li>
                 </ul>
             </td>
@@ -131,11 +131,11 @@ The primary energy consumption of a condenser water loop is the electricity used
         </tr>
         <tr>
             <td>
-                <p>Constant-flow CW loop electricity usage (kWh)</p>
+                <p>Constant-flow CW loop electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly pump motor kWh</li>
+                    <li>Average hourly pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
                     <li>Total operating time for the pump</li>
                 </ul>
             </td>
@@ -151,11 +151,11 @@ The primary energy consumption of a condenser water loop is the electricity used
         </tr>
         <tr>
             <td>
-                <p>Constant-speed cooling tower electricity usage (kWh)</p>
+                <p>Constant-speed cooling tower electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly fan motor kWh</li>
+                    <li>Average hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
                     <li>Total operating time for the fan</li>
                 </ul>
             </td>
@@ -175,7 +175,7 @@ The primary energy consumption of a condenser water loop is the electricity used
                 <p>Heat rejected to the outdoors</p>
             </td>
             <td>
-                <p>Average hourly Btu rejected from the condenser water loop</p>
+                <p>Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> rejected from the condenser water loop</p>
             </td>
             <td>
             </td>

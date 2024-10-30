@@ -107,7 +107,7 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
     <tbody>
         <tr>
             <td>
-                <p>Steam boiler plant fuel consumption (Btu)</p>
+                <p>Steam boiler plant fuel consumption (<a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>)</p>
             </td>
             <td>
                 <p>Average hourly fuel consumption (Btu/h)</p>
@@ -118,14 +118,14 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
         </tr>
         <tr>
             <td>
-                <p>Steam plant electricity consumption (kWh)</p>
+                <p>Steam plant electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly burner <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motor</a> (kWh)</li>
+                    <li>Average hourly burner <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motor</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Total operating hours of burner fan motor</li>
-                    <li>Average hourly condensate <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motor</a> kWh</li>
-                    <li>Average hourly feedwater pump motor (kWh)</li>
+                    <li>Average hourly condensate <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motor</a> <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
+                    <li>Average hourly feedwater pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Total operating time for pump motors</li>
                 </ul>
             </td>
