@@ -87,7 +87,7 @@ Explore commonly used terms withih the Protocols and Procedures.
 
 <dl>
     <dt id="oat"><abbr title="Outdoor Air temperature">OAT</abbr></dt>
-    <dd>OAT, or Outdoor Air Temperature is the temperature of the outdoor air.</dd>
+    <dd>Outdoor Air Temperature. Dry bulb only.</dd>
 </dl>
 
 </section>
