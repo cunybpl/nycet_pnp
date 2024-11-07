@@ -279,7 +279,7 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 
 <p class="step-indent">Where,</p>
 <p class="equation">$P_{f}(t_{f}) =$ Measured power</p>
-<p class="equation">$On_{f}(t_{f}) =$ Motor is on at time, $$t_{f}$$ for either supply or return fan, f, binary</p>
+<p class="equation">$On_{f}(t_{f}) =$ Motor is on at time, $t_{f}$ for either supply or return fan, f, binary</p>
 
 3. Average hourly % motor is on for each hour of each day of the week, for supply and return fan motors (Worksheet: "Step 5. Daily Avg Schedule Calc").
 

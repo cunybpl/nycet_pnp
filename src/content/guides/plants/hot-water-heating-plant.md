@@ -20,7 +20,7 @@ The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, b
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Hot-Water heating plant.">
-        <figcaption class="figure-caption text-left">Figure 1. Hot water heating plant.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Hot water heating plant (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -33,7 +33,7 @@ The HWH boiler system is the largest energy-consuming system in the hot water he
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Hot water heating boiler system.">
-        <figcaption class="figure-caption text-left">Figure 2. Hot water heating boiler system.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. Hot water heating boiler system (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -44,7 +44,7 @@ The hot water loop system encompasses the distribution system responsible for mo
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Hot water loop system.">
-        <figcaption class="figure-caption text-left">Figure 3. Hot water loop system.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Hot water loop system (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -55,7 +55,7 @@ The feedwater system provides treated make-up water and returned hot water from 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Feedwater system and chemical treatment for make-up water.">
-        <figcaption class="figure-caption text-left">Figure 4. Feedwater system and chemical treatment for make-up water.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 4. Feedwater system and chemical treatment for make-up water (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -65,7 +65,7 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Hot Water Heating Plant Values</caption>
+    <caption>Table 1. Key values and components to measure to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td style="width: 30%">

@@ -7,6 +7,7 @@ associated_systems:
   - Air-to-air Energy Recovery
 related_systems:
   - Air-to-air Energy Recovery
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/air-to-air-heat-exchanger/" 
 layout: guide
 url: "/documents/components/air-to-air-heat-exchanger"
 ---
@@ -91,7 +92,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
-    <caption>Table 2. Key values and measurements.</caption>
+    <caption>Table 2. Key values and measurements to evaluate heat transfer.</caption>
     <thead>
         <tr>
             <td width="33.333333333333336%">
@@ -116,8 +117,8 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
             <td width="33.333333333333336%">
                 <ul>
                 <li>Hourly air flow rate (CFM) of incoming air</li>
-                <li>Hourly <a href="/documents/measurement-technique/system-air-temperature">air temperature (F)</a> of incoming air on both sides of the heat exchanger (two measurement points total)&nbsp;</li>
-                <li>Hourly <a href="/documents/measurement-technique/relative-humidity">relative humidity</a> of the incoming air on both sides of the heat exchanger (two measurement points total, only for latent heat recovery systems)</li>
+                <li>Hourly <a href="/documents/measurement-technique/system-air-temperature">air temperature (F)</a> of incoming air on both sides of the heat exchanger&nbsp;</li>
+                <li>Hourly <a href="/documents/measurement-technique/relative-humidity">relative humidity</a> of the incoming air on both sides of the heat exchanger (only for latent heat recovery systems)</li>
                 </ul>
             </td>
         </tr>
@@ -140,21 +141,21 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 The measurement strategy for an air-to-air heat exchanger is to measure the heat transfer (Btu/h) from airstream to airstream within the heat exchanger, as well as any energy consuming components associated with the heat exchanger, such as the energy wheel motor. 
 
-Figure 1 shows the measurement points in a fixed plate heat exchanger. 
+Figure 1 shows the measurement locations in a fixed plate heat exchanger. 
 
 <a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement boundary for an air-to-air heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 1. Fixed-plate heat exchanger measurement points.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Fixed-plate heat exchanger measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
-Figure 2 shows the measurement points in a rotary wheel heat exchanger.
+Figure 2 shows the measurement locations in a rotary wheel heat exchanger.
 
 <a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg">
 <figure class="figure">
-  <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Rotary wheel heat exchanger measurement points.">
-  <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement points.</figcaption>
+  <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Rotary wheel heat exchanger measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

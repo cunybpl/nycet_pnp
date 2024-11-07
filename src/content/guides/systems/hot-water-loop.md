@@ -42,7 +42,7 @@ The main components associated with the HWH loop system are primary pumps for pr
 <a href="/images/systems/hot-water-loop/2024_0503_HW Loop system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/hot-water-loop/2024_0503_HW Loop system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Hot Water Loop Components.">
-  <figcaption class="figure-caption text-left">Figure 1. Hot Water Loop Components.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Hot Water Loop Components (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
@@ -88,7 +88,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -208,8 +208,8 @@ The measurement locations for a primary-flow and primary-secondary flow hot wate
 
 <a href="/images/systems/hot-water-loop/2024_0507_HW Loop system_figure 2 updated.jpg">
 <figure class="figure">
-  <img src="/images/systems/hot-water-loop/2024_0507_HW Loop system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.">
-  <figcaption class="figure-caption text-left">Figure 2. Measurement points of primary and secondary pumps and associated piping that serve the HWH loop.</figcaption>
+  <img src="/images/systems/hot-water-loop/2024_0507_HW Loop system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Hot water loop measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 2. Hot water loop measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

@@ -20,7 +20,7 @@ An air-cooled chilled water plant consists of an air-cooled chiller system and a
 <a href="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air-cooled chilled water plant.">
-        <figcaption class="figure-caption text-left">Figure 1. Air-cooled chilled water plant.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Air-cooled chilled water plant (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -33,7 +33,7 @@ Figure 2 shows an air-cooled chiller providing chilled water to the chilled wate
 <a href="/images/plants/air-cooled-chilled-water-plant/2024_0423_ACCW plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/air-cooled-chilled-water-plant/2024_0423_ACCW plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Air cooled chiller.">
-        <figcaption class="figure-caption text-left">Figure 2. Air-cooled chiller.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. Air-cooled chiller (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -44,7 +44,7 @@ A chilled water loop system consists of a closed loop distribution system that s
 <a href="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water loop.">
-        <figcaption class="figure-caption text-left">Figure 3. Chilled water loop.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Chilled water loop (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -54,7 +54,7 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components, and measurements</caption>
+    <caption>Table 1. Key values and components to measure to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>

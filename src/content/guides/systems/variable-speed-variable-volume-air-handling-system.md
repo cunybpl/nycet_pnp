@@ -8,14 +8,14 @@ associated_systems:
   - Variable-speed, Variable-volume Fan and Motor
 related_components:
   - Variable-speed, Variable-volume Fan and Motor
-borrow_equipment_url: 
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/air-handler-unit-fans-measurement-kit/"
 layout: guide
 url: "/documents/systems/variable-speed-variable-volume-air-handling-system"
 ---
 
 ## General Overview
 
-A variable-speed, variable-volume (VSVV) air handling system conditions provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors. The served zones are typically equipped with variable-air-volume boxes (VAV) which allow for zone-specific control of supply airflow. The overall airflow of the air handling unit (AHU) is modulated using variable-frequency-drives (VFDs) on the supply and return fan motors based on how much air the VAV boxes require. For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4. 
+A variable-speed, variable-volume (VSVV) air handling system conditions provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors. The served zones are typically equipped with variable-air volume boxes (VAV) which allow for zone-specific control of supply airflow. The overall airflow of the air handling unit (AHU) is modulated using variable-frequency drives (VFDs) on the supply and return fan motors based on how much air the VAV boxes require. For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4. 
 
 ## Variable-speed, Variable-volume Air Handling Unit Components 
 
@@ -24,11 +24,11 @@ The major components of a VSVV system are the fans and motors, motor VFDs, heat 
 <a href="/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0503_VSVV AHU system_figure 1 updated.jpeg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0503_VSVV AHU system_figure 1 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 1. Variable-speed, Variable-volume Components.">
-        <figcaption class="figure-caption text-left">Figure 1. Variable-speed, Variable-volume Components.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Variable-speed, Variable-volume Components (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
-### AHU Fan Motors and Variable Frequency Drives 
+### AHU Fan Motors and Variable-frequency Drives 
 
 The fan motors with VFDs provide pressure in the system to move air through the duct work. Typically, fans are placed on the return and supply side of the unit to maintain proper airflow. The air is blown through filters and heat exchanger coils to be conditioned. Fan speeds are varied based on the need for conditioned or ventilation air in the zones served.  
 
@@ -50,7 +50,7 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -80,7 +80,7 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
             <td>
                 <ul>
                     <li><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS energy</a></li> 
-                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outside air temperature</a> (if VFD is temperature dependent)</li>
+                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature</a> (if VFD is temperature dependent)</li>
                 </ul>
             </td>
         </tr>
@@ -100,7 +100,7 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
         </tr>
         <tr>
             <td>
-                <p>VAV boc consumption (if applicable)</p>
+                <p>VAV box consumption (if applicable)</p>
             </td>
             <td>
                 <p>Hourly reheat kWh</p>
@@ -150,8 +150,8 @@ The measurement locations for a VSVV air handling system are schematically shown
 
 <a href="/images/systems/variable-speed-variable-volume-air-handling-unit/variable speed variable volume ahu figure 2.png">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/variable-speed-variable-volume-air-handling-unit/variable speed variable volume ahu figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Measurement points location at the VFD as well as the VAV box.">
-        <figcaption class="figure-caption text-left">Figure 2. Measurement points location at the VFD as well as the VAV box.</figcaption>
+        <img src="/images/systems/variable-speed-variable-volume-air-handling-unit/variable speed variable volume ahu figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. VSVV AHU measurement locations.">
+        <figcaption class="figure-caption text-left">Figure 2. VSVV AHU measurement locations (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
