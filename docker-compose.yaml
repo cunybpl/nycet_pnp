@@ -1,0 +1,14 @@
+services:
+  app:
+    restart: "no"
+    container_name: "nycet_pnp_app"
+    image: nycet_pnp:latest 
+    build:
+      context: .
+      dockerfile: ./Dockerfile 
+    volumes:
+      - ./src:/nycet/src
+    ports:
+      - "9007:9005" 
+      - "1313:1313"
+    # -- command given in Dockerfile
