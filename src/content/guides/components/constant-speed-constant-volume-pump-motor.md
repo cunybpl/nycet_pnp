@@ -17,7 +17,7 @@ related_systems:
   - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-and-motor-kit-constant-speed/"
 layout: guide
 url: "/documents/components/constant-speed-constant-volume-pump-motor"
 ---
@@ -168,7 +168,7 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
 
 <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
-    <caption>Table 2. Key values and measurements.</caption>
+    <caption>Table 2. Key values and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td width="28.571428571428573%">
@@ -206,12 +206,12 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
 
 ### Measurement Strategy
 
-The measurement strategy for a CSCV pump and motor is to do a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant-speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at the main feed to the constant-speed motor. Measurement points are generically represented in Figure 2.
+The measurement strategy for a CSCV pump and motor is to do a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant-speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at the main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1.
 
-<a href="/images/components/2024_0626_CSCV pump component_figure 1.jpg">
+<a href="/images/components/2024_1023_CSCV_pump component_figure 1.jpg">
 <figure class="figure">
-  <img src="/images/components/2024_0626_CSCV pump component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt=" Figure 1. Measurement points for a CSCV pump motor.">
-  <figcaption class="figure-caption text-left">Figure 1. Measurement points for a CSCV pump motor.</figcaption>
+  <img src="/images/components/2024_1023_CSCV_pump component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt=" Figure 1. CSCV pump and motor measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 1. CSCV pump and motor measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

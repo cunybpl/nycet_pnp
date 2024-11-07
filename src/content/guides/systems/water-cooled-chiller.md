@@ -32,7 +32,7 @@ The four main components of every chiller are an evaporator, a compressor and mo
 <a href="/images/systems/water-cooled-chiller/2024_0425_WCC system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/water-cooled-chiller/2024_0425_WCC system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Water-cooled chiller components.">
-  <figcaption class="figure-caption text-left">Figure 1. Water-cooled chiller components.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Water-cooled chiller components (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
@@ -58,7 +58,7 @@ The primary energy consumption in a water-cooled chiller is the electricity used
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -167,8 +167,8 @@ The measurement locations for a water-cooled chiller are schematically shown in 
 
 <a href="/images/systems/water-cooled-chiller/2024_0425_WCC system_figure 2 updated.jpg">
 <figure class="figure">
-  <img src="/images/systems/water-cooled-chiller/2024_0425_WCC system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Water-cooled chiller measurement points.">
-  <figcaption class="figure-caption text-left">Figure 2. Water-cooled chiller measurement points.</figcaption>
+  <img src="/images/systems/water-cooled-chiller/2024_0425_WCC system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Water-cooled chiller measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 2. Water-cooled chiller measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

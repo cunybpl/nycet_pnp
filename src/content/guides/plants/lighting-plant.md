@@ -20,7 +20,7 @@ A lighting plant consists of the electrical distribution system and one or more 
 <a href="/images/plants/lighting-plant/2024_0425_LIGHTING plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/lighting-plant/2024_0425_LIGHTING plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Lighting Plant. Keep in mind that a lighting plant will have several electrical panelboards.">
-        <figcaption class="figure-caption text-left">Figure 1. Lighting Plant. Keep in mind that a lighting plant will have several electrical panelboards.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Lighting Plant. Keep in mind that a lighting plant will have several electrical panelboards (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -33,7 +33,7 @@ The electrical distribution system is comprised of main and secondary switchgear
 <a href="/images/plants/lighting-plant/2024_0503_LIGHTING plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/lighting-plant/2024_0503_LIGHTING plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Electrical distribution system.">
-        <figcaption class="figure-caption text-left">Figure 2. Electrical distribution system.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. Electrical distribution system (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -46,7 +46,7 @@ The light fixture system is comprised of the luminaires, lamps, and controls. Co
 <a href="/images/plants/lighting-plant/2024_0503_LIGHTING plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/lighting-plant/2024_0503_LIGHTING plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3: Two Dedicated Lighting Panelboards with Automatic Controls, each panelboard is considered a system.">
-        <figcaption class="figure-caption text-left">Figure 3: Two Dedicated Lighting Panelboards with Automatic Controls, each panelboard is considered a system.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3: Two Dedicated Lighting Panelboards with Automatic Controls, each panelboard is considered a system (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -56,7 +56,7 @@ To quantify the energy consumption of the lighting plant, the components of all 
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Lighting Plant Values</caption>
+    <caption>Table 1. Key values and components to measure to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>

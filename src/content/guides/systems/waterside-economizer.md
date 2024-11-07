@@ -23,7 +23,7 @@ The components associated with a waterside economizer are heat exchanger, piping
 <a href="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Waterside economizer system components.">
-  <figcaption class="figure-caption text-left">Figure 1. Waterside economizer system components.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Waterside economizer system components (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
@@ -37,13 +37,13 @@ Piping can have different arrangements to allow the desirable operation of the w
 
 ## Evaluation of Energy Consumption
 
-The primary effect of waterside economizer is the savings in electricity usage at plant level to meet the cooling load of the building. For more information about the energy consumption of the overall water-cooled chilled water plant see the Protocol and Procedure PnP-P-01: Water-Cooled Chilled Water Plant.
+The primary effect of waterside economizer is the savings in electricity usage at plant level to meet the cooling load of the building. For more information about the energy consumption of the overall water-cooled chilled water plant see the <a href="/documents/plants/water-cooled-chilled-water-plant">Water-Cooled Chilled Water Plant</a>.
 
 The cooling energy savings are equivalent to the heat rejected through the waterside economizer. Table 1 provides a summary of the components to measure to arrive at values needed to quantify the heat rejected from the chilled water to condenser water by free cooling. 
 
 <div class="table-wrapper">
 <table>
-<caption>Table 1. Key values, components and measurements</caption>
+<caption>Table 1. Key values and measurements to evaluate heat transfer.</caption>
     <tbody>
         <thead>
             <tr>
@@ -88,8 +88,8 @@ The measurement locations for the waterside economizer are schematically shown i
 
 <a href="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 2 updated.jpg">
 <figure class="figure">
-  <img src="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Waterside economizer measurement points.">
-  <figcaption class="figure-caption text-left">Figure 2. Waterside economizer measurement points.</figcaption>
+  <img src="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Waterside economizer measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 2. Waterside economizer measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

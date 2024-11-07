@@ -26,7 +26,7 @@ The main components of a boiler system are burner, combustion chamber, heat exch
 <a href="/images/systems/boiler/2024_0423_BOILER system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/boiler/2024_0423_BOILER system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Boiler System.">
-  <figcaption class="figure-caption text-left">Figure 1. Boiler System.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Boiler System (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
@@ -40,7 +40,7 @@ The heat exchanger of boiler systems enables the heat transfer from the fuel com
 
 ### Burner
 
-The main function of the burner is to deliver fuel and air, mix them in the required proportions, provide the ignition source and burn the mixture to assure an efficient combustion. Burners and be single fuel or set up to operate on multiple fuels. Burners controls play a key role in the efficiency of the boiler system. For a given boiler system the firing rate may be constant, variable but discrete (i.e., staged), or fully variable.  
+The main function of the burner is to deliver fuel and air, mix them in the required proportions, provide the ignition source and burn the mixture to assure an efficient combustion. Burners and be single fuel or set up to operate on multiple fuels. Burner controls play a key role in the efficiency of the boiler system. For a given boiler system the firing rate may be constant, variable but discrete (i.e., staged), or fully variable.  
 
 ### Draft Fan (Burner Fan Motor)
 
@@ -54,7 +54,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -119,8 +119,8 @@ The measurement locations for a boiler system are shown in Figure 2.
 
 <a href="/images/systems/boiler/2024_0507_BOILER system_figure 3 updated.jpg">
 <figure class="figure">
-  <img src="/images/systems/boiler/2024_0507_BOILER system_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Measurement point locations (Image courtesy of CUNY BPL).">
-  <figcaption class="figure-caption text-left">Figure 2. Measurement point locations (Image courtesy of CUNY BPL).</figcaption>
+  <img src="/images/systems/boiler/2024_0507_BOILER system_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Boiler measurement locations (Image courtesy of CUNY BPL).">
+  <figcaption class="figure-caption text-left">Figure 2. Boiler measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

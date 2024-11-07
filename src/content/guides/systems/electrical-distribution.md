@@ -6,6 +6,7 @@ thumbnail_image: "/images/systems/electrical-distribution/2024_0701_electrical d
 system_id: 6
 related_measurements:
   - Electrical Current
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/lighting-measurement-kit/"
 layout: guide
 url: "/documents/systems/electrical-distribution"
 ---
@@ -21,7 +22,7 @@ Figure 1 shows the main components associated with the electrical distribution s
 <a href="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Diagram of an electrial distribution system.">
-        <figcaption class="figure-caption text-left">Figure 1. Diagram of an electrial distribution system.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Diagram of an electrial distribution system (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -36,7 +37,7 @@ A dedicated electrical panelboard supplies electricity only to the light fixture
 <a href="/images/systems/electrical-distribution/electrical distribution figure2.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Dedicated panelboard system.">
-        <figcaption class="figure-caption text-left">Figure 2. Dedicated panelboard system.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. Dedicated panelboard system (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -45,7 +46,7 @@ Figure 3 is an example of a schedule of circuits on a dedicated panelboard. The 
 <a href="/images/systems/electrical-distribution/electrical distribution figure3.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Example of a dedicated panelboard schedule.">
-        <figcaption class="figure-caption text-left">Figure 3. Example of a dedicated panelboard schedule.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Example of a dedicated panelboard schedule (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -59,7 +60,7 @@ A Mixed electrical panelboard supplies electricity to the lighting fixture syste
     </a>
 <figcaption class="figure-caption text-left">
 
-Figure 4: Example of a mixed panelboard schedule.[^1]
+Figure 4: Example of a mixed panelboard schedule (click on image to enlarge).[^1]
 
 </figcaption>
 </figure>
@@ -70,7 +71,7 @@ The electrical distribution system does not consume electricity, but it can be a
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -113,23 +114,23 @@ The electrical distribution system does not consume electricity, but it can be a
 
 ### Measurement Locations
 
-Figures 5 and 6 show typical measurement points in an electrical distribution system.
+Figures 5 and 6 show typical measurement locations in an electrical distribution system.
 
 <a href="/images/systems/electrical-distribution/electrical distribution figure5.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure5.png" class="figure-img img-fluid rounded" alt="Figure 5: Three-phase power measurement using a Dent EliteProXC Power Logger to capture to total power draw of all fixtures served by the panelboard.">
-        <figcaption class="figure-caption text-left">Figure 5: Three-phase power measurement using a Dent EliteProXC Power Logger to capture to total power draw of all fixtures served by the panelboard.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 5: Three-phase power measurement using a Dent EliteProXC Power Logger to capture to total power draw of all fixtures served by the panelboard (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
 <a href="/images/systems/electrical-distribution/electrical distribution figure6.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure6.png" class="figure-img img-fluid rounded" alt="Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter.">
-        <figcaption class="figure-caption text-left">Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
-Measurement points in the electrical distribution system are at the conductors in the panelboard or switchgear. To measure a lighting plant, the best practice is to capture as much of the lighting plant in a single measurement as possible. Measuring at switchgear may be appropriate if all lighting panelboards are dedicated and connected to it, but only the distribution line that supplies electricity to lighting should be measured. Alternatively, a sample of panelboards and/or circuits can be measured but a sampling plan must be considered. For more information on sampling please refer to Bonneville Power Administration’s guide on sampling.
+Measurement locations in the electrical distribution system are at the conductors in the panelboard or switchgear. To measure a lighting plant, the best practice is to capture as much of the lighting plant in a single measurement as possible. Measuring at switchgear may be appropriate if all lighting panelboards are dedicated and connected to it, but only the distribution line that supplies electricity to lighting should be measured. Alternatively, a sample of panelboards and/or circuits can be measured but a sampling plan must be considered. For more information on sampling please refer to Bonneville Power Administration’s guide on sampling.
 
 ### Calculation Methodology
 

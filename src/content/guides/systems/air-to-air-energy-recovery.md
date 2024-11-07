@@ -24,58 +24,36 @@ Figure 1 shows the main components associated with a fixed plate heat exchanger 
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 1.png">
     <figure class="figure">
         <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Air-to-air heat recovery system with fixed plate each exchanger.">
-        <figcaption class="figure-caption text-left">Figure 1. Air-to-air heat recovery system with fixed plate each exchanger.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Air-to-air heat recovery system with fixed plate each exchanger (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
-### Heat Exchanger
+### Heat Exchangers
 
 The heat exchanger transfers energy between the two airstreams.  The most common air-to-air heat exchangers as defined by ASHRAE are listed below. The energy transfer effectiveness in a heat exchanger relies on its configuration, the material properties of the energy exchange surface, and a design that maximizes the contact of the airstream with the heat exchange surface. 
 
-#### Fixed plate heat exchangers
+#### Fixed Plate Heat Exchanger
 
-A fixed plate heat exchanger functions by providing neighboring channels, separated by plates, for airstreams to pass through and transfer energy. The channel separation determines both the pressure drop and efficiency of the heat exchanger. Many fixed plate heat exchangers only transfer sensible heat, but they can be designed to transfer latent energy (i.e., moisture) as well, depending on the material used. Figure 2 shows a diagram of a fixed plate exchanger.
+A fixed plate heat exchanger functions by providing neighboring channels, separated by plates, for airstreams to pass through and transfer energy. The channel separation determines both the pressure drop and efficiency of the heat exchanger. Many fixed plate heat exchangers only transfer sensible heat, but they can be designed to transfer latent energy (i.e., moisture) as well, depending on the material used.
 
-<a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 2.png">
-    <figure class="figure">
-        <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. Fixed plate heat exchangers.">
-        <figcaption class="figure-caption text-left">Figure 2. Fixed plate heat exchangers.</figcaption>
-    </figure>
-</a>
-
-#### Rotary Air-to-air Energy Exchangers
+#### Rotary Air-to-air Energy Exchanger
 
 A rotary wheel exchanger consists of a belt driven wheel that is built up by a matrix of foils. The wheel rotates and moves through both the incoming and outgoing air streams, effectively transferring heat between them. The pressure drop and efficiency of the exchanger depends on the wheel diameter and density of corrugation. Most rotary wheel exchangers transfer both sensible heat and latent energy. Figure 3 shows an example of a rotary wheel heat exchanger.
 
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 3.png">
     <figure class="figure">
         <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. Rotary air-to-air energy exchangers.">
-        <figcaption class="figure-caption text-left">Figure 3. Rotary air-to-air energy exchangers.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Rotary air-to-air energy exchangers (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
-#### Coil Energy Recovery (Runaround) Loops
+#### Coil Energy Recovery (Runaround) Loop
 
-Coil energy recovery loops, also known as runaround loops, make use of a heat exchanging coil that connects the incoming and outgoing exhaust air streams. The loop contains a heat transfer fluid (i.e., water, glycol) and a pump to move the liquid between both streams. Coil energy recovery loops transfer sensible heat only. An example implementation of a runaround loop is shown in Figure 4.
+Coil energy recovery loops, also known as runaround loops, make use of a heat exchanging coil that connects the incoming and outgoing exhaust air streams. The loop contains a heat transfer fluid (i.e., water, glycol) and a pump to move the liquid between both streams. Coil energy recovery loops transfer sensible heat only.
 
-<a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 4.png">
-    <figure class="figure">
-        <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 4.png" class="figure-img img-fluid rounded" alt="Figure 4. Coil Energy Recovery (Runaround) Loops.">
-        <figcaption class="figure-caption text-left">Figure 4. Coil Energy Recovery (Runaround) Loops.</figcaption>
-    </figure>
-</a>
-
-#### Heat Pipe Heat Exchangers
+#### Heat Pipe Heat Exchanger
 
 Heat pipe heat exchangers operate by using a working fluid that changes phases to transfer heat. As shown in Figure 5, one side of the heat pipe is placed in the exhaust stream and the other is placed in the supply stream, causing one side of the pipe to undergo evaporation and the other side to undergo condensation, effectively transferring heat. Heat pipe heat exchangers transfer sensible heat only. 
-
-<!-- Image below is temporary image for figure 5 -->
-<a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 4.png">
-    <figure class="figure">
-        <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 4.png" class="figure-img img-fluid rounded" alt="Figure 5. Heat Pipe Heat Exchangers.">
-        <figcaption class="figure-caption text-left">Figure 5. Heat Pipe Heat Exchangers.</figcaption>
-    </figure>
-</a>
 
 See Chapter 26 of the ASHRAE Handbook on Heating, Ventilating, and Air-Conditioning Systems and Equipment for discussion of these and other heat exchangers. 
 
@@ -85,14 +63,7 @@ Ducts transport air to and from served zones, heat recovery units and air handli
 
 ### Rotary Air-to-Air Energy Exchanger Motor 
 
-Most heat exchangers are passive devices and rely on the fan and motor components in other systems to move air through them. In the case of a rotary air-to-air energy exchanger the heat exchange medium is rotated through the airstreams, where the exchanger medium picks up or releases heat and possibly moisture. A small constant or variable speed motor (Figure 6) is needed to rotate the heat exchanger.
-
-<a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 6.png">
-    <figure class="figure">
-        <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 6.png" class="figure-img img-fluid rounded" alt="Figure 6. Rotary air-to-air energy exchanger motor.">
-        <figcaption class="figure-caption text-left">Figure 6. Rotary air-to-air energy exchanger motor.</figcaption>
-    </figure>
-</a>
+Most heat exchangers are passive devices and rely on the fan and motor components in other systems to move air through them. In the case of a rotary air-to-air energy exchanger the heat exchange medium is rotated through the airstreams, where the exchanger medium picks up or releases heat and possibly moisture. A small constant or variable speed motor is needed to rotate the heat exchanger.
 
 ## Evaluation of Energy Consumption
 
@@ -102,7 +73,7 @@ Table 1 provides a summary of the components to measure to arrive at values need
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values and measurements to evaluate heat transfer.</caption>
     <thead>
         <tr>
             <td>
@@ -162,8 +133,8 @@ The measurement locations for a heat recovery system are shown in Figure 7.
 
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 7.png">
     <figure class="figure">
-        <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 7.png" class="figure-img img-fluid rounded" alt="Figure 7. Fixed plate heat recovery measurement points.">
-        <figcaption class="figure-caption text-left">Figure 7. Fixed plate heat recovery measurement points.</figcaption>
+        <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 7.png" class="figure-img img-fluid rounded" alt="Figure 7. Air-to-air energy recovery measurement locations.">
+        <figcaption class="figure-caption text-left">Figure 7. Air-to-air recovery measurement locations (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
