@@ -7,7 +7,7 @@ IMAGE ?= $(PROJECT):$(VERSION)
 HOST_DIR = $(shell pwd)
 
 # '${HOST_DIR}/src:/${PROJECT}/src'
-MOUNT_HOSTDIR = -v './src:/${PROJECT}/src'
+MOUNT_HOSTDIR = -v '${HOST_DIR}/src:/${PROJECT}/src'
 EXPOSE_PORTS = -p 9007:9005 -p 1313:1313
 
 FIREBASE_PROJECT_ID = pez-ai-website
