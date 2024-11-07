@@ -7,10 +7,10 @@
         All Plants
       </h2>
       <details class="guide-header-description">
-        <summary>Placeholder for definition text that will always be visible.
+        <summary>Plants are centralized systems that work together to maintain occupant comfort and provide essential functions in a facility such as air, water, and electricity distribution. Plants comprise various systems and components that serve different functions.
           <span id="opener">More</span>
         </summary>
-        Hidden definition text that will be revealed when MORE is clicked and hidden when LESS is clicked.
+        The operation and efficiency of the systems and their components determine the energy consumption and environmental impact of the plant. Monitoring building systems and components can provide a better understanding of how energy is used and where improvements can be made to reduce consumption, GHG emissions, and operational costs to meet efficiency and environmental goals. Read more about each plant below.
         <span id="closer" onclick="this.parentElement.removeAttribute('open')">Less</span>
       </details>
     </div>
@@ -49,10 +49,10 @@
         All Systems
       </h2>
       <details class="guide-header-description">
-        <summary>Placeholder for definition text that will always be visible.
+        <summary>Systems are interconnected groups of equipment within a facility that support the operation of the building’s plant. These systems fulfill essential functions such as supplying conditioned air, electricity, and hot and cold water, ensuring the building operates efficiently and meets occupant needs.
           <span id="opener">More</span>
         </summary>
-        Hidden definition text that will be revealed when MORE is clicked and hidden when LESS is clicked.
+        Certain systems can be measured to determine their energy usage, which helps in estimating their annual energy consumption. By monitoring these systems, inefficiencies can be identified more easily, performance can be optimized, and energy use can be managed effectively to meet sustainability goals. Other systems consist of multiple components that collectively support system operations. To accurately assess the energy consumption of such systems, all components within them should be measured. Read more about each system below.
         <span id="closer" onclick="this.parentElement.removeAttribute('open')">Less</span>
       </details>
     </div>
@@ -91,10 +91,10 @@
         All Components
       </h2>
       <details class="guide-header-description">
-        <summary>Placeholder for definition text that will always be visible.
+        <summary>Components are the individual parts that constitute a system within a facility and serve as the primary energy-consuming equipment. Tracking these components enables detailed monitoring and maintenance, helping to identify issues such as equipment malfunctions or inefficiencies.
           <span id="opener">More</span>
         </summary>
-        Hidden definition text that will be revealed when MORE is clicked and hidden when LESS is clicked.
+        By understanding the performance of each component, building operators can optimize energy usage, reduce waste, and lower the overall costs associated with operating the plant and its systems. Read more about each component below.
         <span id="closer" onclick="this.parentElement.removeAttribute('open')">Less</span>
       </details>
     </div>
@@ -125,48 +125,6 @@
     <a id="load-more-components" class="btn btn-dark" onclick="loadMoreGuides(COMPONENTS)">Load More Components</a>
   </div>
 </section>
-<!-- CALCULATION METHODOLOGIES -->
-<section id="textCalculations" class="tabcontent">
-  <div class="search-header container d-flex justify-content-between mt-4">
-    <div>
-      <h2 id="guide-header-calculations">
-        All Calculations
-      </h2>
-      <details class="guide-header-description">
-        <summary>Placeholder for definition text that will always be visible.
-          <span id="opener">More</span>
-        </summary>
-        Hidden definition text that will be revealed when MORE is clicked and hidden when LESS is clicked.
-        <span id="closer" onclick="this.parentElement.removeAttribute('open')">Less</span>
-      </details>
-    </div>
-  </div>
-  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
-    {{ range .guides.calculations.documents }}
-    {{ $guideTitle := .title }}
-    {{ $guideId := replace (urlize .title | lower) " " "-" }}
-    {{ $guideType := .type }}
-    <div 
-      id="{{ .type }}-{{ .id }}" 
-      class="
-          col-md-12
-          col-lg-6 
-          guide-card 
-          {{ .measurement_type }}
-        "
-    >
-    {{ range $pages }}
-    {{ if eq .Title $guideTitle }}
-    {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType  ) }}
-    {{ end }}
-  {{ end }}
-    </div>
-    {{ end }}
-  </div>
-  <div id="load-more-container-calculation" class="my-4 text-center">
-    <a id="load-more-calculations" class="btn btn-dark" onclick="loadMoreGuides(CALCULATIONS)">Load More Calculations</a>
-  </div>
-</section>
 <!-- MEASUREMENT TECHNIQUES -->
 <section id="textMeasurements" class="tabcontent">
   <div class="search-header container d-flex justify-content-between mt-4">
@@ -175,10 +133,10 @@
         All Measurements
       </h2>
       <details class="guide-header-description">
-        <summary>Placeholder for definition text that will always be visible.
+        <summary>Measurements refer to the data collected from plants, systems, and components to monitor energy use, heat transfer, performance, and efficiency. These measurements provide a clear view of how energy is utilized by each piece of equipment.
           <span id="opener">More</span>
         </summary>
-        Hidden definition text that will be revealed when MORE is clicked and hidden when LESS is clicked.
+        Regularly taking measurements enables trend analysis, helps identify inefficiencies, and supports informed decision-making to enhance energy efficiency and achieve environmental targets. Read more about each measurement below.
         <span id="closer" onclick="this.parentElement.removeAttribute('open')">Less</span>
       </details>
     </div>
@@ -207,6 +165,48 @@
   </div>
   <div id="load-more-container-measurement" class="my-4 text-center">
     <a id="load-more-calculations" class="btn btn-dark" onclick="loadMoreGuides(MEASUREMENTS)">Load More Measurements</a>
+  </div>
+</section>
+<!-- CALCULATION METHODOLOGIES -->
+<section id="textCalculations" class="tabcontent">
+  <div class="search-header container d-flex justify-content-between mt-4">
+    <div>
+      <h2 id="guide-header-calculations">
+        All Calculations
+      </h2>
+      <details class="guide-header-description">
+        <summary>Calculations use measurement data to determine key energy-related metrics, such as total energy consumption, heat transfer, and efficiency rates. They can also be used to assess environmental impacts, including greenhouse gas emissions.
+          <span id="opener">More</span>
+        </summary>
+        Overall, calculations help interpret the data, enabling more informed decisions for energy management and sustainability goals. Each page includes downloadable, spreadsheet-based calculators along with detailed instructions for using them to estimate the annual energy consumption of systems or components. Read more about each calculation below.
+        <span id="closer" onclick="this.parentElement.removeAttribute('open')">Less</span>
+      </details>
+    </div>
+  </div>
+  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
+    {{ range .guides.calculations.documents }}
+    {{ $guideTitle := .title }}
+    {{ $guideId := replace (urlize .title | lower) " " "-" }}
+    {{ $guideType := .type }}
+    <div 
+      id="{{ .type }}-{{ .id }}" 
+      class="
+          col-md-12
+          col-lg-6 
+          guide-card 
+          {{ .measurement_type }}
+        "
+    >
+    {{ range $pages }}
+    {{ if eq .Title $guideTitle }}
+    {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType  ) }}
+    {{ end }}
+  {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  <div id="load-more-container-calculation" class="my-4 text-center">
+    <a id="load-more-calculations" class="btn btn-dark" onclick="loadMoreGuides(CALCULATIONS)">Load More Calculations</a>
   </div>
 </section>
 
