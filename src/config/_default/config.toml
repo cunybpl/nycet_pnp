@@ -366,5 +366,3 @@ tag = "tags"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-
