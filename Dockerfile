@@ -14,4 +14,4 @@ COPY ./ ./
 
 WORKDIR /nycet/src
 
-CMD ["server", "--themesDir", "../themes", "--watch", "--bind", "0.0.0.0" ]
+CMD ["server", "--themesDir", "../themes"]
