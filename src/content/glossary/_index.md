@@ -17,7 +17,9 @@ Explore commonly used terms withih the Protocols and Procedures.
 
 <dl>
     <dt id="ahu"><abbr title="Air Handling Unit">AHU</abbr></dt>
-    <dd>AHU, or Air Handling Unit is equipment that conditions air through heating, cooling, ventilation, and sometimes relative humidity that is often part of a larger, integrated heating, ventilating, and air–conditioning (HVAC) system.</dd>
+    <dd>Equipment that conditions air through heating, cooling, ventilation, and sometimes relative humidity that is often part of a larger, integrated heating, ventilating, and air–conditioning (HVAC) system.</dd>
+    <dt id="ahu"><abbr title="Air Handling Unit">AHU</abbr></dt>
+    <dd>Equipment that conditions air through heating, cooling, ventilation, and sometimes relative humidity that is often part of a larger, integrated heating, ventilating, and air–conditioning (HVAC) system.</dd>
 </dl>
 
 </section>
