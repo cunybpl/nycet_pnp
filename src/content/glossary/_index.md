@@ -7,7 +7,7 @@ excerpt:
 url: "/glossary"
 ---
 
-Explore commonly used terms withih the Protocols and Procedures.
+Find a comprehensive list of terms and concepts that are essential for understanding the topics we cover. Use this glossary for clarifying terminology and enhancing your familiarity with key concepts.
 
 <div class="glossary">
 
