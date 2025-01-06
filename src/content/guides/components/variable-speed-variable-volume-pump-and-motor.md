@@ -17,7 +17,7 @@ related_systems:
   - Hot Water Loop
   - Steam Condensate Recovery
   - Steam Distribution
-borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-motor-kit-variable-speed/"
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-and-motor-kit-variable-speed/"
 layout: guide
 url: "/documents/components/variable-speed-variable-volume-pump-and-motor"
 ---
@@ -30,7 +30,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Plants and systems applicable to variable-speed pumps</caption>
+    <caption>Table 1. Plants and systems containing variable-speed, variable-volume pumps</caption>
     <thead>
         <tr>
             <td>
@@ -70,20 +70,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
             <td>
                 <p>Condenser water pump</p>
-            </td>
-            <td>
-                <p>Outdoor air temperature (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Water-cooled chilled water plant</p>
-            </td>
-            <td>
-                <p>Chilled water loop</p>
-            </td>
-            <td>
-                <p>Primary chilled water pump</p>
             </td>
             <td>
                 <p>Outdoor air temperature (F)</p>
@@ -213,7 +199,7 @@ The primary energy source of a VSVV pump is the electricity used to run the pump
 <table>
 <caption>
     
-Table 2. Key values and measurements[^1]
+Table 2. Key values and measurements to evaluate energy consumption.[^1]
     
 </caption>
     <thead>
@@ -231,7 +217,7 @@ Table 2. Key values and measurements[^1]
     <tbody>
         <tr>
             <td>
-                <p>Electricity input to a variable-speed pump motor</p>
+                <p>Electricity input to a variable-speed, variable-volume pump motor</p>
             </td>
             <td>
                 <ul>
@@ -241,7 +227,7 @@ Table 2. Key values and measurements[^1]
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/true-rms-power">True RMS power</a> of pump motor that drives the pump (kW)</li>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS power</a> of pump motor that drives the pump (kW)</li>
                     <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></li>
                 </ul>
             </td>
@@ -252,13 +238,13 @@ Table 2. Key values and measurements[^1]
 
 ### Measurement Strategy
 
-The measurement strategy for a variable-speed pump and motor is to measure power draw of the pump motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect hourly OAT. Measurement points are generically represented in Figure 1.
+The measurement strategy for a variable-speed, variable-volume pump and motor is to measure power draw of the pump motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect hourly OAT. Measurement locations are generically represented in Figure 1.
 
 <!-- Will update image below after getting new image from Orlando -->
-<a href="/images/components/2024_0626_VSVV pump component_figure 1.jpg">
+<a href="/images/components/2024_1023_VSVV pump component_figure 1.jpg">
 <figure class="figure">
-  <img src="/images/components/2024_0626_VSVV pump component_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a pump with a VFD.">
-  <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a pump with a VFD.</figcaption>
+  <img src="/images/components/2024_1023_VSVV pump component_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Variable-speed, Variable-volume pump and motor measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 1. Variable-speed, Variable-volume pump and motor measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
@@ -319,30 +305,13 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor Air Temperature (F)</a>
             </td>
         </tr>
-        <tr>
-            <td width="33.333333333333336%">
-                <a href="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg">
-                <figure class="figure">
-                <img src="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg" class="figure-img img-fluid rounded" alt="">
-                <figcaption class="figure-caption text-left"></figcaption>
-                </figure>
-                </a>
-                Onset HOBO Motor On/Off Data Logger (UX90-004)
-            </td>
-            <td width="33.333333333333336%">   
-                Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.    
-            </td>
-            <td width="33.333333333333336%">
-                <a href="/documents/measurement-technique/motor-runtime">Motor Runtime (Minutes)</a>   
-            </td>
-        </tr>
     </tbody>
 </table> 
 </div>
 
 ### Calculation Methodology
 
-The general methodology for quantifying the energy consumption of a VSVV pump motor is determined by the true RMS power of the three-phase power supply either at the power main for the motor or at the three-phase input to the VFD. These values are regressed against outdoor air temperature to develop a temperature-dependent regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the system. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed pump.  
+The general methodology for quantifying the energy consumption of a VSVV pump motor is determined by the true RMS power of the three-phase power supply either at the power main for the motor or at the three-phase input to the VFD. These values are regressed against outdoor air temperature to develop a temperature-dependent regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the system. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed, variable-volume pump.  
 
 <br></br>
 <i>Click the button below to go to the calculators for this component.</i>

@@ -7,6 +7,7 @@ associated_systems:
   - Waterside Economizer
 related_systems:
   - Waterside Economizer
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/liquid-to-liquid-heat-exchanger/"
 layout: guide
 url: "/documents/components/liquid-to-liquid-heat-exchanger"
 ---
@@ -97,7 +98,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
-    <caption>Table 2. Key values and measurements.</caption>
+    <caption>Table 2. Key values and measurements to evaluate heat transfer.</caption>
     <thead>
         <tr>
             <td width="33.333333333333336%">
@@ -151,6 +152,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 </ul>
             </td>
             <td width="33.333333333333336%">
+                <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (kW)</p>
                 <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a>
             </td>
         </tr>
@@ -179,12 +181,12 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 ### Measurement Strategy
 
-The measurement strategy for a liquid-to-liquid heat exchanger is to measure the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet of the heat exchanger. The flow rate can be measured at the supply stream pump if one is used in the system. Measurement points are generically represented in Figure 1.
+The measurement strategy for a liquid-to-liquid heat exchanger is to measure the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet of the heat exchanger. The flow rate can be measured at the supply stream pump if one is used in the system. Measurement locations are generically represented in Figure 1.
 
 <a href="/images/components/2024_0625_LtL HX component_figure 1.jpg">
 <figure class="figure">
-  <img src="/images/components/2024_0625_LtL HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement points in a liquid-to-liquid heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 1. Measurement points in a liquid-to-liquid heat exchanger</figcaption>
+  <img src="/images/components/2024_0625_LtL HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Liquid-to-liquid heat exchanger measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 1. Liquid-to-liquid heat exchanger measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

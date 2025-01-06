@@ -10,7 +10,7 @@ associated_systems:
 related_components:
   - Constant-speed, Constant-volume Pump and Motor
   - Variable-speed, Variable-volume Pump and Motor
-borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chilled-water-loop"
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/secondary-chilled-water-pumps-measurement-kit/"
 layout: guide
 url: "/documents/systems/chilled-water-loop"
 ---
@@ -44,7 +44,7 @@ The main components associated with the CHW loop are primary pumps for primary-f
 <a href="/images/systems/chilled-water-loop/2024_0424_CHW system_figure 1.jpg">
     <figure class="figure">
         <img src="/images/systems/chilled-water-loop/2024_0424_CHW system_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Chilled water loop components.">
-        <figcaption class="figure-caption text-left">Figure 1. Chilled water loop components.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Chilled water loop components (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -71,7 +71,7 @@ The primary energy consumption in a CHW loop is the electricity used to run the 
 Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a CHW loop.
 
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -177,8 +177,8 @@ The measurement locations for a primary-flow and a primary-secondary flow are sh
 
 <a href="/images/systems/chilled-water-loop/2024_0509_CHW system_figure 2.jpg">
 <figure class="figure">
-  <img src="/images/systems/chilled-water-loop/2024_0509_CHW system_figure 2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Chilled water loop system measurement points.">
-  <figcaption class="figure-caption text-left">Figure 2. Chilled water loop system measurement points.</figcaption>
+  <img src="/images/systems/chilled-water-loop/2024_0509_CHW system_figure 2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Chilled water loop measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 2. Chilled water loop measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

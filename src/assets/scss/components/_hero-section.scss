@@ -119,6 +119,11 @@
     }
   }
 }
+
+form:has(#guide-search-bar:focus) {
+  outline: 2px solid $primary;
+}
+
 .dropdown-options {
   display: none;
   flex-direction: column;

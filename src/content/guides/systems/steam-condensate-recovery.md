@@ -26,7 +26,7 @@ Condensate recovery systems are typically equipped with pumps, pipe networks, an
 <a href="/images/systems/steam-condensate-recovery/2024_00507_STEAM CONDENSATE system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/steam-condensate-recovery/2024_00507_STEAM CONDENSATE system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Condensate recovery system diagram.">
-  <figcaption class="figure-caption text-left">Figure 1. Condensate recovery system diagram.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Condensate recovery system diagram (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
@@ -44,7 +44,7 @@ The primary effect of the condensate recovery system on the steam plant is to mi
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Steam Plant Values</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td style="width: 26%">

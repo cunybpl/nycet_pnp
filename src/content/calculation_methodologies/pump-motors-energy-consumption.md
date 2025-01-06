@@ -144,17 +144,17 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 4. Calculate energy used for full year (Worksheet: "Step 4. Results").
 
-<p class="equation equation-center">\begin{equation} WeeksChillerOn = (DayOfYear(CoolingSeasonEndDate) \end{equation}</p>
-<p class="equation equation-center">\begin{equation*} - DayOfYear(CoolingSeasonStartDate)) * \frac{WeeksPerDay}{DaysPer Year}\end{equation*}</p>
+<p class="equation equation-center">\begin{equation} WeeksPumpOn = (DayOfYear(PumpOperationEndDate) \end{equation}</p>
+<p class="equation equation-center">\begin{equation*} - DayOfYear(PumpOperationStartDate)) * \frac{WeeksPerDay}{DaysPer Year}\end{equation*}</p>
 
-<p class="equation equation-center">\begin{equation} E = WeeksChillerOn * P\sum_{d=1}^{7} \overline{HrsOn}_{d} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} E = WeeksPumpOn * P\sum_{d=1}^{7} \overline{HrsOn}_{d} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$E =$ Annual pump energy, <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
 <p class="equation">$DayOfYear =$ Function to convert a date to the n^{th} day of the year</p>
-<p class="equation">$CoolingSeasonEndDate =$ Cooling season end date, mm/dd/yyyy</p>
-<p class="equation">$CoolingSeasonStartDate =$ Cooling season start date, mm/dd/yyyy</p>
-<p class="equation">$WeeksChillerOn =$ Length of cooling season, weeks</p>
+<p class="equation">$PumpOperationEndDate =$ Cooling season end date, mm/dd/yyyy</p>
+<p class="equation">$PumpOperationStartDate =$ Cooling season start date, mm/dd/yyyy</p>
+<p class="equation">$WeeksPumpOn =$ Pump operating time, weeks</p>
 <p class="equation">$WeeksPerYear =$ 52</p>
 <p class="equation">$DaysPerYear =$ 365.24</p>
 <p class="equation">$P =$ Measured pump power, kW</p>
@@ -174,13 +174,13 @@ This calculation tool is for a constant-speed, constant-volume pump. Measured in
 <p class="equation">$N(h,d) =$ total number of measured data points that fall on day of week, d, and hour of the day, h</p>
 <p class="equation">$n \in t(d,h) =$ index for subset of measured data points that fall on day of week, d, and hour of the day, h</p>
 
-2. Calculate every used for full year (Worksheet: "Step 4. Results"). WeeksChillerOn is from Equation 5.
+2. Calculate every used for full year (Worksheet: "Step 4. Results"). WeeksPumpOn is from Equation 5.
 
-<p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{d = 1}^7 \sum_{h = 1}^{24} \bar{P}_{d,h} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} E = WeeksPumpOn * \sum_{d = 1}^7 \sum_{h = 1}^{24} \bar{P}_{d,h} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$E =$ annual pump energy, <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
-<p class="equation">$WeeksChillerOn =$ 52</p>
+<p class="equation">$E =$ annual pump energy, kWh</p>
+<p class="equation">$WeeksPumpOn =$ Pump operating time, weeks</p>
 
 ### Constant One or Two Speed Pump Energy Using Electrical Current Data
 
@@ -188,7 +188,7 @@ This calculation tool is for a constant-speed, constant-volume pump. Measured in
 
 1. Convert average hourly current to percent on per hour (Worksheet: "Step 2. Percent Runtime Calcs").
 
-<p class="equation equation-center">\begin{equation} \%FanOn_{high,f}(t_{f}) = \begin{cases} \frac{I(t)}{I_{max}} & \text{if } I(t) < I_{max} \\  100\% & \text{o.w.} \end{cases} \end{equation}</p>
+<p class="equation equation-center">\begin{equation} \%On(t) = \begin{cases} \frac{I(t)}{I_{max}} & \text{if } I(t) < I_{max} \\  100\% & \text{o.w.} \end{cases} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\%On(t) =$ percent of an hour that the pump motor is on, %</p>
@@ -196,13 +196,13 @@ This calculation tool is for a constant-speed, constant-volume pump. Measured in
 <p class="equation">$t =$ index for each measured data point</p>
 <p class="equation">$I_{max} =$ current measured at the maximum constnat speed, Amps</p>
 
-2. Equations 3 to 6 are used to calculate the annual pump energy.
+2. Equations 3 to 5 are used to calculate the annual pump energy.
 
 ### Variable Speed Pump Energy Using kW Data
 
 This calculation tool is for VFD-controlled pumps that are operated at speeds proportional to the heating/cooling load as represented by proxy with OAT. Measured input data include average hourly power draw (kW) as measured by a DENT data logging power logger, and the average hourly OAT as measured by a temperature/RH logger. 
 
-9. Fit a second-order polynomial regression model of true RMS power as a function OAT. (Worksheet: "Step 3. Regression").
+1. Fit a second-order polynomial regression model of true RMS power as a function OAT. (Worksheet: "Step 3. Regression").
 
 <p class="equation equation-center">\begin{equation} P(OAT) = a * OAT^{2} + b * OAT + c \end{equation}</p>
 
@@ -211,7 +211,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 <p class="equation">$a,b,c =$ Regression coefficients</p>
 <p class="equation">$OAT =$ Outdoor air temperature, F</p>
 
-10. Average % hour motor is on for each hour of each day of the week (Worksheets: "Step 4. Schedule Calcs" and "Step 5. Daily Ave Schedule Calc").
+2. Average % hour motor is on for each hour of each day of the week (Worksheets: "Step 4. Schedule Calcs" and "Step 5. Daily Ave Schedule Calc").
 
 <p class="equation equation-center">\begin{equation} On(t) = \begin{cases} 1 & \text{if } P(t) > 0\\
     0 & otherwise \end{cases} \end{equation}</p>
@@ -225,14 +225,14 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 <p class="equation">$N(d,h) =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
 <p class="equation">$n \in t(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of the day, h</p>
 
-11. Total annual pump energy (Worksheets: "Step 6. Energy Calcs" and "Step 7. Results").
+3. Total annual pump energy (Worksheets: "Step 6. Energy Calcs" and "Step 7. Results").
 
-<p class="equation equation-center">\begin{equation} E = WeeksChillerOn * \sum_{t=1}^{8760} P(OAT'(t)) * \overline{\%On}_{d,h}(t) \end{equation}</p>
+<p class="equation equation-center">\begin{equation} E = WeeksPumpOn * \sum_{t=1}^{8760} P(OAT'(t)) * \overline{\%On}_{d,h}(t) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
 <p class="equation">$E =$ Annual energy usage, <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
 <p class="equation">$OAT'(t) =$ Hourly climate normal outside air temperature from National Weather Service at station closest to site, F</p>
-<p class="equation">$WeeksChillerOn =$ Cooling season (see Equation 5), weeks</p>
+<p class="equation">$WeeksPumpOn =$ Pump operating times, weeks</p>
 
 ### Variable Speed Pump Energy Using Motor Speed Data
 

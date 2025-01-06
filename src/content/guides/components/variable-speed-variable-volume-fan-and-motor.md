@@ -11,7 +11,7 @@ related_systems:
   - Boiler
   - Condenser Water Loop
   - Variable-speed, Variable-volume Air Handling Unit
-borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/fan-and-motor-kit-variable-speed/"
 layout: guide
 url: "/documents/components/variable-speed-variable-volume-fan-and-motor"
 ---
@@ -66,7 +66,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
                 <p>Cooling Tower Fan</p>
             </td>
             <td>
-                <p>Wet bulb temperature (F)</p>
+                <p>Wet-bulb temperature (F)</p>
             </td>
         </tr>
         <tr>
@@ -120,7 +120,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 2. Key Values and measurements.</caption>
+    <caption>Table 2. Key values and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -177,13 +177,13 @@ Controlling variable, weather dependent[^2]
 
 ### Measurement Strategy
 
-The measurement strategy for a variable-speed fan and its motor is to measure power draw of the fan motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated controlling variable (OAT, WBT). Measurement points are generically represented in Figure 1. 
+The measurement strategy for a variable-speed fan and its motor is to measure power draw of the fan motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated controlling variable (OAT, Wet-bulb temperature). Measurement locations are generically represented in Figure 1. 
 
 <!-- Temporary image until new one given by Orlando -->
-<a href="/images/components/Measurement-boundary-of-a-fan-motor-with-VFD.png">
+<a href="/images/components/08.20.24_VSVV_FAN AND MOTOR-01.jpg">
 <figure class="figure">
-  <img src="/images/components/Measurement-boundary-of-a-fan-motor-with-VFD.png" class="figure-img img-fluid rounded" alt="Figure 1. VSVV fan measurement points.">
-  <figcaption class="figure-caption text-left">Figure 1. VSVV fan measurement points.</figcaption>
+  <img src="/images/components/08.20.24_VSVV_FAN AND MOTOR-01.jpg" class="figure-img img-fluid rounded" alt="Figure 1. VSVV fan measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 1. VSVV fan measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
@@ -253,7 +253,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
 
 ### Calculation Methodology
 
-The general methodology for quantifying the energy consumption of a variable-speed fan and motor is determined by the true RMS power of the 3-phase power supply either at the main electrical panel of the motor or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable (OAT, WBT). Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.  
+The general methodology for quantifying the energy consumption of a variable-speed fan and motor is determined by the true RMS power of the 3-phase power supply either at the main electrical panel of the motor or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable (OAT, Wet-bulb temperature). Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.  
 
 <br></br>
 <i>Click the button below to go to the calculators for this component.</i>

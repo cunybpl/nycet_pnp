@@ -39,7 +39,7 @@ To calculate latent heat transfer and effectiveness, first the humidity ratio $(
 <table markdown="1">
 <caption>
 
-Table 1. Humidity Ratio Equations for Various Relative Humidity Values Based on Dry-Bulb Temperature.[^1]
+Table 1. Humidity ratio equations for various relative humidity values based on dry-bulb temperature.[^1]
 
 </caption>
     <thead>

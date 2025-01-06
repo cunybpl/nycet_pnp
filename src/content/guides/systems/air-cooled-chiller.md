@@ -8,7 +8,7 @@ associated_components:
   - Constant-speed Compressor and Motor
 related_components:
   - Constant-speed Compressor and Motor
-borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chilled-water-loop"
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/air-cooled-chiller-meausement-kit/"
 layout: guide
 url: "/documents/systems/air-cooled-chiller"
 ---
@@ -24,7 +24,7 @@ Each of the various components associated with an air-cooled chiller are listed 
 <a href="/images/systems/air-cooled-chiller/2024_0423_ACC system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/air-cooled-chiller/2024_0423_ACC system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air-cooled chiller.">
-  <figcaption class="figure-caption text-left">Figure 1. Air-cooled chiller.</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Air-cooled chiller (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
@@ -52,7 +52,7 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -87,7 +87,7 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurement of true RMS power</a></li>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Hourly  measurements of true RMS</a></li>
                     <li>Annual operating hours</li> 
                     <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></p>
                 </ul>
@@ -131,8 +131,8 @@ The measurement locations for an air-cooled chiller and chilled water pumps are 
 
 <a href="/images/systems/air-cooled-chiller/2024_0502_ACC system_figure 2 updated.jpg">
 <figure class="figure">
-  <img src="/images/systems/air-cooled-chiller/2024_0502_ACC system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Air cooled chiller measurement point locations">
-  <figcaption class="figure-caption text-left">Figure 2. Air cooled chilled measurement point locations.</figcaption>
+  <img src="/images/systems/air-cooled-chiller/2024_0502_ACC system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Air cooled chiller measurement locations">
+  <figcaption class="figure-caption text-left">Figure 2. Air cooled chiller measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 

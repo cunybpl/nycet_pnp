@@ -2,13 +2,14 @@
 title: Constant-speed Compressor and Motor
 type: component
 excerpt: This equipment is typically used in a chiller system to increase the temperature and pressure of refrigerant.
-thumbnail_image: "/images/components/thumbnail-images/2024_0606_liquid to liquid hx component_thumbnail.jpg"
+thumbnail_image: "/images/components/thumbnail-images/CONSTANT SPEED COMPRESSOR.jpg"
 associated_systems:
   - Air-cooled Chiller
   - Water-cooled Chiller
 related_systems:
   - Air-cooled Chiller
   - Water-cooled Chiller
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/compressor-and-motor-kit/"
 layout: guide
 url: "/documents/components/constant-speed-compressor-and-motor"
 ---
@@ -67,7 +68,7 @@ The primary energy source for a constant-speed compressor is the electricity use
 
 <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
-    <caption>Table 2. Key Values and Measurements.</caption>
+    <caption>Table 2. Key values and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td width="21.964285714285715%">
@@ -95,7 +96,7 @@ The primary energy source for a constant-speed compressor is the electricity use
             <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
                 <ul>
                     <li><a href="/documents/measurement-technique/true-rms-power">True RMS power</a> of compressor motor that drives the compressor (kW)</li>
-                    <li>Compressor <a href="/documents/measurement-technique/electrical-spot-measurement">motor runtime</a></li>
+                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></li>
                 </ul>
             </td>
         </tr>
@@ -105,16 +106,16 @@ The primary energy source for a constant-speed compressor is the electricity use
 
 ### Measurement Strategy
 
-<a href="">
+<a href="/images/components/2024_1022_CS_compressor_component_figure 1.jpg">
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement points for a constant-speed compressor motor.">
-  <figcaption class="figure-caption text-left">Figure 1. Measurement points for a constant-speed compressor motor.</figcaption>
+  <img src="/images/components/2024_1022_CS_compressor_component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Constant-speed compressor and motor measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 1. Constant-speed compressor and motor measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
 The measurement strategy for a constant-speed compressor and motor is to do a one-time Measurement Strategy. The measurement strategy for a constant-speed compressor and motor is to do a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off).
 
-A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant-speed motor. Measurement points are generically represented in Figure 1. 
+A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1. 
 
 ### Measurement Equipment
 
@@ -137,23 +138,6 @@ A motor on/off data logger is used to record the operating schedule. The true RM
     <tbody>
         <tr>
             <td width="33.333333333333336%">
-                <a href="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg">
-                <figure class="figure">
-                <img src="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg" class="figure-img img-fluid rounded" alt="">
-                <figcaption class="figure-caption text-left"></figcaption>
-                </figure>
-                </a>
-                Onset HOBO Motor On/Off Data Logger (UX90-004)
-            </td>
-            <td width="33.333333333333336%">       
-                Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.
-            </td>
-            <td width="33.333333333333336%">
-                <a href="/documents/measurement-technique/motor-runtime">Motor Runtime (minutes)</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="33.333333333333336%">
                 <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg">
                 <figure class="figure">
                 <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg" class="figure-img img-fluid rounded" alt="">
@@ -171,13 +155,31 @@ A motor on/off data logger is used to record the operating schedule. The true RM
                  <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
             </td>
         </tr>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)
+            </td>
+            <td width="33.333333333333336%">
+                Records outdoor air temperature and relative humidity using internal sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.
+            </td>
+            <td width="33.333333333333336%">
+                <ul>
+                <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor Air Temperature (F)</a></li>
+                <li><a href="/documents/measurement-technique/relative-humidity">Relative Humidity (%)</a></li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table> 
 </div>
 
-Further details about measurement tools and equipment associated with measurements in Figure 1 can be found <a href="">here</a> <!--link here FELL Kit for a constant-speed compressor and motor -->.
-
-### Calculation Methodology
+<!-- ### Calculation Methodology (Calculator is not ready yet, but once ready can un-comment this section)
 
 The general methodology for quantifying the electricity consumption of a constant-speed compressor
 and motor is to measure the electrical energy consumed by the compressor and motor. Depending on the variability of operations, daily or weekly models which incorporate cooling load or a proxy like outdoor air temperature as independent variables may be developed to better characterize the
@@ -187,7 +189,7 @@ component. The typical energy use of a constant-speed compressor is estimated us
 <i>Click the button below to go to the calculators for this component.</i>
 <br></br>
 
-{{< calculation_methodology calculation_methodology_id=6 >}}
+{{< calculation_methodology calculation_methodology_id=6 >}} -->
 
 ## Further Reading
 

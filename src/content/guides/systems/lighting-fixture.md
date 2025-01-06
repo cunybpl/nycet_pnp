@@ -4,7 +4,7 @@ type: system
 excerpt: A lighting fixture system uses ballasts to regulate electricity to the lamps which produce light to illuminate areas in the facility.
 thumbnail_image: "/images/systems/lighting-fixture/2024_0606_lighting fixture system_thumbnail_RESIZED-01.jpg"
 system_id: 7
-borrow_equipment_url: //Ask Orlando
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/lighting-measurement-kit/"
 layout: guide
 url: "/documents/systems/lighting-fixture"
 ---
@@ -20,14 +20,14 @@ Figure 1 shows the main components associated with a lighting fixture system.
 <a href="/images/systems/lighting-fixture/lighting fixture figure1.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure1.png" class="figure-img img-fluid rounded" alt="Figure 1. Lighting Fixture System, fixtures are of a single type in this room.">
-        <figcaption class="figure-caption text-left">Figure 1. Lighting Fixture System, fixtures are of a single type in this room.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Lighting Fixture System, fixtures are of a single type in this room (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
 <a href="/images/systems/lighting-fixture/lighting fixture figure2.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure2.png" class="figure-img img-fluid rounded" alt="Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy).">
-        <figcaption class="figure-caption text-left">Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy) (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
@@ -53,7 +53,7 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Key values, components and measurements</caption>
+    <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td>
@@ -130,15 +130,15 @@ An auditor can develop a sampling plan and use a light on/off logger to measure 
 
 <a href="/images/systems/lighting-fixture/lighting fixture figure3.png">
     <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/lighting-fixture/lighting fixture figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Lighting fixture measurement points at the electrical distribution system.">
-        <figcaption class="figure-caption text-left">Figure 3. Lighting fixture measurement points at the electrical distribution system.</figcaption>
+        <img src="/images/systems/lighting-fixture/lighting fixture figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Lighting fixture measurement locations.">
+        <figcaption class="figure-caption text-left">Figure 3. Lighting fixture measurement locations (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
 <a href="/images/systems/lighting-fixture/lighting fixture figure4.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure4.png" class="figure-img img-fluid rounded" alt="Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures.">
-        <figcaption class="figure-caption text-left">Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures (click on image to enlarge).</figcaption>
     </figure>
 </a>
 

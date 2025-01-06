@@ -37,7 +37,7 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Calculators for Cooling Tower (CT) Fans Energy Consumption</caption>
+    <caption>Table 1. Cooling tower (CT) fans energy calculators.</caption>
     <thead>
         <tr>
             <td>
@@ -192,7 +192,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$F =$ total number of fans in the cooling tower</p>
 <p class="equation">$t =$ time index</p>
 
-2. The remainder of the workbook is the same as the motor runtime logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy.
+2. The remainder of the workbook is the same as the motor runtime data workbook, and hence uses Equations 3 through 7 to calculate the total annual energy.
 
 ### Constant One or Two Speed CT Fan Energy Using Electrical Current Data
 
@@ -213,7 +213,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$\overline{E} =$ Total average energy of all fan motors, kWh</p>
 <p class="equation">$F =$ Total number of fans in the cooling tower</p>
 
-2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
+2. The remainder of the workbook is the same as the motor runtime data workbook, and hence uses Equations 3 through 7 to calculate the total annual energy.
 
 ### Variable Speed CT Fan Energy Using kW Data
 
@@ -229,7 +229,7 @@ This calculation is for a cooling tower with variable-speed fans. Measured input
 <p class="equation">$F =$ Total number of fans in the cooling tower</p>
 <p class="equation">$t =$ Time index</p>
 
-2. The remainder of the workbook is the same as the on/off logger workbook, and hence uses Equations 3 through 8 to calculate the total annual energy. 
+2. The remainder of the workbook is the same as the motor runtime data workbook, and hence uses Equations 3 through 7 to calculate the total annual energy.
 
 ## Further Reading
 

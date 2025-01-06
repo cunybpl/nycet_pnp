@@ -11,7 +11,7 @@ related_systems:
   - Boiler
   - Condenser Water Loop
   - Constant-speed, Constant-volume Air Handling Unit
-borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=electric-motors-and-drives"
+borrow_equipment_url: "https://nycenergytools.com/equipment-kits/fan-and-motor-kit-constant-speed/"
 layout: guide
 url: "/documents/components/constant-speed-constant-volume-fan-and-motor"
 ---
@@ -24,7 +24,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Plants and systems containing constant-speed fans.</caption>
+    <caption>Table 1. Plants and systems containing constant-speed, constant-volume fans.</caption>
     <thead>
         <tr>
             <td>
@@ -125,7 +125,7 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 2. Key Values and measurements.</caption>
+    <caption>Table 2. Key values and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
             <td width="30.073349633251834%">
@@ -169,7 +169,7 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
                 <p>Average hourly outdoor air temperature (OAT)</p>
             </td>
             <td>
-                <a href="/documents/measurement-technique/outdoor-air-temperature"><p>Outdoor Air Temperature (F)</p></a>
+                <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a>
             </td>
         </tr>
     </tbody>
@@ -178,16 +178,16 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
 
 ### Measurement Strategy
 
-The measurement strategy for a CSCV fan and motor is to do a one-time measurement of the true RMS power and long-term measurements of the operational schedule of the motor.  The approach assumes that the true RMS power stays constant throughout the measurement period. Because the motor runs at constant speed and is assumed to be under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant speed motor. Measurement points are generically represented in Figure 1. 
+The measurement strategy for a CSCV fan and motor is to do a one-time measurement of the true RMS power and long-term measurements of the operational schedule of the motor.  The approach assumes that the true RMS power stays constant throughout the measurement period. Because the motor runs at constant speed and is assumed to be under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant speed motor. Measurement locations are generically represented in Figure 1. 
 
 If the fans are in a modular configuration (assuming they all run at the same speed), then only one fan needs to be measured, provided substantiating documentation from the building automation system (BAS) shows that all cells are operating equally at the same time. If fans are further staged, all fans should be measured. 
 
 In some cases, the operational schedule of the motor will be related to the heating or cooling load of the facility. OAT can be used as a proxy variable for the heating and cooling load. OAT can be measured onsite or data from a nearby weather station may also be used for OAT.
 
-<a href="/images/components/Measurement-boundary-of-a-CSCV-fan.png">
+<a href="/images/components/2024_1023_CSCV_fan component_figure 1.jpg">
 <figure class="figure">
-  <img src="/images/components/Measurement-boundary-of-a-CSCV-fan.png" class="figure-img img-fluid rounded" alt="Figure 1. Measurement boundary of a CSCV fan.">
-  <figcaption class="figure-caption text-left">Figure 1. Measurement boundary of a CSCV fan.</figcaption>
+  <img src="/images/components/2024_1023_CSCV_fan component_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. CSCV fan measurement locations.">
+  <figcaption class="figure-caption text-left">Figure 1. CSCV fan measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
 
