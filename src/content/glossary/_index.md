@@ -32,11 +32,11 @@ Find a comprehensive list of terms and concepts that are essential for understan
     <dt id="btu"><abbr title="British Thermal Unit">BTU (<a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>)</abbr></dt>
     <dd>Btu, or British Thermal Unit is the measure of the heat content of fuels or energy sources. One <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> is the quantity of heat required to raise the temperature of one pound of liquid water by 1° Fahrenheit at the temperature that water has its greatest density (approximately 39° F).</dd>
     <dt id="btu/h"><abbr title="British Thermal Unit / Hour">BTU/H</abbr></dt>
-    <dd>Units for thermal power</dd>
+    <dd>Units for thermal power.</dd>
     <dt id="bas"><abbr title="Building Automation System">BAS</abbr></dt>
     <dd>A computer-based system that provides centralized automation and control access of building systems, typically for HVAC and lighting systems.</dd>
     <dt id="bms"><abbr title="Building Management System">BMS</abbr></dt>
-    <dd>See BAS</dd>
+    <dd>See <a href="#bas">BAS</a>.</dd>
 </dl>
 
 </section>
@@ -73,9 +73,9 @@ Find a comprehensive list of terms and concepts that are essential for understan
     <dt id="ccv"><abbr title="Cooling Coil Valve">CCV</abbr></dt>
     <dd>A valve that controls how much chilled water passes through a cooling coil in an air handling unit.</dd>
     <dt id="cfm"><abbr title="Cubic Feet per Minute">CFM</abbr></dt>
-    <dd>Air flow unit of measurement</dd>
+    <dd>Air flow unit of measurement.</dd>
     <dt id="ct"><abbr title="Current Transformer">CT</abbr></dt>
-    <dd>Often used as "CT Sensor". Measures current (amps)</dd>
+    <dd>Often used as "CT Sensor". Measures current (amps).</dd>
 </dl>
 
 </section>
@@ -86,7 +86,7 @@ Find a comprehensive list of terms and concepts that are essential for understan
 
 <dl>
     <dt id="dem"><abbr title="NYC Department of Citywide Administrative Services Division of Energy Management">DCAS DEM</abbr></dt>
-    <dd>The NYC Department of Citywide Administrative Services Division of Energy Management is the hub for energy management in City buildings. DCAS plays a critical role in supporting City agency partners' progress towards the City's major emissions reduction and energy objectives. <a href="https://www.nyc.gov/site/dcas/agencies/energy-management.page">Learn more</a>.</dd>
+    <dd>The NYC Department of Citywide Administrative Services Division of Energy Management is the hub for energy management in City buildings. DCAS plays a critical role in supporting City agency partners' progress towards the City's major emissions reduction and energy objectives. <a href="https://www.nyc.gov/site/dcas/agencies/energy-management.page" rel="nofollow noreferrer">Learn more</a>.</dd>
     <dt id="doas"><abbr title="Dedicated Outdoor Air System">DOAS</abbr></dt>
     <dd>An HVAC system designed to condition 100% outdoor air and deliver the air to other systems or spaces.</dd>
     <dt id="dcv"><abbr title="Demand Controlled Ventilation">DCV</abbr></dt>
@@ -113,7 +113,7 @@ Find a comprehensive list of terms and concepts that are essential for understan
 
 <dl>
     <dt id="ero"><abbr title="Emissions Reduction Opportunities">ERO</abbr></dt>
-    <dd>A metric used by the LL97 IAP</dd>
+    <dd>A metric used by the LL97 IAP.</dd>
     <dt id="ecm"><abbr title="Energy Conservation Measure">ECM</abbr></dt>
     <dd>Specifies measures that are expected to provide energy usage reductions, emissions reductions, and energy cost savings.</dd>
     <dt id="eer"><abbr title="Energy Efficiency Report">EER</abbr></dt>
@@ -208,9 +208,9 @@ Find a comprehensive list of terms and concepts that are essential for understan
     <dt id="oad"><abbr title="Outdoor Air Damper">OAD</abbr></dt>
     <dd>A damper that controls the amount of outside air that enters the building.</dd>
     <dt id="oaf"><abbr title="Outdoor Air Fraction">OAF</abbr></dt>
-    <dd>The percentage of outside air in mixed and discharge air. Calculated through this formula: Percentage of fresh air intake = (MAT - RAT) / (OAT - RAT)</dd>
+    <dd>The percentage of outside air in mixed and discharge air. Calculated through this formula: Percentage of fresh air intake = (MAT - RAT) / (OAT - RAT).</dd>
     <dt id="oat"><abbr title="Outdoor Air temperature">OAT</abbr></dt>
-    <dd>Temperature of the air outside the building. Per ASHRAE, (1) air outside a building or taken from the external atmosphere and, therefore, not previously circulated through the system. (2) ambient air that enters a building through a mechanical ventilation system, through intentional openings for natural ventilation, or by infiltration. (3) compare to <a href="https://terminology.ashrae.org/?entry=outside%20air.">this link</a>.</dd>
+    <dd>Temperature of the air outside the building. Per <a href="https://terminology.ashrae.org/?term=outdoor+air" rel="noreferrer nofollow">ASHRAE Terminology</a>, Outdoor air is "(1) air outside a building or taken from the external atmosphere and, therefore, not previously circulated through the system. (2) ambient air that enters a building through a mechanical ventilation system, through intentional openings for natural ventilation, or by infiltration."</dd>
 </dl>
 
 </section>
@@ -261,7 +261,7 @@ Find a comprehensive list of terms and concepts that are essential for understan
     <dt id="soo"><abbr title="Sequence of Operations">SOO</abbr></dt>
     <dd>The control sequence of any system (e.g. at 50 degrees, turn on).</dd>
     <dt id="sat"><abbr title="Supply Air Temperature">SAT</abbr></dt>
-    <dd>see (DAT)</dd>
+    <dd>Supply Air Temperature (see <a href="#dat">DAT</a>).</dd>
 </dl>
 
 </section>
