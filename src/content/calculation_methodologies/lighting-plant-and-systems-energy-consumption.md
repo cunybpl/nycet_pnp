@@ -17,7 +17,7 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
 
 ## Introduction
 
-The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not for estimating savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (kWh). Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated and summed to obtain a full-year estimate. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
+The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not for estimating savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>). Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated and summed to obtain a full-year estimate. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
 
 The calculation tools will extrapolate data to a full year regardless of how much input data is used, but a minimum of six (6) weeks of data at one-hour intervals is required to adhere to Measurement and Verification standards. If the total fixture inventory for the project is known, data can be used by the calculation tools to determine how much of the lighting load was directly measured, but this data is not necessary for the calculation tools to work. This is useful for someone who only measured a sample of fixtures as part of a sampling plan and wants to compare the annual estimates to the total lighting load. 
 
@@ -108,15 +108,15 @@ The first three methodologies are used when measuring electricity with data logg
 
 ### Lighting True RMS Power Output from Electric Panelboard
 
-The following equations are used to calculate the annual energy consumption of a <u>lighting electrical distribution system</u> where energy in kilowatt hours (kWh) is measured at the output end of an electrical panelboard or switchgear. It is assumed that data is collected for six (6) weeks at one-hour intervals with a data-logging power meter that has the capacity to measure three-phase power. 
+The following equations are used to calculate the annual energy consumption of a <u>lighting electrical distribution system</u> where energy in kilowatt hours (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) is measured at the output end of an electrical panelboard or switchgear. It is assumed that data is collected for six (6) weeks at one-hour intervals with a data-logging power meter that has the capacity to measure three-phase power. 
 
 1. Find hourly average energy use for each hour of each day of the week (Worksheet: "Step 2. Avg Energy Calcs," column J.)
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h} = \frac{\sum_{1}^{N_{f}(d,h)} kWh_{n}}{N_{f}(d,h)} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{d,h} =$ Average energy of each hour for each day of the week (in kWh)</p>
-<p class="equation">$kWh_{n} =$ Measured hourly energy kWh from the data-logging power logger (in kWh)</p>
+<p class="equation">$\overline{kWh}_{d,h} =$ Average energy of each hour for each day of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$kWh_{n} =$ Measured hourly energy <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> from the data-logging power logger (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$N_{f}(d,h) =$ Total number of measuremed data points that fall on day of week, d, and hour the day, h</p>
 
 2. Find total daily energy consumption (Worksheet: "Step 3. Results," column C, "Step 3. Hourly Results.")
@@ -124,8 +124,8 @@ The following equations are used to calculate the annual energy consumption of a
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d} = \sum_{h = 0}^{23} \overline{kWh}_{d,h,n} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{d} =$ Sum of energy consumption for each day of the week (in kWh)</p>
-<p class="equation">$\overline{kWh}_{d,h} =$ Average energy of each h hour for each day of the week (in kWh)</p>
+<p class="equation">$\overline{kWh}_{d} =$ Sum of energy consumption for each day of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{d,h} =$ Average energy of each h hour for each day of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$h =$ Hour of the day where 0 is 12:00 a.m. and 23 is 11:00 p.m.</p>
 
 3. Calculate the average energy consumption for weekdays (Worksheet: "Step 3. Results," cell D3.)
@@ -134,7 +134,7 @@ The following equations are used to calculate the annual energy consumption of a
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{Wd} =$ Average energy consumption for weekdays (in kWH)</p>
-<p class="equation">$\overline{kWh}_{w,d} =$ Average energy of each n weekday (in kWh)</p>
+<p class="equation">$\overline{kWh}_{w,d} =$ Average energy of each n weekday (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$d =$ day of week: (2 = Monday, 3 = Tuesday, ... 6 = Friday)</p>
 
 4. Calculate the average energy consumption for weekend days (Worksheet: "Step 3. Results," cell D6.)
@@ -142,8 +142,8 @@ The following equations are used to calculate the annual energy consumption of a
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd} = \frac{\overline{kWh}_{we,1} + \overline{kWh}_{we,7}}{2} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEd} =$ Average energy consumption for each day of the week (in kWh)</p>
-<p class="equation">$\overline{kWh}_{we,d} =$ Average energy of each n weekend day (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WEd} =$ Average energy consumption for each day of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{we,d} =$ Average energy of each n weekend day (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$d =$ Day of week: (7 = Saturday, 1 = Sunday)</p>
 
 5. Calculate the annual weekday energy consumption (Worksheet: "Step 3. Results," cell E3.)
@@ -151,8 +151,8 @@ The following equations are used to calculate the annual energy consumption of a
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WdYr} = \overline{kWh}_{Wd} * (261 \hspace{2mm} weekdays \hspace{2mm} per \hspace{2mm} year - X) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{Wd} =$ Average weekday energy consumption (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{Wd} =$ Average weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ Number of weekdays that are adjusted to use weekend day average energy consumption</p>
 
 6. Calculate the total weekend day energy consumption (Worksheet: "Step 3. Results," cell E6.)
@@ -160,8 +160,8 @@ The following equations are used to calculate the annual energy consumption of a
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEdYr} = \overline{kWh}_{WEd} * (104 \hspace{2mm} weekend \hspace{2mm} days \hspace{2mm} per \hspace{2mm} year + X) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{Wd} =$ Average weekday day energy consumption (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{Wd} =$ Average weekday day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ Number of weekdays that are adjusted to use weekend day average energy consumption</p>
 
 7. Calculate total annual estimate energy consumption (Worksheet: "Step 3. Results," cell F3.)
@@ -169,17 +169,17 @@ The following equations are used to calculate the annual energy consumption of a
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{anm} = \overline{kWh}_{WdYr} + \overline{kWh}_{WEdYr} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{ann} =$ Annual energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in kWh)</p>
+<p class="equation">$\overline{kWh}_{ann} =$ Annual energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 
 8. If more than one electric panel or switchgear was measured, sum the annual energy consumption of all panels to find the total energy consumption of the electrical distribution system. 
 
 <p class="equation equation-center">\begin{equation} \overline{kWh} = \overline{kWh}_{{n}_{1}} + \overline{kWh}_{{n}_{2}} + ... \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh} =$ Total energy consumption for the electrical distribution system (in kWh)</p>
-<p class="equation">$\overline{kWh}_{n} =$ Total energy consumption for each panel or switchgear(in kWh)</p>
+<p class="equation">$\overline{kWh} =$ Total energy consumption for the electrical distribution system (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{n} =$ Total energy consumption for each panel or switchgear(in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ Number of panels or switchgear measured</p>
 
 ### Lighting Electrical Current Output from Electric Panelboard
@@ -237,7 +237,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$\overline{kW}_{h,3P} =$ Hourly three-phase power draw of the panelboard (in kW)</p>
 <p class="equation">$\overline{kW}_{h,n} =$ Hourly single-phase power for electrical line n (in kW)</p> -->
 
-3. Calculate average energy consumption for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs,” column C.) This equation helps to reduce the amount of data points to a week by taking the average of each hour for a given day of the week. In this step the hourly power draw (kW) gets converted to hourly energy consumption (kWh) because data is in one-hour intervals. kWh = kW ∗ h, where h = 1.
+3. Calculate average energy consumption for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs,” column C.) This equation helps to reduce the amount of data points to a week by taking the average of each hour for a given day of the week. In this step the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals. <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> = kW ∗ h, where h = 1.
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h} = \frac{\sum_{1}^{N_{f}(d,h)} kW_{h,3P}}{N_{f}(d,h)} \end{equation}</p>
 
@@ -251,8 +251,8 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,w} = \frac{\sum_{h=0}^{23} \overline{kWh}_{d,h}}{h} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{d,w} =$ Average hourly energy consumption for a given day of the week of the three-phase panelboard (in kWh)</p>
-<p class="equation">$\overline{kWh}_{d,h} =$ Average energy consumption for each hour of each day of the week (in kWh)</p>
+<p class="equation">$\overline{kWh}_{d,w} =$ Average hourly energy consumption for a given day of the week of the three-phase panelboard (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{d,h} =$ Average energy consumption for each hour of each day of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$h =$ Hour of the day where 0 is 12:00 a.m. and 23 is 11:00 p.m.</p>
 
 5. Calculate the average energy consumption for weekdays (Worksheet: "Step 4. Results," cell D3.)
@@ -260,8 +260,8 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{Wd} = \frac{\sum_{d=2}^{6} \overline{kWh}_{w,d}}{5} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{Wd} =$ Average energy consumption for weekdays (in kWh)</p>
-<p class="equation">$\overline{kWh}_{wd,n} =$ Average hourly energy consumption of each n weekday (in kWh)</p>
+<p class="equation">$\overline{kWh}_{Wd} =$ Average energy consumption for weekdays (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{wd,n} =$ Average hourly energy consumption of each n weekday (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$d =$ Day of week (2 = Monday, 3 = Tuesday, ..., 6 = Friday)</p>
 <p class="equation">$24 =$ Constant, hours per day</p>
 <p class="equation">$5 =$ Constant, weekdays per week</p>
@@ -271,8 +271,8 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd} = \frac{\overline{kWh}_{we,1} + \overline{kWh}_{we,7}}{2} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEd} =$ Average energy consumption for a weekend day (in kWh)</p>
-<p class="equation">$\overline{kWh}_{we,n} =$ Average energy consumption of each n weekend day (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WEd} =$ Average energy consumption for a weekend day (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{we,n} =$ Average energy consumption of each n weekend day (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ Day of week (7 = Saturday, 1 = Sunday)</p>
 <p class="equation">$2 =$ Constant, weekends per week</p>
 
@@ -281,8 +281,8 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WdYr} = \overline{kWh}_{Wd} * (261-X) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WdYr} =$ Estimated annual weekday energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{Wd} =$ Average energy consumption for weekdays (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WdYr} =$ Estimated annual weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{Wd} =$ Average energy consumption for weekdays (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ Number of weekdays that are considered holidays and adjusted to weekend day average energy consumption</p>
 <p class="equation">$261 =$ Constant, number of weekdays per year</p>
 
@@ -291,8 +291,8 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEdYr} = \overline{kWh} * (104+X) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WEd} =$ Average weekend day energy consumption (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WEd} =$ Average weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ Number of weekdays that are considered holidays and adjusted to weekend day average energy consumption</p>
 <p class="equation">$104 =$ Constant, number of weekend days per year</p>
 
@@ -301,17 +301,17 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{ann} = \overline{kWh}_{WdYr} + \overline{kWh}_{WEdYr} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{ann} =$ Estimated annual energy consumption of the panelboard (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WdYr} =$ Estimated annual weekday energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WEdYr} =$ Estimated annual weekend day energy consumption (in kWh)</p>
+<p class="equation">$\overline{kWh}_{ann} =$ Estimated annual energy consumption of the panelboard (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WdYr} =$ Estimated annual weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WEdYr} =$ Estimated annual weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 
 10. If more than one panelboard was measured sum the annual energy consumption of all panels to find the total energy consumption of all measured panelboards.
 
 <p class="equation equation-center">\begin{equation} \overline{kWh} = \overline{kWh}_{{n}_{1}} + \overline{kWh}_{{n}_{1}} + ... \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh} =$ Total energy consumption of all measured panelboards (in kWh)</p>
-<p class="equation">$\overline{kWh}_{n} =$ Total energy consumption for each panelboard (in kWh)</p>
+<p class="equation">$\overline{kWh} =$ Total energy consumption of all measured panelboards (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{n} =$ Total energy consumption for each panelboard (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ Number of panelboards measured</p>
 
 ### Lighting Electrical Current from Circuit Breakers
@@ -343,12 +343,12 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation">$I_{n} =$ Measured average houry current for a circuit (in Amps)</p>
 <p class="equation">$V_{I,N,avg} =$ Measured average line-to-neutral voltage for a circuit (in V)</p>
 
-2. Calculate average energy use for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs, column C, D, E, F.”) In this step the hourly power draw (kW) gets converted to hourly energy consumption (kWh) because data is in one-hour intervals. kWh = kw * h, where h = 1.
+2. Calculate average energy use for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs, column C, D, E, F.”) In this step the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals. <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> = kw * h, where h = 1.
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h,c} = \frac{\sum_{1}^{N_{f}(d,h)} kW_{h}}{N_{f}(d,h)} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{d,h,c} =$ Average energy of each hour for each day of the week for each circuit (in kWh)</p>
+<p class="equation">$\overline{kWh}_{d,h,c} =$ Average energy of each hour for each day of the week for each circuit (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$kW_{h} =$ Total power at each hour of each day of each week (in kW)</p>
 <p class="equation">$N_{f} =$ Total number of measured data points that fall on day of week, d, and hour of the day, h</p>
 
@@ -357,8 +357,8 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h,n} = \sum_{c=1}^{4} \overline{kWh}_{d,h,c} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{d,h} =$ Total average energy for all circuits of each hour for each day of the week (in kWh)</p>
-<p class="equation">$\overline{kWh}_{d,h,c} =$ Total average energy for each hour for each day of the week for each circuit (in kWh)</p>
+<p class="equation">$\overline{kWh}_{d,h} =$ Total average energy for all circuits of each hour for each day of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{d,h,c} =$ Total average energy for each hour for each day of the week for each circuit (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$c =$ Circuit that was measured</p>
 
 4. Calculate total daily energy consumption for a given day of the wekk (Worksheet: "Step 4. Results," column C.)
@@ -366,8 +366,8 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,w} = \sum_{n=0}^{23} \overline{kWh}_{d,h} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{d,w} =$ Total average energy for each day of the week (in kWh)</p>
-<p class="equation">$\overline{kWh}_{d,h} =$ Total average energy of each h hour for each day of the week (in kWh)</p>
+<p class="equation">$\overline{kWh}_{d,w} =$ Total average energy for each day of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{d,h} =$ Total average energy of each h hour for each day of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$h =$ Hour of the day where 0 is 12:00 a.m. and 23 is 11:00 p.m.</p>
 
 5. Calculate the average energy consumption for weekdays in a week for all circuits (Worksheet: "Step 4. Results," cell D3.)
@@ -375,8 +375,8 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WdCT} = \frac{\sum_{n=2}^{6} \overline{kWh}_{d,w}}{5} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WdCt} =$ Average energy on a weekday (in kWh)</p>
-<p class="equation">$\overline{kWh}_{d,w} =$ Average hourly energy for each n weekday of the week (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WdCt} =$ Average energy on a weekday (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{d,w} =$ Average hourly energy for each n weekday of the week (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ Day of week (2 = Monday, 3 = Tuesday, ..., 6 = Friday)</p>
 <p class="equation">$24 =$ Hours per day</p>
 
@@ -385,8 +385,8 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEdCT} = \frac{\overline{kWh}_{1,w} + \overline{kWh}_{7,w}}{2} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEdCT} =$ Average energy on a weekend day (in kWh)</p>
-<p class="equation">$\overline{kWh}_{d,w} =$ Average hourly energy of each circuit for each n weekend day (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WEdCT} =$ Average energy on a weekend day (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{d,w} =$ Average hourly energy of each circuit for each n weekend day (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ Day of week (7 = Saturday, 1 = Sunday)</p>
 <p class="equation">$24 =$ Hours per day</p>
 
@@ -395,8 +395,8 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WdYr} = \overline{kWh}_{Wd} * (261 \hspace{2mm} weekdays \hspace{2mm} per \hspace{2mm} year - X) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{Wd} =$ Average weekly weekday energy consumption (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{Wd} =$ Average weekly weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ Number of weekdays that are considered holidays and adjusted to weekend day average energy consumption</p>
 
 8. Calculate the total annual weekend day energy consumption (Worksheet: "Step 4. Results," cell E6.)
@@ -404,7 +404,7 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEdYr} = \overline{hWh}_{WEd} * (104 \hspace{2mm} weekend \hspace{2mm} days \hspace{2mm} per \hspace{2mm} year + X) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$\overline{kWh}_{WEd} =$ Average weekly weekend day energy consumption</p>
 <p class="equation">$X =$ Number of weekdays that are considered holidays and adjusted to weekend day average energy consumption</p>
 
@@ -413,9 +413,9 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{ann} = \overline{kWh}_{WdYr} + \overline{kWh}_{WEDYr} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{ann} =$ Annual energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in kWh)</p>
+<p class="equation">$\overline{kWh}_{ann} =$ Annual energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 
 Equation (26) is the annual energy consumption of the measured circuits for a panelboard. If additional circuits were measured for the same panelboard with a different data logger be sure to consolidate the results (annual energy consumption) to obtain the total panelboard annual energy consumption. Additionally, if multiple panelboards were measured be sure to sum up the annual consumption of all panelboards to obtain the total system energy consumption.
 
@@ -475,7 +475,7 @@ This calculation tool can be used for different fixture types within a single sp
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{Wd,fix1} = \frac{\sum_{d=2}^{6} T_{Wd,fix1,d}}{5} * kW_{fix1} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{Wd,fix1} =$ Average energy consumption during weekdays for fixture type 1 (in kWh)</p>
+<p class="equation">$\overline{kWh}_{Wd,fix1} =$ Average energy consumption during weekdays for fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$kW_{fix1} =$ Total power draw of single fixture type 1 (in kW)</p>
 <p class="equation">$T_{Wd,fix1,d} =$ Number of hours the fixtures are on for a given d weekday (in hours)</p>
 <p class="equation">$d =$ Day of week (2 = Monday, 3 = Tuesday, ..., 6 = Friday)</p>
@@ -485,7 +485,7 @@ This calculation tool can be used for different fixture types within a single sp
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd,fix1} = \frac{T_{We,fix1,1} + T_{We,fix1,7}}{2} * kW_{fix1} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEd,fix1} =$ Average consumption during weekend days for fixture type 1 (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WEd,fix1} =$ Average consumption during weekend days for fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$kW_{fix1} =$ Total power draw of single fixture type 1 (in kW)</p>
 <p class="equation">$T_{We,fix1,d} =$ Number of hours the fixtures are on for a given d weekend days (in hours)</p>
 <p class="equation">$d =$ Day of week (7 = Saturday, 1 = Sunday)</p>
@@ -495,8 +495,8 @@ This calculation tool can be used for different fixture types within a single sp
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WdYr,fix1} = \overline{kWh}_{Wd,fix1} * (261 \hspace{2mm} weekdays \hspace{2mm} per \hspace{2mm} year - X) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WdYr,fix1} =$ Annual weekday energy consumption of fixture type 1 (in kWh)</p>
-<p class="equation">$\overline{kWh}_{Wd,fix1} =$ Average energy consumption during weekdays for fixture type 1 (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WdYr,fix1} =$ Annual weekday energy consumption of fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{Wd,fix1} =$ Average energy consumption during weekdays for fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ Number of weekdays that are adjusted to use weekend day average energy consumption</p>
 
 9. Calculate the annual weekend energy consumption for the fixture type (Worksheet: "Step 4. Results").
@@ -504,8 +504,8 @@ This calculation tool can be used for different fixture types within a single sp
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{WEd,Yr,fix1} = \overline{kWh}_{WEd,fix1} * (104 \hspace{2mm} weekend \hspace{2mm} days \hspace{2mm} per \hspace{2mm} year + X) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEdYr,fix1} =$ Annual weekend day energy consumption of fixture type 1 (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WEd,fix1} =$ Average energy consumption during weekend days for fixture type 1 (in kWh)</p>
+<p class="equation">$\overline{kWh}_{WEdYr,fix1} =$ Annual weekend day energy consumption of fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WEd,fix1} =$ Average energy consumption during weekend days for fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ Number of weekdays that are adjusted to use weekend average energy consumption</p>
 
 10. Calculate total annual estimated energy consumption for the fixture type (Worksheet: "Step 4. Results").
@@ -513,17 +513,17 @@ This calculation tool can be used for different fixture types within a single sp
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{ann,fix1} = \overline{kWh}_{WdYr,fix1} + \overline{kWh}_{WEdYr,fix1} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{ann,fix1} =$ Annual estimated energy consumption of fixture type 1 (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WdYr,fix1} =$ Annual weekday energy consumption of fixture type 1 (in kWh)</p>
-<p class="equation">$\overline{kWh}_{WEdYr,fix1} =$ Annual weekend day energy consumption of fixture type 1 (in kWh)</p>
+<p class="equation">$\overline{kWh}_{ann,fix1} =$ Annual estimated energy consumption of fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WdYr,fix1} =$ Annual weekday energy consumption of fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WEdYr,fix1} =$ Annual weekend day energy consumption of fixture type 1 (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 
 11. If multiple fixture types were measured find the sum of the annual estimated energy consumption for all fixture types (Worksheet: "Step 4. Results").
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{ann} = \sum_{i=1}^{n} \overline{kWh}_{ann,{fix_{n}}} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{ann} =$ Total annual energy of all measured fixture types (in kWh)</p>
-<p class="equation">$\overline{kWh}_{ann,fix1} =$ Annual estimated energy consumption of each measured fixture type (in kWh)</p>
+<p class="equation">$\overline{kWh}_{ann} =$ Total annual energy of all measured fixture types (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{ann,fix1} =$ Annual estimated energy consumption of each measured fixture type (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ Number of fixture types measured</p>
 
 ## Hourly Results Worksheet

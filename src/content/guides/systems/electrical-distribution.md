@@ -90,11 +90,11 @@ The electrical distribution system does not consume electricity, but it can be a
     <tbody>
         <tr>
             <td>
-                <p>Lighting fixture system electricity consumption (kWh)</p>
+                <p>Lighting fixture system electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly panelboard or switchgear kWh</li> 
+                    <li>Average hourly panelboard or switchgear <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
                     <li>Total operating time for the light fixtures</li>
                 </ul>
             </td>

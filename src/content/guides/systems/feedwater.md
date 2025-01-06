@@ -74,7 +74,7 @@ The primary energy consumption in a feedwater system is the electricity used to 
     <tbody>
         <tr>
             <td>
-                Feedwater pump electricity consumption (kWh)
+                Feedwater pump electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>

@@ -118,7 +118,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Heat transferred by the heat exchanger to the supply stream</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly Btu/h transferred&nbsp;</p>
+                <p>Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h transferred&nbsp;</p>
             </td>
             <td width="33.333333333333336%">
                 <ul>
@@ -133,12 +133,12 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
             </td>
             <td width="33.333333333333336%">
                 <ul>
-                    <li>Average hourly pump motor kWh (if needed)</li>
+                    <li>Average hourly pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> (if needed)</li>
                     <li>Operating schedule</li>
                 </ul>
             </td>
             <td width="33.333333333333336%">
-                <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (kW)</p>
+                <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
         </tr>
         <tr>
@@ -147,13 +147,32 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
             </td>
             <td width="33.333333333333336%">
                 <ul>
-                    <li>Average hourly pump motor kWh (if needed)</li>
+                    <li>Average hourly pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> (if needed)</li>
                     <li>Average hourly outdoor air temperature (OAT)</li>
                 </ul>
             </td>
             <td width="33.333333333333336%">
                 <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (kW)</p>
                 <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="33.333333333333336%">
+                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg">
+                <figure class="figure">
+                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-left"></figcaption>
+                </figure>
+                </a>
+                DENT ELITEproXC Portable Power Data Logger (EXCUNC)
+                <br></br>
+                DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
+            </td>
+            <td width="33.333333333333336%">
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
+            </td>
+            <td width="33.333333333333336%">
+                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
             </td>
         </tr>
     </tbody>
@@ -222,7 +241,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
             </td>
             <td width="33.333333333333336%">
-                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
             </td>
             <td width="33.333333333333336%">
                  <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>

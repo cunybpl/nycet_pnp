@@ -72,11 +72,11 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
     <tbody>
         <tr>
             <td>
-                <p>Lighting fixture system electricity usage (kWh)</p>
+                <p>Lighting fixture system electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly panelboard or switchgear (kWh)</li> 
+                    <li>Average hourly panelboard or switchgear (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li> 
                     <li>Total operating time for the light fixtures</li>
                 </ul>
             </td>

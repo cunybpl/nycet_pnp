@@ -95,11 +95,11 @@ The steam distribution system distributes heat energy, with losses to the non-co
     <tbody>
         <tr>
             <td>
-                <p>Vacuum pump electricity usage (kWh) - if present</p>
+                <p>Vacuum pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - if present</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly pump motor (kWh)</li>
+                    <li>Average hourly pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Total operating time for the pumps</li>
                 </ul>
             </td>

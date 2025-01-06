@@ -150,7 +150,7 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 <p class="equation equation-center">\begin{equation} E = WeeksPumpOn * P\sum_{d=1}^{7} \overline{HrsOn}_{d} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$E =$ Annual pump energy, kWh</p>
+<p class="equation">$E =$ Annual pump energy, <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
 <p class="equation">$DayOfYear =$ Function to convert a date to the n^{th} day of the year</p>
 <p class="equation">$PumpOperationEndDate =$ Cooling season end date, mm/dd/yyyy</p>
 <p class="equation">$PumpOperationStartDate =$ Cooling season start date, mm/dd/yyyy</p>
@@ -230,7 +230,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 <p class="equation equation-center">\begin{equation} E = WeeksPumpOn * \sum_{t=1}^{8760} P(OAT'(t)) * \overline{\%On}_{d,h}(t) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$E =$ Annual energy usage, kWh</p>
+<p class="equation">$E =$ Annual energy usage, <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
 <p class="equation">$OAT'(t) =$ Hourly climate normal outside air temperature from National Weather Service at station closest to site, F</p>
 <p class="equation">$WeeksPumpOn =$ Pump operating times, weeks</p>
 

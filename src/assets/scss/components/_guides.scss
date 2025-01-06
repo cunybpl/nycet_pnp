@@ -247,15 +247,16 @@ details.guide-header-description {
   margin-top: -3rem;
   border-right: 1px solid #b4b4b445;
   padding-inline: 0;
-    .mg-toc {
-      position: sticky;
-      top: 4em;
-      max-height: 100dvh;
-      overflow-y: auto;
-      padding-right: 1rem;
-      padding-top: 3rem;
-      padding-bottom: 4rem;
-      scrollbar-width: thin;
+
+  .mg-toc {
+    position: sticky;
+    top: 4em;
+    max-height: 100dvh;
+    overflow-y: auto;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    scrollbar-width: thin;
 
     nav#TableOfContents {
       li.active-item {
@@ -304,6 +305,20 @@ details.guide-header-description {
           }
         }
       }
+    }     
+  }
+  .glossary-toc nav ul {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(5ch, 1fr));
+    gap: 1rem;
+
+    li {
+      text-align: center;
+    }
+
+    li a {
+      display: inline-block;
+      width: 100%;
     }
   }
   .btt-container {
@@ -623,4 +638,33 @@ table caption p {
 .references {
   padding-left: 4rem;
   text-indent: -4rem;
+}
+.glossary {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  section {
+    h2 {
+      // position: sticky;
+      // padding-top: 50px;
+      // inset: 5rem;
+      // z-index: 2;
+      background-color: white;
+      margin-bottom: 2rem;
+
+    }
+    dl {
+      dt {
+        scroll-margin-top: 2rem;
+        padding-left: 2rem;
+        font-size: 1.2rem;
+      }
+      dd {
+        padding-left: 2rem;
+      }
+      dt + dd {
+      margin-bottom: 1.8rem;
+      }
+    }   
+  }  
 }

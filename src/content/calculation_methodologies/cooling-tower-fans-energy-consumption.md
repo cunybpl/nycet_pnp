@@ -182,7 +182,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger for each fan in the cooling tower.
 
-1. Total energy for each hour (Worksheet: "Step 2 Energy Calcs"). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (kWh).
+1. Total energy for each hour (Worksheet: "Step 2 Energy Calcs"). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>).
 
 <p class="equation equation-center">\begin{equation} \bar{E}(t) = \sum_{f = 1}^F \bar{E}_{f}(t) \end{equation}</p>
 
@@ -198,7 +198,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include hourly average current (in Amps) as directly measured by current transformers, and spot measurements for true power for each fan in the cooling tower. 
 
-1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured current (Amps) is the average for an hour, Equation 10 yields the average energy per hour (kWh) assuming voltage is constant.  
+1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured current (Amps) is the average for an hour, Equation 10 yields the average energy per hour (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) assuming voltage is constant.  
 
 <p class="equation equation-center">\begin{equation} \overline{E}_{f}(t) = \frac{i_{f}(t) * P_{f}}{I_{f}} \end{equation}</p>
 
@@ -219,7 +219,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed. 
 
-1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (kWh).
+1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>).
 
 <p class="equation equation-center">\begin{equation} \overline{E}(t) = \overline{E}_{1}(t) * F \end{equation}</p>
 

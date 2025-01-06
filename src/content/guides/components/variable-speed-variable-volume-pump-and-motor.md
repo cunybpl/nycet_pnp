@@ -282,7 +282,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
             </td>
             <td width="33.333333333333336%">   
-                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.    
+                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.    
             </td>
             <td width="33.333333333333336%">
                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>

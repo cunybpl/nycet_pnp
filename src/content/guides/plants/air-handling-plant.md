@@ -112,8 +112,8 @@ The energy consumption in an air handling plant is the sum of the energy used by
             </td>
             <td>
                 <ul>
-                    <li>Average hourly fan motor kWh</li>
-                    <li>Average Btu/h at coils</li>
+                    <li>Average hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
+                    <li>Average <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h at coils</li>
                 </ul>
             </td>
             <td>
@@ -129,7 +129,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Heat pump</p>
             </td>
             <td>
-                <p>Average hourly heat pump kWh (includes supply and condenser fan motors and compressor motors)</p>
+                <p>Average hourly heat pump <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> (includes supply and condenser fan motors and compressor motors)</p>
             </td>
             <td>
                 <ul>
@@ -145,7 +145,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
             <td>
                 <ul>
                     <li>Average hourly furnace fuel consumption</li>
-                    <li>Average hourly burner kWh (includes supply fan motors)</li>
+                    <li>Average hourly burner <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> (includes supply fan motors)</li>
                 </ul>
             </td>
             <td>
@@ -160,7 +160,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Rooftop Unit</p>
             </td>
             <td>
-                <p>Average hourly fuel consumption: average hourly rooftop unit kWh (includes supply and condenser fan motors and compressor motors)</p>
+                <p>Average hourly fuel consumption: average hourly rooftop unit <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> (includes supply and condenser fan motors and compressor motors)</p>
             </td>
             <td>
                 <ul>
@@ -175,7 +175,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 <p>Induction Unit</p>
             </td>
             <td>
-                <p>Average Btu/h at coils</p>
+                <p>Average <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h at coils</p>
             </td>
             <td>
                 <p>Heating coil</p>

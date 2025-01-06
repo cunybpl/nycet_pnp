@@ -290,7 +290,7 @@ This calculation tool is for VFD-controlled fans that are operated at different 
 <p class="equation">$N_{f}(d,h) =$ Total number of measured data points that fall on day of week, d, and hour od day, h, for either supply or return fan, f</p>
 <p class="equation">$n_{f} \in t_{f}(d,h) =$ Index for subset of measured data points that fall on day of week, d, and hour of day, h, for either supply or return fan, f</p>
 
-4. Calculated energy (kWh) every hour based on normalized annual OAT for the supply and return fan motors (Worksheet: "Step 6. Energy Calcs," column F & G).
+4. Calculated energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) every hour based on normalized annual OAT for the supply and return fan motors (Worksheet: "Step 6. Energy Calcs," column F & G).
 
 <p class="equation equation-center">\begin{equation} E_{f} = \sum_{t=1}^{8760} P_{f}(OAT'(t))*\overline{\%FanOn}_{d,h,f}(t) \end{equation}</p>
 

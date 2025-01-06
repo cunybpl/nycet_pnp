@@ -72,7 +72,7 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
                 <p>AHU power consumption</p>
             </td>
             <td>
-                <p>Hourly fan motor kWh</p>
+                <p>Hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
             </td>
             <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motors</a> and associated VFDs</p>
@@ -103,7 +103,7 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
                 <p>VAV box consumption (if applicable)</p>
             </td>
             <td>
-                <p>Hourly reheat kWh</p>
+                <p>Hourly reheat <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
             </td>
             <td>
                 <p>Electric reheat coil (if present)</p>
@@ -131,7 +131,7 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
                 <p>VAV box consumption (if applicable)</p>
             </td>
             <td>
-                <p>Hourly fan motor kWh</p>
+                <p>Hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
             </td>
             <td>
                 <p><a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motor</a> (if present)</p>

@@ -570,12 +570,12 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation">$\overline{kW}_{h,3P} =$ hourly three-phase power draw of the motor (kW)</p>
 <p class="equation">$\overline{kW}_{h,n} =$ hourly single-phase power for electrical line n (kW)</p>
 
-2. Calculate average energy consumption for each hour of each day of the week.  This step generates an hourly schedule for a week and this schedule is used to calculate the full year heat transfer. In this step, the hourly power draw (kW) gets converted to hourly energy consumption (kWh) because data is in one-hour intervals[^2].
+2. Calculate average energy consumption for each hour of each day of the week.  This step generates an hourly schedule for a week and this schedule is used to calculate the full year heat transfer. In this step, the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals[^2].
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h} = \frac{\sum_1^{N_f(d,h)} \overline{kW}_{h,3P}}{N_f(d,h)} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{d,h} =$ average energy consumption for each hour of each day of the week (kWh)</p>
+<p class="equation">$\overline{kWh}_{d,h} =$ average energy consumption for each hour of each day of the week (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$\overline{kW}_{h,3P} =$ hourly three-phase power draw of the motor (kW)</p>
 <p class="equation">$N_f(d,h) =$ total number of data points that fall on day of week, d, and hour of the day, h</p>
 
@@ -585,7 +585,7 @@ This calculation methodology assumes that the power draw of the supply and exhau
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{d,w} =$ average daily energy consumption for a given day of the week of the motor</p>
-<p class="equation">$\overline{kWh}_{d,h} =$ average energy consumption for each hour of each day of the week (kWh)</p>
+<p class="equation">$\overline{kWh}_{d,h} =$ average energy consumption for each hour of each day of the week (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ hour of the day where 0 is 12:00 a.m. and 23 is 11:00 p.m.</p>
 
 4. Calculate the average energy consumption per day for weekdays. 
@@ -593,8 +593,8 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{Wd} = \frac{\sum_{n=2}^6 \overline{kWh}_{wd,n}}{5} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{Wd} =$ average energy consumption for weekdays (kWh)</p>
-<p class="equation">$\overline{kWh}_{wd,n} =$ average energy consumption of each $n$ weekday (kWh)</p>
+<p class="equation">$\overline{kWh}_{Wd} =$ average energy consumption for weekdays (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{wd,n} =$ average energy consumption of each $n$ weekday (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ day of week: 2 = Monday, 3 = Tuesday, ..., 6 = Friday</p>
 <p class="equation">$5 =$ constant, weekdays per week</p>
 
@@ -603,8 +603,8 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{Wed} = \frac{\sum_{n=1}^7 \overline{kWh}_{we,n}}{2} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{WEd} =$ average energy consumption for a weekend day (kWh)</p>
-<p class="equation">$\overline{kWh}_{we,n} =$ average energy consumption of each $n$ weekend day (kWh)</p>
+<p class="equation">$\overline{kWh}_{WEd} =$ average energy consumption for a weekend day (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{we,n} =$ average energy consumption of each $n$ weekend day (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$n =$ day of week: 7 = Saturday, 1 = Sunday</p>
 <p class="equation">$2 =$ constant, weekend days per week</p>
 
@@ -614,7 +614,7 @@ This calculation methodology assumes that the power draw of the supply and exhau
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WdYr} =$ estimated annual weekday energy consumption</p>
-<p class="equation">$\overline{kWh}_{Wd} =$ average weekday energy consumption (kWh)</p>
+<p class="equation">$\overline{kWh}_{Wd} =$ average weekday energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ number weekdays that are adjusted to a weekend day (holidays)</p>
 <p class="equation">$261 =$ constant, number of weekdays per year</p>
 
@@ -624,7 +624,7 @@ This calculation methodology assumes that the power draw of the supply and exhau
 
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WEdYr} =$ estimated annual weekend day energy consumption</p>
-<p class="equation">$\overline{kWh}_{WEd} =$ average weekend day energy consumption (kWh)</p>
+<p class="equation">$\overline{kWh}_{WEd} =$ average weekend day energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$X =$ number weekdays that are adjusted to a weekend day (holidays)</p>
 <p class="equation">$104 =$ constant, number of weekends per year</p>
 
@@ -633,8 +633,8 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{ann} = \overline{kWh}_{WdYr} + \overline{kWh}_{WEdYr} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{ann} =$ estimated annual energy consumption of the motor (kWh)</p>
-<p class="equation">$\overline{kWh}_{WdYr} =$ estimated annual weekday energy consumption (kWh)</p>
+<p class="equation">$\overline{kWh}_{ann} =$ estimated annual energy consumption of the motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{WdYr} =$ estimated annual weekday energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$\overline{kWh}_{WEdYr} =$ estimated annual weekend day energy consumption</p>
 
 9. Calculate the total annual energy consumption of the supply and exhaust fan motors. 
@@ -642,9 +642,9 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{T,ann} = \overline{kWh}_{supply} + \overline{kWh}_{exhaust} \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$\overline{kWh}_{T,ann} =$ estimated annual energy consumption of the fan motors (kWh)</p>
-<p class="equation">$\overline{kWh}_{supply} =$ esimated annual energy consumption of the supply fan motor (kWh)</p>
-<p class="equation">$\overline{kWh}_{exhaust} =$ estimated annual energy consumption of the exhaust fan motor (kWh)</p>
+<p class="equation">$\overline{kWh}_{T,ann} =$ estimated annual energy consumption of the fan motors (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{supply} =$ esimated annual energy consumption of the supply fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+<p class="equation">$\overline{kWh}_{exhaust} =$ estimated annual energy consumption of the exhaust fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 
 ## Further Reading
 

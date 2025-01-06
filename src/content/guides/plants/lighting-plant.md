@@ -72,10 +72,10 @@ To quantify the energy consumption of the lighting plant, the components of all 
     <tbody>
         <tr>
             <td>
-                <p>Lighting plant electricity usage (kWh)</p>
+                <p>Lighting plant electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
             </td>
             <td>
-                <p>Average hourly kWh served by the electrical distribution system</p>
+                <p>Average hourly <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> served by the electrical distribution system</p>
             </td>
             <td>
                 <p><a href="/documents/systems/lighting-fixture">Light fixtures and automatic controls (if applicable).</a></p>

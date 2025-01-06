@@ -91,11 +91,11 @@ Table 1 provides a summary of system component measurements and values needed to
     <tbody>
         <tr>
             <td>
-                <p>Primary CHW loop pump electricity usage (kWh) - constant-speed system</p>
+                <p>Primary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system</p>
             </td>
             <td ">
                 <ul>
-                    <li>Average hourly primary CHW pump motor kWh</li> 
+                    <li>Average hourly primary CHW pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
                     <li>Total operating time for the pumps</li>
                 </ul>
             </td>
@@ -111,11 +111,11 @@ Table 1 provides a summary of system component measurements and values needed to
         </tr>
         <tr>
             <td>
-                <p>Primary CHW loop pump electricity usage (kWh) - variable-speed system</p>
+                <p>Primary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly primary CHW pump motor kWh</li> 
+                    <li>Average hourly primary CHW pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
                     <li>Total operating time for the pumps</li>
                 </ul>
             </td>
@@ -130,11 +130,11 @@ Table 1 provides a summary of system component measurements and values needed to
         </tr>
         <tr>
             <td>
-                <p>Secondary CHW loop pump electricity usage (kWh) - variable-speed system (if present)</p>
+                <p>Secondary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system (if present)</p>
             </td>
             <td>
                 <ul>
-                    <li>Average hourly primary CHW pump motor kWh</li> 
+                    <li>Average hourly primary CHW pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
                     <li>Total operating time for the pumps</li>
                 </ul>
             </td>

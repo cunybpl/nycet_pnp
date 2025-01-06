@@ -1,0 +1,51 @@
+{{ partial "basic/breadcrumb.html" . }}
+{{ partial "basic/header.html" . }}
+<section class="guide-wrapper">
+  <!-- MEASUREMENT GUIDES SECTION -->
+  <section id="guide-page-measurement-guides" class="container guide-page-content"
+  >
+  <div class="row" style="padding-top: 2rem; margin-left: 0; margin-right: 0;">
+    <!-- TABLE OF CONTENTS -->
+    <div id="guide-mg-side-nav" class="col-3">
+      <div class="mg-toc glossary-toc">
+        {{ .TableOfContents }}
+        <div class="btt-container">
+          <a id="back-to-top" href="#" class="btt-btn" role="button">
+            <span class="mr-2">Back to top</span><i class="fa fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+    <!-- GUIDE CONTENT -->
+    <div id="guide-mg-content" class="col-9">
+      <div class="content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  </section>
+</section>
+
+<script>
+  $('#TableOfContents > ul > li').on('click', (event) => {
+    $('#TableOfContents > ul > li').removeClass('active-item');
+    $(event.currentTarget).addClass('active-item');
+  })
+
+  $(document).ready(() => {
+    $(window).scroll(() => {
+      if ($(this).scrollTop() > 500) {
+        $('#back-to-top').fadeIn();
+      } else {
+        $('#back-to-top').fadeOut();
+      }
+    });
+    $('#back-to-top').click(() => {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 400);
+      return false;
+    });
+  });
+</script>
