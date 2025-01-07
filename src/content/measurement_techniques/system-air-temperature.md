@@ -11,9 +11,9 @@ related_systems:
 associated_components:
   - Air-to-air Heat Exchanger
 related_calculations:
-  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+  - Air-to-air Heat Exchanger Heat Transfer
 associated_calculations:
-  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+  - Air-to-air Heat Exchanger Heat Transfer
 url: "/documents/measurement-technique/system-air-temperature"
 ---
 

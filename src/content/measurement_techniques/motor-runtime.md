@@ -18,9 +18,9 @@ associated_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
 related_calculations:
-  - Pump Motor Energy Consumption Calculation Methodology and Calculator
+  - Pump Motor Energy Consumption
 associated_calculations:
-  - Pump Motor Energy Consumption Calculation Methodology and Calculator
+  - Pump Motor Energy Consumption
 borrow_equipment_url: "https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/"
 url: "/documents/measurement-technique/motor-runtime"
 ---

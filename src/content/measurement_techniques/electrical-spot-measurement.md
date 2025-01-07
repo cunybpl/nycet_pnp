@@ -19,11 +19,11 @@ associated_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor
 related_calculations:
-  - Lighting Plant and Systems Energy Consumption Calculation Methodology and Calculator
-  - Pump Motor Energy Consumption Calculation Methodology and Calculator
+  - Lighting Plant and Systems Energy Consumption
+  - Pump Motor Energy Consumption
 associated_calculations:
-  - Lighting Plant and Systems Energy Consumption Calculation Methodology and Calculator
-  - Pump Motor Energy Consumption Calculation Methodology and Calculator
+  - Lighting Plant and Systems Energy Consumption
+  - Pump Motor Energy Consumption
 url: "/documents/measurement-technique/electrical-spot-measurement"
 ---
 
