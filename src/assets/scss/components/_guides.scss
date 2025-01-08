@@ -642,25 +642,20 @@ table caption p {
 .glossary {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   section {
+    overflow: visible;
     h2 {
-      // position: sticky;
-      // padding-top: 50px;
-      // inset: 5rem;
-      // z-index: 2;
-      background-color: white;
-      margin-bottom: 2rem;
-
+      margin-block: 1.5rem;
     }
     dl {
       dt {
         scroll-margin-top: 2rem;
-        padding-left: 2rem;
+        padding-left: 0;
         font-size: 1.2rem;
       }
       dd {
-        padding-left: 2rem;
+        padding-left: 0;
       }
       dt + dd {
       margin-bottom: 1.8rem;
