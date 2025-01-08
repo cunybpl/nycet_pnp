@@ -9,9 +9,9 @@ thumbnail_image: "/images/measurement-technique/lighting-fixture-runtime/2024_04
 related_systems:
   - Lighting Fixture
 related_calculations:
-  - Lighting Plant and Systems Energy Consumption Calculation Methodology and Calculator
+  - Lighting Plant and Systems Energy Consumption
 associated_calculations:
-  - Lighting Plant and Systems Energy Consumption Calculation Methodology and Calculator
+  - Lighting Plant and Systems Energy Consumption
 url: "/documents/measurement-technique/lighting-fixture-runtime"
 ---
 

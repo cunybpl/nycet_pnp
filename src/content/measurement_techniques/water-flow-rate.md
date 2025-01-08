@@ -13,9 +13,9 @@ related_systems:
 associated_components:
   - Liquid-to-liquid Heat Exchanger
 related_calculations:
-  - Liquid-to-liquid Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+  - Liquid-to-liquid Heat Exchanger Heat Transfer
 associated_calculations:
-  - Liquid-to-liquid Heat Exchanger Heat Transfer Calculation Methodology and Calculator
+  - Liquid-to-liquid Heat Exchanger Heat Transfer
 url: "/documents/measurement-technique/water-flow-rate"
 ---
 

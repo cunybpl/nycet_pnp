@@ -12,9 +12,9 @@ thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_ele
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
 related_calculations:
-  - Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator
+  - Cooling Tower Fans Energy Consumption
 associated_calculations:
-  - Cooling Tower Fans Energy Consumption Calculation Methodology and Calculator
+  - Cooling Tower Fans Energy Consumption
 url: "/documents/measurement-technique/electrical-current"
 ---
 

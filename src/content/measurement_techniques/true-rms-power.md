@@ -23,13 +23,13 @@ associated_components:
   - Variable-speed, Variable-volume Fan and Motor
   - Variable-speed, Variable-volume Pump and Motor
 related_calculations:
-  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
-  - Fan Motor Energy Consumption Calculation Methodology and Calculator
-  - Pump Motor Energy Consumption Calculation Methodology and Calculator
+  - Air-to-air Heat Exchanger Heat Transfer
+  - Fan Motor Energy Consumption
+  - Pump Motor Energy Consumption
 associated_calculations:
-  - Air-to-air Heat Exchanger Heat Transfer Calculation Methodology and Calculator
-  - Fan Motor Energy Consumption Calculation Methodology and Calculator
-  - Pump Motor Energy Consumption Calculation Methodology and Calculator
+  - Air-to-air Heat Exchanger Heat Transfer
+  - Fan Motor Energy Consumption
+  - Pump Motor Energy Consumption
 url: "/documents/measurement-technique/true-rms-power"
 ---
 
