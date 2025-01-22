@@ -66,7 +66,7 @@ The cooling energy savings are equivalent to the heat rejected through the water
                 <p>Waterside economizer heat rejection load</p>
             </td>
             <td>
-                <p>Hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h transferred, differential of temperature for chilled water loop.</p>
+                <p>Hourly Btu/h transferred, differential of temperature for chilled water loop.</p>
             </td>
             <td>
                 <p><a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger</a> of waterside economizer</p>
