@@ -112,7 +112,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Energy recovered by the heat exchanger</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h transferred to the outdoor air entering the system&nbsp;</p>
+                <p>Hourly Btu/h transferred to the outdoor air entering the system</p>
             </td>
             <td width="33.333333333333336%">
                 <ul>

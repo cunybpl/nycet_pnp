@@ -118,7 +118,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 <p>Heat transferred by the heat exchanger to the supply stream</p>
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h transferred&nbsp;</p>
+                <p>Average hourly Btu/h transferred</p>
             </td>
             <td width="33.333333333333336%">
                 <ul>
