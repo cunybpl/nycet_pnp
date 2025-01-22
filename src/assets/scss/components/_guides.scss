@@ -663,3 +663,10 @@ table caption p {
     }   
   }  
 }
+a.glossary-link {
+  text-decoration: dotted;
+  color: inherit;
+  text-underline-offset: 3px;
+  background-color: #f7f7f7;
+  padding: 2px 0;
+}
