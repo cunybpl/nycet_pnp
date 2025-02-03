@@ -74,8 +74,8 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
             </td>
             <td>
                 <ul>
-                    <li>Average hourly chiller (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
-                    <li><a href="/documents/components/constant-speed-constant-volume-pump-motor">Average hourly pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</a></li>
+                    <li>Average hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
+                    <li><a href="/documents/components/constant-speed-constant-volume-pump-motor">Average hourly pump motor</a> <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
                 </ul>
             </td>
             <td>

@@ -113,7 +113,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
             <td>
                 <ul>
                     <li>Average hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
-                    <li>Average <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h at coils</li>
+                    <li>Average Btu/h at coils</li>
                 </ul>
             </td>
             <td>
@@ -175,7 +175,7 @@ The energy consumption in an air handling plant is the sum of the energy used by
                 Induction Unit
             </td>
             <td>
-                Average <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h at coils
+                <p>Average Btu/h at coils</p>
             </td>
             <td>
                 Heating coil
