@@ -79,23 +79,23 @@ The steam distribution system distributes heat energy, with losses to the non-co
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Vacuum pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - if present</p>
+                Vacuum pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - if present
             </td>
             <td>
                 <ul>
@@ -104,7 +104,7 @@ The steam distribution system distributes heat energy, with losses to the non-co
                 </ul>
             </td>
             <td>
-                <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Pump Motor</a></p>
+                <a href="/documents/components/constant-speed-constant-volume-pump-motor">Pump Motor</a>
             </td>
             <td>
                 <ul>

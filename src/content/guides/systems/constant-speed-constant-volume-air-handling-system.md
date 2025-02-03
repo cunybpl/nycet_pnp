@@ -49,43 +49,43 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Air handling unit electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Air handling unit electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
-                <p>Average hourly fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Average hourly fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
-                <p><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></p>
+                <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/true-rms-power">Spot measurements of true RMS power</a></p>
+                <a href="/documents/measurement-technique/true-rms-power">Spot measurements of true RMS power</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Heating/cooling load on building (Btu/h)</p>
+                Heating/cooling load on building (Btu/h)
             </td>
             <td>
-                <p>Average hourly thermal load of heating/cooling coils (Btuh)</p>
+                Average hourly thermal load of heating/cooling coils (Btuh)
             </td>
             <td>
-                <p>Heating/cooling coils</p>
+                Heating/cooling coils
             </td>
             <td>
                 <ul>

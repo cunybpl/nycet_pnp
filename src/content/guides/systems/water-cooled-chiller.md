@@ -61,30 +61,30 @@ The primary energy consumption in a water-cooled chiller is the electricity used
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Component to be Measured</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Component to be Measured
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>
-                <p>Constant-speed water-cooled chiller power draw</p>
+                Constant-speed water-cooled chiller power draw
             </td>
             <td>
-                <p>Average hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> and annual operating time for the chiller</p>
+                Average hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> and annual operating time for the chiller
             </td>
             <td>
-                <p>Constant-speed compressor motor and controls</p>
+                Constant-speed compressor motor and controls
             </td>
             <td>
                 <ul>
@@ -95,13 +95,13 @@ The primary energy consumption in a water-cooled chiller is the electricity used
         </tr>
         <tr>
             <td>
-                <p>Variable-speed water-cooled chiller power draw</p>
+                Variable-speed water-cooled chiller power draw
             </td>
             <td>
-                <p>Hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> and annual operating time for the chiller</p>
+                Hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> and annual operating time for the chiller
             </td>
             <td>
-                <p>Variable-speed compressor motor and its controls</p>
+                Variable-speed compressor motor and its controls
             </td>
             <td>
                 <ul>
@@ -112,49 +112,49 @@ The primary energy consumption in a water-cooled chiller is the electricity used
         </tr>
         <tr>
             <td rowspan="4" style="vertical-align:middle; border-bottom:none;">
-                <p>Cooling load on building/Heat rejected to the outdoors</p>
+                Cooling load on building/Heat rejected to the outdoors
             </td>
             <td>
-                <p>Hourly chilled water temperature difference across evaporator (F)</p>
+                Hourly chilled water temperature difference across evaporator (F)
             </td>
             <td>
-                <p>Evaporator</p>
+                Evaporator
             </td>
             <td>
-                <p>Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller evaporator</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Hourly condenser water temperature difference across condenser (F)</p>
-            </td>
-            <td>
-                <p>Condenser</p>
-            </td>
-            <td>
-                <p>Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller condenser.</p>
+                Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller evaporator
             </td>
         </tr>
         <tr>
             <td>
-                <p>Hourly chilled water flow rate (GPM)</p>
+                Hourly condenser water temperature difference across condenser (F)
             </td>
             <td>
-                <p>Chilled <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a></p>
+                Condenser
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of chilled water flow rate</a></p>
+                Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller condenser.
             </td>
         </tr>
         <tr>
             <td>
-                <p>Hourly condenser water flow rate (GPM)</p>
+                Hourly chilled water flow rate (GPM)
             </td>
             <td>
-                <p>Condenser <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a></p>
+                Chilled <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate</a></p>
+                <a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of chilled water flow rate</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hourly condenser water flow rate (GPM)
+            </td>
+            <td>
+                Condenser <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a>
+            </td>
+            <td>
+                <a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate</a>
             </td>
         </tr>
     </tbody>

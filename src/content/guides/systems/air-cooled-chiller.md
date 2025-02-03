@@ -55,23 +55,23 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Air-cooled chiller electricty usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Air-cooled chiller electricty usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>
@@ -82,43 +82,42 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
             <td>
                 <ul>
                     <li>Condenser fan motor</li> 
-                    <li>Compressor motor and its controls</p>
+                    <li>Compressor motor and its controls</li>
                 </ul>
             </td>
             <td>
                 <ul>
                     <li><a href="/documents/measurement-technique/electrical-spot-measurement">Hourly  measurements of true RMS</a></li>
                     <li>Annual operating hours</li> 
-                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></p>
+                    <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Cooling load on building/Heat rejected to the outdoors</p>
+                Cooling load on building/Heat rejected to the outdoors
             </td>
             <td>
-                <p>Average hourly chilled water flow rate (GPM)</p>
+                Average hourly chilled water flow rate (GPM)
             </td>
             <td>
-                <p>Chilled <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a></p>
+                Chilled <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of chilled water flow rate</a></p>
+                <a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of chilled water flow rate</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p></p>
             </td>
             <td>
-                <p>Average hourly chilled water temperature difference across evaporator (F)</p>
+                Average hourly chilled water temperature difference across evaporator (F)
             </td>
             <td>
-                <p>Evaporator</p>
+                Evaporator
             </td>
             <td>
-                <p>Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller evaporator</p>
+                Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller evaporator
             </td>
         </tr>
     </tbody>

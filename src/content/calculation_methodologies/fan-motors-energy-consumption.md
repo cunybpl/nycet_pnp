@@ -30,15 +30,15 @@ The type of data that is measured from the fan motor will determine the calculat
     <caption>Table 1. Fan motor energy calculators</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Calculator (Downloadable Files)</strong></p>
-            </td>
-            <td width="50%">
-                <p><strong>Description</strong></p>
-            </td>
-            <td>
-                <p><strong>Required Data To Use This Calculator</strong></p>
-            </td>
+            <th>
+                Calculator (Downloadable Files)
+            </th>
+            <th width="50%">
+                Description
+            </th>
+            <th>
+                Required Data To Use This Calculator
+            </th>
         </tr>
     <tbody>
         <tr>
@@ -64,16 +64,16 @@ The type of data that is measured from the fan motor will determine the calculat
             </td>
             <td>
                 <ul>
-                    <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power (kW)</li></a>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS power (kW)</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p><a href="/downloadables/cscv_fan_two_speed_current_data_calculator_2023_0320.xlsx" download>Constant One of Two Speed Fan Energy Using Electrical Current Data.xlsx</a></p>
+                <a href="/downloadables/cscv_fan_two_speed_current_data_calculator_2023_0320.xlsx" download>Constant One of Two Speed Fan Energy Using Electrical Current Data.xlsx</a>
             </td>
             <td>
-                <p>Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>
+                Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
             </td>
             <td>
                 <ul>
@@ -92,16 +92,16 @@ The type of data that is measured from the fan motor will determine the calculat
             <td>
                 <ul>
                     <li>Hourly motor speed (RPM)</li>
-                    <a href="/documents/measurement-technique/true-rms-power"><li>One-time measurement of true RMS power (kW)</li></a>
+                    <li><a href="/documents/measurement-technique/true-rms-power">One-time measurement of true RMS power (kW)</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p><a href="/downloadables/vsvv_fan_kW_data_calculator_2023_0203.xlsx" download>Variable Speed Fan Energy Using kW Data.xlsx</a></p>
+                <a href="/downloadables/vsvv_fan_kW_data_calculator_2023_0203.xlsx" download>Variable Speed Fan Energy Using kW Data.xlsx</a>
             </td>
             <td>
-                <p>Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.</p>
+                Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
             </td>
             <td>
                 <ul>

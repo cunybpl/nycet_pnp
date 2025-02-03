@@ -36,23 +36,23 @@ This methodology works with hourly data only and each measurement is taken at th
     <caption>Table 1. Liquid-to-liquid heat transfer calculator</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Calculator (Downloadable File)</strong></p>
-            </td>
-            <td>
-                <p><strong>Description</strong></p>
-            </td>
-            <td>
-                <p><strong>Required Data To Use This Calculator</strong></p>
-            </td>
+            <th>
+                Calculator (Downloadable File)
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Required Data To Use This Calculator
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p><a href="/downloadables/liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx" download>Liquid-to-liquid Heat-transfer Calculator.xlsx</a></p>
+                <a href="/downloadables/liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx" download>Liquid-to-liquid Heat-transfer Calculator.xlsx</a>
             </td>
             <td>
-                <p>Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.</p>
+                Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.
             </td>
             <td>
                 <ul>
@@ -74,28 +74,26 @@ The following equations are used to calculate the sensible heat transferred by t
     <caption>Table 2. Hourly measured data to calculate heat transfer.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Hourly Measured Values</strong></p>
-            </td>
-            <td>
-                <p><strong></strong></p>
-            </td>
+            <th>
+                Hourly Measured Values
+            </th>
+            <th></th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>$$T_1, T_2, T_3, T_4$$</p>
+                $$T_1, T_2, T_3, T_4$$
             </td>
             <td>
-                <p>Fluid Temperatures (F)</p>
+                Fluid Temperatures (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>$$Q_1$$</p>
+                $$Q_1$$
             </td>
             <td>
-                <p>Fluid 1: Water flow rate (GPM)</p>
+                Fluid 1: Water flow rate (GPM)
             </td>
         </tr>
     </tbody>

@@ -44,92 +44,93 @@ Table 1. Humidity ratio equations for various relative humidity values based on 
 </caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Relative Humidity (%)</strong></p>
-            </td>
-            <td>
-                <p><strong>Humidity Ratio Equation</strong></p>
-            </td>
+            <th>
+                Relative Humidity (%)
+            </th>
+            <th>
+                Humidity Ratio Equation
+            </th>
         </tr>
+    </thead>
     <tbody>
         <tr>
             <td>
-                <p>$10$</p>
+                $10$
             </td>
             <td>
-                <p>$W = 0.0000361T^3 - 0.0020357T^2 + 0.1276984T - 0.5452381$</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>$20$</p>
-            </td>
-            <td>
-                <p>$W = 0.0000750T^3 - 0.0044762T^2 + 0.2739286T - 1.1180952$</p>
+                $W = 0.0000361T^3 - 0.0020357T^2 + 0.1276984T - 0.5452381$
             </td>
         </tr>
         <tr>
             <td>
-                <p>$30$</p>
+                $20$
             </td>
             <td>
-                <p>$W = 0.0001126T^3 - 0.0066310T^2 + 0.4050469T - 1.9071429$</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>$40$</p>
-            </td>
-            <td>
-                <p>$W = 0.0001530T^3 - 0.0091548T^2 + 0.5507684T - 2.6595238$</p>
+                $W = 0.0000750T^3 - 0.0044762T^2 + 0.2739286T - 1.1180952$
             </td>
         </tr>
         <tr>
             <td>
-                <p>$50$</p>
+                $30$
             </td>
             <td>
-                <p>$W = 0.0001970T^3 - 0.0121548T^2 + 0.7163745T - 3.6595238$</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>$60$</p>
-            </td>
-            <td>
-                <p>$W = 0.0002407T^3 - 0.0151310T^2 + 0.8841486T - 4.7119048$</p>
+                $W = 0.0001126T^3 - 0.0066310T^2 + 0.4050469T - 1.9071429$
             </td>
         </tr>
         <tr>
             <td>
-                <p>$70$</p>
+                $40$
             </td>
             <td>
-                <p>$W = 0.0002826T^3 - 0.0176905T^2 + 1.0265043T - 5.3857143$</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>$80$</p>
-            </td>
-            <td>
-                <p>$W = 0.0003303T^3 - 0.0211429T^2 + 1.2117316T - 6.6047619$</p>
+                $W = 0.0001530T^3 - 0.0091548T^2 + 0.5507684T - 2.6595238$</p>
             </td>
         </tr>
         <tr>
             <td>
-                <p>$90$</p>
+                $50$
             </td>
             <td>
-                <p>$W = 0.0003785T^3 - 0.0245833T^2 + 1.3932179T - 7.7880952$</p>
+                $W = 0.0001970T^3 - 0.0121548T^2 + 0.7163745T - 3.6595238$
             </td>
         </tr>
         <tr>
             <td>
-                <p>$100$</p>
+                $60$
             </td>
             <td>
-                <p>$W = 0.0004270T^3 - 0.0280000T^2 + 1.5725361T - 8.9380952$</p>
+                $W = 0.0002407T^3 - 0.0151310T^2 + 0.8841486T - 4.7119048$
+            </td>
+        </tr>
+        <tr>
+            <td>
+                $70$
+            </td>
+            <td>
+                $W = 0.0002826T^3 - 0.0176905T^2 + 1.0265043T - 5.3857143$
+            </td>
+        </tr>
+        <tr>
+            <td>
+                $80$
+            </td>
+            <td>
+                $W = 0.0003303T^3 - 0.0211429T^2 + 1.2117316T - 6.6047619$
+            </td>
+        </tr>
+        <tr>
+            <td>
+                $90$
+            </td>
+            <td>
+                $W = 0.0003785T^3 - 0.0245833T^2 + 1.3932179T - 7.7880952$
+            </td>
+        </tr>
+        <tr>
+            <td>
+                $100$
+            </td>
+            <td>
+                $W = 0.0004270T^3 - 0.0280000T^2 + 1.5725361T - 8.9380952$
             </td>
         </tr>
     </tbody>
@@ -151,23 +152,24 @@ Section A.3 describes how to calculate the electrical energy consumption of the 
     <caption>Table 2. Air-to-air heat transfer calculator</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Calculator (Downloadable File)</strong></p>
-            </td>
-            <td>
-                <p><strong>Description</strong></p>
-            </td>
-            <td>
-                <p><strong>Required Data To Use This Calculator</strong></p>
-            </td>
+            <th>
+                Calculator (Downloadable File)
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Required Data To Use This Calculator
+            </th>
         </tr>
+    </thead>
     <tbody>
         <tr>
             <td>
                 <a href="/downloadables/air_to_air_heat_transfer_calculator_2023_0706.xlsx" download>Air-to-air Heat-exchanger Heat-transfer Calculator.xlsx</a>
             </td>
             <td>
-                <p>Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.</p>
+                Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.
             </td>
             <td>
                 <ul>

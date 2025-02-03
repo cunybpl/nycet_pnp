@@ -25,61 +25,61 @@ Table 1 shows the plant and system configurations that may contain an air-to-air
     <caption>Table 1. Plants and systems applicable to air-to-air heat exchanger.</caption>
     <thead>
         <tr>
-            <td width="21.964285714285715%">
-                <p><strong>Plant</strong></p>
-            </td>
-            <td width="24.285714285714285%">
-                <p><strong>System</strong></p>
-            </td>
-            <td width="26.964285714285715%">
-                <p><strong>Component</strong></p>
-            </td>
-            <td width="26.785714285714285%">
-                <p><strong>Controlling Variable</strong></p>
-            </td>
+            <th width="21.964285714285715%">
+                Plant
+            </th>
+            <th width="24.285714285714285%">
+                System
+            </th>
+            <th width="26.964285714285715%">
+                Component
+            </th>
+            <th width="26.785714285714285%">
+                Controlling Variable
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td class="fr-cell-handler " style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                <p>Air Handling Plant</p>
+                Air Handling Plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
-                <p>AHU with Heat Recovery Unit</p>
+                AHU with Heat Recovery Unit
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                <p>Fixed plate heat exchanger</p>
+                Fixed plate heat exchanger
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                <p>Air Handling Plant</p>
+                Air Handling Plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
-                <p>AHU with Heat Recovery Unit</p>
+                AHU with Heat Recovery Unit
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                <p>Rotary wheel heat exchanger</p>
+                Rotary wheel heat exchanger
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                <p>Air Handling Plant</p>
+                Air Handling Plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
-                <p>A dedicated outdoor air system (DOAS)</p>
+                A dedicated outdoor air system (DOAS)
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                <p>Fixed plate or rotary wheel heat exchanger</p>
+                Fixed plate or rotary wheel heat exchanger
             </td>
             <td class="fr-cell-fixed " style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
     </tbody>
@@ -95,24 +95,24 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
     <caption>Table 2. Key values and measurements to evaluate heat transfer.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Component Quantification</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement&nbsp;</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Component Quantification
+            </th>
+            <th width="33.333333333333336%">
+                Values to be Quantified
+            </th>
+            <th width="33.333333333333336%">
+                Measurement&nbsp;
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td width="33.333333333333336%">
-                <p>Energy recovered by the heat exchanger</p>
+                Energy recovered by the heat exchanger
             </td>
             <td width="33.333333333333336%">
-                <p>Hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h transferred to the outdoor air entering the system&nbsp;</p>
+                Hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>/h transferred to the outdoor air entering the system&nbsp;
             </td>
             <td width="33.333333333333336%">
                 <ul>
@@ -124,13 +124,13 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
         </tr>
         <tr>
             <td width="33.333333333333336%">
-                <p>Heat recovery system electricity consumption (if applicable)</p>
+                Heat recovery system electricity consumption (if applicable)
             </td>
             <td width="33.333333333333336%">
-                <p>Average hourly motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> (for rotary wheel heat exchangers)</p>
+                Average hourly motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> (for rotary wheel heat exchangers)
             </td>
             <td width="33.333333333333336%">
-                <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> of the motor that drives the rotary fan (kW)</p>
+                Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> of the motor that drives the rotary fan (kW)
             </td>
         </tr>
     </tbody>
@@ -168,15 +168,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Equipment</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Description</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement (Units)</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Equipment
+            </th>
+            <th width="33.333333333333336%">
+                Description
+            </th>
+            <th width="33.333333333333336%">
+                Measurement (Units)
+            </th>
         </tr>
     </thead>
     <tbody>

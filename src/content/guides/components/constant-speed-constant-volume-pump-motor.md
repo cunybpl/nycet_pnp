@@ -33,128 +33,128 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
     <caption>Table 1. Plants and systems applicable to CSCV pumps and motors.</caption>
     <thead>
         <tr>
-            <td width="30.073349633251834%">
-                <p><strong>Plant</strong></p>
-            </td>
-            <td width="33.251833740831295%">
-                <p><strong>System</strong></p>
-            </td>
-            <td width="36.67481662591687%">
-                <p><strong>Component</strong></p>
-            </td>
+            <th width="30.073349633251834%">
+                Plant
+            </th>
+            <th width="33.251833740831295%">
+                System
+            </th>
+            <th width="36.67481662591687%">
+                Component
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td class="fr-cell-handler " style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Air-cooled chilled water plant</p>
+                Air-cooled chilled water plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Chilled water loop</p>
+                Chilled water loop
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Primary chilled water pump</p>
+                Primary chilled water pump
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Water-cooled chilled water plant</p>
+                Water-cooled chilled water plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Condenser water loop</p>
+                Condenser water loop
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Condenser water pump</p>
+                Condenser water pump
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Water-cooled chilled water plant</p>
+                Water-cooled chilled water plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Chilled water loop</p>
+                Chilled water loop
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Primary chilled water pump</p>
+                Primary chilled water pump
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Water-cooled chilled water plant</p>
+                Water-cooled chilled water plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Chilled water loop</p>
+                Chilled water loop
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Secondary chilled water pump</p>
+                Secondary chilled water pump
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Water-cooled chilled water plant</p>
+                Water-cooled chilled water plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Waterside economizer</p>
+                Waterside economizer
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Waterside economizer pump (if present)</p>
+                Waterside economizer pump (if present)
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Hot water plant</p>
+                Hot water plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Hot water boiler</p>
+                Hot water boiler
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Makeup water pump</p>
+                Makeup water pump
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Hot water plant</p>
+                Hot water plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Hot water loop</p>
+                Hot water loop
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Building loop pump</p>
+                Building loop pump
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Steam plant</p>
+                Steam plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Steam boiler</p>
+                Steam boiler
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Makeup water pump</p>
+                Makeup water pump
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Steam plant</p>
+                Steam plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Feedwater tank</p>
+                Feedwater tank
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
-                <p>Feedwater pump</p>
+                Feedwater pump
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
-                <p>Service water plant</p>
+                Service water plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
-                <p>Service hot water loop</p>
+                Service hot water loop
             </td>
             <td class="fr-cell-fixed " style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
                 <ul>
-                <li>Service hot water</li> 
-                <li>Recirculation pump</li>
+                    <li>Service hot water</li> 
+                    <li>Recirculation pump</li>
                 </ul>
             </td>
         </tr>
@@ -171,21 +171,21 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
     <caption>Table 2. Key values and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td width="28.571428571428573%">
-                <p><strong>Component Quantification</strong></p>
-            </td>
-            <td width="34.76764199655766%">
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td width="36.660929432013766%">
-                <p><strong>Measurement&nbsp;</strong></p>
-            </td>
+            <th width="28.571428571428573%">
+                Component Quantification
+            </th>
+            <th width="34.76764199655766%">
+                Values to be Quantified
+            </th>
+            <th width="36.660929432013766%">
+                Measurement&nbsp;
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td class="fr-cell-handler " style="vertical-align: top;" width="28.571428571428573%" height="17">
-                <p>Electricity usage of a CSCV pump motor</p>
+                Electricity usage of a CSCV pump motor
             </td>
             <td style="vertical-align: top;" width="34.76764199655766%">
                 <ul>
@@ -195,7 +195,7 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
             </td>
             <td style="vertical-align: top;" width="36.660929432013766%">
                 <ul>
-                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>True RMS power of pump motor that drives the pump (kW)</li></a>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">True RMS power of pump motor that drives the pump (kW)</a></li>
                     <a href="/documents/measurement-technique/motor-runtime"><li>Pump motor runtime</li></a>
                 </ul>
             </td>
@@ -224,15 +224,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Equipment</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Description</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement (Units)</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Equipment
+            </th>
+            <th width="33.333333333333336%">
+                Description
+            </th>
+            <th width="33.333333333333336%">
+                Measurement (Units)
+            </th>
         </tr>
     </thead>
     <tbody>

@@ -33,158 +33,158 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
     <caption>Table 1. Plants and systems containing variable-speed, variable-volume pumps</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Plant</strong></p>
-            </td>
-            <td>
-                <p><strong>System</strong></p>
-            </td>
-            <td>
-                <p><strong>Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Controlling Variable</strong></p>
-            </td>
+            <th>
+                Plant
+            </th>
+            <th>
+                System
+            </th>
+            <th>
+                Component
+            </th>
+            <th>
+                Controlling Variable
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Air-cooled chilled water plant</p>
+                Air-cooled chilled water plant
             </td>
             <td>
-                <p>Chilled water loop</p>
+                Chilled water loop
             </td>
             <td>
-                <p>Primary chilled water pump</p>
+                Primary chilled water pump
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Water-cooled chilled water plant</p>
-            </td>
-            <td>
-                <p>Condenser water loop</p>
-            </td>
-            <td>
-                <p>Condenser water pump</p>
-            </td>
-            <td>
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Water-cooled chilled water plant</p>
+                Water-cooled chilled water plant
             </td>
             <td>
-                <p>Chilled water loop</p>
+                Condenser water loop
             </td>
             <td>
-                <p>Primary chilled water pump</p>
+                Condenser water pump
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Water-cooled chilled water plant</p>
-            </td>
-            <td>
-                <p>Chilled water loop</p>
-            </td>
-            <td>
-                <p>Secondary chilled water pump</p>
-            </td>
-            <td>
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Water-cooled chilled water plant</p>
+                Water-cooled chilled water plant
             </td>
             <td>
-                <p>Waterside economizer</p>
+                Chilled water loop
             </td>
             <td>
-                <p>Waterside economizer pump (if present)</p>
+                Primary chilled water pump
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Hot water plant</p>
-            </td>
-            <td>
-                <p>Hot water boiler</p>
-            </td>
-            <td>
-                <p>Makeup water pump</p>
-            </td>
-            <td>
-                <p>Outdoor air tempearature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Hot water plant</p>
+                Water-cooled chilled water plant
             </td>
             <td>
-                <p>Hot water loop</p>
+                Chilled water loop
             </td>
             <td>
-                <p>Building Loop Pump</p>
+                Secondary chilled water pump
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Steam plant</p>
-            </td>
-            <td>
-                <p>Steam Boiler</p>
-            </td>
-            <td>
-                <p>Makeup water pump</p>
-            </td>
-            <td>
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Steam plant</p>
+                Water-cooled chilled water plant
             </td>
             <td>
-                <p>Feedwater Tank</p>
+                Waterside economizer
             </td>
             <td>
-                <p>Feedwater pump</p>
+                Waterside economizer pump (if present)
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Service water plant</p>
+                Hot water plant
             </td>
             <td>
-                <p>Service hot water loop</p>
+                Hot water boiler
             </td>
             <td>
-                <p>Service hot water; recirculation pump</p>
+                Makeup water pump
             </td>
             <td>
-                <p>Occupancy schedule: time of day, day of week.</p>
+                Outdoor air tempearature (F)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hot water plant
+            </td>
+            <td>
+                Hot water loop
+            </td>
+            <td>
+                Building Loop Pump
+            </td>
+            <td>
+                Outdoor air temperature (F)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Steam plant
+            </td>
+            <td>
+                Steam Boiler
+            </td>
+            <td>
+                Makeup water pump
+            </td>
+            <td>
+                Outdoor air temperature (F)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Steam plant
+            </td>
+            <td>
+                Feedwater Tank
+            </td>
+            <td>
+                Feedwater pump
+            </td>
+            <td>
+                Outdoor air temperature (F)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Service water plant
+            </td>
+            <td>
+                Service hot water loop
+            </td>
+            <td>
+                Service hot water; recirculation pump
+            </td>
+            <td>
+                Occupancy schedule: time of day, day of week.
             </td>
         </tr>
     </tbody>
@@ -204,20 +204,20 @@ Table 2. Key values and measurements to evaluate energy consumption.[^1]
 </caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Component Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurement</strong></p>
-            </td>
+            <th>
+                Component Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Measurement
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Electricity input to a variable-speed, variable-volume pump motor</p>
+                Electricity input to a variable-speed, variable-volume pump motor
             </td>
             <td>
                 <ul>
@@ -257,15 +257,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Equipment</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Description</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement (Units)</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Equipment
+            </th>
+            <th width="33.333333333333336%">
+                Description
+            </th>
+            <th width="33.333333333333336%">
+                Measurement (Units)
+            </th>
         </tr>
     </thead>
     <tbody>

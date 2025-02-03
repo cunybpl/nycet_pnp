@@ -56,23 +56,23 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Lighting fixture system electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Lighting fixture system electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>
@@ -81,7 +81,7 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
                 </ul>
             </td>
             <td>
-                <p>Light fixtures and automatic controls (if applicable).</p>
+                Light fixtures and automatic controls (if applicable).
             </td>
             <td>
                 <ul>
@@ -92,30 +92,30 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
         </tr>
         <tr>
             <td>
-                <p>Illuminance delivered</p>
+                Illuminance delivered
             </td>
             <td>
-                <p>Lumens</p>
+                Lumens
             </td>
             <td>
-                <p>Light fixtures</p>
+                Light fixtures
             </td>
             <td>
-                <p>Lumens incident on surfaces that require illumination (workstations, walkways, shelving, etc.)</p>
+                Lumens incident on surfaces that require illumination (workstations, walkways, shelving, etc.)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Light quality</p>
+                Light quality
             </td>
             <td>
-                <p>Color rendering index</p>
+                Color rendering index
             </td>
             <td>
-                <p>Lamps</p>
+                Lamps
             </td>
             <td>
-                <p>Color rendering index measurement (speciality equipment)</p>
+                Color rendering index measurement (speciality equipment)
             </td>
         </tr>
     </tbody>

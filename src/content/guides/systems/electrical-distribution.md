@@ -74,23 +74,23 @@ The electrical distribution system does not consume electricity, but it can be a
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Lighting fixture system electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Lighting fixture system electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>
@@ -99,7 +99,7 @@ The electrical distribution system does not consume electricity, but it can be a
                 </ul>
             </td>
             <td>
-                <p>Light fixtures and automatic controls (if applicable).</p>
+                Light fixtures and automatic controls (if applicable).
             </td>
             <td>
                 <ul>

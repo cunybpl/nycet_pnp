@@ -57,20 +57,20 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
     <caption>Table 1. Key values and components to measure to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Plant Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
+            <th>
+                Plant Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Air-cooled chilled water plant electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Air-cooled chilled water plant electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>
@@ -88,13 +88,12 @@ The primary energy consumption of an air-cooled chilled water plant is the sum o
         </tr>
         <tr>
             <td>
-                <p>Cooling load on building/Heat rejected to the outdoors</p>
+                Cooling load on building/Heat rejected to the outdoors
             </td>
             <td>
-                <p>Average hourly thermal load of chiller evaporator (Btu/h)</p>
+                Average hourly thermal load of chiller evaporator (Btu/h)
             </td>
             <td>
-                <p></p>
             </td>
         </tr>
     </tbody>

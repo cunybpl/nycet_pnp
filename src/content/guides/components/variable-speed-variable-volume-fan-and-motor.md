@@ -27,88 +27,88 @@ Table 1 shows the plant and system configurations that may contain variable-spee
     <caption>Table 1. Plants and systems containing variable-speed fans.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Plant</strong></p>
-            </td>
-            <td>
-                <p><strong>System</strong></p>
-            </td>
-            <td>
-                <p><strong>Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Controlling Variable</strong></p>
-            </td>
+            <th>
+                Plant
+            </th>
+            <th>
+                System
+            </th>
+            <th>
+                Component
+            </th>
+            <th>
+                Controlling Variable
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Air-cooled Chilled Water Plant</p>
+                Air-cooled Chilled Water Plant
             </td>
             <td>
-                <p>Air-cooled Chiller</p>
+                Air-cooled Chiller
             </td>
             <td>
-                <p>Condenser Fan</p>
+                Condenser Fan
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Water-cooled Chilled Water Plant</p>
-            </td>
-            <td>
-                <p>Cooling Tower</p>
-            </td>
-            <td>
-                <p>Cooling Tower Fan</p>
-            </td>
-            <td>
-                <p>Wet-bulb temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>AHU</p>
+                Water-cooled Chilled Water Plant
             </td>
             <td>
-                <p>AHUs</p>
+                Cooling Tower
             </td>
             <td>
-                <p>AHU Supply Fan</p>
+                Cooling Tower Fan
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Air Handling Plant</p>
-            </td>
-            <td>
-                <p>AHUs</p>
-            </td>
-            <td>
-                <p>AHU Return Fan</p>
-            </td>
-            <td>
-                <p>Outdoor air temperature (F)</p>
+                Wet-bulb temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Hot Water Heating; Domestic Hot Water; Steam</p>
+                AHU
             </td>
             <td>
-                <p>Boiler</p>
+                AHUs
             </td>
             <td>
-                <p>Burner fan</p>
+                AHU Supply Fan
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Air Handling Plant
+            </td>
+            <td>
+                AHUs
+            </td>
+            <td>
+                AHU Return Fan
+            </td>
+            <td>
+                Outdoor air temperature (F)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hot Water Heating; Domestic Hot Water; Steam
+            </td>
+            <td>
+                Boiler
+            </td>
+            <td>
+                Burner fan
+            </td>
+            <td>
+                Outdoor air temperature (F)
             </td>
         </tr>
     </tbody>
@@ -123,26 +123,26 @@ The primary energy source for a variable-speed fan is the electricity used to ru
     <caption>Table 2. Key values and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Component Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurement</strong></p>
-            </td>
+            <th>
+                Component Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Measurement
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Electricity usage of VSVV fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Electricity usage of VSVV fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
-                <p>Power input to the motor at known speeds (e.g., 30%, 50%, 75%, 100%)</p>
+                Power input to the motor at known speeds (e.g., 30%, 50%, 75%, 100%)
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/true-rms-power">True RMS power</a> of motor that drives the fan (kW)</p>
+                <a href="/documents/measurement-technique/true-rms-power">True RMS power</a> of motor that drives the fan (kW)
             </td>
         </tr>
         <tr>
@@ -152,10 +152,10 @@ Controlling variable, non-weather dependent[^1]
 
 </td>
             <td>
-                <p>Yearly operating schedule</p>
+                Yearly operating schedule
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/motor-runtime">Fan motor runtime (h)</a></p>
+                <a href="/documents/measurement-technique/motor-runtime">Fan motor runtime (h)</a>
             </td>
         </tr>
         <tr>
@@ -165,10 +165,10 @@ Controlling variable, weather dependent[^2]
 
 </td>
             <td>
-                <p>Average hourly outdoor air temperature (OAT)</p>
+                Average hourly outdoor air temperature (OAT)
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (OAT)</a></p>
+                <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (OAT)</a>
             </td>
         </tr>
     </tbody>
@@ -196,15 +196,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Equipment</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Description</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement (Units)</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Equipment
+            </th>
+            <th width="33.333333333333336%">
+                Description
+            </th>
+            <th width="33.333333333333336%">
+                Measurement (Units)
+            </th>
         </tr>
     </thead>
     <tbody>

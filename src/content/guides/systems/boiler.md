@@ -57,29 +57,29 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Boiler energy consumption</p>
+                Boiler energy consumption
             </td>
             <td>
-                <p>Average hourly fuel consumption (Btu/h)</p>
+                Average hourly fuel consumption (Btu/h)
             </td>
             <td>
-                <p>Burner</p>
+                Burner
             </td>
             <td>
                 <ul>
@@ -91,7 +91,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
         </tr>
         <tr>
             <td>
-                <p>Burner fan electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Burner fan electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>
@@ -100,7 +100,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
                 </ul>
             </td>
             <td>
-                <p><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Burner fan motor</a></p>
+                <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Burner fan motor</a>
             </td>
             <td>
                 <ul>

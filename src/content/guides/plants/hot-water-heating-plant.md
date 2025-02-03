@@ -68,31 +68,31 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
     <caption>Table 1. Key values and components to measure to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td style="width: 30%">
-                <p><strong>Plant Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
+            <th style="width: 30%">
+                Plant Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Hot water heating plant fuel consumption (<a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>)</p>
+                Hot water heating plant fuel consumption (<a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>)
             </td>
             <td>
-                <p>Average hourly fuel consumption (Btuh)</p>
+                Average hourly fuel consumption (Btuh)
             </td>
             <td>
-                <p><a href="/documents/systems/boiler">Boiler</a></p>
+                <a href="/documents/systems/boiler">Boiler</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Hot water heating plant electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Hot water heating plant electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>
@@ -109,24 +109,24 @@ The total energy consumption of a HWH plant is the sum of the energy consumption
         </tr>
         <tr>
             <td>
-                <p>Heat load delivered</p>
+                Heat load delivered
             </td>
             <td>
-                <p>Average hourly heat rejected from the hot water loop (Btu/h)</p>
+                Average hourly heat rejected from the hot water loop (Btu/h)
             </td>
             <td>
-                <p>Terminal Units</p>
+                Terminal Units
             </td>
         </tr>
         <tr>
             <td>
-                <p>Heat recovered</p>
+                Heat recovered
             </td>
             <td>
-                <p>Average hourly heat delivered to the make-up water (Btu/h)</p>
+                Average hourly heat delivered to the make-up water (Btu/h)
             </td>
             <td>
-                <p><a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger (if present)</a></p>
+                <a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger (if present)</a>
             </td>
         </tr>
     </tbody>
