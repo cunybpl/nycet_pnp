@@ -5,7 +5,7 @@
     <div class="content align-items-center text-center">
       <div class="col-md-12" >
         <div class="hero_content text-center">
-          <div class="container content-text px-5">{{ .content | markdownify }}</div>
+          <div class="container content-text px-5">{{ .content | markdownify }} {{ partial "sitemap.html" }}</div>
           <div class="hero_content-search-bar">
             <form action="#" class="mb-0" onsubmit="doSearchGuides(guideSearchBarId);return false">
               <input id="guide-search-bar" type="search" placeholder="Search">
