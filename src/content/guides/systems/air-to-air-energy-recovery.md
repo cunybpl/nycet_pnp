@@ -76,30 +76,30 @@ Table 1 provides a summary of the components to measure to arrive at values need
     <caption>Table 1. Key values and measurements to evaluate heat transfer.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Saving Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Saving Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>
-                <p>Heat Recovered</p>
+                Heat Recovered
             </td>
             <td>
-                <p>Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> recovered</p>
+                Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> recovered
             </td>
             <td>
-                <p><a href="/documents/components/air-to-air-heat-exchanger">Heat Exchanger</a></p>
+                <a href="/documents/components/air-to-air-heat-exchanger">Heat Exchanger</a>
             </td>
             <td>
                 <ul>
@@ -111,16 +111,16 @@ Table 1 provides a summary of the components to measure to arrive at values need
         </tr>
         <tr>
             <td>
-                <p>Heat recovery system electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) (if applicable)</p>
+                Heat recovery system electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) (if applicable)
             </td>
             <td>
-                <p>Average hourly fan motor (and rotary wheel motor if applicable) <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
+                Average hourly fan motor (and rotary wheel motor if applicable) <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>
             </td>
             <td>
-                <p><a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motor (and rotary wheel motor if applicable)</a></p>
+                <a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motor (and rotary wheel motor if applicable)</a>
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a></p>
+                <a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a>
             </td>
         </tr>
     </tbody>

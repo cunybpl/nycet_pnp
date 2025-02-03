@@ -32,72 +32,74 @@ The first three methodologies are used when measuring electricity with data logg
     <caption>Table 1. Lighting energy calculators</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Calculator (Downloadable Files)</strong></p>
-            </td>
-            <td>
-                <p><strong>Description</strong></p>
-            </td>
-            <td>
-                <p><strong>Required Data To Use This Calculator</strong></p>
-            </td>
+            <th>
+                Calculator (Downloadable Files)
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Required Data To Use This Calculator
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p><a href="/downloadables/lighting_power_panelboard_2023_0417.xlsx" download>Lighting True RMS Power Output from Electric Panelboard.xlsx</a></p>
+                <a href="/downloadables/lighting_power_panelboard_2023_0417.xlsx" download>Lighting True RMS Power Output from Electric Panelboard.xlsx</a>
             </td>
             <td>
-                <p>Uses the runtime and power of the panelboard to calculate the annual anergy consumption of a lighting electrical distribution system.</p>
+                Uses the runtime and power of the panelboard to calculate the annual anergy consumption of a lighting electrical distribution system.
             </td>
             <td>
                 <ul>
-                    <a href="/documents/measurement-technique/lighting-fixture-runtime"><li>Hourly lighting runtime</li></a> 
+                    <li><a href="/documents/measurement-technique/lighting-fixture-runtime">Hourly lighting runtime</a></li> 
                     <li>Expected fixture wattage</li>
                     <li>Fixture counts</li> 
-                    <a href="/documents/measurement-technique/true-rms-power"><li>True RMS Power (total power draw) (kW)</li></a>
+                    <li><a href="/documents/measurement-technique/true-rms-power">True RMS Power (total power draw) (kW)</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p><a href="/downloadables/lighting_current_panelboard_2023_0816.xlsx" download>Lighting Electrical Current Output from Electric Panelboard.xlsx</a></p>
+                <a href="/downloadables/lighting_current_panelboard_2023_0816.xlsx" download>Lighting Electrical Current Output from Electric Panelboard.xlsx</a>
             </td>
             <td>
-                <p>Uses voltage measurements alongside power, circuit amperage and current from the electrical panelboard to measure the total energy output from the system.</p>
+                Uses voltage measurements alongside power, circuit amperage and current from the electrical panelboard to measure the total energy output from the system.
             </td>
             <td>
                 <ul>
-                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Circuit voltage (V)</li></a> 
-                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Power factor (kW)</li></a> 
-                    <a href="/documents/measurement-technique/electrical-current"><li>Hourly current (amps)</li></a>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Circuit voltage (V)</a></li> 
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Power factor (kW)</a></li> 
+                    <li><a href="/documents/measurement-technique/electrical-current">Hourly current (amps)</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p><a href="/downloadables/lighting_current_circuit_breakers_2023_0818.xlsx" download>Lighting Electrical Current from Circuit Breakers.xlsx</a></p>
+                <a href="/downloadables/lighting_current_circuit_breakers_2023_0818.xlsx" download>Lighting Electrical Current from Circuit Breakers.xlsx</a>
             </td>
             <td>
-                <p>Uses voltage measurements alongside power, circuit amperage and current from circuit breakers to measure the total energy output from the system.</p>
+                Uses voltage measurements alongside power, circuit amperage and current from circuit breakers to measure the total energy output from the system.
             </td>
             <td>
                 <ul>
-                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Circuit voltage (V)</li></a> 
-                    <a href="/documents/measurement-technique/electrical-spot-measurement"><li>Power factor (kW)</li></a> 
-                    <a href="/documents/measurement-technique/electrical-current"><li>Hourly current (amps)</li></a>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Circuit voltage (V)</a></li>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Power factor (kW)</a></li> 
+                    <li><a href="/documents/measurement-technique/electrical-current">Hourly current (amps)</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p><a href="/downloadables/lighting_inventory_schedule_2023_0417.xlsx" download>Lighting Inventory and Operating Schedule.xlsx</a></p>
+                <a href="/downloadables/lighting_inventory_schedule_2023_0417.xlsx" download>Lighting Inventory and Operating Schedule.xlsx</a>
             </td>
             <td>
-                <p>Uses the panel energy use to calculate the operating schedule of the system.</p>
+                Uses the panel energy use to calculate the operating schedule of the system.
             </td>
             <td>
-                <a href="/documents/measurement-technique/electrical-spot-measurement"><p>Lighting Panel Total Energy Use (kW)</p></a>
+                <ul>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Lighting Panel Total Energy Use (kW)</a></li>
+                </ul>
             </td>
         </tr>
     </tbody>

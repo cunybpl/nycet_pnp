@@ -94,31 +94,31 @@ The total energy consumption of a steam plant is the sum of the energy consumpti
     <caption>Table 1. Key values and components to measure to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td style="width: 26%">
-                <p><strong>Plant Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
+            <th style="width: 26%">
+                Plant Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Steam boiler plant fuel consumption (<a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>)</p>
+                Steam boiler plant fuel consumption (<a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a>)
             </td>
             <td>
-                <p>Average hourly fuel consumption (Btu/h)</p>
+                Average hourly fuel consumption (Btu/h)
             </td>
             <td>
-                <p><a href="/documents/systems/boiler">Boiler</a></p>
+                <a href="/documents/systems/boiler">Boiler</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Steam plant electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Steam plant electricity consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>

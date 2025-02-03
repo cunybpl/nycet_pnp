@@ -40,15 +40,15 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
     <caption>Table 1. Cooling tower (CT) fans energy calculators.</caption>
     <thead>
         <tr>
-            <td>
-                <strong>Calculator (Downloadable Files)</strong>
-            </td>
-            <td>
-                <strong>Description</strong>
-            </td>
-            <td>
-                <strong>Required Data To Use This Calculator</strong>
-            </td>
+            <th>
+                Calculator (Downloadable Files)
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Required Data To Use This Calculator
+            </th>
         </tr>
     <tbody>
         <tr>
@@ -60,10 +60,10 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
             </td>
             <td>
                 <ul>
-                <a href="/documents/measurement-technique/motor-runtime"><li>Hourly motor runtime (seconds)</li></a> 
-                <a href="/documents/measurement-technique/true-rms-power"><li>One-time true RMS power (kW)</li></a> 
-                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Hourly Outdoor air temperature (F)</li></a> 
-                <a href="/documents/measurement-technique/relative-humidity"><li>Hourly Relative humidity (%)</li></a>
+                <li><a href="/documents/measurement-technique/motor-runtime">Hourly motor runtime (seconds)</a></li>
+                <li><a href="/documents/measurement-technique/true-rms-power">One-time true RMS power (kW)</a></li> 
+                <li><a href="/documents/measurement-technique/outdoor-air-temperature">Hourly Outdoor air temperature (F)</a></li>
+                <li><a href="/documents/measurement-technique/relative-humidity">Hourly Relative humidity (%)</a></li>
                 </ul>
             </td>
         </tr>
@@ -76,9 +76,9 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
             </td>
             <td>
                 <ul>
-                    <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power (kW)</li></a>
-                    <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Hourly Outdoor air temperature (F)</li></a>
-                    <a href="/documents/measurement-technique/relative-humidity"><li>Hourly Relative Humidity (%)</li></a>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS power (kW)</a></li>
+                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Hourly Outdoor air temperature (F)</a></li>
+                    <li><a href="/documents/measurement-technique/relative-humidity">Hourly Relative Humidity (%)</a></li>
                 </ul>
             </td>
         </tr>
@@ -91,10 +91,10 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
             </td>
             <td>
                 <ul>
-                <a href="/documents/measurement-technique/electrical-current"><li>Hourly current (Amps)</li></a> 
-                <a href="/documents/measurement-technique/true-rms-power"><li>One-time true RMS power (kW) at different fan speeds</li></a>
-                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Hourly Outdoor air temperature (F)</li></a> 
-                <a href="/documents/measurement-technique/relative-humidity"><li>Hourly Relative humidity (%)</li></a>
+                <li><a href="/documents/measurement-technique/electrical-current">Hourly current (Amps)</a></li> 
+                <li><a href="/documents/measurement-technique/true-rms-power">One-time true RMS power (kW) at different fan speeds</a></li>
+                <li><a href="/documents/measurement-technique/outdoor-air-temperature">Hourly Outdoor air temperature (F)</a></li> 
+                <li><a href="/documents/measurement-technique/relative-humidity">Hourly Relative humidity (%)</a></li>
                 </ul>
             </td>
         </tr>
@@ -107,9 +107,9 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
             </td>
             <td>
                 <ul>
-                <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power (kW)</li></a> 
-                <a href="/documents/measurement-technique/outdoor-air-temperature"><li>Hourly Outdoor air temperature (F)</li></a>
-                <a href="/documents/measurement-technique/relative-humidity"><li>Hourly Relative humidity (%)</li></a>
+                <li><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS power (kW)</a></li>
+                <li><a href="/documents/measurement-technique/outdoor-air-temperature">Hourly Outdoor air temperature (F)</a></li>
+                <li><a href="/documents/measurement-technique/relative-humidity">Hourly Relative humidity (%)</a></li>
                 <ul>
             </td>
         </tr>

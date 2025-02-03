@@ -91,23 +91,23 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Component to be Measured</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Component to be Measured
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Primary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system</p>
+                Primary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system
             </td>
             <td>
                 <ul>
@@ -116,7 +116,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 </ul>
             </td>
             <td>
-                <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a></p>
+                <a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a>
             </td>
             <td>
                 <ul>
@@ -127,7 +127,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
         </tr>
         <tr>
             <td>
-                <p>Primary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system</p>
+                Primary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system
             </td>
             <td>
                 <ul>
@@ -137,7 +137,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 </ul>
             </td>
             <td>
-                <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
+                <a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a>
             </td>
             <td>
                 <ul>
@@ -148,7 +148,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
         </tr>
         <tr>
             <td>
-                <p>Secondary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system (if present)</p>
+                Secondary HWH loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system (if present)
             </td>
             <td>
                 <ul>
@@ -158,7 +158,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
                 </ul>
             </td>
             <td>
-                <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
+                <a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a>
             </td>
             <td>
                 <ul>
@@ -169,27 +169,25 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
         </tr>
         <tr>
             <td>
-                <p>Primary HWH loop water flow – constant speed system</p>
+                Primary HWH loop water flow – constant speed system
             </td>
             <td>
-                <p>Average hourly water flow (GPM) through a pump</p>
+                Average hourly water flow (GPM) through a pump
+            </td>
+            <td>      
             </td>
             <td>
-                <p></p>
-            </td>
-            <td>
-                <p><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of water flow rate</a></p>
+                <a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of water flow rate</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Terminal units – heating load delivered</p>
+                Terminal units – heating load delivered
             </td>
             <td>
-                <p>Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> rejected from the hot water loop</p>
+                Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> rejected from the hot water loop
             </td>
-            <td>
-                <p></p>
+            <td>      
             </td>
             <td>
                 <ul>

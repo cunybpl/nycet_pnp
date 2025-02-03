@@ -53,29 +53,29 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>AHU power consumption</p>
+                AHU power consumption
             </td>
             <td>
-                <p>Hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
+                Hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>
             </td>
             <td>
-                <p><a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motors</a> and associated VFDs</p>
+                <a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motors</a> and associated VFDs
             </td>
             <td>
                 <ul>
@@ -86,58 +86,58 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
         </tr>
         <tr>
             <td>
-                <p>AHU heating/cooling load on building</p>
+                AHU heating/cooling load on building
             </td>
             <td>
-                <p>Hourly thermal load of heating/cooling coils (Btuh)</p>
+                Hourly thermal load of heating/cooling coils (Btuh)
             </td>
             <td>
-                <p>Heating/cooling coils</p>
+                Heating/cooling coils
             </td>
             <td>
-                <p>Airflow rate and temperature difference across the heating/cooling coil</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>VAV box consumption (if applicable)</p>
-            </td>
-            <td>
-                <p>Hourly reheat <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
-            </td>
-            <td>
-                <p>Electric reheat coil (if present)</p>
-            </td>
-            <td>
-                <p><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS energy</a></p>
+                Airflow rate and temperature difference across the heating/cooling coil
             </td>
         </tr>
         <tr>
             <td>
-                <p>VAV box consumption (if applicable)</p>
+                VAV box consumption (if applicable)
             </td>
             <td>
-                <p>Hourly thermal load reheat coils (Btuh)</p>
+                Hourly reheat <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>
             </td>
             <td>
-                <p>Hot water or steam reheat coil</p>
+                Electric reheat coil (if present)
             </td>
             <td>
-                <p>Airflow rate and temperature difference across the heating/cooling coil</p>
+                <a href="/documents/measurement-technique/true-rms-power">Hourly true RMS energy</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>VAV box consumption (if applicable)</p>
+                VAV box consumption (if applicable)
             </td>
             <td>
-                <p>Hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></p>
+                Hourly thermal load reheat coils (Btuh)
             </td>
             <td>
-                <p><a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motor</a> (if present)</p>
+                Hot water or steam reheat coil
             </td>
             <td>
-                <p><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS energy</a></p>
+                Airflow rate and temperature difference across the heating/cooling coil
+            </td>
+        </tr>
+        <tr>
+            <td>
+                VAV box consumption (if applicable)
+            </td>
+            <td>
+                Hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>
+            </td>
+            <td>
+                <a href="/documents/components/variable-speed-variable-volume-fan-and-motor">Fan motor</a> (if present)
+            </td>
+            <td>
+                <a href="/documents/measurement-technique/true-rms-power">Hourly true RMS energy</a>
             </td>
         </tr>
     </tbody>

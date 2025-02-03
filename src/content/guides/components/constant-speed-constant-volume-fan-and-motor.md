@@ -27,74 +27,74 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
     <caption>Table 1. Plants and systems containing constant-speed, constant-volume fans.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Plant</strong></p>
-            </td>
-            <td>
-                <p><strong>System</strong></p>
-            </td>
-            <td>
-                <p><strong>Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Controlling Variable</strong></p>
-            </td>
+            <th>
+                Plant
+            </th>
+            <th>
+                System
+            </th>
+            <th>
+                Component
+            </th>
+            <th>
+                Controlling Variable
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Air-cooled Chilled Water Plant</p>
+                Air-cooled Chilled Water Plant
             </td>
             <td>
-                <p>Air-cooled Chiller</p>
+                Air-cooled Chiller
             </td>
             <td>
-                <p>Condenser Fan</p>
+                Condenser Fan
             </td>
             <td>
-                <p>Outdoor air temperature (F)</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Water-cooled Chilled Water Plant</p>
-            </td>
-            <td>
-                <p>Cooling Tower</p>
-            </td>
-            <td>
-                <p>Cooling Tower Fan</p>
-            </td>
-            <td>
-                <p>Wet-bulb temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Air Handling Unit</p>
+                Water-cooled Chilled Water Plant
             </td>
             <td>
-                <p>AHUs</p>
+                Cooling Tower
             </td>
             <td>
-                <p>AHU Supply Fan</p>
+                Cooling Tower Fan
             </td>
             <td>
-                <p>Motor schedule and/or Outdoor air temperature (F)</p>
+                Wet-bulb temperature (F)
             </td>
         </tr>
         <tr>
             <td>
-                <p>Air Handling Unit</p>
+                Air Handling Unit
             </td>
             <td>
-                <p>AHUs</p>
+                AHUs
             </td>
             <td>
-                <p>AHU Return Fan</p>
+                AHU Supply Fan
             </td>
             <td>
-                <p>Motor schedule and/or Outdoor air temperature (F)</p>
+                Motor schedule and/or Outdoor air temperature (F)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Air Handling Unit
+            </td>
+            <td>
+                AHUs
+            </td>
+            <td>
+                AHU Return Fan
+            </td>
+            <td>
+                Motor schedule and/or Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
@@ -106,13 +106,13 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
                 </ul>
             </td>
             <td>
-                <p>Boiler</p>
+                Boiler
             </td>
             <td>
-                <p>Burner fan</p>
+                Burner fan
             </td>
             <td>
-                <p>Motor schedule and/or Outdoor air temperature (F)</p>
+                Motor schedule and/or Outdoor air temperature (F)
             </td>
         </tr>
     </tbody>
@@ -128,45 +128,45 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
     <caption>Table 2. Key values and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td width="30.073349633251834%">
-                <p><strong>Component Quantification</strong></p>
-            </td>
-            <td width="33.251833740831295%">
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td width="36.67481662591687%">
-                <p><strong>Measurement</strong></p>
-            </td>
+            <th width="30.073349633251834%">
+                Component Quantification
+            </th>
+            <th width="33.251833740831295%">
+                Values to be Quantified
+            </th>
+            <th width="36.67481662591687%">
+                Measurement
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p>Electricity usage of CSCV fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Electricity usage of CSCV fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
-                <p>Average hourly true RMS power of the motor</p>
+                Average hourly true RMS power of the motor
             </td>
             <td>
-                <a href="/documents/measurement-technique/true-rms-power"><p>True RMS power of motor that drives the fan (kW)</p></a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>Controlling variable, non-weather dependent</p>
-            </td>
-            <td>
-                <p>Yearly operating schedule</p>
-            </td>
-            <td>
-                <a href="/documents/measurement-technique/motor-runtime"><p>Fan motor runtime (hours)</p></a>
+                <a href="/documents/measurement-technique/true-rms-power">True RMS power of motor that drives the fan (kW)</a>
             </td>
         </tr>
         <tr>
             <td>
-                <p>Controlling variable, weather dependent</p>
+                Controlling variable, non-weather dependent
             </td>
             <td>
-                <p>Average hourly outdoor air temperature (OAT)</p>
+                Yearly operating schedule
+            </td>
+            <td>
+                <a href="/documents/measurement-technique/motor-runtime">Fan motor runtime (hours)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Controlling variable, weather dependent
+            </td>
+            <td>
+                Average hourly outdoor air temperature (OAT)
             </td>
             <td>
                 <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a>
@@ -200,15 +200,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Equipment</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Description</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement (Units)</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Equipment
+            </th>
+            <th width="33.333333333333336%">
+                Description
+            </th>
+            <th width="33.333333333333336%">
+                Measurement (Units)
+            </th>
         </tr>
     </thead>
     <tbody>

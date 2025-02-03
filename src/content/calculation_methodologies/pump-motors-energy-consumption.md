@@ -27,23 +27,23 @@ The type of data that is measured from the pump motor will determine the calcula
     <caption>Table 1. Pump motor energy calculators</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>Calculator (Downloadable Files)</strong></p>
-            </td>
-            <td>
-                <p><strong>Description</strong></p>
-            </td>
-            <td>
-                <p><strong>Required Data To Use This Calculator</strong></p>
-            </td>
+            <th>
+                Calculator (Downloadable Files)
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Required Data To Use This Calculator
+            </th>
         </tr>
     <tbody>
         <tr>
             <td>
-                <p><a href="/downloadables/cscv_pump_runtime_data_calculator_2020_0427.xlsx" download>Constant Speed Pump Energy Using Motor Runtime Data.xlsx</a></p>
+                <a href="/downloadables/cscv_pump_runtime_data_calculator_2020_0427.xlsx" download>Constant Speed Pump Energy Using Motor Runtime Data.xlsx</a>
             </td>
             <td>
-                <p>Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.</p>
+                Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.
             </td>
             <td>
                 <ul>
@@ -61,7 +61,7 @@ The type of data that is measured from the pump motor will determine the calcula
             </td>
             <td>
                 <ul>
-                    <a href="/documents/measurement-technique/true-rms-power"><li>Hourly true RMS power (kW)</li></a>
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly true RMS power (kW)</a></li>
                 </ul>
             </td>
         </tr>
@@ -74,17 +74,17 @@ The type of data that is measured from the pump motor will determine the calcula
             </td>
             <td>
                 <ul>
-                    <a href="/documents/measurement-technique/electrical-current"><li>Hourly electrical current (Amps)</li></a>
-                    <a href="/documents/measurement-technique/true-rms-power"><li>One-time measurement of true RMS power (kW)</li></a>
+                    <li><a href="/documents/measurement-technique/electrical-current">Hourly electrical current (Amps)</a></li>
+                    <li><a href="/documents/measurement-technique/true-rms-power">One-time measurement of true RMS power (kW)</a></li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>
-                <p><a href="/downloadables/vsvv_pump_kW_data_calculator_2020_0427.xlsx" download>Variable Speed Pump Energy Using kW Data.xlsx</a></p>
+                <a href="/downloadables/vsvv_pump_kW_data_calculator_2020_0427.xlsx" download>Variable Speed Pump Energy Using kW Data.xlsx</a>
             </td>
             <td>
-                <p>Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor</p>
+                Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor
             </td>
             <td>
                 <ul>
@@ -103,7 +103,7 @@ The type of data that is measured from the pump motor will determine the calcula
             <td>
                 <ul>
                     <li>Hourly motor speed (RPM)</li>
-                    <a href="/documents/measurement-technique/true-rms-power"><li>One-time measurement of true RMS power (kW)</li></a>
+                    <li><a href="/documents/measurement-technique/true-rms-power">One-time measurement of true RMS power (kW)</a></li>
                 </ul>
             </td>
         </tr>

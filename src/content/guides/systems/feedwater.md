@@ -58,18 +58,18 @@ The primary energy consumption in a feedwater system is the electricity used to 
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <strong>System Quantification</strong>
-            </td>
-            <td>
-                <strong>Values to be Quantified</strong>
-            </td>
-            <td>
-                <strong>Energy Consuming Component</strong>
-            </td>
-            <td>
-                <strong>Measurements</strong>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     <tbody>
         <tr>

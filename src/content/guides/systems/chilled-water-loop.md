@@ -74,24 +74,24 @@ Table 1 provides a summary of system component measurements and values needed to
     <caption>Table 1. Key values, components and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td>
-                <p><strong>System Quantification</strong></p>
-            </td>
-            <td>
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td>
-                <p><strong>Energy Consuming Component</strong></p>
-            </td>
-            <td>
-                <p><strong>Measurements</strong></p>
-            </td>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+            <th>
+                Measurements
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>
-                <p>Primary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system</p>
+                Primary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system
             </td>
             <td ">
                 <ul>
@@ -100,7 +100,7 @@ Table 1 provides a summary of system component measurements and values needed to
                 </ul>
             </td>
             <td>
-                <p><a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a></p>
+                <a href="/documents/components/constant-speed-constant-volume-pump-motor">Constant-speed pump motor</a>
             </td>
             <td>
                 <ul>
@@ -111,7 +111,7 @@ Table 1 provides a summary of system component measurements and values needed to
         </tr>
         <tr>
             <td>
-                <p>Primary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system</p>
+                Primary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system
             </td>
             <td>
                 <ul>
@@ -120,7 +120,7 @@ Table 1 provides a summary of system component measurements and values needed to
                 </ul>
             </td>
             <td>
-                <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
+                <a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a>
             </td>
             <td>
                 <ul>
@@ -130,7 +130,7 @@ Table 1 provides a summary of system component measurements and values needed to
         </tr>
         <tr>
             <td>
-                <p>Secondary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system (if present)</p>
+                Secondary CHW loop pump electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system (if present)
             </td>
             <td>
                 <ul>
@@ -139,7 +139,7 @@ Table 1 provides a summary of system component measurements and values needed to
                 </ul>
             </td>
             <td>
-                <p><a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a></p>
+                <a href="/documents/components/variable-speed-variable-volume-pump-and-motor">Variable-speed pump motor</a>
             </td>
             <td>
                 <ul>
@@ -150,7 +150,7 @@ Table 1 provides a summary of system component measurements and values needed to
         </tr>
         <tr>
             <td>
-                <p>Flow (GPM)</p>
+                Flow (GPM)
             </td>
             <td>
                 <ul>

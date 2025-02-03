@@ -24,15 +24,15 @@ constant speed to raise the vapor pressure of the refrigerant and power the refr
     <caption>Table 1. Plants and systems containing liquid-to-liquid heat exchangers.</caption>
     <thead>
         <tr>
-            <td width="21.964285714285715%">
-                <p><strong>Plant</strong></p>
-            </td>
-            <td width="24.285714285714285%">
-                <p><strong>System</strong></p>
-            </td>
-            <td width="26.964285714285715%">
-                <p><strong>Component</strong></p>
-            </td>
+            <th width="21.964285714285715%">
+                Plant
+            </th>
+            <th width="24.285714285714285%">
+                System
+            </th>
+            <th width="26.964285714285715%">
+                Component
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -71,15 +71,15 @@ The primary energy source for a constant-speed compressor is the electricity use
     <caption>Table 2. Key values and measurements to evaluate energy consumption.</caption>
     <thead>
         <tr>
-            <td width="21.964285714285715%">
-                <p><strong>Component Quantification</strong></p>
-            </td>
-            <td width="24.285714285714285%">
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td width="26.964285714285715%">
-                <p><strong>Measurement</strong></p>
-            </td>
+            <th width="21.964285714285715%">
+                Component Quantification
+            </th>
+            <th width="24.285714285714285%">
+                Values to be Quantified
+            </th>
+            <th width="26.964285714285715%">
+                Measurement
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -124,15 +124,15 @@ A motor on/off data logger is used to record the operating schedule. The true RM
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Equipment</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Description</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement (Units)</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Equipment
+            </th>
+            <th width="33.333333333333336%">
+                Description
+            </th>
+            <th width="33.333333333333336%">
+                Measurement (Units)
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -152,7 +152,7 @@ A motor on/off data logger is used to record the operating schedule. The true RM
                 Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
             </td>
             <td width="33.333333333333336%">
-                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
+                <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
             </td>
         </tr>
         <tr>

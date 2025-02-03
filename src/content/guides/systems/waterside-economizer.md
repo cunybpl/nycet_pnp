@@ -48,28 +48,28 @@ The cooling energy savings are equivalent to the heat rejected through the water
         <thead>
             <tr>
                 <th>
-                    <p><strong>System Quantification</strong></p>
+                    System Quantification
                 </th>
                 <th>
-                    <p><strong>Values to be Quantified</strong></p>
+                    Values to be Quantified
                 </th>
                 <th>
-                    <p><strong>Energy Consuming Components</strong></p>
+                    Energy Consuming Components
                 </th>
                 <th>
-                    <p><strong>Measurements</strong></p>
+                    Measurements
                 </th>
             </tr>
         </thead>
         <tr>
             <td>
-                <p>Waterside economizer heat rejection load</p>
+                Waterside economizer heat rejection load
             </td>
             <td>
                 <p>Hourly Btu/h transferred, differential of temperature for chilled water loop.</p>
             </td>
             <td>
-                <p><a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger</a> of waterside economizer</p>
+                <a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger</a> of waterside economizer
             </td>
             <td>
                 <ul>

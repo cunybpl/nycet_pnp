@@ -25,64 +25,64 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
     <caption>Table 1. Plants and systems containing liquid-to-liquid heat exchangers.</caption>
     <thead>
         <tr>
-            <td width="21.964285714285715%">
-                <p><strong>Plant</strong></p>
-            </td>
-            <td width="24.285714285714285%">
-                <p><strong>System</strong></p>
-            </td>
-            <td width="26.964285714285715%">
-                <p><strong>Component</strong></p>
-            </td>
-            <td width="26.785714285714285%">
-                <p><strong>Controlling Variable</strong></p>
-            </td>
+            <th width="21.964285714285715%">
+                Plant
+            </th>
+            <th width="24.285714285714285%">
+                System
+            </th>
+            <th width="26.964285714285715%">
+                Component
+            </th>
+            <th width="26.785714285714285%">
+                Controlling Variable
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td class="fr-cell-handler " style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                <p>Water-cooled Chilled Water Plant</p>
+                Water-cooled Chilled Water Plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
-                <p>Waterside Economizer</p>
+                Waterside Economizer
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                <p>Liquid-to-liquid heat exchanger</p>
+                Liquid-to-liquid heat exchanger
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>Outdoor air temperature (F)</p>
+                Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                <p>Steam Plant</p>
+                Steam Plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
                 <ul>
-                <li>Blowdown Tank</li> 
-                <li>Heat recovery system</li>
+                    <li>Blowdown Tank</li> 
+                    <li>Heat recovery system</li>
                 </ul>
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                <p>Liquid-to-liquid heat exchanger</p>
+                Liquid-to-liquid heat exchanger
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>Blowdown water temperature (F)</p>
+                Blowdown water temperature (F)
             </td>
         </tr>
         <tr>
             <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                <p>Service Hot Water Plant</p>
+                Service Hot Water Plant
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
-                <p>Service Hot Water Tank</p>
+                Service Hot Water Tank
             </td>
             <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                <p>Liquid-to-liquid heat exchanger</p>
+                Liquid-to-liquid heat exchanger
             </td>
             <td class="fr-cell-fixed " style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                <p>Schedule and occupancy</p>
+                Schedule and occupancy
             </td>
         </tr>
     </tbody>
@@ -101,35 +101,35 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
     <caption>Table 2. Key values and measurements to evaluate heat transfer.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Component Quantification</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Values to be Quantified</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement&nbsp;</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Component Quantification
+            </th>
+            <th width="33.333333333333336%">
+                Values to be Quantified
+            </th>
+            <th width="33.333333333333336%">
+                Measurement&nbsp;
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td width="33.333333333333336%">
-                <p>Heat transferred by the heat exchanger to the supply stream</p>
+                Heat transferred by the heat exchanger to the supply stream
             </td>
             <td width="33.333333333333336%">
                 <p>Average hourly Btu/h transferred</p>
             </td>
             <td width="33.333333333333336%">
                 <ul>
-                <li><a href="/documents/measurement-technique/water-flow-rate">Average hourly flow rate of the supply stream (GPM)</a></li>
-                <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">Temperature of supply stream entering and leaving the heat exchange (F)</a>&nbsp;</li>
+                    <li><a href="/documents/measurement-technique/water-flow-rate">Average hourly flow rate of the supply stream (GPM)</a></li>
+                    <li><a href="/documents/measurement-technique/pipe-surface-water-temperature">Temperature of supply stream entering and leaving the heat exchange (F)</a>&nbsp;</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td width="33.333333333333336%">
-                <p>Heat recovery system electricity consumption (if applicable), non-weather dependent system</p>
+                Heat recovery system electricity consumption (if applicable), non-weather dependent system
             </td>
             <td width="33.333333333333336%">
                 <ul>
@@ -138,7 +138,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 </ul>
             </td>
             <td width="33.333333333333336%">
-                <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
+                Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
         </tr>
         <tr>
@@ -152,27 +152,10 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
                 </ul>
             </td>
             <td width="33.333333333333336%">
-                <p>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power</a> (kW)</p>
-                <a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a>
-            </td>
-        </tr>
-        <tr>
-            <td width="33.333333333333336%">
-                <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg">
-                <figure class="figure">
-                <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5.jpg" class="figure-img img-fluid rounded" alt="">
-                <figcaption class="figure-caption text-left"></figcaption>
-                </figure>
-                </a>
-                DENT ELITEproXC Portable Power Data Logger (EXCUNC)
-                <br></br>
-                DENT 16” RoCoil Flexible Rope Current Transformers (CT-R16-A4-U)
-            </td>
-            <td width="33.333333333333336%">
-                Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
-            </td>
-            <td width="33.333333333333336%">
-                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
+                <ul>
+                    <li>Hourly <a href="/documents/measurement-technique/true-rms-power">true RMS power (kW)</a></li>
+                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></li>
+                </ul>
             </td>
         </tr>
     </tbody>
@@ -199,15 +182,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <td width="33.333333333333336%">
-                <p><strong>Equipment</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Description</strong></p>
-            </td>
-            <td width="33.333333333333336%">
-                <p><strong>Measurement (Units)</strong></p>
-            </td>
+            <th width="33.333333333333336%">
+                Equipment
+            </th>
+            <th width="33.333333333333336%">
+                Description
+            </th>
+            <th width="33.333333333333336%">
+                Measurement (Units)
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -244,7 +227,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files.
             </td>
             <td width="33.333333333333336%">
-                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
+                <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
             </td>
         </tr>
         <tr>
