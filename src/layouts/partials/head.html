@@ -26,12 +26,26 @@
   <!-- <link href="{{ $style.Permalink }}" rel="stylesheet" /> -->
   <!-- <link rel="stylesheet" href="/styles.css"> -->
   <link rel="stylesheet" href="/css/lightbox.css">
+  <link rel="stylesheet" href="/css/animation.css">
 
   {{ "<!-- Custom SCSS -->" | safeHTML }}
   {{ range site.Params.custom_scss }}
   {{ $style := resources.Get . | toCSS | minify }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" media="screen">
   {{ end }}
+  
+  <!-- Cytoscape.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js" integrity="sha512-EY3U1MWdgKx0P1dqTE4inlKz2cpXtWpsR1YUyD855Hs6RL/A0cyvrKh60EpE8wDZ814cTe1KgRK+sG0Rn792vQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <style>
+    #cy {
+      width: 100%;
+      height: 2075px;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
 
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
