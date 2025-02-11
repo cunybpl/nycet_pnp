@@ -2,6 +2,13 @@
     font-family: $font-family-base;
 }
 
+* {
+  -webkit-transition-property: none !important;
+  -moz-transition-property: none !important;
+  -o-transition-property: none !important;
+  transition-property: none !important;
+}
+
 a.text-light,
 a.text-dark {
     // transition: all 0.3s ease;
