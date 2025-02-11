@@ -1,3 +1,6 @@
+/* NOTE: This file is needed to override the SCSS of Hugo theme
+  in cloud environment.
+*/
 * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
