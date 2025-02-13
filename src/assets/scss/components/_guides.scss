@@ -81,19 +81,20 @@
 
 .chip {
   border-radius: 50rem;
-  background-color:$nycet-gray-dark;
-  color: white;
-  font-size: 60%;
+  background-color: rgba(0, 0, 0, 0.12);
+  color: $nycet-gray-darker;
+  font-size: 50%;
   vertical-align: middle;
   display: inline-block;
   margin-left: 14px;
+  text-transform: uppercase;
 }
 
 .content-chip {
-  background-color: #353535;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.12);
+  color: $nycet-gray-darker;
   vertical-align: 2px;
-  font-size: 69%;
+  font-size: 55%;
 }
 
 .content-card-title {

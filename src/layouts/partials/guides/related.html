@@ -3,6 +3,8 @@
 {{ $label := "" }}
 {{ if eq .Params.type "system" }}
   {{ $label = "components" }}
+{{ else if eq .Params.type "soo"}}
+  {{ $label = "components" }}
 {{ else }}
   {{ $label = "systems" }}
 {{ end }}

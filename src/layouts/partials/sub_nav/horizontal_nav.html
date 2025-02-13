@@ -9,13 +9,13 @@
           class="
             {{if eq $index 2 }} middle-nav-item normal-nav-item {{ else }} normal-nav-item {{ end }}
             {{if eq $index 0 }} first-nav-item {{ end }}
-            {{if eq $index 4 }} last-nav-item {{ end }}
+            {{if eq $index 5 }} last-nav-item {{ end }}
             no-gutters
           "
         >
           <button id="{{ $element.name }}" class="tabLink" onclick="displayGuides(event)">
           <!-- Chnage to per tab icon -->
-            {{ $element.icon | safeHTML}}
+            <!-- {{ $element.icon | safeHTML}} -->
             <span>{{ $element.label }}</span>
             <div id="total-{{ $element.name }}-search-result" class="search-result-label ml-3">0</div>
           </button>

@@ -1,13 +1,15 @@
 var PLANTS = "plant";
 var SYSTEMS = "system";
 var COMPONENTS = "component";
-var CALCULATIONS = 'calculation'
-var MEASUREMENTS = 'measurement'
+var CALCULATIONS = "calculation";
+var MEASUREMENTS = "measurement";
+var SOOS = "soo";
 var initialDisplayedPlantGuides = 8;
 var initialDisplayedSystemGuides = 8;
 var initialDisplayedComponentGuides = 8;
 var initialDisplayedCalculations = 8;
 var initialDisplayedMeasurements = 8;
+var initialDisplayedSooGuides = 8;
 
 function filterPlantGuides(searchKeyWord='') {
   let totalPlantGuides = 0;
@@ -274,6 +276,58 @@ function filterMeasurements(searchKeyWord='') {
   displaySearchResults('Measurements')
 }
 
+function filterSooGuides(searchKeyWord='') {
+  let totalSooGuides = 0;
+  let displayedSooGuides = 0;
+  let totalSearchResult = 0;
+  var x, i;
+  x = document.getElementsByClassName("guide-card");
+
+  // This loop is to get the total soo guides
+  for (i = 0; i < x.length; i++) {
+    let type = x[i].id.split("-")[0];
+    if (type == SOOS) totalSooGuides += 1;
+  }
+
+  for (i = 0; i < x.length; i++) {
+    let htmlElementId = x[i].id;
+    let guideType = htmlElementId.split("-")[0];
+
+    if (guideType == SOOS) {
+      displayedSooGuides += 1;
+
+      removeClass(x[i], "show-html-element");
+      let measurementType = getMeasurementTypes(x[i].classList);
+      measurementType = measurementType.map(element => {
+        return cleanKeyword(element)
+      });
+      if (searchKeyWord.length > 0) {
+        searchKeyWord = cleanKeyword(searchKeyWord)
+        const guideTitle = cleanKeyword(getGuideTitle(x[i]).toLowerCase())
+        const guideContent = cleanKeyword(getGuideContent(x[i]).toLowerCase())
+
+        if (measurementType.includes(searchKeyWord)
+            || guideTitle.includes(searchKeyWord)
+            || guideContent.includes(searchKeyWord)) {
+          totalSearchResult += 1;
+          addClass(x[i], "show-html-element")
+        }
+
+        updateSearchResults(SOOS, totalSearchResult)
+      }
+      if (!searchKeyWord 
+          && displayedSooGuides <= initialDisplayedSooGuides) {
+            addClass(x[i], "show-html-element")
+            hideSearchResults()
+            if (displayedSooGuides >= totalSooGuides) {
+              hideLoadMoreButton(SOOS);
+            }
+      };
+    }
+  }
+  displaySearchResults('soos')
+}
+
 /** 
  * Get the guide title
  * 
@@ -326,7 +380,7 @@ function removeClass(element, name) {
 
 /**
  * Facade for performing the search action to guides, measurement techniques,
- * and calculation methodologies.
+ * calculation methodologies and soos.
  * 
  * @param {string} searchBarId HTML element id of the search bar. 
  */
@@ -338,11 +392,12 @@ function doSearchGuides(searchBarId) {
   filterComponentGuides(keyword)
   filterCalculations(keyword)
   filterMeasurements(keyword)
+  filterSooGuides(keyword)
 }
 
 function loadMoreGuides(guideType, incrementBy=6) {
   const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS, 
-    CALCULATIONS, MEASUREMENTS]
+    CALCULATIONS, MEASUREMENTS, SOOS]
 
   if (!expectedGuideTypes.includes(guideType)) return
 
@@ -366,11 +421,15 @@ function loadMoreGuides(guideType, incrementBy=6) {
     initialDisplayedMeasurements += incrementBy;
     filterMeasurements()
   }
+  if (guideType == SOOS) {
+    initialDisplayedSooGuides += incrementBy;
+    filterSooGuides()
+  }
 }
 
 function updateSearchResults(guideType, value) {
   const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS, 
-    CALCULATIONS, MEASUREMENTS]
+    CALCULATIONS, MEASUREMENTS, SOOS]
 
   if (!expectedGuideTypes.includes(guideType)) return
   const searchKeyWord = $('#guide-search-bar').val();
@@ -410,6 +469,13 @@ function updateSearchResults(guideType, value) {
     $('#total-measurements-search-result').show()
     updateGuideHeader(MEASUREMENTS, label)
   }
+  if (guideType == SOOS) {
+    const label = `Search Results: ${value} Sequence of Operations related to "${searchKeyWord}"`
+    
+    $('#total-soos-search-result').text(value)
+    $('#total-soos-search-result').show()
+    updateGuideHeader(SOOS, label)
+  }
   
 }
 
@@ -419,6 +485,7 @@ function hideSearchResults() {
   $('#total-components-search-result').hide()
   $('#total-calculations-search-result').hide()
   $('#total-measurements-search-result').hide()
+  $('#total-soos-search-result').hide()
 }
 
 function hideNoResultGuides() {
@@ -427,6 +494,7 @@ function hideNoResultGuides() {
   $('#no-result-components').hide()
   $('#no-result-calculations').hide()
   $('#no-result-measurements').hide()
+  $('#no-result-soos').hide()
 }
 
 function hideLoadMoreButton(id) {
@@ -439,6 +507,7 @@ function displaySearchResults(guideType) {
   const _COMPONENTS = 'components';
   const _CALCULATIONS = 'calculations'
   const _MEASUREMENTS = 'measurements'
+  const _SOOS = 'soos'
 
   if (guideType == _PLANTS) {
     if ($('#total-plants-search-result').text() == 0 && $('#guide-search-bar').val().length > 0) {
@@ -449,6 +518,7 @@ function displaySearchResults(guideType) {
         $('#no-result-components').hide()
         $('#no-result-measurements').hide();
         $('#no-result-calculations').hide();
+        $('#no-result-soos').hide();
         $('#search-keyword-plants').text($('#guide-search-bar').val())
       } else {
         $('#no-result-plants').hide();
@@ -460,6 +530,7 @@ function displaySearchResults(guideType) {
         $('#no-result-components').hide();
         $('#no-result-measurements').hide();
         $('#no-result-calculations').hide();
+        $('#no-result-soos').hide();
       }
       $('#no-result-plants').hide();
       $('#load-more-plants').hide();
@@ -481,6 +552,7 @@ function displaySearchResults(guideType) {
         $('#no-result-components').hide()
         $('#no-result-measurements').hide();
         $('#no-result-calculations').hide();
+        $('#no-result-soos').hide();
         $('#search-keyword-systems').text($('#guide-search-bar').val())
       } else {
         $('#no-result-systems').hide();
@@ -492,6 +564,7 @@ function displaySearchResults(guideType) {
         $('#no-result-components').hide();
         $('#no-result-measurements').hide();
         $('#no-result-calculations').hide();
+        $('#no-result-soos').hide();
       }
       $('#no-result-systems').hide();
     } else {
@@ -512,6 +585,7 @@ function displaySearchResults(guideType) {
         $('#no-result-systems').hide()
         $('#no-result-measurements').hide();
         $('#no-result-calculations').hide();
+        $('#no-result-soos').hide();
         $('#search-keyword-components').text($('#guide-search-bar').val())
       }
       else {
@@ -524,6 +598,7 @@ function displaySearchResults(guideType) {
         $('#no-result-systems').hide();
         $('#no-result-measurements').hide();
         $('#no-result-calculations').hide();
+        $('#no-result-soos').hide();
       }
       $('#no-result-components').hide();
     } else {
@@ -544,6 +619,7 @@ function displaySearchResults(guideType) {
         $('#no-result-systems').hide()
         $('#no-result-components').hide()
         $('#no-result-measurements').hide();
+        $('#no-result-soos').hide();
         $('#search-keyword-calculations').text($('#guide-search-bar').val())
       }
       else {
@@ -556,6 +632,7 @@ function displaySearchResults(guideType) {
         $('#no-result-systems').hide();
         $('#no-result-components').hide();
         $('#no-result-measurements').hide();
+        $('#no-result-soos').hide();
       }
       $('#no-result-calculations').hide();
     } else {
@@ -577,6 +654,7 @@ function displaySearchResults(guideType) {
         $('#no-result-systems').hide()
         $('#no-result-components').hide()
         $('#no-result-calculations').hide();
+        $('#no-result-soos').hide();
         $('#search-keyword-measurements').text($('#guide-search-bar').val())
       }
       else {
@@ -589,10 +667,11 @@ function displaySearchResults(guideType) {
         $('#no-result-systems').hide();
         $('#no-result-components').hide();
         $('#no-result-calculations').hide();
+        $('#no-result-soos').hide();
       }
       $('#no-result-measurements').hide();
     } else {
-      updateGuideHeader(CALCULATIONS, 'All Calculations')
+      updateGuideHeader(MEASUREMENTS, 'All Measurements')
       if ($('#measurements').attr('class').includes('active')) {
         $('#textMeasurements').show()
         $('#load-more-measurements').show()
@@ -600,10 +679,45 @@ function displaySearchResults(guideType) {
       $('#no-result-measurements').hide()
     }
   }
+  if (guideType == _SOOS) {
+    // soos
+    if ($('#total-soos-search-result').text() == 0 && $('#guide-search-bar').val().length > 0) {
+      if ($('#soos').attr('class').includes('active')) {
+        $('#textSoos').hide()
+        $('#no-result-soos').show()
+        $('#no-result-plants').hide()
+        $('#no-result-systems').hide()
+        $('#no-result-components').hide();
+        $('#no-result-measurements').hide();
+        $('#no-result-calculations').hide();
+        $('#search-keyword-soos').text($('#guide-search-bar').val())
+      }
+      else {
+        $('#no-result-soos').hide();
+      }
+    } else if ($('#total-soos-search-result').text() > 0 && $('#guide-search-bar').val().length > 0) {
+      if ($('#soos').attr('class').includes('active')) {
+        $('#textSoos').show();
+        $('#no-result-plants').hide();
+        $('#no-result-systems').hide();
+        $('#no-result-components').hide();
+        $('#no-result-measurements').hide();
+        $('#no-result-calculations').hide();
+      }
+      $('#no-result-soos').hide();
+    } else {
+      updateGuideHeader(SOOS, 'All Sequences of Operations')
+      if ($('#soos').attr('class').includes('active')) {
+        $('#textSoos').show()
+        $('#load-more-soos').show()
+      }
+      $('#no-result-soos').hide()
+    }
+  }
 }
 
 function updateGuideHeader(guideType, label) {
-  const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS, CALCULATIONS, MEASUREMENTS];
+  const expectedGuideTypes = [PLANTS, SYSTEMS, COMPONENTS, CALCULATIONS, MEASUREMENTS, SOOS];
 
   if (!expectedGuideTypes.includes(guideType)) return;
 
@@ -627,6 +741,10 @@ function updateGuideHeader(guideType, label) {
 
   if (guideType == MEASUREMENTS) {
     $('#guide-header-measurements').text(label);
+  }
+
+  if (guideType == SOOS) {
+    $('#guide-header-soos').text(label);
   }
 }
 
