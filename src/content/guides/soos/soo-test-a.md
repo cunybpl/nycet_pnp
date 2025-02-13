@@ -4,10 +4,9 @@ type: soo
 layout: guide
 excerpt: Use this technique to measure electrical current (Amps) at one-hour intervals with a data logger.
 thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_electrical current MT_thumbnail.jpeg"
-# associated_systems:
-#   - Boiler
-#   - Electrical Distribution
 associated_components:
+  - Constant-speed, Constant-volume Fan and Motor
+related_components:
   - Constant-speed, Constant-volume Fan and Motor
 related_measurements:
   - Electrical Current
