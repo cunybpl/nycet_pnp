@@ -9,10 +9,6 @@ thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_ele
 #   - Electrical Distribution
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
-related_calculations:
-  - Cooling Tower Fans Energy Consumption
-associated_calculations:
-  - Cooling Tower Fans Energy Consumption
 related_measurements:
   - Electrical Current
 url: "/documents/soos/soo-test-a"
