@@ -1,0 +1,8 @@
+enable: true
+documents:
+  - type: soo
+    title: "SOO Test A"
+    measurement_type: "energy-recovery"
+  - type: soo
+    title: "SOO Test B"
+    measurement_type: "cooling"

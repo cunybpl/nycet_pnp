@@ -209,6 +209,48 @@
     <a id="load-more-calculations" class="btn btn-dark" onclick="loadMoreGuides(CALCULATIONS)">Load More Calculations</a>
   </div>
 </section>
+<!-- SEQUENCE OF OPERATIONS -->
+<section id="textSoos" class="tabcontent">
+  <div class="search-header container d-flex justify-content-between mt-4">
+    <div>
+      <h2 id="guide-header-soos">
+        Sequence of Operations
+      </h2>
+      <details class="guide-header-description">
+        <summary>Sequence of Operations  definition text before the
+          <span id="opener">More</span>
+        </summary>
+        Text after the break
+        <span id="closer" onclick="this.parentElement.removeAttribute('open')">Less</span>
+      </details>
+    </div>
+  </div>
+  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
+    {{ range .guides.soos.documents }}
+    {{ $guideTitle := .title }}
+    {{ $guideId := replace (urlize .title | lower) " " "-" }}
+    {{ $guideType := .type }}
+    <div 
+      id="{{ .type }}-{{ .id }}" 
+      class="
+          col-md-12
+          col-lg-6 
+          guide-card 
+          {{ .measurement_type }}
+        "
+    >
+    {{ range $pages }}
+    {{ if eq .Title $guideTitle }}
+    {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType  ) }}
+    {{ end }}
+  {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  <div id="load-more-container-soo" class="my-4 text-center">
+    <a id="load-more-soos" class="btn btn-dark" onclick="loadMoreGuides(SOOS)">Load More SOOs</a>
+  </div>
+</section>
 
 <script src="/js/guides.js"></script>
 <script>
@@ -217,4 +259,5 @@
   filterComponentGuides();
   filterCalculations();
   filterMeasurements();
+  filterSooGuides();
 </script>

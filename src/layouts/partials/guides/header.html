@@ -173,7 +173,7 @@
   function setActiveTab() {
     const pageType = {{ .Params.type }};
 
-    if (['plant','system','component'].includes(pageType)) initializeGuidePage();
+    if (['plant','system','component', 'soo'].includes(pageType)) initializeGuidePage();
     if (pageType == 'calculation') initializeCTsPage();
     if (pageType == 'measurement') initializeMTsPage();
   }

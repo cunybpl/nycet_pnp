@@ -9,6 +9,8 @@
   {{ $label = "systems" }}
 {{ else if eq .params.type "measuerement"}}
   {{ $label = "components" }}
+{{ else if eq .params.type "soo"}}
+  {{ $label = "components" }}
 {{ end }}
 <section class="card">
   <div class="guide-thumbnail">
