@@ -81,12 +81,13 @@
 
 .chip {
   border-radius: 50rem;
-  background-color:$nycet-gray-dark;
-  color: white;
-  font-size: 60%;
+  background-color: $nycet-gray;
+  color: $nycet-gray-darker;
+  font-size: 50%;
   vertical-align: middle;
   display: inline-block;
   margin-left: 14px;
+  text-transform: uppercase;
 }
 
 .content-chip {
