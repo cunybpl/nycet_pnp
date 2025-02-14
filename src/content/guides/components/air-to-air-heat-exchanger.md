@@ -275,12 +275,11 @@ The following calculation methodology <strong>only applies to systems with rotar
 
 {{< calculation_methodology calculation_methodology_id=8 >}}
 
-
 #### How to Quantify
 
 The following downloadable files can be used to calculate energy condumption based on the measurements taken for this component: 
 
-{{< downloadable_file filename="air_to_air_heat_transfer_calculator_2023_0706.xlsx" title="Air to Air Heat Transfer Calculator" excerpt="Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer Calculator" excerpt="Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
 
 ## Further Reading 
 

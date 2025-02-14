@@ -1,6 +1,6 @@
 {{ $page_title := .Get "page_title" }}
-{{ $img := .Get "img" }}
-{{ $icon := .Get "icon" }}
+<!-- {{ $img := .Get "img" }}
+{{ $icon := .Get "icon" }} -->
 <section class="card card-block my-4">
   {{ range where .Site.RegularPages "Params.title" $page_title  }}
       <div class="short-card-wrapper d-flex">
