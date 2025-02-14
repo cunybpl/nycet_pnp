@@ -43,15 +43,15 @@ The duration of the long-term measurement and when to measure is dependent on th
 
 ### Type of Measurement
 
-<strong>Direct and Proxy</strong> 
-
 <strong>Electrical energy measurements are direct measurements of energy</strong>, and the obtained data can be used to calculate the annual energy consumption of the system or component.
 
 This methodology can also be used as a <strong>proxy measurement</strong> of operational hours of the system or component. Daily or weekly models can be developed to better characterize the equipment. 
 
-### Measurement Equipment to Use
+## Measurement Equipment
 
-The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger/) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off of the [Dent EliteProXC](https://nycenergytools.com/equipment/energy-logger-2/) power data logger, which can be found and borrowed through FELL. 
+The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current.
+
+{{< equipment_link url="https://nycenergytools.com/equipment/energy-logger-2/" title="Enegry Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files." >}}
 
 The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips). 
 
