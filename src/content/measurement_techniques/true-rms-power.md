@@ -116,6 +116,12 @@ After verifying that the logger is collecting data, do the following:
 <iframe class ="video" src="https://www.youtube.com/embed/fLDJ8E2pa9A?si=E3pn5GmWDnfA0c5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 4. How to extract data from the power meter and convert to .csv on ELOG software. (Click to Start Video)</figcaption>
 
+### 5. Use a Calculator with the Measured Data
+
+Use the data collected in the relevant calculator file based on the component you are measuring.
+
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer Calculator" excerpt="Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
+
 ## Troubleshooting Our Measurement Equipment
 
 <strong>Problem 1:</strong> Unexpected Negative Readings

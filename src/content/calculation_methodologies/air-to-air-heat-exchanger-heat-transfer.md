@@ -13,16 +13,27 @@ url: "/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer
 
 ## Introduction 
 
-This calculation methodology is based on the 2020 ASHRAE Handbook – Systems and Equipment, Chapter 26. The calculator is used to estimate a full year of sensible and latent heat transfer in an energy recovery ventilation (ERV) system. This methodology assumes that the air handling unit (AHU) uses a variable speed supply fan, and that the energy recovery component is a rotary wheel. Figure 1 shows an example of an ERV system.  
+This calculation methodology is based on the 2020 ASHRAE Handbook – Systems and Equipment, Chapter 26. This methodology assumes that the air handling unit (AHU) uses a variable speed supply fan, and that the energy recovery component is a rotary wheel.
 
-<a href="/images/calculation-methodology/2024_0529_AtA HX_figure 1.jpg">
-<figure class="figure">
-  <img src="/images/calculation-methodology/2024_0529_AtA HX_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. An ERV system with a rotary wheel heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 1. An ERV system with a rotary wheel heat exchanger.</figcaption>
-</figure>
-</a>
+### Calcualor(s)
 
-This methodology works with hourly data only and each measurement is taken at the start of the hour for a minimum duration of six weeks. If the ERV system is used during both the heating and cooling seasons, then six weeks of data per season is needed. Data is used to calculate heat transfer for the measurement period first, then is extrapolated to a full year. Measurement points are shown in Figure 2 and the variables to measure are listed in Table 2. 
+The calculator is used to estimate a full year of sensible and latent heat transfer in an energy recovery ventilation (ERV) system. 
+
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer Calculator" excerpt="Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
+
+### Measurement(s)
+
+This methodology works with hourly data only and each measurement is taken at the start of the hour for a minimum duration of six weeks. If the ERV system is used during both the heating and cooling seasons, then six weeks of data per season is needed. Data is used to calculate heat transfer for the measurement period first, then is extrapolated to a full year. 
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
+
+{{< measurement_technique measurement_technique_id=7 >}}
+
+{{< measurement_technique measurement_technique_id=8 >}}
+
+Measurement points are shown in Figure 2 and the variables to measure are listed in Table 2. 
 
 <a href="/images/calculation-methodology/2024_0529_AtA HX_figure 2.jpg">
 <figure class="figure">
@@ -144,46 +155,6 @@ Table 1. Humidity ratio equations for various relative humidity values based on 
 To estimate heat transfer for a full year, simple linear regression (used to assess the relationship between two variables) is performed in Microsoft Excel using the LINEST function. These calculation steps are described in more detail in Section A.2. 
 
 Section A.3 describes how to calculate the electrical energy consumption of the supply and return fan motors using hourly power draw data. The hourly data is used to develop an average hourly schedule of both fan motors for all seven days of the week as a proxy of the occupancy schedule of the facility. This occupancy schedule is used in Section A.2 to conduct the simple linear regressions. 
-
-## Calculator
-
-<div class="table-wrapper">
-<table>
-    <caption>Table 2. Air-to-air heat transfer calculator</caption>
-    <thead>
-        <tr>
-            <th>
-                Calculator (Downloadable File)
-            </th>
-            <th>
-                Description
-            </th>
-            <th>
-                Required Data To Use This Calculator
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <a href="/downloadables/air_to_air_heat_transfer_calculator_2023_0706.xlsx" download>Air-to-air Heat-exchanger Heat-transfer Calculator.xlsx</a>
-            </td>
-            <td>
-                Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.
-            </td>
-            <td>
-                <ul>
-                    <li><a href="/documents/measurement-technique/system-air-temperature">System air temperature (F)</a></li>
-                    <li><a href="/documents/measurement-technique/relative-humidity">Relative air humidity (%)</a></li>
-                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Fan motor power (kW)</a></li>
-                    <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></li>
-                    <li>Air flow rate (ft$^3$/min)</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table> 
-</div>
 
 ## Air-to-air Heat Exchanger Calculations
 
