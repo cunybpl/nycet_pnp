@@ -43,6 +43,7 @@
 
 .content a {
   text-decoration: underline;
+  overflow-wrap: break-word;
 }
 
 // a:hover:not(.btn),
@@ -372,6 +373,20 @@ a.btt-btn:hover {
   white-space: nowrap;
   max-width: 42ch;
   scrollbar-width: thin;
+}
+
+@media (max-width: 575px) {
+  #guide-mg {
+    
+    &-side-nav{
+      display: none;
+    }
+
+    &-content {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
 }
 
 .content {
