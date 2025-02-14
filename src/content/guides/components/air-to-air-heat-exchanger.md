@@ -265,16 +265,22 @@ Table 3 provides the equipment required to carry out the measurements of this co
 </table> 
 </div>
 
-### Calculation Methodology 
+### Enegry Consumption Quantificaiton
 
-The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow. If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.  
-<strong>This methodology only applies to systems with rotary wheel heat exchangers.</strong>
+The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow. If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
+
+#### What to Quantify
+
+The following calculation methodology <strong>only applies to systems with rotary wheel heat exchangers.</strong>
 
 {{< calculation_methodology calculation_methodology_id=8 >}}
 
-### Calculators 
 
-{{< downloadable_file filename="https://example.com/myfile.xlsx" title="Downloadable Header 1" excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin nibh sit amet commodo." >}}
+#### How to Quantify
+
+The following downloadable files can be used to calculate energy condumption based on the measurements taken for this component: 
+
+{{< downloadable_file filename="air_to_air_heat_transfer_calculator_2023_0706.xlsx" title="Air to Air Heat Transfer Calculator" excerpt="Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
 
 ## Further Reading 
 
