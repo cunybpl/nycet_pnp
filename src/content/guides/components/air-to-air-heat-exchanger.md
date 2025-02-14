@@ -137,7 +137,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 </table> 
 </div>
 
-### Measurement Strategy 
+## Measurement Strategy 
 
 The measurement strategy for an air-to-air heat exchanger is to measure the heat transfer (Btu/h) from airstream to airstream within the heat exchanger, as well as any energy consuming components associated with the heat exchanger, such as the energy wheel motor. 
 
@@ -158,6 +158,10 @@ Figure 2 shows the measurement locations in a rotary wheel heat exchanger.
   <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
+
+### What to Measure
+
+Measurements needed to quantify the annual energy transfer and operating characteristics of an air-to-air heat exchanger:
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
@@ -265,17 +269,17 @@ Table 3 provides the equipment required to carry out the measurements of this co
 </table> 
 </div>
 
-### Enegry Consumption Quantificaiton
+## Enegry Consumption Quantificaiton
 
 The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow. If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
 
-#### What to Quantify
+### What to Quantify
 
 The following calculation methodology <strong>only applies to systems with rotary wheel heat exchangers.</strong>
 
 {{< calculation_methodology calculation_methodology_id=8 >}}
 
-#### How to Quantify
+### How to Quantify
 
 The following downloadable files can be used to calculate energy condumption based on the measurements taken for this component: 
 
