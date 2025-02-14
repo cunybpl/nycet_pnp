@@ -40,6 +40,8 @@ A fixed plate heat exchanger functions by providing neighboring channels, separa
 
 A rotary wheel exchanger consists of a belt driven wheel that is built up by a matrix of foils. The wheel rotates and moves through both the incoming and outgoing air streams, effectively transferring heat between them. The pressure drop and efficiency of the exchanger depends on the wheel diameter and density of corrugation. Most rotary wheel exchangers transfer both sensible heat and latent energy. Figure 3 shows an example of a rotary wheel heat exchanger.
 
+{{< page_hyperlink page_title="Air-to-air Heat Exchanger" >}}
+
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 3.png">
     <figure class="figure">
         <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. Rotary air-to-air energy exchangers.">

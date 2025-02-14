@@ -137,7 +137,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 </table> 
 </div>
 
-### Measurement Strategy 
+## Measurement Strategy 
 
 The measurement strategy for an air-to-air heat exchanger is to measure the heat transfer (Btu/h) from airstream to airstream within the heat exchanger, as well as any energy consuming components associated with the heat exchanger, such as the energy wheel motor. 
 
@@ -158,6 +158,12 @@ Figure 2 shows the measurement locations in a rotary wheel heat exchanger.
   <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
+
+### What to Measure
+
+Measurements needed to quantify the annual energy transfer and operating characteristics of an air-to-air heat exchanger:
+
+{{< measurement_technique measurement_technique_id=1 >}}
 
 ### Measurement Equipment
 
@@ -263,17 +269,21 @@ Table 3 provides the equipment required to carry out the measurements of this co
 </table> 
 </div>
 
-### Calculation Methodology 
+## Enegry Consumption Quantificaiton
 
-The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow. If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.  
+The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow. If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
 
-<strong>This methodology only applies to systems with rotary wheel heat exchangers.</strong>
+### What to Quantify
 
-<br></br>
-<i>Click the button below to go to the calculators for this component.</i>
-<br></br>
+The following calculation methodology <strong>only applies to systems with rotary wheel heat exchangers.</strong>
 
 {{< calculation_methodology calculation_methodology_id=8 >}}
+
+### How to Quantify
+
+The following downloadable files can be used to calculate energy condumption based on the measurements taken for this component: 
+
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer Calculator" excerpt="Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
 
 ## Further Reading 
 

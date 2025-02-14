@@ -1,16 +1,11 @@
 {{ $page_title := .Get "page_title" }}
-{{ $img := .Get "img" }}
-{{ $icon := .Get "icon" }}
+<!-- {{ $img := .Get "img" }}
+{{ $icon := .Get "icon" }} -->
 <section class="card card-block my-4">
   {{ range where .Site.RegularPages "Params.title" $page_title  }}
-      <div class="d-flex">
-        <div class="col-md-2 d-flex align-items-center justify-content-center">
-          <div class="measurement-technique-logo-wrapper">
-            <img src="{{ $img | absURL }}" class="img-fluid" >
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="py-5">
+      <div class="short-card-wrapper d-flex">
+        <div class="short-card-content">
+          <div class="short-card-text">
             <h5 class="mb-2 content-card-title">
               {{ .Title }}<span class="chip content-chip px-3 py-2">{{ .Params.type | title }}</span>
             </h5>
@@ -19,11 +14,9 @@
             </p>
           </div>
         </div>
-        <div class="col-md-2 d-flex justify-content-center align-items-center">
-          <a style="font-size: 50px;" href="{{ .Params.url | relURL }}">
-            <i class="fa {{ $icon }}"></i>
-          </a>
-        </div>
+        <a class="short-card-link d-flex" href="{{ .Params.url | relURL }}">
+            <i class="fa fa-arrow-right"></i>
+        </a>
       </div>
   {{ end }}
 </section>

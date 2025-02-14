@@ -8,18 +8,33 @@
   padding: 1rem;
 }
 
-.tab {
+.tab-group-wrapper {
   --tab-border: .25rem;
   max-width: var(--max-width);
   margin-inline: auto;
+  position: relative;
+  width: 100%;
+  margin-inline: auto;
+  &::after{
+  content: "";
+  position: absolute;
+  inset-block: 1px;
+  backdrop-filter: blur(40px);
+  mask: linear-gradient(90deg, transparent, #000000 100%);
+  width: 20px;
+  right: 1px;
+  }
+}
+
+.tab {
   display: flex;
-  justify-content: center;
   padding:0;
   background-color: $nycet-gray-light;
   gap: 0;
   border: 1px solid $nycet-gray;
   align-items: stretch;
   border-radius: var(--tab-border);
+  overflow-x: auto;
 }
 
 /* Style the buttons inside the tab */
@@ -68,8 +83,7 @@
 
 .normal-nav-item {
   width: 20rem;
-  min-width: 8rem;
-  max-width: 20%;
+  white-space: nowrap;
   button {
     display: flex;
     align-items: center;
@@ -77,19 +91,9 @@
     position: relative;
   }
 }
-.middle-nav-item {
-  button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
 
 .first-nav-item {
   button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-top-left-radius: var(--tab-border);
@@ -99,9 +103,6 @@
 
 .last-nav-item {
   button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-right: none;
     border-top-right-radius: var(--tab-border);
     border-bottom-right-radius: var(--tab-border);
