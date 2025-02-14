@@ -1,9 +1,41 @@
 .card-block {
-  background-color: rgba(66, 144, 73, .10);
-  border: 1px solid #cedbd0;
+  --card-background-color: hsla(125, 37%, 41%, 0.1); 
+  background-color: var(--card-background-color);
+  border: 1px solid $nycet-gray;
   p {
     @include ipad {
       font-size: 15px;
+    }
+  }
+}
+
+.short-card {
+   
+  &-content {
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+    max-width: 72ch;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+  &-text {
+    max-width: 65ch;
+  }
+
+  &-link {
+    padding: 2rem;
+    font-size: 3em;
+    text-decoration: none !important;
+    flex-grow: 1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+      background-color:hsla(125, 37%, 41%, 0.2);
     }
   }
 }
@@ -21,8 +53,4 @@
   > img {
     min-width: 20px;
   }
-}
-
-.fa.fa-arrow-right:hover {
-  transform: translateX(8px);
 }

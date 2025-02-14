@@ -2,14 +2,9 @@
   {{ $calculation_methodology_id := .Get "calculation_methodology_id" }}
   {{ range where .Site.RegularPages "Params.type" "calculation"  }}
     {{ if eq $calculation_methodology_id .Params.calculation_methodology_id }}
-      <div class="d-flex">
-        <div class="col-md-2 d-flex align-items-center justify-content-center">
-          <div class="measurement-technique-logo-wrapper">
-            <img src="{{ "images/calculation-methodology/calculation-short-icon.png" | absURL }}" class="img-fluid" >
-          </div>
-        </div>
-        <div class="col-md-8 ">
-          <div class="py-5">
+      <div class="short-card-wrapper d-flex">
+        <div class="short-card-content">
+          <div class="short-card-text">
             <h5 class="mb-2 content-card-title">
               {{ .Title }}<span class="chip content-chip px-3 py-2">{{ .Params.type | title }}</span>
             </h5>
@@ -18,11 +13,9 @@
             </p>
           </div>
         </div>
-        <div class="col-md-2 d-flex justify-content-center align-items-center">
-          <a style="font-size: 50px;" href="{{ .Params.url | relURL }}">
+        <a class="short-card-link d-flex" href="{{ .Params.url | relURL }}">
             <i class="fa fa-arrow-right"></i>
-          </a>
-        </div>
+        </a>
       </div>
     {{ end }}
   {{ end }}
