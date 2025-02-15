@@ -9,6 +9,10 @@
   display: flex;
   flex-wrap: wrap;
 
+  &.card-related {
+  height:400px;
+  }
+
   &-image {
     width: 45%;
     background-color: rgba(25, 35, 42, 0.22);
@@ -54,16 +58,20 @@
     height: auto;
   
     &-image {
-    width: 100%;
+      width: 100%;
     }
 
     &-content {
-    width: 100%;
-    
-    .btn:not(.btn-link) {
       width: 100%;
+    
+      .btn:not(.btn-link) {
+        width: 100%;
+      }
     }
-    }
+  }
+  
+  .guide-thumbnail.card-related {
+    height: auto  ;
   }
 }
 
