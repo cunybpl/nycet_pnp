@@ -7,6 +7,10 @@
       font-size: 15px;
     }
   }
+  &.equip-card {
+    margin-bottom: 0;
+    max-width: 392px;
+  }
 }
 
 .short-card {
@@ -18,6 +22,21 @@
     max-width: 72ch;
     flex-wrap: wrap;
     flex-grow: 1;
+
+    &.equip-card {
+      max-width:none;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding: 1.5em;
+      justify-content: space-between;
+    }
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
   }
 
   &-text {
@@ -42,6 +61,24 @@
       background-color:hsla(125, 37%, 41%, 0.2);
     }
   }
+}
+
+.equip-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin-bottom: 2.5em;
+  margin-top: 2em;
+}
+
+.equip-img {
+  width: 100%;
+  aspect-ratio: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+
 }
 
 .measurement-technique-logo-wrapper {

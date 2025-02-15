@@ -41,7 +41,7 @@
   max-width: var(--max-width);
 }
 
-.content a {
+.content a:not(.btn) {
   text-decoration: underline;
   overflow-wrap: break-word;
 }
