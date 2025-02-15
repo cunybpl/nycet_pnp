@@ -136,20 +136,14 @@ Use the collected measurement data in the corresponding calculator file based on
 
 ## Troubleshooting Our Measurement Equipment
 
-<strong>Problem 1:</strong> Unexpected Negative Readings
+### Unexpected Negative Readings
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> Confirm that all current transformers (CTs) are facing the correct direction.
-</div>
+Confirm that all current transformers (CTs) are facing the correct direction.
 
-<strong>Problem 2:</strong> Unexpected Low Values
+### Unexpected Low Values
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.
-</div> 
+Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.
 
-<strong>Problem 3:</strong> CTs Do Not Fit in Panelboard Casing
+### CTs Do Not Fit in Panelboard Casing
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> If it is safe to do so, trace the wires outside the panel board and install the sensors there. If this is unsafe or not possible to do, consider following an alternative approach of measuring current to the system with either instantaneous true power or nameplate data as a proxy for total power draw and energy consumption.
-</div>
+If it is safe to do so, trace the wires outside the panel board and install the sensors there. If this is unsafe or not possible to do, consider following an alternative approach of measuring current to the system with either instantaneous true power or nameplate data as a proxy for total power draw and energy consumption.
