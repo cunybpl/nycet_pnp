@@ -95,3 +95,39 @@
     min-width: 20px;
   }
 }
+
+.admonition {
+  --note-background: #f5f5f5;
+  --note-border: #c7c6c6;
+  --tip-background: #e8f1ff;
+  --tip-border: #9cc3ff;
+  --warning-background: #ffefd0;
+  --warning-border: #ffcd6d;
+  display: flex;
+  padding: 1.5em;
+  border-radius: 6px;
+  border-left: 6px solid;
+  flex-direction: column;
+  gap: .5rem;
+  margin-block: 2em;
+
+  &-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 90%;
+    display: flex;
+    gap: 6px;
+    justify-content: start;
+    align-items: center;
+  }
+
+  &-icon {
+    font-size: 1.3rem;
+  }
+
+  &-content {
+    & p {
+      margin-bottom: 0;
+    }
+  }
+}
