@@ -562,6 +562,7 @@ table.equation-table {
   display: block;
   margin-block: 1.5em;
   margin-left: 5em;
+  overflow-x: auto;
 }
 .equation-center {
   text-align: center;
