@@ -19,7 +19,7 @@ The corresponding calculator is used to estimate a full year of sensible and lat
 
 {{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer" excerpt="Uses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
 
-This methodology works with hourly data only and each measurement is taken at the start of the hour for a minimum duration of six weeks. If the ERV system is used during both the heating and cooling seasons, then six weeks of data per season is needed. Data is used to calculate heat transfer for the measurement period first, then is extrapolated to a full year. 
+This methodology works with hourly data only and each measurement is taken at the start of the hour for a minimum duration of six weeks. If the ERV system is used during both the heating and cooling seasons, then six weeks of data per season is needed. Data is used to calculate heat transfer for the measurement period first, then is extrapolated to a full year. Measured data is obtained via the following measurement techniques:  
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
