@@ -3,13 +3,16 @@
 <section class="admonition"
   {{ if eq $type "note"}}
   style="background-color: var(--note-background);
-        border-color: var(--note-border);"
+        border-color: var(--note-border);
+        color: var(--note-fg);"
   {{ else if eq $type "tip" }}
   style="background-color: var(--tip-background);
-        border-color: var(--tip-border);"
+        border-color: var(--tip-border);
+        color: var(--tip-fg);"
   {{ else if eq $type "warning" }}
   style="background-color: var(--warning-background);
-        border-color: var(--warning-border);"
+        border-color: var(--warning-border);
+        color: var(--warning-fg);"
   {{ end }}      
   >
   <div class="admonition-heading">

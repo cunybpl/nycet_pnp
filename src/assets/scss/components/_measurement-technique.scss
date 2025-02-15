@@ -99,16 +99,19 @@
 .admonition {
   --note-background: #f5f5f5;
   --note-border: #c7c6c6;
+  --note-fg: black;
   --tip-background: #e8f1ff;
   --tip-border: #9cc3ff;
+  --tip-fg: #002660;
   --warning-background: #ffefd0;
   --warning-border: #ffcd6d;
+  --warning-fg: #543700;
   display: flex;
   padding: 1.5em;
   border-radius: 6px;
   border-left: 6px solid;
   flex-direction: column;
-  gap: .5rem;
+  gap: .25rem;
   margin-block: 2em;
 
   &-heading {
