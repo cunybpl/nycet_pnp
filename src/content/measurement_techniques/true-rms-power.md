@@ -106,9 +106,7 @@ This section illustrates the most common wire configurations for a panelboard an
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with the manufacturer’s proprietary software installed to do the following: 
 
-<div class="alert alert-warning" role="alert">
-<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
-</div>
+{{< admonition type="warning" message="<b>Do not remove the logger or sensors</b>. If you remove the logger, you may need to start over with the setup and installation process." >}}
 
 1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.

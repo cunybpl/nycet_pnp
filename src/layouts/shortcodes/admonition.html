@@ -32,6 +32,6 @@
     {{ end }}
   </div>
   <div class="admonition-content">
-    <p>{{ $message }}</p>
+    <p>{{ $message | safeHTML }}</p>
   </div>
 </section>
