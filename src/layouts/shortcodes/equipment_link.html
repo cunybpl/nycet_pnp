@@ -1,0 +1,21 @@
+<section class="card card-block my-4">
+  {{ $url := .Get "url" }}
+  {{ $title := .Get "title" }}
+  {{ $excerpt := .Get "excerpt" }}
+      <div class="short-card-wrapper d-flex">
+        <div class="short-card-content">
+          <div class="short-card-text">
+            <h5 class="mb-2 content-card-title">
+              <span class="short-card-header">{{ $title }}</span>
+              <span class="chip content-chip px-3 py-2">Equipment</span>
+            </h5>
+            <p class="mb-0 content-card-excerpt">
+              {{ $excerpt | truncate 250 }}
+            </p>
+          </div>
+        </div>
+        <a class="short-card-link d-flex" href="{{ $url }}">
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </div>
+</section>
