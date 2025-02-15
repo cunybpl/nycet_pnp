@@ -165,6 +165,12 @@ Measurements needed to quantify the annual energy transfer and operating charact
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
+{{< measurement_technique measurement_technique_id=6 >}}
+
+{{< measurement_technique measurement_technique_id=7 >}}
+
+{{< measurement_technique measurement_technique_id=8 >}}
+
 <!-- ### Measurement Equipment
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
