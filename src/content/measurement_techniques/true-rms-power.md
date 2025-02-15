@@ -130,7 +130,7 @@ After verifying that the logger is collecting data, do the following:
 
 Use the collected measurement data in the corresponding calculator file based on the type of component you are measuring:
 
-{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer Calculator" excerpt="Uses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer" excerpt="Uses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
 
 ## Troubleshooting Our Measurement Equipment
 
