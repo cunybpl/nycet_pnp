@@ -11,9 +11,9 @@
         {{ if eq .name $page_type }}
           {{ range .tabs }}
             <button id="tab-item-{{ .name }}" class="header-tab-item" onclick="displayGuideContent(event)">
-              <div class="tab-icon">
+              <!-- <div class="tab-icon">
                 {{ .icon | absURL }}
-              </div>
+              </div> -->
               {{ .label }}
             </button>
           {{ end }}
