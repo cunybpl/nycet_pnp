@@ -31,6 +31,6 @@
     {{ end }}
   </div>
   <div class="admonition-content">
-    <p>{{ .Inner | safeHTML }}</p>
+    <p>{{ .Inner | .Page.RenderString }}</p>
   </div>
 </section>

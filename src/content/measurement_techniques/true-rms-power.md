@@ -54,7 +54,7 @@ The measurement equipment needed for this procedure is an energy data logger tha
 The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips).
 
 {{< admonition type="tip" >}}
-<b>If you are NYC agency personnel</b> and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the <a href="https://nycenergytools.com/equipment/">Field Equipment Lending Library.</a>
+**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
 {{< /admonition >}}
 
 The following equipment is available for gathering the data outlined in this measurement technique:
@@ -109,7 +109,7 @@ This section illustrates the most common wire configurations for a panelboard an
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with the manufacturer’s proprietary software installed to do the following: 
 
 {{< admonition type="warning">}}
-<b>Do not remove the logger or sensors</b>. If you remove the logger, you may need to start over with the setup and installation process.
+**Do not remove the logger or sensors.** If you remove the logger, you may need to start over with the setup and installation process.
 {{< /admonition >}}
 
 1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
@@ -140,19 +140,14 @@ Use the collected measurement data in the corresponding calculator file based on
 
 ## Troubleshooting Our Measurement Equipment
 
-{{< details summary="See the details" >}}
-This is a **bold** word.
+{{< details summary="Unexpected Negative Readings" >}}
+Confirm that all current [transformers](#) (CTs) are facing the correct direction.
 {{< /details >}}
 
-
-### Unexpected Negative Readings
-
-Confirm that all current transformers (CTs) are facing the correct direction.
-
-### Unexpected Low Values
-
+{{< details summary="Unexpected Low Values" >}}
 Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.
+{{< /details >}}
 
-### CTs Do Not Fit in Panelboard Casing
-
+{{< details summary="CTs Do Not Fit in Panelboard Casing" >}}
 If it is safe to do so, trace the wires outside the panel board and install the sensors there. If this is unsafe or not possible to do, consider following an alternative approach of measuring current to the system with either instantaneous true power or nameplate data as a proxy for total power draw and energy consumption.
+{{< /details >}}
