@@ -1,6 +1,6 @@
 .card{
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: .25rem;
   margin-bottom: 2rem;
 }
 
@@ -69,7 +69,7 @@
       }
     }
   }
-  
+
   .guide-thumbnail.card-related {
     height: auto  ;
   }
