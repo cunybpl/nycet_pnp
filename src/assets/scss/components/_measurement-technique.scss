@@ -114,6 +114,10 @@
   gap: .15rem;
   margin-block: 1.5em;
 
+  & a {
+    color: #02772b;
+  }
+
   &-heading {
     text-transform: uppercase;
     font-weight: bold;

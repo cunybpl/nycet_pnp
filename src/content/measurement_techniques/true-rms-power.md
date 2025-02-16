@@ -53,7 +53,11 @@ The measurement equipment needed for this procedure is an energy data logger tha
 
 The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips).
 
-If you are NYC agency personnel and you require measurement tools, data loggers, meters or sensors, NYC Energy Tools offers equipment lending through it's [Field Equipment Lending Library](https://nycenergytools.com/equipment/). The following equipment is available for gathering the data outlined in this measurement technique:
+{{< admonition type="tip" >}}
+<b>If you are NYC agency personnel</b> and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the <a href="https://nycenergytools.com/equipment/">Field Equipment Lending Library.</a>
+{{< /admonition >}}
+
+The following equipment is available for gathering the data outlined in this measurement technique:
 
 <div class="equip-grid">
 
@@ -65,11 +69,9 @@ If you are NYC agency personnel and you require measurement tools, data loggers,
 
 </div>
 
-{{< admonition type="note" message="Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements." >}}
-
-{{< admonition type="warning" message="Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements." >}}
-
-{{< admonition type="tip" message="Some kind of tip in this message box" >}}
+{{< admonition type="note" >}}
+Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
+{{< /admonition >}}
 
 ## Measurement Steps
 
@@ -106,7 +108,9 @@ This section illustrates the most common wire configurations for a panelboard an
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with the manufacturer’s proprietary software installed to do the following: 
 
-{{< admonition type="warning" message="<b>Do not remove the logger or sensors</b>. If you remove the logger, you may need to start over with the setup and installation process." >}}
+{{< admonition type="warning">}}
+<b>Do not remove the logger or sensors</b>. If you remove the logger, you may need to start over with the setup and installation process.
+{{< /admonition >}}
 
 1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
@@ -135,6 +139,11 @@ Use the collected measurement data in the corresponding calculator file based on
 {{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer" excerpt="Uses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
 
 ## Troubleshooting Our Measurement Equipment
+
+{{< details summary="See the details" >}}
+This is a **bold** word.
+{{< /details >}}
+
 
 ### Unexpected Negative Readings
 

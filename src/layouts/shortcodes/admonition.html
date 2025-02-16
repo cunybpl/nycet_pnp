@@ -1,5 +1,4 @@
 {{ $type := .Get "type" }}
-{{ $message := .Get "message" }}
 <section class="admonition"
   {{ if eq $type "note"}}
   style="background-color: var(--note-background);
@@ -32,6 +31,6 @@
     {{ end }}
   </div>
   <div class="admonition-content">
-    <p>{{ $message | safeHTML }}</p>
+    <p>{{ .Inner | safeHTML }}</p>
   </div>
 </section>
