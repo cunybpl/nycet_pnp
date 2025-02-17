@@ -75,6 +75,12 @@
   }
 }
 
+@media (max-width: 320px) {
+  .short-card-wrapper {
+    flex-wrap: wrap;
+  }
+}
+
 .equip-grid {
   display: grid;
   gap: 1rem;
