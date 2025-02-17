@@ -46,7 +46,7 @@
   outline: none;
   padding: 0.75em 2.5em;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 1rem;
   text-align: left;
   color: $body-color;
   border: none;
@@ -82,13 +82,14 @@
 }
 
 .normal-nav-item {
-  width: 20rem;
+  width: 12rem;
   white-space: nowrap;
   button {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    text-transform: uppercase;
   }
 }
 
