@@ -55,7 +55,9 @@ Coil energy recovery loops, also known as runaround loops, make use of a heat ex
 
 Heat pipe heat exchangers operate by using a working fluid that changes phases to transfer heat. As shown in Figure 5, one side of the heat pipe is placed in the exhaust stream and the other is placed in the supply stream, causing one side of the pipe to undergo evaporation and the other side to undergo condensation, effectively transferring heat. Heat pipe heat exchangers transfer sensible heat only. 
 
+{{< admonition type="note">}}
 See Chapter 26 of the ASHRAE Handbook on Heating, Ventilating, and Air-Conditioning Systems and Equipment for discussion of these and other heat exchangers. 
+{{< /admonition >}}
 
 ### Air Duct 
 

@@ -97,6 +97,7 @@
   vertical-align: 2px;
   font-size: 55%;
   margin-left: 0;
+  line-height: 1;
 }
 
 .content-card-title {
@@ -586,6 +587,7 @@ table.equation-table {
   margin-block: 1.5em;
   margin-left: 5em;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 .equation-center {
   text-align: center;
