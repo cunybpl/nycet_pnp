@@ -140,30 +140,3 @@
     }
   }
 }
-
-/*details element*/
-details { 
-  margin-block: 1em;
-
-  // &[open] > summary {
-  //   list-style-type: '↑';
-  // }
-
-  & summary {
-    font-size: 1.2rem;
-    font-weight: bold;
-    list-style-position: outside;
-    margin-left: 1em;
-    padding-left: .5em;
-    // list-style-type: '↓';
-  }
-
-  & > summary > * {
-    
-  }
-  
-  & > :not(summary) {
-    padding-left: 1em;
-  }
-}
-

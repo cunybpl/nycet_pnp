@@ -15,7 +15,7 @@
 {{- end }}
 
 {{- /* Render. */}}
-<details
+<details class="details-short"
     {{- if $open }} open {{- end -}}
     {{- range $key, $value := $attributes }} {{ $key }}="{{ $value }}"{{- end }}
 >
