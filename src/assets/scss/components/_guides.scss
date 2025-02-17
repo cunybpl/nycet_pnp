@@ -117,6 +117,7 @@
   display: flex;
   align-items: center;
   overflow-x: auto;
+  scrollbar-width: thin;
   overflow-y: hidden;
   background-color: white;
   border-bottom: 1px solid $nycet-gray;
@@ -449,8 +450,9 @@ a.btt-btn:hover {
 }
 
 .table-wrapper {
-  overflow-x:auto;
+  overflow-x: auto;
   margin-bottom: 3rem;
+  scrollbar-width: thin;
 }
 // custom table style
 
@@ -588,6 +590,7 @@ table.equation-table {
   margin-block: 1.5em;
   margin-left: 5em;
   overflow-x: auto;
+  scrollbar-width: thin;
   overflow-y: hidden;
 }
 .equation-center {
@@ -713,4 +716,9 @@ a.glossary-link {
   text-underline-offset: 3px;
   background-color: #f7f7f7;
   padding: 2px 0;
+}
+
+iframe + figcaption,
+video + figcaption {
+  margin-block-start: -1rem;
 }
