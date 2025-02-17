@@ -8,6 +8,7 @@
   height: 476px;
   display: flex;
   flex-wrap: wrap;
+  background-color: $nycet-gray-light;
 
   &.card-related {
   height:400px;
@@ -24,7 +25,6 @@
   }
 
   &-content {
-    background-color: $nycet-gray-light;
     height: 100%;
     width: 55%;
     padding: 1.5rem 0;
@@ -59,9 +59,14 @@
   }
 }
 
+@media (max-width: 990px) {
+  .guide-thumbnail {
+      height: auto;
+  }
+}
+
 @media (max-width: 485px) {
   .guide-thumbnail {
-    height: auto;
   
     &-image {
       width: 100%;
