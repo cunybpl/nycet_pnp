@@ -2,15 +2,25 @@
   --card-background-color: hsla(125, 37%, 41%, 0.1); 
   background-color: var(--card-background-color);
   border: 1px solid $nycet-gray;
+  
   p {
     @include ipad {
       font-size: 15px;
     }
   }
+  
   &.equip-card {
     margin-bottom: 0;
     max-width: 500px;
     background-color: white;
+  }
+  
+  &:hover {
+    border-color: $nycet-green-dark;
+  }
+
+  &:hover .short-card-link {
+    background-color:hsla(125, 37%, 41%, 0.2);
   }
 }
 
@@ -56,6 +66,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    color: $nycet-green;
 
     &:hover,
     &:focus {
@@ -117,7 +128,7 @@
   margin-block: 1.5em;
 
   & a {
-    color: #02772b;
+    color: $nycet-green-dark;
   }
 
   &-heading {
