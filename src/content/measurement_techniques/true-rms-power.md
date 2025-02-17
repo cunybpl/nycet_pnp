@@ -54,10 +54,10 @@ The measurement equipment needed for this procedure is an energy data logger tha
 The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips).
 
 {{< admonition type="tip" >}}
-**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library (FELL)](https://nycenergytools.com/equipment/).
+**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
 {{< /admonition >}}
 
-The following equipment is available for gathering the data outlined in this measurement technique:
+This measurement technique makes use of the following equipment available in the [Field Equipment Lending Library](https://nycenergytools.com/equipment/):
 
 <div class="equip-grid">
 
@@ -141,7 +141,7 @@ Use the collected measurement data in the corresponding calculator file based on
 ## Troubleshooting Our Measurement Equipment
 
 {{< details summary="Unexpected Negative Readings" >}}
-Confirm that all current [transformers](#) (CTs) are facing the correct direction.
+Confirm that all current transformers (CTs) are facing the correct direction.
 {{< /details >}}
 
 {{< details summary="Unexpected Low Values" >}}
