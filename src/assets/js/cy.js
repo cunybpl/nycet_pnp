@@ -61,12 +61,12 @@ my_nodes.forEach((node) => {
   let div = document.createElement("div");
   if(node.data.url.length > 0) {
     div.innerHTML = `
-    <div id='${node.data.id}' class='d-flex flex-row p-2 text-center justify-content-center align-items-center shadow rounded' style='width: 175px; border: 1px solid gray; border-radius: 5px;'>
+    <div id='${node.data.id}' class='d-flex flex-row p-3 text-center justify-content-center align-items-center shadow rounded' style='width: 240px; border: 1px solid gray; border-radius: 5px;'>
       <div class='px-1'>
         ${node.data.icon}
       </div>
       <div class='px-1'>
-        <span style='font-size: 11px;'>${node.data.name}</span>
+        <span style='font-size: 14px;'>${node.data.name}</span>
       </div>
       <div class='px-1'>
         <button class='btn btn-link px-1 py-0' style="color: #429049;" onclick="window.open('${node.data.url}')">
@@ -76,12 +76,12 @@ my_nodes.forEach((node) => {
     </div>`;
   } else {
     div.innerHTML = `
-    <div id='${node.data.id}' class='d-flex flex-row p-2 text-center justify-content-center align-items-center shadow rounded' style='width: 175px; border: 1px solid gray; border-radius: 5px;'>
+    <div id='${node.data.id}' class='d-flex flex-row p-3 text-center justify-content-center align-items-center shadow rounded' style='width: 240px; border: 1px solid gray; border-radius: 5px;'>
       <div>
         ${node.data.icon}
       </div>
       <div class='px-1'>
-        <span style='font-size: 11px;'>${node.data.name}</span>
+        <span style='font-size: 14px;'>${node.data.name}</span>
       </div>
     </div>`;
   }
