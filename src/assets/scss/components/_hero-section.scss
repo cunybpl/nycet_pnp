@@ -227,6 +227,27 @@ form:has(#guide-search-bar:focus) {
   }
 
   & .modal-body p {
-    margin-bottom: 0
-  };
+    margin-bottom: 0;
+    line-height: 1.9;
+  }
+
+  & .modal-body p {
+    
+    & i.fa {
+      transform: rotate(-45deg);
+      color: $primary;
+    }
+  }
+
+  & span.sitemap-desc-node {
+    padding: 3px 6px;
+    background: $nycet-green-light;
+    border: 1px solid $nycet-gray-dark;
+    border-radius: 4px;
+
+    &.selected {
+      border-color: $nycet-green-dark;
+      border-width: 2px;
+    }
+  }
 }
