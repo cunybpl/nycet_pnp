@@ -207,3 +207,26 @@ form:has(#guide-search-bar:focus) {
     background-color: white;
   }
 }
+
+.hero {
+
+  & .modal-header {
+    background-color: $nycet-gray-light;
+  }
+  & .modal.show {
+    display: flex!important;
+    justify-content: center;
+  }
+  
+  & .modal-header {
+    align-items: center;
+  }
+
+  & button span {
+    font-size: 3rem;
+  }
+
+  & .modal-body p {
+    margin-bottom: 0
+  };
+}
