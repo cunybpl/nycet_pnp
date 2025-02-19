@@ -32,9 +32,10 @@ Figure 1 shows the main components associated with a fixed plate heat exchanger 
 
 The heat exchanger transfers energy between the two airstreams.  The most common air-to-air heat exchangers as defined by ASHRAE are listed below. The energy transfer effectiveness in a heat exchanger relies on its configuration, the material properties of the energy exchange surface, and a design that maximizes the contact of the airstream with the heat exchange surface. 
 
-#### [Rotary Air-to-air Energy Exchanger](/documents/components/air-to-air-heat-exchanger)
+#### Rotary Air-to-air Energy Exchanger
 
 A rotary wheel exchanger consists of a belt driven wheel that is built up by a matrix of foils. The wheel rotates and moves through both the incoming and outgoing air streams, effectively transferring heat between them. The pressure drop and efficiency of the exchanger depends on the wheel diameter and density of corrugation. Most rotary wheel exchangers transfer both sensible heat and latent energy. Figure 3 shows an example of a rotary wheel heat exchanger.
+<a class="continue" href="/documents/components/air-to-air-heat-exchanger"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
 
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 3.png">
     <figure class="figure">
