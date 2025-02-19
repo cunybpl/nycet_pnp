@@ -545,27 +545,60 @@
       </details>
     </div>
   </div>
-  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
-    {{ range .guides.calculations.documents }}
-    {{ $guideTitle := .title }}
-    {{ $guideId := replace (urlize .title | lower) " " "-" }}
-    {{ $guideType := .type }}
-    <div 
-      id="{{ .type }}-{{ .id }}" 
-      class="
-          col-md-12
-          col-lg-6 
-          guide-card 
-          {{ .measurement_type }}
-        "
-    >
-    {{ range $pages }}
-    {{ if eq .Title $guideTitle }}
-    {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType  ) }}
-    {{ end }}
-  {{ end }}
+  <div class="container px-0">
+    <h3 class="group-header">Energy Consumption</h3>
+    <div class="mt-4 d-flex flex-wrap justify-content-between">
+      {{ range .guides.calculations.documents }}
+        {{ $guideTitle := .title }}
+        {{ $guideId := replace (urlize .title | lower) " " "-" }}
+        {{ $guideType := .type }}
+
+        {{ if eq .group "energy"}}
+          <div 
+            id="{{ $guideType }}-{{ $guideId }}" 
+            class="
+              col-md-12
+              col-lg-6 
+              guide-card 
+              {{ .measurement_type }}
+            "
+          >
+          {{ range $pages }}
+            {{ if eq .Title $guideTitle }}
+              {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
+            {{ end }}
+          {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
     </div>
-    {{ end }}
+    <h3 class="group-header">Heat Transfer</h3>
+    <div class="mt-4 d-flex flex-wrap justify-content-between">
+      {{ range .guides.calculations.documents }}
+        {{ $guideTitle := .title }}
+        {{ $guideId := replace (urlize .title | lower) " " "-" }}
+        {{ $guideType := .type }}
+
+        {{ if eq .group "hx"}}
+          <div 
+            id="{{ $guideType }}-{{ $guideId }}" 
+            class="
+              col-md-12
+              col-lg-6 
+              guide-card 
+              {{ .measurement_type }}
+            "
+          >
+          {{ range $pages }}
+            {{ if eq .Title $guideTitle }}
+              {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
+            {{ end }}
+          {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+
   </div>
   <div id="load-more-container-calculation" class="my-4 text-center">
     <a id="load-more-calculations" class="btn btn-dark" onclick="loadMoreGuides(CALCULATIONS)">Load More Calculations</a>
