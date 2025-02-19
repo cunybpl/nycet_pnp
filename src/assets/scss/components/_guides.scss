@@ -383,6 +383,14 @@ a.btt-btn:hover {
   color: white;
 }
 
+a.continue {
+  white-space: nowrap;
+
+  & span {
+    margin-right: 6px;
+  }
+}
+
 // .associated_systems_see_more_btn {
 // }
 
