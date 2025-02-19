@@ -141,28 +141,138 @@
       </details>
     </div>
   </div>
-  <div class="container px-0 mt-4 d-flex flex-wrap justify-content-between">
-    {{ range .guides.systems.documents }}
-    {{ $guideTitle := .title }}
-    {{ $guideId := replace (urlize .title | lower) " " "-" }}
-    {{ $guideType := .type }}
-    <div 
-      id="{{ .type }}-{{ .id }}" 
-      class="
-          col-md-12
-          col-lg-6 
-          guide-card 
-          {{ .measurement_type }}
-        "
-    >
-    {{ range $pages }}
-    {{ if eq .Title $guideTitle }}
-    {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType  ) }}
-    {{ end }}
-  {{ end }}
+  <div class="container px-0">
+    <h3 class="group-header">Cooling</h3>
+    <div class="mt-4 d-flex flex-wrap justify-content-between">
+      {{ range .guides.systems.documents }}
+        {{ $guideTitle := .title }}
+        {{ $guideId := replace (urlize .title | lower) " " "-" }}
+        {{ $guideType := .type }}
+
+        {{ if eq .group "cooling"}}
+          <div 
+            id="{{ $guideType }}-{{ $guideId }}" 
+            class="
+              col-md-12
+              col-lg-6 
+              guide-card 
+              {{ .measurement_type }}
+            "
+          >
+          {{ range $pages }}
+            {{ if eq .Title $guideTitle }}
+              {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
+            {{ end }}
+          {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
     </div>
-    {{ end }}
-  </div>
+    <h3 class="group-header">Heating</h3>
+    <div class="mt-4 d-flex flex-wrap justify-content-between">
+      {{ range .guides.systems.documents }}
+        {{ $guideTitle := .title }}
+        {{ $guideId := replace (urlize .title | lower) " " "-" }}
+        {{ $guideType := .type }}
+
+        {{ if eq .group "heating"}}
+          <div 
+            id="{{ $guideType }}-{{ $guideId }}" 
+            class="
+              col-md-12
+              col-lg-6 
+              guide-card 
+              {{ .measurement_type }}
+            "
+          >
+          {{ range $pages }}
+            {{ if eq .Title $guideTitle }}
+              {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
+            {{ end }}
+          {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <h3 class="group-header">Air Handling</h3>
+    <div class="mt-4 d-flex flex-wrap justify-content-between">
+      {{ range .guides.systems.documents }}
+        {{ $guideTitle := .title }}
+        {{ $guideId := replace (urlize .title | lower) " " "-" }}
+        {{ $guideType := .type }}
+
+        {{ if eq .group "air"}}
+          <div 
+            id="{{ $guideType }}-{{ $guideId }}" 
+            class="
+              col-md-12
+              col-lg-6 
+              guide-card 
+              {{ .measurement_type }}
+            "
+          >
+          {{ range $pages }}
+            {{ if eq .Title $guideTitle }}
+              {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
+            {{ end }}
+          {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <h3 class="group-header">Lighting</h3>
+    <div class="mt-4 d-flex flex-wrap justify-content-between">
+      {{ range .guides.systems.documents }}
+        {{ $guideTitle := .title }}
+        {{ $guideId := replace (urlize .title | lower) " " "-" }}
+        {{ $guideType := .type }}
+
+        {{ if eq .group "lighting"}}
+          <div 
+            id="{{ $guideType }}-{{ $guideId }}" 
+            class="
+              col-md-12
+              col-lg-6 
+              guide-card 
+              {{ .measurement_type }}
+            "
+          >
+          {{ range $pages }}
+            {{ if eq .Title $guideTitle }}
+              {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
+            {{ end }}
+          {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <h3 class="group-header">Electrical Distribution</h3>
+      <div class="mt-4 d-flex flex-wrap justify-content-between">
+        {{ range .guides.systems.documents }}
+          {{ $guideTitle := .title }}
+          {{ $guideId := replace (urlize .title | lower) " " "-" }}
+          {{ $guideType := .type }}
+  
+          {{ if eq .group "electrical"}}
+            <div 
+              id="{{ $guideType }}-{{ $guideId }}" 
+              class="
+                col-md-12
+                col-lg-6 
+                guide-card 
+                {{ .measurement_type }}
+              "
+            >
+            {{ range $pages }}
+              {{ if eq .Title $guideTitle }}
+                {{ partial "thumbnail/guide.html" (dict "params" .Params "page_title" .Title "page_content" .Content "page_url" .RelPermalink "pages" $pages "guide_id" $guideId "guide_type" $guideType) }}
+              {{ end }}
+            {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+   </div> 
   <div id="load-more-container-system" class="my-4 text-center">
     <a id="load-more-systems" class="btn btn-dark" onclick="loadMoreGuides(SYSTEMS)">Load More Systems</a>
   </div>
