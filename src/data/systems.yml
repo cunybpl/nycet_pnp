@@ -3,45 +3,60 @@ documents:
   - type: system
     title: "Air-cooled Chiller"
     measurement_type: "cooling"
+    group : "cooling"
   - type: system
     title: "Air-to-air Energy Recovery"
     measurement_type: "energy-recovery"
+    group : "air"
   - type: system
     title: "Boiler"
     measurement_type: "space-heating, water-heating"
+    group : "heating"
   - type: system
     title: "Chilled Water Loop"
     measurement_type: "cooling"
+    group : "cooling"
   - type: system
     title: "Condenser Water Loop"
     measurement_type: "cooling"
+    group : "cooling"
   - type: system
     title: "Constant-speed, Constant-volume Air Handling Unit"
     measurement_type: "space-heating, cooling, ventilation"
+    group : "air"
   - type: system
     title: "Electrical Distribution"
     measurement_type: "lighting"
+    group : "electrical"
   - type: system
     title: "Feedwater System"
     measurement_type: "space-heating"
+    group : "heating"
   - type: system
     title: "Hot Water Loop"
     measurement_type: "space-heating, water-heating"
+    group : "heating"
   - type: system
     title: "Lighting Fixture"
     measurement_type: "lighting"
+    group : "lighting"
   - type: system
     title: "Steam Condensate Recovery"
     measurement_type: "space-heating"
+    group : "heating"
   - type: system
     title: "Steam Distribution"
     measurement_type: "space-heating"
+    group : "heating"
   - type: system
     title: "Variable-speed, Variable-volume Air Handling Unit"
     measurement_type: "space-heating, cooling, ventilation"
+    group : "air"
   - type: system
     title: "Water-cooled Chiller"
     measurement_type: "cooling"
+    group : "cooling"
   - type: system
     title: "Waterside Economizer"
     measurement_type: "cooling"
+    group : "cooling"

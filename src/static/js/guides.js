@@ -4,11 +4,11 @@ var COMPONENTS = "component";
 var CALCULATIONS = "calculation";
 var MEASUREMENTS = "measurement";
 var SOOS = "soo";
-var initialDisplayedPlantGuides = 8;
-var initialDisplayedSystemGuides = 8;
+var initialDisplayedPlantGuides = 10;
+var initialDisplayedSystemGuides = 20;
 var initialDisplayedComponentGuides = 8;
 var initialDisplayedCalculations = 8;
-var initialDisplayedMeasurements = 8;
+var initialDisplayedMeasurements = 20;
 var initialDisplayedSooGuides = 8;
 
 function filterPlantGuides(searchKeyWord='') {

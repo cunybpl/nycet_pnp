@@ -3,18 +3,24 @@ documents:
   - type: calculation
     title: "Air-to-air Heat Exchanger Heat Transfer"
     measurement_type: "energy-recovery"
+    group : "hx"
   - type: calculation
     title: "Cooling Tower Fans Energy Consumption"
     measurement_type: "cooling"
+    group : "energy"
   - type: calculation
     title: "Fan Motor Energy Consumption"
     measurement_type: "space-heating, cooling, ventilation"
+    group : "energy"
   - type: calculation
     title: "Lighting Plant and Systems Energy Consumption"
     measurement_type: "lighting"
+    group : "energy"
   - type: calculation
     title: "Liquid-to-liquid Heat Exchanger Heat Transfer"
     measurement_type: "energy-recovery"
+    group : "hx"
   - type: calculation
     title: "Pump Motor Energy Consumption"
     measurement_type: "water-heating, cooling"
+    group : "energy"

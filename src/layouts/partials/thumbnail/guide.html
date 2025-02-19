@@ -15,24 +15,23 @@
 <section class="card">
   <div class="guide-thumbnail">
     {{ if isset .params  "thumbnail_image" }}
-    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .params.thumbnail_image | absURL }});">
+    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .params.thumbnail_image | absURL }});"></div>
     <!-- If guide doesn't have featured image and is a system-->
     {{ else if eq .params.type "system" }}
-    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/system-guide-thumb-placeholder.jpg)">
+    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/system-guide-thumb-placeholder.jpg)"></div>
     <!-- If guide doesn't have featured image and is a component-->
     {{ else if eq .params.type "component" }}
-    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/component-guide-thumb-placeholder.jpg)">
+    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/component-guide-thumb-placeholder.jpg)"></div>
     <!-- If guide doesn't have featured image and is a measurement-->
     {{ else if eq .params.type "measurement" }}
-    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/measurement-guide-thumb-placeholder.jpg)">
+    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/measurement-guide-thumb-placeholder.jpg)"></div>
     <!-- If guide doesn't have featured image and is a measurement-->
     {{ else if eq .params.type "calculation" }}
-    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/calc-guide-thumb-placeholder.jpg)">
+    <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url(/images/hero/calc-guide-thumb-placeholder.jpg)"></div>
     <!-- If guide doesn't have featured image and is a plant or anythig else-->
     {{ else }}
     <div class="guide-thumbnail-image d-flex justify-content-center align-items-center no-thumb">
     {{ end }}
-    </div>
     <div class="guide-thumbnail-content">
       <div class="px-4 d-flex flex-column justify-content-between" style="height: 62%;">
         <div>

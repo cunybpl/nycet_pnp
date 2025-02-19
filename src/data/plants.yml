@@ -3,21 +3,27 @@ documents:
   - type: plant
     title: "Air-cooled Chilled Water Plant"
     measurement_type: "cooling"
+    group : "cooling"
   - type: plant
     title: "Air Handling Plant"
     measurement_type: "space-heating, cooling, ventilation"
+    group : "air"
   - type: plant
     title: "Hot-water Heating Plant"
-    measurement_type: "space-heating, water-heating"
+    measurement_type: "space-heating, water-heating, heating"
+    group : "heating"
   - type: plant
     title: "Lighting Plant"
     measurement_type: "lighting"
+    group : "lighting"
   - type: plant
     title: "Steam Plant"
     measurement_type: "space-heating"
+    group : "heating"
   - type: plant
     title: "Water-cooled Chilled Water Plant"
     measurement_type: "cooling"
+    group : "cooling"
 
 
 
