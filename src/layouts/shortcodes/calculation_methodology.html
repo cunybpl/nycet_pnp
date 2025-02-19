@@ -12,6 +12,23 @@
             <p class="mb-0 content-card-excerpt">
               {{ .Params.excerpt | truncate 250 }}
             </p>
+            {{ if isset .Params "associated_calculators" }}
+            <div class="px-4">
+              <h6 class="related-title">Related Calculators</h6>
+              <ul id="list-calcs" class="mt-n3 mb-0 card-related-list">
+                {{ $counter := 0 }}
+                {{ $calculators := where site.Data.downloadable_files.files "name" "in" .Params.associated_calculators }}
+                {{ range $calculators }}
+                <!-- This loop is for counter -->
+                  {{ $counter = add $counter 1 }}
+                {{ end }}
+                {{ range first 3 $calculators }}
+                <!-- This loop is for the actual data -->
+                  {{ partial "thumbnail/associated_calculators.html" . }}
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
           </div>
         </div>
         <a class="short-card-link d-flex" href="{{ .Params.url | relURL }}">
