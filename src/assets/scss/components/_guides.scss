@@ -65,6 +65,13 @@
   opacity: 1;
 }
 
+//guide groups
+
+.group-header {
+  max-width: var(--max-width);
+  margin-inline: auto;
+}
+
 .guide-page-content,
 .measurement-page-content,
 .calculation-page-content {
