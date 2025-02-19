@@ -1,6 +1,6 @@
 .card{
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: .25rem;
   margin-bottom: 2rem;
 }
 
@@ -8,6 +8,11 @@
   height: 476px;
   display: flex;
   flex-wrap: wrap;
+  background-color: $nycet-gray-light;
+
+  &.card-related {
+  height:400px;
+  }
 
   &-image {
     width: 45%;
@@ -20,7 +25,6 @@
   }
 
   &-content {
-    background-color: $nycet-gray-light;
     height: 100%;
     width: 55%;
     padding: 1.5rem 0;
@@ -49,21 +53,36 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .guide-thumbnail {
+      height: 569px;
+  }
+}
+
+@media (max-width: 990px) {
+  .guide-thumbnail {
+      height: auto;
+  }
+}
+
 @media (max-width: 485px) {
   .guide-thumbnail {
-    height: auto;
   
     &-image {
-    width: 100%;
+      width: 100%;
     }
 
     &-content {
-    width: 100%;
-    
-    .btn:not(.btn-link) {
       width: 100%;
+    
+      .btn:not(.btn-link) {
+        width: 100%;
+      }
     }
-    }
+  }
+
+  .guide-thumbnail.card-related {
+    height: auto  ;
   }
 }
 

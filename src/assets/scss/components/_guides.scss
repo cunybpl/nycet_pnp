@@ -41,7 +41,7 @@
   max-width: var(--max-width);
 }
 
-.content a {
+.content a:not(.btn) {
   text-decoration: underline;
   overflow-wrap: break-word;
 }
@@ -89,6 +89,7 @@
   display: inline-block;
   margin-left: 14px;
   text-transform: uppercase;
+  line-height: 1;
 }
 
 .content-chip {
@@ -96,10 +97,13 @@
   color: $nycet-gray-darker;
   vertical-align: 2px;
   font-size: 55%;
+  margin-left: 0;
+  line-height: 1;
 }
 
 .content-card-title {
   font-weight: bold;
+  line-height: 1.5;
 }
 
 .guide-header-wrapper {
@@ -109,10 +113,11 @@
   position: sticky;
   top: 0;
   z-index: 3;
-  height: 5rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   overflow-x: auto;
+  scrollbar-width: thin;
   overflow-y: hidden;
   background-color: white;
   border-bottom: 1px solid $nycet-gray;
@@ -194,8 +199,30 @@
   max-width: var(--max-width);
 }
 
-details.guide-header-description {
+/*details elements*/
+details { 
   margin: 1rem 0 0 0;
+
+  &.details-short summary {
+    font-size: 1.2rem;
+    font-weight: bold;
+    list-style-position: outside;
+    margin-left: 1em;
+    padding-left: .5em;
+  }
+
+  // &.details-short > summary > * {
+    
+  // }
+  
+  &.details-short > :not(summary) {
+    padding-left: 1.75em;
+    margin-top: .25rem;
+  }
+}
+
+details.guide-header-description {
+
   > summary {
     display: inline;
   }
@@ -423,8 +450,9 @@ a.btt-btn:hover {
 }
 
 .table-wrapper {
-  overflow-x:auto;
+  overflow-x: auto;
   margin-bottom: 3rem;
+  scrollbar-width: thin;
 }
 // custom table style
 
@@ -561,6 +589,9 @@ table.equation-table {
   display: block;
   margin-block: 1.5em;
   margin-left: 5em;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  overflow-y: hidden;
 }
 .equation-center {
   text-align: center;
@@ -685,4 +716,9 @@ a.glossary-link {
   text-underline-offset: 3px;
   background-color: #f7f7f7;
   padding: 2px 0;
+}
+
+iframe + figcaption,
+video + figcaption {
+  margin-block-start: -1rem;
 }

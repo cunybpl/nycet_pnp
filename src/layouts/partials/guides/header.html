@@ -1,7 +1,7 @@
 {{ $page_type := .Params.type }}
 <section class="guide-header-wrapper">
   <div class="guide-header container">
-    <div class="guide-header-title w-100">
+    <div class="guide-header-title">
       <div class="px-0 mr-3">
         <h1 class="mb-0" title="{{ .Title }}">{{ .Title }}<span class="chip px-3 py-2">{{ .Params.type | title }}</span></h1>
       </div>
@@ -11,9 +11,9 @@
         {{ if eq .name $page_type }}
           {{ range .tabs }}
             <button id="tab-item-{{ .name }}" class="header-tab-item" onclick="displayGuideContent(event)">
-              <div class="tab-icon">
+              <!-- <div class="tab-icon">
                 {{ .icon | absURL }}
-              </div>
+              </div> -->
               {{ .label }}
             </button>
           {{ end }}

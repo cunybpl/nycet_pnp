@@ -43,19 +43,35 @@ The duration of the long-term measurement and when to measure is dependent on th
 
 ### Type of Measurement
 
-<strong>Direct and Proxy</strong> 
-
 <strong>Electrical energy measurements are direct measurements of energy</strong>, and the obtained data can be used to calculate the annual energy consumption of the system or component.
 
 This methodology can also be used as a <strong>proxy measurement</strong> of operational hours of the system or component. Daily or weekly models can be developed to better characterize the equipment. 
 
-### Measurement Equipment to Use
+## Measurement Equipment
 
-The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger/) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off of the [Dent EliteProXC](https://nycenergytools.com/equipment/energy-logger-2/) power data logger, which can be found and borrowed through FELL. 
+The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current.
 
-The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips). 
+The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips).
 
+{{< admonition type="tip" >}}
+**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
+{{< /admonition >}}
+
+This measurement technique makes use of the following equipment available in the [Field Equipment Lending Library](https://nycenergytools.com/equipment/):
+
+<div class="equip-grid">
+
+{{< equipment_link url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Enegry Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files." >}}
+
+{{< equipment_link url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Enegry Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs." >}}
+
+{{< equipment_link url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Enegry Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements." >}}
+
+</div>
+
+{{< admonition type="note" >}}
 Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
+{{< /admonition >}}
 
 ## Measurement Steps
 
@@ -92,9 +108,9 @@ This section illustrates the most common wire configurations for a panelboard an
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with the manufacturer’s proprietary software installed to do the following: 
 
-<div class="alert alert-warning" role="alert">
-<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
-</div>
+{{< admonition type="warning">}}
+**Do not remove the logger or sensors.** If you remove the logger, you may need to start over with the setup and installation process.
+{{< /admonition >}}
 
 1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
@@ -116,22 +132,22 @@ After verifying that the logger is collecting data, do the following:
 <iframe class ="video" src="https://www.youtube.com/embed/fLDJ8E2pa9A?si=E3pn5GmWDnfA0c5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 4. How to extract data from the power meter and convert to .csv on ELOG software. (Click to Start Video)</figcaption>
 
-## Troubleshooting Our Measurement Equipment
+### 5. Process and Analyze Measured Data
 
-<strong>Problem 1:</strong> Unexpected Negative Readings
+Use the collected measurement data in the corresponding calculator file based on the type of component you are measuring:
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> Confirm that all current transformers (CTs) are facing the correct direction.
-</div>
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer" excerpt="Uses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
 
-<strong>Problem 2:</strong> Unexpected Low Values
+## Troubleshooting
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.
-</div> 
+{{< details summary="Unexpected Negative Readings" >}}
+Confirm that all current transformers (CTs) are facing the correct direction.
+{{< /details >}}
 
-<strong>Problem 3:</strong> CTs Do Not Fit in Panelboard Casing
+{{< details summary="Unexpected Low Values" >}}
+Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.
+{{< /details >}}
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> If it is safe to do so, trace the wires outside the panel board and install the sensors there. If this is unsafe or not possible to do, consider following an alternative approach of measuring current to the system with either instantaneous true power or nameplate data as a proxy for total power draw and energy consumption.
-</div>
+{{< details summary="CTs Do Not Fit in Panelboard Casing" >}}
+If it is safe to do so, trace the wires outside the panel board and install the sensors there. If this is unsafe or not possible to do, consider following an alternative approach of measuring current to the system with either instantaneous true power or nameplate data as a proxy for total power draw and energy consumption.
+{{< /details >}}

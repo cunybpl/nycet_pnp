@@ -17,7 +17,7 @@ url: "/documents/systems/air-to-air-energy-recovery"
 
 An air-to-air energy recovery (AAER) system consists of a heat exchanger component, air ducts and any associated device for its operation. AAER systems extract sensible (and sometimes latent) energy from a previously conditioned “outgoing” airstream and use that energy to pre-condition a separate “incoming” air stream. Typically, the outgoing airstream is drawn from occupied spaces in a building, and the incoming air is from the outdoors.  The two airstreams must be at different temperatures for sensible heat transfer and different moisture contents for latent transfer. For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Chapter 26.
 
-## Air-to-air Energy Recovery Components
+## Components
 
 Figure 1 shows the main components associated with a fixed plate heat exchanger including the heat exchanger, air ducts and fan and motors. In a AAER with a rotary wheel heat exchanger there is also a motor used to power the rotary wheel.
 
@@ -32,15 +32,9 @@ Figure 1 shows the main components associated with a fixed plate heat exchanger 
 
 The heat exchanger transfers energy between the two airstreams.  The most common air-to-air heat exchangers as defined by ASHRAE are listed below. The energy transfer effectiveness in a heat exchanger relies on its configuration, the material properties of the energy exchange surface, and a design that maximizes the contact of the airstream with the heat exchange surface. 
 
-#### Fixed Plate Heat Exchanger
-
-A fixed plate heat exchanger functions by providing neighboring channels, separated by plates, for airstreams to pass through and transfer energy. The channel separation determines both the pressure drop and efficiency of the heat exchanger. Many fixed plate heat exchangers only transfer sensible heat, but they can be designed to transfer latent energy (i.e., moisture) as well, depending on the material used.
-
-#### Rotary Air-to-air Energy Exchanger
+#### [Rotary Air-to-air Energy Exchanger](/documents/components/air-to-air-heat-exchanger)
 
 A rotary wheel exchanger consists of a belt driven wheel that is built up by a matrix of foils. The wheel rotates and moves through both the incoming and outgoing air streams, effectively transferring heat between them. The pressure drop and efficiency of the exchanger depends on the wheel diameter and density of corrugation. Most rotary wheel exchangers transfer both sensible heat and latent energy. Figure 3 shows an example of a rotary wheel heat exchanger.
-
-{{< page_hyperlink page_title="Air-to-air Heat Exchanger" >}}
 
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 3.png">
     <figure class="figure">
@@ -48,6 +42,10 @@ A rotary wheel exchanger consists of a belt driven wheel that is built up by a m
         <figcaption class="figure-caption text-left">Figure 3. Rotary air-to-air energy exchangers (click on image to enlarge).</figcaption>
     </figure>
 </a>
+
+#### Fixed Plate Heat Exchanger
+
+A fixed plate heat exchanger functions by providing neighboring channels, separated by plates, for airstreams to pass through and transfer energy. The channel separation determines both the pressure drop and efficiency of the heat exchanger. Many fixed plate heat exchangers only transfer sensible heat, but they can be designed to transfer latent energy (i.e., moisture) as well, depending on the material used.
 
 #### Coil Energy Recovery (Runaround) Loop
 
@@ -57,7 +55,9 @@ Coil energy recovery loops, also known as runaround loops, make use of a heat ex
 
 Heat pipe heat exchangers operate by using a working fluid that changes phases to transfer heat. As shown in Figure 5, one side of the heat pipe is placed in the exhaust stream and the other is placed in the supply stream, causing one side of the pipe to undergo evaporation and the other side to undergo condensation, effectively transferring heat. Heat pipe heat exchangers transfer sensible heat only. 
 
+{{< admonition type="note">}}
 See Chapter 26 of the ASHRAE Handbook on Heating, Ventilating, and Air-Conditioning Systems and Equipment for discussion of these and other heat exchangers. 
+{{< /admonition >}}
 
 ### Air Duct 
 

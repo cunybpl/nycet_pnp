@@ -31,7 +31,7 @@
             {{ range where .all_calculators "name" "in" .content }}
               <div class="col-lg-6">
                 <div class="card">
-                  <div class="guide-thumbnail" style="height: 350px !important;">
+                  <div class="guide-thumbnail card-related">
                     {{ if isset . "image" }}
                     <div class="guide-thumbnail-image d-flex justify-content-center align-items-center" style="background-image: url({{ .image | absURL }});">
                     {{ else }}
