@@ -6,3 +6,6 @@ documents:
   - type: soo
     title: "SOO Test B"
     measurement_type: ""
+  - type: soo
+    title: "Supply Air Temperature Reset"
+    measurement_type: ""
