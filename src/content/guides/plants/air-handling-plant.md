@@ -20,7 +20,7 @@ url: "/documents/plants/air-handling-plant"
 The air handling plant (AHP) takes input energy (e.g., electricity, heated or chilled water) and conditions the air to meet required indoor environmental conditions (e.g., temperature, humidity, fresh air). The AHP may be made up of different types of air handling units (AHUs) at the system level (e.g., rooftop unit, fan coil unit, constant speed unit) which will be discussed at the system level descriptions. For a more detailed overview of various system configurations for this plant, please refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4 – Air Handling and Distribution.
 
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg">
-    <figure class="figure mb-4 mt-3">
+    <figure class="figure mt-3 mb-0">
         <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air Handling Plant.">
         <figcaption class="figure-caption text-left">Figure 1. Air Handling Plant (click on image to enlarge).</figcaption>
     </figure>

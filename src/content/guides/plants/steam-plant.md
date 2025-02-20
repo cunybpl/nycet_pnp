@@ -83,7 +83,7 @@ The feedwater system provides fresh or, at times, treated water to the steam boi
 The blowdown system removes suspended solids and sludge from the boiler water in order to preserve the operation and efficiency of the steam plant components. An integrated blowdown system reduces unnecessary blowdown by monitoring water quality and allows for heat recovery from the blowdown water to pre-heat the feedwater, generates service hot water or other applications.
 
 <a href="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg">
-    <figure class="figure mb-4 mt-3">
+    <figure class="figure mb-0 mt-3">
         <img src="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 6. Blowdown System.">
         <figcaption class="figure-caption text-left">Figure 6. Blowdown System (click on image to enlarge).</figcaption>
     </figure>

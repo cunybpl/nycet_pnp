@@ -22,7 +22,7 @@ url: "/documents/plants/water-cooled-chilled-water-plant"
 A water-cooled chilled water plant consists of a water-cooled chiller system, a condenser water loop system and a chilled water loop system operating to meet cooling demand in a facility. If a waterside economizer is implemented in the facility, the chilled water plant includes a waterside economizer system as well.
 
 <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 1 updated.jpg">
-    <figure class="figure mb-4 mt-3">
+    <figure class="figure mb-0 mt-3">
         <img src="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Water-cooled chilled water plant.">
         <figcaption class="figure-caption text-left">Figure 1. Water-cooled chilled water plant (click on image to enlarge).</figcaption>
     </figure>

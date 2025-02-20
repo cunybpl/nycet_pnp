@@ -18,7 +18,7 @@ url: "/documents/plants/hot-water-heating-plant"
 The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, biomass) and generates hot water that is distributed throughout a facility to provide space heating. A HWH boiler may also generate hot water to provide for other loads, such as domestic hot water or process heat. A hot water heating plant consists of a hot water heating boiler, a feedwater system, and a hot water heating loop.  
 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg">
-    <figure class="figure mb-4 mt-3">
+    <figure class="figure mb-0 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Hot-Water heating plant.">
         <figcaption class="figure-caption text-left">Figure 1. Hot water heating plant (click on image to enlarge).</figcaption>
     </figure>

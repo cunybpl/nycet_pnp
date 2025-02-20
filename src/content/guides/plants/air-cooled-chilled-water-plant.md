@@ -18,7 +18,7 @@ url: "/documents/plants/air-cooled-chilled-water-plant"
 An air-cooled chilled water plant consists of an air-cooled chiller system and a chilled water loop system operating to meet the cooling demand in a facility. The air-cooled chiller produces chilled water through the basic refrigeration cycle. The primary chilled water pump circulates the chilled water between the chiller and the chilled water loop. In some cases, a secondary chilled water pump distributes the chilled water produced by the chiller to air handling units (AHUs) in the building.
 
 <a href="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 1 updated.jpg">
-    <figure class="figure mb-4 mt-3">
+    <figure class="figure mb-0 mt-3">
         <img src="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air-cooled chilled water plant.">
         <figcaption class="figure-caption text-left">Figure 1. Air-cooled chilled water plant (click on image to enlarge).</figcaption>
     </figure>
