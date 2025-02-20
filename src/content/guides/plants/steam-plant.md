@@ -28,58 +28,62 @@ A low pressure steam plant takes input energy (e.g., fuel, gas, biomass) and use
     </figure>
 </a>
 
-## Steam Plant Systems and Components
+## Systems
 
-### Steam Boiler System
+### Steam Boiler
 
-A steam boiler system is the largest energy-consuming system in the steam plant. A steam boiler generates steam by transferring heat from the combustion gases in the combustion chamber to the water. The steam produced is then transported out to the facility to meet the heating loads. The primary components of a steam boiler system are shown in Figure 2.
+A steam boiler system is the largest energy-consuming system in the steam plant. A steam boiler generates steam by transferring heat from the combustion gases in the combustion chamber to the water. The steam produced is then transported out to the facility to meet the heating loads.
+<a class="continue" href="/documents/systems/boiler"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<a href="/images/plants/steam-plant/2024_0415_STEAM plant_figure 2 updated.jpg">
+<!-- <a href="/images/plants/steam-plant/2024_0415_STEAM plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/steam-plant/2024_0415_STEAM plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Steam Boiler System.">
         <figcaption class="figure-caption text-left">Figure 2. Steam Boiler System (click on image to enlarge).</figcaption>
     </figure>
-</a>
+</a> -->
 
 ### Steam Distribution System
 
 A low-pressure steam distribution system supplies the steam to the facility or facilities. Steam distribution systems are generally closed-loop, where the steam condensate is returned to the steam boiler to be re-heated (see Condensate Recovery System below). The steam distribution system contains various valves and steam traps to regulate heating and manage condensate throughout a building.
+<a class="continue" href="/documents/systems/steam-distribution"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<a href="/images/plants/steam-plant/2024_0416_STEAM plant_figure 3 updated.jpg">
+<!-- <a href="/images/plants/steam-plant/2024_0416_STEAM plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/steam-plant/2024_0416_STEAM plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Steam Distribution System.">
         <figcaption class="figure-caption text-left">Figure 3. Steam Distribution System (click on image to enlarge).</figcaption>
     </figure>
-</a>
+</a> -->
 
 ### Condensate Recovery System
 
-A condensate recovery system complements the steam distribution system to maintain the efficiency of the steam plant. The condensate usually returns to the boiler, minimizing the feedwater and fuel supply to the boiler.  
+A condensate recovery system complements the steam distribution system to maintain the efficiency of the steam plant. The condensate usually returns to the boiler, minimizing the feedwater and fuel supply to the boiler.
+<a class="continue" href="/documents/systems/steam-condensate-recovery"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<a href="/images/plants/steam-plant/2024_0416_STEAM plant_figure 4 updated.jpg">
+<!-- <a href="/images/plants/steam-plant/2024_0416_STEAM plant_figure 4 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/steam-plant/2024_0416_STEAM plant_figure 4 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Condensate Recovery System.">
         <figcaption class="figure-caption text-left">Figure 4. Condensate Recovery System (click on image to enlarge).</figcaption>
     </figure>
-</a>
+</a> -->
 
 ### Feedwater System
 
-The feedwater system provides fresh or, at times, treated water to the steam boiler system and allows for removal of water that contains pollutants (i.e., unwanted minerals and/or sediment). This increases the longevity of the system equipment, at a cost of the energy required to heat the feedwater, which is colder than the recirculated condensate. Feedwater systems may include a heat exchanger – commonly called an economizer – which recovers heat from the boiler fuel gases and uses it to pre-heat the feedwater.  
-'
-<a href="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg">
+The feedwater system provides fresh or, at times, treated water to the steam boiler system and allows for removal of water that contains pollutants (i.e., unwanted minerals and/or sediment). This increases the longevity of the system equipment, at a cost of the energy required to heat the feedwater, which is colder than the recirculated condensate. Feedwater systems may include a heat exchanger – commonly called an economizer – which recovers heat from the boiler fuel gases and uses it to pre-heat the feedwater.
+<a class="continue" href="/documents/systems/feedwater"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
+
+<!-- <a href="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg">
 <figure class="figure">
   <img src="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 5. Feedwater System.">
   <figcaption class="figure-caption text-left">Figure 5. Feedwater System (click on image to enlarge).</figcaption>
 </figure>
-</a>
+</a> -->
 
 ### Blowdown System
 
 The blowdown system removes suspended solids and sludge from the boiler water in order to preserve the operation and efficiency of the steam plant components. An integrated blowdown system reduces unnecessary blowdown by monitoring water quality and allows for heat recovery from the blowdown water to pre-heat the feedwater, generates service hot water or other applications.
 
 <a href="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg">
-    <figure class="figure mb-4 mt-3">
+    <figure class="figure mb-0 mt-3">
         <img src="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 6. Blowdown System.">
         <figcaption class="figure-caption text-left">Figure 6. Blowdown System (click on image to enlarge).</figcaption>
     </figure>

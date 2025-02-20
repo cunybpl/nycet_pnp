@@ -20,7 +20,7 @@ url: "/documents/plants/air-handling-plant"
 The air handling plant (AHP) takes input energy (e.g., electricity, heated or chilled water) and conditions the air to meet required indoor environmental conditions (e.g., temperature, humidity, fresh air). The AHP may be made up of different types of air handling units (AHUs) at the system level (e.g., rooftop unit, fan coil unit, constant speed unit) which will be discussed at the system level descriptions. For a more detailed overview of various system configurations for this plant, please refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4 – Air Handling and Distribution.
 
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg">
-    <figure class="figure mb-4 mt-3">
+    <figure class="figure mt-3 mb-0">
         <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air Handling Plant.">
         <figcaption class="figure-caption text-left">Figure 1. Air Handling Plant (click on image to enlarge).</figcaption>
     </figure>
@@ -33,7 +33,7 @@ The systems and components that make up the air handling plant are listed and de
 ### Constant-speed, Constant-volume (CSCV) AHU
 
 A CSCV air handling system provides heating, cooling and ventilation air to a space in a facility. The AHU is built on-site out of various sections. The volume of outside air in the AHU can be modulated from 0% (outside air damper fully closed) to a typical ventilation rate (minimum outside air damper position) and in some cases can provide 100% outside air (economizer mode).
-<a class="continue" href="/documents/systems/constant-speed-constant-volume-air-handling-system"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/systems/constant-speed-constant-volume-air-handling-system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 <!-- <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -45,7 +45,7 @@ A CSCV air handling system provides heating, cooling and ventilation air to a sp
 ### Variable-air Volume AHU
 
 A VAV system consists of a main AHU and multiple VAV boxes that serve different zones. The AHU has fan motors that are equipped with variable frequency drives (VFDs) which allow the fan speed (and associated air volume) to modulate as the building demand changes. VAV boxes are installed in the supply air ductwork in the zones served and are generally installed with a heating coil, also known as a reheat coil. This enables the system to adjust the supply air temperature to prevent over-cooling a space. The VAV system allows for space temperature and ventilation air control in each zone. VAV boxes are usually set with a minimum damper position associated with the minimum required ventilation airflow needed for the zone.
-<a class="continue" href="/documents/systems/variable-speed-variable-volume-air-handling-system"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/systems/variable-speed-variable-volume-air-handling-system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 <!-- <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -58,7 +58,7 @@ A VAV system consists of a main AHU and multiple VAV boxes that serve different 
 ### Air-to-air Energy Recovery
 
 Air-to-air heat exchangers transfer energy between two airstreams that must be at different temperatures for sensible heat transfer and different moisture contents for latent heat transfer.
-<a class="continue" href="/documents/systems/air-to-air-energy-recovery"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/systems/air-to-air-energy-recovery"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Dedicated Outdoor Air System (DOAS) 
 

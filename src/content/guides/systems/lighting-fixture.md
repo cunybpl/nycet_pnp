@@ -13,7 +13,7 @@ url: "/documents/systems/lighting-fixture"
 
 A lighting fixture system produces light to illuminate a specific area or areas. Current is received from the electrical distribution system. The group of fixtures that comprise a lighting system can be configured in many ways with different lamp types and a building can have one or more lighting fixture systems. The main components of an individual lighting fixture are lamps, ballasts, and controls. 
 
-## Components of a Lighting Fixture System
+## Components
 
 Figure 1 shows the main components associated with a lighting fixture system. 
 

@@ -22,7 +22,7 @@ The feedwater system usually receives condensate recovered from the condensate r
 Feedwater systems supply fresh water to hot water or steam boilers to make up for losses from
 boiler blowdown, steam traps, hot water use or other losses. The feedwater system receives inputs of make - up water (treated fresh water) and, in steam systems, condensate from the condensate recovery system.
 
-## Feedwater System Components
+## Components
 
 The main components of a boiler feedwater system are one or more feed pumps, and a receiver tank. Feedwater systems may include an economizer and larger systems also can have a deaerator tank. These components are shown in Figure 1.
 
@@ -35,7 +35,17 @@ The main components of a boiler feedwater system are one or more feed pumps, and
 
 ### Pumps and Motors 
 
-The feedwater pumps and motors inject the feedwater stored in the feedwater tank into the boiler. The pumps and motors are driven by a feedwater controller that monitors the water level of the boiler and the water contaminant levels. When the controller receives the signal, it will turn on the pumps and feedwater will flow into the boiler.  
+The feedwater pumps and motors inject the feedwater stored in the feedwater tank into the boiler. The pumps and motors are driven by a feedwater controller that monitors the water level of the boiler and the water contaminant levels. When the controller receives the signal, it will turn on the pumps and feedwater will flow into the boiler.
+
+#### Constant-speed, Constant-volume Pump
+
+A constant-speed, constant-volume pump and motor operates at a single speed to circulate liquid.
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+
+#### Variable-speed, Variable-volume Pump
+
+A variable-speed, variable-volume pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve.
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Piping Network 
 
