@@ -9,8 +9,6 @@ associated_components:
   - Constant-speed, Constant-volume Fan and Motor
 related_components:
   - Constant-speed, Constant-volume Fan and Motor
-related_measurements:
-  - Electrical Current
 url: "/documents/soos/chilled-water-supply-temperature-reset"
 ---
 
@@ -33,3 +31,5 @@ Figure 1 presents a schematic of the general principle of the CHWST reset contro
 figure 1
 
 ## Algorithm for the Sequence of Operation
+
+The general CHWST reset algorithm is described in the ASHRAE handbook, “2019 ASHRAE HVAC – Applications”. The algorithm is implemented differently depending on the input control variable: OAT, cooling coil valve position, or chilled water return temperature.
