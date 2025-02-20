@@ -22,57 +22,61 @@ url: "/documents/plants/water-cooled-chilled-water-plant"
 A water-cooled chilled water plant consists of a water-cooled chiller system, a condenser water loop system and a chilled water loop system operating to meet cooling demand in a facility. If a waterside economizer is implemented in the facility, the chilled water plant includes a waterside economizer system as well.
 
 <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 1 updated.jpg">
-    <figure class="figure mb-4 mt-3">
+    <figure class="figure mb-0 mt-3">
         <img src="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Water-cooled chilled water plant.">
         <figcaption class="figure-caption text-left">Figure 1. Water-cooled chilled water plant (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
-## Water-cooled Chilled Water Plant Systems and Components
+## Systems
 
-### Water-cooled Chiller System
+### Water-cooled Chiller
 
-A water-cooled chiller produces chilled water through the basic refrigeration cycle to the chilled water loop to distribute to the facility. The primary systems and components of a water-cooled chiller are shown in Figure 2.
+A water-cooled chiller produces chilled water through the basic refrigeration cycle to the chilled water loop to distribute to the facility.
+<a class="continue" href="/documents/systems/water-cooled-chiller"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<a href="/images/plants/water-cooled-chilled-water-plant/2024_0415_WCCW plant_figure 2 updated.jpg">
+<!-- <a href="/images/plants/water-cooled-chilled-water-plant/2024_0415_WCCW plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/water-cooled-chilled-water-plant/2024_0415_WCCW plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Water-cooled chiller.">
         <figcaption class="figure-caption text-left">Figure 2. Water-cooled chiller (click on image to enlarge).</figcaption>
     </figure>
-</a>
+</a> -->
 
-### Chilled Water Loop System
+### Chilled Water Loop
 
-A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building. Components of a chilled water loop are shown in Figure 3.
+A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building.
+<a class="continue" href="/documents/systems/chilled-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 3 updated.jpg">
+<!-- <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water loop.">
         <figcaption class="figure-caption text-left">Figure 3. Chilled water loop (click on image to enlarge).</figcaption>
     </figure>
-</a>
+</a> -->
 
-### Condenser Water Loop System
+### Condenser Water Loop
 
-A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower where the condenser water is cooled and returned to the chiller condenser. Components of a condenser water loop are shown in Figure 4.
+A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower where the condenser water is cooled and returned to the chiller condenser.
+<a class="continue" href="/documents/systems/condenser-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg">
+<!-- <a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg">
     <figure class="figure">
         <img src="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 4. Condenser water loop.">
         <figcaption class="figure-caption text-left">Figure 4. Condenser water loop (click on image to enlarge).</figcaption>
     </figure>
-</a>
+</a> -->
 
 ### Waterside Economizer System
 
-Waterside economizers may use an external plate-and-frame heat exchanger between the condenser and chilled water loop or the chiller itself may be set up to perform the function of a waterside heat exchanger. When the outdoor temperatures are favorable, heat from the chilled water loop may be rejected directly to the condenser water loop through a heat exchanger without running the chiller compressor motor. Components of a waterside economizer system are shown in Figure 5.
+Waterside economizers may use an external plate-and-frame heat exchanger between the condenser and chilled water loop or the chiller itself may be set up to perform the function of a waterside heat exchanger. When the outdoor temperatures are favorable, heat from the chilled water loop may be rejected directly to the condenser water loop through a heat exchanger without running the chiller compressor motor.
+<a class="continue" href="/documents/systems/waterside-economizer"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 5 updated.jpg">
+<!-- <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 5 updated.jpg">
     <figure class="figure">
         <img src="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 5 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 5. Waterside economizer system.">
         <figcaption class="figure-caption text-left">Figure 5. Waterside economizer system (click on image to enlarge).</figcaption>
     </figure>
-</a>
+</a> -->
 
 ## Evaluation of Energy Consumption
 

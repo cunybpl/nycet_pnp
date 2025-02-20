@@ -19,7 +19,7 @@ url: "/documents/systems/hot-water-loop"
 
 A hot water heating (HWH) loop system uses hot water produced by a hydronic boiler and circulates it to terminal units (e.g., heating coils in air handling units, radiant equipment) in the facility and then back to the boiler using primary-only or primary-secondary pumps and a piping network.  
 
-<h3>Primary-flow System</h3>
+### Primary-flow System
 
 A primary-flow HWH loop system consists of pumps that circulate hot water from the designated zone to the boilers. The components are shown in Figure 1.  Primary pumps are usually headered to allow for the minimum flow through the boiler and there are usually multiple pumps to allow for staging and redundancy; however, a boiler-dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow. 
 
@@ -27,7 +27,7 @@ A <strong>constant-primary-flow system</strong> usually has a staged heating sys
 
 A <strong>variable-primary-flow system</strong> has primary HWH loop pumps with variable speed drives that regulate the flow of the system based on the heating load of the building. The heating system may be staged or constant. 
 
-<h3>Primary-secondary Flow System</h3>
+### Primary-secondary Flow System
 
 A system with primary-secondary pumps will have the primary pumps circulate the hot water to a low loss header, while the secondary pumps circulate the hot water to the zones in the facility. The components of a primary-secondary flow system are shown in Figure 2. The following arrangements can be found in a primary-secondary flow system: 
 
@@ -35,7 +35,7 @@ A <strong>constant-primary variable-secondary flow system</strong> has constant 
 
 A <strong>variable-primary variable-secondary flow system</strong> has variable-speed pumps on both the primary and secondary loops. They are controlled by the firing rate in the boiler and the heat load demand in the terminal units. 
 
-## Hot Water Heating Loop Components
+## Components
 
 The main components associated with the HWH loop system are primary pumps for primary-flow systems, primary and secondary pumps for primary-secondary flow systems, piping network and terminal units.
 
@@ -48,11 +48,31 @@ The main components associated with the HWH loop system are primary pumps for pr
 
 ### Primary HWH Loop Pump and Motor
 
-A primary HWH loop pump and motor circulate water from the boiler to the building in a primary-only system or to the secondary pump and motor in a primary-secondary system through the piping network. A primary HWH loop pump and motor can operate at constant speed or variable speed based on the design of the hot water plant.  
+A primary HWH loop pump and motor circulate water from the boiler to the building in a primary-only system or to the secondary pump and motor in a primary-secondary system through the piping network. A primary HWH loop pump and motor can operate at constant speed or variable speed based on the design of the hot water plant.
+
+#### Constant-speed, Constant-volume Pump
+
+A constant-speed, constant-volume pump and motor operates at a single speed to circulate liquid.
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+
+#### Variable-speed, Variable-volume Pump
+
+A variable-speed, variable-volume pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. 
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Secondary HWH Loop Pump and Motor
 
-A secondary HWH loop pump and motor circulates water from the primary piping network to the building. A secondary HWH loop pump and motor are found in primary-secondary flow systems and can be at constant-speed or can be equipped with variable frequency drives that are controlled by the differential pressure in the secondary piping network.  
+A secondary HWH loop pump and motor circulates water from the primary piping network to the building. A secondary HWH loop pump and motor are found in primary-secondary flow systems and can be at constant-speed or can be equipped with variable frequency drives that are controlled by the differential pressure in the secondary piping network.
+
+#### Constant-speed, Constant-volume Pump
+
+A constant-speed, constant-volume (CSCV) pump and motor operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. 
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+
+#### Variable-speed, Variable-volume Pump
+
+A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. 
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Primary HWH Loop Piping Network
 

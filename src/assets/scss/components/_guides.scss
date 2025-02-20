@@ -383,6 +383,14 @@ a.btt-btn:hover {
   color: white;
 }
 
+a.continue {
+  white-space: nowrap;
+
+  & span {
+    margin-right: 6px;
+  }
+}
+
 // .associated_systems_see_more_btn {
 // }
 
@@ -400,12 +408,9 @@ a.btt-btn:hover {
   font-size: 1.5rem;
   font-weight: 700;
   max-height: 45px;
-  text-overflow: ellipsis;
-  text-overflow: ellipsis ellipsis;
   overflow-x: hidden;
   display: block;
   white-space: nowrap;
-  max-width: 42ch;
   scrollbar-width: thin;
 }
 
