@@ -21,7 +21,7 @@ url: "/documents/systems/chilled-water-loop"
 
 A chilled water (CHW) loop consists of two main components – the pump and motors and a piping network. Chilled water is circulated by the pumps from the evaporator section of the chiller through the piping network to a terminal unit, such as a water-to-air heat exchanger in the air handling units or to other radiant equipment such as chilled beams, and then back to the chiller. A CHW loop can be designed as a primary-flow system and a primary-secondary system.
 
-<h3>Primary-flow System</h3>
+### Primary Flow
 
 A primary-flow chilled water system consists of CHW pumps that circulate chilled water from the air-conditioned zone to the chillers. Primary pumps are usually headered to allow for the minimum flow through the chiller and there are usually multiple pumps to allow for staging and redundancy; however, a chiller dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow.
 
@@ -29,7 +29,7 @@ A **constant-primary-flow system** usually has a staged cooling system and const
 
 A **variable-primary-flow system** has primary CHW pumps with variable speed drives that regulates the flow of the system based on the cooling load of the building.
 
-<h3>Primary-secondary Flow System</h3>
+### Primary-secondary Flow
 
 A primary-secondary chilled water system consists of a primary CHW loop with primary pumps and secondary CHW loop with secondary pumps to distribute the cooling load to the building. The components of a primary-secondary flow system are shown in Figure 1. The following designs can be found in a primary-secondary flow system:
 
@@ -37,7 +37,7 @@ A **constant-primary variable-secondary flow system** has constant speed pumps t
 
 A **variable-primary variable-secondary flow system** has variable frequency drives (VFDs) installed on primary and secondary pump motors controlled by the differential pressure in the piping network.
 
-## Chilled Water Loop Components
+## Components
 
 The main components associated with the CHW loop are primary pumps for primary-flow systems and primary and secondary pumps for primary-secondary flow systems.
 
@@ -52,9 +52,29 @@ The main components associated with the CHW loop are primary pumps for primary-f
 
 A primary CHW pump and motor circulates chilled water from the evaporator section of the chiller to the building in a primary-only system or to the secondary pump and motor through the piping network. A primary CHW pump and motor can operate at constant speed or variable speed based on the design of the chilled water plant.
 
+#### Constant-speed, Constant-volume Pump
+
+A constant-speed, constant-volume (CSCV) pump and motor operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. 
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+
+#### Variable-speed, Variable-volume Pump
+
+A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. 
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+
 ### Secondary CHW Pump and Motor
 
-A secondary CHW pump and motor circulates chilled water from the primary piping network to the building. A secondary CHW pump and motor are found in primary-secondary flow systems and can be at constant-speed or can be equipped with variable frequency drives that are controlled by the differential pressure in the secondary piping network. 
+A secondary CHW pump and motor circulates chilled water from the primary piping network to the building. A secondary CHW pump and motor are found in primary-secondary flow systems and can be at constant-speed or can be equipped with variable frequency drives that are controlled by the differential pressure in the secondary piping network.
+
+#### Constant-speed, Constant-volume Pump
+
+A constant-speed, constant-volume (CSCV) pump and motor operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. 
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+
+#### Variable-speed, Variable-volume Pump
+
+A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. 
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
 
 ### Primary CHW Piping Network
 

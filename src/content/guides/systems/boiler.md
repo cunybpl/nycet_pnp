@@ -19,9 +19,9 @@ url: "/documents/systems/boiler"
 
 A boiler system provides either hot water or steam to distribute the heating load within a facility. Heat is transferred from the combustion chamber to water until the set point temperature to generate hot water or until the boiling point to generate steam, or beyond the boiling point to generate superheated steam.  
 
-## Boiler System Components
+## Components
 
-The main components of a boiler system are burner, combustion chamber, heat exchanger, and draft fan. These components are shown in Figure 1. 
+The main components of a boiler system are the burner, combustion chamber, heat exchanger, and draft fan. These components are shown in Figure 1. 
 
 <a href="/images/systems/boiler/2024_0423_BOILER system_figure 1 updated.jpg">
 <figure class="figure">
@@ -36,7 +36,8 @@ The combustion chamber is where the fuel is burned. It houses the burners and is
 
 ### Heat Exchanger
 
-The heat exchanger of boiler systems enables the heat transfer from the fuel combustion chamber to the water, without having direct contact. Non-condensing boilers typically have a single heat exchanger chamber while condensing boilers have a secondary heat exchanger, increasing the heat transfer area of the system and improving its efficiency. To operate in condensing mode the return water to the boiler must be at or below 140oF. 
+The heat exchanger of boiler systems enables the heat transfer from the fuel combustion chamber to the water, without having direct contact. Non-condensing boilers typically have a single heat exchanger chamber while condensing boilers have a secondary heat exchanger, increasing the heat transfer area of the system and improving its efficiency. To operate in condensing mode the return water to the boiler must be at or below 140°F.
+<a class="continue" href="/documents/components/liquid-to-liquid-heat-exchanger"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Burner
 
@@ -45,6 +46,7 @@ The main function of the burner is to deliver fuel and air, mix them in the requ
 ### Draft Fan (Burner Fan Motor)
 
 Mechanical draft boilers usually have a draft fan that creates the required pressure difference. It is driven by a motor to provide oxygen to the combustion chamber for adequate combustion.   
+<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
 
 ## Evaluation of Energy Consumption
 
