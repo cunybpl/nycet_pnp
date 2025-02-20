@@ -31,36 +31,36 @@ The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, b
 The hot water heating boiler is the largest energy-consuming system in the hot water heating plant. Hot water is produced primarily through the heat transfer from combustion gases in the combustion chamber to the water. The hot water produced by the system is then transported out to the facility to meet required heating loads or domestic hot water needs.
 <a class="continue" href="/documents/systems/boiler"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<!-- <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg">
+<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Hot water heating boiler system.">
         <figcaption class="figure-caption text-left">Figure 2. Hot water heating boiler system (click on image to enlarge).</figcaption>
     </figure>
-</a> -->
+</a>
 
 ### Hot Water Loop
 
 The hot water loop system encompasses the distribution system responsible for moving hot water throughout the building. Components of a typical hot water loop system are primary-only or primary-secondary pumps, piping network and piping insulation.
 <a class="continue" href="/documents/systems/hot-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<!-- <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg">
+<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Hot water loop system.">
         <figcaption class="figure-caption text-left">Figure 3. Hot water loop system (click on image to enlarge).</figcaption>
     </figure>
-</a> -->
+</a>
 
 ### Feedwater System
 
 The feedwater system provides treated make-up water and returned hot water from the hot water loop. Feedwater requires proper treatment to remove pollutants and preserve the efficiency of the boiler.
 <a class="continue" href="/documents/systems/feedwater"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
-<!-- <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg">
+<a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Feedwater system and chemical treatment for make-up water.">
         <figcaption class="figure-caption text-left">Figure 4. Feedwater system and chemical treatment for make-up water (click on image to enlarge).</figcaption>
     </figure>
-</a> -->
+</a>
 
 ## Evaluation of Energy Conumption
 
