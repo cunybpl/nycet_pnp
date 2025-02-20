@@ -19,7 +19,7 @@ url: "/documents/systems/steam-condensate-recovery"
 
 The steam condensate recovery system is responsible for collecting condensate from the steam distribution system through steam tramps and recovering waste heat. The condensate returned to the boiler is typically passed through a deaerator to remove unwanted oxygen before the condensate reaches the boiler. Additionally, since condensate is purified water at high temperatures it can reduce the amount of fuel fed into the boiler as well as the water treatment costs for the makeup water.
 
-## Condensate Recovery Components
+## Components
 
 Condensate recovery systems are typically equipped with pumps, pipe networks, and a heat exchanger. Condensate is passed into a receiver tank. The components of a condensate recovery system are shown in Figure 1.
 
@@ -33,6 +33,7 @@ Condensate recovery systems are typically equipped with pumps, pipe networks, an
 ### Condensate Pumps
 
 Condensate pumps are responsible for moving condensate from the receiver tank(s) back to the boiler system. In some cases, the receiver tank, pump, and float controls are packaged together. An appropriately sized pump is crucial to avoiding condensate build up which could create problems with terminal units.
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Pipe Networks
 

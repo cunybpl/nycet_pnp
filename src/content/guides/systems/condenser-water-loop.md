@@ -50,18 +50,18 @@ The main components associated with the condenser water loop are shown in Figure
 A condenser water pump and motor circulates condenser water from the condenser section of the chiller to the cooling tower. A condenser water loop pump and motor can be constant speed or equipped with variable frequency drives (VFDs).
 
 {{< admonition type="tip">}}
-Taylor (2012) provides scenarios that limit the cost effectiveness of VFDs on condenser loop pumps.
+[Taylor (2012)](#further-reading) provides scenarios that limit the cost effectiveness of VFDs on condenser loop pumps.
 {{< /admonition>}}
 
 #### Constant-speed, Constant-volume Pump
 
 A constant-speed condenser water pump provides a fixed flow to the cooling tower and chiller, independent of cooling tower heat rejection capacity or building cooling load. 
-<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 #### Variable-speed, Variable-volume Pump
 
 A variable-speed condenser water pump and motor modulates the flow to the cooling tower and chiller based on the heat rejection capacity of the cooling tower and the minimum flow rate required through the condenser section of the chiller. 
-<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Evaporative Cooling Tower
 
@@ -70,12 +70,12 @@ An evaporative cooling tower rejects heat from the condenser section of the chil
 #### Constant-speed, Constant-volume Cooling Tower Fan
 
 The overall cooling capacity of the condenser water loop in a cooling tower with multiple cells and constant speed fans and motors is controlled by staging (turning on) the cells.
-<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 #### Variable-speed, Variable-volume Cooling Tower Fan
 
 Cooling towers with variable speed fans and motors generally operate the fans at the lowest speed possible and stage fans based on the overall CW heat rejection needed to satisfy the specific sequence of operation of the chilled water plant.
-<a class="continue" href="/documents/components/variable-speed-variable-volume-fan-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/components/variable-speed-variable-volume-fan-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/systems/condenser-water-loop/2024_0509_CW system_figure 2 updated.jpg">
 <figure class="figure">

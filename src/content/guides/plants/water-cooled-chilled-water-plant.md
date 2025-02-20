@@ -33,7 +33,7 @@ A water-cooled chilled water plant consists of a water-cooled chiller system, a 
 ### Water-cooled Chiller
 
 A water-cooled chiller produces chilled water through the basic refrigeration cycle to the chilled water loop to distribute to the facility.
-<a class="continue" href="/documents/systems/water-cooled-chiller"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/water-cooled-chiller"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <!-- <a href="/images/plants/water-cooled-chilled-water-plant/2024_0415_WCCW plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -45,7 +45,7 @@ A water-cooled chiller produces chilled water through the basic refrigeration cy
 ### Chilled Water Loop
 
 A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building.
-<a class="continue" href="/documents/systems/chilled-water-loop"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/chilled-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <!-- <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -57,7 +57,7 @@ A chilled water loop consists of a closed loop distribution system that supplies
 ### Condenser Water Loop
 
 A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower where the condenser water is cooled and returned to the chiller condenser.
-<a class="continue" href="/documents/systems/condenser-water-loop"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/condenser-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <!-- <a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg">
     <figure class="figure">
@@ -69,7 +69,7 @@ A condenser water loop consists of an open loop distribution system that circula
 ### Waterside Economizer System
 
 Waterside economizers may use an external plate-and-frame heat exchanger between the condenser and chilled water loop or the chiller itself may be set up to perform the function of a waterside heat exchanger. When the outdoor temperatures are favorable, heat from the chilled water loop may be rejected directly to the condenser water loop through a heat exchanger without running the chiller compressor motor.
-<a class="continue" href="/documents/systems/waterside-economizer"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/waterside-economizer"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <!-- <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 5 updated.jpg">
     <figure class="figure">

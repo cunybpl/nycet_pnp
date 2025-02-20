@@ -17,7 +17,7 @@ url: "/documents/systems/variable-speed-variable-volume-air-handling-system"
 
 A variable-speed, variable-volume (VSVV) air handling system conditions provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors. The served zones are typically equipped with variable-air volume boxes (VAV) which allow for zone-specific control of supply airflow. The overall airflow of the air handling unit (AHU) is modulated using variable-frequency drives (VFDs) on the supply and return fan motors based on how much air the VAV boxes require. For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4. 
 
-## Variable-speed, Variable-volume Air Handling Unit Components 
+## Components 
 
 The major components of a VSVV system are the fans and motors, motor VFDs, heat exchanger coils, dampers, and VAV boxes. The components associated with the VSVV are shown in Figure 1. In general, the mixed air is conditioned by heating or cooling coils that use the output of the heating or cooling loops, using mechanical valves to regulate the amount of energy introduced to the coils. Supply and return fans with VFDs and dampers control airflows inside the main AHU. Dampers in the VAV boxes control zone airflows. Occasionally a VAV box will also be equipped with a supply fan.  
 
@@ -30,11 +30,13 @@ The major components of a VSVV system are the fans and motors, motor VFDs, heat 
 
 ### AHU Fan Motors and Variable-frequency Drives 
 
-The fan motors with VFDs provide pressure in the system to move air through the duct work. Typically, fans are placed on the return and supply side of the unit to maintain proper airflow. The air is blown through filters and heat exchanger coils to be conditioned. Fan speeds are varied based on the need for conditioned or ventilation air in the zones served.  
+The fan motors with VFDs provide pressure in the system to move air through the duct work. Typically, fans are placed on the return and supply side of the unit to maintain proper airflow. The air is blown through filters and heat exchanger coils to be conditioned. Fan speeds are varied based on the need for conditioned or ventilation air in the zones served.
+<a class="continue" href="/documents/components/variable-speed-variable-volume-fan-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Heat Exchanger (Heating/Cooling Coils) 
 
-The heat exchanger includes a set of heating and cooling coils, which provide heating or cooling to the air before it is discharged from the AHU. Mechanical valves regulate the amount of energy introduced from the loop to the heat exchangers which control the energy supplied to the discharge air.  
+The heat exchanger includes a set of heating and cooling coils, which provide heating or cooling to the air before it is discharged from the AHU. Mechanical valves regulate the amount of energy introduced from the loop to the heat exchangers which control the energy supplied to the discharge air.
+<a class="continue" href="/documents/components/air-to-air-heat-exchanger"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Dampers 
 

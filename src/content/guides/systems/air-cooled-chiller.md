@@ -35,7 +35,7 @@ The evaporator transfers heat from the chilled water to the refrigerant.
 ### Compressor
 
 The compressor increases the temperature and pressure of the refrigerant; a chiller may have one or more compressors. Air-cooled chillers typically have screw, scroll and reciprocating compressors. Reciprocating compressors are one of the most widely used types of compressors in this type of chillers. It comprises a cylinder and a piston that performs reciprocating motion to enable the compression of the refrigerant. Screw compressors can produce high pressure for small amounts of refrigerant vapor, compressing the refrigerant between a pair of meshing screws. Scroll compressors have two interleaved scrolls that simultaneously rotate to compress the refrigerant vapor in a chamber.
-<a class="continue" href="/documents/components/constant-speed-compressor-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>  
+<a class="continue" href="/documents/components/constant-speed-compressor-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Condenser Fan
 
@@ -44,12 +44,12 @@ Condenser fans of an air-cooled chiller cool down the refrigerant by forcing air
 #### Constant-speed, Constant-volume Condenser Fan
 
 A constant-speed, constant-volume (CSCV) fan uses a power-driven rotating impeller to circulate air at a single speed. 
-<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 #### Variable-speed, Variable-volume Condenser Fan
 
 A variable-speed, variable-volume (VSVV) fan uses a power-driven rotating impeller to circulate air. Air flow rates fluctuate as required by the plant and system it serves. 
-<a class="continue" href="/documents/components/variable-speed-variable-volume-fan-and-motor"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/components/variable-speed-variable-volume-fan-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 ### Expansion Valve
 

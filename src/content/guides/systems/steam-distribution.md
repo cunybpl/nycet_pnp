@@ -19,7 +19,7 @@ url: "/documents/systems/steam-distribution"
 
 A steam distribution system is responsible for distributing the steam produced by a steam boiler system as well as handling any condensate generated in the process. Common configurations for steam distribution systems include one-pipe and two-pipe systems. The main focus will be on two-pipe systems, as they are common in larger facilities. In a two-pipe system, the condensate is handled by a dedicated return line and is kept separate from any steam. The condensate return line can be treated as its own system and is discussed in a separate protocol and procedure document.
 
-## Steam Distribution Components
+## Components
 
 <a href="/images/systems/steam-distribution/2024_0507_STEAM DISTRIBUTION system_figure 1 updated.jpg">
 <figure class="figure">
@@ -69,6 +69,7 @@ Thermostatic traps rely on the temperature difference between the condensate and
 ### Vacuum Pump 
 
 If present, a vacuum pump is located after the steam traps and lowers the pressure in the piping network, which increases the rate at which the piping network and terminal units fill with steam, and may allow the boiler to operate at a lower temperature in that putting the system under a vacuum reduces the boiling point of water.
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ## Evaluation of Energy Consumption
 

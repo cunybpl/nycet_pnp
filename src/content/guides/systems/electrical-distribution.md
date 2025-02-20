@@ -15,7 +15,7 @@ url: "/documents/systems/electrical-distribution"
 
 An electrical distribution system is made up of switchgear and panelboards connected by wires. Switchgear is used to disaggregate the power coming from the utility grid to serve various aggregate loads in a facility, such as lights, motors, receptacle circuits, or miscellaneous equipment. A panelboard is used as the final disconnect and protection point for individual circuits in a space. A lighting panelboard is connected to the light fixture system in one or more spaces, typically on a single floor of a facility, or the outdoor light fixture system. Panelboards may be dedicated to the lighting system or “mixed” serving both lighting loads and other circuits.
 
-## Components of an Electrical Distribution System
+## Components
 
 Figure 1 shows the main components associated with the electrical distribution system: switchgear and panelboard.
 

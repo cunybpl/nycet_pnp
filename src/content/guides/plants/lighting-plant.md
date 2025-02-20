@@ -29,7 +29,7 @@ A lighting plant consists of the electrical distribution system and one or more 
 ### Electrical Distribution System
 
 The electrical distribution system is comprised of main and secondary switchgear and panelboards. The switchgear distributes electricity to the panelboards, and the panelboards provide electricity to the light fixture systems. Panelboards typically serve light fixture systems in multiple spaces across a facility and are generally broken down by floor or smaller spaces on a floor. Sometimes multiple electric panelboards are required to provide power to a single space such as a warehouse, gymnasium, or garage.
-<a class="continue" href="/documents/systems/electrical-distribution"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/electrical-distribution"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <!-- <a href="/images/plants/lighting-plant/2024_0503_LIGHTING plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -44,7 +44,7 @@ Panelboards can have mixed loads or be dedicated just to lighting. <strong>Mixed
 ### Light Fixture System
 
 The light fixture system is comprised of the luminaires, lamps, and controls. Controls can be manual or automatic. All lighting systems have some form of manual controls such as wall switches within a space or electrical disconnects (circuit breakers) at the panelboard. Some lighting systems have automatic controls which may include a control panel and sensors.
-<a class="continue" href="/documents/systems/lighting-fixture"><span>Continue Reading</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/lighting-fixture"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <!-- <a href="/images/plants/lighting-plant/2024_0503_LIGHTING plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
