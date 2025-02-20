@@ -36,13 +36,13 @@ The general CHWST reset algorithm is described in the ASHRAE handbook, “2019 A
 
 ## Outdoor Air Temperature Reset
 
-The general algorithm employed when OAT is the input variable is depicted in Figure 2. The proportional control during moderate temperatures (in this case between 60oF and 80oF) is set by the commissioning agent and generally aligns with the supply air temperature reset for the AHUs served by the central cooling plant. The upper bound of 54oF ensures sufficient dehumidification at moderate OAT and cooling loads. The lower bound of 44oF also ensures dehumidification at higher cooling loads and may reflect the lowest water temperature achievable by the chilled water plant.
+The general algorithm employed when OAT is the input variable is depicted in Figure 2. The proportional control during moderate temperatures (in this case between 60°F and 80°F) is set by the commissioning agent and generally aligns with the supply air temperature reset for the AHUs served by the central cooling plant. The upper bound of 54°F ensures sufficient dehumidification at moderate OAT and cooling loads. The lower bound of 44°F also ensures dehumidification at higher cooling loads and may reflect the lowest water temperature achievable by the chilled water plant.
 
 figure 2
 
 ## Cooling Coil Valve Position
 
-CHWST setpoint can also be modulated in proportion to the to the average position of the cooling coil valves or a Trim and Response control to step up and step down the CHWST setpoint (Taylor, 2013). The number of chilled water valves greater than 90% open, (i.e., the number of “requests”) determines the size of the increment to be made to CHWST setpoint. One request might lead to a 1oF setpoint increase, while three requests might lead to a 3oF change. No requests lead to a Trim action, whereupon the setpoint is decreased by a fixed increment. The Trim and Response control algorithm allows for a rapid increase in CHWST and a gradual reduction, which avoids unstable cycling of the chiller system. Cooling coil valve position is the preferred input control variable (over OAT) for variable speed pumping systems (both primary and primary-secondary). As discussed by Taylor (2013), using cooling coil valve position as the input allows for integrated control of the CHWST reset SOO with the differential pressure reset SOO, while also minimizing the risk of insufficient dehumidification by the cooling coils.
+CHWST setpoint can also be modulated in proportion to the to the average position of the cooling coil valves or a Trim and Response control to step up and step down the CHWST setpoint (Taylor, 2013). The number of chilled water valves greater than 90% open, (i.e., the number of “requests”) determines the size of the increment to be made to CHWST setpoint. One request might lead to a 1°F setpoint increase, while three requests might lead to a 3°F change. No requests lead to a Trim action, whereupon the setpoint is decreased by a fixed increment. The Trim and Response control algorithm allows for a rapid increase in CHWST and a gradual reduction, which avoids unstable cycling of the chiller system. Cooling coil valve position is the preferred input control variable (over OAT) for variable speed pumping systems (both primary and primary-secondary). As discussed by Taylor (2013), using cooling coil valve position as the input allows for integrated control of the CHWST reset SOO with the differential pressure reset SOO, while also minimizing the risk of insufficient dehumidification by the cooling coils.
 
 Figure 3 shows how the algorithm works when the number of cooling coil valves is used as the input variable. The more cooling coil valves that are greater than 90% open, the lower the ChWST setpoint becomes.
 
@@ -54,15 +54,17 @@ Chilled water return temperature (CHWRT) is the third possible input variable. T
 
 ## Key Values Needed to Assess Energy Consumption
 
-The energy savings from CHWST reset comes from reducing the amount of electrical energy that is needed to run the central cooling plant to meet the CHWST setpoint. Figure 4 shows modeled chiller performance curves for CHWST reset (Katipamula et al., 2007). Note that the multiple curves represent different cooling loads; below 80oF, the curves drop (i.e., show increased efficiency).
+The energy savings from CHWST reset comes from reducing the amount of electrical energy that is needed to run the central cooling plant to meet the CHWST setpoint. Figure 4 shows modeled chiller performance curves for CHWST reset (Katipamula et al., 2007). Note that the multiple curves represent different cooling loads; below 80°F, the curves drop (i.e., show increased efficiency).
 
 figure 4
 
-Figure 5 presents a hypothetical comparison of the performance curves with and without CHWST reset. The key period to measure the savings is when the reset comes into play, in this case when OAT < 80oF. The total annual chiller energy saved is then the number of hours at each OAT multiplied by the difference in power consumption at those OAT values. While Figure 5 represents the compressor energy saved, there will be an increase in chilled water pump energy consumption to increase flows to meet the same cooling coil loads.
+Figure 5 presents a hypothetical comparison of the performance curves with and without CHWST reset. The key period to measure the savings is when the reset comes into play, in this case when OAT < 80°F. The total annual chiller energy saved is then the number of hours at each OAT multiplied by the difference in power consumption at those OAT values. While Figure 5 represents the compressor energy saved, there will be an increase in chilled water pump energy consumption to increase flows to meet the same cooling coil loads.
 
 figure 5
 
+{{< admonition type="note" >}}
 A CHWST reset SOO alters the electrical energy consumption of all the motorized components in a central chilled water plant. Due to the highly interactive effects between the indoor loads, CHW loop, condenser water loop, chiller, indoor loads, and outdoor conditions, the energy calculations for a CHWST reset must be done on an hourly basis.
+{{< /admonition >}}
 
 ## Key Values Needed to Assess Energy Consumption
 The energy consumption of a water-cooled chilled water plant is the sum of the electrical energy of all systems associated with the plant.
