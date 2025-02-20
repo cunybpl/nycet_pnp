@@ -17,7 +17,7 @@
   </div>
   <div class="container px-0">
     <h3 class="group-header">Cooling</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.plants.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -43,7 +43,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Heating</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.plants.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -69,7 +69,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Air Handling</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.plants.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -95,7 +95,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Lighting</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.plants.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -143,7 +143,7 @@
   </div>
   <div class="container px-0">
     <h3 class="group-header">Cooling</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.systems.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -169,7 +169,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Heating</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.systems.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -195,7 +195,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Air Handling</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.systems.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -221,7 +221,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Lighting</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.systems.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -247,7 +247,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Electrical Distribution</h3>
-      <div class="mt-4 d-flex flex-wrap justify-content-between">
+      <div class="mt-4 flex-wrap justify-content-between guide-card-container">
         {{ range .guides.systems.documents }}
           {{ $guideTitle := .title }}
           {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -295,7 +295,7 @@
   </div>
   <div class="container px-0">
     <h3 class="group-header">Heat Exchangers</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.components.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -321,7 +321,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Pump and Motor</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.components.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -347,7 +347,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Fan and Motor</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.components.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -373,7 +373,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Compressor and Motor</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.components.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -421,7 +421,7 @@
   </div>
   <div class="container px-0">
     <h3 class="group-header">Temperature and Humidity</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.measurements.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -447,7 +447,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Electrical</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.measurements.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -473,7 +473,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Runtime</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.measurements.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -499,7 +499,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Flow and Pressure</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.measurements.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -547,7 +547,7 @@
   </div>
   <div class="container px-0">
     <h3 class="group-header">Energy Consumption</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.calculations.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}
@@ -573,7 +573,7 @@
       {{ end }}
     </div>
     <h3 class="group-header">Heat Transfer</h3>
-    <div class="mt-4 d-flex flex-wrap justify-content-between">
+    <div class="mt-4 flex-wrap justify-content-between guide-card-container">
       {{ range .guides.calculations.documents }}
         {{ $guideTitle := .title }}
         {{ $guideId := replace (urlize .title | lower) " " "-" }}

@@ -61,7 +61,8 @@ function filterPlantGuides(searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('plants')
+  displaySearchResults('plants');
+  toggleGroupHeaders('plants');
 }
 
 function filterSystemGuides(searchKeyWord='') {
@@ -114,7 +115,8 @@ function filterSystemGuides(searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('systems')
+  displaySearchResults('systems');
+  toggleGroupHeaders('systems');
 }
 
 function filterComponentGuides(searchKeyWord='') {
@@ -166,7 +168,8 @@ function filterComponentGuides(searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('components')
+  displaySearchResults('components');
+  toggleGroupHeaders('components');
 }
 
 function filterCalculations(searchKeyWord='') {
@@ -220,7 +223,8 @@ function filterCalculations(searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('Calculations')
+  displaySearchResults('Calculations');
+  toggleGroupHeaders('calculations');
 }
 
 function filterMeasurements(searchKeyWord='') {
@@ -273,7 +277,8 @@ function filterMeasurements(searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('Measurements')
+  displaySearchResults('Measurements');
+  toggleGroupHeaders('measurements');
 }
 
 function filterSooGuides(searchKeyWord='') {
@@ -325,7 +330,8 @@ function filterSooGuides(searchKeyWord='') {
       };
     }
   }
-  displaySearchResults('soos')
+  displaySearchResults('soos');
+  toggleGroupHeaders('soos');
 }
 
 /** 
@@ -753,6 +759,25 @@ function cleanKeyword(keyword) {
     .replace(/[\-]/g, " ")
     .replace(/\s+/g, " ")
     .toLowerCase()
+}
+
+function toggleGroupHeaders(guideType) {
+  const groupHeaders = document.querySelectorAll(`section#text${capitalizeFirstLetter(guideType)} .group-header`);
+  groupHeaders.forEach(header => {
+    const group = header.nextElementSibling;
+    const visibleCards = group.querySelectorAll('.guide-card.show-html-element');
+    if (visibleCards.length > 0) {
+      header.style.display = 'block';
+      group.style.display = 'flex';
+    } else {
+      header.style.display = 'none';
+      group.style.display = 'none';
+    }
+  });
+}
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 $('.open-popup-link').magnificPopup({
