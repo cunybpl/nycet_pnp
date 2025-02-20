@@ -3,7 +3,7 @@ title: SOO Test B
 type: soo
 layout: guide
 excerpt: Use this technique to measure electrical current (Amps) at one-hour intervals with a data logger.
-thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_electrical current MT_thumbnail.jpeg"
+thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 # associated_systems:
 #   - Boiler
 #   - Electrical Distribution

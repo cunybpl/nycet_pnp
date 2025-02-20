@@ -4,14 +4,14 @@ type: soo
 layout: guide
 excerpt: The goal of CHWST reset is to use less energy during times of lower cooling demand.
 soo_id: 1
-thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_electrical current MT_thumbnail.jpeg"
+thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
 related_components:
   - Constant-speed, Constant-volume Fan and Motor
 related_measurements:
   - Electrical Current
-url: "/documents/soos/soo-test-a"
+url: "/documents/soos/chilled-water-supply-temperature-reset"
 ---
 
 ## General Overview
@@ -29,3 +29,7 @@ NYC Energy Conservation Code (Section C403.4.4) and ASHRAE 90.1 (Section 6.5.4.4
 SOOs are feedback loops that employ a combination of sensors, controllers, and actuators to impact a process and maintain a desired state. For example, a thermostat provides a signal to a controller, and the controller sends a signal to the furnace. When the temperature falls below a certain setpoint, the controller sends a signal to the furnace to fire up and to turn on the air handler to provide heated air to the conditioned space. Once the temperature reaches the desired set point, the controller sends a signal to reduce the fan speed and/or to turn off the furnace.
 
 Figure 1 presents a schematic of the general principle of the CHWST reset control feedback loop. When the facility needs cooling, but the OAT is not extremely high, the building automation system (BAS) raises the CHWST temperature setpoint. The CHWST temperature sensor provides the feedback signal; based on the measured error, the BMS coordinates the central chilled water plant components (e.g., cooling tower, condenser and chilled water pumps, chiller compressor) to moderate the CHWST to meet the new setpoint.
+
+figure 1
+
+## Algorithm for the Sequence of Operation
