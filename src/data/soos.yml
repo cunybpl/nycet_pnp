@@ -1,8 +1,8 @@
 enable: true
 documents:
   - type: soo
-    title: "SOO Test A"
-    measurement_type: "energy-recovery"
+    title: "Chilled Water Supply Temperature Reset"
+    measurement_type: ""
   - type: soo
     title: "SOO Test B"
-    measurement_type: "cooling"
+    measurement_type: ""

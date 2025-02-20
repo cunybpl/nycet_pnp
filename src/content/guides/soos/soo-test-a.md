@@ -1,8 +1,9 @@
 ---
-title: SOO Test A
+title: Chilled Water Supply Temperature Reset
 type: soo
 layout: guide
-excerpt: Use this technique to measure electrical current (Amps) at one-hour intervals with a data logger.
+excerpt: The goal of CHWST reset is to use less energy during times of lower cooling demand.
+soo_id: 1
 thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_electrical current MT_thumbnail.jpeg"
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
@@ -13,10 +14,18 @@ related_measurements:
 url: "/documents/soos/soo-test-a"
 ---
 
-## Content A
+## General Overview
 
-This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals. This data provides insight on the operating schedule of the system or component and can be used to calculate energy consumption of the target equipment at the power panel or electrical panelboard. A system or component that is running (i.e., consuming energy) will have high current draw. A system or component that is not running (i.e., has no energy consumption) will have low or no current draw.  
+On cooler days during the cooling season, the chilled water supply temperature (CHWST) can be increased (i.e., reset) in a central cooling plant based on the reduced cooling load. The sequence of operation (SOO) uses outdoor air temperature (OAT), chilled water return temperature, or the average cooling coil valve positions of the AHUs served by the chiller as a proxy for the cooling load. CHWST reset saves energy by optimizing the central cooling plant energy consumption and by minimizing AHU reheat calls.
 
-Data loggers and current sensors use instantaneous measurements of current over the course of an hour to calculate the average amperage. As such, current data should be recorded as hourly average values, not instantaneous. When taking one-hour measurements, the logger will detect current over the course of every hour and store that value. Sometimes current can fluctuate over a one-hour period (motors turn off or change speed) but the instantaneous current value will not indicate that change.  
+The goal of CHWST reset is to use less energy during times of lower cooling demand. When OAT is lower, the rate of cooling energy supplied to the zones is moderated. If the AHU supply air temperature is simultaneously reset, the chilled water temperature that is supplied to the AHU cooling coils may also be moderated. Besides making the heat transfer throughout the system more efficient, the likelihood of VAV box reheat calls during the cooling season is reduced.
 
-The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. The best practice is a minimum of six weeks and data should be collected at one-hour intervals; longer measurement periods are encouraged for deeper analysis of the equipment. Measurements should be taken when the system or component is operating under normal conditions.
+{{< admonition type="note" >}}
+NYC Energy Conservation Code (Section C403.4.4) and ASHRAE 90.1 (Section 6.5.4.4 – Chilled- and Hot-Water Temperature Reset Controls) requires CHWST reset in new or replaced central cooling plants greater than 300,000 Btu/hr. The code calls for CHWST reset based on input from three possible variables: OAT, cooling coil valve position, or chilled water return temperature.
+{{< /admonition>}}
+
+## Basic Control Logic
+
+SOOs are feedback loops that employ a combination of sensors, controllers, and actuators to impact a process and maintain a desired state. For example, a thermostat provides a signal to a controller, and the controller sends a signal to the furnace. When the temperature falls below a certain setpoint, the controller sends a signal to the furnace to fire up and to turn on the air handler to provide heated air to the conditioned space. Once the temperature reaches the desired set point, the controller sends a signal to reduce the fan speed and/or to turn off the furnace.
+
+Figure 1 presents a schematic of the general principle of the CHWST reset control feedback loop. When the facility needs cooling, but the OAT is not extremely high, the building automation system (BAS) raises the CHWST temperature setpoint. The CHWST temperature sensor provides the feedback signal; based on the measured error, the BMS coordinates the central chilled water plant components (e.g., cooling tower, condenser and chilled water pumps, chiller compressor) to moderate the CHWST to meet the new setpoint.
