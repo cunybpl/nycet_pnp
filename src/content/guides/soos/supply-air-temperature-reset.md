@@ -12,7 +12,7 @@ related_components:
 url: "/documents/soos/supply-air-temperature-reset"
 ---
 
-## Description of Supply Air Temperature Reset Sequence of Operation
+## General Overview
 
 On warmer days during the heating season, the supply air temperature to the zones from the AHU plant can be lowered (i.e., reset) to meet the more moderate heating demands. During cooling season, the temperature can be reset upwards during periods of moderate cooling demands.
 
@@ -32,7 +32,7 @@ SOOs are feedback loops that employ a combination of sensors, controllers, and a
 
 Figure 1 presents a schematic of the general principle of the supply air temperature reset (SATR) control feedback loop. If the outdoor air temperature (OAT) is moderate, and by proxy the heating, or cooling, load is not at peak condition, then the building automation system (BAS) lowers, or raises, the supply air temperature setpoint; the supply air temperature sensor provides the feedback signal. Based on the measured error, the BAS controls the supply fan and heating (or cooling) coil valve position to moderate the supply air temperature.
 
-Figure 1. Basic Supply air temperature reset control logic.
+Figure 1. Fundamental SATR control logic.
 
 ## Algorithm for the Sequence of Operation
 The algorithm is implemented differently for single-zone AHUs vs. multi-zone AHUs, and for constant volume vs. variable volume AHUs. 
@@ -76,7 +76,7 @@ Footnote: Trane 2016, PNNL 2012, Davis 2016
 
 The measurement section of this guide discusses the measurement of these data points.
 
-## Key Values Needed to Assess Energy Consumption Associated with Supply Air Temperature Reset
+## Evaluation of Energy Consumption
 
 The avoided energy from SATR comes from reducing the amount of thermal energy needed by the heating and cooling coils to condition mixed air, and by reducing the electrical power needed to run the AHU fans.
 
@@ -88,7 +88,7 @@ The change in fan energy from SATR depends on whether the AHU is a constant volu
 
 For variable volume systems with a single-zone (as seen with Figure 4), fan speed is coordinated with SATsp. Without SATR, the fan speed curve would have three parts: 1) a negatively sloped curve for heating loop signals; 2) a deadband minimum speed to meet ventilation requirements; and 3) a positively sloped curve for cooling loop signals. If you superimpose this curve over the fan speed curve in Figure 4, you will see that the fan may run at higher speeds at higher demand and at lower speeds at lower demand. Therefore, it is not possible to predict a priori if fan energy will be increase or decrease. 
 
-Table 1. Energy-consuming components associated with the supply air temperature reset SOO.
+Table 1. Energy-consuming components associated with the SATR SOO.
 
 ### Components to Measure and Measurement Locations
 
@@ -116,9 +116,12 @@ One underlying assumption regarding this SOO is that the heating and cooling loa
 
 ## Further Reading
 
-- ASHRAE (2018). ASHRAE Guideline 36-2018, High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.  
-- Davis, G. (2016). “HVAC codes and standards: cooling and energy efficiency.” Consulting-Specifying Engineer. https://www.csemag.com/articles/hvac-codes-and-standards-cooling-and-energy-efficiency/; accessed January 15, 2021. 
+- ASHRAE (2018). High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
 
-- PNNL (2012). “Large Commercial Buildings: Re-tuning for Efficiency - Air Handling Units: Pre-Re-Tuning and Trending and Re-Tuning.” PNNL-SA-85063. https://buildingretuning.pnnl.gov/documents/chapters/ch5_air_handling.pdf; accessed January 2021. 
+- Davis, G. (2016, August 15). HVAC codes and standards: cooling and energy efficiency. Retrieved January 15, 2021, from Consulting-Specifying Engineer: https://www.csemag.com/articles/hvac-codes-and-standards-cooling-and-energy-efficiency/
 
-- Trane (2016). “Multiple-zone VAV systems - Finding the Right Balance for VAV Energy Savings.” Trane Engineers Newsletter, Vol. 45-3.  
+- Pacific Northwest National Laboratory (2012). Large Commercial Buildings: Re-tuning for Efficiency - Air Handling Units: Pre-Re-Tuning and Trending and Re-Tuning. Retrieved January 2021, from https://buildingretuning.pnnl.gov/documents/chapters/ch5_air_handling.pdf
+
+- Trane (2016). Multiple-zone VAV systems - Finding the Right Balance for VAV Energy Savings. Trane Engineers Newsletter, 45(3).
+
+
