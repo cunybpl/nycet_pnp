@@ -88,7 +88,69 @@ The change in fan energy from SATR depends on whether the AHU is a constant volu
 
 For variable volume systems with a single-zone (as seen with Figure 4), fan speed is coordinated with SATsp. Without SATR, the fan speed curve would have three parts: 1) a negatively sloped curve for heating loop signals; 2) a deadband minimum speed to meet ventilation requirements; and 3) a positively sloped curve for cooling loop signals. If you superimpose this curve over the fan speed curve in Figure 4, you will see that the fan may run at higher speeds at higher demand and at lower speeds at lower demand. Therefore, it is not possible to predict a priori if fan energy will be increase or decrease. 
 
-Table 1. Energy-consuming components associated with the SATR SOO.
+
+<div class="table-wrapper">
+<table>
+    <caption>Table 1. Energy-consuming components associated with the SATR SOO.</caption>
+    <thead>
+        <tr>
+            <th>
+                System
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+        </tr>
+    <tbody>
+        <tr>
+            <td>
+                AHU
+            </td>
+            <td>
+                <ul>
+                  <li>Hourly average fan motor (kWh)</li>
+                  <li>Hourly average OAT (F)</li>
+                  <li>Hourly average relative humidity (%)</li>
+                </ul>
+            </td>
+            <td>
+                Supply air fan and motor
+            </td>
+        </tr>
+        <tr>
+            <td>
+                AHU
+            </td>
+            <td>
+                <ul>
+                  <li>Average hourly air flow (cfm)</li>
+                  <li>Temperature difference between Mixed Air and Discharge Air (F)</li>
+                </ul>
+            </td>
+            <td>
+                Heating heat exchanger
+            </td>
+        </tr>
+        <tr>
+            <td>
+                AHU
+            </td>
+            <td>
+                <ul>
+                  <li>Average hourly air flow (cfm)</li>
+                  <li>Temperature difference between Mixed Air and Discharge Air (F)</li>
+                </ul>
+            </td>
+            <td>
+                Cooling heat exchanger
+            </td>
+        </tr>
+    </tbody>
+</table> 
+</div>
 
 ### Components to Measure and Measurement Locations
 

@@ -58,7 +58,52 @@ The AHU also consumes electrical energy to drive the supply and return fans. The
 
 Table 1 provides a summary of the components to be measured to arrive at the values needed to quantify the annual energy consumption and operating characteristics of an AHU with an airside economizing SOO. 
 
-Table 1. Energy consuming components associated with the airside economizing SOO.
+<div class="table-wrapper">
+<table>
+    <caption>Table 1. Energy consuming components associated with the airside economizing SOO.</caption>
+    <thead>
+        <tr>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+        </tr>
+    <tbody>
+        <tr>
+            <td>
+                AHU
+            </td>
+            <td>
+                Average hourly air flow (cfm)
+            </td>
+            <td>
+                Fan Motor
+            </td>
+        </tr>
+        <tr>
+            <td>
+                AHU
+            </td>
+            <td>
+                <ul>
+                  <li>Temperature and relative humidity (RH) of return air</li>
+                  <li>Outdoor air</li>
+                  <li>Mixed air</li>
+                  <li>Discharge air</li>
+                </ul>
+            </td>
+            <td>
+                Cooling Coil
+            </td>
+        </tr>
+    </tbody>
+</table> 
+</div>
 
 ### Components to Measure and Measurement Locations
 
