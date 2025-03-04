@@ -6,21 +6,21 @@ documents:
   - type: soo
     title: "Supply Air Temperature Reset"
     measurement_type: ""
-  - type: soo
-    title: "Chilled Water Loop Differential Pressure Reset"
-    measurement_type: ""
-  - type: soo
-    title: "Condenser Water Supply Temperature Reset"
-    measurement_type: ""
+  # - type: soo
+  #   title: "Chilled Water Loop Differential Pressure Reset"
+  #   measurement_type: ""
+  # - type: soo
+  #   title: "Condenser Water Supply Temperature Reset"
+  #   measurement_type: ""
   - type: soo
     title: "Waterside Economizing"
     measurement_type: ""
-  - type: soo
-    title: "Hot Water Heating Boiler Temperature Reset"
-    measurement_type: ""
-  - type: soo
-    title: "Demand-Controlled Ventilation"
-    measurement_type: ""
+  # - type: soo
+  #   title: "Hot Water Heating Boiler Temperature Reset"
+  #   measurement_type: ""
+  # - type: soo
+  #   title: "Demand-Controlled Ventilation"
+  #   measurement_type: ""
   - type: soo
     title: "Static Pressure Reset in an AHU"
     measurement_type: ""
