@@ -2,7 +2,7 @@
 title: Chilled Water Supply Temperature Reset
 type: soo
 layout: guide
-excerpt: The goal of CHWST reset is to use less energy during times of lower cooling demand.
+excerpt: On cooler days during the cooling season, the chilled water supply temperature can be increased in a central cooling plant based on the reduced cooling load.
 soo_id: 1
 thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_components:

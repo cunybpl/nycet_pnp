@@ -2,7 +2,7 @@
 title: Static Pressure Reset in an AHU
 type: soo
 layout: guide
-excerpt: The main goal is to minimize the supply fan speed to provide just enough pressure to the boxes such that the damper for the terminal unit with the highest heating or cooling demand is 100% open.
+excerpt: Slows down the fan in a multi-zone AHU that supplies air to variable air volume terminal units.
 soo_id: 8
 thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_components:
@@ -14,7 +14,7 @@ url: "/documents/soos/static-pressure-reset-ahu"
 
 ## General Overview
 
-Static pressure reset in an air handling unit (AHU) slows down the fan in a multi-zone AHUs that supplies air to variable air volume (VAV) terminal units. The main goal is to minimize the supply fan speed to provide just enough pressure to the boxes such that the damper for the terminal unit with the highest heating or cooling demand is 100% open.  
+Static pressure reset in an air handling unit (AHU) slows down the fan in a multi-zone AHU that supplies air to variable air volume (VAV) terminal units. The main goal is to minimize the supply fan speed to provide just enough pressure to the boxes such that the damper for the terminal unit with the highest heating or cooling demand is 100% open.  
 
 The goal of static pressure reset is to use less electrical energy to meet cooling and heating loads, by lowering the AHU fan speed. When loads are moderate, and if the AHU is operated with constant static pressure, the VAV boxes will close their dampers to reduce air flow to the zones. Although zone air flows and temperatures are properly maintained, the AHU supply fan is working harder than necessary. If the fan speed is modulated, then the VAV box dampers can be opened to maintain the flow to meet the load. The zone with the greatest demand will be opened nearly 100%.  
 
