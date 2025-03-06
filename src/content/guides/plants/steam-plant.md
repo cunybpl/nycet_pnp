@@ -1,6 +1,7 @@
 ---
 title: Steam Plant
 type: plant
+plant_id: 5
 excerpt: Produces and distributes steam throughout the facility for space heating. Terminal units are used to reject heat to the spaces, condensate recovery systems collect condensate for the boiler.
 thumbnail_image: "/images/plants/steam-plant/2024_0411_steam plant_thumbnail.jpeg"
 associated_systems:
