@@ -1,9 +1,9 @@
 ---
 title: Water-cooled Chiller
 type: system
+system_id: 2
 excerpt: Produces chilled liquid and works in conjunction with an AHU to provide cooling. The condenser side rejects heat to the outdoor air using cooling towers.
 thumbnail_image: "/images/systems/water-cooled-chiller/2024_0606_water cooled chiller system_thumbnail_RESIZED-01.jpg"
-system_id: 2
 associated_components:
   - Constant-speed Compressor and Motor
 related_components:

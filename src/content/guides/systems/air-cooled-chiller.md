@@ -1,9 +1,9 @@
 ---
 title: Air-cooled Chiller 
 type: system
+system_id: 5
 excerpt: Produces chilled liquid and works in conjunction with an AHU to provide cooling. The condenser rejects heat absorbed by the refrigerant directly to the outdoor air.
 thumbnail_image: "/images/systems/air-cooled-chiller/2024_0606_air cooled chiller system_thumbnail_RESIZED-01.jpg"
-system_id: 5
 associated_components:
   - Constant-speed Compressor and Motor
 related_components:

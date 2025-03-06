@@ -1,9 +1,9 @@
 ---
 title: Electrical Distribution
 type: system
+system_id: 6
 excerpt: This system regulates the amount of electricity supplied to different areas of the facility. This is the primary measurement location of lighting fixture systems.
 thumbnail_image: "/images/systems/electrical-distribution/2024_0701_electrical distribution_system_thumbnail_RESIZED-01.jpg"
-system_id: 6
 related_measurements:
   - Electrical Current
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/lighting-measurement-kit/"
