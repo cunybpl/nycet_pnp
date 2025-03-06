@@ -1,6 +1,7 @@
 ---
 title: Constant-speed Compressor and Motor
 type: component
+component_id: 10
 excerpt: This equipment is typically used in a chiller system to increase the temperature and pressure of refrigerant.
 thumbnail_image: "/images/components/thumbnail-images/CONSTANT SPEED COMPRESSOR.jpg"
 associated_systems:

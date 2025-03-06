@@ -1,6 +1,7 @@
 ---
 title: Variable-speed, Variable-volume Fan and Motor
 type: component
+component_id: 5
 excerpt: This type of fan uses a variable frequency drive (VFD) to regulate its speed to conserve energy. 
 thumbnail_image: "/images/components/thumbnail-images/2024_0624_vsvv fan component_thumbnail_RESIZED-01.jpg"
 associated_systems:

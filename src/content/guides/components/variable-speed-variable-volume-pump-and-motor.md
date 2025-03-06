@@ -1,6 +1,7 @@
 ---
 title: Variable-speed, Variable-volume Pump and Motor
 type: component
+component_id: 7
 excerpt: Operates at different speeds with a variable frequency drive to circulate liquid (water or glycol solution) through a piping network.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_vsvv pump component_thumbnail_RESIZED-01.jpg"
 associated_systems:
