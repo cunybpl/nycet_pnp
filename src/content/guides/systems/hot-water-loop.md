@@ -1,9 +1,9 @@
 ---
 title: Hot Water Loop
 type: system
+system_id: 15
 excerpt: Circulates hot water produced by a boiler to terminal units in the facility and then back to the boiler using with the help of hot water pumps and a piping system.
 thumbnail_image: "/images/systems/hot-water-loop/2024_0606_hot water loop system_thumbnail_RESIZED-01.jpg"
-system_id: 15
 associated_systems:
   - Constant-speed, Constant-volume Pump and Motor
   - Variable-speed, Variable-volume Pump and Motor

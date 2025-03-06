@@ -1,9 +1,9 @@
 ---
 title: Constant-speed, Constant-volume Air Handling Unit
 type: system
+system_id: 8
 excerpt: Provides conditioned air to one or more spaces. The supply and return fans operate at constant-speed.
 thumbnail_image: "/images/systems/constant-speed-constant-volume-air-handling-unit/2024_0702_CSCV AHU_system_thumbnail_RESIZED-01.jpg"
-system_id: 8
 associated_systems: 
   - Constant-speed, Constant-volume Fan and Motor
 related_components:

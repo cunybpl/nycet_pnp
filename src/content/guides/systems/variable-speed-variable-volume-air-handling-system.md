@@ -1,9 +1,9 @@
 ---
 title: Variable-speed, Variable-volume Air Handling Unit
 type: system
+system_id: 10
 excerpt: Provides conditioned air to one or more spaces. The supply and return fans operate at variable speeds.
 thumbnail_image: "/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0702_VSVV AHU_system_thumbnail_RESIZED-01.jpg"
-system_id: 10
 associated_systems: 
   - Variable-speed, Variable-volume Fan and Motor
 related_components:

@@ -1,6 +1,7 @@
 ---
 title: Water-cooled Chilled Water Plant
 type: plant
+plant_id: 1
 excerpt: Consists of a water-cooled chiller system, a condenser water loop system and a chilled water loop system operating to meet cooling demand in a facility.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:

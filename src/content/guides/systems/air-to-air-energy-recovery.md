@@ -1,9 +1,9 @@
 ---
 title: Air-to-air Energy Recovery 
 type: system
+system_id: 16
 excerpt: Uses heat exchangers to transfer heat from the outgoing air stream (return air) to the incoming air stream (outdoor air).
 thumbnail_image: "/images/systems/air-to-air-energy-recovery/2024_0710_AtA energy recovery system_thumbnail_RESIZED.jpg"
-system_id: 16
 associated_components:
   - Air-to-air Heat Exchanger
 related_components:

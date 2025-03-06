@@ -1,9 +1,9 @@
 ---
 title: Lighting Fixture
 type: system
+system_id: 7
 excerpt: A lighting fixture system uses ballasts to regulate electricity to the lamps which produce light to illuminate areas in the facility.
 thumbnail_image: "/images/systems/lighting-fixture/2024_0606_lighting fixture system_thumbnail_RESIZED-01.jpg"
-system_id: 7
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/lighting-measurement-kit/"
 layout: guide
 url: "/documents/systems/lighting-fixture"

@@ -1,6 +1,7 @@
 ---
 title: Liquid-to-liquid Heat Exchanger
 type: component
+component_id: 1
 excerpt: The fixed plate achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_liquid to liquid hx component_thumbnail.jpg"
 associated_systems:

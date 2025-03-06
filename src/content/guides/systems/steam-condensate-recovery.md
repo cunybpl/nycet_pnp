@@ -1,9 +1,9 @@
 ---
 title: Steam Condensate Recovery
 type: system
+system_id: 12
 excerpt: The steam condensate recovery system is responsible for collecting condensate from the steam distribution system through steam traps.
 thumbnail_image: "/images/systems/steam-condensate-recovery/2024_0411_steam condensate recovery system_thumbnail.jpeg"
-system_id: 12
 associated_systems:
   - Constant-speed, Constant-volume Pump and Motor
   - Variable-speed, Variable-volume Pump and Motor
@@ -17,7 +17,7 @@ url: "/documents/systems/steam-condensate-recovery"
 
 ## General Overview
 
-The steam condensate recovery system is responsible for collecting condensate from the steam distribution system through steam tramps and recovering waste heat. The condensate returned to the boiler is typically passed through a deaerator to remove unwanted oxygen before the condensate reaches the boiler. Additionally, since condensate is purified water at high temperatures it can reduce the amount of fuel fed into the boiler as well as the water treatment costs for the makeup water.
+The steam condensate recovery system is responsible for collecting condensate from the steam distribution system through steam traps and recovering waste heat. The condensate returned to the boiler is typically passed through a deaerator to remove unwanted oxygen before the condensate reaches the boiler. Additionally, since condensate is purified water at high temperatures it can reduce the amount of fuel fed into the boiler as well as the water treatment costs for the makeup water.
 
 ## Components
 

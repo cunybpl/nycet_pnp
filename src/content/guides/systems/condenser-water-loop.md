@@ -1,9 +1,9 @@
 ---
 title: Condenser Water Loop
 type: system
+system_id: 3
 excerpt: Connects to the condenser side of a water-cooled chiller and uses pumps to transfer water or other liquid to cooling tower fans which reject heat to the outdoor air.
 thumbnail_image: "/images/systems/condenser-water-loop/2024_0410_condenser water loop system_thumbnail.jpeg"
-system_id: 3
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
   - Constant-speed, Constant-volume Pump and Motor

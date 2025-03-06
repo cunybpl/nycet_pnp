@@ -1,6 +1,7 @@
 ---
 title: Constant-speed, Constant-volume Pump and Motor
 type: component
+component_id: 6
 excerpt: Operates at a single speed to circulate liquid (water or glycol solution) through a piping network.
 thumbnail_image: "/images/components/thumbnail-images/2024_0606_cscv pump component_thumbnail_RESIZED-01.jpg"
 associated_systems:

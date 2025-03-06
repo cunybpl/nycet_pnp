@@ -2,7 +2,7 @@
 title:  Lighting Plant and Systems Energy Consumption
 type: calculation
 layout: calculation_methodology
-calculation_methodology_id: 3
+calculation_methodology_id: 1
 excerpt: The equations and calculators in this page estimate the annual energy consumption of the lighting plant.
 related_systems:
   - Electrical Distribution

@@ -1,6 +1,7 @@
 ---
 title: Constant-speed, Constant-volume Fan and Motor
 type: component
+component_id: 4
 excerpt: This type of fan circulates air at a single speed and can be either axial or centrifugal.
 thumbnail_image: "/images/components/thumbnail-images/2024_0612_cscv fan component_thumbnail_RESIZED-01.jpg"
 associated_systems:
