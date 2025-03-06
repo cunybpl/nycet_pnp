@@ -2,8 +2,8 @@
 title: Supply Air Temperature Reset
 type: soo
 layout: guide
-excerpt: On warmer days during the heating season, the supply air temperature to the zones from the AHU plant can be lowered to meet the more moderate heating demands. During cooling season, the temperature can be reset upwards during periods of moderate cooling demands.
 soo_id: 7
+excerpt: On warmer days during the heating season, the supply air temperature to the zones from the AHU plant can be lowered to meet the more moderate heating demands. During cooling season, the temperature can be reset upwards during periods of moderate cooling demands.
 thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor

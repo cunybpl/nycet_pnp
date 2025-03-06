@@ -2,8 +2,8 @@
 title: Chilled Water Supply Temperature Reset
 type: soo
 layout: guide
-excerpt: On cooler days during the cooling season, the chilled water supply temperature can be increased in a central cooling plant based on the reduced cooling load.
 soo_id: 1
+excerpt: On cooler days during the cooling season, the chilled water supply temperature can be increased in a central cooling plant based on the reduced cooling load.
 thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor

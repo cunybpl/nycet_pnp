@@ -2,8 +2,8 @@
 title: Static Pressure Reset in an AHU
 type: soo
 layout: guide
-excerpt: Slows down the fan in a multi-zone AHU that supplies air to variable air volume terminal units.
 soo_id: 8
+excerpt: Slows down the fan in a multi-zone AHU that supplies air to variable air volume terminal units.
 thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
