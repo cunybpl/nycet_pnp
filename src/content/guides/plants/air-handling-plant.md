@@ -1,6 +1,7 @@
 ---
 title: Air Handling Plant
 type: plant
+plant_id: 4
 excerpt: This plant conditions and distributes air in a facility to meet required indoor environmental conditions. This plant works in conjunction with heating and cooling plants.
 thumbnail_image: "/images/plants/air-handling-plant/AHU_THUMBNAIL_RESIZED-01.jpg"
 associated_systems:

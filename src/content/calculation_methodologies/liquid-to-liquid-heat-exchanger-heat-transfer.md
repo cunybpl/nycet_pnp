@@ -2,7 +2,7 @@
 title:  Liquid-to-liquid Heat Exchanger Heat Transfer
 type: calculation
 layout: calculation_methodology
-calculation_methodology_id: 24
+calculation_methodology_id: 7
 excerpt: For a fixed plate heat exchanger, the equations used in this methodology and calculator estimate the annual sensible heat transfer.
 related_systems:
   - Water-cooled Chiller

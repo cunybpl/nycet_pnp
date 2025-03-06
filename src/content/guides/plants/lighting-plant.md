@@ -1,6 +1,7 @@
 ---
 title: Lighting Plant
 type: plant
+plant_id: 3
 excerpt: Consists of the electrical distribution system and light fixture systems to provide illumination to the interior and exterior of the facility.
 thumbnail_image: "/images/plants/lighting-plant/2024_0606_lighting plant_thumbnail_RESIZED-01.jpg"
 associated_systems:
