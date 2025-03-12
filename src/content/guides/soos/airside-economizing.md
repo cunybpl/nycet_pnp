@@ -22,7 +22,12 @@ Sequences of operation (SOOs) are essentially feedback loops that employ a combi
 
 Figure 1 presents a schematic of the general principle of the economizing control feedback loop. If OAT is within the economizing range, the outdoor air damper (OAD) position is opened 100%. The control signals to the AHU are adjusted to consider that the OAD is 100% open while still meeting the zone temperature setpoints.
 
-Figure 1. Fundamental airside economizing control logic.
+<a href="/images/SOOs/SOO-09-fig-1.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-09-fig-1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Fundamental airside economizing control logic.">
+        <figcaption class="figure-caption text-left">Figure 1. Fundamental airside economizing control logic.</figcaption>  
+    </figure>
+</a>
 
 The goal of economizing is to use less energy to meet the cooling load. The AHU draws in outdoor air when the outdoor air temperature and humidity are in a range to allow it to cool interior spaces. Optimizing the amount of outdoor air reduces the amount of energy needed to condition the space. 
 
@@ -109,7 +114,12 @@ Table 1 provides a summary of the components to be measured to arrive at the val
 
 The measurement locations for the airside economizing SOO are shown in Figure 2. 
 
-Figure 2. Airside economizing SOO measurement points
+<a href="/images/SOOs/SOO-09-fig-2.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-09-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Airside economizing SOO measurement points.">
+        <figcaption class="figure-caption text-left">Figure 2. Airside economizing SOO measurement points.</figcaption>  
+    </figure>
+</a>
 
 ## Interaction of Airside Economizing with other SOOs
 

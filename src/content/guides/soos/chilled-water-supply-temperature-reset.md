@@ -28,7 +28,12 @@ SOOs are feedback loops that employ a combination of sensors, controllers, and a
 
 Figure 1 presents a schematic of the general principle of the CHWST reset control feedback loop. When the facility needs cooling, but the OAT is not extremely high, the building automation system (BAS) raises the CHWST temperature setpoint. The CHWST temperature sensor provides the feedback signal; based on the measured error, the BMS coordinates the central chilled water plant components (e.g., cooling tower, condenser and chilled water pumps, chiller compressor) to moderate the CHWST to meet the new setpoint.
 
-figure 1
+<a href="/images/SOOs/SOO-01-fig-1.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-01-fig-1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Fundamental CHWST reset control logic.">
+        <figcaption class="figure-caption text-left">Figure 1. Fundamental CHWST reset control logic.</figcaption>  
+    </figure>
+</a>
 
 ## Algorithm for the Sequence of Operation
 
@@ -38,7 +43,12 @@ The general CHWST reset algorithm is described in the ASHRAE handbook, “2019 A
 
 The general algorithm employed when OAT is the input variable is depicted in Figure 2. The proportional control during moderate temperatures (in this case between 60°F and 80°F) is set by the commissioning agent and generally aligns with the supply air temperature reset for the AHUs served by the central cooling plant. The upper bound of 54°F ensures sufficient dehumidification at moderate OAT and cooling loads. The lower bound of 44°F also ensures dehumidification at higher cooling loads and may reflect the lowest water temperature achievable by the chilled water plant.
 
-figure 2
+<a href="/images/SOOs/SOO-01-fig-2.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-01-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Chilled water supply temperature reset algorithm.">
+        <figcaption class="figure-caption text-left">Figure 2. Chilled water supply temperature reset algorithm.</figcaption>  
+    </figure>
+</a>
 
 ### Cooling Coil Valve Position
 
@@ -46,7 +56,12 @@ CHWST setpoint can also be modulated in proportion to the to the average positio
 
 Figure 3 shows how the algorithm works when the number of cooling coil valves is used as the input variable. The more cooling coil valves that are greater than 90% open, the lower the ChWST setpoint becomes.
 
-figure 3
+<a href="/images/SOOs/SOO-01-fig-3.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-01-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water supplu temperature reset algorithm.">
+        <figcaption class="figure-caption text-left">Figure 3. Chilled water supplu temperature reset algorithm.</figcaption>  
+    </figure>
+</a>
 
 ### Chilled Water Return Temperature
 
@@ -56,11 +71,21 @@ Chilled water return temperature (CHWRT) is the third possible input variable. T
 
 The energy savings from CHWST reset comes from reducing the amount of electrical energy that is needed to run the central cooling plant to meet the CHWST setpoint. Figure 4 shows modeled chiller performance curves for CHWST reset.[^4] Note that the multiple curves represent different cooling loads; below 80°F, the curves drop (i.e., show increased efficiency).
 
-figure 4
+<a href="/images/SOOs/SOO-01-fig-4-cropped.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-01-fig-4-cropped.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Chiller performance for a chilled water reset schedule below 80°F.">
+        <figcaption class="figure-caption text-left">Figure 4. Chiller performance for a chilled water reset schedule below 80°F.</figcaption>  
+    </figure>
+</a>
 
 Figure 5 presents a hypothetical comparison of the performance curves with and without CHWST reset. The key period to measure the savings is when the reset comes into play, in this case when OAT < 80°F. The total annual chiller energy saved is then the number of hours at each OAT multiplied by the difference in power consumption at those OAT values. While Figure 5 represents the compressor energy saved, there will be an increase in chilled water pump energy consumption to increase flows to meet the same cooling coil loads.
 
-figure 5
+<a href="/images/SOOs/SOO-01-fig-5.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-01-fig-5.jpg" class="figure-img img-fluid rounded" alt="Figure 5. Hypothetical difference in chiller performance with and without chilled water temperature reset.">
+        <figcaption class="figure-caption text-left">Figure 5. Hypothetical difference in chiller performance with and without chilled water temperature reset.</figcaption>  
+    </figure>
+</a>
 
 {{< admonition type="note" >}}
 A CHWST reset SOO alters the electrical energy consumption of all the motorized components in a central chilled water plant. Due to the highly interactive effects between the indoor loads, CHW loop, condenser water loop, chiller, indoor loads, and outdoor conditions, the energy calculations for a CHWST reset must be done on an hourly basis.
@@ -69,7 +94,118 @@ A CHWST reset SOO alters the electrical energy consumption of all the motorized 
 ## Key Values Needed to Assess Energy Consumption
 The energy consumption of a water-cooled chilled water plant is the sum of the electrical energy of all systems associated with the plant.
 
-table 1 - might replace with cards to PSCs
+<div class="table-wrapper">
+<table>
+    <caption>Table 1. Energy-consuming components associated with the CHWST reset SOO.</caption>
+    <thead>
+        <tr>
+            <th>
+                System Quantification
+            </th>
+            <th>
+                Values to be Quantified
+            </th>
+            <th>
+                Energy Consuming Component
+            </th>
+        </tr>
+    <tbody>
+        <tr>
+            <td>
+                Chilled water loop
+            </td>
+            <td>
+                <ul>
+                    <li>Hourly average pump motor (kWh)</li>
+                    <li>Average hourly pump flow (GPM)</li>
+                </ul>
+            </td>
+            <td>
+                Primary CHW loop pump motor
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Chilled water loop
+            </td>
+            <td>
+                <ul>
+                    <li>Hourly average pump motor (kWh)</li>
+                    <li>Average hourly pump flow (GPM)</li>
+                </ul>
+            </td>
+            <td>
+                Secondary CHW loop pump motor (if present)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Water-cooled chiller
+            </td>
+            <td>
+                <ul>
+                    <li>Average hourly chiller (kWh)</li>
+                    <li>Average hourly Btu/h delivered to the chilled water loop</li>
+                    <li>Average hourly Btu/h rejected to the condenser water loop</li>
+                </ul>
+            </td>
+            <td>
+                Compressor motor
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Condenser water loop
+            </td>
+            <td>
+                Average hourly cooling tower fan motor (kWh)
+            </td>
+            <td>
+                Cooling tower fan motor
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Condenser water loop
+            </td>
+            <td>
+                <ul>
+                    <li>Hourly average pump motor (kWh)</li>
+                    <li>Average hourly pump flow (GPM)</li>
+                </ul>
+            </td>
+            <td>
+                Condenser loop pump motor
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Waterside economizer
+            </td>
+            <td>
+                <ul>
+                    <li>Average hourly Btu/h delivered to the chilled water loop</li>
+                    <li>Average hourly Btu/h rejected by the chilled water loop</li>
+                </ul>
+            </td>
+            <td>
+                Cooling Heat Exchanger
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Waterside economizer
+            </td>
+            <td>
+                Average hourly pump motor (kWh)
+            </td>
+            <td>
+                Pump motor (if present)
+            </td>
+        </tr>
+    </tbody>
+</table> 
+</div>
 
 ### Components to Measure and Measurement Locations
 
@@ -77,7 +213,12 @@ A CHWST reset SOO has potential interactivity with the entire water-cooled chill
 
 The measurement boundary includes the entire cooling plant, Figure 6 shows a representation of where to collect data in a water-cooled chilled water plant. Refer to the chilled water loop, water-cooled chiller, condenser water loop, and waterside economizer system descriptions for more details on the specific measurement points for those systems.
 
-figure 6
+<a href="/images/SOOs/SOO-01-fig-6.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-01-fig-6.jpg" class="figure-img img-fluid rounded" alt="Figure 6. Measurement points in a cooling plant to assess energy consumption when implementing chilled water supply temperature reset.">
+        <figcaption class="figure-caption text-left">Figure 6. Measurement points in a cooling plant to assess energy consumption when implementing chilled water supply temperature reset.</figcaption>  
+    </figure>
+</a>
 
 ## Interaction of CHWST Reset with other SOOs 
 
@@ -85,7 +226,12 @@ figure 6
 
 **Chilled Water Pumping Differential Pressure Reset** – Since differential pressure reset slows down the CHW flow and hence the heat transfer rate to the AHUs, it must be coordinated with CHWST reset. If the CHWST setpoint is raised and the flow is lowered simultaneously, it is possible that not enough heat will be removed from the building. Taylor (2013) explains that for primary variable and secondary variable chilled water loops, the two SOOs should be sequenced as shown in Figure 7: CHWST setpoint should first be increased to lower the cooling capacity; then, when the setpoint cannot be raised anymore, the differential pressure setpoint should start to be decreased. If the chilled water loop has constant speed pumps, then the sequence should be flipped: first increase the differential pressure (to reduce flow), then modulate the CHWST setpoint by staging the chillers or reducing capacity with vane guides.[^2]
 
-figure 7
+<a href="/images/SOOs/SOO-01-fig-7.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-01-fig-7.jpg" class="figure-img img-fluid rounded" alt="Figure 7. Coordination of CHWST reset with differential pressure reset.">
+        <figcaption class="figure-caption text-left">Figure 7. Coordination of CHWST reset with differential pressure reset.</figcaption>  
+    </figure>
+</a>
 
 **Waterside Economizing** – CHWST reset impacts both full- and partial-load waterside economizing. During full-load economizing, the chiller compressor is turned off. CHWST reset still has the effect of reducing the cooling demand for the cooling towers. In addition, it extends the hours that full-load economizing is suitable. During partial-load economizing, the two SOOs work synergistically to lower the overall cooling load to the compressor and cooling tower. 
 

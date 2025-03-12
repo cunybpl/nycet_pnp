@@ -32,7 +32,12 @@ SOOs are feedback loops that employ a combination of sensors, controllers, and a
 
 Figure 1 presents a schematic of the general principle of the supply air temperature reset (SATR) control feedback loop. If the outdoor air temperature (OAT) is moderate, and by proxy the heating, or cooling, load is not at peak condition, then the building automation system (BAS) lowers, or raises, the supply air temperature setpoint; the supply air temperature sensor provides the feedback signal. Based on the measured error, the BAS controls the supply fan and heating (or cooling) coil valve position to moderate the supply air temperature.
 
-Figure 1. Fundamental SATR control logic.
+<a href="/images/SOOs/SOO-07-fig-1.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-07-fig-1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Fundamental SATR control logic.">
+        <figcaption class="figure-caption text-left">Figure 1. Fundamental SATR control logic.</figcaption>  
+    </figure>
+</a>
 
 ## Algorithm for the Sequence of Operation
 The algorithm is implemented differently for single-zone AHUs vs. multi-zone AHUs, and for constant volume vs. variable volume AHUs. 
@@ -40,23 +45,43 @@ The algorithm is implemented differently for single-zone AHUs vs. multi-zone AHU
 ### Single-Zone AHUs
 Figure 2 shows the supply temperature reset algorithm for a single-zone AHU, which can be described as follows (from left to right):
 
-Figure 2.  Supply air temperature reset for single-zone AHUs (ASHRAE 36-2018, Figure 5.18.4.5-3).
+<a href="/images/SOOs/SOO-07-fig-2.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-07-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2.  Supply air temperature reset for single-zone AHUs (ASHRAE 36-2018, Figure 5.18.4.5-3).">
+        <figcaption class="figure-caption text-left">Figure 2.  Supply air temperature reset for single-zone AHUs (ASHRAE 36-2018, Figure 5.18.4.5-3).</figcaption>  
+    </figure>
+</a>
 
 For a high heating loop signal (peak load), the supply air temperature (SAT) setpoint (SATsp) is at its maximum. As the heating load is reduced, the SATsp is reset to a lower value. The reset for the cooling loop signal shows two curves: the dotted line (labeled SATsp) is for economizer control and the dashed line (labeled SATsp-C) is for the cooling coil valve control. The two controls use the same SAT sensor. For economizing, if the measured SAT is greater than the minimum SATsp, then the outdoor air dampers will remain open. However, the measured SAT might be below the SATsp-C value at the same time, which means the cooling coil valve remains closed. The combination of the open outdoor air damper and closed cooling coil valve is the control that is needed for economizing. As the cooling loop signal increases (indicating a higher cooling load), the SATsp-C decreases. At some point, the measured SAT exceeds the setpoint, and the cooling coil valve begins to open. 
 
 For constant speed systems , the SATsp is met by changing only the heating/cooling coil valve position. For variable speed systems, the setpoint is met by changing both the heating/cooling coil valve position and the supply air flow rate. As shown in Figure 3, the control for fan speed is a function of heating/cooling loop signal, as well as OAT. The three overlapping curves for cooling show that, as OAT increases, fan speed slows down. Since warmer air holds more moisture, this logic prevents introducing too much moisture to the zones in cooling mode.
 
-Figure 3. Supply fan speed setpoint (ASHRAE 36-2018, Figure 5.18.4.5-2).
+<a href="/images/SOOs/SOO-07-fig-3.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-07-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Supply fan speed setpoint (ASHRAE 36-2018, Figure 5.18.4.5-2).">
+        <figcaption class="figure-caption text-left">Figure 3. Supply fan speed setpoint (ASHRAE 36-2018, Figure 5.18.4.5-2).</figcaption>  
+    </figure>
+</a>
 
 Figure 4 (which is an overlay of Figures 4 and 5) shows how fan speed is coordinated with the SATsp. Following the diagram from left to right, the highest heating demand is met by maximizing the SATsp and the fan speed. Then, as the demand is reduced, the fan speed is decreased until it reaches its minimum, at which point the SATsp is gradually decreased. After the deadband, at certain breakpoints either the fan speed is increasing while SATsp is constant, or SATsp is decreasing while fan speed is constant. 
 
-Figure 4. Coordination of SATR and fan speed for variable speed systems (ASHRAE 36-2018, Figure 5.18.4.5-1).
+<a href="/images/SOOs/SOO-07-fig-4.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-07-fig-4.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Coordination of SATR and fan speed for variable speed systems (ASHRAE 36-2018, Figure 5.18.4.5-1).">
+        <figcaption class="figure-caption text-left">Figure 4. Coordination of SATR and fan speed for variable speed systems (ASHRAE 36-2018, Figure 5.18.4.5-1).</figcaption>  
+    </figure>
+</a>
 
 ### Multi-Zone VAV AHUs
 
 Figure 5 shows the heating season reset curve for multi-zone AHUs. The key difference between the single-zone (Figure 2) and multi-zone curves is that the slope of the curve can vary with the number of zone requests. When there are many requests from the VAV boxes, the SATR will change quickly to meet the demand. As the number of zone requests decreases, the SATR change will be less dramatic; this is known as Trim and Response control.
 
-Figure 5. Supply air temperature reset diagram for multi-zone AHUs (ASHRAE 36-2018, Figure 5.18.4.5-3).
+<a href="/images/SOOs/SOO-07-fig-5.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-07-fig-5.jpg" class="figure-img img-fluid rounded" alt="Figure 5. Supply air temperature reset diagram for multi-zone AHUs (ASHRAE 36-2018, Figure 5.18.4.5-3).">
+        <figcaption class="figure-caption text-left">Figure 5. Supply air temperature reset diagram for multi-zone AHUs (ASHRAE 36-2018, Figure 5.18.4.5-3).</figcaption>  
+    </figure>
+</a>
 
 The supply fan speed in a multi-zone VAV AHU is set to meet static discharge pressure setpoints. Conventional control uses a constant pressure setpoint; in advanced HVAC control, the pressure is reset with the number of zone cooling SAT request according to Trim and Response logic. This is further described in the “Static Pressure Reset Sequence of Operation”.
 
@@ -156,13 +181,14 @@ For variable volume systems with a single-zone (as seen with Figure 4), fan spee
 
 The measurement locations for a SATR SOO are shown in Figure 6.  
 
-Figure 6. SATR SOO measurement points.
+<a href="/images/SOOs/SOO-07-fig-6.jpg">
+    <figure class="figure mb-0 mt-3">
+        <img src="/images/SOOs/SOO-07-fig-6.jpg" class="figure-img img-fluid rounded" alt="Figure 6. SATR SOO measurement points.">
+        <figcaption class="figure-caption text-left">Figure 6. SATR SOO measurement points.</figcaption>  
+    </figure>
+</a>
 
-### Measurement Boundary and Interactivity
-
-The SATR SOO measurement boundary is highlighted in Figure 7, and includes  the mixed air, discharge air, heat exchangers, power supply for the supply fan motor, and the supply fan and motor.
-
-Figure 7. SATR SOO measurement boundary.
+The SATR SOO measurement boundary includes the mixed air, discharge air, heat exchangers, power supply for the supply fan motor, and the supply fan and motor.
 
 ## Interaction of SATR with other SOOs 
 

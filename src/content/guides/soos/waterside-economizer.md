@@ -32,9 +32,9 @@ Figure 1 presents a schematic of the general principle of the waterside economiz
 
 Above the economizing temperature threshold, the three-way valve may partially direct the chilled water through the heat exchanger with the rest continuing to the chiller. In this case, the chiller compressor continues to run to share the load with the economizer. 
 
-<a href="">
+<a href="/images/SOOs/SOO-04-fig-1.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Basic waterside economizing control logic.">
+        <img src="/images/SOOs/SOO-04-fig-1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Basic waterside economizing control logic.">
         <figcaption class="figure-caption text-left">Figure 1. Basic waterside economizing control logic.</figcaption>
     </figure>
 </a>
@@ -43,9 +43,9 @@ Above the economizing temperature threshold, the three-way valve may partially d
 
 This section describes the control algorithm to determine when economizing is turned on and off, and whether the economizing mode is full-load or partial-load. Changes in the operation of the components of the central cooling plant are shown in the flowchart in Figure 2. 
 
-<a href="">
+<a href="/images/SOOs/SOO-04-fig-2.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="" class="figure-img img-fluid rounded" alt="Figure 2. Flow chart of waterside economizers.">
+        <img src="/images/SOOs/SOO-04-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Flow chart of waterside economizers.">
         <figcaption class="figure-caption text-left">Figure 2. Flow chart of waterside economizers.</figcaption>
     </figure>
 </a>
@@ -197,9 +197,9 @@ Refer to the chilled water loop, water-cooled chiller, condenser water loop, and
 
 The measurement boundary and locations for a waterside economizer SOO is highlighted in Figure 3.  
 
-<a href="">
+<a href="/images/SOOs/SOO-04-fig-3.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="" class="figure-img img-fluid rounded" alt="Figure 3. Waterside economizer measurement points.">
+        <img src="/images/SOOs/SOO-04-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Waterside economizer measurement points.">
         <figcaption class="figure-caption text-left">Figure 3. Waterside economizer measurement points.</figcaption>
     </figure>
 </a>

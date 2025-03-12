@@ -34,9 +34,9 @@ SOOs are essentially feedback loops that employ a combination of sensors, contro
 
 Figure 1 presents a schematic of the general principle of the static pressure reset control feedback loop. For a multi-zone AHU, the static pressure of the supply air is maintained at a level such that at least one VAV box damper position is set at 100%. The pressure reset value is determined by the number of requests that are received by the building automation system (BAS). ASHRAE Guideline 36 (“High-Performance Sequences of Operation for HVAC Systems”) includes a detailed algorithm based on VAV flow and damper position that can be used to determine the number of requests sent from each VAV to the BAS. 
 
-<a href="">
+<a href="/images/SOOs/SOO-08-fig-1.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="" class="figure-img img-fluid rounded" alt="Figure 1. Fundamental static pressure reset control logic.">
+        <img src="/images/SOOs/SOO-08-fig-1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Fundamental static pressure reset control logic.">
         <figcaption class="figure-caption text-left">Figure 1. Fundamental static pressure reset control logic.</figcaption>
     </figure>
 </a>
@@ -47,9 +47,9 @@ The reset algorithm is known as Trim and Response (T&R), where Trim indicates a 
 
 Figure 2 presents a diagram of the algorithm used to calculate requests for an individual VAV box. During a single data sample, there can be multiple requests per box, which reflects the relative urgency to reset the static pressure. 
 
-<a href="">
+<a href="/images/SOOs/SOO-08-fig-2.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="" class="figure-img img-fluid rounded" alt="Figure 2. Algorithm to calculate static pressure reset requests (Placeholder graphic, ASHRAE 36-2018, Section 5.6.8.2).">
+        <img src="/images/SOOs/SOO-08-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Algorithm to calculate static pressure reset requests (Placeholder graphic, ASHRAE 36-2018, Section 5.6.8.2).">
         <figcaption class="figure-caption text-left">Figure 2. Algorithm to calculate static pressure reset requests (Placeholder graphic, ASHRAE 36-2018, Section 5.6.8.2).</figcaption>
     </figure>
 </a>
@@ -141,9 +141,9 @@ Figure 3 presents a diagram of the T&R algorithm, with the variables defined in 
 
 The condition R>I (left side of the diagram) ensure that the pressure reset only happens when the number of requests is great enough. Note the difference in the Respond and Trim equations. For Respond, the incremental increase, SPres, is multiplied by (R-I), which allows the system to raise the static pressure quickly. Conversely, for Trim, only a gradual decrement by SPtrim is possible per time step. Note also that the setpoint is bound within the range SPmin and SPmax. Typically, the time step is set to two minutes. 
 
-<a href="">
+<a href="/images/SOOs/SOO-08-fig-3.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="" class="figure-img img-fluid rounded" alt="Figure 3. Trim and Response logic for static pressure reset.">
+        <img src="/images/SOOs/SOO-08-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Trim and Response logic for static pressure reset.">
         <figcaption class="figure-caption text-left">Figure 3. Trim and Response logic for static pressure reset.</figcaption>
     </figure>
 </a>
@@ -207,9 +207,9 @@ Table 2 provides a summary of the components to be measured to arrive at the val
 
 The measurement locations for a static pressure reset SOO are shown in Figure 4.
 
-<a href="">
+<a href="/images/SOOs/SOO-08-fig-4.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="" class="figure-img img-fluid rounded" alt="Figure 4. Static pressure reset SOO measurement points.">
+        <img src="/images/SOOs/SOO-08-fig-4.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Static pressure reset SOO measurement points.">
         <figcaption class="figure-caption text-left">Figure 4. Static pressure reset SOO measurement points.</figcaption>
     </figure>
 </a>
