@@ -31,21 +31,23 @@ Figure 1 presents a schematic of the general principle of the economizing contro
 
 The goal of economizing is to use less energy to meet the cooling load. The AHU draws in outdoor air when the outdoor air temperature and humidity are in a range to allow it to cool interior spaces. Optimizing the amount of outdoor air reduces the amount of energy needed to condition the space. 
 
+{{< admonition type="note" >}}
 ASHRAE Standard 90.1-2019 and NYC code requires that outdoor air be introduced when conditions are warranted. This SOO is suitable for all AHUs with variable OAD position control, including constant air volume, two-speed air volume, and variable volume AHUs. Control strategies may be based on dry bulb temperature or enthalpy.
+{{< /admonition >}}
 
 ## Algorithm for the Sequence of Operation
  
 Economizing is generally implemented using three methods: 
 
-### Dry Bulb Temperature 
+### 1. Dry Bulb Temperature 
 
 The OAD position opens when the dry bulb temperature is within a suitable range. In NYC, the maximum temperature at which the energy code allows for economizing is 65oF. As OAT approaches the discharge air temperature (DAT), the damper position is modulated, and the cooling coil is turned off (modulated economizer mode). At the higher end of this range, the OAD position is 100% and the cooling coil is modulated to provide sufficient cooling and dehumidification (integrated economizer mode). Dry bulb is the simplest economizer control method.
 
-### Dry Bulb Temperature Difference 
+### 2. Dry Bulb Temperature Difference 
 
 The OAD position opens when the dry bulb temperature of the return air is higher than the dry bulb temperature of the outdoor air. As OAT approaches DAT, the damper position is modulated, and the cooling coil is turned off (modulated economizer mode). At the higher end of this range, the OAD position is 100% and the cooling coil is modulated to provide sufficient cooling and dehumidification (integrated economizer mode). 
 
-### Enthalpy 
+### 3. Enthalpy 
 
 There are two methods of enthalpy economizing:
 

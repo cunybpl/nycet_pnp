@@ -18,21 +18,25 @@ Static pressure reset in an air handling unit (AHU) slows down the fan in a mult
 
 The goal of static pressure reset is to use less electrical energy to meet cooling and heating loads, by lowering the AHU fan speed. When loads are moderate, and if the AHU is operated with constant static pressure, the VAV boxes will close their dampers to reduce air flow to the zones. Although zone air flows and temperatures are properly maintained, the AHU supply fan is working harder than necessary. If the fan speed is modulated, then the VAV box dampers can be opened to maintain the flow to meet the load. The zone with the greatest demand will be opened nearly 100%.  
 
+{{< admonition type="note" >}}
 ASHRAE Standard 90.1-2019 and the NYC Energy Conservation Code (Section C403.6.8) requires static pressure reset for all multi-zone AHUs: 
 
-<i>For systems with direct digital control of individual zones reporting to the central control panel, the static pressure setpoint shall be reset based on the zone requiring the most pressure. In such case, the setpoint is reset lower until one zone damper is nearly wide open. The direct digital controls shall be capable of monitoring zone damper positions or shall have an alternative method of indicating the need for static pressure that is configured to provide all of the following:</i> 
+{{< admonition >}}
+For systems with direct digital control of individual zones reporting to the central control panel, the static pressure setpoint shall be reset based on the zone requiring the most pressure. In such case, the setpoint is reset lower until one zone damper is nearly wide open. The direct digital controls shall be capable of monitoring zone damper positions or shall have an alternative method of indicating the need for static pressure that is configured to provide all of the following:
 
 1. Automatic detection of any zone that excessively drives the reset logic. 
 2. Generation of an alarm to the system operational location. 
 3. Allowance for an operator to readily remove one or more zones from the reset algorithm. 
+{{< /admonition >}}
 
-The code applies to all mechanical systems that serve multiple zones, which are required to be VAV. 
+The code applies to all mechanical systems that serve multiple zones, which are required to be VAV.
+{{< /admonition >}}
 
 ### Basic Control Logic
 
 SOOs are essentially feedback loops that employ a combination of sensors, controllers, and actuators to impact a process and maintain a desired state. For example, a thermostat provides a signal to a controller, and the controller sends a signal to the furnace. When the temperature falls below a certain setpoint, the controller sends a signal to the furnace to fire up and to turn on the air handler to provide heated air to the conditioned space. Once the temperature reaches the desired setpoint, the controller sends a signal to reduce the fan speed and/or to turn off the furnace. 
 
-Figure 1 presents a schematic of the general principle of the static pressure reset control feedback loop. For a multi-zone AHU, the static pressure of the supply air is maintained at a level such that at least one VAV box damper position is set at 100%. The pressure reset value is determined by the number of requests that are received by the building automation system (BAS). ASHRAE Guideline 36 (“High-Performance Sequences of Operation for HVAC Systems”) includes a detailed algorithm based on VAV flow and damper position that can be used to determine the number of requests sent from each VAV to the BAS. 
+Figure 1 presents a schematic of the general principle of the static pressure reset control feedback loop. For a multi-zone AHU, the static pressure of the supply air is maintained at a level such that at least one VAV box damper position is set at 100%. The pressure reset value is determined by the number of requests that are received by the building automation system (BAS). 
 
 <a href="/images/SOOs/SOO-08-fig-1.jpg">
     <figure class="figure mb-0 mt-3">
@@ -40,6 +44,11 @@ Figure 1 presents a schematic of the general principle of the static pressure re
         <figcaption class="figure-caption text-left">Figure 1. Fundamental static pressure reset control logic.</figcaption>
     </figure>
 </a>
+
+{{< admonition type="tip">}}
+ASHRAE Guideline 36 (“High-Performance Sequences of Operation for HVAC Systems”) includes a detailed algorithm based on VAV flow and damper position that can be used to determine the number of requests sent from each VAV to the BAS. 
+{{< /admonition >}}
+
 
 ## Algorithm for the Sequence of Operation
 
@@ -150,7 +159,9 @@ The condition R>I (left side of the diagram) ensure that the pressure reset only
 
 Finally, the upper right quadrant of  Figure 3 shows the control loop for adjusting fan speed and VAV damper position, which is sampled more frequently than for the pressure setpoint reset.  
 
+{{< admonition type="note" >}}
 ASHRAE 36-2018 describes the general logic, though different controls manufacturers may apply additional logic. For example, Johnson Controls (2018) implements different rules in their control logic between cooling and heating seasons. In summer, supply air temperature is fixed and static pressure is reset; in winter, static pressure is fixed and supply air temperature varies. This control scheme also turns on Trim and Response only if zones are occupied. 
+{{< /admonition >}}
 
 ## Evaluation of Energy Consumption 
 
@@ -220,7 +231,7 @@ The pressure reset SOO has potential interactivity with other SOOs listed below.
 
 <strong>Economizing and Demand Controlled Ventilation (DCV)</strong> – Static pressure reset only operates when a zone is occupied, and therefore interacts with DCV. If a zone is unoccupied, DCV will call for the damper to close to the minimum airflow needed for ventilation. If more zones are unoccupied, airflow demands drop and the pressure should reset downward due to occupancy rather than lower space conditioning demands. 
 
-<strong>Supply Air Temperature Reset</strong> – There is a clear interaction between supply air temperature reset and static pressure reset. If supply air temperature is lowered, then the flow – and thereby the pressure –must increase to supply the same amount of energy to a zone, and vice versa. Trane (2016) points out that these two SOOs must be finely tuned during commissioning to avoid instability. Seidl (2008) states that the T&R logic of these two resets are likely to be driven by different zones, and therefore a single zone is unlikely to cause instability. 
+<strong>Supply Air Temperature Reset</strong> – There is a clear interaction between supply air temperature reset and static pressure reset. If supply air temperature is lowered, then the flow – and thereby the pressure –must increase to supply the same amount of energy to a zone, and vice versa. Trane (2016) points out that these two SOOs must be finely tuned during commissioning to avoid instability.[^1] Seidl (2008) states that the T&R logic of these two resets are likely to be driven by different zones, and therefore a single zone is unlikely to cause instability.[^2] 
 
 <strong>Zone Temperature Reset</strong> – BASs limit the range that occupants can reset zone temperatures to keep setpoint near design conditions. If a zone were to be reset too far from design conditions, it might become a so-called “rogue zone” (i.e., where boxes are always wide open) that then dominates the static pressure reset algorithm. 
 
@@ -228,11 +239,15 @@ The pressure reset SOO has potential interactivity with other SOOs listed below.
 
 One underlying assumption regarding this SOO is that the heating and cooling loads for the zones being served do not change during the pre- and post-retrofit periods and are correlated to outdoor air temperature and hours of operation. The hourly electrical energy is summed by OAT and coincident operating hours, and a regression model is developed. This is used with climate normal year data to develop an estimate of annual fan and motor electrical energy consumption.  
 
-## References 
+## Further Reading
 
 - ​​​ASHRAE. (2018). High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
-- ​ASHRAE. (2019). Standard 90.1-2019: Energy standard for buildings except low-rise residential buildings. ASHRAE. 
+- ASHRAE. (2019). Standard 90.1-2019: Energy standard for buildings except low-rise residential buildings. ASHRAE.
 - ​Johnson Controls. (n.d.). Air handling unit reset application note: Sequence of operation – Winter mode. Retrieved 2021, from https://docs.johnsoncontrols.com/bas/r/Metasys/en-US/Air-Handling-Unit-Reset-Application-Note/AHU-Reset-Control-System 
-- ​New York City Department of Buildings. (2020). New York City Energy Conservation Code (NYCECC). Retrieved 2021, from Section C403.6.8.: Chapter C4 Commercial Energy Efficiency: Commercial Energy Efficiency, New York City Energy Code 2020 | UpCodes 
-- ​Seidl, R. (2008). Using Demand Based Reset Strategies. National Conference on Building Commissioning. 
-- ​Trane. (2016). Multiple-zone VAV systems - Finding the Right Balance for VAV Energy Savings. Trane Engineers Newsletter, 45(3), 1-7. 
+- ​New York City Department of Buildings. (2020). New York City Energy Conservation Code (NYCECC). Retrieved 2021, from Section C403.6.8.: Chapter C4 Commercial Energy Efficiency: Commercial Energy Efficiency, New York City Energy Code 2020 | UpCodes  
+
+## Footnotes
+
+[^1]: ​Trane. (2016). Multiple-zone VAV systems - Finding the Right Balance for VAV Energy Savings. Trane Engineers Newsletter, 45(3), 1-7.
+[^2]: ​Seidl, R. (2008). Using Demand Based Reset Strategies. National Conference on Building Commissioning.
+ 

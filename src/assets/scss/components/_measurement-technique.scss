@@ -128,7 +128,8 @@
   display: flex;
   padding: 1.2em 1.5em;
   border-radius: .25rem;
-  border-left: 6px solid;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: 6px solid rgba(0, 0, 0, 0.5);
   flex-direction: column;
   gap: .15rem;
   margin-block: 1.5em;
@@ -154,6 +155,9 @@
   &-content {
     & p {
       margin-bottom: 0;
+    }
+    & p + * {
+      margin-top: 1em;
     }
   }
 }

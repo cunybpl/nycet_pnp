@@ -20,7 +20,9 @@ While waterside economizers are implemented in a variety of ways this guidance i
 
 Waterside economizers provide a cost-effective and energy-saving opportunity for a facility using a water-cooled chiller connected to an open cooling tower system and a liquid-to-liquid heat exchanger. When OAT is cold enough to use the cooling tower to chill the condenser water return temperature below the chilled water supply temperature setpoint, the chiller compressor can be turned off to achieve free cooling. Typically, the waterside economizer is turned on if the wet bulb temperature is below 45°F and the dry bulb is below 55°F. Under these conditions, a chilled water setpoint of around 55°F is achievable. 
 
+{{< admonition type="note" >}}
 The NYC Energy Conservation Code (NYCEEC) requires waterside economizing for new water-cooled chilled water systems larger than 720,000 Btu/h. The code states that the economizer should be integrated with the chiller, which means that the economizer meets 100% of the cooling load (i.e., the chiller compressor is off) when it is cold enough or to work simultaneously with the chiller to share the load under more moderate conditions, generally when dry bulb temperature is less than 55°F and wet bulb temperature is less than 45°F.  
+{{< /admonition >}}
 
 Waterside economizers can be installed in a chilled water plant with variable or constant speed pumping, though variable speed pumping provides greater savings. While airside economizers on the air handling units (AHUs) are preferred over waterside chilled water economizers due to their higher efficiency, there are certain conditions when waterside economizers are suitable. A multi-story office building that, for architectural reasons, does not allow for outdoor air intake for the AHUs is a candidate for waterside economizing. Buildings with a winter cooling load, such as a data center or museum, are also candidates for waterside economizers. Facilities where concerns about pollutants and humidity are introduced through the outdoor air intake of an airside economizer, such as a laboratory or educational building, are other applications.  
 
@@ -54,7 +56,7 @@ When outdoor dry bulb and wet bulb temperatures are low enough to enable watersi
 
 The chilled water supply temperature (CHWST) setpoint is modulated as limits allow while meeting the cooling demand. The chilled water (CHW) flow rate is adjusted to match the desired CHWST setpoint. With known parameters, such as the current CHW flow rate, wet bulb temperature, and the design conditions of the heat exchanger (HX) and the cooling tower, the CHW temperature leaving the HX can be predicted (PHXLWT in the diagram). 
 
-According to Taylor (2012), the waterside economizer should be disabled when it cannot provide at least a 1°F reduction between the entering and exiting CHW. Chillers are disabled when the economizer can supply the entire cooling load; conversely, if the cooling demand is not met by the current chilled water supply, chillers are turned on. 
+According to Taylor (2014), the waterside economizer should be disabled when it cannot provide at least a 1°F reduction between the entering and exiting CHW.[^1] Chillers are disabled when the economizer can supply the entire cooling load; conversely, if the cooling demand is not met by the current chilled water supply, chillers are turned on. 
 
 As many tower cells as possible should be enabled while making sure the tower flow is within the minimum limits. Condenser water should be maintained at a minimum flow rate that can match the CHW flow at the desired supply temperature setpoint. Meanwhile, the reduced condenser water flow must be compatible with the tower limits through controlling pump speed, staging pumps, and modulating the HX valves. 
 
@@ -193,7 +195,7 @@ The energy consumption of a water-cooled chilled water plant is the sum of the e
 
 ### Components to Measure and Measurement Locations
 
-Refer to the chilled water loop, water-cooled chiller, condenser water loop, and waterside economizer system descriptions for specific components to measure.  
+Refer to the [chilled water loop](/documents/systems/chilled-water-loop), [water-cooled chiller](/documents/systems/water-cooled-chiller), [condenser water loop](/documents/systems/condenser-water-loop), and [waterside economizer](/documents/systems/waterside-economizer) system descriptions for specific components to measure.  
 
 The measurement boundary and locations for a waterside economizer SOO is highlighted in Figure 3.  
 
@@ -214,5 +216,5 @@ A waterside economizer has potential interactivity with the entire water-cooled 
 
 The annual energy consumption of a water-cooled chilled water plant with a waterside economizer is the sum of the energy for each component system for each hour of the year. The model used must consider the hourly cooling loads and facility operations, outdoor conditions, operating parameters of the systems in the plant, and operations of associated AHU plants. Due to the highly interactive nature of the water-cooled chilled water plant, a detailed plant model or whole facility energy model is needed to estimate annual consumption, based on the actual operational parameters and measured energy consumption of the various systems and components.  
 
-## Further Reading
-- ​​​Taylor, S. (2014). How to design & control waterside economizers. ASHRAE Journal, 56, 30-36. 
+## Footnotes
+[^1]: ​​​Taylor, S. (2014). How to design & control waterside economizers. ASHRAE Journal, 56, 30-36. 

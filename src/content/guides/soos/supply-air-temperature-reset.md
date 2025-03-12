@@ -83,13 +83,11 @@ Figure 5 shows the heating season reset curve for multi-zone AHUs. The key diffe
     </figure>
 </a>
 
-The supply fan speed in a multi-zone VAV AHU is set to meet static discharge pressure setpoints. Conventional control uses a constant pressure setpoint; in advanced HVAC control, the pressure is reset with the number of zone cooling SAT request according to Trim and Response logic. This is further described in the “Static Pressure Reset Sequence of Operation”.
+The supply fan speed in a multi-zone VAV AHU is set to meet static discharge pressure setpoints. Conventional control uses a constant pressure setpoint; in advanced HVAC control, the pressure is reset with the number of zone cooling SAT request according to Trim and Response logic. This is further described in the [Static Pressure Reset Sequence of Operation](/documents/soos/static-pressure-reset-ahu).
 
 ### Data to Represent the Heating and Cooling Signal
 
-The last item to consider on the above diagrams is the actual measured data that represents the heating and cooling loop signal on the x-axis. The engineering literature (Trane 2016, PNNL 2012, Davis 2016) lists the following options:
-
-Footnote: Trane 2016, PNNL 2012, Davis 2016
+The last item to consider on the above diagrams is the actual measured data that represents the heating and cooling loop signal on the x-axis. The engineering literature (Trane 2016,[^1] PNNL 2012,[^2] Davis 2016[^3]) lists the following options:
 
 - **Outdoor air temperature** – The most implemented loop signal is OAT, due to the reliability of temperature sensors and the ease of commissioning the algorithm. High indoor humidity during cooling season, however, is a risk of using OAT. When the supply temperature setpoint is modulated, the cooling coil will be modulated, which may result in insufficient dehumidification. Using wet-bulb temperature as the loop signal would avoid this issue, but humidity sensors are not generally reliable. 
 
@@ -111,8 +109,11 @@ SATR reduces these temperature changes. As was shown in Figure 2, the SATsp is m
 
 The change in fan energy from SATR depends on whether the AHU is a constant volume or variable volume system. For a constant volume system, the fan operation is the same with and without the SOO.
 
-For variable volume systems with a single-zone (as seen with Figure 4), fan speed is coordinated with SATsp. Without SATR, the fan speed curve would have three parts: 1) a negatively sloped curve for heating loop signals; 2) a deadband minimum speed to meet ventilation requirements; and 3) a positively sloped curve for cooling loop signals. If you superimpose this curve over the fan speed curve in Figure 4, you will see that the fan may run at higher speeds at higher demand and at lower speeds at lower demand. Therefore, it is not possible to predict a priori if fan energy will be increase or decrease. 
+For variable volume systems with a single-zone (as seen with Figure 4), fan speed is coordinated with SATsp. Without SATR, the fan speed curve would have three parts: 1) a negatively sloped curve for heating loop signals; 2) a deadband minimum speed to meet ventilation requirements; and 3) a positively sloped curve for cooling loop signals.
 
+{{< admonition type="tip" >}}
+If you superimpose this curve over the fan speed curve in Figure 4, you will see that the fan may run at higher speeds at higher demand and at lower speeds at lower demand. Therefore, it is not possible to predict a priori if fan energy will be increase or decrease. 
+{{< /admonition >}}
 
 <div class="table-wrapper">
 <table>
@@ -196,7 +197,7 @@ The supply air temperature reset SOO has potential interactivity with other SOOs
 
 **Economizing and Direct Control Ventilation (DCV)** – These two SOOs both control the outdoor air damper, which in turn impacts the temperature and relative humidity of the mixed air. The mixed air is then conditioned to meet the SATsp. While SATR operates independently of the outside air damper position, economizing and DCV will impact the amount of energy used to condition the air. Therefore, economizing and DCV should be applied consistently between pre- and post-retrofit conditions to properly evaluate the impact of SATR. 
 
-**Static Pressure Reset** – SATR and static pressure reset have a complicated interaction. Both SOOs seek to modulate when demand is moderate. As the SATsp is modulated, the zones may call for greater air flow, which means higher pressure is generated, contrary to the goal of the static pressure reset algorithm. Taylor (2016) points out that the two algorithms operate on different time scales, and therefore concerns that they work against each other are misplaced. SAT is reset gradually through the day, while static pressure resets may happen frequently within an hour. Nevertheless, static pressure reset should be applied consistently between pre- and post-retrofit conditions.
+**Static Pressure Reset** – SATR and static pressure reset have a complicated interaction. Both SOOs seek to modulate when demand is moderate. As the SATsp is modulated, the zones may call for greater air flow, which means higher pressure is generated, contrary to the goal of the static pressure reset algorithm. Taylor (2016) points out that the two algorithms operate on different time scales, and therefore concerns that they work against each other are misplaced.[^1] SAT is reset gradually through the day, while static pressure resets may happen frequently within an hour. Nevertheless, static pressure reset should be applied consistently between pre- and post-retrofit conditions.
 
 ## SATR SOO Calculation Methodology
 
@@ -206,10 +207,10 @@ One underlying assumption regarding this SOO is that the heating and cooling loa
 
 - ASHRAE (2018). High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
 
-- Davis, G. (2016, August 15). HVAC codes and standards: cooling and energy efficiency. Retrieved January 15, 2021, from Consulting-Specifying Engineer: https://www.csemag.com/articles/hvac-codes-and-standards-cooling-and-energy-efficiency/
+## Footnotes
 
-- Pacific Northwest National Laboratory (2012). Large Commercial Buildings: Re-tuning for Efficiency - Air Handling Units: Pre-Re-Tuning and Trending and Re-Tuning. Retrieved January 2021, from https://buildingretuning.pnnl.gov/documents/chapters/ch5_air_handling.pdf
+[^1]: Trane (2016). Multiple-zone VAV systems - Finding the Right Balance for VAV Energy Savings. Trane Engineers Newsletter, 45(3).
 
-- Trane (2016). Multiple-zone VAV systems - Finding the Right Balance for VAV Energy Savings. Trane Engineers Newsletter, 45(3).
+[^2]: Pacific Northwest National Laboratory (2012). Large Commercial Buildings: Re-tuning for Efficiency - Air Handling Units: Pre-Re-Tuning and Trending and Re-Tuning. Retrieved January 2021, from https://buildingretuning.pnnl.gov/documents/chapters/ch5_air_handling.pdf
 
-
+[^3]: Davis, G. (2016, August 15). HVAC codes and standards: cooling and energy efficiency. Retrieved January 15, 2021, from Consulting-Specifying Engineer: https://www.csemag.com/articles/hvac-codes-and-standards-cooling-and-energy-efficiency/

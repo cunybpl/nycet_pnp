@@ -1,6 +1,6 @@
 {{ $type := .Get "type" }}
-<section class="admonition"
-  {{ if eq $type "note"}}
+<section class="admonition" 
+  {{ if eq $type "note" }}
   style="background-color: var(--note-background);
         border-color: var(--note-border);
         color: var(--note-fg);"
@@ -12,7 +12,7 @@
   style="background-color: var(--warning-background);
         border-color: var(--warning-border);
         color: var(--warning-fg);"
-  {{ end }}      
+  {{ end }}
   >
   <div class="admonition-heading">
     <span class="admonition-icon">
@@ -31,6 +31,6 @@
     {{ end }}
   </div>
   <div class="admonition-content">
-    <p>{{ .Inner | .Page.RenderString }}</p>
+    {{ .Inner | .Page.RenderString }}
   </div>
 </section>

@@ -52,14 +52,16 @@ The general algorithm employed when OAT is the input variable is depicted in Fig
 
 ### Cooling Coil Valve Position
 
-CHWST setpoint can also be modulated in proportion to the to the average position of the cooling coil valves or a Trim and Response control to step up and step down the CHWST setpoint.[^2] The number of chilled water valves greater than 90% open, (i.e., the number of “requests”) determines the size of the increment to be made to CHWST setpoint. One request might lead to a 1°F setpoint increase, while three requests might lead to a 3°F change. No requests lead to a Trim action, whereupon the setpoint is decreased by a fixed increment. The Trim and Response control algorithm allows for a rapid increase in CHWST and a gradual reduction, which avoids unstable cycling of the chiller system. Cooling coil valve position is the preferred input control variable (over OAT) for variable speed pumping systems (both primary and primary-secondary). As discussed by Taylor (2013), using cooling coil valve position as the input allows for integrated control of the CHWST reset SOO with the differential pressure reset SOO, while also minimizing the risk of insufficient dehumidification by the cooling coils.[^2]
+CHWST setpoint can also be modulated in proportion to the to the average position of the cooling coil valves or a Trim and Response control to step up and step down the CHWST setpoint.[^2] The number of chilled water valves greater than 90% open, (i.e., the number of “requests”) determines the size of the increment to be made to CHWST setpoint. One request might lead to a 1°F setpoint increase, while three requests might lead to a 3°F change. No requests lead to a Trim action, whereupon the setpoint is decreased by a fixed increment. The Trim and Response control algorithm allows for a rapid increase in CHWST and a gradual reduction, which avoids unstable cycling of the chiller system. Cooling coil valve position is the preferred input control variable (over OAT) for variable speed pumping systems (both primary and primary-secondary).
+
+As discussed by Taylor (2013), using cooling coil valve position as the input allows for integrated control of the CHWST reset SOO with the differential pressure reset SOO, while also minimizing the risk of insufficient dehumidification by the cooling coils.[^2]
 
 Figure 3 shows how the algorithm works when the number of cooling coil valves is used as the input variable. The more cooling coil valves that are greater than 90% open, the lower the ChWST setpoint becomes.
 
 <a href="/images/SOOs/SOO-01-fig-3.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="/images/SOOs/SOO-01-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water supplu temperature reset algorithm.">
-        <figcaption class="figure-caption text-left">Figure 3. Chilled water supplu temperature reset algorithm.</figcaption>  
+        <img src="/images/SOOs/SOO-01-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water supply temperature reset algorithm.">
+        <figcaption class="figure-caption text-left">Figure 3. Chilled water supply temperature reset algorithm.</figcaption>  
     </figure>
 </a>
 
@@ -239,7 +241,11 @@ The measurement boundary includes the entire cooling plant, Figure 6 shows a rep
 
 ## CHWST Reset SOO Calculation Methodology
 
-The annual energy consumption of a water-cooled chilled water plant with a CHWST reset SOO is the sum of the energy for each component system for each hour of the year. The model used must consider the hourly cooling loads and facility operations, outdoor conditions, operating parameters of the systems in the plant, and operation of associated AHU plant. Due to the highly interactive nature of the water-cooled chilled water plant, a detailed plant model or whole facility energy model is needed to estimate annual consumption, based on the actual operational parameters and measured energy consumption of the various systems and components.
+The annual energy consumption of a water-cooled chilled water plant with a CHWST reset SOO is the sum of the energy for each component system for each hour of the year. The model used must consider the hourly cooling loads and facility operations, outdoor conditions, operating parameters of the systems in the plant, and operation of associated AHU plant.
+
+{{< admonition type="note" >}}
+Due to the highly interactive nature of the water-cooled chilled water plant, a detailed plant model or whole facility energy model is needed to estimate annual consumption, based on the actual operational parameters and measured energy consumption of the various systems and components.
+{{< /admonition >}}
 
 ## Further Reading
 
@@ -265,9 +271,9 @@ The annual energy consumption of a water-cooled chilled water plant with a CHWST
 
 [^1]: ASHRAE (2019). ASHRAE Handbook: HVAC Applications. Atlanta, GA: ASHRAE.
 
-[^2]: (Taylor 2013) - this was not in the list but appears in the text.
+[^2]: Taylor 2013
 
 [^3]: Taylor, S.T. (2002). “Degrading Chilled Water Plant Delta-T: Causes and Mitigation.” ASHRAE Transactions, Vol. 108, Pt. 1. Atlanta, GA: American Society of Heating, Refrigerating and Air Conditioning Engineers.
 
-[^4]: (Katipamula et al., 2007) - this was not in the list but appears in the text.
+[^4]: Katipamula et al., 2007
 
