@@ -11,48 +11,11 @@
         {{ if eq .name $page_type }}
           {{ range .tabs }}
             <button id="tab-item-{{ .name }}" class="header-tab-item" onclick="displayGuideContent(event)">
-              <!-- <div class="tab-icon">
-                {{ .icon | absURL }}
-              </div> -->
               {{ .label }}
             </button>
           {{ end }}
         {{ end }}
       {{ end }}
-      <!-- {{ if isset .Params "related_systems" }}
-      <button 
-        id="tab-item-related-systems" 
-        class="header-tab-item"
-        onclick="displayGuideContent(event)"
-      >
-        <div>
-          <img src="{{ "images/hero/system-icon.png" | absURL }}" class="img-fluid">
-        </div>
-        Related Systems
-      {{ else }}
-      <button 
-        id="tab-item-related-systems" 
-        class="header-tab-item"
-        onclick="displayGuideContent(event)"
-      >
-        <div>
-          <img src="{{ "images/hero/component-icon.png" | absURL }}" class="img-fluid">
-        </div>
-        Related Components
-      {{ end }}
-      </button>
-      {{ if isset .Params "borrow_equipment_url"  }}
-      <button 
-        id="tab-item-borrow-equipments" 
-        class="header-tab-item"
-        onclick="displayGuideContent(event)"
-      >
-        <div>
-          <img src="{{ "images/hero/electric-plant-icon-white.png" | absURL }}" class="img-fluid">
-        </div>
-        Borrow Equipment
-      </button>
-      {{ end }} -->
     </div>
   </div>
 </section>
