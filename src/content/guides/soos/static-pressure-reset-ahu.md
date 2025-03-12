@@ -4,7 +4,6 @@ type: soo
 layout: guide
 soo_id: 8
 excerpt: Slows down the fan in a multi-zone AHU that supplies air to variable air volume terminal units.
-thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_systems:
   - Variable-speed, Variable-volume Air Handling Unit
 related_systems:

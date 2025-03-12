@@ -4,7 +4,6 @@ type: soo
 layout: guide
 soo_id: 4
 excerpt: When outdoor weather is relatively mild and there is still a need for cooling in a facility, waterside economizing in a central cooling plant can be implemented through a heat exchanger and a specific sequence of operation (SOO).
-thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_systems:
   - Chilled Water Loop
   - Water-cooled Chiller

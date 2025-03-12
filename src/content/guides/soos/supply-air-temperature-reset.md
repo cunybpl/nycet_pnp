@@ -4,7 +4,6 @@ type: soo
 layout: guide
 soo_id: 7
 excerpt: On warmer days during the heating season, the supply air temperature to the zones from the AHU plant can be lowered to meet the more moderate heating demands. During cooling season, the temperature can be reset upwards during periods of moderate cooling demands.
-thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_systems:
   - Variable-speed, Variable-volume Air Handling Unit
   - Constant-speed, Constant-volume Air Handling Unit

@@ -4,7 +4,6 @@ type: soo
 layout: guide
 soo_id: 1
 excerpt: On cooler days during the cooling season, the chilled water supply temperature can be increased in a central cooling plant based on the reduced cooling load.
-thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
 associated_systems:
   - Chilled Water Loop
   - Water-cooled Chiller
