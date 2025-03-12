@@ -5,10 +5,10 @@ layout: guide
 soo_id: 9
 excerpt: Uses outdoor air to cool a facility instead of the chilled water plant, or direct expansion cooling in an air handling unit, when the outdoor air temperature meets certain criteria, as described in the NYC Energy Conservation Code.
 thumbnail_image: "/images/hero/measurement-guide-thumb-placeholder.jpg"
-associated_components:
-  - Constant-speed, Constant-volume Fan and Motor
-related_components:
-  - Constant-speed, Constant-volume Fan and Motor
+associated_systems:
+  - Airside Economizer
+related_systems:
+  - Airside Economizer
 url: "/documents/soos/airside-economizing"
 ---
 
