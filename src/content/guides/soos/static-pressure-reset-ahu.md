@@ -69,7 +69,7 @@ Figure 3 presents a diagram of the T&R algorithm, with the variables defined in 
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 2. Energy-consuming components associated with the static pressure reset SOO.</caption>
+    <caption>Table 1. Trim and Request variables (ASHRAE 36-2018, Table 5.1.14.3).</caption>
     <thead>
         <tr>
             <th>
