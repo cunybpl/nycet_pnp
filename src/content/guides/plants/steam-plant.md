@@ -2,7 +2,7 @@
 title: Steam Plant
 type: plant
 plant_id: 5
-excerpt: Produces and distributes steam throughout the facility for space heating. Terminal units are used to reject heat to the spaces, condensate recovery systems collect condensate for the boiler.
+excerpt: Produces and distributes steam throughout the facility for space heating. Terminal units transfer heat to the spaces, while condensate recovery systems collect condensate for reuse in the boiler.
 thumbnail_image: "/images/plants/steam-plant/2024_0411_steam plant_thumbnail.jpeg"
 associated_systems:
   - Boiler
@@ -20,7 +20,7 @@ url: "/documents/plants/steam-plant"
 
 ## General Overview
 
-A low pressure steam plant takes input energy (e.g., fuel, gas, biomass) and uses a boiler to generate steam that is distributed throughout a facility or group of facilities to provide heating. Low pressure steam plants are generally operated at 15 psig or less (steam temperature below ~250 F). Low pressure steam can be used directly as a heating medium and distributed to the terminal equipment, or it can be used indirectly by being piped to heat exchangers to heat water to use at terminal equipment and/or domestic hot water (DHW) systems. A low pressure steam plant and associated systems are shown in Figure 1. A steam plant consists of a steam boiler, steam distribution system, condensate recovery system, blowdown system and economizer. 
+A low-pressure steam plant uses input energy (e.g., fuel, gas, or biomass) to generate steam in a boiler, which is then distributed throughout a facility or group of facilities for heating. Low pressure steam plants are generally operated at 15 psig or less (steam temperature below ~250 F). Low pressure steam can be used directly as a heating medium and distributed to the terminal equipment, or it can be used indirectly by being piped to heat exchangers to heat water to use at terminal equipment and/or domestic hot water (DHW) systems. A low pressure steam plant and associated systems are shown in Figure 1. A steam plant consists of a steam boiler, steam distribution system, condensate recovery system, blowdown system and economizer. 
 
 <a href="/images/plants/steam-plant/2024_0419_STEAM plant_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -81,7 +81,7 @@ The feedwater system provides fresh or, at times, treated water to the steam boi
 
 ### Blowdown System
 
-The blowdown system removes suspended solids and sludge from the boiler water in order to preserve the operation and efficiency of the steam plant components. An integrated blowdown system reduces unnecessary blowdown by monitoring water quality and allows for heat recovery from the blowdown water to pre-heat the feedwater, generates service hot water or other applications.
+The blowdown system removes suspended solids and sludge from the boiler water to maintain the operation and efficiency of steam plant components. An integrated blowdown system minimizes unnecessary blowdown by monitoring water quality and allows heat recovery from the blowdown water to preheat feedwater, generate service hot water, or support other applications.
 
 <a href="/images/plants/steam-plant/2024_0507_STEAM plant_figure 5 updated.jpg">
     <figure class="figure mb-0 mt-3">
@@ -92,7 +92,7 @@ The blowdown system removes suspended solids and sludge from the boiler water in
 
 ## Evaluation of Energy Consumption
 
-The total energy consumption of a steam plant is the sum of the energy consumption of the components of each system: the fuel usage consumed by the boiler to satisfy the heating load of the building, and the electricity required by the burner fan motor, condensate pump and feedwater pump. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the steam plant. 
+The total energy consumption of a steam plant is the sum of the energy used by its individual components. This includes the fuel consumed by the boiler to meet the building’s heating load and the electricity required to operate the burner fan motor, condensate pump, and feedwater pump. Table 1 summarizes the system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the steam plant.
 
 <div class="table-wrapper">
 <table>

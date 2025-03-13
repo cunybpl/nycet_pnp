@@ -2,7 +2,7 @@
 title: Water-cooled Chilled Water Plant
 type: plant
 plant_id: 1
-excerpt: Consists of a water-cooled chiller system, a condenser water loop system and a chilled water loop system operating to meet cooling demand in a facility.
+excerpt: Consists of a water-cooled chiller system, a condenser water loop system, and a chilled water loop system operating together to meet cooling demand in a facility.
 thumbnail_image: "images/plants/water-cooled-chilled-water-plant/chilled-water-plant-overview.jpeg"
 associated_systems:
   - Chilled Water Loop
@@ -20,7 +20,7 @@ url: "/documents/plants/water-cooled-chilled-water-plant"
 
 ## General Overview
 
-A water-cooled chilled water plant consists of a water-cooled chiller system, a condenser water loop system and a chilled water loop system operating to meet cooling demand in a facility. If a waterside economizer is implemented in the facility, the chilled water plant includes a waterside economizer system as well.
+A water-cooled chilled water plant consists of a water-cooled chiller system, a condenser water loop system and a chilled water loop system operating together to meet cooling demand in a facility. If a waterside economizer is implemented in the facility, the chilled water plant includes a waterside economizer system as well.
 
 <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 1 updated.jpg">
     <figure class="figure mb-0 mt-3">
@@ -33,7 +33,7 @@ A water-cooled chilled water plant consists of a water-cooled chiller system, a 
 
 ### Water-cooled Chiller
 
-A water-cooled chiller produces chilled water through the basic refrigeration cycle to the chilled water loop to distribute to the facility.
+A water-cooled chiller produces chilled water using the basic refrigeration cycle, which is then distributed through the chilled water loop to the facility. The primary systems and components of a water-cooled chiller are shown in Figure 2.
 <a class="continue" href="/documents/systems/water-cooled-chiller"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/water-cooled-chilled-water-plant/2024_0415_WCCW plant_figure 2 updated.jpg">
@@ -45,7 +45,7 @@ A water-cooled chiller produces chilled water through the basic refrigeration cy
 
 ### Chilled Water Loop
 
-A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building.
+A chilled water loop consists of a closed loop distribution system that supplies chilled water to the building. Components of a chilled water loop are shown in Figure 3.
 <a class="continue" href="/documents/systems/chilled-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 3 updated.jpg">
@@ -57,7 +57,7 @@ A chilled water loop consists of a closed loop distribution system that supplies
 
 ### Condenser Water Loop
 
-A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower where the condenser water is cooled and returned to the chiller condenser.
+A condenser water loop consists of an open loop distribution system that circulates condenser water from a chiller condenser to a cooling tower, where the condenser water is cooled and returned to the chiller condenser. Components of a condenser water loop are shown in Figure 4.
 <a class="continue" href="/documents/systems/condenser-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/water-cooled-chilled-water-plant/2024_0408_WCCW plant_figure 4 updated.jpeg">
@@ -69,7 +69,7 @@ A condenser water loop consists of an open loop distribution system that circula
 
 ### Waterside Economizer System
 
-Waterside economizers may use an external plate-and-frame heat exchanger between the condenser and chilled water loop or the chiller itself may be set up to perform the function of a waterside heat exchanger. When the outdoor temperatures are favorable, heat from the chilled water loop may be rejected directly to the condenser water loop through a heat exchanger without running the chiller compressor motor.
+Waterside economizers may use an external plate-and-frame heat exchanger between the condenser and chilled water loop, or the chiller itself may be set up to perform the function of a waterside heat exchanger. When the outdoor temperatures are favorable, heat from the chilled water loop may be rejected directly to the condenser water loop through a heat exchanger without running the chiller compressor motor. Components of a waterside economizer system are shown in Figure 5.
 <a class="continue" href="/documents/systems/waterside-economizer"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/water-cooled-chilled-water-plant/2024_0409_WCCW plant_figure 5 updated.jpg">
@@ -81,7 +81,7 @@ Waterside economizers may use an external plate-and-frame heat exchanger between
 
 ## Evaluation of Energy Consumption
 
-The primary energy consumption of a water-cooled chilled water plant is the sum of the energy consumption of the components of each system. The thermal energy rejected from the building to the outdoors can also be measured to evaluate the overall performance of the plant, usually in kilowatts of power consumed per ton of cooling provided (kW/ton). Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the water-cooled chilled water plant.
+The primary energy consumption of a water-cooled chilled water plant is the total energy used by its individual components. The thermal energy rejected from the building to the outdoors can also be measured to assess the plant’s overall performance, typically expressed in kilowatts of power consumed per ton of cooling provided (kW/ton). Table 1 summarizes the system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the water-cooled chilled water plant.
 
 <div class="table-wrapper">
 <table>
