@@ -35,11 +35,11 @@ url: "/documents/measurement-technique/outdoor-air-temperature"
 
 ## Understanding Outdoor Air Temperature (OAT) Measurements
 
-This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (F) at one-hour intervals. This technique can be used to characterize the cooling or heating load for any temperature-dependent system such as chillers, boilers, variable-speed air handling units and ventilation systems. Accurate measurements can only be taken when data loggers are properly installed.  
+This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (F) at one-hour intervals. This technique can be used to characterize the cooling or heating load for any temperature-dependent system such as chillers, boilers, variable-speed air handling units, and ventilation systems. Accurate measurements can only be taken when data loggers are properly installed.  
 
-Measurements should be taken at one-hour intervals and will provide insight into the temperature values which are driving the control mechanisms of the building equipment. OAT should be paired with other information about the specific systems’ operating conditions in order to calculate annual energy consumption. For more information about how this data is used to estimate annual energy consumption, please refer to the calculation methodology of the type of equipment that relies on the outside air temperature.  
+Measurements should be taken at one-hour intervals to provide insight into the temperature values that are driving the control mechanisms of the building equipment. Pair OAT with other information about the specific system’s operating conditions in order to calculate annual energy consumption. For more information about how this data is used to estimate annual energy consumption, please refer to the calculation methodology of the type of equipment that relies on OAT.
 
-The duration of the long-term measurement should be a minimum of six weeks and data should be collected at one-hour intervals. Measurements should be taken in conjunction with when the system of interest is operating under normal conditions. 
+The duration of the long-term measurement should be a minimum of six weeks with data being collected at one-hour intervals. Measurements should be taken when the system of interest is operating under normal conditions. 
 
 ### Type of Measurement
 
@@ -51,13 +51,13 @@ The measurement equipment needed for this procedure is a temperature logger (or 
 
 If the logger is installed outdoors, avoid locations with too much sunlight because the logger will measure higher temperatures. Data loggers can be installed inside the ductwork of an air handling unit (AHU) or ventilation system so long as the airstream entering the unit is outside air. The logger must be placed as close as possible to the location where the outside air stream is entering the ductwork. 
 
-The temperature data measured by the logger should be collected as hourly average values and not instantaneous. With this method, the logger will detect temperature fluctuations across the hour and store the average value of those fluctuations, rather than the measured temperature value at an instantaneous point in time (which does not account for those changes).  
+The temperature data measured by the logger should be collected as hourly average values--not instantaneously. With this method, the logger will detect temperature fluctuations across the hour and store the average value of those fluctuations, rather than the measured temperature value at a single point in time (which does not account for those changes).  
 
-Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.  
+Please note that loggers require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging, and that older loggers require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.  
 
 ## Measurement Steps
 
-### 1. Preparation for Data Acquisition
+### 1. Prepare for Data Acquisition
 
 Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger. 
 
@@ -71,11 +71,11 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 <figcaption class="figure-caption text-left">Figure 1. How to configure the MX2301 logger on HOBOConnect. (Click to Start Video)</figcaption>
 
 
-### 2. Installation of Equipment
+### 2. Install Equipment
 
 1. Confirm that the outside air dampers are open and that there is outside air intake in the duct (if installing the logger directly in an AHU).
-2. Place the logger in the outside air duct or outdoors and away from direct sunlight.
-3. Confirm that the logger is recording, and that the sensor is accurately identifying the outside air temperature. If the logger has a screen check the temperature value on the logger screen. If the logger does not have a screen then use the software to connect to the logger and check the temperature it detects
+2. Place the logger in the outside air duct or outdoors, staying away from direct sunlight.
+3. Confirm that the logger is recording, and that the sensor is accurately identifying the outside air temperature. If the logger has a screen, check the temperature value displayed there. If the logger does not have a screen, use the software to connect to the logger and check the temperature it detects
 4. <strong>Do not move the logger after it has been installed.</strong>
 
 <iframe class ="video" src="https://www.youtube.com/embed/R9MDkohMD-E?si=esVdMaU9A7nZe9oH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -90,9 +90,9 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 <strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
 </div>
 
-1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+1. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
-3. Determine if the measured results align with the expected OAT values based on observed weather trends or known outside air damper schedules.
+3. Determine whether the measured results align with the expected OAT values based on observed weather trends or known outside air damper schedules.
 
 <iframe class ="video" src="https://www.youtube.com/embed/EOb9EqQcRXY?si=tYwBZA5VY4FKKueW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 3. How to check data of bluetooth loggers using HOBOConnect. (Click to Start Video)</figcaption>
@@ -104,8 +104,8 @@ After verifying that the logger is collecting data, do the following:
 
 1. Allow the logger to collect data for the remainder of the measurement period.
 2. After the measurement period has concluded, remove the logger.
-3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the logger via Bluetooth.
-4. Use the proprietary software to Stop the logger and end data collection.
+3. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the logger via Bluetooth.
+4. Use the proprietary software to stop the logger and end data collection.
 5. Download all data from the logger and save the file in the.csv file format for analysis.
 
 <iframe class ="video" src="https://www.youtube.com/embed/sF_c_7LHR5s?si=2Gv23-7aOxzBf51F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -123,5 +123,5 @@ After verifying that the logger is collecting data, do the following:
 <strong>Problem 2:</strong> Logger screen is blank
 
 <div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank, then try replacing the battery otherwise reach out to our equipment specialist for a replacement.
+<strong>Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank, try replacing the battery. If it remains blank, reach out to our equipment specialist for a replacement.
 </div>

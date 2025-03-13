@@ -3,7 +3,7 @@ title: Electrical Spot Measurement
 type: measurement
 layout: measurement_technique
 measurement_technique_id: 2
-excerpt: Use this technique to take one-time measurements of different electrical properties such as voltage, current, power draw and power factor with a handheld power meter.
+excerpt: Use this technique to take one-time measurements of different electrical properties such as voltage, current, power draw, and power factor with a handheld power meter.
 borrow_equipment_url: "https://nycenergytools.com/equipment/power-quality-clamp-meter-2/"
 thumbnail_image: "/images/measurement-technique/electrical-spot-measurement/2024_0410_electrical spot measurement MT_thumbnail.jpeg"
 related_systems:
@@ -29,13 +29,13 @@ url: "/documents/measurement-technique/electrical-spot-measurement"
 
 ## Understanding Electrical Spot Measurements
 
-This technique uses a handheld power meter to take one-time measurements of true RMS power draw (kW) at an electrical distribution system such as a panelboard, power panel or switchgear. One-time measurements work as snapshots of power draw, voltage, current and power factor for a system or component such as lighting fixtures, chillers and fan and pump motors. This measurement technique is commonly used with loads that have constant power draw such as constant speed fans and pumps, as well as some lighting fixture systems. If power draw changes over time CUNY BPL recommends using a data logger to take direct measurements of <a href="/documents/measurement-technique/electrical-current">electrical energy consumption</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>).  
+This technique uses a handheld power meter to take one-time measurements of true RMS power draw (kW) at an electrical distribution system, such as a panelboard, power panel, or switchgear. One-time measurements provide a snapshot of power draw, voltage, current, and power factor for a system or component, such as lighting fixtures, chillers, and fan or pump motors. This technique is commonly used for loads with a constant power draw, including constant-speed fans, pumps, and certain lighting fixture systems. If power draw changes over time, CUNY BPL recommends using a data logger to take direct measurements of [electrical energy consumption](/documents/measurement-technique/electrical-current) (kWh).  
 
-Power meters use instantaneous measurements of current and voltage to calculate the instantaneous power draw. As the meter remains connected to the distribution system, it calculates the average power draw and this is displayed on the meter’s screen. Manufacturers of power meters and data loggers use different calculation methodologies to calculate the power draw. In order to compare power draw data obtained from different loggers and meters it is important to understand the calculation methodology used by the equipment by referring to the user manual. 
+Power meters use instantaneous measurements of current and voltage to calculate the instantaneous power draw. As the meter remains connected to the distribution system, it calculates the average power draw, which is displayed on the meter’s screen. Manufacturers of power meters and data loggers use different calculation methodologies to calculate the power draw. In order to compare power draw data obtained from different loggers and meters, refer to the user manual to understand the calculation methodology used by the equipment. 
 
 It is advised to take a minimum of three measurements 1-2 minutes apart while the system or component is in operation. The average of the three measurements (true RMS power, voltage, current and power factor) should be calculated, as averaging the values helps to reduce the measurement uncertainty.  
 
-Electrical distribution systems can have different configurations such as three-phase delta, three-phase wye, single-phase and split phase on a delta configuration. It is important to first identify the configuration of the system before taking any measurements. The configuration of the system will determine the connections to make with the measurement equipment. Refer to the Measurement Steps section for more details on the different configurations. 
+Electrical distribution systems can have different configurations, such as three-phase delta, three-phase wye, single-phase, and split phase on a delta configuration. It is important to first identify the configuration of the system before taking any measurements. The configuration of the system will determine the connections to make with the measurement equipment. Refer to the Measurement Steps section for more details on the different configurations. 
 
 ### Type of Measurement
 
@@ -45,15 +45,15 @@ This is a proxy measurement of electrical energy consumption of a system or comp
 
 ### Measurement Equipment to Use
 
-The measurement equipment needed for this procedure is a handheld power meter with a current transformer and voltage cables. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off the [Fluke 345 PQ Clamp Meter](https://nycenergytools.com/equipment/power-quality-clamp-meter/) and the [Extech PQ2071](https://nycenergytools.com/equipment/power-quality-clamp-meter-2/), both of which can be found and borrowed through FELL. A power meter will typically measure AC voltage, current and power factor and can display all values simultaneously. Please note that some power meters can log data for a short amount of time or take a screen shot of the measurements while the meter is connected to the load. Taking a picture with a phone is another option for saving measurement data. 
+The measurement equipment needed for this procedure is a handheld power meter with a current transformer and voltage cables. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger) to identify data loggers that measure power and energy draw by an electricity-powered system. The contents of this guide are largely based off the [Fluke 345 PQ Clamp Meter](https://nycenergytools.com/equipment/power-quality-clamp-meter/) and the [Extech PQ2071](https://nycenergytools.com/equipment/power-quality-clamp-meter-2/), both of which can be found and borrowed through FELL. A power meter typically measures AC voltage, current, and power factor, and can display all values simultaneously. Please note that some power meters can log data for a short amount of time or take a screen shot of the measurements while the meter is connected to the load. Taking a picture with a phone is another option for saving measurement data. 
 
 While some power meters can measure true three-phase power by measuring each phase, other meters with fewer wire connections can only estimate three-phase power. The Fluke 345 PQ Clamp Meter is an example of a meter that only estimates three-phase power. The Extech PQ20711 is an example of a meter that can measure three phases without estimation. Both meters should only be used on a balanced load, meaning the currents and voltages on each phase are equal. If the load is not balanced, three-phase power cannot be accurately measured with a handheld meter and a data logger with the capacity to measure three phases at the same time (such as the Dent EliteProXC2) should be used instead.
 
 ## Measurement Steps
 
-### 1. Preparation for Data Acquisition
+### 1. Prepare for Data Acquisition
 
-The following sections will discuss the most common wire configurations found in a distribution system and assume a handheld power meter is being used, for details on how to install data loggers refer to the <strong>True RMS Energy guide.</strong>  
+The following sections discusses the most common wire configurations found in a distribution system and assume a handheld power meter is being used, for details on how to install data loggers refer to the <strong>True RMS Energy guide.</strong>  
 
 Values to measure:  
 
@@ -62,12 +62,12 @@ Values to measure:
 - Current (Amps)
 - Power Factor
 
-### 2. Installation of Equipment
+### 2. Install Equipment
 
 1. Confirm that the equipment is operational. 
-2. Identify if the distribution system supplies electricity to other loads that are not relevant to the project (to avoid measuring unwanted loads).
+2. Identify whether the distribution system supplies electricity to other loads that are not relevant to the project (to avoid measuring unwanted loads).
 3. Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.
-4. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the current, voltage and power factor to the system.
+4. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the current, voltage, and power factor to the system.
 
 An example of how to connect the Fluke 345 PQ Clamp Meter is shown below
 
@@ -78,7 +78,7 @@ Some power meters offered through FELL can measure three-phase power with differ
 
 #### Single-phase Wire Configurations
 
-A single-phase electrical distribution system typically consists of a hot wire and a neutral wire. The hot wire provides current to the load while the neutral wire returns the current to the supply in order to complete the circuit. To measure power draw of a single-phase system, the voltage across the hot wire and neutral wire is measured and the current of the hot wire is measured. Figures 2 and 3 are examples of how measurement equipment offered by the FELL are connected on a single-phase system.
+A single-phase electrical distribution system typically consists of a hot wire and a neutral wire. The hot wire provides current to the load, while the neutral wire returns the current to the supply in order to complete the circuit. To measure the power draw of a single-phase system, measure the voltage across the hot wire and neutral wire, and measure the current of the hot wire. Figures 2 and 3 are examples of how measurement equipment offered by the FELL are connected on a single-phase system.
 
 <a href="/images/measurement-technique/electrical-spot-measurement/rms-figure2.png">
 <figure class="figure">
@@ -96,7 +96,7 @@ A single-phase electrical distribution system typically consists of a hot wire a
 
 #### Three-phase Wire Configurations
 
-For a three-phase distribution system there are two common wire configurations: the three wire (delta) and four wire (wye). Both wire configurations require slightly different connections of the voltage leads. Manufacturers of power meters have specific instructions on how to make connections for a given wire configuration. Refer to the power meter’s user manual for detailed instructions. Figures 3, 4, and 5 are examples of how some of the meters offered by the FELL are connected to three-phase systems. 
+For a three-phase distribution system, there are two common wire configurations: the three wire (delta) and four wire (wye). Both wire configurations require slightly different connections of the voltage leads. Manufacturers of power meters have specific instructions for making connections for a given wire configuration. Refer to the power meter’s user manual for detailed instructions. Figures 3, 4, and 5 are examples of how some of the meters offered by the FELL are connected to three-phase systems.  
 
 <a href="/images/measurement-technique/electrical-spot-measurement/rms-figure4.png">
 <figure class="figure">
@@ -147,5 +147,5 @@ For the connection illustrated in Figure 3, this power meter can only measure li
 <strong>Problem 4:</strong> Unexpected Negative Values
 
 <div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> At times, measurements will return as negative values because of how the voltage cables are connected. Connect voltage cables in different ways until you obtain positive values. Make sure the connections are correct for accurate power measurements. If you are not sure about the connections consult a certified electrician.
+<strong>Solution:</strong> At times, measurements will return as negative values because of how the voltage cables are connected. Connect voltage cables in different ways until you obtain positive values. Make sure the connections are correct for accurate power measurements. If you are not sure about the connections, consult a certified electrician.
 </div>

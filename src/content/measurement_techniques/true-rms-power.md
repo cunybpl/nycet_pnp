@@ -35,11 +35,11 @@ url: "/documents/measurement-technique/true-rms-power"
 
 ## Understanding Hourly True RMS Power Measurements
 
-This technique uses a data logger to take long- term measurements of the electrical energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) and power draw (kW) of a system or component at one- hour intervals. Measurements are taken at the electrical distribution system (more specifically at a panelboard , power panel or switchgear) that serves the system or component. Measurement data is used to estimate the annual energy consumption of the system or component. 
+This technique uses a data logger to take long-term measurements of the electrical energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) and power draw (kW) of a system or component at one-hour intervals. Measurements are taken at the electrical distribution system (specifically at a panelboard, power panel, or switchgear) that serves the system or component. Measurement data is used to estimate the annual energy consumption of the system or component. 
 
-Data loggers and power meters use instantaneous measurements of current and voltage to calculate the instantaneous power draw. Over time, the logger or meter calculates the average power draw. Manufacturers of measurement equipment use different calculations for power draw. In order to compare data obtained from different measurement equipment it is important to understand the calculation used by the equipment. The manufacturer’s user manual or technical specifications discuss these features in detail. 
+Data loggers and power meters use instantaneous measurements of current and voltage to calculate the instantaneous power draw. Over time, the logger or meter calculates the average power draw. Manufacturers of measurement equipment use different calculations for power draw. In order to compare data obtained from different measurement equipment, it is important to understand the calculation used by the equipment. The manufacturer’s user manual or technical specifications discuss these features in detail. 
 
-The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. The best practice is a minimum of six weeks and data should be collected at one-hour intervals; longer measurement periods are encouraged for deeper analysis of the equipment. Measurements should be taken when the system or component is operating under normal conditions. 
+The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. Best practice is to collect the data for a minimum of six weeks at one-hour intervals; longer measurement periods are encouraged for deeper analysis of the equipment. Measurements should be taken when the system or component is operating under normal conditions.  
 
 ### Type of Measurement
 
@@ -51,7 +51,7 @@ This methodology can also be used as a <strong>proxy measurement</strong> of ope
 
 The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC voltage and current.
 
-The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips).
+The sensors used to measure AC current are known as current transformers. This is because they operate like the transformers used by utility companies to step-up and step-down voltage. Alternating current in the conductor (the wire that is being measured) induces a voltage on the current transformer, which then produces a current signal that the data logger detects and records. However, unlike utility transformers, the measurement equipment only transforms a tiny portion of the current flowing through the wire that is being measured. AC voltage is measured with voltage leads (usually alligator clips).
 
 {{< admonition type="tip" >}}
 **If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
@@ -71,9 +71,9 @@ Please note that loggers will require setup with a computer or phone using the m
 
 ## Measurement Steps
 
-### 1. Preparation for Data Acquisition
+### 1. Prepare for Data Acquisition
 
-The following sections assume a data logger is being used, for details on measurement with a power meter refer to the <strong>One-time true RMS power</strong> guide. 
+The following sections assume a data logger is being used. For details on measurement with a power meter, refer to the <strong>One-time true RMS power</strong> guide. 
 
 Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger. 
 
@@ -82,17 +82,17 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 - Date and time to stop logging
 - Values to measure: Power (kW), Energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
 
-An example of how to setup the Dent EliteProXC power data logger is shown in the video below.
+An example of how to set up the Dent EliteProXC power data logger is shown in the video below.
 
 <iframe class ="video" src="https://www.youtube.com/embed/HS9k_L59IX8?si=u0v1ic6UIHQZa1wm" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 1. How to configure the Dent EliteProXC Power Meter on ELOG software. (Click to Start Video)</figcaption>
 
-### 2. Installation of Equipment
+### 2. Install Equipment
 
 1.  Confirm that the equipment is operational.
-2.  Identify if the distribution system supplied electricity to other loads that are not relevant to the project (to avoid measuring unwanted loads).
+2.  Determine whether the distribution system supplies electricity to any unrelated loads to avoid measuring unintended energy consumption.
 3. Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.
-4. Clamp the sensors around the electrical wires. Make sure they are facing the right direction, or else the current may be recorded with negative values.
+4. Clamp the sensors around the electrical wires. Make sure they are facing the right direction, or the current may be recorded with negative values.
 5. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the power and energy to the system.
 
 This section illustrates the most common wire configurations for a panelboard and how the Dent EliteProXC data logger is connected.  
@@ -108,9 +108,9 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 **Do not remove the logger or sensors.** If you remove the logger, you may need to start over with the setup and installation process.
 {{< /admonition >}}
 
-1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+1. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
-3. Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
+3. Determine whether the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
 <iframe class ="video" src="https://www.youtube.com/embed/gbChGMLI7W8?si=2yRIMQ0PCGEJHRpq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 3. How to check data on the power meter using ELOG19. (Click to Start Video)</figcaption>
@@ -121,7 +121,7 @@ After verifying that the logger is collecting data, do the following:
 
 1. Allow the logger to collect data for the remainder of the measurement period.
 2. After the measurement period has concluded, remove the logger from the panel.
-3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
+3. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 4. Use the proprietary software to stop the logger and end data collection.
 5. Download all data from the logger and save the file in the .csv file format for analysis.
 
