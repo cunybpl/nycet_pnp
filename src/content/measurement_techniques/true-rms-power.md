@@ -134,7 +134,7 @@ Use the collected measurement data in the corresponding calculator file based on
 
 #### Heat Exchangers
 
-{{< page_hyperlink page_title="Air-to-air Heat Exchanger" url="/documents/components/air-to-air-heat-exchanger/#calculate-energy-consumption" >}}
+{{< page_hyperlink page_title="Air-to-air Heat Exchanger" url="/documents/components/air-to-air-heat-exchanger/#how-to-quantify" >}}
 
 #### Fan and Motor
 
