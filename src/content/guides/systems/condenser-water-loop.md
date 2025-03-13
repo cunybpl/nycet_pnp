@@ -65,7 +65,7 @@ A variable-speed condenser water pump and motor modulates the flow to the coolin
 
 ### Evaporative Cooling Tower
 
-An evaporative cooling tower rejects heat from the condenser section of the chiller, using forced airflow and the latent heat of evaporation to provide the cooling effect on the condenser water. A cooling tower may have one or more sections (called cells) and each cell typically has one fan and motor. The cooling tower fan and motor may operate at a constant- or variable-speed. 
+An evaporative cooling tower rejects heat from the condenser section of the chiller, using forced airflow and the latent heat of evaporation to provide the cooling effect on the condenser water. A cooling tower may have one or more sections (called cells). Each cell typically has one fan and motor. The cooling tower fan and motor may operate at a constant or variable speed.
 
 #### Constant-speed, Constant-volume Cooling Tower Fan
 

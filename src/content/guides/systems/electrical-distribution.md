@@ -13,7 +13,7 @@ url: "/documents/systems/electrical-distribution"
 
 ## General Overview
 
-An electrical distribution system is made up of switchgear and panelboards connected by wires. Switchgear is used to disaggregate the power coming from the utility grid to serve various aggregate loads in a facility, such as lights, motors, receptacle circuits, or miscellaneous equipment. A panelboard is used as the final disconnect and protection point for individual circuits in a space. A lighting panelboard is connected to the light fixture system in one or more spaces, typically on a single floor of a facility, or the outdoor light fixture system. Panelboards may be dedicated to the lighting system or “mixed” serving both lighting loads and other circuits.
+An electrical distribution system is made up of switchgear and panelboards connected by wires. Switchgear is used to disaggregate the power coming from the utility grid to serve various aggregate loads in a facility, such as lights, motors, receptacle circuits, or miscellaneous equipment. A panelboard is used as the final disconnect and protection point for individual circuits in a space. A lighting panelboard is connected to the light fixture system in one or more spaces, typically on a single floor of a facility, or the outdoor light fixture system. Panelboards may either be dedicated to the lighting system or “mixed”, serving both lighting loads and other circuits.
 
 ## Components
 
@@ -28,11 +28,11 @@ Figure 1 shows the main components associated with the electrical distribution s
 
 ### Switchgear
 
-Switchgear is an assembly that contains circuit breakers, fuses and other accessories to interrupt current flow and protect electrical equipment and occupants. The electricity delivered by a utility company is passed through a step-down transformer and then to a switchgear as the first layer of protection in a facility. Then electricity is distributed among other assemblies such as a secondary switchgear or panelboards. The configuration of primary and secondary switchgears is dependent on the facility. Not all facilities will have secondary switchgear.
+Switchgear is an assembly that contains circuit breakers, fuses, and other accessories to interrupt current flow and protect electrical equipment and occupants. The electricity delivered by a utility company is passed through a step-down transformer and then to a switchgear as the first layer of protection in a facility. Then, electricity is distributed among other assemblies, such as a secondary switchgear or panelboards. The configuration of primary and secondary switchgears is dependent on the facility. Not all facilities have secondary switchgear.
 
 ### Dedicated Panelboard
 
-A dedicated electrical panelboard supplies electricity only to the light fixture system. Figure 2 shows a dedicated panelboard without a panel cover to show how the electrical wiring is distributed. The electricity from the primary or secondary switchgear enters from the top (or bottom) of the panelboard then splits across all the branch circuits.
+A dedicated electrical panelboard supplies electricity only to the light fixture system. Figure 2 shows a dedicated panelboard without a panel cover to show how the electrical wiring is distributed. The electricity from the primary or secondary switchgear enters from the top (or bottom) of the panelboard, and then splits across all of the branch circuits.
 
 <a href="/images/systems/electrical-distribution/electrical distribution figure2.png">
     <figure class="figure mb-4 mt-3">
@@ -52,7 +52,7 @@ Figure 3 is an example of a schedule of circuits on a dedicated panelboard. The 
 
 ### Mixed Panelboard
 
-A Mixed electrical panelboard supplies electricity to the lighting fixture system and other loads, typically receptacle circuits. Mixed panelboards typically exist in small or older facilities. The electricity from the primary or secondary switchgear enters from the top (or bottom) of the panelboard then splits across all of the branch circuits. The interior of a mixed panelboard will look similar to Figure 2 but the panel schedule will highlight a collection of different loads as shown in Figure 4.
+A Mixed electrical panelboard supplies electricity to the lighting fixture system and other loads (typically receptacle circuits). Mixed panelboards typically exist in small or older facilities. The electricity from the primary or secondary switchgear enters from the top or bottom of the panelboard and then splits across all of the branch circuits. The interior of a mixed panelboard looks similar to Figure 2, but the panel schedule highlights a collection of different loads as shown in Figure 4.
 
 <figure class="figure mb-4 mt-3">
     <a href="/images/systems/electrical-distribution/electrical distribution figure4.png">
@@ -67,7 +67,7 @@ Figure 4: Example of a mixed panelboard schedule (click on image to enlarge).[^1
 
 ## Evaluation of Energy Consumption
 
-The electrical distribution system does not consume electricity, but it can be a useful point at which to measure the electrical energy associated with the Lighting Plant.
+The electrical distribution system does not consume electricity, but it can be a useful point by which to measure the electrical energy associated with the Lighting Plant.
 
 <div class="table-wrapper">
 <table>
@@ -126,11 +126,11 @@ Figures 5 and 6 show typical measurement locations in an electrical distribution
 <a href="/images/systems/electrical-distribution/electrical distribution figure6.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure6.png" class="figure-img img-fluid rounded" alt="Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter.">
-        <figcaption class="figure-caption text-left">Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure, measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter (click on image to enlarge).</figcaption>
     </figure>
 </a>
 
-Measurement locations in the electrical distribution system are at the conductors in the panelboard or switchgear. To measure a lighting plant, the best practice is to capture as much of the lighting plant in a single measurement as possible. Measuring at switchgear may be appropriate if all lighting panelboards are dedicated and connected to it, but only the distribution line that supplies electricity to lighting should be measured. Alternatively, a sample of panelboards and/or circuits can be measured but a sampling plan must be considered. For more information on sampling please refer to Bonneville Power Administration’s guide on sampling.
+Measurement locations in the electrical distribution system are at the conductors in the panelboard or switchgear. To measure a lighting plant, the best practice is to capture as much of the lighting plant in a single measurement as possible. Measuring at switchgear may be appropriate if all lighting panelboards are dedicated and connected to it, but only the distribution line that supplies electricity to lighting should be measured. Alternatively, a sample of panelboards and/or circuits can be measured, but a sampling plan must be considered. For more information on sampling, please refer to Bonneville Power Administration’s guide on sampling.
 
 ### Calculation Methodology
 

@@ -34,7 +34,9 @@ The evaporator transfers heat from the chilled water to the refrigerant.
 
 ### Compressor
 
-The compressor increases the temperature and pressure of the refrigerant; a chiller may have one or more compressors. Air-cooled chillers typically have screw, scroll and reciprocating compressors. Reciprocating compressors are one of the most widely used types of compressors in this type of chillers. It comprises a cylinder and a piston that performs reciprocating motion to enable the compression of the refrigerant. Screw compressors can produce high pressure for small amounts of refrigerant vapor, compressing the refrigerant between a pair of meshing screws. Scroll compressors have two interleaved scrolls that simultaneously rotate to compress the refrigerant vapor in a chamber.
+The compressor increases the temperature and pressure of the refrigerant; a chiller may have one or more compressors. Air-cooled chillers typically have screw, scroll, and reciprocating compressors.  
+
+Reciprocating compressors are among the most widely used types in this type of chiller. They consist of a cylinder and a piston that move in a reciprocating motion to compress the refrigerant. Screw compressors generate high pressure for small amounts of refrigerant vapor by compressing it between a pair of meshing screws. Scroll compressors use two interleaved scrolls that rotate simultaneously to compress refrigerant vapor within a chamber.
 <a class="continue" href="/documents/components/constant-speed-compressor-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Condenser Fan
@@ -57,7 +59,7 @@ The expansion valve reduces the pressure in the refrigerant, allowing it to coll
 
 ## Evaluation of Energy Consumption
 
-The primary energy consumption of an air-cooled chiller is the electricity used for the compressor motor and condenser fan motors. The thermal energy rejected by the chiller to the outdoors can also be measured to evaluate the overall performance of the chiller. These to values can be expressed as kilowatts of power consumed per ton of cooling provided (kW/ton). Table 1  provides a summary of the components measurements and values needed to quantify the annual energy consumption and operating characteristics of an air-cooled chiller.
+The primary energy consumption of an air-cooled chiller is the electricity used for the compressor motor and condenser fan motors. The thermal energy rejected by the chiller to the outdoors can also be measured to evaluate the overall performance of the chiller. These two values can be expressed as kilowatts of power consumed per ton of cooling provided (kW/ton). Table 1  provides a summary of the components measurements and values needed to quantify the annual energy consumption and operating characteristics of an air-cooled chiller.
 
 <div class="table-wrapper">
 <table>
@@ -80,7 +82,7 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
     <tbody>
         <tr>
             <td>
-                Air-cooled chiller electricty usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
+                Air-cooled chiller electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <ul>

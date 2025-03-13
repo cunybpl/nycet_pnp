@@ -44,9 +44,9 @@ The evaporator transfers heat from the chilled water loop to the refrigerant thr
 
 The compressor increases the temperature and pressure of the refrigerant between the evaporator and condenser sections of a chiller. A chiller may have one or more compressors.
 
-Water-cooled chillers typically have centrifugal compressors. Centrifugal compressors are dynamic compressors which increase refrigerant vapor pressure by converting the velocity pressure from the rotating impellers to static pressure in the discharged vapor. They can be driven with a constant-speed motor or a motor with a variable frequency drive (VFD).
+Water-cooled chillers typically have centrifugal compressors. Centrifugal compressors are dynamic compressors, which increase refrigerant vapor pressure by converting the velocity pressure from the rotating impellers to static pressure in the discharged vapor. They can be driven with a constant-speed motor or a motor with a variable frequency drive (VFD).
 
-A centrifugal [compressor with a constant-speed motor](/documents/components/constant-speed-compressor-and-motor) uses variable guide vanes to change the speed of the gas as it enters the compressor, which changes the centrifugal force and the lift. Lift in a chiller system refers to the difference between the condenser water temperature leaving the chiller and the chilled water temperature leaving the chiller. 
+A centrifugal [compressor with a constant-speed motor](/documents/components/constant-speed-compressor-and-motor) uses variable guide vanes to change the speed of the gas as it enters the compressor, which changes the centrifugal force and the lift. "Lift" in a chiller system refers to the difference between the condenser water temperature leaving the chiller and the chilled water temperature leaving the chiller. 
 
 A centrifugal compressor with a VFD on the motor varies the speed of the impeller to control the lift.
 
@@ -56,7 +56,7 @@ The condenser rejects heat from the refrigerant to the [condenser water loop](/d
 
 ### Expansion Valve
 
-The expansion valve depressurizes the warm refrigerant between the condenser and evaporator to reduce the temperature of the refrigerant, then the cold refrigerant is delivered to the evaporator to pick up more heat from the [chilled water loop](/documents/systems/chilled-water-loop). 
+The expansion valve depressurizes the warm refrigerant between the condenser and evaporator to reduce the temperature of the refrigerant. Then, the cold refrigerant is delivered to the evaporator to pick up more heat from the [chilled water loop](/documents/systems/chilled-water-loop). 
 
 ## Evaluation of Energy Consumption
 

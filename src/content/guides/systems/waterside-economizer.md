@@ -14,7 +14,7 @@ url: "/documents/systems/waterside-economizer"
 
 ## General Overview
 
-A waterside economizer is used to cool or partially cool the chilled water without mechanical heat transfer when outdoor air temperatures are cold enough to meet the building’s cooling demand. Typical waterside economizer systems have an external heat exchanger, however sometimes the chiller itself may be set up to perform the function of a waterside heat exchanger.
+A waterside economizer is used to fully or partially cool the chilled water without mechanical heat transfer when outdoor air temperatures are cold enough to meet the building’s cooling demand. Typical waterside economizer systems have an external heat exchanger; however, the chiller itself may occassionally be set up to perform the function of a waterside heat exchanger.
 
 ## Components
 
@@ -29,7 +29,7 @@ The components associated with a waterside economizer are heat exchanger, piping
 
 ### External Heat Exchanger
 
-Typical heat exchangers installed in waterside economizers systems are plate and frame heat exchangers. They can be configured as integrated and non-integrated economizers. The non-integrated configuration consists of a plate-and-frame heat exchanger (PFHX) in parallel with chillers and requires the heat exchanger to supply the entire cooling load. An integrated configuration, the PFHX are arranged in series allowing the chiller to utilize pre-cooled chilled water and minimizing the energy required by chillers.
+Typical heat exchangers installed in waterside economizers systems are plate and frame heat exchangers. They can be configured as integrated and non-integrated economizers. The non-integrated configuration consists of a plate-and-frame heat exchanger (PFHX) in parallel with chillers and requires the heat exchanger to supply the entire cooling load. An integrated configuration, the PFHX are arranged in series, allowing the chiller to utilize pre-cooled chilled water and minimizing the energy required by chillers.
 <a class="continue" href="/documents/components/liquid-to-liquid-heat-exchanger"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Piping, fittings, and valves
@@ -38,7 +38,7 @@ Piping can have different arrangements to allow the desirable operation of the w
 
 ## Evaluation of Energy Consumption
 
-The primary effect of waterside economizer is the savings in electricity usage at plant level to meet the cooling load of the building. For more information about the energy consumption of the overall water-cooled chilled water plant see the <a href="/documents/plants/water-cooled-chilled-water-plant">Water-Cooled Chilled Water Plant</a>.
+The primary effect of waterside economizer is the savings in electricity usage at plant level to meet the cooling load of the building. For more information about the energy consumption of the overall water-cooled chilled water plant, see the <a href="/documents/plants/water-cooled-chilled-water-plant">Water-Cooled Chilled Water Plant</a>.
 
 The cooling energy savings are equivalent to the heat rejected through the waterside economizer. Table 1 provides a summary of the components to measure to arrive at values needed to quantify the heat rejected from the chilled water to condenser water by free cooling. 
 
