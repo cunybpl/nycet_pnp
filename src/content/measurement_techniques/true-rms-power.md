@@ -133,19 +133,26 @@ After verifying that the logger is collecting data, do the following:
 Use the collected measurement data in the corresponding calculator file based on the type of component you are measuring:
 
 #### Heat Exchangers
-- [Air-to-air Heat Exchanger](/documents/components/air-to-air-heat-exchanger/#calculate-energy-consumption)
 
-{{< page_hyperlink page_title="Air-to-air Heat Exchanger" icon="fa-arrow-right" >}}
+{{< page_hyperlink page_title="Air-to-air Heat Exchanger" url="/documents/components/air-to-air-heat-exchanger/#calculate-energy-consumption" >}}
 
 #### Fan and Motor
-- Constant-speed, Constant-volume Fan and Motor
-- Variable-speed, Variable-volume Fan and Motor
+
+{{< page_hyperlink page_title="Constant-speed, Constant-volume Fan and Motor" url="/documents/components/constant-speed-constant-volume-fan-and-motor/#calculate-energy-consumption" >}}
+
+{{< page_hyperlink page_title="Variable-speed, Variable-volume Fan and Motor" url="/documents/components/variable-speed-variable-volume-fan-and-motor/#calculate-energy-consumption" >}}
 
 #### Pump and Motor
-- Variable-speed, Variable-volume Pump and Motor
+
+{{< page_hyperlink page_title="Variable-speed, Variable-volume Pump and Motor" url="/documents/components/variable-speed-variable-volume-pump-and-motor/#calculate-energy-consumption" >}}
 
 #### Compressor and Motor
-- Constant-speed Compressor and Motor
+
+{{< page_hyperlink page_title="Constant-speed Compressor and Motor" url="/documents/components/constant-speed-compressor-and-motor/#calculate-energy-consumption" >}}
+
+#### Electrical Distribution
+
+{{< page_hyperlink page_title="Electrical Distribution" url="/documents/systems/electrical-distribution/#calculate-energy-consumption" >}}
 
 ## Troubleshooting
 

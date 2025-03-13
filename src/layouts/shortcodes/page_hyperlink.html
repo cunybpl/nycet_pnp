@@ -1,4 +1,5 @@
 {{ $page_title := .Get "page_title" }}
+{{ $url := .Get "url" }}
 <!-- {{ $img := .Get "img" }}
 {{ $icon := .Get "icon" }} -->
 <section class="card card-block my-4">
@@ -15,7 +16,8 @@
             </p>
           </div>
         </div>
-        <a class="short-card-link d-flex" href="{{ .Params.url | relURL }}">
+        <!-- <a class="short-card-link d-flex" href="{{ .Params.url | relURL }}"> -->
+        <a class="short-card-link d-flex" href="{{ $url }}">
             <i class="fa fa-arrow-right"></i>
         </a>
       </div>
