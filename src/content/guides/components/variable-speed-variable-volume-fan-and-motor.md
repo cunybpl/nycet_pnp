@@ -178,7 +178,7 @@ Controlling variable, weather dependent[^2]
 
 ### Measurement Strategy
 
-The measurement strategy for a variable-speed fan and its motor is to measure power draw of the fan motor at various known speeds, develop a mathematical relationship between the power and speed, and then collect average hourly motor speed and associated controlling variable (OAT, Wet-bulb temperature). Measurement locations are generically represented in Figure 1. 
+The measurement strategy for a variable-speed fan and its motor involves measuring power draw of the fan motor at various known speeds, developing a mathematical relationship between the power and speed, and then collecting average hourly motor speed and associated controlling variable (OAT, Wet-bulb temperature). Measurement locations are generically represented in Figure 1. 
 
 <!-- Temporary image until new one given by Orlando -->
 <a href="/images/components/08.20.24_VSVV_FAN AND MOTOR-01.jpg">
@@ -254,7 +254,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
 
 ### Calculation Methodology
 
-The general methodology for quantifying the energy consumption of a variable-speed fan and motor is determined by the true RMS power of the 3-phase power supply either at the main electrical panel of the motor or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable (OAT, Wet-bulb temperature). Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.  
+The general methodology for quantifying the energy consumption of a variable-speed fan and motor is based on the true RMS power of the three-phase power supply, measured either at the motor’s main electrical panel or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable, such as outdoor air temperature (OAT) or wet-bulb temperature. Depending on operational variability, daily or weekly models may be created to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.
 
 <br></br>
 <i>Click the button below to go to the calculators for this component.</i>

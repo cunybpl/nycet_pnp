@@ -17,7 +17,7 @@ url: "/documents/components/air-to-air-heat-exchanger"
 
 Air-to-air heat exchangers transfer energy between two airstreams that must be at different temperatures for sensible heat transfer and different moisture contents for latent heat transfer.   
 
-In a building, an air-to-air heat exchanger can be used to recover latent or sensible heat either during the cooling or heating season. Recovering energy from the exhaust stream lessens the energy load on the air handling plant. Typical air-to-air heat exchangers include fixed plate heat exchangers and rotary wheel heat exchangers, with the former typically only recovering sensible heat. 
+In a building, an air-to-air heat exchanger can be used to recover latent or sensible heat during the cooling or heating season. Recovering energy from the exhaust stream lessens the energy load on the air handling plant. Typical air-to-air heat exchangers include fixed plate heat exchangers and rotary wheel heat exchangers, with the former typically only recovering sensible heat. 
 
 <!-- Table 1 shows the plant and system configurations that may contain an air-to-air heat exchanger. 
 

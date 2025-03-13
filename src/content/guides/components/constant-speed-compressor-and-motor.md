@@ -114,7 +114,7 @@ The primary energy source for a constant-speed compressor is the electricity use
 </figure>
 </a>
 
-The measurement strategy for a constant-speed compressor and motor is to do a one-time Measurement Strategy. The measurement strategy for a constant-speed compressor and motor is to do a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off).
+The measurement strategy for a constant-speed compressor and motor involves a one-time measurement of power draw and long-term monitoring of the motor's operational schedule. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off).
 
 A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1. 
 
@@ -180,17 +180,13 @@ A motor on/off data logger is used to record the operating schedule. The true RM
 </table> 
 </div>
 
-<!-- ### Calculation Methodology (Calculator is not ready yet, but once ready can un-comment this section)
+### Calculation Methodology
 
-The general methodology for quantifying the electricity consumption of a constant-speed compressor
-and motor is to measure the electrical energy consumed by the compressor and motor. Depending on the variability of operations, daily or weekly models which incorporate cooling load or a proxy like outdoor air temperature as independent variables may be developed to better characterize the
-component. The typical energy use of a constant-speed compressor is estimated using the simulated yearly schedule of the compressor. A more detailed explanation of the calculation methodology can be found below.
+The general methodology for quantifying the electricity consumption of a constant-speed compressor and motor involves measuring their electrical energy use. Depending on operational variability, daily or weekly models incorporating cooling load or a proxy (such as outdoor air temperature) may be developed to better characterize consumption. The typical energy use of a constant-speed compressor is estimated using its simulated yearly schedule. A more detailed explanation of the calculation methodology is provided below.
 
-<br></br>
 <i>Click the button below to go to the calculators for this component.</i>
-<br></br>
 
-{{< calculation_methodology calculation_methodology_id=6 >}} -->
+{{< calculation_methodology calculation_methodology_id=6 >}}
 
 ## Further Reading
 
