@@ -71,10 +71,10 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
         </tr>
         <tr>
-            <td>
-                Air Handling Unit
+            <td rowspan="2" style="vertical-align: middle;">
+                Air Handling Plant
             </td>
-            <td>
+            <td rowspan="2" style="vertical-align: middle;">
                 AHUs
             </td>
             <td>
@@ -85,12 +85,6 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
         </tr>
         <tr>
-            <td>
-                Air Handling Unit
-            </td>
-            <td>
-                AHUs
-            </td>
             <td>
                 AHU Return Fan
             </td>
@@ -120,9 +114,11 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
 </table> 
 </div>  
 
-## Evaluation of Energy Consumption
+<!-- ## Evaluation of Energy Consumption
 
-The primary energy source for a CSCV fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV fan and motor.  
+The primary energy source for a CSCV fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV fan and motor.
+
+Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV fan and motor.
 
 <div class="table-wrapper">
 <table>
@@ -175,9 +171,9 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
         </tr>
     </tbody>
 </table> 
-</div> 
+</div>  -->
 
-### Measurement Strategy
+## Measurement Strategy
 
 The measurement strategy for a CSCV fan and motor involves a one-time measurement of true RMS power and long-term monitoring of the motor's operational schedule. This approach assumes that true RMS power remains constant throughout the measurement period. Since the motor runs at a constant speed and is assumed to be under a constant load, it either operates at full power when on or draws no power when off. A motor on/off data logger records the operating schedule. True RMS power is measured at the main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1. 
 
@@ -191,6 +187,20 @@ In some cases, the motor's operational schedule is related to the facility's hea
   <figcaption class="figure-caption text-left">Figure 1. CSCV fan measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
+
+### What to Measure
+
+Perform the following measurements to quantify the energy consumption and operating characteristics of a CSCV fan and motor:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=3 >}}
+
+{{< measurement_technique measurement_technique_id=4 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
+
+
 
 ### Measurement Equipment
 
@@ -287,6 +297,24 @@ Table 3 provides the equipment required to carry out the measurements of this co
     </tbody>
 </table> 
 </div>
+
+## Energy Consumption Quantification
+
+The primary energy source for a CSCV fan is the electricity used to run the fan motor. The general methodology for quantifying the energy consumption of a CSCV fan motor involves measuring the true RMS power of the motor. The estimated annual energy consumption of a CSCV fan is estimated using the simulated yearly schedule of the fan. Many CSCV fans run on a set daily or weekly schedule. 
+
+However, the yearly schedule may depend on outdoor air temperature (OAT). If so, operating hours can be regressed against OAT to develop a regression model. Depending on operational variability, daily or weekly models may be created to better characterize the component. This model is then applied to climate normal year data to estimate the typical annual operating schedule, which is used alongside true RMS power tUses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.o calculate the estimated annual electricity consumption.
+
+### How to Quantify
+
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for a CSCV fan and motor: 
+
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Constant Speed Fan Energy Using Motor Runtime Data" excerpt="Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required." >}}
+
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Constant Speed Fan Energy Using Motor Runtime Data" excerpt="Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required." >}}
+
+{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Constant Speed Fan Energy Using Motor Runtime Data" excerpt="Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required." >}}
+
+For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
 
 ### Calculation Methodology
 
