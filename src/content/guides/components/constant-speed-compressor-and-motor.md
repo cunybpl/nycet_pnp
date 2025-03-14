@@ -20,9 +20,9 @@ url: "/documents/components/constant-speed-compressor-and-motor"
 A compressor is one of the main components of a chiller. A constant-speed compressor operates at a
 constant speed to raise the vapor pressure of the refrigerant and power the refrigeration cycle of the chiller. 
 
-<div class="table-wrapper">
+<!-- <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
-    <caption>Table 1. Plants and systems containing liquid-to-liquid heat exchangers.</caption>
+    <caption>Table 1. Plants and systems containing compressors.</caption>
     <thead>
         <tr>
             <th width="21.964285714285715%">
@@ -61,9 +61,9 @@ constant speed to raise the vapor pressure of the refrigerant and power the refr
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-## Evaluation of Energy Transfer
+<!-- ## Evaluation of Energy Transfer
 
 The primary energy source for a constant-speed compressor is the electricity used to run the compressor motor. Table 2 provides a summary of measurements needed to quantify the annual power consumption and operating characteristics of the constant-speed compressor and motor.
 
@@ -103,9 +103,13 @@ The primary energy source for a constant-speed compressor is the electricity use
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
 ### Measurement Strategy
+
+The measurement strategy for a constant-speed compressor and motor involves a one-time measurement of power draw and long-term monitoring of the motor's operational schedule. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off).
+
+A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1. 
 
 <a href="/images/components/2024_1022_CS_compressor_component_figure 1.jpg">
 <figure class="figure mb-3 mt-3 mx-auto">
@@ -114,9 +118,13 @@ The primary energy source for a constant-speed compressor is the electricity use
 </figure>
 </a>
 
-The measurement strategy for a constant-speed compressor and motor involves a one-time measurement of power draw and long-term monitoring of the motor's operational schedule. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off).
+### What to Measure
 
-A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1. 
+Measurements needed to quantify the annual energy consumption and operating characteristics of a constant-speed compressor:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
 
 ### Measurement Equipment
 
