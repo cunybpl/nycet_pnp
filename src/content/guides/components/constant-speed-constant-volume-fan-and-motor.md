@@ -310,9 +310,15 @@ The following downloadable file(s) can be used to calculate energy consumption b
 
 {{< downloadable_file title="Constant Speed Fan Energy Using Motor Runtime Data" >}}
 
+{{< downloadable_file title="Constant One or Two Speed Fan Energy using kW Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Electrical Current Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Motor Speed Data" >}}
+
 For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
 
-### Calculation Methodology
+<!-- ### Calculation Methodology
 
 The general methodology for quantifying the energy consumption of a CSCV fan motor involves measuring the true RMS power of the motor. The estimated annual energy consumption of a CSCV fan is estimated using the simulated yearly schedule of the fan. Many CSCV fans run on a set daily or weekly schedule. 
 
@@ -320,7 +326,7 @@ However, the yearly schedule may depend on outdoor air temperature (OAT). If so,
 
 <i>Click the button below to go to the calculators for this component.</i>
 
-{{< calculation_methodology calculation_methodology_id=2 >}}
+{{< calculation_methodology calculation_methodology_id=2 >}} -->
 
 ## Further Reading
 

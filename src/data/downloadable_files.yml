@@ -4,6 +4,7 @@ files:
   - name: Air-to-air Heat Transfer
     description: Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.
     filename: air_to_air_heat_transfer_calculator_2023_0706.xlsx
+    url: https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=0mueeb3h&dl=1
 
   - name: Liquid-to-liquid Heat Transfer
     description: Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.
@@ -32,7 +33,9 @@ files:
 
   - name: Constant One or Two Speed Fan Energy using kW Data
     description: Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed fan motor.
+    more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
     filename: cscv_fan_single_speed_kW_data_calculator_2023_0227.xlsx"
+    url: https://www.dropbox.com/scl/fi/uj4nua2f5h60gjd9tj77y/cscv_fan_single_speed_kW_data_calculator_2023_0227.xlsx?rlkey=y3mmji7nel2sib2m10q5pkzll&st=xvsg8o1h&dl=1
 
   - name: Constant One or Two Speed Fan Energy Using Electrical Current Data
     description: Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.

@@ -11,6 +11,14 @@
             <p class="mb-0 content-card-excerpt">
               {{ .description | truncate 250 }}
             </p>
+            {{ if .more_description }}
+            <details>
+              <summary style="display: block; font-weight: bold;"><span style="margin-right: .5rem;">+</span><u>More Info</u></summary>
+              <p class="mt-1 mb-0 content-card-excerpt">
+                {{ .more_description | truncate 250 }}
+              </p>
+            </details>
+            {{ end }}
           </div>
         </div>
         <a class="short-card-link d-flex" href="{{ .url }}" download="{{ .url }}" target="_blank">
