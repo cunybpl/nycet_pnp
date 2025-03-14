@@ -1,11 +1,11 @@
 files:
     # calculators can have images if ever needed - for now they all use the same placeholder image in the html partial
     # image: "/images/plants/water-cooled-chilled-water-plant/3D-Chillers-diagram_1.jpg"
-  - name: Air-to-air Heat Transfer Calculator
+  - name: Air-to-air Heat Transfer
     description: Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.
     filename: air_to_air_heat_transfer_calculator_2023_0706.xlsx
 
-  - name: Liquid-to-liquid Heat Transfer Calculator
+  - name: Liquid-to-liquid Heat Transfer
     description: Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.
     filename: liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx
 

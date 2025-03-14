@@ -308,11 +308,7 @@ However, the yearly schedule may depend on outdoor air temperature (OAT). If so,
 
 The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for a CSCV fan and motor: 
 
-{{< downloadable_file title="Constant Speed Fan Energy Using Motor Runtime Data" excerpt="Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required." url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1"  >}}
-
-{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Constant Speed Fan Energy Using Motor Runtime Data" excerpt="Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required." >}}
-
-{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Constant Speed Fan Energy Using Motor Runtime Data" excerpt="Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required." >}}
+{{< downloadable_file title="Constant Speed Fan Energy Using Motor Runtime Data" >}}
 
 For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
 

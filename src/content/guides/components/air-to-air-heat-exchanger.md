@@ -276,7 +276,7 @@ The general methodology for quantifying the energy impact of an air-to-air heat 
 
 The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for this component: 
 
-{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer" excerpt="Uses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
+{{< downloadable_file title="Air-to-air Heat Transfer" >}}
 
 For more details about the methodology behind the calculator above see the [Air-to-air Heat Exchanger Heat Transfer calculation](/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer).
 
