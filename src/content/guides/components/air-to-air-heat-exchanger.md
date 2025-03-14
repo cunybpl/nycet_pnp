@@ -162,7 +162,7 @@ Figure 2 shows the measurement locations in a rotary wheel heat exchanger.
 
 ### What to Measure
 
-Measurements needed to quantify the annual energy transfer and operating characteristics of an air-to-air heat exchanger:
+Measurements needed to quantify the annual energy consumption and operating characteristics of an air-to-air heat exchanger:
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
@@ -276,7 +276,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
 </table> 
 </div> -->
 
-## Enegry Consumption Quantificaiton
+## Energy Consumption Quantification
 
 The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow. If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
 
