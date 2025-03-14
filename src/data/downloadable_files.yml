@@ -38,7 +38,8 @@ files:
     url: https://www.dropbox.com/scl/fi/uj4nua2f5h60gjd9tj77y/cscv_fan_single_speed_kW_data_calculator_2023_0227.xlsx?rlkey=y3mmji7nel2sib2m10q5pkzll&st=xvsg8o1h&dl=1
 
   - name: Constant One or Two Speed Fan Energy Using Electrical Current Data
-    description: Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
+    description: Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor.
+    more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
     filename: cscv_fan_two_speed_current_data_calculator_2023_0320.xlsx
 
   - name: Constant One or Two Speed Fan Energy Using Motor Speed Data
@@ -46,7 +47,8 @@ files:
     filename: cscv_fan_two_speed_motor_speed_data_calculator_2020_0512.xlsx
 
   - name: Variable Speed Fan Energy Using kW Data
-    description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor. This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
+    description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor.
+    more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
     filename: vsvv_fan_kW_data_calculator_2023_0203.xlsx
 
   - name: Lighting Current Circuit Breakers Calculator
