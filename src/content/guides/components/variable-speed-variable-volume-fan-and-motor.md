@@ -187,9 +187,10 @@ Perform the following measurements to quantify the energy consumption and operat
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
-{{< measurement_technique measurement_technique_id=3 >}}
+<!-- These appear to not be needed -->
+<!-- {{< measurement_technique measurement_technique_id=3 >}}
 
-{{< measurement_technique measurement_technique_id=4 >}}
+{{< measurement_technique measurement_technique_id=4 >}} -->
 
 {{< measurement_technique measurement_technique_id=6 >}}
 
@@ -267,26 +268,22 @@ The primary energy source for a variable-speed fan is the electricity used to ru
 
 The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for the specific type of VSVV fan and motor:
 
-#### For CSCV AHU Supply/Return, Chiller Condenser, and Boiler Burner Fans 
+#### For VSVV AHU Supply/Return, Chiller Condenser, and Boiler Burner Fans 
 
-{{< downloadable_file title="Constant Speed Fan Energy Using Motor Runtime Data" >}}
-
-{{< downloadable_file title="Constant One or Two Speed Fan Energy using kW Data" >}}
-
-{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Electrical Current Data" >}}
-
-{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Motor Speed Data" >}}
+{{< downloadable_file title="Variable Speed Fan Energy Using kW Data" >}}
 
 {{< admonition type="note" >}}
 For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
 {{< /admonition >}}
 
-<br></br>
-<i>Click the button below to go to the calculators for this component.</i>
-<br></br>
+#### For VSVV Cooling Tower (CT) Fans
 
-{{< calculation_methodology calculation_methodology_id=2 >}} 
-  
+{{< downloadable_file title="Variable Speed CT Fan Energy Using kW Data" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculators above see [Cooling Tower Fans Energy Consumption](/documents/calculation-methodology/cooling-tower-fans-energy-consumption).
+{{< /admonition >}}
+
 ## Further Reading
 
 - Boyd, BK.; McMordie Stoughton, KL.; Lewis, T. (2017). “Cooling Tower (Evaporative Cooling System) Measurement and Verification Protocol.” Golden, CO: National Renewable Energy Laboratory. https://www.nrel.gov/docs/fy18osti/70219.pdf.  

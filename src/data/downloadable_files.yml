@@ -32,9 +32,9 @@ files:
   - name: Variable Speed CT Fan Energy Using kW Data
     description: Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan
     filename: vsvv_CT_fan_kW_data_calculator_2023_0110.xlsx
-    url: 
+    url: https://www.dropbox.com/scl/fi/5kihn223ayx1v0544uxvu/vsvv_CT_fan_kW_data_calculator_2023_0110.xlsx?rlkey=qhqbexo93akfe70yuxb7ldi81&st=wc645n8k&dl=1
 
-#Fan Calculators
+# Fan Calculators
   - name: Constant Speed Fan Energy Using Motor Runtime Data
     description: Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV single-speed fan motor.
     filename: cscv_single_speed_fan_energy_calculator_2023_0214.xlsx
@@ -61,7 +61,7 @@ files:
     description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor.
     more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
     filename: vsvv_fan_kW_data_calculator_2023_0203.xlsx
-    url:
+    url: https://www.dropbox.com/scl/fi/9eccx1uj4f25bzssjtdu8/vsvv_fan_kW_data_calculator_2023_0203.xlsx?rlkey=c6kf87lxpxfhpaoyug5g8av0l&st=iw15hsoq&dl=1
 
 # Lighting Calculators
   - name: Lighting Current Circuit Breakers Calculator
