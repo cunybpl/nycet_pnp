@@ -169,7 +169,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
 </table> 
 </div>
 
-## Evaluation of Energy Consumption
+<!-- ## Evaluation of Energy Consumption
 
 The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
@@ -212,9 +212,9 @@ Table 2. Key values and measurements to evaluate energy consumption.[^1]
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-### Measurement Strategy
+## Measurement Strategy
 
 The measurement strategy for a variable-speed, variable-volume pump and motor involves measuring power draw of the pump motor at various known speeds, developing a mathematical relationship between the power and speed, and then collecting hourly OAT. Measurement locations are generically represented in Figure 1.
 
@@ -225,6 +225,14 @@ The measurement strategy for a variable-speed, variable-volume pump and motor in
   <figcaption class="figure-caption text-left">Figure 1. Variable-speed, Variable-volume pump and motor measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
+
+### What to Measure
+
+Perform the following measurements to quantify the energy consumption and operating characteristics of a VSVV pump and motor:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
 
 ### Measurement Equipment
 
@@ -287,15 +295,23 @@ Table 3 provides the equipment required to carry out the measurements of this co
 </table> 
 </div>
 
-### Calculation Methodology
+## Energy Consumption Quantification
+
+The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
 The general methodology for quantifying the energy consumption of a variable-speed, variable-volume (VSVV) pump motor is based on the true RMS power of the three-phase power supply, measured either at the motor’s main power panel or at the three-phase input to the VFD. These values are regressed against outdoor air temperature to develop a temperature-dependent regression model. Depending on operational variability, daily or weekly models may be created to better characterize the system. This model is then applied to climate normal year data to estimate the typical energy use of the VSVV pump.
 
-<br></br>
-<i>Click the button below to go to the calculators for this component.</i>
-<br></br>
+### How to Quantify
 
-{{< calculation_methodology calculation_methodology_id=6 >}} 
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for all types of VSVV pump and motor:
+
+{{< downloadable_file title="Variable Speed Pump Energy Using kW Data" >}}
+
+{{< downloadable_file title="Variable Speed Pump Energy Using Motor Speed Data" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculators above see [Pump Motor Energy Consumption](/documents/calculation-methodology/pump-motors-energy-consumption).
+{{< /admonition >}}
 
 ## Further Reading
 
