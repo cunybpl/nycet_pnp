@@ -71,22 +71,17 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
             </td>
         </tr>
         <tr>
-            <td rowspan="2" style="vertical-align: middle;">
+            <td>
                 Air Handling Plant
             </td>
-            <td rowspan="2" style="vertical-align: middle;">
-                AHUs
+            <td>
+                AHU
             </td>
             <td>
-                AHU Supply Fan
-            </td>
-            <td>
-                Motor schedule and/or Outdoor air temperature (F)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                AHU Return Fan
+            <ul>
+                <li>AHU Supply Fan</li> 
+                <li>AHU Return Fan</li> 
+                </ul>
             </td>
             <td>
                 Motor schedule and/or Outdoor air temperature (F)
@@ -211,20 +206,20 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <th width="33.333333333333336%">
+            <th>
                 Equipment
             </th>
-            <th width="33.333333333333336%">
+            <th>
                 Description
             </th>
-            <th width="33.333333333333336%">
+            <th>
                 Measurement (Units)
             </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5.jpg">
                 <figure class="figure">
                 <img src="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5.jpg" class="figure-img img-fluid rounded" alt="">
@@ -233,10 +228,10 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 </a>
                 Onset HOBO Temperature/Relative Humidity Weatherproof Data Logger (MX2301)
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 Records outdoor air temperature and relative humidity using internal sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 <ul>
                 <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor Air Temperature (F)</a></li>
                 <li><a href="/documents/measurement-technique/relative-humidity">Relative Humidity (%)</a></li>
@@ -244,7 +239,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
             </td>
         </tr>
         <tr>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg">
                 <figure class="figure">
                 <img src="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg" class="figure-img img-fluid rounded" alt="">
@@ -253,15 +248,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 </a>
                 Onset HOBO Motor On/Off Data Logger (UX90-004)
             </td>
-            <td width="33.333333333333336%">       
+            <td>       
                 Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="/documents/measurement-technique/motor-runtime">Motor Runtime (minutes)</a>
             </td>
         </tr>
         <tr>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300@2x.jpeg">
                 <figure class="figure">
                 <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300@2x.jpeg" class="figure-img img-fluid rounded" alt="">
@@ -270,15 +265,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 </a>
                 Fluke 345 Power Quality Clamp Meter
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time.
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
             </td>
         </tr>
         <tr>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1.jpg">
                 <figure class="figure">
                 <img src="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1.jpg" class="figure-img img-fluid rounded" alt="">
@@ -287,10 +282,10 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 </a>
                 Onset HOBO 4-Channel Analog Data Logger (UX120-006M)
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 Used in conjunction with the CTV series of sensors. Records measurements from up to four CTV sensors. Requires HOBOware software and a USB connection cable for programming and downloading data files.
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="/documents/measurement-technique/electrical-current">Electrical Current (Amps)</a>
             </td>
         </tr>
