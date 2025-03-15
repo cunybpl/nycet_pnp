@@ -34,125 +34,125 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
     <caption>Table 1. Plants and systems applicable to CSCV pumps and motors.</caption>
     <thead>
         <tr>
-            <th width="30.073349633251834%">
+            <th>
                 Plant
             </th>
-            <th width="33.251833740831295%">
+            <th>
                 System
             </th>
-            <th width="36.67481662591687%">
+            <th>
                 Component
             </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td class="fr-cell-handler " style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Air-cooled chilled water plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Chilled water loop
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Primary chilled water pump
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Water-cooled chilled water plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Condenser water loop
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Condenser water pump
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Water-cooled chilled water plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Chilled water loop
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Primary chilled water pump
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Water-cooled chilled water plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Chilled water loop
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Secondary chilled water pump
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Water-cooled chilled water plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Waterside economizer
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Waterside economizer pump (if present)
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Hot water plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Hot water boiler
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Makeup water pump
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Hot water plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Hot water loop
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Building loop pump
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Steam plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Steam boiler
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Makeup water pump
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Steam plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Feedwater tank
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 Feedwater pump
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="30.073349633251834%" bgcolor="#e2efd9">
+            <td>
                 Service water plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="33.251833740831295%" bgcolor="#e2efd9">
+            <td>
                 Service hot water loop
             </td>
-            <td class="fr-cell-fixed " style="background-color: rgb(255, 255, 255);" width="36.67481662591687%" bgcolor="#e2efd9">
+            <td>
                 <ul>
                     <li>Service hot water</li> 
                     <li>Recirculation pump</li>
