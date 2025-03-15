@@ -138,21 +138,23 @@ Use the collected measurement data in the corresponding calculator file based on
 
 #### Fan and Motor
 
-{{< page_hyperlink page_title="Constant-speed, Constant-volume Fan and Motor" url="/documents/components/constant-speed-constant-volume-fan-and-motor/#calculate-energy-consumption" >}}
+{{< page_hyperlink page_title="Constant-speed, Constant-volume Fan and Motor" url="/documents/components/constant-speed-constant-volume-fan-and-motor/#how-to-quantify" >}}
 
-{{< page_hyperlink page_title="Variable-speed, Variable-volume Fan and Motor" url="/documents/components/variable-speed-variable-volume-fan-and-motor/#calculate-energy-consumption" >}}
+{{< page_hyperlink page_title="Variable-speed, Variable-volume Fan and Motor" url="/documents/components/variable-speed-variable-volume-fan-and-motor/#how-to-quantify" >}}
 
 #### Pump and Motor
 
-{{< page_hyperlink page_title="Variable-speed, Variable-volume Pump and Motor" url="/documents/components/variable-speed-variable-volume-pump-and-motor/#calculate-energy-consumption" >}}
+{{< page_hyperlink page_title="Constant-speed, Constant-volume Pump and Motor" url="/documents/components/constant-speed-constant-volume-pump-motor/#how-to-quantify" >}}
+
+{{< page_hyperlink page_title="Variable-speed, Variable-volume Pump and Motor" url="/documents/components/variable-speed-variable-volume-pump-and-motor/#how-to-quantify" >}}
 
 #### Compressor and Motor
 
-{{< page_hyperlink page_title="Constant-speed Compressor and Motor" url="/documents/components/constant-speed-compressor-and-motor/#calculate-energy-consumption" >}}
+{{< page_hyperlink page_title="Constant-speed Compressor and Motor" url="/documents/components/constant-speed-compressor-and-motor/#how-to-quantify" >}}
 
 #### Electrical Distribution
 
-{{< page_hyperlink page_title="Electrical Distribution" url="/documents/systems/electrical-distribution/#calculate-energy-consumption" >}}
+{{< page_hyperlink page_title="Electrical Distribution" url="/documents/systems/electrical-distribution/#how-to-quantify" >}}
 
 ## Troubleshooting
 
