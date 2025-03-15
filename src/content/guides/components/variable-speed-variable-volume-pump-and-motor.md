@@ -30,7 +30,7 @@ A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., 
 Table 1 shows the plant and system configurations that may contain a VSVV pump and motor and the controlling variable. 
 
 <div class="table-wrapper">
-<table>
+<table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 1. Plants and systems containing variable-speed, variable-volume pumps</caption>
     <thead>
         <tr>
@@ -63,7 +63,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="3" style="vertical-align: middle;">
                 Water-cooled chilled water plant
             </td>
             <td>
@@ -78,36 +78,19 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
         </tr>
         <tr>
             <td>
-                Water-cooled chilled water plant
-            </td>
-            <td>
                 Chilled water loop
             </td>
             <td>
-                Primary chilled water pump
+                <ul>
+                    <li>Primary chilled water pump</li> 
+                    <li>Secondary chilled water pump</li>
+                </ul>
             </td>
             <td>
                 Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
-            <td>
-                Water-cooled chilled water plant
-            </td>
-            <td>
-                Chilled water loop
-            </td>
-            <td>
-                Secondary chilled water pump
-            </td>
-            <td>
-                Outdoor air temperature (F)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Water-cooled chilled water plant
-            </td>
             <td>
                 Waterside economizer
             </td>
@@ -119,7 +102,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="2" style="vertical-align: middle;">
                 Hot water plant
             </td>
             <td>
@@ -134,9 +117,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
         </tr>
         <tr>
             <td>
-                Hot water plant
-            </td>
-            <td>
                 Hot water loop
             </td>
             <td>
@@ -147,7 +127,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="2" style="vertical-align: middle;">
                 Steam plant
             </td>
             <td>
@@ -161,9 +141,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
         <tr>
-            <td>
-                Steam plant
-            </td>
             <td>
                 Feedwater Tank
             </td>
@@ -182,7 +159,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 Service hot water loop
             </td>
             <td>
-                Service hot water; recirculation pump
+                Recirculation pump
             </td>
             <td>
                 Occupancy schedule: time of day, day of week.
