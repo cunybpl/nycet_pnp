@@ -78,9 +78,9 @@ Table 1 shows the plant and system configurations that may contain a CSCV fan an
                 AHU
             </td>
             <td>
-            <ul>
-                <li>AHU Supply Fan</li> 
-                <li>AHU Return Fan</li> 
+                <ul>
+                    <li>AHU Supply Fan</li> 
+                    <li>AHU Return Fan</li> 
                 </ul>
             </td>
             <td>
@@ -194,6 +194,8 @@ Perform the following measurements to quantify the energy consumption and operat
 {{< measurement_technique measurement_technique_id=4 >}}
 
 {{< measurement_technique measurement_technique_id=6 >}}
+
+{{< measurement_technique measurement_technique_id=8 >}}
 
 ### Measurement Equipment
 
