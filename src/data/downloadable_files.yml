@@ -83,24 +83,24 @@ files:
   - name: Constant Speed Pump Energy Using Motor Runtime Data
     description: Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.
     filename: cscv_pump_runtime_data_calculator_2020_0427.xlsx
-    url:
+    url: https://www.dropbox.com/scl/fi/i7jraysee7jo16j9pv1q4/cscv_pump_runtime_data_calculator_2020_0427.xlsx?rlkey=58ratwjbj4ac5a2f40t0zqp6q&st=s9sjr1b9&dl=1
 
   - name: Constant One or Two Speed Pump Energy Using kW Data
     description: Uses hourly electrical current data and spot measurement data of kW to estimate the annual energy consumption for a constant-speed one- or two-speed pump motor.
     filename: cscv_pump_kW_data_calculator_2020_0427.xlsx
-    url:
+    url: https://www.dropbox.com/scl/fi/4o9h7hxw4h3ju0ivlkhop/cscv_pump_kW_data_calculator_2020_0427.xlsx?rlkey=cdiblpf1402vhtpxwgke754jz&st=9ewygg6o&dl=1
 
   - name: Constant One or Two Speed Pump Energy Using Electrical Current Data
     description: Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed pump motor.
     filename: cscv_pump_current_data_calculator_2020_0427.xlsx
-    url:
+    url: https://www.dropbox.com/scl/fi/y26wdvif4ork2mofrrr0w/cscv_pump_current_data_calculator_2020_0427.xlsx?rlkey=l8zs6pj65v7e9hi5l2j4fy1lu&st=g48kmj90&dl=1
 
   - name: Variable Speed Pump Energy Using kW Data
     description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor.
     filename: vsvv_pump_kW_data_calculator_2020_0427.xlsx
-    url:
+    url: https://www.dropbox.com/scl/fi/9l6y78d1s7n9mkxk27sd7/vsvv_pump_kW_data_calculator_2020_0427.xlsx?rlkey=m0gvtjq3dnvgjq29mpyq3rcry&st=kmlilpni&dl=1
 
   - name: Variable Speed Pump Energy Using Motor Speed Data
     description: Uses hourly motor speed data obtained from the VFD or BMS and spot measurements of kW to estimate the annual energy consumption of a variable-speed pump motor.
     filename: vsvv_pump_motor_speed_data_calculator_2020_0601.xlsx
-    url:
+    url: https://www.dropbox.com/scl/fi/ni6xcdrqasrksk2vbxox5/vsvv_pump_motor_speed_data_calculator_2020_0601.xlsx?rlkey=wsic2wpg957xiw4561a150y2e&st=l1bkupb6&dl=1
