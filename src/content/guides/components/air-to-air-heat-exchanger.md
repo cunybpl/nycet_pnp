@@ -47,18 +47,7 @@ In a building, an air-to-air heat exchanger can be used to recover latent or sen
                 AHU with Heat Recovery Unit
             </td>
             <td>
-                Fixed plate heat exchanger
-            </td>
-            <td>
-                Outdoor air temperature (F)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                AHU with Heat Recovery Unit
-            </td>
-            <td>
-                Rotary wheel heat exchanger
+                Fixed plate or rotary wheel heat exchanger
             </td>
             <td>
                 Outdoor air temperature (F)
