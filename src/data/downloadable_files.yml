@@ -13,18 +13,22 @@ files:
   - name: Constant Speed CT Fan Energy Using Motor Runtime Data
     description: Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.
     filename: cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx
+    url: https://www.dropbox.com/scl/fi/zbtdwn1dhv8h9xfhfijf7/cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx?rlkey=sm9nl1cglowttst9bxjmge5bd&st=mpceykia&dl=1
 
   - name: Constant One or Two Speed CT Fan Energy Using kW Data
     description: Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed cooling tower fan motor.
     filename: cscv_CT_fan_single_speed_kW_data_calculator_2023_0113.xlsx
+    url: https://www.dropbox.com/scl/fi/1yhbi6e5goz5oh59dyeim/cscv_CT_fan_single_speed_kW_data_calculator_2023_0113.xlsx?rlkey=ncjwejwgangris33l2y5nqlst&st=lwjchjgc&dl=1
 
   - name: Constant One or Two Speed CT Fan Energy Using Electrical Current Data
     description: Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans. Spot measurements of voltage and power factor are required.
     filename: cscv_CT_fan_two_speed_current_data_calculator_2023_0117.xlsx
+    url: https://www.dropbox.com/scl/fi/tbybzj59qo36hal51svtj/cscv_CT_fan_two_speed_current_data_calculator_2023_0117.xlsx?rlkey=943q5zg6ec8cc7smhhtj1yrd8&st=2q64ck8j&dl=1
 
   - name: Variable Speed CT Fan Energy Using kW Data
     description: Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan
     filename: vsvv_CT_fan_kW_data_calculator_2023_0110.xlsx
+    url: 
 
   - name: Constant Speed Fan Energy Using Motor Runtime Data
     description: Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV single-speed fan motor.

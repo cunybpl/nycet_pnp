@@ -306,7 +306,9 @@ However, the yearly schedule may depend on outdoor air temperature (OAT). If so,
 
 ### How to Quantify
 
-The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for a CSCV fan and motor: 
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for a CSCV fan and motor:
+
+#### For CSCV AHU Supply/Return, Chiller Condenser, and Boiler Burner Fans 
 
 {{< downloadable_file title="Constant Speed Fan Energy Using Motor Runtime Data" >}}
 
@@ -317,6 +319,16 @@ The following downloadable file(s) can be used to calculate energy consumption b
 {{< downloadable_file title="Constant One or Two Speed Fan Energy Using Motor Speed Data" >}}
 
 For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
+
+#### For CSCV Cooling Tower Fans
+
+{{< downloadable_file title="Constant Speed CT Fan Energy Using Motor Runtime Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed CT Fan Energy Using kW Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed CT Fan Energy Using Electrical Current Data" >}}
+
+For more details about the methodology behind the calculators above see the [Cooling Tower Fans Energy Consumption](/documents/calculation-methodology/cooling-tower-fans-energy-consumption).
 
 <!-- ### Calculation Methodology
 
