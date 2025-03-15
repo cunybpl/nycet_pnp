@@ -195,8 +195,6 @@ Perform the following measurements to quantify the energy consumption and operat
 
 {{< measurement_technique measurement_technique_id=6 >}}
 
-
-
 ### Measurement Equipment
 
 Table 3 provides the equipment required to carry out the measurements of this component. 

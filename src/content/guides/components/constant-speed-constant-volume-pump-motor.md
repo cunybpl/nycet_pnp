@@ -204,7 +204,6 @@ Perform the following measurements to quantify the energy consumption and operat
 
 {{< measurement_technique measurement_technique_id=4 >}}
 
-
 ### Measurement Equipment
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
@@ -214,20 +213,20 @@ Table 3 provides the equipment required to carry out the measurements of this co
     <caption>Table 3. Measurement equipment.</caption>
     <thead>
         <tr>
-            <th width="33.333333333333336%">
+            <th>
                 Equipment
             </th>
-            <th width="33.333333333333336%">
+            <th>
                 Description
             </th>
-            <th width="33.333333333333336%">
+            <th>
                 Measurement (Units)
             </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg">
                 <figure class="figure">
                 <img src="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004.jpg" class="figure-img img-fluid rounded" alt="">
@@ -236,15 +235,15 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 </a>
                 Onset HOBO Motor On/Off Data Logger (UX90-004)
             </td>
-            <td width="33.333333333333336%">       
+            <td>       
                 Records when a motor is on and off, as well as runtime. Requires HOBOware software and a USB connection cable for programming and downloading data files.
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="/documents/measurement-technique/motor-runtime">Motor Runtime (minutes)</a>
             </td>
         </tr>
         <tr>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300@2x.jpeg">
                 <figure class="figure">
                 <img src="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300@2x.jpeg" class="figure-img img-fluid rounded" alt="">
@@ -253,10 +252,10 @@ Table 3 provides the equipment required to carry out the measurements of this co
                 </a>
                 Fluke 345 Power Quality Clamp Meter
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time.
             </td>
-            <td width="33.333333333333336%">
+            <td>
                 <a href="/documents/measurement-technique/true-rms-power">True RMS Power (kW)</a>
             </td>
         </tr>
@@ -264,13 +263,25 @@ Table 3 provides the equipment required to carry out the measurements of this co
 </table> 
 </div>
 
-### Calculation Methodology
+## Energy Consumption Quantification
 
-<br></br>
-<i>Click the button below to go to the calculators for this component.</i>
-<br></br>
+The primary energy source for a CSCV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV pump and motor.
 
-{{< calculation_methodology calculation_methodology_id=6 >}}
+### How to Quantify
+
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for all types of CSCV pump and motor:
+
+{{< downloadable_file title="Constant Speed Fan Energy Using Motor Runtime Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed Fan Energy using kW Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Electrical Current Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Motor Speed Data" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
+{{< /admonition >}}
 
 ## Further Reading
 
