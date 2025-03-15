@@ -176,7 +176,7 @@ The measurement strategy for a liquid-to-liquid heat exchanger involves measurin
 
 ### What to Measure
 
-Perform the following measurements to quantify the annual energy consumption and operating characteristics of an air-to-air heat exchanger:
+Perform the following measurements to quantify the annual energy consumption and operating characteristics of an liquid-to-liquid heat exchanger:
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
