@@ -34,14 +34,14 @@ Controls regulate the operation of the light fixtures, such as when they are tur
 <a href="/images/systems/lighting-fixture/lighting fixture figure1.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure1.png" class="figure-img img-fluid rounded" alt="Figure 1. Lighting Fixture System, fixtures are of a single type in this room.">
-        <figcaption class="figure-caption text-left">Figure 1. Lighting Fixture System, fixtures are of a single type in this room (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Lighting Fixture System, fixtures are of a single type in this room.</figcaption>
     </figure>
 </a>
 
 <a href="/images/systems/lighting-fixture/lighting fixture figure2.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure2.png" class="figure-img img-fluid rounded" alt="Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy).">
-        <figcaption class="figure-caption text-left">Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy) (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy).</figcaption>
     </figure>
 </a>
 
@@ -129,14 +129,14 @@ An auditor can develop a sampling plan and use a light on/off logger to measure 
 <a href="/images/systems/lighting-fixture/lighting fixture figure3.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Lighting fixture measurement locations.">
-        <figcaption class="figure-caption text-left">Figure 3. Lighting fixture measurement locations (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Lighting fixture measurement locations.</figcaption>
     </figure>
 </a>
 
 <a href="/images/systems/lighting-fixture/lighting fixture figure4.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure4.png" class="figure-img img-fluid rounded" alt="Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures.">
-        <figcaption class="figure-caption text-left">Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures.</figcaption>
     </figure>
 </a>
 

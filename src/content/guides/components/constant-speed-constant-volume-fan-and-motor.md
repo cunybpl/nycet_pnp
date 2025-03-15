@@ -179,7 +179,7 @@ In some cases, the motor's operational schedule is related to the facility's hea
 <a href="/images/components/2024_1023_CSCV_fan component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/2024_1023_CSCV_fan component_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. CSCV fan measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 1. CSCV fan measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. CSCV fan measurement locations.</figcaption>
 </figure>
 </a>
 

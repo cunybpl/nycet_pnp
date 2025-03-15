@@ -42,7 +42,7 @@ The main components associated with the condenser water loop are shown in Figure
 <a href="/images/systems/condenser-water-loop/2024_0425_CW system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/condenser-water-loop/2024_0425_CW system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Condenser water loop components.">
-  <figcaption class="figure-caption text-left">Figure 1. Condenser water loop components (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Condenser water loop components.</figcaption>
 </figure>
 </a>
 
@@ -80,7 +80,7 @@ Cooling towers with variable speed fans and motors generally operate the fans at
 <a href="/images/systems/condenser-water-loop/2024_0509_CW system_figure 2 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/condenser-water-loop/2024_0509_CW system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Evaporative Cooling Tower.">
-  <figcaption class="figure-caption text-left">Figure 2. Evaporative Cooling Tower (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Evaporative Cooling Tower.</figcaption>
 </figure>
 </a>
 
@@ -217,7 +217,7 @@ The measurements for the condenser water loop are schematically shown in Figure 
 <a href="/images/systems/condenser-water-loop/2024_0502_CW system_figure 3 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/condenser-water-loop/2024_0502_CW system_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Condenser water loop measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 3. Condenser water loop measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 3. Condenser water loop measurement locations.</figcaption>
 </figure>
 </a>
 

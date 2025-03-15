@@ -24,7 +24,7 @@ Each of the various components associated with an air-cooled chiller are listed 
 <a href="/images/systems/air-cooled-chiller/2024_0423_ACC system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/air-cooled-chiller/2024_0423_ACC system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air-cooled chiller.">
-  <figcaption class="figure-caption text-left">Figure 1. Air-cooled chiller (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Air-cooled chiller.</figcaption>
 </figure>
 </a>
 
@@ -142,7 +142,7 @@ The measurement locations for an air-cooled chiller and chilled water pumps are 
 <a href="/images/systems/air-cooled-chiller/2024_0502_ACC system_figure 2 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/air-cooled-chiller/2024_0502_ACC system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Air cooled chiller measurement locations">
-  <figcaption class="figure-caption text-left">Figure 2. Air cooled chiller measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Air cooled chiller measurement locations.</figcaption>
 </figure>
 </a>
 

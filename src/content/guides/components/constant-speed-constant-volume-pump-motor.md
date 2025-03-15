@@ -192,7 +192,7 @@ The measurement strategy for a CSCV pump and motor involves conducting a one-tim
 <a href="/images/components/2024_1023_CSCV_pump component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/2024_1023_CSCV_pump component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt=" Figure 1. CSCV pump and motor measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 1. CSCV pump and motor measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. CSCV pump and motor measurement locations.</figcaption>
 </figure>
 </a>
 

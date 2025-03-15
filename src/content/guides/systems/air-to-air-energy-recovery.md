@@ -24,7 +24,7 @@ Figure 1 shows the main components associated with a fixed plate heat exchanger 
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 1.png">
     <figure class="figure">
         <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 1.png" class="figure-img img-fluid rounded" alt="Figure 1. Air-to-air heat recovery system with fixed plate each exchanger.">
-        <figcaption class="figure-caption text-left">Figure 1. Air-to-air heat recovery system with fixed plate each exchanger (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Air-to-air heat recovery system with fixed plate each exchanger.</figcaption>
     </figure>
 </a>
 
@@ -40,7 +40,7 @@ A rotary wheel exchanger consists of a belt driven wheel that is built up by a m
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 3.png">
     <figure class="figure">
         <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 3.png" class="figure-img img-fluid rounded" alt="Figure 3. Rotary air-to-air energy exchangers.">
-        <figcaption class="figure-caption text-left">Figure 3. Rotary air-to-air energy exchangers (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Rotary air-to-air energy exchangers.</figcaption>
     </figure>
 </a>
 
@@ -137,7 +137,7 @@ The measurement locations for a heat recovery system are shown in Figure 7.
 <a href="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 7.png">
     <figure class="figure">
         <img src="/images/systems/air-to-air-energy-recovery/Air-to-air Recovery System Figure 7.png" class="figure-img img-fluid rounded" alt="Figure 7. Air-to-air energy recovery measurement locations.">
-        <figcaption class="figure-caption text-left">Figure 7. Air-to-air recovery measurement locations (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 7. Air-to-air recovery measurement locations.</figcaption>
     </figure>
 </a>
 

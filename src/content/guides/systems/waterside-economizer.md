@@ -23,7 +23,7 @@ The components associated with a waterside economizer are heat exchanger, piping
 <a href="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Waterside economizer system components.">
-  <figcaption class="figure-caption text-left">Figure 1. Waterside economizer system components (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Waterside economizer system components.</figcaption>
 </figure>
 </a>
 
@@ -90,7 +90,7 @@ The measurement locations for the waterside economizer are schematically shown i
 <a href="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 2 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/waterside-economizer/2024_0425_W ECONOMIZER system_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Waterside economizer measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 2. Waterside economizer measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Waterside economizer measurement locations.</figcaption>
 </figure>
 </a>
 

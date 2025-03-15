@@ -177,7 +177,7 @@ The measurement strategy for a variable-speed fan and its motor involves measuri
 <a href="/images/components/08.20.24_VSVV_FAN AND MOTOR-01.jpg">
 <figure class="figure">
   <img src="/images/components/08.20.24_VSVV_FAN AND MOTOR-01.jpg" class="figure-img img-fluid rounded" alt="Figure 1. VSVV fan measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 1. VSVV fan measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. VSVV fan measurement locations.</figcaption>
 </figure>
 </a>
 

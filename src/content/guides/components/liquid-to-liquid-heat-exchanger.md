@@ -170,7 +170,7 @@ The measurement strategy for a liquid-to-liquid heat exchanger involves measurin
 <a href="/images/components/2024_0625_LtL HX component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/2024_0625_LtL HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Liquid-to-liquid heat exchanger measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 1. Liquid-to-liquid heat exchanger measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Liquid-to-liquid heat exchanger measurement locations.</figcaption>
 </figure>
 </a>
 

@@ -22,7 +22,7 @@ Figure 1 shows the main components associated with the electrical distribution s
 <a href="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/2024_0507_ELECTRICAL DIST_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Diagram of an electrial distribution system.">
-        <figcaption class="figure-caption text-left">Figure 1. Diagram of an electrial distribution system (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Diagram of an electrial distribution system.</figcaption>
     </figure>
 </a>
 
@@ -37,7 +37,7 @@ A dedicated electrical panelboard supplies electricity only to the light fixture
 <a href="/images/systems/electrical-distribution/electrical distribution figure2.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure2.png" class="figure-img img-fluid rounded" alt="Figure 2. Dedicated panelboard system.">
-        <figcaption class="figure-caption text-left">Figure 2. Dedicated panelboard system (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. Dedicated panelboard system.</figcaption>
     </figure>
 </a>
 
@@ -46,7 +46,7 @@ Figure 3 is an example of a schedule of circuits on a dedicated panelboard. The 
 <a href="/images/systems/electrical-distribution/electrical distribution figure3.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Example of a dedicated panelboard schedule.">
-        <figcaption class="figure-caption text-left">Figure 3. Example of a dedicated panelboard schedule (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Example of a dedicated panelboard schedule.</figcaption>
     </figure>
 </a>
 
@@ -60,7 +60,7 @@ A Mixed electrical panelboard supplies electricity to the lighting fixture syste
     </a>
 <figcaption class="figure-caption text-left">
 
-Figure 4: Example of a mixed panelboard schedule. <span style="color: #467f9e;">Lighting fixtures highlighted in blue</span>, and <span style="color: #d36064;">other electrical loads highlighted in red</span> (click on image to enlarge).
+Figure 4: Example of a mixed panelboard schedule. <span style="color: #467f9e;">Lighting fixtures highlighted in blue</span>, and <span style="color: #d36064;">other electrical loads highlighted in red</span>.
 
 </figcaption>
 </figure>
@@ -119,14 +119,14 @@ Figures 5 and 6 show typical measurement locations in an electrical distribution
 <a href="/images/systems/electrical-distribution/electrical distribution figure5.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure5.png" class="figure-img img-fluid rounded" alt="Figure 5: Three-phase power measurement using a Dent EliteProXC Power Logger to capture to total power draw of all fixtures served by the panelboard.">
-        <figcaption class="figure-caption text-left">Figure 5: Three-phase power measurement using a Dent EliteProXC Power Logger to capture to total power draw of all fixtures served by the panelboard (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 5: Three-phase power measurement using a Dent EliteProXC Power Logger to capture to total power draw of all fixtures served by the panelboard.</figcaption>
     </figure>
 </a>
 
 <a href="/images/systems/electrical-distribution/electrical distribution figure6.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/electrical-distribution/electrical distribution figure6.png" class="figure-img img-fluid rounded" alt="Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter.">
-        <figcaption class="figure-caption text-left">Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure, measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 6: Current measurement using current transformers and a data logger to collect measurement data. In this figure, measurements are taken at the circuit breaker level to capture specific fixtures. Voltage and power factor measurements are taken with a power meter.</figcaption>
     </figure>
 </a>
 

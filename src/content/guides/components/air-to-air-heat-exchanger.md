@@ -128,7 +128,7 @@ Figure 1 shows the measurement locations in a fixed plate heat exchanger.
 <a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement boundary for an air-to-air heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 1. Fixed-plate heat exchanger measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Fixed-plate heat exchanger measurement locations.</figcaption>
 </figure>
 </a>
 
@@ -137,7 +137,7 @@ Figure 2 shows the measurement locations in a rotary wheel heat exchanger.
 <a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg">
 <figure class="figure">
   <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Rotary wheel heat exchanger measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement locations.</figcaption>
 </figure>
 </a>
 

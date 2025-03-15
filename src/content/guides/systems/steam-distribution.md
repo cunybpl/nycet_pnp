@@ -24,7 +24,7 @@ A steam distribution system is responsible for distributing the steam produced b
 <a href="/images/systems/steam-distribution/2024_0507_STEAM DISTRIBUTION system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/steam-distribution/2024_0507_STEAM DISTRIBUTION system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Steam distribution system diagram.">
-  <figcaption class="figure-caption text-left">Figure 1. Steam distribution system diagram (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Steam distribution system diagram.</figcaption>
 </figure>
 </a>
 

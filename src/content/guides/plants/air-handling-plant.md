@@ -23,7 +23,7 @@ The air handling plant (AHP) uses input energy (e.g., electricity, heated water,
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg">
     <figure class="figure mt-3 mb-0">
         <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Air Handling Plant.">
-        <figcaption class="figure-caption text-left">Figure 1. Air Handling Plant (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Air Handling Plant.</figcaption>
     </figure>
 </a>
 
@@ -39,7 +39,7 @@ A CSCV air handling system provides heating, cooling, and ventilation air to a s
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. CSCV Air Handling Unit Systems and Components.">
-        <figcaption class="figure-caption text-left">Figure 2. CSCV Air Handling Unit Systems and Components (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. CSCV Air Handling Unit Systems and Components.</figcaption>
     </figure>
 </a>
 
@@ -55,7 +55,7 @@ A VAV system consists of a main AHU and multiple VAV boxes that serve different 
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Air Handling Plant Systems and Components.">
-        <figcaption class="figure-caption text-left">Figure 3. VAV Air Handling Plant Systems and Components (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. VAV Air Handling Plant Systems and Components.</figcaption>
     </figure>
 </a>
 

@@ -114,7 +114,7 @@ A motor on/off data logger is used to record the operating schedule. The true RM
 <a href="/images/components/2024_1022_CS_compressor_component_figure 1.jpg">
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/components/2024_1022_CS_compressor_component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Constant-speed compressor and motor measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 1. Constant-speed compressor and motor measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Constant-speed compressor and motor measurement locations.</figcaption>
 </figure>
 </a>
 
