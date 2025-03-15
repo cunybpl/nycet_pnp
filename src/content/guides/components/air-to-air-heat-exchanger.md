@@ -278,7 +278,9 @@ The following downloadable file(s) can be used to calculate energy consumption b
 
 {{< downloadable_file title="Air-to-air Heat Transfer" >}}
 
-For more details about the methodology behind the calculator above see the [Air-to-air Heat Exchanger Heat Transfer calculation](/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer).
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculator above see [Air-to-air Heat Exchanger Heat Transfer calculation](/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer).
+{{< /admonition >}}
 
 ## Further Reading 
 

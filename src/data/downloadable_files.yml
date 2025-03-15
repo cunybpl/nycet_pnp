@@ -83,19 +83,24 @@ files:
   - name: Constant Speed Pump Energy Using Motor Runtime Data
     description: Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.
     filename: cscv_pump_runtime_data_calculator_2020_0427.xlsx
+    url:
 
   - name: Constant One or Two Speed Pump Energy Using kW Data
     description: Uses hourly electrical current data and spot measurement data of kW to estimate the annual energy consumption for a constant-speed one- or two-speed pump motor.
     filename: cscv_pump_kW_data_calculator_2020_0427.xlsx
+    url:
 
   - name: Constant One or Two Speed Pump Energy Using Electrical Current Data
     description: Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed pump motor.
     filename: cscv_pump_current_data_calculator_2020_0427.xlsx
+    url:
 
   - name: Variable Speed Pump Energy Using kW Data
     description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor.
     filename: vsvv_pump_kW_data_calculator_2020_0427.xlsx
+    url:
 
   - name: Variable Speed Pump Energy Using Motor Speed Data
     description: Uses hourly motor speed data obtained from the VFD or BMS and spot measurements of kW to estimate the annual energy consumption of a variable-speed pump motor.
     filename: vsvv_pump_motor_speed_data_calculator_2020_0601.xlsx
+    url:

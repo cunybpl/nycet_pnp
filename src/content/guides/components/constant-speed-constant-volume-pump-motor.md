@@ -271,16 +271,14 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
 
 The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for all types of CSCV pump and motor:
 
-{{< downloadable_file title="Constant Speed Fan Energy Using Motor Runtime Data" >}}
+{{< downloadable_file title="Constant Speed Pump Energy Using Motor Runtime Data" >}}
 
-{{< downloadable_file title="Constant One or Two Speed Fan Energy using kW Data" >}}
+{{< downloadable_file title="Constant One or Two Speed Pump Energy Using kW Data" >}}
 
-{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Electrical Current Data" >}}
-
-{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Motor Speed Data" >}}
+{{< downloadable_file title="Constant One or Two Speed Pump Energy Using Electrical Current Data" >}}
 
 {{< admonition type="note" >}}
-For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
+For more details about the methodology behind the calculators above see [Pump Motor Energy Consumption](/documents/calculation-methodology/pump-motors-energy-consumption).
 {{< /admonition >}}
 
 ## Further Reading

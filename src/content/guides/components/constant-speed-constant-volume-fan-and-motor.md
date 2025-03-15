@@ -324,7 +324,7 @@ For more details about the methodology behind the calculators above see the [Fan
 {{< downloadable_file title="Constant One or Two Speed CT Fan Energy Using Electrical Current Data" >}}
 
 {{< admonition type="note" >}}
-For more details about the methodology behind the calculators above see the [Cooling Tower Fans Energy Consumption](/documents/calculation-methodology/cooling-tower-fans-energy-consumption).
+For more details about the methodology behind the calculators above see [Cooling Tower Fans Energy Consumption](/documents/calculation-methodology/cooling-tower-fans-energy-consumption).
 {{< /admonition >}}
 
 <!-- ### Calculation Methodology
