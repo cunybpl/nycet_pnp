@@ -66,19 +66,23 @@ files:
 # Lighting Calculators
   - name: Lighting Current Circuit Breakers Calculator
     description: Uses voltage measurements alongside power, circuit amperage and current from circuit breakers to measure the total energy output from the system.
-    filename: lighting_current_circuit_breakers_2023_0818.xlsx
+    filename: lighting_circuits_current_data_calculator_2023_0818.xlsx
+    url: https://www.dropbox.com/scl/fi/zt25x53jpsuzfx687jjiq/lighting_circuits_current_data_calculator_2023_0818.xlsx?rlkey=lge4jlox8bbhb79t7bk73mhk1&st=q9vsuut7&dl=1
 
   - name: Lighting Current Panelboard Calculator
     description: Uses voltage measurements alongside power, circuit amperage and current from the electrical panelboard to measure the total energy output from the system.
-    filename: lighting_current_panelboard_2023_0816.xlsx
+    filename: lighting_panelboard_current_data_calculator_2023_0816.xlsx
+    url: https://www.dropbox.com/scl/fi/qiuvg1hl77tum2uufpdml/lighting_panelboard_current_data_calculator_2023_0816.xlsx?rlkey=jh5vnjsznuyhkcrdgdl7ihh3n&st=p6t3k0pf&dl=1
 
-  - name: Lighting Inventory Schedule Calculator
+  - name: Lighting Inventory Runtime Calculator
     description: Uses the panel energy use to calculate the operating schedule of the system.
-    filename: lighting_inventory_schedule_2023_0417.xlsx
+    filename: lighting_inventory_runtime_data_calculator_2023_0417.xlsx
+    url: https://www.dropbox.com/scl/fi/d0ib6zx8wsnr0id2gfklp/lighting_inventory_runtime_data_calculator_2023_0417.xlsx?rlkey=i43zir7rlowxxhoa588hsoy51&st=y7iohswm&dl=1
 
   - name: Lighting True RMS Power Panelboard Calculator
     description: Uses the runtime and power of the panelboard to calculate the annual anergy consumption of a lighting electrical distribution system.
-    filename: lighting_power_panelboard_2023_0417.xlsx
+    filename: lighting_panelboard_kW_data_calculator_2023_0417.xlsx
+    url: https://www.dropbox.com/scl/fi/koenvf48h36od4z298747/lighting_panelboard_kW_data_calculator_2023_0417.xlsx?rlkey=cadavmvrxq18o1qiny35mkld6&st=x8j4yf1p&dl=1
 
 # Pump Calculators
   - name: Constant Speed Pump Energy Using Motor Runtime Data
