@@ -16,7 +16,7 @@ url: "/documents/plants/hot-water-heating-plant"
 
 ## General Overview
 
-The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, biomass) and generates hot water that is distributed throughout a facility to provide space heating. A HWH boiler may also generate hot water to provide for other loads, such as domestic hot water or process heat. A hot water heating plant consists of a hot water heating boiler, a feedwater system, and a hot water heating loop.  
+The hot water heating (HWH) plant uses input energy (e.g., fuel, electricity, or biomass) to generate hot water, which is distributed throughout a facility for space heating. An HWH boiler may also produce hot water for other demands, such as domestic hot water or process heat. A hot water heating plant typically consists of a hot water heating boiler, a feedwater system, and a hot water heating loop. 
 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg">
     <figure class="figure mb-0 mt-3">
@@ -29,7 +29,7 @@ The hot water heating (HWH) plant takes input energy (e.g., fuel, electricity, b
 
 ### Hot Water Heating Boiler
 
-The hot water heating boiler is the largest energy-consuming system in the hot water heating plant. Hot water is produced primarily through the heat transfer from combustion gases in the combustion chamber to the water. The hot water produced by the system is then transported out to the facility to meet required heating loads or domestic hot water needs.
+The HWH boiler system is the largest energy-consuming component of the hot water heating plant. Hot water is primarily generated through heat transfer from combustion gases in the combustion chamber to the water. The heated water is then distributed throughout the facility to meet space heating or domestic hot water demands. The main components of an HWH boiler system include the burner, combustion chamber, heat exchanger, and draft fan, as shown in Figure 2.
 <a class="continue" href="/documents/systems/boiler"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg">
@@ -41,7 +41,7 @@ The hot water heating boiler is the largest energy-consuming system in the hot w
 
 ### Hot Water Loop
 
-The hot water loop system encompasses the distribution system responsible for moving hot water throughout the building. Components of a typical hot water loop system are primary-only or primary-secondary pumps, piping network and piping insulation.
+The hot water loop system encompasses the distribution system responsible for moving hot water throughout the building. Components of a typical hot water loop system are primary-only or primary-secondary pumps, piping network and piping insulation and are shown in Figure 3.
 <a class="continue" href="/documents/systems/hot-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg">
@@ -53,7 +53,7 @@ The hot water loop system encompasses the distribution system responsible for mo
 
 ### Feedwater System
 
-The feedwater system provides treated make-up water and returned hot water from the hot water loop. Feedwater requires proper treatment to remove pollutants and preserve the efficiency of the boiler.
+The feedwater system provides treated make-up water and returned hot water from the hot water loop. Feedwater requires proper treatment to remove pollutants and preserve the efficiency of the boiler. Figure 4 shows the components for the feedwater system.
 <a class="continue" href="/documents/systems/feedwater"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg">
@@ -65,7 +65,7 @@ The feedwater system provides treated make-up water and returned hot water from 
 
 ## Evaluation of Energy Conumption
 
-The total energy consumption of a HWH plant is the sum of the energy consumption of the components of each system. In a HWH plant this includes the fuel usage consumed by the boiler to satisfy the heating load and the electricity required by the burner fan motor, primary and secondary pumps and feedwater pump. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the HWH plant.  
+The total energy consumption of an HWH plant is the sum of the energy used by its individual components. This includes the fuel consumed by the boiler to meet the heating load and the electricity required to operate the burner fan motor, primary and secondary pumps, and feedwater pump. Table 1 summarizes the system component measurements and values needed to quantify the annual energy consumption and operating characteristics of the HWH plant.  
 
 <div class="table-wrapper">
 <table>

@@ -179,11 +179,11 @@ The primary energy source for a CSCV fan is the electricity used to run the fan 
 
 ### Measurement Strategy
 
-The measurement strategy for a CSCV fan and motor is to do a one-time measurement of the true RMS power and long-term measurements of the operational schedule of the motor.  The approach assumes that the true RMS power stays constant throughout the measurement period. Because the motor runs at constant speed and is assumed to be under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant speed motor. Measurement locations are generically represented in Figure 1. 
+The measurement strategy for a CSCV fan and motor involves a one-time measurement of true RMS power and long-term monitoring of the motor's operational schedule. This approach assumes that true RMS power remains constant throughout the measurement period. Since the motor runs at a constant speed and is assumed to be under a constant load, it either operates at full power when on or draws no power when off. A motor on/off data logger records the operating schedule. True RMS power is measured at the main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1. 
 
 If the fans are in a modular configuration (assuming they all run at the same speed), then only one fan needs to be measured, provided substantiating documentation from the building automation system (BAS) shows that all cells are operating equally at the same time. If fans are further staged, all fans should be measured. 
 
-In some cases, the operational schedule of the motor will be related to the heating or cooling load of the facility. OAT can be used as a proxy variable for the heating and cooling load. OAT can be measured onsite or data from a nearby weather station may also be used for OAT.
+In some cases, the motor's operational schedule is related to the facility's heating or cooling load. OAT can serve as a proxy variable for this load and can be measured onsite or obtained from a nearby weather station.
 
 <a href="/images/components/2024_1023_CSCV_fan component_figure 1.jpg">
 <figure class="figure">
@@ -290,13 +290,11 @@ Table 3 provides the equipment required to carry out the measurements of this co
 
 ### Calculation Methodology
 
-The general methodology for quantifying the energy consumption of a CSCV fan motor is to measure the true RMS power of the motor. The estimated annual energy consumption of a CSCV fan is estimated using the simulated yearly schedule of the fan. Many CSCV fans run on a set daily or weekly schedule. 
+The general methodology for quantifying the energy consumption of a CSCV fan motor involves measuring the true RMS power of the motor. The estimated annual energy consumption of a CSCV fan is estimated using the simulated yearly schedule of the fan. Many CSCV fans run on a set daily or weekly schedule. 
 
-However, the yearly schedule may be dependent on OAT. If so, the operating hours values can be regressed against OAT to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component. This model is then used with climate normal year data to estimate the typical annual operating schedule, which is in turn used in conjunction with the true RMS power to calculate the estimated annual electricity consumption.
+However, the yearly schedule may depend on outdoor air temperature (OAT). If so, operating hours can be regressed against OAT to develop a regression model. Depending on operational variability, daily or weekly models may be created to better characterize the component. This model is then applied to climate normal year data to estimate the typical annual operating schedule, which is used alongside true RMS power to calculate the estimated annual electricity consumption.
 
-<br></br>
 <i>Click the button below to go to the calculators for this component.</i>
-<br></br>
 
 {{< calculation_methodology calculation_methodology_id=2 >}}
 

@@ -3,7 +3,7 @@ title: Pump Motor Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 6
-excerpt: The equations and calculators in this page estimate the annual energy consumption of variable-speed and constant-speed pump motors.
+excerpt: Estimate the annual energy consumption of variable speed and constant speed pump motors.
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/pump-motor-kit-variable-speed/"
 associated_calculators:
   - Constant Speed Pump Energy Using Motor Runtime Data
@@ -16,7 +16,7 @@ url: "/documents/calculation-methodology/pump-motors-energy-consumption"
 
 ## Introduction
 
-This methodology applies to pump motors that operate at constant or variable speed. Pump motors are used to move water throughout the building for heating or cooling. The calculators provided in this page use equations that estimate the annual energy consumption of a pump motor regardless of the system it is a part of. 
+This methodology applies to pump motors that operate at constant or variable speed. Pump motors are used to move water throughout the building for heating or cooling. The calculators provided in this section use equations that estimate the annual energy consumption of a pump motor, regardless of the system of which it is part. 
     
 The type of data that is measured from the pump motor will determine the calculator to use. For more information on the type of data to collect, refer to table 1 in the next section.
 
@@ -57,7 +57,7 @@ The type of data that is measured from the pump motor will determine the calcula
                 <a href="/downloadables/cscv_pump_kW_data_calculator_2020_0427.xlsx" download>Constant One or Two Speed Pump Energy Using kW Data.xlsx</a>
             </td>
             <td>
-                Uses hourly electrical current data and spot measurement data of kW to estimate the annual energy consumption for a constant-speed one- or two-speed pump motor.
+                Uses hourly electrical current data and spot measurement data of kW to estimate the annual energy consumption for a constant speed one- or two-speed pump motor.
             </td>
             <td>
                 <ul>
@@ -67,10 +67,10 @@ The type of data that is measured from the pump motor will determine the calcula
         </tr>
         <tr>
             <td>
-                <a href="/downloadables/cscv_pump_current_data_calculator_2020_0427.xlsx" download>Constant One or Two Speed Pump Energy Using Electrical Current Data.xlsx</a>
+                <a href="/downloadables/cscv_pump_current_data_calculator_2020_0427.xlsx" download>Constant One- or Two-Speed Pump Energy Using Electrical Current Data.xlsx</a>
             </td>
             <td>
-                Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed pump motor.
+                Uses measured hourly kW data to estimate annual energy consumption for a constant speed one- or two-speed pump motor.
             </td>
             <td>
                 <ul>
@@ -159,9 +159,9 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 <p class="equation">$DaysPerYear =$ 365.24</p>
 <p class="equation">$P =$ Measured pump power, kW</p>
 
-### Constant One or Two Speed Pump Energy Using kW Data
+### Constant One- or Two-Speed Pump Energy Using kW Data
 
-This calculation tool is for a constant-speed, constant-volume pump. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger.
+This calculation tool is for a constant speed, constant volume pump. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger.
 
 1. Average % hour motor is on for each hour of each day of the week (Worksheet: "Step 3. Avg Day of Week Calcs").
 
@@ -174,7 +174,7 @@ This calculation tool is for a constant-speed, constant-volume pump. Measured in
 <p class="equation">$N(h,d) =$ total number of measured data points that fall on day of week, d, and hour of the day, h</p>
 <p class="equation">$n \in t(d,h) =$ index for subset of measured data points that fall on day of week, d, and hour of the day, h</p>
 
-2. Calculate every used for full year (Worksheet: "Step 4. Results"). WeeksPumpOn is from Equation 5.
+2. Calculate energy used for full year (Worksheet: "Step 4. Results"). WeeksPumpOn is from Equation 5.
 
 <p class="equation equation-center">\begin{equation} E = WeeksPumpOn * \sum_{d = 1}^7 \sum_{h = 1}^{24} \bar{P}_{d,h} \end{equation}</p>
 
@@ -182,9 +182,9 @@ This calculation tool is for a constant-speed, constant-volume pump. Measured in
 <p class="equation">$E =$ annual pump energy, kWh</p>
 <p class="equation">$WeeksPumpOn =$ Pump operating time, weeks</p>
 
-### Constant One or Two Speed Pump Energy Using Electrical Current Data
+### Constant One- or Two-Speed Pump Energy Using Electrical Current Data
 
-This calculation tool is for a constant-speed, constant-volume pump. Measured input data include hourly average current (in Amps) as directly measured by current sensors, and spot measurements for true power.
+This calculation tool is for a constant speed, constant volume pump. Measured input data include hourly average current (in Amps) as directly measured by current sensors, and spot measurements for true power.
 
 1. Convert average hourly current to percent on per hour (Worksheet: "Step 2. Percent Runtime Calcs").
 

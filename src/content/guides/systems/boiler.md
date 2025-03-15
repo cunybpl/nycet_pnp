@@ -17,11 +17,11 @@ url: "/documents/systems/boiler"
 
 ## General Overview
 
-A boiler system provides either hot water or steam to distribute the heating load within a facility. Heat is transferred from the combustion chamber to water until the set point temperature to generate hot water or until the boiling point to generate steam, or beyond the boiling point to generate superheated steam.  
+A boiler system provides hot water or steam to distribute the heating load within a facility. Heat is transferred from the combustion chamber to the water until it reaches the set point temperature for hot water, the boiling point for steam, or beyond the boiling point for superheated steam. 
 
 ## Components
 
-The main components of a boiler system are the burner, combustion chamber, heat exchanger, and draft fan. These components are shown in Figure 1. 
+The main components of a boiler system are burner, combustion chamber, heat exchanger, and draft fan. These components are shown in Figure 1. 
 
 <a href="/images/systems/boiler/2024_0423_BOILER system_figure 1 updated.jpg">
 <figure class="figure">
@@ -36,12 +36,12 @@ The combustion chamber is where the fuel is burned. It houses the burners and is
 
 ### Heat Exchanger
 
-The heat exchanger of boiler systems enables the heat transfer from the fuel combustion chamber to the water, without having direct contact. Non-condensing boilers typically have a single heat exchanger chamber while condensing boilers have a secondary heat exchanger, increasing the heat transfer area of the system and improving its efficiency. To operate in condensing mode the return water to the boiler must be at or below 140°F.
+The heat exchanger in boiler systems facilitates heat transfer from the fuel combustion chamber to the water without direct contact. Non-condensing boilers typically have a single heat exchanger chamber, while condensing boilers include a secondary heat exchanger to increase the heat transfer area and improve efficiency. To operate in condensing mode, the return water temperature must be at or below 140°F.
 <a class="continue" href="/documents/components/liquid-to-liquid-heat-exchanger"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Burner
 
-The main function of the burner is to deliver fuel and air, mix them in the required proportions, provide the ignition source and burn the mixture to assure an efficient combustion. Burners and be single fuel or set up to operate on multiple fuels. Burner controls play a key role in the efficiency of the boiler system. For a given boiler system the firing rate may be constant, variable but discrete (i.e., staged), or fully variable.  
+The primary function of the burner is to deliver fuel and air, mix them in the correct proportions, provide an ignition source, and ensure efficient combustion. Burners can be designed for a single fuel or configured to operate on multiple fuels. Burner controls play a crucial role in the overall efficiency of the boiler system. Depending on the system, the firing rate may be constant, variable in discrete stages, or fully variable.  
 
 ### Draft Fan (Burner Fan Motor)
 
@@ -50,7 +50,7 @@ Mechanical draft boilers usually have a draft fan that creates the required pres
 
 ## Evaluation of Energy Consumption
 
-The boiler is one of the largest energy consuming systems in any heating plant. The key energy consuming components of a boiler system are the burner and draft fan (if present). The energy consumed is primarily in the form of liquid fuel or natural gas, however there may be electricity consumption via the draft fan.
+The boiler is one of the largest energy-consuming systems in a heating plant. Its key energy-consuming components include the burner and, if present, the draft fan. The primary energy source is typically liquid fuel or natural gas, though electricity may also be used to power the draft fan.
 
 The primary energy consumption of a boiler system is the fuel that is used to drive the combustion reaction to heat the water. Table 1 provides a summary of measurements needed to quantify the annual consumption and operating characteristics of a boiler.  
 

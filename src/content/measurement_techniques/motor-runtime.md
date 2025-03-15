@@ -29,7 +29,7 @@ url: "/documents/measurement-technique/motor-runtime"
 
 This technique uses data loggers to take long-term measurements of the runtime duration for a constant or dual-speed motor. This technique can be used on motors with any end-use, including both air and water distribution. Accurate measurements can only be taken when data loggers are properly placed on the motor enclosure. The equipment’s on/off status is detected based on the AC magnetic field that is generated when the motors are running.
 
-Measurements should be taken at one-hour intervals and will provide insight into the hours of operation of the motor. Motor runtime measurements should be paired with the spot measurement of true RMS power draw (kW) to calculate the energy consumption of the equipment. 
+Measurements provide insight into the hours of operation of the motor. They should be taken at one-hour intervals. Motor runtime measurements should be paired with the spot measurement of true RMS power draw (kW) to calculate the energy consumption of the equipment. 
 
 The duration of the long-term measurement should be a minimum of six weeks and data should be collected at one-hour intervals. Measurements should be taken when the system or component is operating under normal conditions.
 
@@ -43,13 +43,13 @@ This is a direct measurement of motor runtime and determines the operating sched
 
 The measurement equipment needed for this procedure is a motor on/off data logger. Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify data loggers that measure motor runtime. The contents of this guide are largely based off of the [UX90-004 Onset HOBO Motor runtime logger](https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/), which can be found and borrowed through NYC Energy Tools. 
 
-When a motor turns on, it generates a magnetic field. The motor on/off sensor operates by detecting the field and recording the length of time for which it is detected. The runtime period is considered complete once the motor turns off, the magnetic field weakens, and the sensor no longer detects the field. The logger will record the amount of time the field was detected for (i.e., the motor was running) and document the duration in its internal storage for each hour interval. A separate data logger should be used for each motor if more than one is measured. 
+When a motor turns on, it generates a magnetic field. The motor on/off sensor operates by detecting the field and recording the length of time for which it is detected. The runtime period is considered complete once the motor turns off, the magnetic field weakens, and the sensor no longer detects the field. The logger records the amount of time the field was detected for (i.e., the motor was running) and documents the duration in its internal storage for each hour interval. A separate data logger should be used for each motor if more than one is measured. 
 
-Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer.  Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
+Please note that loggers require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging, and that older loggers require the use of a cable to connect to a computer.  Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
 
 ## Measurement Steps
 
-### 1. Preparation for Data Acquisition
+### 1. Prepare for Data Acquisition
 
 Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger.
 
@@ -64,12 +64,12 @@ An example of how to setup the UX90-004 Onset HOBO Motor runtime logger is shown
 <figcaption class="figure-caption text-left">Figure 1. How to configure the motor on/off data logger on HOBOware. (Click to Start Video)</figcaption>
 
 
-### 2. Installation of Equipment
+### 2. Install Equipment
 
 1. Confirm that the motor is operational.
 2. Place the data logger on the motor casing in a non-hazardous location.
 3. When the motor is running, calibrate the data logger (refer to the data logger’s user manual for instructions and requirements for calibration).
-4. Visually confirm that the logger is recording, and that the sensor is accurately identifying whether or not the motor is running.
+4. Visually confirm that the logger is recording, and that the sensor is accurately identifying whether the motor is running.
 
 <iframe class ="video" src="https://www.youtube.com/embed/zQBLq7Wonqw?si=mIv92t7EOPY5994W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 2. How to calibrate and install the motor on/off data logger on a motor. (Click to Start Video)</figcaption>
@@ -85,7 +85,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a csv file.
-3. Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
+3. Determine whether the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
 <iframe class ="video" src="https://www.youtube.com/embed/JkNpQ81sdcQ?si=VUmDNF8eaWuB45n8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 3. How to check data of runtime loggers using HOBOware. (Click to Start Video)</figcaption>
@@ -96,8 +96,8 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 After verifying that the logger is collecting data, do the following:
 1. Allow the logger to collect data for the remainder of the measurement period.
 2. After the measurement period has concluded, remove the logger from the motor.
-3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
-4. Use the proprietary software to Stop the logger and end data collection. 
+3. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
+4. Use the proprietary software to stop the logger and end data collection. 
 5. Download all data from the logger and save the file in the .csv format for analysis.
 
 <iframe class ="video" src="https://www.youtube.com/embed/M_ky5lMORBk?si=EmUoRsGYXoxIzaqr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -108,7 +108,7 @@ After verifying that the logger is collecting data, do the following:
 <strong>Problem 1: </strong>Detecting the Signal from Another Motor
 
 <div class="alert alert-warning" role="alert">
-<strong>Solution: </strong>If the logger is detecting the signal from another motor that is close to the motor of interest, wait until that motor turns off before calibrating the logger to avoid detecting the electromagnetic field that is generated by a larger motor.
+<strong>Solution: </strong>If the logger detects a signal from a nearby motor instead of the motor of interest, wait until the nearby motor turns off before calibrating the logger. This prevents interference from the electromagnetic field generated by the larger motor.
 </div>
 
 <strong>Problem 2: </strong>Unexpected Readings

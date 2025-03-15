@@ -17,11 +17,11 @@ url: "/documents/systems/hot-water-loop"
 
 ## General Overview
 
-A hot water heating (HWH) loop system uses hot water produced by a hydronic boiler and circulates it to terminal units (e.g., heating coils in air handling units, radiant equipment) in the facility and then back to the boiler using primary-only or primary-secondary pumps and a piping network.  
+A hot water heating (HWH) loop system circulates hot water produced by a hydronic boiler to terminal units, such as heating coils in air handling units or radiant equipment, before returning it to the boiler. This circulation is managed through a piping network using either primary-only or primary-secondary pumps.  
 
 ### Primary-flow System
 
-A primary-flow HWH loop system consists of pumps that circulate hot water from the designated zone to the boilers. The components are shown in Figure 1.  Primary pumps are usually headered to allow for the minimum flow through the boiler and there are usually multiple pumps to allow for staging and redundancy; however, a boiler-dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow. 
+A primary-flow HWH loop system consists of pumps that circulate hot water from the designated zone to the boilers. The components are shown in Figure 1.  Primary pumps are usually headered to allow for the minimum flow through the boiler, usually with multiple pumps to allow for staging and redundancy; however, a boiler-dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow. 
 
 A <strong>constant-primary-flow system</strong> usually has a staged heating system and constant speed HWH loop pumps.   
 
@@ -29,7 +29,7 @@ A <strong>variable-primary-flow system</strong> has primary HWH loop pumps with 
 
 ### Primary-secondary Flow System
 
-A system with primary-secondary pumps will have the primary pumps circulate the hot water to a low loss header, while the secondary pumps circulate the hot water to the zones in the facility. The components of a primary-secondary flow system are shown in Figure 2. The following arrangements can be found in a primary-secondary flow system: 
+In a system with primary-secondary pumps, the primary pumps circulate the hot water to a low loss header, while the secondary pumps circulate the hot water to the zones in the facility. The components of a primary-secondary flow system are shown in Figure 2. The following arrangements can be found in a primary-secondary flow system: 
 
 A <strong>constant-primary variable-secondary flow system</strong> has constant speed pumps that drive the flow through the primary loop and variable-speed pumps of a separate secondary loop that distribute the heating load to the terminal units. The secondary pumps are controlled by the heat load demand in the terminal units. 
 
@@ -37,7 +37,7 @@ A <strong>variable-primary variable-secondary flow system</strong> has variable-
 
 ## Components
 
-The main components associated with the HWH loop system are primary pumps for primary-flow systems, primary and secondary pumps for primary-secondary flow systems, piping network and terminal units.
+The main components associated with the HWH loop system are primary pumps for primary-flow systems, primary and secondary pumps for primary-secondary flow systems, piping network, and terminal units.
 
 <a href="/images/systems/hot-water-loop/2024_0503_HW Loop system_figure 1 updated.jpg">
 <figure class="figure">
@@ -80,7 +80,7 @@ The primary HWH loop piping network is connected to the boiler and extends throu
 
 ### Secondary HWH Loop Piping Network
 
-The secondary HWH piping network is connected to the primary piping network to deliver hot water to the facility. The piping should be covered with insulation that minimizes heat losses with the environment. 
+The secondary HWH piping network is connected to the primary piping network to deliver hot water to the facility. The piping should be covered with insulation that minimizes heat losses into the environment. 
 
 ### Terminal Units
 
@@ -88,11 +88,11 @@ Terminal units provide heating to an end-user, where the heat source can be eith
 
 #### Fan-coil Units
 
-A fan coil unit is a smaller, factory-assembled device that is used to circulate and condition air either for cooling or heating. 
+A fan coil unit is a smaller, factory-assembled device that is used to circulate and condition air for cooling or heating. 
 
 #### Unit Heaters
 
-A unit heater is a standalone device containing a fan which blows over a small heat exchanger to provide heat to a space. 
+A unit heater is a standalone device containing a fan that blows over a small heat exchanger to provide heat to a space. 
 
 #### Radiators
 
@@ -100,11 +100,11 @@ Radiators are a common terminal unit to distribute heat to space. By routing hot
 
 #### Convectors
 
-Convectors are similar to radiators in how energy is received but rely almost exclusively on convection to distribute heat to a space. This leads to a cooler temperature to the touch, as well as a smaller terminal unit. 
+Convectors are similar to radiators in how energy is received, but rely almost exclusively on convection to distribute heat to a space. This leads to a cooler temperature to the touch, as well as a smaller terminal unit. 
 
 ## Evaluation of Energy Consumption
 
-The primary energy consumption in a HWH loop is the electricity used to run the pump motors. The heat loss across the piping network contributes to the overall energy consumption for the entire HWH plant, in particular the boiler system. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a HWH loop system. 
+The primary energy consumption in a HWH loop is the electricity used to run the pump motors. The heat loss across the piping network contributes to the overall energy consumption for the entire HWH plant--in particular, the boiler system. Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a HWH loop system.
 
 <div class="table-wrapper">
 <table>

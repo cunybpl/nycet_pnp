@@ -3,7 +3,7 @@ title:  Lighting Plant and Systems Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 1
-excerpt: The equations and calculators in this page estimate the annual energy consumption of the lighting plant.
+excerpt: Estimate the annual energy consumption of a lighting plant.
 related_systems:
   - Electrical Distribution
   - Lighting Fixture
@@ -17,11 +17,11 @@ url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consu
 
 ## Introduction
 
-The calculation tools developed by CUNY BPL are used to calculate annual energy consumption and not for estimating savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>). Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated and summed to obtain a full-year estimate. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
+These calculation tools developed by CUNY BPL are used to calculate annual energy consumption, but do not estimate savings. All calculation tools start by using input data (lighting runtime, AC current, etc.) to calculate hourly energy (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>). Then data is averaged by hour of day and day of the week to get an approximation of how light fixtures operate during any hour of the week. Weekends and weekdays are extrapolated and summed to obtain a full-year estimate. To calculate savings, use the calculation tools with pre- and post-retrofit data and compare the energy consumption results. 
 
 The calculation tools will extrapolate data to a full year regardless of how much input data is used, but a minimum of six (6) weeks of data at one-hour intervals is required to adhere to Measurement and Verification standards. If the total fixture inventory for the project is known, data can be used by the calculation tools to determine how much of the lighting load was directly measured, but this data is not necessary for the calculation tools to work. This is useful for someone who only measured a sample of fixtures as part of a sampling plan and wants to compare the annual estimates to the total lighting load. 
 
-All lighting calculation tools generate an average hourly energy schedule using the input data. The schedule can be used to determine the interactive heating and cooling effects associated with the lighting retrofit but this requires separate analysis. 
+All lighting calculation tools generate an average hourly energy schedule using the input data. The schedule can be used to determine the interactive heating and cooling effects associated with the lighting retrofit, but it requires separate analysis. 
 
 The first three methodologies are used when measuring electricity with data loggers and power meters to determine the annual energy consumption estimate of an <u>electrical distribution system</u>. The last methodology is used when measuring lighting runtime (operating schedule) to determine the annual energy consumption estimate of a <u>lighting fixture system</u>.
 
@@ -186,9 +186,9 @@ The following equations are used to calculate the annual energy consumption of a
 
 ### Lighting Electrical Current Output from Electric Panelboard
 
-Lighting fixtures generally require single-phase power to operate but <u>electrical distribution systems</u> are commonly three-phase. This methodology only applies to a three-phase, four wire system (wye configuration), additionally the panelboard load must be balanced (i.e., all three electrical lines, or phases, must have the same current and line-to-neutral voltage.) For an unbalanced load, where voltage and current are not equal across the three lines, energy should be measured directly with a data-logging power logger capable of measuring a three-phase system, see section A.1. 
+Lighting fixtures generally require single-phase power to operate, but <u>electrical distribution systems</u> are commonly three-phase. This methodology only applies to a three-phase, four-wire system (wye configuration). Additionally, the panelboard load must be balanced (all three electrical lines, or phases, must have the same current and line-to-neutral voltage). For an unbalanced load where voltage and current are not equal across the three lines, energy should be measured directly with a data-logging power logger capable of measuring a three-phase system. See section A.1. 
 
-To estimate the energy consumption of the panelboard, including all fixtures served by it, current should be measured for all three electrical lines of the three-phase system. Current data should be at one-hour intervals and data should consist of an average sample of measurements[^1] for each one-hour interval. Power factor, line-to-line voltage, and true RMS power can be obtained from spot measurements with a handheld power meter. CUNY BPL recommends taking multiple spot measurements of those variables and averaging them (e.g., measure power factor at least three times at five-minute intervals and calculate the average), see equation (9). The average of the spot measurements helps reduce measurement uncertainty and should be used as inputs to the calculation tools. Equation (9) should be applied to power factor, voltage, and true RMS power.
+To estimate the energy consumption of the panelboard, including all fixtures served by it, current should be measured for all three electrical lines of the three-phase system. Current data should be at one-hour intervals and data should consist of an average sample of measurements[^1] for each one-hour interval. Power factor, line-to-line voltage, and true RMS power can be obtained from spot measurements with a handheld power meter. CUNY BPL recommends taking multiple spot measurements of those variables and averaging them (measure power factor at least three times at five-minute intervals and calculate the average--see Equation (9)). The average of the spot measurements helps reduce measurement uncertainty and should be used as inputs to the calculation tools. Equation (9) should be applied to power factor, voltage, and true RMS power.
 
 <p class="equation equation-center">\begin{equation} \overline{PF} = \frac{PF_{t1} + PF_{t2} + PF_{t3} + PF_{tx}}{x} \end{equation}</p>
 
@@ -209,7 +209,7 @@ To estimate the energy consumption of the panelboard, including all fixtures ser
 <p class="equation">$V_{t3} =$ Third measurement of voltage, at least five minutes after the second measurement</p>
 <p class="equation">$x =$ Number of spot measurements taken, at least five minutes apart</p>
 
-1. Find the average current of the electrical distribution system for each hour interval. Current of all three phases is measured every hour, in this step the average current of the panelboard is calculated for each hour interval.
+1. Find the average current of the electrical distribution system for each hour interval. Current of all three phases is measured every hour. In this step, the average current of the panelboard is calculated for each hour interval.
 
 <p class="equation equation-center">\begin{equation} I_{h,avg} = \frac{I_{1}+I_{2}+I_{3}}{3} \end{equation}</p>
 
@@ -221,7 +221,7 @@ To estimate the energy consumption of the panelboard, including all fixtures ser
 
 Equation 11 calculates the three-phase power of the panelboard if line-to-line voltage is measured. If line-to-neutral voltage is measured (from hot wire to ground) the <u>square root of 3</u> should be replaced with 3 and the line-to-neutral voltage should be used.
 
-2. Calculate three-phase power for each hour interval using the results from equation (8), (9) and (10) (i.e., average current for each hour interval, average voltage, and average power factor). (Worksheet: “Step 2. Power Calcs,” column E, G, I.)
+2. Calculate three-phase power for each hour interval using the results from Equations (8), (9), and (10) (average current for each hour interval, average voltage, and average power factor). (Worksheet: “Step 2. Power Calcs,” column E, G, I.)
 
 <p class="equation equation-center">\begin{equation} \overline{kW}_{h,3P} = \frac{\sqrt{3} * I_{h,avg} * V_{LL,avg} * PF}{1000} \end{equation}</p>
 
@@ -239,7 +239,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$\overline{kW}_{h,3P} =$ Hourly three-phase power draw of the panelboard (in kW)</p>
 <p class="equation">$\overline{kW}_{h,n} =$ Hourly single-phase power for electrical line n (in kW)</p> -->
 
-3. Calculate average energy consumption for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs,” column C.) This equation helps to reduce the amount of data points to a week by taking the average of each hour for a given day of the week. In this step the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals. <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> = kW ∗ h, where h = 1.
+3. Calculate average energy consumption for each hour of the week (Worksheet: “Step 3. Avg Energy Calcs,” column C.) This equation helps to reduce the amount of data points to a week by taking the average of each hour for a given day of the week. In this step, the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals. <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> = kW ∗ h, where h = 1.
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h} = \frac{\sum_{1}^{N_{f}(d,h)} kW_{h,3P}}{N_{f}(d,h)} \end{equation}</p>
 
@@ -307,7 +307,7 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 <p class="equation">$\overline{kWh}_{WdYr} =$ Estimated annual weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$\overline{kWh}_{WEdYr} =$ Estimated annual weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 
-10. If more than one panelboard was measured sum the annual energy consumption of all panels to find the total energy consumption of all measured panelboards.
+10. If more than one panelboard was measured, sum the annual energy consumption of all panels to find the total energy consumption of all measured panelboards.
 
 <p class="equation equation-center">\begin{equation} \overline{kWh} = \overline{kWh}_{{n}_{1}} + \overline{kWh}_{{n}_{1}} + ... \end{equation}</p>
 
@@ -318,13 +318,13 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 
 ### Lighting Electrical Current from Circuit Breakers
 
-Lighting fixtures generally require single-phase power to operate but <u>electrical distribution systems</u> are commonly three-phase. When measuring individual circuits of a panelboard it is important to know what phase the circuit is connected to. This is because the proper line-to-neutral connection is required to accurately measure voltage for that circuit. 
+Lighting fixtures generally require single-phase power to operate, but <u>electrical distribution systems</u> are commonly three-phase. When measuring individual circuits of a panelboard, it is essential to know which phase the circuit is connected to. A proper line-to-neutral connection is required to accurately measure the circuit's voltage. 
 
-The calculation tool requires the phase of the circuit to be specified to calculate annual energy consumption. If multiple circuits are measured and are connected to the same phase, then only the voltage of that phase is necessary Additionally, the user should note if the panelboard is balanced (i.e., all three electrical lines, or phases, must have the same current and line-to-line voltage.) If the panelboard is not balanced, then it must be specified in the calculation tool (see worksheet ‘Step 1.1 Circuit Raw Data’) 
+This calculation tool requires the phase of the circuit to be specified in order to calculate annual energy consumption. If multiple circuits are measured and are connected to the same phase, then only the voltage of that phase is necessary Additionally, the user should ensure that the panelboard is balanced (i.e., all three electrical lines, or phases, must have the same current and line-to-line voltage). If the panelboard is not balanced, then it must be specified in the calculation tool (see worksheet ‘Step 1.1 Circuit Raw Data’). 
 
-The following equations are used to calculate the annual energy consumption of a lighting <u>electrical distribution system</u> where AC current is measured at the output of circuit breakers in an electrical panelboard. AC current should be measured using a data logger with current transformers (e.g., Onset HOBO 4-channel analog logger and the Onset CTV-x current transformer sensors) for one or more circuit breakers; a group of circuits can be measured with a single transformer. Current data should be at one-hour intervals and data should be averaged with a sample of measurements[^1] for each one-hour interval. Voltage is obtained from spot measurements (i.e., measured one time) with a power meter at the circuit breakers.  
+The following equations are used to calculate the annual energy consumption of a lighting <u>electrical distribution system</u> where AC current is measured at the output of circuit breakers in an electrical panelboard. AC current should be measured using a data logger with current transformers (e.g., Onset HOBO 4-channel analog logger and the Onset CTV-x current transformer sensors) for one or more circuit breakers; a group of circuits can be measured with a single transformer. Current data should be at one-hour intervals and data should be averaged with a sample of measurements[^1] for each one-hour interval. Obtain voltage from spot measurements (i.e., measured one time) with a power meter at the circuit breakers.  
 
-It is assumed that multiple spot measurements are taken and averaged (e.g., measure line-to-neutral voltage for a circuit breaker three times at five-minute intervals and calculate the average) see equation (20). The average value should be used with these equations to reduce measurement uncertainty. In this scenario, the line-to-neutral voltage is measured for a single circuit. If measuring multiple circuits be sure to take multiple spot measurements of line-to-neutral voltage for all circuits. 
+It is assumed that multiple spot measurements are taken and averaged (e.g., measure line-to-neutral voltage for a circuit breaker three times at five-minute intervals and calculate the average) see Equation (20). The average value should be used with these equations to reduce measurement uncertainty. In this scenario, the line-to-neutral voltage is measured for a single circuit. If measuring multiple circuits, be sure to take multiple spot measurements of line-to-neutral voltage for all circuits. 
 
 <p class="equation equation-center">\begin{equation} V_{LN,avg} = \frac{V_{t1,n} + V_{t2,n} + V_{t3,n} + V_{tx,n}}{x} \end{equation}</p>
 
@@ -336,7 +336,7 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation">$V_{t2,n} =$ Third measurement of voltage for electrial line n, at least five minutes after the second measurement</p>
 <p class="equation">$x =$ Number of spot measurements taken, at least five minutes apart</p>
 
-1. For each circuit or group of circuits measured, calculate average power for each hour interval (Worksheet: “Step 2. Power Calcs.”) Power is calculated using line-to-neutral voltage and current of the circuit.
+1. For each circuit or group of circuits measured, calculate average power for each hour interval (Worksheet: “Step 2. Power Calcs.”). Power is calculated using line-to-neutral voltage and current of the circuit.
 
 <p class="equation equation-center">\begin{equation} \overline{kW}_{h,n} = \frac{I_{n} * V_{LN,avg}}{1000} \end{equation}</p>
 
@@ -345,7 +345,7 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation">$I_{n} =$ Measured average houry current for a circuit (in Amps)</p>
 <p class="equation">$V_{I,N,avg} =$ Measured average line-to-neutral voltage for a circuit (in V)</p>
 
-2. Calculate average energy use for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs, column C, D, E, F.”) In this step the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals. <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> = kw * h, where h = 1.
+2. Calculate average energy use for each hour of each day of the week (Worksheet: “Step 3. Avg Energy Calcs, column C, D, E, F.”). In this step, the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals. <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> = kw * h, where h = 1.
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h,c} = \frac{\sum_{1}^{N_{f}(d,h)} kW_{h}}{N_{f}(d,h)} \end{equation}</p>
 
@@ -419,14 +419,14 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 <p class="equation">$\overline{kWh}_{WdYr} =$ Annual weekday energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$\overline{kWh}_{WEdYr} =$ Annual weekend day energy consumption (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 
-Equation (26) is the annual energy consumption of the measured circuits for a panelboard. If additional circuits were measured for the same panelboard with a different data logger be sure to consolidate the results (annual energy consumption) to obtain the total panelboard annual energy consumption. Additionally, if multiple panelboards were measured be sure to sum up the annual consumption of all panelboards to obtain the total system energy consumption.
+Equation (26) is the annual energy consumption of the measured circuits for a panelboard. If additional circuits were measured for the same panelboard with a different data logger, be sure to consolidate the results (annual energy consumption) to obtain the total panelboard annual energy consumption. Additionally, if multiple panelboards were measured, be sure to sum up the annual consumption of all panelboards to obtain the total system energy consumption.
 
 ### Lighting Inventory and Operating Schedule
 
-The following equations are used to calculate the annual energy consumption of a <u>lighting fixture system</u>. This methodology does not require electrical measurements, only lighting runtime (operating schedule) of the fixtures. Runtime data is collected with a light logger that detects when a light source turns on and off. If multiple fixture types operate with the same schedule the same runtime data can be used for calculations. 
+The following equations are used to calculate the annual energy consumption of a <u>lighting fixture system</u>. This methodology does not require electrical measurements; only lighting runtime (operating schedule) of the fixtures. Runtime data is collected with a light logger that detects when a light source turns on and off. If multiple fixture types operate with the same schedule, the same runtime data can be used for calculations. 
 
 
-This calculation tool can be used for different fixture types within a single space. For example, an office space with five different types of fixtures. The number of fixtures of each type must be known as well as the respective power draw (refer to the manufacturer specifications of the lamps and ballasts).
+This calculation tool can be used for different fixture types within a single space (e.g., an office space with five different types of fixtures). The number of fixtures of each type must be known as well as the respective power draw (refer to the manufacturer specifications of the lamps and ballasts).
 
 1. Calculate power draw of the fixture type.
 
@@ -464,7 +464,7 @@ This calculation tool can be used for different fixture types within a single sp
 <p class="equation">$\%_{hourly} =$ Hourly average percentage fixtures are on</p>
 <p class="equation">$h =$ Hour of the day where 0 is 12:00 a.m. and 23 is 11:00 p.m.</p>
 
-5. Convert percentage to hours to determing hours per day fixtures are on in space being measured (Worksheet: "Step 4. Results").
+5. Convert the percentage to hours in order to determine hours per day fixtures are on in space being measured (Worksheet: "Step 4. Results").
 
 <p class="equation equation-center">\begin{equation} T_{daily} = \frac{\%_{daily}}{100} \end{equation}</p>
 
@@ -530,7 +530,7 @@ This calculation tool can be used for different fixture types within a single sp
 
 ## Hourly Results Worksheet
 
-Measurement data that is input in the calculation tools is used to generate an hourly energy consumption schedule for each hour in each day of the week. The schedule exists in the “Hourly Results” worksheet that is included in all four calculation tools. This data is useful to estimate the heating and cooling effects. CUNY BPL calculation tools do not calculate heating or cooling interactive effects.
+Measurement data that is input into the calculation tools is used to generate an hourly energy consumption schedule for each hour in each day of the week. The schedule exists in the “Hourly Results” worksheet that is included in all four calculation tools. This data is useful to estimate the heating and cooling effects. CUNY BPL calculation tools do not calculate heating or cooling interactive effects.
 
 ## Further Reading
 
@@ -542,4 +542,4 @@ Measurement data that is input in the calculation tools is used to generate an h
 
 ## Footnotes
 
-[^1]: We reccomend taking a sample of measurements and find the average. The average value will be used to calculate annual energy consumption. As an example, the Onset HOBO 4-channel analog logger can measure a sample of current data at a predefined interval known as the sampling interval. If the logging interval is set to one-hour and the sampling interval is set to one-second, the logger will measure current every second for one hour then determine the average. The average will be stored in the logger as the one-hour interval measurement. This process will continue every hour for the duration of the measurement period.
+[^1]: We recommend taking a sample of measurements and finding the average. The average value will be used to calculate annual energy consumption. As an example, the Onset HOBO 4-channel analog logger can measure a sample of current data at a predefined interval known as the sampling interval. If the logging interval is set to one-hour and the sampling interval is set to one-second, the logger will measure current every second for one hour then determine the average. The average will be stored in the logger as the one-hour interval measurement. This process will continue every hour for the duration of the measurement period.

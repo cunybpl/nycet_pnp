@@ -17,7 +17,7 @@ url: "/documents/systems/steam-condensate-recovery"
 
 ## General Overview
 
-The steam condensate recovery system is responsible for collecting condensate from the steam distribution system through steam traps and recovering waste heat. The condensate returned to the boiler is typically passed through a deaerator to remove unwanted oxygen before the condensate reaches the boiler. Additionally, since condensate is purified water at high temperatures it can reduce the amount of fuel fed into the boiler as well as the water treatment costs for the makeup water.
+The steam condensate recovery system collects condensate from the steam distribution system through steam traps and recovers waste heat. Before returning to the boiler, the condensate typically passes through a deaerator to remove unwanted oxygen. Since condensate is purified water at high temperatures, its reuse helps reduce fuel consumption and lowers water treatment costs for make-up water.
 
 ## Components
 
@@ -32,16 +32,16 @@ Condensate recovery systems are typically equipped with pumps, pipe networks, an
 
 ### Condensate Pumps
 
-Condensate pumps are responsible for moving condensate from the receiver tank(s) back to the boiler system. In some cases, the receiver tank, pump, and float controls are packaged together. An appropriately sized pump is crucial to avoiding condensate build up which could create problems with terminal units.
+Condensate pumps are responsible for moving condensate from the receiver tank(s) back to the boiler system. In some cases, the receiver tank, pump, and float controls are packaged together. An appropriately-sized pump is crucial to avoiding condensate buildup, which could create problems with terminal units.
 <a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Pipe Networks
 
-The pipe network of a condensate recovery system transports flash steam and condensate. Designs should consider differential of pressure between different lines. It is usually covered with insulation material to minimize heat losses with the environment.
+The pipe network of a condensate recovery system transports flash steam and condensate. Designs should consider differential of pressure between different lines. It is usually covered with insulation material to minimize heat losses into the environment.
 
 ## Evaluation of Energy Consumption
 
-The primary effect of the condensate recovery system on the steam plant is to minimize heat losses and manage condensate that could otherwise be damaging to the steam plant. Generally, the energy related to the condensate system is not quantified; instead, the energy consumption of the overall low-pressure steam plant is quantified. For more information, see <a href="/documents/plants/steam-plant">Steam Plant</a>.
+The primary purpose of the condensate recovery system on the steam plant is to minimize heat losses and manage condensate that could otherwise be damaging to the steam plant. Generally, the energy related to the condensate system is not quantified; instead, the energy consumption of the overall low-pressure steam plant is quantified. For more information, see <a href="/documents/plants/steam-plant">Steam Plant</a>.
 
 <div class="table-wrapper">
 <table>

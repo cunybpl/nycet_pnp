@@ -15,9 +15,9 @@ url: "/documents/components/liquid-to-liquid-heat-exchanger"
 
 ## General Overview
 
-A liquid-to-liquid heat exchanger achieves heat transfer using temperature difference between two liquids without direct contact of these liquids.
+A liquid-to-liquid heat exchanger transfers heat between two liquids using a temperature difference without direct contact between them.
 
-In a building, a heat exchanger of this type can be installed in condensate cooling, vent condensing, boiler blowdown, and waterside economizer (free cooling), and in refrigeration applications such as evaporators and condensers. Typical liquid-to-liquid heat exchangers are plate-and-frame heat exchangers and tube heat exchangers. 
+In a building, this type of heat exchanger can be installed in condensate cooling, vent condensing, boiler blowdown, and waterside economizer (free cooling), and in refrigeration applications such as evaporators and condensers. Typical liquid-to-liquid heat exchangers are plate-and-frame heat exchangers and tube heat exchangers. 
 
 Table 1 shows the plant and system configurations that may contain a liquid-to-liquid heat exchanger.
 
@@ -93,7 +93,7 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
 
 ## Evaluation of Heat Transfer
 
-In a liquid-to-liquid heat exchanger heat transferred from the liquid with excess heat (waste heat stream) to the liquid where the heat recovered is beneficial to the process (supply stream). This is the principal energy phenomenon that reduces the overall energy usage of the entire plant or system where the heat exchanger is installed. A pump and motor may be needed to move the liquid in the waste heat and supply streams.
+In a liquid-to-liquid heat exchanger, heat is transferred from a liquid with excess heat (waste heat stream) to a liquid where the recovered heat benefits the process (supply stream). This is the principal energy phenomenon that reduces the overall energy usage of the entire plant or system where the heat exchanger is installed. A pump and motor may be required to circulate the liquids in the waste heat and supply streams.
 
 Table 2 provides a summary of measurements needed to quantify the annual energy transfer and operating characteristics of a liquid-to-liquid heat exchanger.
 
@@ -165,7 +165,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 ### Measurement Strategy
 
-The measurement strategy for a liquid-to-liquid heat exchanger is to measure the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet of the heat exchanger. The flow rate can be measured at the supply stream pump if one is used in the system. Measurement locations are generically represented in Figure 1.
+The measurement strategy for a liquid-to-liquid heat exchanger involves measuring the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet. If a pump is used in the system, the flow rate can be measured at the supply stream pump. Measurement locations are generically represented in Figure 1.
 
 <a href="/images/components/2024_0625_LtL HX component_figure 1.jpg">
 <figure class="figure">
@@ -262,7 +262,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
 
 ### Calculation Methodology
 
-The general methodology for quantifying the useful energy supplied by a liquid-to-liquid heat exchanger is determined by the differential of temperature and rate of flow of the supply stream. These values are multiplied by the heat capacity and density of the liquid (e.g., water, water-glycol mix) to find the energy flow rate. The energy flow rate can be regressed against a controlling variable (such as outdoor air, pump runtime or flow rate) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
+The general methodology for quantifying the useful energy supplied by a liquid-to-liquid heat exchanger is determined by the temperature differential and flow rate of the supply stream. These values are multiplied by the heat capacity and density of the liquid (e.g., water, water-glycol mix) to find the energy flow rate. The energy flow rate can be regressed against a controlling variable (such as outdoor air, pump runtime or flow rate) to develop a regression model. Depending on operational variability, daily or weekly models may be developed to better characterize the component.
 
 <br></br>
 <i>Click the button below to go to the calculators for this component.</i>

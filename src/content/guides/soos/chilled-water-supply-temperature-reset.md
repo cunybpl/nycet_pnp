@@ -59,7 +59,11 @@ The general algorithm employed when OAT is the input variable is depicted in Fig
 
 CHWST setpoint can also be modulated in proportion to the to the average position of the cooling coil valves or a Trim and Response control to step up and step down the CHWST setpoint.[^2] The number of chilled water valves greater than 90% open, (i.e., the number of “requests”) determines the size of the increment to be made to CHWST setpoint. One request might lead to a 1°F setpoint increase, while three requests might lead to a 3°F change. No requests lead to a Trim action, whereupon the setpoint is decreased by a fixed increment. The Trim and Response control algorithm allows for a rapid increase in CHWST and a gradual reduction, which avoids unstable cycling of the chiller system. Cooling coil valve position is the preferred input control variable (over OAT) for variable speed pumping systems (both primary and primary-secondary).
 
+<<<<<<< HEAD
 As discussed by Taylor (2012), using cooling coil valve position as the input allows for integrated control of the CHWST reset SOO with the differential pressure reset SOO, while also minimizing the risk of insufficient dehumidification by the cooling coils.[^2]
+=======
+As discussed by Taylor (2013), using cooling coil valve position as the input allows for integrated control of the CHWST reset SOO with the differential pressure reset SOO, while also minimizing the risk of insufficient dehumidification by the cooling coils.[^2]
+>>>>>>> main
 
 Figure 3 shows how the algorithm works when the number of cooling coil valves is used as the input variable. The more cooling coil valves that are greater than 90% open, the lower the ChWST setpoint becomes.
 
@@ -74,7 +78,11 @@ Figure 3 shows how the algorithm works when the number of cooling coil valves is
 
 Chilled water return temperature (CHWRT) is the third possible input variable. The temperature differential (∆t) between the CHWRT and the CHWST is maintained to at least 25% of the design ∆t of the system. The use of ∆t as a control input might be found in primary-secondary chilled loop systems with constant speed primary pumps, where “low ∆t syndrome” is to be avoided (see Taylor 2002 for a detailed discussion on low ∆t).[^3]
 
+<<<<<<< HEAD
 ## Energy Savings
+=======
+## Key Values Needed to Assess Energy Consumption
+>>>>>>> main
 
 The energy savings from CHWST reset comes from reducing the amount of electrical energy that is needed to run the central cooling plant to meet the CHWST setpoint. Figure 4 shows modeled chiller performance curves for CHWST reset.[^4] Note that the multiple curves represent different cooling loads; below 80°F, the curves drop (i.e., show increased efficiency).
 
@@ -98,8 +106,13 @@ Figure 5 presents a hypothetical comparison of the performance curves with and w
 A CHWST reset SOO alters the electrical energy consumption of all the motorized components in a central chilled water plant. Due to the highly interactive effects between the indoor loads, CHW loop, condenser water loop, chiller, indoor loads, and outdoor conditions, the energy calculations for a CHWST reset must be done on an hourly basis.
 {{< /admonition >}}
 
+<<<<<<< HEAD
 ## Evaluation of Energy Consumption
 The energy consumption of a water-cooled chilled water plant is the sum of the electrical energy of all systems associated with the plant. Key values that need to be quantified to estimate annual energy consumption are shown in Table 1. 
+=======
+## Key Values Needed to Assess Energy Consumption
+The energy consumption of a water-cooled chilled water plant is the sum of the electrical energy of all systems associated with the plant.
+>>>>>>> main
 
 <div class="table-wrapper">
 <table>
@@ -231,7 +244,11 @@ The measurement boundary includes the entire cooling plant, Figure 6 shows a rep
 
 [Supply Air Temperature Reset](/documents/soos/supply-air-temperature-reset) – Since the coil water is warmer with CHWST reset, there is an increased risk of high humidity in the zones due to the reduced capacity of coils to remove moisture from the supply air.
 
+<<<<<<< HEAD
 **Chilled Water Pumping Differential Pressure Reset** – Since differential pressure reset slows down the CHW flow and hence the heat transfer rate to the AHUs, it must be coordinated with CHWST reset. If the CHWST setpoint is raised and the flow is lowered simultaneously, it is possible that not enough heat will be removed from the building. Taylor (2012) explains that for primary variable and secondary variable chilled water loops, the two SOOs should be sequenced as shown in Figure 7: CHWST setpoint should first be increased to lower the cooling capacity; then, when the setpoint cannot be raised anymore, the differential pressure setpoint should start to be decreased. If the chilled water loop has constant speed pumps, then the sequence should be flipped: first increase the differential pressure (to reduce flow), then modulate the CHWST setpoint by staging the chillers or reducing capacity with vane guides.[^2]
+=======
+**Chilled Water Pumping Differential Pressure Reset** – Since differential pressure reset slows down the CHW flow and hence the heat transfer rate to the AHUs, it must be coordinated with CHWST reset. If the CHWST setpoint is raised and the flow is lowered simultaneously, it is possible that not enough heat will be removed from the building. Taylor (2013) explains that for primary variable and secondary variable chilled water loops, the two SOOs should be sequenced as shown in Figure 7: CHWST setpoint should first be increased to lower the cooling capacity; then, when the setpoint cannot be raised anymore, the differential pressure setpoint should start to be decreased. If the chilled water loop has constant speed pumps, then the sequence should be flipped: first increase the differential pressure (to reduce flow), then modulate the CHWST setpoint by staging the chillers or reducing capacity with vane guides.[^2]
+>>>>>>> main
 
 <a href="/images/SOOs/SOO-01-fig-7.jpg">
     <figure class="figure mb-0 mt-3">
@@ -254,6 +271,7 @@ Due to the highly interactive nature of the water-cooled chilled water plant, a 
 
 ## Further Reading
 
+<<<<<<< HEAD
 - Advisor Business Energy. (2019, October 7). Energy management and information systems. Retrieved from E Source: https://esource.bizenergyadvisor.com/article/energy-management-and-information-systems
 
 - ASHRAE. (2019). ASHRAE Handbook Online: HVAC Applications (I-P ed.). ASHRAE. Retrieved from https://www.ashrae.org
@@ -281,4 +299,33 @@ Due to the highly interactive nature of the water-cooled chilled water plant, a 
 [^3]: Taylor, S. (2002). Degrading Chilled Water Plant Delta-T: Causes and Mitigation. ASHRAE Transactions, 108.
 
 [^4]: Jiang, W., Winiarski, D., Katipamula, S., & Armstrong, P. (2007). Cost-Effective Integration of Efficient Low-Lift Base Load Cooling Equipment. Pacific Northwest National Laboratory.
+=======
+- ASHRAE (2018). ASHRAE Guideline 36-2018, High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
+
+- ASHRAE (2019). ANSI/ASHRAE/IES Standard 90.1-2019, Energy Standard for Buildings Except Low-Rise Residential Buildings. Atlanta, GA: ASHRAE.
+
+- ASHRAE (2020). ASHRAE Handbook: HVAC Systems and Equipment. Atlanta, GA: ASHRAE.
+
+- Cai, J.; Kurtulus, O.; Braun, J.E. (2016). "Experimental Performance Investigation of Cooling or Heating Coil Valves and Their Impact on Temperature Controls." International Refrigeration and Air Conditioning Conference, West Lafayette, IN. http://docs.lib.purdue.edu/iracc/1800
+
+- Fisher Controls (2005). “Control Valve Handbook.” https://www.emerson.com/documents/automation/control-valve-handbook-en-3661206.pdf. 
+
+- Davis, G. (2016, August 15). HVAC codes and standards: cooling and energy efficiency. Consulting-Specifying Engineer. https://www.csemag.com/articles/hvac-codes-and-standards-cooling-and-energy-efficiency/
+
+- PNNL (2012). “Large Commercial Buildings: Re-tuning for Efficiency - Air Handling Units: Pre-Re-Tuning and Trending and Re-Tuning.” PNNL-SA-85063. https://buildingretuning.pnnl.gov/documents/chapters/ch5_air_handling.pdf
+
+- Trane (2016). “Multiple-zone VAV systems - Finding the Right Balance for VAV Energy Savings.” Trane Engineers Newsletter, Vol. 45-3. 
+
+- Fisher Controls (2017). “Dead Band Plus Hysteresis Estimation with ValveLink Diagnostics.” http://www.documentation.emersonprocess.com/groups/public/documents/bulletins/d103549x012.pdf
+
+## Footnotes
+
+[^1]: ASHRAE (2019). ASHRAE Handbook: HVAC Applications. Atlanta, GA: ASHRAE.
+
+[^2]: Taylor 2013
+
+[^3]: Taylor, S.T. (2002). “Degrading Chilled Water Plant Delta-T: Causes and Mitigation.” ASHRAE Transactions, Vol. 108, Pt. 1. Atlanta, GA: American Society of Heating, Refrigerating and Air Conditioning Engineers.
+
+[^4]: Katipamula et al., 2007
+>>>>>>> main
 

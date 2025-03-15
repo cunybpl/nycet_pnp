@@ -15,7 +15,7 @@ url: "/documents/systems/air-to-air-energy-recovery"
 
 ## General Overview 
 
-An air-to-air energy recovery (AAER) system consists of a heat exchanger component, air ducts and any associated device for its operation. AAER systems extract sensible (and sometimes latent) energy from a previously conditioned “outgoing” airstream and use that energy to pre-condition a separate “incoming” air stream. Typically, the outgoing airstream is drawn from occupied spaces in a building, and the incoming air is from the outdoors.  The two airstreams must be at different temperatures for sensible heat transfer and different moisture contents for latent transfer. For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Chapter 26.
+An air-to-air energy recovery (AAER) system consists of a heat exchanger component, air ducts, and any associated device for its operation. AAER systems extract sensible (and sometimes latent) energy from a previously conditioned “outgoing” airstream and use that energy to pre-condition a separate “incoming” air stream. Typically, the outgoing airstream is drawn from occupied spaces in a building, and the incoming air is from the outdoors. The two airstreams must be at different temperatures for sensible heat transfer and different moisture contents for latent transfer. For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Chapter 26.
 
 ## Components
 
@@ -62,11 +62,11 @@ See Chapter 26 of the ASHRAE Handbook on Heating, Ventilating, and Air-Condition
 
 ### Air Duct 
 
-Ducts transport air to and from served zones, heat recovery units and air handling units. Duct systems often include dampers and turning vanes to control flow volume and reduce pressure losses which can directly impact system efficiency. 
+Ducts transport air to and from served zones, heat recovery units and air handling units. Duct systems often include dampers and turning vanes to control flow volume and reduce pressure losses, which can directly impact system efficiency. 
 
 ### Rotary Air-to-Air Energy Exchanger Motor 
 
-Most heat exchangers are passive devices and rely on the fan and motor components in other systems to move air through them. In the case of a rotary air-to-air energy exchanger the heat exchange medium is rotated through the airstreams, where the exchanger medium picks up or releases heat and possibly moisture. A small constant or variable speed motor is needed to rotate the heat exchanger.
+Most heat exchangers are passive devices and rely on the fan and motor components in other systems to move air through them. In the case of a rotary air-to-air energy exchanger, the heat exchange medium is rotated through the airstreams, where the exchanger medium picks up or releases heat and possibly moisture. A small constant or variable speed motor is needed to rotate the heat exchanger.
 
 ## Evaluation of Energy Consumption
 

@@ -3,7 +3,7 @@ title: Cooling Tower Fans Energy Consumption
 type: calculation
 layout: calculation_methodology
 calculation_methodology_id: 4
-excerpt: For evaporative cooling towers, the equations and calculators in this page estimate the annual energy consumption of single-speed or variable-speed cooling tower fans.
+excerpt: Estimate the annual energy consumption of single-speed or variable-speed cooling tower fans for evaporative cooling towers.
 related_systems:
   - Chilled Water Loop
   - Condenser Water Loop  
@@ -21,15 +21,15 @@ url: "/documents/calculation-methodology/cooling-tower-fans-energy-consumption"
 
 ## Introduction
 
-This methodology applies to evaporative cooling towers and the ECM is the installation of VFDs on the fan motors. In the pre-retrofit condition, a single- or two-speed fan in each cooling tower cell is run at a constant speed. There are several operating modes for a cooling tower, based upon how much variation is possible with the fan speeds. Cells are turned on or off depending on how much cooling is needed in the building. With two-speed fans, operational optimization occurs by staging each cell to turn on sequentially at low speed until all cells are on, and then begin turning the fans to full speed as the load increases. With single-speed fans, each cell is turned on as the load increases.
+This methodology applies to evaporative cooling towers and the ECM is the installation of VFDs on the fan motors. In the pre-retrofit condition, a single- or two-speed fan in each cooling tower cell is run at a constant speed. There are several operating modes for a cooling tower based upon how much variation is possible with the fan speeds. Cells are turned on or off depending on how much cooling is needed in the building. With two-speed fans, operational optimization occurs by staging each cell to turn on sequentially at low speed until all cells are on, and then begin turning the fans to full speed as the load increases. With single-speed fans, each cell is turned on as the load increases.
 
 In a retrofit with VFDs, the fans in all cells are run simultaneously and their speed is modulated based on the cooling load. As fan power is the cube of the fan speed, energy can be saved by running the fans at lower speeds. The speed modulation is controlled in three possible modes: 
 
-1) To keep the condenser water entering temperature constant
-2) To keep the approach temperature constant
-3) To minimize overall system power consumption. 
+1) Maintaining a constant condenser water entering temperature
+2) Maintaining a constant approach temperature
+3) Minimizing overall system power consumption 
 
-This methodology only covers the measurement of energy consumption with respect to maintaining a constant condensing water entering temperature.
+This methodology only covers the measurement of energy consumption with respect to maintaining a constant condenser water entering temperature.
 
 Regardless of the operating sequence of the cells or the speed of the fans, there is usually a minimum water flow per cell and minimum flow per chiller that must be maintained. This guide assumes that the pre- and post-retrofit flow rates through the cooling tower do not change, as would be expected if a VFD was installed on the condenser water pump at the same time as the VFDs on the fans. 
 
@@ -149,7 +149,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$T_{db} =$ Dry-bulb temperature, C</p>
 <p class="equation">$RH =$ Relative Humidity, %</p>
 
-3. To model the total fan energy at different wet-bulb temperatures, a second-order polynomial regression model of total fan energy as a function wet-bulb temperature is fit (Worksheet: “Step 4 Regression”). 
+3. To model the total fan energy at different wet-bulb temperatures, a second-order polynomial regression model is fitted, with total fan energy as a function of wet-bulb temperature (Worksheet: “Step 4 Regression”). 
 
 <p class="equation equation-center">\begin{equation} E(T_{wb}) = a*T_{wb}^{2} + b*T_{wb} + c \end{equation}</p>
 
@@ -192,9 +192,9 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$F =$ total number of fans in the cooling tower</p>
 <p class="equation">$t =$ time index</p>
 
-2. The remainder of the workbook is the same as the motor runtime data workbook, and hence uses Equations 3 through 7 to calculate the total annual energy.
+2. The remainder of the workbook is the same as the motor runtime data workbook, and therefore uses Equations 3 through 7 to calculate the total annual energy.
 
-### Constant One or Two Speed CT Fan Energy Using Electrical Current Data
+### Constant One- or Two-Speed CT Fan Energy Using Electrical Current Data
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include hourly average current (in Amps) as directly measured by current transformers, and spot measurements for true power for each fan in the cooling tower. 
 
@@ -213,7 +213,7 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$\overline{E} =$ Total average energy of all fan motors, kWh</p>
 <p class="equation">$F =$ Total number of fans in the cooling tower</p>
 
-2. The remainder of the workbook is the same as the motor runtime data workbook, and hence uses Equations 3 through 7 to calculate the total annual energy.
+2. The remainder of the workbook is the same as the motor runtime data workbook, and therefore uses Equations 3 through 7 to calculate the total annual energy.
 
 ### Variable Speed CT Fan Energy Using kW Data
 
@@ -229,16 +229,16 @@ This calculation is for a cooling tower with variable-speed fans. Measured input
 <p class="equation">$F =$ Total number of fans in the cooling tower</p>
 <p class="equation">$t =$ Time index</p>
 
-2. The remainder of the workbook is the same as the motor runtime data workbook, and hence uses Equations 3 through 7 to calculate the total annual energy.
+2. The remainder of the workbook is the same as the motor runtime data workbook, and therefore uses Equations 3 through 7 to calculate the total annual energy.
 
 ## Further Reading
 
 - For more information on the different types of fans found in AHU systems, please read “Application of Fans in Commercial HVAC Equipment” from the Carrier Corporation: https://www.utcccs-cdn.com/hvac/docs/1001/Public/0F/04-581070-01.pdf 
  
-- For more information of the different types of motors that can be used in an AHU retrofit, please read Chapter 7 (starts on page 91) of the Premium Efficiency Motor Selection and Application Guide from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_handbook_web.pdf#page=91 
+- For more information on the different types of motors that can be used in an AHU retrofit, please read Chapter 7 (starts on page 91) of the Premium Efficiency Motor Selection and Application Guide from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_handbook_web.pdf#page=91 
  
 - For general information on Option A M&V guides, please read section 4.2 (starts on page 23) of “M&V Guidelines: Measurement and Verification for Performance-based Contracts Version 4.0” from the U.S. Department of Energy: https://www.energy.gov/sites/prod/files/2016/01/f28/mv_guide_4_0.pdf#page=23
 
 ## Footnotes
 
-[^1]: Stull, R., “Wet-Bulb Temperature from Relative Humidity and Air Temperature”, J. of the AmericanMeteorological Society, Nov 2011, pp. 2267-2269
+[^1]: Stull, R., “Wet-Bulb Temperature from Relative Humidity and Air Temperature”, J. of the American Meteorological Society, Nov 2011, pp. 2267-2269

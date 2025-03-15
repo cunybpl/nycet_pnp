@@ -19,7 +19,7 @@ url: "/documents/systems/chilled-water-loop"
 
 ## General Overview
 
-A chilled water (CHW) loop consists of two main components – the pump and motors and a piping network. Chilled water is circulated by the pumps from the evaporator section of the chiller through the piping network to a terminal unit, such as a water-to-air heat exchanger in the air handling units or to other radiant equipment such as chilled beams, and then back to the chiller. A CHW loop can be designed as a primary-flow system and a primary-secondary system.
+A chilled water (CHW) loop consists of two main components: pumps and motors, and a piping network. The pumps circulate chilled water from the chiller's evaporator through the piping network to terminal units, such as water-to-air heat exchangers in air handling units or radiant equipment like chilled beams, before returning it to the chiller. A CHW loop can be designed as either a primary-flow system or a primary-secondary system.
 
 ### Primary Flow
 
@@ -27,13 +27,13 @@ A primary-flow chilled water system consists of CHW pumps that circulate chilled
 
 A **constant-primary-flow system** usually has a staged cooling system and constant speed CHW pumps.  
 
-A **variable-primary-flow system** has primary CHW pumps with variable speed drives that regulates the flow of the system based on the cooling load of the building.
+A **variable-primary-flow system** has primary CHW pumps with variable speed drives that regulate the flow of the system based on the cooling load of the building.
 
 ### Primary-secondary Flow
 
-A primary-secondary chilled water system consists of a primary CHW loop with primary pumps and secondary CHW loop with secondary pumps to distribute the cooling load to the building. The components of a primary-secondary flow system are shown in Figure 1. The following designs can be found in a primary-secondary flow system:
+A primary-secondary chilled water system consists of a primary CHW loop with primary pumps as well as a secondary CHW loop with secondary pumps to distribute the cooling load to the building. The components of a primary-secondary flow system are shown in Figure 1. The following designs can be found in a primary-secondary flow system:
 
-A **constant-primary variable-secondary flow system** has constant speed pumps that drive the flow through the primary loop and the pumps of a separate secondary loop distribute flow and cooling load to the facility. This configuration typically has a two-way valve that regulates the flow through primary and secondary loops.  
+A **constant-primary variable-secondary flow system** uses constant-speed pumps to maintain flow through the primary loop, while separate pumps in the secondary loop distribute flow and cooling load to the facility. This configuration typically includes a two-way valve that regulates flow between the primary and secondary loops. 
 
 A **variable-primary variable-secondary flow system** has variable frequency drives (VFDs) installed on primary and secondary pump motors controlled by the differential pressure in the piping network.
 

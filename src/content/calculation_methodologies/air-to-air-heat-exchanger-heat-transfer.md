@@ -256,7 +256,7 @@ The following methodology is used to calculate the sensible and latent heat tran
 <p class="equation">$W_1 =$ hourly humidity ratio of outside air entering the ERV (lb$_m$/lb$_m$)</p>
 <p class="equation">$W_2 =$ hourly humidity ratio of supply air leaving the ERV (lb$_m$/lb$_m$)</p>
 
-6. Heat transfer should be calculated only when the energy/heat recovery mode is on. This can be determined by checking the temperature difference across the recovery system in both the supply-air side and the return-air side. Another condition is that the supply fan motor must be running for heat transfer to occur. Sometimes the ERV is off and the supply fan motor is on, in this scenario we cannot assume heat transfer occurs. 
+6. Heat transfer should be calculated only when the energy/heat recovery mode is on. This can be determined by checking the temperature difference across the recovery system in both the supply-air side and the return-air side. Another condition is that the supply fan motor must be running for heat transfer to occur. Sometimes the ERV is off and the supply fan motor is on. In this scenario, we cannot assume heat transfer occurs. 
 
 <p class="equation equation-center">\begin{equation} \text{If} \hspace{2mm} \begin{cases} T_1 - T_2 > 1 & \text{heat transfer during cooling season}\\
     T_1 - T_2 < -1 & \text{heat transfer during heating season} \\
@@ -399,7 +399,7 @@ With this formula, the air flow rate Q2 and Q3 can be projected for the full yea
 
 <h3>Regressions 3 and 4</h3> 
 
-These steps yield an assessment of the relationship between the measured air flow rate of supply air leaving the ERV system (Q2) and the sensible and latent heat effectiveness that was calculated in section A.1. The relationship between air flow rate and effectiveness is linear and the equation that describes the relationship is: 
+These steps yield an assessment of the relationship between the measured air flow rate of supply air leaving the ERV system (Q2) and the sensible and latent heat effectiveness that was calculated in section A.1. The relationship between air flow rate and effectiveness is linear, and the equation that describes the relationship is: 
 
 <p class="equation equation-center">\begin{equation} y = mx + b \end{equation}</p>
 
@@ -422,7 +422,7 @@ The values of $Q_2$ that were calculated in the previous section are then plugge
 
 After projecting the airflows and effectiveness rates to a full year, the next step is to calculate the hourly mass flow rates and humidity ratios for a full year. 
 
-1. Calculate the mass flow rate of supply aire leaving the ERV for each hour interval for the entire year.
+1. Calculate the mass flow rate of supply air leaving the ERV for each hour interval for the entire year.
 
 <p class="equation equation-center">\begin{equation} \dot{m}_2 = Q_2/v \end{equation}</p>
 
@@ -473,7 +473,7 @@ After projecting the airflows and effectiveness rates to a full year, the next s
 <p class="equation">$\dot{m}_{min} =$ minimum mass flow rate value (lb$_m$/min)</p>
 <p class="equation">$\dot{m}_2 =$ hourly mass flow rate data of supply air leaving the ERV (lb$_m$/min)</p>
 
-CUNYBPL assumes that T3 and W3 are constant values with the reasoning being that occupants will want the same indoor air temperature regardless of the season. It is up to the heating and cooling plants to maintain that setpoint temperature. The next step is to calculate sensible and latent heat transfer. 
+CUNY BPL assumes that T3 and W3 are constant values, reasoning that occupants will want the same indoor air temperature, regardless of the season. It is up to the heating and cooling plants to maintain that setpoint temperature. The next step is to calculate sensible and latent heat transfer. 
 
 6. Calculate sensible heat transferred by the ERV for each hour interval for the full year.
 
@@ -484,7 +484,7 @@ CUNYBPL assumes that T3 and W3 are constant values with the reasoning being that
 <p class="equation">$c =$ specific heat of air at normal atmospheric pressure, 0.243 (Btu/lb F)</p>
 <p class="equation">$\dot{m}_2 =$ hourly mass flow rate of supply air leaving the ERV (lb$_m$/min)</p>
 <p class="equation">$T_1 =$ hourly temperature of outside air entering the ERV (F)</p>
-<p class="equation">$T_2 =$ hourly temperature of suply air leaving the ERV (F)</p>
+<p class="equation">$T_2 =$ hourly temperature of supply air leaving the ERV (F)</p>
 
 7. Calculate latent heat transferred by the ERV for each hour interval for the full year. 
 
@@ -495,10 +495,10 @@ CUNYBPL assumes that T3 and W3 are constant values with the reasoning being that
 <p class="equation">$h =$ latent heat of vaporization, 970.1 (Btu/lb)</p>
 <p class="equation">$\dot{m}_2 =$ hourly mass flow rate of supply air leaving the ERV (lb$_m$/min)</p>
 <p class="equation">$W_1 =$ hourly humidity ratio of outside air entering the ERV (lb$_m$/lb$_m$)</p>
-<p class="equation">$W_2 =$ hourly humidity ratio of suply air leaving the ERV (lb$_m$/lb$_m$)</p>
+<p class="equation">$W_2 =$ hourly humidity ratio of supply air leaving the ERV (lb$_m$/lb$_m$)</p>
 
-8. Heat transfer should be calculated only when the energy/heat recovery mode is on. This can be determined by checking the temperature difference across the recovery system in both the supply-air side and the return-air side, and air-flow rate across the heat exchanger. Air flow is happening when the supply fan motor and exhaust fan motor are on. Sometimes the ERV rotary wheel is off and air flow bypasses the rotary wheel when the supply fan motor is on, in this scenario we cannot assume heat transfer occurs.   
- 
+8. Heat transfer should be calculated only when the energy/heat recovery mode is on. This can be determined by checking the temperature difference across the recovery system in both the supply air side and the return air side, and air flow rate across the heat exchanger. Air flow happens when the supply fan motor and exhaust fan motor are on. Sometimes the ERV rotary wheel is off and air flow bypasses the rotary wheel when the supply fan motor is on. In this scenario, we cannot assume heat transfer occurs.
+
 <p class="equation equation-center">\begin{equation} \text{If} \hspace{2mm} \begin{cases} T_1 - T_2 > 1 & \text{heat transfer during cooling season}\\
     T_1 - T_2 < -1 & \text{heat transfer during heating season} \\
     -1 < T_1 - T_2 < 1 & \text{no heat transfer occurs} \end{cases} \end{equation}</p>
@@ -529,7 +529,7 @@ CUNYBPL assumes that T3 and W3 are constant values with the reasoning being that
 
 ### A.3: Annual Supply Fan Energy Consumption 
 
-This calculation methodology assumes that the power draw of the supply and exhaust fan motors were measured with a power logger at one-hour intervals for a minimum of six weeks. The power logger should have measured the three phases of the panelboard. The following formulas will calculate three phase power first. Next, the calculator reduces the dataset to an hourly schedule for all seven days of the week. This schedule is used to determine when heat transfer occurs. Then, the schedule is extrapolated to a full year and the resultant value is the estimated annual energy consumption of the fan motors. 
+This calculation methodology assumes the power draw of the supply and exhaust fan motors is measured using a power logger at one-hour intervals over a minimum of six weeks. The power logger measures all three phases of the panelboard to capture accurate data. The process begins by calculating three-phase power using the provided formulas. The dataset is then condensed into an hourly schedule for all seven days of the week to determine when heat transfer occurs. Finally, this schedule is extrapolated to represent a full year, resulting in an estimate of the annual energy consumption of the fan motors. 
 
 1. Calculate the hourly three-phase power draw of the motor by summing the single-phase power of each electrical line for each hour interval.
 
@@ -539,7 +539,7 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="equation">$\overline{kW}_{h,3P} =$ hourly three-phase power draw of the motor (kW)</p>
 <p class="equation">$\overline{kW}_{h,n} =$ hourly single-phase power for electrical line n (kW)</p>
 
-2. Calculate average energy consumption for each hour of each day of the week.  This step generates an hourly schedule for a week and this schedule is used to calculate the full year heat transfer. In this step, the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals[^2].
+2. Calculate average energy consumption for each hour of the week.  This step generates an hourly schedule for a week, and this schedule is used to calculate the full year heat transfer. In this step, the hourly power draw (kW) gets converted to hourly energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) because data is in one-hour intervals[^2].
 
 <p class="equation equation-center">\begin{equation} \overline{kWh}_{d,h} = \frac{\sum_1^{N_f(d,h)} \overline{kW}_{h,3P}}{N_f(d,h)} \end{equation}</p>
 
@@ -594,7 +594,7 @@ This calculation methodology assumes that the power draw of the supply and exhau
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh}_{WEdYr} =$ estimated annual weekend day energy consumption</p>
 <p class="equation">$\overline{kWh}_{WEd} =$ average weekend day energy consumption (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
-<p class="equation">$X =$ number weekdays that are adjusted to a weekend day (holidays)</p>
+<p class="equation">$X =$ number of weekdays that are adjusted to a weekend day (holidays)</p>
 <p class="equation">$104 =$ constant, number of weekends per year</p>
 
 8. Calculate the total annual energy consumption of the motor. 

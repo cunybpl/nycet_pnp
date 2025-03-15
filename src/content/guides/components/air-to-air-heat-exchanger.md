@@ -17,7 +17,7 @@ url: "/documents/components/air-to-air-heat-exchanger"
 
 Air-to-air heat exchangers transfer energy between two airstreams that must be at different temperatures for sensible heat transfer and different moisture contents for latent heat transfer.   
 
-In a building, an air-to-air heat exchanger can be used to recover latent or sensible heat either during the cooling or heating season. Recovering energy from the exhaust stream lessens the energy load on the air handling plant. Typical air-to-air heat exchangers include fixed plate heat exchangers and rotary wheel heat exchangers, with the former typically only recovering sensible heat. 
+In a building, an air-to-air heat exchanger can be used to recover latent or sensible heat during the cooling or heating season. Recovering energy from the exhaust stream lessens the energy load on the air handling plant. Typical air-to-air heat exchangers include fixed plate heat exchangers and rotary wheel heat exchangers, with the former typically only recovering sensible heat. 
 
 <!-- Table 1 shows the plant and system configurations that may contain an air-to-air heat exchanger. 
 
@@ -162,7 +162,7 @@ Figure 2 shows the measurement locations in a rotary wheel heat exchanger.
 
 ### What to Measure
 
-Measurements needed to quantify the annual energy transfer and operating characteristics of an air-to-air heat exchanger:
+Measurements needed to quantify the annual energy consumption and operating characteristics of an air-to-air heat exchanger:
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
@@ -276,21 +276,17 @@ Table 3 provides the equipment required to carry out the measurements of this co
 </table> 
 </div> -->
 
-## Enegry Consumption Quantificaiton
+## Energy Consumption Quantification
 
 The general methodology for quantifying the energy impact of an air-to-air heat exchanger is to determine the temperature differential on the supply side of the heat exchanger and the supply airflow. If latent energy is also transferred, this is determined by the humidity differential across the heat exchanger. The supply flow rate can be measured or assumed, depending on available resources. These energy transfer values can be regressed against a controlling variable (such as outdoor air temperature) to develop a regression model. Depending on the variability of operations, daily or weekly models may be developed to better characterize the component.
 
 ### How to Quantify
 
-The following calculation methodology <strong>only applies to systems with rotary wheel heat exchangers.</strong>
-
-{{< calculation_methodology calculation_methodology_id=8 >}}
-
-### Calculate Energy Consumption
-
-The following downloadable files can be used to calculate energy consumption based on the measurements taken for this component: 
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for this component: 
 
 {{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer" excerpt="Uses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
+
+For more details about the methodology behind the calculator above see the [Air-to-air Heat Exchanger Heat Transfer calculation](/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer).
 
 ## Further Reading 
 

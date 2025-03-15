@@ -22,29 +22,29 @@ url: "/documents/measurement-technique/electrical-current"
 
 This technique uses a data logger and current transformers to take long-term measurements of electrical current (Amps) at one-hour intervals. This data provides insight on the operating schedule of the system or component and can be used to calculate energy consumption of the target equipment at the power panel or electrical panelboard. A system or component that is running (i.e., consuming energy) will have high current draw. A system or component that is not running (i.e., has no energy consumption) will have low or no current draw.  
 
-Data loggers and current sensors use instantaneous measurements of current over the course of an hour to calculate the average amperage. As such, current data should be recorded as hourly average values, not instantaneous. When taking one-hour measurements, the logger will detect current over the course of every hour and store that value. Sometimes current can fluctuate over a one-hour period (motors turn off or change speed) but the instantaneous current value will not indicate that change.  
+Data loggers and current sensors use instantaneous measurements of current over the course of an hour to calculate the average amperage. As such, current data should be recorded as hourly average values, not instantaneous. When taking one-hour measurements, the logger detects current over the course of every hour and store that value. Occassionally, current can fluctuate over a one-hour period (motors turn off or change speed), but the instantaneous current value will not indicate that change.  
 
-The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. The best practice is a minimum of six weeks and data should be collected at one-hour intervals; longer measurement periods are encouraged for deeper analysis of the equipment. Measurements should be taken when the system or component is operating under normal conditions.
+The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. The best practice is a minimum of six weeks with data being collected at one-hour intervals; longer measurement periods are encouraged for deeper analysis of the equipment. Measurements should be taken when the system or component is operating under normal conditions.
 
 ### Type of Measurement
 
 <strong>Direct and Proxy</strong>
 
-This methodology is a direct measurement of current, however it is also considered a proxy measurement of power and energy, as well as operational hours of the system or component.
+This methodology is a direct measurement of current; however, it is also considered a proxy measurement of power and energy, as well as operational hours of the system or component.
 
 ### Measurement Equipment to Use
 
-The measurement equipment needed for this procedure is an energy data logger that has the capacity to measure AC current over time and record measurement data in its internal storage. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger) to identify data loggers that measure current draw by an electricity-powered system. The contents of this guide are largely based off of the [Onset HOBO 4-channel analog logger (UX120-006M)](https://nycenergytools.com/equipment/4-channel-analog-data-logger/) and the [Onset Split-Core AC Current Transformer (CTV-x)](https://nycenergytools.com/equipment/?_search_equipment=split%20core), which can be found and borrowed through FELL. 
+The measurement equipment needed for this procedure is an energy data logger with capacity to measure AC current over time and record measurement data in its internal storage. Refer to the [FELL catalog](https://nycenergytools.com/equipment/?_measurement_type=energy&_equipment_type=logger) to identify data loggers that measure current draw by an electricity-powered system. The contents of this guide are largely based off of the [Onset HOBO 4-channel analog logger (UX120-006M)](https://nycenergytools.com/equipment/4-channel-analog-data-logger/) and the [Onset Split-Core AC Current Transformer (CTV-x)](https://nycenergytools.com/equipment/?_search_equipment=split%20core), which can be found and borrowed through FELL. 
 
-Current transformers are sensors that detect the magnetic field induced by an electrical current through a wire. As the current increases or decreases the magnetic field strength will change and the current transformers will detect this change. The data logger will calculate current through the wire based on the signal from the transformers and record the AC current value in its internal storage. A data logger can have multiple current transformers connected to it allowing a user to measure multiple wires with a single logger. It is important to know how many wires will be measured and the current rating of those wires, so the appropriate current transformers are used.  
+Current transformers are sensors that detect the magnetic field induced by an electrical current through a wire. As the current increases or decreases, the magnetic field strength changes, and the current transformers detect this change. The data logger calculates current through the wire based on the signal from the transformers and record the AC current value in its internal storage. A data logger can have multiple current transformers connected to it, allowing a user to measure multiple wires with a single logger. It is important to know how many wires will be measured and the current rating of those wires, so the appropriate current transformers are used.  
 
-Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.  
+Please note that loggers require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging, and that older loggers require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements. 
 
 ## Measurement Steps
 
-### 1. Preparation for Data Acquisition
+### 1. Prepare for Data Acquisition
 
-Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger. Before the following steps are taken, the current rating(s) for wires to be measured should be identified in advance so as to choose the properly sized current transformer for this measurement approach. See the equipment’s instruction manual for further instructions about how to properly size the current transformers for the target system or component.  
+Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed setup instructions. Before proceeding, identify the current rating(s) of the wires to be measured to ensure the selection of a properly sized current transformer for this measurement approach. For further guidance on selecting the appropriate current transformer for the target system or component, consult the equipment’s instruction manual.  
 
 - Logging interval: 1-hour
 - Date and time to start logging
@@ -59,14 +59,14 @@ An example of how to setup the Onset HOBO 4-channel analog logger (UX120-006M) i
 <iframe class ="video" src="https://www.youtube.com/embed/fUjz0qj7GVM?si=tSIiXYE0bUuRB5LX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 1. How to configure the 4-channel analog logger with CT on HOBOware (Click to Start Video).</figcaption>
 
-### 2. Installation of Equipment
+### 2. Install Equipment
 
 1. Confirm that the equipment is operational.
 2. Connect the sensors to the data logger.
-3. Identify if the distribution system supplied electricity to other loads that are not relevant to the project (to avoid measuring unwanted loads).
+3. Determine whether the distribution system supplies electricity to other loads unrelated to the project to avoid measuring unintended energy consumption.
 4. Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.
 5. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the current draw by the system. The current transformers are clamps that open and surround the wire, see Figure 2.
-6. Clamp the sensors around the electrical wires. Make sure they are facing the right direction, or else the current may be recorded with negative values.
+6. Clamp the sensors around the electrical wires. Make sure they are facing the right direction, or the current may be recorded with negative values.
 7. Adhere the data logger to the panelboard. Some loggers have magnets that allow for placement on the panelboard itself, while others do not.
 
 <iframe class ="video" src="https://www.youtube.com/embed/FWgM0-VSlEQ?si=B_0BwGasy2X2L-pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -82,7 +82,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 
 1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
-3. Determine if the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
+3. Determine whether the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
 <iframe class ="video" src="https://www.youtube.com/embed/KyLO5ARQbuA?si=y6RlF5ZOMLpWvEB2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 3. How to check data of logger using HOBOware. (Click to Start Video)</figcaption>
@@ -94,7 +94,7 @@ After verifying that the logger is collecting data, do the following:
 1. Allow the logger to collect data for the remainder of the measurement period.
 2. After the measurement period has concluded, remove the logger from the panel.
 3. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
-4. Use the proprietary software to Stop the logger and end data collection.  
+4. Use the proprietary software to stop the logger and end data collection.  
 5. Download all data from the logger and save the file in the .csv file format for analysis.
 
 <iframe class ="video" src="https://www.youtube.com/embed/47hqmeOh5X4?si=VMH71cMG6C5e9jmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

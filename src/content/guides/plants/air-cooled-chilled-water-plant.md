@@ -16,7 +16,7 @@ url: "/documents/plants/air-cooled-chilled-water-plant"
 
 ## General Overview
 
-An air-cooled chilled water plant consists of an air-cooled chiller system and a chilled water loop system operating to meet the cooling demand in a facility. The air-cooled chiller produces chilled water through the basic refrigeration cycle. The primary chilled water pump circulates the chilled water between the chiller and the chilled water loop. In some cases, a secondary chilled water pump distributes the chilled water produced by the chiller to air handling units (AHUs) in the building.
+An air-cooled chilled water plant consists of an air-cooled chiller system and a chilled water loop system operating together to meet the cooling demand in a facility. The air-cooled chiller produces chilled water through the basic refrigeration cycle. The primary chilled water pump circulates the chilled water between the chiller and the chilled water loop. In some cases, a secondary chilled water pump distributes the chilled water produced by the chiller to air handling units (AHUs) in the building.
 
 <a href="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 1 updated.jpg">
     <figure class="figure mb-0 mt-3">
@@ -41,7 +41,8 @@ An air-cooled chiller provides chilled water to the chilled water loop system an
 
 ### Chilled Water Loop
 
-A chilled water loop system consists of a closed loop distribution system that supplies chilled water to the building and includes components.
+A chilled water loop system consists of a closed loop distribution system that supplies chilled water to the building and includes components (see Figure 3).
+
 <a class="continue" href="/documents/systems/chilled-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/air-cooled-chilled-water-plant/2024_0425_ACCW plant_figure 3 updated.jpg">
@@ -53,7 +54,7 @@ A chilled water loop system consists of a closed loop distribution system that s
 
 ## Evaluation of Energy Consumption
 
-The primary energy consumption of an air-cooled chilled water plant is the sum of the energy consumption of the components of each system. The thermal energy rejected from the building to the outdoors can also be measured to evaluate the overall performance of the plant, usually in kilowatts of power consumer per ton of cooling provided (kW/ton). Table 1  provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of an air-cooled chilled water plant. 
+The primary energy consumption of an air-cooled chilled water plant is the sum of the energy consumed by its individual components. The thermal energy rejected from the building to the outdoors can also be measured to assess the plant’s overall performance, typically expressed in kilowatts of power consumed per ton of cooling provided (kW/ton). Table 1 summarizes the system component measurements and values required to quantify the annual energy consumption and operating characteristics of an air-cooled chilled water plant. 
 
 <div class="table-wrapper">
 <table>

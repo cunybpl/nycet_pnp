@@ -15,11 +15,11 @@ url: "/documents/systems/variable-speed-variable-volume-air-handling-system"
 
 ## General Overview
 
-A variable-speed, variable-volume (VSVV) air handling system conditions provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors. The served zones are typically equipped with variable-air volume boxes (VAV) which allow for zone-specific control of supply airflow. The overall airflow of the air handling unit (AHU) is modulated using variable-frequency drives (VFDs) on the supply and return fan motors based on how much air the VAV boxes require. For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4. 
+A variable-speed, variable-volume (VSVV) air handling system conditions mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors. The served zones are typically equipped with variable-air volume boxes (VAV), which allow for zone-specific control of supply airflow. The overall airflow of the air handling unit (AHU) is modulated using variable-frequency drives (VFDs) on the supply and return fan motors based on how much air the VAV boxes require. For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4. 
 
 ## Components 
 
-The major components of a VSVV system are the fans and motors, motor VFDs, heat exchanger coils, dampers, and VAV boxes. The components associated with the VSVV are shown in Figure 1. In general, the mixed air is conditioned by heating or cooling coils that use the output of the heating or cooling loops, using mechanical valves to regulate the amount of energy introduced to the coils. Supply and return fans with VFDs and dampers control airflows inside the main AHU. Dampers in the VAV boxes control zone airflows. Occasionally a VAV box will also be equipped with a supply fan.  
+The major components of a VSVV system are the fans and motors, motor VFDs, heat exchanger coils, dampers, and VAV boxes. The components associated with the VSVV are shown in Figure 1. In general, the mixed air is conditioned by heating or cooling coils that use the output of the heating or cooling loops, using mechanical valves to regulate the amount of energy introduced to the coils. Supply and return fans with VFDs and dampers control airflows inside the main AHU. Dampers in the VAV boxes control zone airflows. Occasionally, a VAV box is equipped with a supply fan.   
 
 <a href="/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0503_VSVV AHU system_figure 1 updated.jpeg">
     <figure class="figure mb-4 mt-3">
@@ -35,7 +35,7 @@ The fan motors with VFDs provide pressure in the system to move air through the 
 
 ### Heat Exchanger (Heating/Cooling Coils) 
 
-The heat exchanger includes a set of heating and cooling coils, which provide heating or cooling to the air before it is discharged from the AHU. Mechanical valves regulate the amount of energy introduced from the loop to the heat exchangers which control the energy supplied to the discharge air.
+The heat exchanger includes a set of heating and cooling coils, which provide heating or cooling to the air before it is discharged from the AHU. Mechanical valves regulate the amount of energy introduced from the loop to the heat exchangers that control the energy supplied to the discharge air.
 <a class="continue" href="/documents/components/air-to-air-heat-exchanger"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Dampers 
@@ -44,11 +44,11 @@ Dampers are generally interlocked and are controlled to supply appropriate quant
 
 ### Variable-air Volume (VAV) Box 
 
-A device that includes a damper to control zone specific airflow. A VAV box is sometimes equipped with a fan based on the overall system design. VAV boxes are typically equipped with reheat coils to prevent over-cooling of zones with low cooling loads and high ventilation air requirements.  
+A device that includes a damper to control zone specific airflow, a VAV box is sometimes equipped with a fan based on the overall system design. VAV boxes are typically equipped with reheat coils to prevent over-cooling of zones with low cooling loads and high ventilation air requirements.  
 
 ## Evaluation of Energy Consumption 
 
-The energy consumption of a VSVV air handling system is electricity for the fan motors and VFD, thermal energy for heating or cooling across the VSVV AHU heat exchanger and the electricity or thermal energy used at the VAV reheat boxes. Table 1 provides a summary of the components and operating characteristics of a variable speed system. 
+The energy consumption of a VSVV air handling system is electricity for the fan motors and VFD, thermal energy for heating or cooling across the VSVV AHU heat exchanger, and the electricity or thermal energy used at the VAV reheat boxes. Table 1 provides a summary of the components and operating characteristics of a variable speed system. 
 
 <div class="table-wrapper">
 <table>

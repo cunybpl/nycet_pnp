@@ -1,4 +1,5 @@
 {{ $page_title := .Get "page_title" }}
+{{ $url := .Get "url" }}
 <!-- {{ $img := .Get "img" }}
 {{ $icon := .Get "icon" }} -->
 <section class="card card-block my-4">
@@ -7,14 +8,16 @@
         <div class="short-card-content">
           <div class="short-card-text">
             <h5 class="mb-2 content-card-title">
-              {{ .Title }}<span class="chip content-chip px-3 py-2">{{ .Params.type | title }}</span>
+              <span class="short-card-header">{{ .Title }}</span>
+              <span class="chip content-chip px-3 py-2">{{ .Params.type | title }}</span>
             </h5>
             <p class="mb-0 content-card-excerpt">
               {{ .Params.excerpt | truncate 250 }}
             </p>
           </div>
         </div>
-        <a class="short-card-link d-flex" href="{{ .Params.url | relURL }}">
+        <!-- <a class="short-card-link d-flex" href="{{ .Params.url | relURL }}"> -->
+        <a class="short-card-link d-flex" href="{{ $url }}">
             <i class="fa fa-arrow-right"></i>
         </a>
       </div>
