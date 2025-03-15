@@ -60,14 +60,14 @@ A Mixed electrical panelboard supplies electricity to the lighting fixture syste
     </a>
 <figcaption class="figure-caption text-left">
 
-Figure 4: Example of a mixed panelboard schedule (click on image to enlarge).[^1]
+Figure 4: Example of a mixed panelboard schedule. <span style="color: #467f9e;">Lighting fixtures highlighted in blue</span>, and <span style="color: #d36064;">other electrical loads highlighted in red</span> (click on image to enlarge).
 
 </figcaption>
 </figure>
 
 ## Evaluation of Energy Consumption
 
-The electrical distribution system does not consume electricity, but it can be a useful point by which to measure the electrical energy associated with the Lighting Plant.
+The electrical distribution system does not consume electricity, but it can be a useful point by which to measure the electrical energy associated with the [Lighting Plant](/documents/plants/lighting-plant).
 
 <div class="table-wrapper">
 <table>
@@ -132,10 +132,6 @@ Figures 5 and 6 show typical measurement locations in an electrical distribution
 
 Measurement locations in the electrical distribution system are at the conductors in the panelboard or switchgear. To measure a lighting plant, the best practice is to capture as much of the lighting plant in a single measurement as possible. Measuring at switchgear may be appropriate if all lighting panelboards are dedicated and connected to it, but only the distribution line that supplies electricity to lighting should be measured. Alternatively, a sample of panelboards and/or circuits can be measured, but a sampling plan must be considered. For more information on sampling, please refer to Bonneville Power Administration’s guide on sampling.
 
-### Calculation Methodology
-
-{{< calculation_methodology calculation_methodology_id=3 >}}
-
 ## Further Reading
 
 - Consulting-Specifying Engineer (20). “Back to Basics: Switchgear, Transformers and UPSs.”. https://www.csemag.com/articles/back-to-basics-switchgear-transformers-and-upss/; accessed May 24, 2022. 
@@ -143,7 +139,3 @@ Measurement locations in the electrical distribution system are at the conductor
 - Bonneville Power Administration (July 2018). “Sampling for M&V: Reference Guide.” 
 
 - EE Richman (February 2016). PNNL-SA-25222. “Measurement and Verification of Energy Savings and Performance from Advantage Lighting Controls” Richland, WA: Pacific Northwest National Laboratory.
-
-## Footnotes
-
-[^1]: Blue represents lighting fixtures, red represents others electrical loads.
