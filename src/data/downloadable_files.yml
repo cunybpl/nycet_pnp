@@ -11,6 +11,7 @@ files:
   - name: Liquid-to-liquid Heat Transfer
     description: Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.
     filename: liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx
+    url: https://www.dropbox.com/scl/fi/u135vg1tvq0sxa3k8sjy8/liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx?rlkey=n1g35f61ozm837i4z53umgg1b&st=xp6338zq&dl=1
 
 # Cooling Tower Calculators
   - name: Constant Speed CT Fan Energy Using Motor Runtime Data

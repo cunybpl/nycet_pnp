@@ -26,63 +26,63 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
     <caption>Table 1. Plants and systems containing liquid-to-liquid heat exchangers.</caption>
     <thead>
         <tr>
-            <th width="21.964285714285715%">
+            <th>
                 Plant
             </th>
-            <th width="24.285714285714285%">
+            <th>
                 System
             </th>
-            <th width="26.964285714285715%">
+            <th>
                 Component
             </th>
-            <th width="26.785714285714285%">
+            <th>
                 Controlling Variable
             </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td class="fr-cell-handler " style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Water-cooled Chilled Water Plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
+            <td>
                 Waterside Economizer
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Liquid-to-liquid heat exchanger
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
+            <td>
                 Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Steam Plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
+            <td>
                 <ul>
                     <li>Blowdown Tank</li> 
                     <li>Heat recovery system</li>
                 </ul>
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Liquid-to-liquid heat exchanger
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
+            <td>
                 Blowdown water temperature (F)
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Service Hot Water Plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
+            <td>
                 Service Hot Water Tank
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Liquid-to-liquid heat exchanger
             </td>
-            <td class="fr-cell-fixed " style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
+            <td>
                 Schedule and occupancy
             </td>
         </tr>
@@ -91,7 +91,7 @@ Table 1 shows the plant and system configurations that may contain a liquid-to-l
 </div>
 
 
-## Evaluation of Heat Transfer
+<!-- ## Evaluation of Heat Transfer
 
 In a liquid-to-liquid heat exchanger, heat is transferred from a liquid with excess heat (waste heat stream) to a liquid where the recovered heat benefits the process (supply stream). This is the principal energy phenomenon that reduces the overall energy usage of the entire plant or system where the heat exchanger is installed. A pump and motor may be required to circulate the liquids in the waste heat and supply streams.
 
@@ -161,11 +161,11 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-### Measurement Strategy
+## Measurement Strategy
 
-The measurement strategy for a liquid-to-liquid heat exchanger involves measuring the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet. If a pump is used in the system, the flow rate can be measured at the supply stream pump. Measurement locations are generically represented in Figure 1.
+The measurement strategy for a liquid-to-liquid heat exchanger involves measuring the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet. If a pump is used in the system, the flow rate can be measured at the supply stream pump Measurement locations are generically represented in Figure 1.
 
 <a href="/images/components/2024_0625_LtL HX component_figure 1.jpg">
 <figure class="figure">
@@ -173,6 +173,16 @@ The measurement strategy for a liquid-to-liquid heat exchanger involves measurin
   <figcaption class="figure-caption text-left">Figure 1. Liquid-to-liquid heat exchanger measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
+
+### What to Measure
+
+Perform the following measurements to quantify the annual energy consumption and operating characteristics of an air-to-air heat exchanger:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=11 >}}
+
+{{< measurement_technique measurement_technique_id=16 >}}
 
 ### Measurement Equipment
 
@@ -260,15 +270,19 @@ Table 3 provides the equipment required to carry out the measurements of this co
 </table> 
 </div>
 
-### Calculation Methodology
+## Energy Consumption Quantification
 
 The general methodology for quantifying the useful energy supplied by a liquid-to-liquid heat exchanger is determined by the temperature differential and flow rate of the supply stream. These values are multiplied by the heat capacity and density of the liquid (e.g., water, water-glycol mix) to find the energy flow rate. The energy flow rate can be regressed against a controlling variable (such as outdoor air, pump runtime or flow rate) to develop a regression model. Depending on operational variability, daily or weekly models may be developed to better characterize the component.
 
-<br></br>
-<i>Click the button below to go to the calculators for this component.</i>
-<br></br>
+### How to Quantify
 
-{{< calculation_methodology calculation_methodology_id=24 >}}
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for this component: 
+
+{{< downloadable_file title="Liquid-to-liquid Heat Transfer" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculator above see [Liquid-to-liquid Heat Exchanger Heat Transfer](/documents/calculation-methodology/liquid-to-liquid-heat-exchanger-heat-transfer).
+{{< /admonition >}}
 
 ## Further Reading
 
