@@ -143,7 +143,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
 </table> 
 </div>
 
-## Evaluation of Energy Consumption
+<!-- ## Evaluation of Energy Consumption
 
 The primary energy source for a CSCV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the CSCV pump and motor.
 
@@ -183,9 +183,9 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-### Measurement Strategy
+## Measurement Strategy
 
 The measurement strategy for a CSCV pump and motor involves conducting a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant-speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at the main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1.
 
@@ -195,6 +195,15 @@ The measurement strategy for a CSCV pump and motor involves conducting a one-tim
   <figcaption class="figure-caption text-left">Figure 1. CSCV pump and motor measurement locations (click on image to enlarge).</figcaption>
 </figure>
 </a>
+
+### What to Measure
+
+Perform the following measurements to quantify the energy consumption and operating characteristics of a CSCV pump and motor:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=4 >}}
+
 
 ### Measurement Equipment
 
