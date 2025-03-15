@@ -58,7 +58,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="3" style="vertical-align: middle;">
                 Water-cooled chilled water plant
             </td>
             <td>
@@ -70,30 +70,16 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
         </tr>
         <tr>
             <td>
-                Water-cooled chilled water plant
-            </td>
-            <td>
                 Chilled water loop
             </td>
             <td>
-                Primary chilled water pump
+                <ul>
+                    <li>Primary chilled water pump</li> 
+                    <li>Secondary chilled water pump</li>
+                </ul>
             </td>
         </tr>
         <tr>
-            <td>
-                Water-cooled chilled water plant
-            </td>
-            <td>
-                Chilled water loop
-            </td>
-            <td>
-                Secondary chilled water pump
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Water-cooled chilled water plant
-            </td>
             <td>
                 Waterside economizer
             </td>
@@ -102,7 +88,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="2" style="vertical-align: middle;">
                 Hot water plant
             </td>
             <td>
@@ -114,9 +100,6 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
         </tr>
         <tr>
             <td>
-                Hot water plant
-            </td>
-            <td>
                 Hot water loop
             </td>
             <td>
@@ -124,7 +107,7 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="2" style="vertical-align: middle;">
                 Steam plant
             </td>
             <td>
@@ -135,9 +118,6 @@ Table 1 shows the plant and system configurations that may contain a CSCV pump a
             </td>
         </tr>
         <tr>
-            <td>
-                Steam plant
-            </td>
             <td>
                 Feedwater tank
             </td>
