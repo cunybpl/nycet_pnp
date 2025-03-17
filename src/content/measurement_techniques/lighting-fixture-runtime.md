@@ -51,7 +51,7 @@ Use the manufacturer’s software to ​set up ​​and launch ​the logger​
 - Value to measure: ​R​untime (minutes)
 
 <iframe class ="video" src="https://www.youtube.com/embed/zcR39ATSAbM?si=kxsyJA0jMpb7AKMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 1. How to configure the light on/off data logger on HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 1. How to configure the light on/off data logger on HOBOware.</figcaption>
 
 
 ### 2. Install Equipment
@@ -62,7 +62,7 @@ Use the manufacturer’s software to ​set up ​​and launch ​the logger​
 4. ​​​Visually confirm that the logger is recording, and that the sensor is accurately identifying whether or not the lights are on.
 
 <iframe class ="video" src="https://www.youtube.com/embed/0OJvUP_NdYM?si=39x6ZQwBbhWzBRpN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 2. How to calibrate and install the light on/off logger. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 2. How to calibrate and install the light on/off logger.</figcaption>
 
 ### 3. Verify Data is Being Collected
 
@@ -77,7 +77,7 @@ Wait ​24-48 hours to verify data collection. Return to the location of the mea
 3. Determine whether ​the ​measured results align with ​the ​expected operation of the fixtures or space​ based on observed operational patterns or known equipment schedules.
 
 <iframe class ="video" src="https://www.youtube.com/embed/JkNpQ81sdcQ?si=Zv30_vcXT5tCskjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 3. How to check data of runtime loggers using HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 3. How to check data of runtime loggers using HOBOware.</figcaption>
 
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data
@@ -90,7 +90,7 @@ After verifying ​that ​the logger is collecting data​,​ do the following
 4. Download all data from the logger and ​save the file in the​​ .​csv format for analysis​.
 
 <iframe class ="video" src="https://www.youtube.com/embed/BP5RZugx20o?si=BwMHgGtxP943uhMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to .csv file on HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to .csv file on HOBOware.</figcaption>
 
 ## Troubleshooting Our Measurement Equipment
 

@@ -61,7 +61,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 An example of how to setup the UX90-004 Onset HOBO Motor runtime logger is shown in the video below.
 
 <iframe class ="video" src="https://www.youtube.com/embed/J472dkp5D3g?si=vVdPlas5NFqchzyf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 1. How to configure the motor on/off data logger on HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 1. How to configure the motor on/off data logger on HOBOware.</figcaption>
 
 
 ### 2. Install Equipment
@@ -72,7 +72,7 @@ An example of how to setup the UX90-004 Onset HOBO Motor runtime logger is shown
 4. Visually confirm that the logger is recording, and that the sensor is accurately identifying whether the motor is running.
 
 <iframe class ="video" src="https://www.youtube.com/embed/zQBLq7Wonqw?si=mIv92t7EOPY5994W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 2. How to calibrate and install the motor on/off data logger on a motor. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 2. How to calibrate and install the motor on/off data logger on a motor.</figcaption>
 
 
 ### 3. Verify Data is Being Collected
@@ -88,7 +88,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 3. Determine whether the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
 <iframe class ="video" src="https://www.youtube.com/embed/JkNpQ81sdcQ?si=VUmDNF8eaWuB45n8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 3. How to check data of runtime loggers using HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 3. How to check data of runtime loggers using HOBOware.</figcaption>
 
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data
@@ -101,7 +101,7 @@ After verifying that the logger is collecting data, do the following:
 5. Download all data from the logger and save the file in the .csv format for analysis.
 
 <iframe class ="video" src="https://www.youtube.com/embed/M_ky5lMORBk?si=EmUoRsGYXoxIzaqr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to .csv file on HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to .csv file on HOBOware.</figcaption>
 
 ## Troubleshooting Our Measurement Equipment
 

@@ -55,7 +55,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 - Sampling interval: 1-second
 
 <iframe class ="video" src="https://www.youtube.com/embed/D178xIAkoUA?si=_I0O_PikttSolMbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 1. How to configure the MX2301 logger on HOBOConnect. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 1. How to configure the MX2301 logger on HOBOConnect.</figcaption>
 
 ### 2. Install Equipment 
 
@@ -70,7 +70,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 </div>
 
 <iframe class ="video" src="https://www.youtube.com/embed/R9MDkohMD-E?si=1TIgLJijpgreQOtV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 2. How to install the MX2301 MX1101 UX100 temperature loggers. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 2. How to install the MX2301 MX1101 UX100 temperature loggers.</figcaption>
 
 ### 3. Verify Data is Being Collected 
 
@@ -85,7 +85,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 3. Determine whether the measured results align with the expected operation of the system or component.
 
 <iframe class ="video" src="https://www.youtube.com/embed/EOb9EqQcRXY?si=NgkTRObjdxEty-Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 3. How to check data of bluetooth loggers using HOBOConnect. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 3. How to check data of bluetooth loggers using HOBOConnect.</figcaption>
 
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data 
@@ -97,7 +97,7 @@ After verifying the logger is collecting data, do the following:
 4. Download all data from the logger and save the file in the .csv format for analysis.
 
 <iframe class ="video" src="https://www.youtube.com/embed/sF_c_7LHR5s?si=OPxNERIQhQqBhAo_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to csv on HOBOConnect. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to csv on HOBOConnect.</figcaption>
 
 ## Troubleshooting Our Measurement Equipment
 

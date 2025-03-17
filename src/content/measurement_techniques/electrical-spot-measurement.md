@@ -72,7 +72,7 @@ Values to measure:
 An example of how to connect the Fluke 345 PQ Clamp Meter is shown below
 
 <iframe class="video" src="https://www.youtube.com/embed/FaWG8QRf7pE?si=mAjHxyWZ5hJOPmNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 1. How to install the fluke 345 PQ clamp meter. (Click to Start Video)</figcaption> 
+<figcaption class="figure-caption text-left">Figure 1. How to install the fluke 345 PQ clamp meter.</figcaption> 
 
 Some power meters offered through FELL can measure three-phase power with different calculation methods. Carefully read the user manual of the power meter to identify the calculations used to estimate three-phase power.
 

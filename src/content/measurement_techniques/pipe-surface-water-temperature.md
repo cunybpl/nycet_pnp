@@ -52,7 +52,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 - Sampling interval: 1-second
 
 <iframe class ="video" src="https://www.youtube.com/embed/fUjz0qj7GVM?si=29uKvwk8x1thOh8X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 1. How to configure 4-channel analog logger with CT on HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 1. How to configure 4-channel analog logger with CT on HOBOware.</figcaption>
 
 
 ### 2. Install Equipment 
@@ -63,7 +63,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 4. Place the sensor on the clean surface and apply thermal tape to fully cover the sensor.
 
 <iframe class ="video" src="https://www.youtube.com/embed/FWgM0-VSlEQ?si=jF6QAKaKCVq-TZEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 2. How to install the 4-channel analog logger with CT onsite. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 2. How to install the 4-channel analog logger with CT onsite.</figcaption>
 
 ### 3. Verify Data is Being Collected 
 
@@ -78,7 +78,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 3. Determine whether measured results align with the expected operation of the system or component.
 
 <iframe class ="video" src="https://www.youtube.com/embed/KyLO5ARQbuA?si=Xg596FGRsPzI_FGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 3. How to check data of loggers using HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 3. How to check data of loggers using HOBOware.</figcaption>
 
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data 
@@ -92,7 +92,7 @@ After verifying that the logger is collecting data, do the following:
 5. Download all data from the logger and save the file in the.csv file format for analysis.
 
 <iframe class ="video" src="https://www.youtube.com/embed/47hqmeOh5X4?si=sMOFZCL0J-D6wtmD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger using HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger using HOBOware.</figcaption>
 
 
 ## Troubleshooting Our Measurement Equipment

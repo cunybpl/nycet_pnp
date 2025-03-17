@@ -70,7 +70,7 @@ Identify the temperature (hot or cold) of the pipes that will be measured. Use t
 - Sampling interval: 1-second
 
 <iframe class ="video" src="https://www.youtube.com/embed/9SxjYiv0sWw?si=2jBBtLWF0arDAoKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 2. How to setup 4-channel analog logger with CT to measure water pressure and pump curve. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 2. How to setup 4-channel analog logger with CT to measure water pressure and pump curve.</figcaption>
 
 
 ### 2. Install at the Site 
@@ -89,7 +89,7 @@ Figure 3 illustrates a pressure gauge installed on an access port to the return 
 
 <!--> Will Update the below video once correct video is found -->
 <!-- <iframe class ="video" src="https://www.youtube.com/embed/FWgM0-VSlEQ?si=NtSU7hFdv8PJe6fy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 3. How to install the 4-channel analog logger with CT  onsite. (Click to Start Video)</figcaption> -->
+<figcaption class="figure-caption text-left">Figure 3. How to install the 4-channel analog logger with CT  onsite.</figcaption> -->
 
 ### 3. Verify Data is Being Collected 
 
@@ -104,7 +104,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 3. Determine whether the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
 <iframe class ="video" src="https://www.youtube.com/embed/KyLO5ARQbuA?si=O0PNhabxgfewirdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 4. How to check the data of loggers using HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 4. How to check the data of loggers using HOBOware.</figcaption>
 
 ### 4. Retrieve Measurement Equipment and Download All Final Data
 
@@ -116,7 +116,7 @@ After verifying the logger is collecting data, do the following:
 4. Download all data from the logger and save the file in the .csv file format for analysis.
 
 <iframe class ="video" src="https://www.youtube.com/embed/ROULsEti34A?si=zgEIBByCNf8U5oFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 5. How to extract the data from the logger using HOBOware. (Click to Start Video)</figcaption>
+<figcaption class="figure-caption text-left">Figure 5. How to extract the data from the logger using HOBOware.</figcaption>
 
 ## Troubleshooting Our Measurement Equipment
 
