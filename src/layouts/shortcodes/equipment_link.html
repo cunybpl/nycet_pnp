@@ -3,13 +3,18 @@
   {{ $imgUrl := .Get "imgUrl"}}
   {{ $title := .Get "title" }}
   {{ $excerpt := .Get "excerpt" }}
+  {{ $type := .Get "type" }}
   <div class="short-card-content equip-card">
     <div class="short-card-body">
       <div class="equip-img" style=" background-image: url({{ $imgUrl }};" alt="{{ $title }} image"></div>
       <div class="short-card-text">
         <h5 class="mb-2 content-card-title">
           <span class="short-card-header">{{ $title }}</span>
+        {{ if eq $type "equip" }}
           <span class="chip content-chip px-3 py-2">Equipment</span>
+        {{ else if eq $type "kit" }}
+          <span class="chip content-chip px-3 py-2">Kit</span>
+        {{ end }}
         </h5>
         <p class="mb-0 content-card-excerpt">
           {{ $excerpt | truncate 250 }}
@@ -17,7 +22,7 @@
       </div>
     </div>
     <a class="btn btn-primary" href="{{ $url }}">
-      Borrow Equipment
+      Borrow {{ $type}}
     </a>
   </div>
 </section>
