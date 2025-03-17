@@ -87,8 +87,16 @@ Identify the location where the flow meter will be installed. Refer to the equip
 ### 2. Install Equipment
 
 1. Confirm that the equipment is operational. 
-2.  Some piping systems have a layer of insulation to minimize heat loss. There are scenarios in which the insulation must be cut to install the transducers of the flow meter. <i>Consult with personnel who work in the facility to determine if this is appropriate. See Figure 4 for reference.</i>
-3.  If installing the flow meter is not possible, consider using the pump curve method to determine flow rate of the fluid.
+2. Some piping systems have a layer of insulation to minimize heat loss. There are scenarios in which the insulation must be cut to install the transducers of the flow meter.
+
+{{< admonition type="note" >}}
+Consult with personnel who work in the facility to determine if this is appropriate. See Figure 4 for reference.
+{{< /admonition >}}
+
+{{< admonition type="tip" >}}
+If installing the flow meter is not possible, consider using the pump curve method to determine flow rate of the fluid.
+{{< /admonition >}}
+
 4. Refer to the user manual of the measurement equipment to determine how to install the transducers.
 
 <figure class="figure mb-3 mt-3 mx-auto">
@@ -106,13 +114,13 @@ Identify the location where the flow meter will be installed. Refer to the equip
   <figcaption class="figure-caption text-left">Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System.</figcaption>
 </figure>
 
+{{< admonition type="warning" >}}
+  <b>Do not remove the logger.</b> If you remove it, you may need to start over with the setup and installation process. 
+{{< /admonition >}}
+
 ### 3. Verify Data is Being Collected
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment to do the following:
-
-<div class="alert alert-warning" role="alert">
-  <b>Do not remove the logger.</b> If you remove it, you may need to start over with the setup and installation process. 
-</div>
 
 1. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
 2. Analyze the data with a plot graph. This can be done with the software or Microsoft Excel after exporting the dataset as a .csv file. Please note that the format file may vary based on the measurement equipment.
@@ -138,22 +146,28 @@ After verifying the meter is collecting data do the following:
   <figcaption class="figure-caption text-left">Figure 6. Final data table in .csv format. Data was extracted from the DXN Portable Ultrasonic Measurement System and exported for analysis.</figcaption>
 </figure>
 
-## Troubleshooting Our Measurement Equipment
+### 5. Process and Analyze Measured Data
 
-<strong>Problem 1: </strong>Presence of Turbulence
+Use the collected measurement data in the corresponding calculator file based on the type of component you are measuring:
 
+#### Heat Exchanger
+
+{{< page_hyperlink page_title="Liquid-to-liquid Heat Exchanger" url="/documents/components/liquid-to-liquid-heat-exchanger/#how-to-quantify" >}}
+
+## Troubleshooting
+
+This section provides some troubleshooting tips for the most common issues with equipment installation.
+
+{{< details summary="Presence of turbulence" >}}
 Turbulence occurs when a fluid flows across an obstacle or a sharp corner. It can also occur if the fluid flows at a high speed due to drag forces between the fluid and the piping. The flow meter cannot accurately measure fluid flow if turbulence is present.
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> Install the flow meter away from elbow pipes, as the sharp corner will cause turbulence. A rule of thumb is to place the meter on straight piping at least 10 to 15 pipe diameters away from the elbow.
-</div>
+Install the flow meter away from elbow pipes, as the sharp corner will cause turbulence. A rule of thumb is to place the meter on straight piping at least 10 to 15 pipe diameters away from the elbow.
+{{< /details >}}
 
-<p><strong>Problem 2: </strong>Data Accuracy and Measurement Interferences</p>
-	
-<div class="alert alert-warning" role="alert">  
-<strong>Solution: </strong>Depending on the type of flow measurement (i.e., transit time or doppler), the transducers must be installed in a specific position on the pipe. refer to the user manual for details. For transit time measurements, the transducers must be a certain distance from each other as determined by the size of the pipe. For doppler measurements, the placement of the transducers depends on how much solid material is in the fluid.
+{{< details summary="Data accuracy and measurement interferences" >}}
+Depending on the type of flow measurement (i.e., transit time or doppler), the transducers must be installed in a specific position on the pipe. refer to the user manual for details. For transit time measurements, the transducers must be a certain distance from each other as determined by the size of the pipe. For doppler measurements, the placement of the transducers depends on how much solid material is in the fluid.
 
 Remove any insulation from the pipe and wipe it with a rag to clean the surface.
 
-Couplant is a type of grease that must be applied to the sensor of the transducer. The couplant allows sound to travel faster and is necessary for the flow meter to detect a stronger signal. Without couplant, the sound waves generated by the meter will travel through the air at a slower speed, causing the meter to detect a weaker signal. For more information, refer to the user manual and the resources section of this guide.
-</div>
+Apply couplant to the sensor of the transducer. Couplant is a type of grease that allows sound to travel faster and is necessary for the flow meter to detect a stronger signal. Without couplant, the sound waves generated by the meter will travel through the air at a slower speed, causing the meter to detect a weaker signal. For more information, refer to the equipment user manual.
+{{< /details >}}
