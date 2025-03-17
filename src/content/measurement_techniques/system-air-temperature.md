@@ -29,7 +29,7 @@ The duration of the long-term measurement should be a minimum of six weeks. Meas
 
 Air temperature measurements are <strong>direct measurements</strong> of environmental conditions. 
 
-### Measurement Equipment
+## Measurement Equipment
 
 The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). 
  
