@@ -31,7 +31,7 @@ The duration of the long-term measurement should be a minimum of six weeks. Meas
 
 Measuring pipe surface temperature is a **proxy measurement** of the fluid temperature.
 
-### Measurement Equipment to Use
+## Measurement Equipment
 
 The measurement equipment needed for this procedure is a 4-channel analog logger that is compatible with thermocouple sensors. Thermocouple sensors are specially designed to measure very high temperatures, such as as those within the flue stack of a boiler, and very low temperatures, such as those on the surface of water pipes for a chiller system. Different thermocouple sensors are used to measure hot or cold pipes.
 
