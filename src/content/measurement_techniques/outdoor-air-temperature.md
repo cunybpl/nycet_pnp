@@ -33,27 +33,49 @@ associated_calculations:
 url: "/documents/measurement-technique/outdoor-air-temperature"
 ---
 
-## Understanding Outdoor Air Temperature (OAT) Measurements
+## Understanding Outdoor Air Temperature Measurements
 
-This technique uses weatherproof data loggers to take long-term measurements of the outside air temperature (OAT) (F) at one-hour intervals. This technique can be used to characterize the cooling or heating load for any temperature-dependent system such as chillers, boilers, variable-speed air handling units, and ventilation systems. Accurate measurements can only be taken when data loggers are properly installed.  
+This technique uses weatherproof data loggers to take long-term measurements of the outdoor air (OAT) at one-hour intervals. This technique can be used to characterize the cooling or heating load for any temperature-dependent system such as chillers, boilers, variable-speed air handling units, and ventilation systems. Accurate measurements can only be taken when data loggers are properly installed.  
 
-Measurements should be taken at one-hour intervals to provide insight into the temperature values that are driving the control mechanisms of the building equipment. Pair OAT with other information about the specific system’s operating conditions in order to calculate annual energy consumption. For more information about how this data is used to estimate annual energy consumption, please refer to the calculation methodology of the type of equipment that relies on OAT.
+Measurements should be taken at one-hour intervals to provide insight into the temperature values that are driving the control mechanisms of the building equipment. Pair OAT with other information about the specific system’s operating conditions in order to calculate annual energy consumption.
 
 The duration of the long-term measurement should be a minimum of six weeks with data being collected at one-hour intervals. Measurements should be taken when the system of interest is operating under normal conditions. 
 
+{{< admonition type="note" >}}
+For more information about how this data is used to estimate annual energy consumption, please refer to the calculation methodology of the type of equipment that relies on OAT.
+{{< /admonition >}}
+
 ### Type of Measurement
 
-<strong>Direct</strong>
+Outdoor air temperature measurements are <strong>direct measurements</strong>.
 
-### Measurement Equipment to Use
+### Measurement Equipment
 
-The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger). Refer to the [Fell Catalog](https://nycenergytools.com/equipment/) to identify weatherproof data loggers that measure outside air temperature. The contents of this guide are largely based off of the [Onset Hobo MX2301](https://nycenergytools.com/equipment/temp-rh-mx2301/) logger, which can be found and borrowed through FELL.  
+The measurement equipment needed for this procedure is a temperature logger (or a combined temperature and humidity data logger).
 
-If the logger is installed outdoors, avoid locations with too much sunlight because the logger will measure higher temperatures. Data loggers can be installed inside the ductwork of an air handling unit (AHU) or ventilation system so long as the airstream entering the unit is outside air. The logger must be placed as close as possible to the location where the outside air stream is entering the ductwork. 
+Data loggers can be installed inside the ductwork of an air handling unit (AHU) or ventilation system so long as the airstream entering the unit is outside air. The logger must be placed as close as possible to the location where the outside air stream is entering the ductwork.
 
-The temperature data measured by the logger should be collected as hourly average values--not instantaneously. With this method, the logger will detect temperature fluctuations across the hour and store the average value of those fluctuations, rather than the measured temperature value at a single point in time (which does not account for those changes).  
+{{< admonition type="warning" >}}
+If the logger is installed outdoors, **avoid locations that receive with too much direct sunlight** which can cause the logger to measure higher temperatures.  
+{{< /admonition>}}
 
-Please note that loggers require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging, and that older loggers require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.  
+The temperature data measured by the logger should be collected as **hourly average values--not instantaneously**. With this method, the logger will detect temperature fluctuations across the hour and store the average value of those fluctuations, rather than the measured temperature value at a single point in time (which does not account for those changes).
+
+{{< admonition type="tip" >}}
+**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
+{{< /admonition >}}
+
+This measurement technique makes use of the following equipment available in the [Field Equipment Lending Library](https://nycenergytools.com/equipment/):
+
+<div class="equip-grid">
+
+{{< equipment_link url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Enegry Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files." >}}
+
+</div>
+
+{{< admonition type="note" >}}
+Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
+{{< /admonition >}}
 
 ## Measurement Steps
 
