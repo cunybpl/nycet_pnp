@@ -20,48 +20,48 @@ url: "/documents/components/constant-speed-compressor-and-motor"
 A compressor is one of the main components of a chiller. A constant-speed compressor operates at a
 constant speed to raise the vapor pressure of the refrigerant and power the refrigeration cycle of the chiller. 
 
-<!-- <div class="table-wrapper">
+<div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 1. Plants and systems containing compressors.</caption>
     <thead>
         <tr>
-            <th width="21.964285714285715%">
+            <th>
                 Plant
             </th>
-            <th width="24.285714285714285%">
+            <th>
                 System
             </th>
-            <th width="26.964285714285715%">
+            <th>
                 Component
             </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Air-cooled Chilled Water Plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
+            <td>
                 Air-cooled Chiller
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Chiller Compressor
             </td>
         </tr>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Water-cooled Chilled Water Plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
+            <td>
                 Water-cooled Chiller
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                Chilled Compressor
+            <td>
+                Chiller Compressor
             </td>
         </tr>
     </tbody>
 </table> 
-</div> -->
+</div>
 
 <!-- ## Evaluation of Energy Transfer
 
@@ -85,16 +85,16 @@ The primary energy source for a constant-speed compressor is the electricity use
     </thead>
     <tbody>
         <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Electricity usage of a constant-speed compressor motor
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
+            <td>
                 <ul>
                     <li>Average hourly power input to the compressor motor</li>
                     <li>Average hourly operating time for the compressor motor</li>
                 </ul>
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 <ul>
                     <li><a href="/documents/measurement-technique/true-rms-power">True RMS power</a> of compressor motor that drives the compressor (kW)</li>
                     <li><a href="/documents/measurement-technique/outdoor-air-temperature">Outdoor air temperature (F)</a></li>
@@ -124,7 +124,11 @@ Measurements needed to quantify the annual energy consumption and operating char
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
+{{< measurement_technique measurement_technique_id=4 >}}
+
 {{< measurement_technique measurement_technique_id=6 >}}
+
+{{< measurement_technique measurement_technique_id=8 >}}
 
 ### Measurement Equipment
 
@@ -188,13 +192,23 @@ Measurements needed to quantify the annual energy consumption and operating char
 </table> 
 </div>
 
-### Calculation Methodology
+## Energy Consumption Quantification
 
-The general methodology for quantifying the electricity consumption of a constant-speed compressor and motor involves measuring their electrical energy use. Depending on operational variability, daily or weekly models incorporating cooling load or a proxy (such as outdoor air temperature) may be developed to better characterize consumption. The typical energy use of a constant-speed compressor is estimated using its simulated yearly schedule. A more detailed explanation of the calculation methodology is provided below.
+The primary energy source for a constant-speed compressor is the electricity used to run the compressor motor. The general methodology for quantifying the electricity consumption of a constant-speed compressor and motor involves measuring their electrical energy use. Depending on operational variability, daily or weekly models incorporating cooling load or a proxy (such as outdoor air temperature) may be developed to better characterize consumption. The typical energy use of a constant-speed compressor is estimated using its simulated yearly schedule. A more detailed explanation of the calculation methodology is provided below.
 
-<i>Click the button below to go to the calculators for this component.</i>
+### How to Quantify
 
-{{< calculation_methodology calculation_methodology_id=6 >}}
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for a constant speed compressor and motor:
+
+{{< downloadable_file title="Constant Speed Pump Energy Using Motor Runtime Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed Pump Energy Using kW Data" >}}
+
+{{< downloadable_file title="Constant One or Two Speed Pump Energy Using Electrical Current Data" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculators above see [Pump Motor Energy Consumption](/documents/calculation-methodology/pump-motors-energy-consumption).
+{{< /admonition >}}
 
 ## Further Reading
 
