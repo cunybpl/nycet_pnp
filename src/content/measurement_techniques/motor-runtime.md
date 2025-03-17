@@ -45,7 +45,11 @@ When a motor turns on, it generates a magnetic field. The motor on/off sensor op
 
 {{< admonition type="note" >}}
 A separate data logger should be used for each motor if more than one is measured.
-{{< /admonition >}} 
+{{< /admonition >}}
+
+{{< admonition type="tip" >}}
+**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
+{{< /admonition >}}
 
 The contents of this guide are largely based off the following equipment available in the [Field Equipment Lending Library](https://nycenergytools.com/equipment/):
 
