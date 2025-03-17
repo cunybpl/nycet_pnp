@@ -55,7 +55,7 @@ This measurement technique can makes use of either of the following equipment av
 Please note that loggers will require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging and that older loggers will require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
 {{< /admonition >}} 
 
-## Measurement steps
+## Measurement Procedure
 
 ### 1. Preparation for data acquisition 
 

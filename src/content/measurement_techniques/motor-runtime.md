@@ -47,7 +47,7 @@ When a motor turns on, it generates a magnetic field. The motor on/off sensor op
 
 Please note that loggers require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging, and that older loggers require the use of a cable to connect to a computer.  Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
 
-## Measurement Steps
+## Measurement Procedure
 
 ### 1. Prepare for Data Acquisition
 

@@ -23,19 +23,42 @@ url: "/documents/measurement-technique/pipe-surface-water-temperature"
 
 This technique uses a 4-channel analog logger with a thermocouple sensor to record long-term water temperature (°F) measurements at one-hour intervals. It measures fluid temperature from the surface of a pipe rather than directly in the water stream. The collected data can be used to determine the cooling load and heat rejected by a cooling plant, the heat load delivered by a heating plant, and the heat recovered by an economizer. For more details on how collected data is used for calculations, refer to the calculation methodology of the system being measured. 
 
-Measurements should be taken at one-hour intervals rather than as instantaneous values. When recording hourly measurements, the logger captures multiple temperature readings throughout the hour and stores the average value. Since temperature can fluctuate within an hour, an instantaneous reading may not accurately reflect these variations.  
+Measurements should be taken at **one-hour intervals** rather than as instantaneous values. When recording hourly measurements, the logger captures multiple temperature readings throughout the hour and stores the average value. Since temperature can fluctuate within an hour, an instantaneous reading may not accurately reflect these variations.  
 
 The duration of the long-term measurement should be a minimum of six weeks. Measurements should be taken when the system of interest is operating under normal conditions. 
 
 ### Type of measurement 
 
-<strong>Proxy</strong> 
+Measuring pipe surface temperature is a **proxy measurement** of the fluid temperature.
 
 ### Measurement Equipment to Use
 
-The measurement equipment needed for this procedure is a 4-channel analog logger that is compatible with thermocouple sensors. Thermocouple sensors are specially designed to measure very high temperatures, such as as those within the flue stack of a boiler, and very low temperatures, such as those on the surface of water pipes for a chiller system. Different thermocouple sensors are used to measure hot or cold pipes. Refer to the [FELL catalog](https://nycenergytools.com/equipment/) to identify the correct loggers and sensors for your project. The contents of this guide are largely based off the Onset HOBO UX120-14M logger and the TC6-T sensor, which can be found and borrowed through FELL. 
- 
-For sensors installed at a pipe surface, the sensor must be secured with thermal tape and the pipe surface should be cleaned prior to installation. Please note that loggers require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging, and that older loggers require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.  
+The measurement equipment needed for this procedure is a 4-channel analog logger that is compatible with thermocouple sensors. Thermocouple sensors are specially designed to measure very high temperatures, such as as those within the flue stack of a boiler, and very low temperatures, such as those on the surface of water pipes for a chiller system. Different thermocouple sensors are used to measure hot or cold pipes.
+
+{{< admonition type="tip" >}}
+For sensors installed at a pipe surface, the sensor must be secured with thermal tape and the pipe surface should be cleaned prior to installation.
+{{< /admonition >}} 
+
+{{< admonition type="tip" >}}
+**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
+{{< /admonition >}}
+
+The contents of this guide are largely based off the following equipment available in the [Field Equipment Lending Library](https://nycenergytools.com/equipment/):
+
+<div class="equip-grid">
+
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/4-channel-analog-data-logger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1-300x300.jpg" title="4-Channel Analog Data Logger" excerpt="An analog logger that supports up to four external sensors for measuring temperature, current, voltage, air flow, pressure and more in one single logger." >}}
+
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/thermocouple-sensor/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Type-T-6-ft-Beaded-Thermocouple-Sensor_TC6-T-5-300x225.jpg" title="Thermocouple Sensor" excerpt="Beaded thermocouple probe, teflon-insulated and responsive over a range of -200 to 100℃ (-328 to 212℉) with an initial accuracy of +/- 1.5℃ (+/-2.7℉)." >}}
+
+
+
+
+</div>
+
+{{< admonition type="note" >}}
+Please note that loggers require setup with a computer or phone using the manufacturer’s proprietary software prior to installation and measurement logging, and that older loggers require the use of a cable to connect to a computer. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
+{{< /admonition >}}
 
 ## Measurement steps 
 
