@@ -87,7 +87,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 An example of how to set up the Dent EliteProXC power data logger is shown in the video below.
 
 <iframe class ="video" src="https://www.youtube.com/embed/HS9k_L59IX8?si=u0v1ic6UIHQZa1wm" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 1. How to configure the Dent EliteProXC Power Meter on ELOG software.</figcaption>
+<figcaption class="figure-caption text-left">Video 1. How to configure the Dent EliteProXC Power Meter on ELOG software (6 min).</figcaption>
 
 ### 2. Install Equipment
 
@@ -100,7 +100,7 @@ An example of how to set up the Dent EliteProXC power data logger is shown in th
 This section illustrates the most common wire configurations for a panelboard and how the Dent EliteProXC data logger is connected.  
 
 <iframe class ="video" src="https://www.youtube.com/embed/Fel5t-KzTO0?si=HERY5bBQEBAfEknK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 2. How to install the Dent EliteProXC Power Meter.</figcaption>
+<figcaption class="figure-caption text-left">Video 2. How to install the Dent EliteProXC Power Meter  (6 min).</figcaption>
 
 ### 3. Verify Data is Being Collected
 
@@ -115,7 +115,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 3. Determine whether the results align with the expected operation of the system or component based on observed operational patterns or known equipment schedules.
 
 <iframe class ="video" src="https://www.youtube.com/embed/gbChGMLI7W8?si=2yRIMQ0PCGEJHRpq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 3. How to check data on the power meter using ELOG19.</figcaption>
+<figcaption class="figure-caption text-left">Video 3. How to check data on the power meter using ELOG19  (5 min).</figcaption>
 
 ### 4. Retrieve Measurement Equipment and Download Data
 
@@ -128,7 +128,7 @@ After verifying that the logger is collecting data, do the following:
 5. Download all data from the logger and save the file in the .csv file format for analysis.
 
 <iframe class ="video" src="https://www.youtube.com/embed/fLDJ8E2pa9A?si=E3pn5GmWDnfA0c5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Figure 4. How to extract data from the power meter and convert to .csv on ELOG software.</figcaption>
+<figcaption class="figure-caption text-left">Video 4. How to extract data from the power meter and convert to .csv on ELOG software (4 min).</figcaption>
 
 ### 5. Process and Analyze Measured Data
 
