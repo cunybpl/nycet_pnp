@@ -6,9 +6,9 @@ measurement_technique_id: 3
 excerpt: Use this technique to measure electrical current (Amps) at one-hour intervals with a data logger.
 borrow_equipment_url: "https://nycenergytools.com/equipment/4-channel-analog-data-logger/"
 thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_electrical current MT_thumbnail.jpeg"
-# associated_systems:
-#   - Boiler
-#   - Electrical Distribution
+associated_systems:
+  - Lighting Fixture
+  - Electrical Distribution
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
 related_calculations:
@@ -128,9 +128,9 @@ Use the collected measurement data in the corresponding calculator file based on
 
 #### Fan and Motor
 
-{{< page_hyperlink page_title="Constant-speed, Constant-volume Fan and Motor" url="/documents/components/constant-speed-constant-volume-fan-and-motor/#how-to-quantify" >}}
+{{< page_hyperlink page_title="Lighting Fixture" url="/documents/systems/lighting-fixture/#how-to-quantify" >}}
 
-<!-- Add Others -->
+<!-- Add any others-->
 
 ## Troubleshooting
 
@@ -146,4 +146,4 @@ Confirm that the current rating for the electrical distribution system is within
 
 {{< details summary="CTs Do not fit in panelboard casing" >}}
 If it is safe to do so, trace the wires outside the panelboard and install the sensors there. If this is unsafe or not possible to do, consider seeking the help of a certified electrician.
-{{< /details >}}
+{{< /details >}}  
