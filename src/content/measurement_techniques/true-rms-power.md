@@ -132,7 +132,7 @@ After verifying that the logger is collecting data, do the following:
 
 Use the collected measurement data in the corresponding calculator file based on the type of component you are measuring:
 
-#### Heat Exchangers
+#### Heat Exchanger
 
 {{< page_hyperlink page_title="Air-to-air Heat Exchanger" url="/documents/components/air-to-air-heat-exchanger/#how-to-quantify" >}}
 
@@ -159,6 +159,8 @@ Use the collected measurement data in the corresponding calculator file based on
 {{< page_hyperlink page_title="Electrical Distribution" url="/documents/systems/electrical-distribution/#how-to-quantify" >}}
 
 ## Troubleshooting
+
+This section provides some troubleshooting tips for the most common issues with equipment installation.
 
 {{< details summary="Unexpected Negative Readings" >}}
 Confirm that all current transformers (CTs) are facing the correct direction.

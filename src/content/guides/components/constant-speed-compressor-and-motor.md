@@ -124,13 +124,13 @@ Measurements needed to quantify the annual energy consumption and operating char
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
+{{< measurement_technique measurement_technique_id=6 >}}
+<!-- maybe added in future
 {{< measurement_technique measurement_technique_id=4 >}}
 
-{{< measurement_technique measurement_technique_id=6 >}}
+{{< measurement_technique measurement_technique_id=8 >}} -->
 
-{{< measurement_technique measurement_technique_id=8 >}}
-
-### Measurement Equipment
+<!-- ### Measurement Equipment
 
 <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
@@ -190,7 +190,7 @@ Measurements needed to quantify the annual energy consumption and operating char
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
 ## Energy Consumption Quantification
 

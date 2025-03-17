@@ -69,7 +69,7 @@ This measurement technique makes use of the following equipment available in the
 
 <div class="equip-grid">
 
-{{< equipment_link url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Enegry Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files." >}}
+{{< equipment_link url="https://nycenergytools.com/equipment/temp-rh-mx2301/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5-300x300.jpg" title="Enegry Data Logger" excerpt="Weatherproof data logger that measures and records temperature and relative humidity in outdoor environments. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
 
 </div>
 
@@ -133,17 +133,34 @@ After verifying that the logger is collecting data, do the following:
 <iframe class ="video" src="https://www.youtube.com/embed/sF_c_7LHR5s?si=2Gv23-7aOxzBf51F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 4. How to extract data from the logger and convert to csv on HOBOConnect. (Click to Start Video)</figcaption>
 
+### 5. Process and Analyze Measured Data
 
-## Troubleshooting Our Measurement Equipment
+Use the collected measurement data in the corresponding calculator file based on the type of component you are measuring:
 
-<strong>Problem 1:</strong> Logger is measuring unexpected values
+#### Heat Exchanger
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> If the ambient temperature reading is higher or lower than expected, adjust the placement of the logger.
-</div>
- 
-<strong>Problem 2:</strong> Logger screen is blank
+{{< page_hyperlink page_title="Air-to-air Heat Exchanger" url="/documents/components/air-to-air-heat-exchanger/#how-to-quantify" >}}
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank, try replacing the battery. If it remains blank, reach out to our equipment specialist for a replacement.
-</div>
+#### Compressor and Motor
+
+{{< page_hyperlink page_title="Constant-speed Compressor and Motor" url="/documents/components/constant-speed-compressor-and-motor/#how-to-quantify" >}}
+
+#### Fan and Motor
+
+{{< page_hyperlink page_title="Variable-speed, Variable-volume Fan and Motor" url="/documents/components/variable-speed-variable-volume-fan-and-motor/#how-to-quantify" >}}
+
+#### Pump and Motor
+
+{{< page_hyperlink page_title="Variable-speed, Variable-volume Pump and Motor" url="/documents/components/variable-speed-variable-volume-pump-and-motor/#how-to-quantify" >}}
+
+## Troubleshooting
+
+This section provides some troubleshooting tips for the most common issues with equipment installation. 
+
+{{< details summary="Logger measures unexpected values" >}}
+If the ambient temperature reading is higher or lower than expected, adjust the placement of the logger.
+{{< /details >}}
+
+{{< details summary="Logger screen is blank" >}}
+The logger might have an energy saving feature that conserves battery life by turning off the screen. Try pressing one of the logger buttons or connecting to it with your phone or laptop.​ If the screen remains blank, try replacing the battery. If it remains blank, reach out to our equipment specialist for a replacement.
+{{< /details >}}
