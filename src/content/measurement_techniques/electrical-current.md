@@ -24,9 +24,9 @@ This technique uses a data logger and current transformers to take long-term mea
 
 Data loggers and current sensors use instantaneous measurements of current over the course of an hour to calculate the average amperage. As such, current data should be recorded as hourly average values, not instantaneous. When taking one-hour measurements, the logger detects current over the course of every hour and store that value. Occassionally, current can fluctuate over a one-hour period (motors turn off or change speed), but the instantaneous current value will not indicate that change.  
 
-The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. The best practice is a minimum of **six weeks** with data being collected at **one-hour intervals**; longer measurement periods are encouraged for deeper analysis of the equipment.
+The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. The best practice is a **minimum of six weeks** with data being collected at **one-hour intervals**; longer measurement periods are encouraged for deeper analysis of the equipment.
 
-{{< admonition type="tip" >}}
+{{< admonition type="note" >}}
 Measurements should be taken when the system or component is operating under normal conditions.
 {{< /admonition >}} 
 
@@ -126,7 +126,7 @@ After verifying that the logger is collecting data, do the following:
 
 Use the collected measurement data in the corresponding calculator file based on the type of component you are measuring:
 
-#### Fan and Motor
+#### Lighting
 
 {{< page_hyperlink page_title="Lighting Fixture" url="/documents/systems/lighting-fixture/#how-to-quantify" >}}
 
