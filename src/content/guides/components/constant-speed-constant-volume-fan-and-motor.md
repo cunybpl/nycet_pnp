@@ -189,13 +189,14 @@ Perform the following measurements to quantify the energy consumption and operat
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
-{{< measurement_technique measurement_technique_id=3 >}}
-
 {{< measurement_technique measurement_technique_id=4 >}}
+
+<!-- to be added in future
+{{< measurement_technique measurement_technique_id=3 >}}
 
 {{< measurement_technique measurement_technique_id=6 >}}
 
-{{< measurement_technique measurement_technique_id=8 >}}
+{{< measurement_technique measurement_technique_id=8 >}} -->
 
 ### Measurement Equipment
 

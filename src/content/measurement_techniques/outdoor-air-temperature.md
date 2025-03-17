@@ -69,7 +69,7 @@ This measurement technique makes use of the following equipment available in the
 
 <div class="equip-grid">
 
-{{< equipment_link url="https://nycenergytools.com/equipment/temp-rh-mx2301/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5-300x300.jpg" title="Enegry Data Logger" excerpt="Weatherproof data logger that measures and records temperature and relative humidity in outdoor environments. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/temp-rh-mx2301/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5-300x300.jpg" title="Temp/RH MX2301 Data Logger" excerpt="Weatherproof data logger that measures and records temperature and relative humidity in outdoor environments. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
 
 </div>
 
