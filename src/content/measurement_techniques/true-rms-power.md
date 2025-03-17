@@ -43,7 +43,7 @@ The duration of the long-term measurement and when to measure is dependent on th
 
 ### Type of Measurement
 
-<strong>Electrical energy measurements are direct measurements of energy</strong>, and the obtained data can be used to calculate the annual energy consumption of the system or component.
+Electrical energy measurements are <strong>direct measurements of energy</strong>, and the obtained data can be used to calculate the annual energy consumption of the system or component.
 
 This methodology can also be used as a <strong>proxy measurement</strong> of operational hours of the system or component. Daily or weekly models can be developed to better characterize the equipment. 
 
@@ -57,11 +57,11 @@ The sensors used to measure AC current are known as current transformers. This i
 **If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
 {{< /admonition >}}
 
-This measurement technique can makes use of either of the following equipment available in the [Field Equipment Lending Library](https://nycenergytools.com/equipment/) deadening on the length of time required for the measurement:
+This measurement technique can makes use of either of the following equipment available in the [Field Equipment Lending Library](https://nycenergytools.com/equipment/) depending on the length of time required for the measurement:
 
 <div class="equip-grid">
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Enegry Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files." >}}
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Energy Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements. Requires ELOG19 software and a USB connection cable for programming and downloading data files." >}}
 
 {{< equipment_link type="equip" url="https://nycenergytools.com/equipment/power-quality-clamp-meter/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300.jpeg" title="Power Quality Clamp Meter" excerpt="Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time." >}}
 
@@ -164,14 +164,14 @@ Use the collected measurement data in the corresponding calculator file based on
 
 This section provides some troubleshooting tips for the most common issues with equipment installation.
 
-{{< details summary="Unexpected Negative Readings" >}}
+{{< details summary="Unexpected negative readings" >}}
 Confirm that all current transformers (CTs) are facing the correct direction.
 {{< /details >}}
 
-{{< details summary="Unexpected Low Values" >}}
+{{< details summary="Unexpected low values" >}}
 Confirm that the current rating for the electrical distribution system is within the range of the current rating for the CTs.
 {{< /details >}}
 
-{{< details summary="CTs Do Not Fit in Panelboard Casing" >}}
+{{< details summary="CTs do not fit in panelboard casing" >}}
 If it is safe to do so, trace the wires outside the panel board and install the sensors there. If this is unsafe or not possible to do, consider following an alternative approach of measuring current to the system with either instantaneous true power or nameplate data as a proxy for total power draw and energy consumption.
 {{< /details >}}
