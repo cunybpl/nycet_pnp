@@ -69,7 +69,7 @@ This measurement technique makes use of the following equipment available in the
 
 <div class="equip-grid">
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/temp-rh-mx2301/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5-300x300.jpg" title="Temp/RH MX2301 Data Logger" excerpt="Weatherproof data logger that measures and records temperature and relative humidity in outdoor environments. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/temp-rh-mx2301/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5-300x300.jpg" title="MX2301 Data Logger" excerpt="Weatherproof data logger that measures and records temperature and relative humidity in outdoor environments. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
 
 </div>
 
@@ -108,9 +108,9 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following: 
 
-<div class="alert alert-warning" role="alert">
+{{< admonition type="warning" >}}
 <strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
-</div>
+{{< /admonition >}}
 
 1. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.
