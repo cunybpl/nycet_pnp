@@ -25,25 +25,47 @@ This technique uses a flow meter to measure the flow rate of a fluid within a pi
 
 This measurement technique is preferred over the **pump curve method** because it measures flow rate directly and removes the need for additional calculations. The pump curve method requires the differential pressure between the discharge and suction of all pumps for a water loop system and the technical specifications of all pumps.
 
-However, a major challenge with this technique is that measurements must be taken on a straight pipe; the flow meter should not be installed near elbows or T-shaped pipes. Additionally, piping systems are typically covered with thick layers of insulation to minimize heat losses. To install the flow meter, the insulation must be cut and removed (Figure 2). CUNY BPL recommends conducting a site survey to examine the piping system in the facility and determine whether taking a direct flow measurement is possible.
+However, a major challenge with this technique is that measurements must be taken on a straight pipe; the flow meter should not be installed near elbows or T-shaped pipes. Additionally, piping systems are typically covered with thick layers of insulation to minimize heat losses. To install the flow meter, the insulation must be cut and removed (Figure 2). 
 
-Measurements should be taken at one-hour intervals; not instantaneously. When taking one-hour measurements, the flow meter detects the flow several times every hour and stores the average value. Sometimes flow can fluctuate over a one-hour period, and the instantaneous flow value will not indicate that change.
+{{< admonition type="tip" >}}
+Conduct a site survey to examine the piping system in the facility and determine whether taking a direct flow measurement is possible.
+{{< /admonition >}} 
+
+Measurements should be taken at **one-hour intervals**; not instantaneously. When taking one-hour measurements, the flow meter detects the flow several times every hour and stores the average value. Sometimes flow can fluctuate over a one-hour period, and the instantaneous flow value will not indicate that change.
 
 The duration of the long-term measurement and when to measure is dependent on the system and the operation of the building. For water loop systems that operate year-round and are driven by outside air temperature (F), one full year of measurement (12 consecutive months, 52 consecutive weeks, or 365 consecutive days) is required for the baseline and one full year for the reporting period. For water loop systems that operate during a particular season, the full season must be measured for the baseline and reporting periods. For water loop systems that are not driven by OAT, it is recommended to measure flow rate for a minimum of six weeks. Measurements should be taken when the system or component is operating under normal conditions. 
 
 ### Type of Measurement
 
-<strong>Direct</strong>
+Measuring water flow rate is a **direct measurement**.
 
-### Measurement Equipment to Use
+## Measurement Equipment
 
-The measurement equipment needed for this procedure is an ultrasonic flow meter. Flow meters work by emitting ultrasonic sounds from the transducers to the pipe surface and into the fluid. Transducers operate in sets of two, and both transducers act as transmitters and receivers of ultrasonic sound. The time it takes for sound to travel from one transducer to the other is called transit time. Flow rate is calculated by the meter using the transit time. This is the commonly used method to measure water or other liquids in a pipe. Refer to the [NYC Energy Tools catalog](https://nycenergytools.com/equipment/?_search_equipment=flow%20meter) to identify the correct flow meters for your project. The sensors of the ultrasonic flow meters available are clamp-on so there is no need to drill into the piping. By default, some flow meters are set to measure the properties of water. If glycol or other liquids will be measured, refer to the user manual and change the settings of the meter to measure the fluid in the system. The contents of this guide are largely based off the [DXN Portable Ultrasonic Measurement System](https://nycenergytools.com/equipment/ultrasonic-flow-meter-dxnp/), which can be found and borrowed through the NYC Energy Tools field equipment library.
+The measurement equipment needed for this procedure is an ultrasonic flow meter. Flow meters work by emitting ultrasonic sounds from the transducers to the pipe surface and into the fluid. Transducers operate in sets of two, and both transducers act as transmitters and receivers of ultrasonic sound. The time it takes for sound to travel from one transducer to the other is called transit time. Flow rate is calculated by the meter using the transit time. This is the commonly used method to measure water or other liquids in a pipe.
+
+{{< admonition type="tip" >}}
+To ensure proper installation and avoid signal interference or data loss, install the flow meter on a straight section of pipe, positioned at least 10 to 15 times the pipe’s external diameter away from an elbow.
+{{< /admonition >}}
 
 Certain fluids contain moving particles, such as bubbles or solid material. To accurately measure the flow rate of these fluids, some flow meters measure the transit time using the doppler effect. The moving particles in the fluid cause the ultrasonic sound to shift in frequency (Hz), and the shift in frequency is directly related to the speed of the moving particles. Transducers used in this scenario are known as doppler transducers.
 
-To ensure proper installation and avoid signal interference or data loss, manufacturers such as Instruments Direct Inc. recommend installing the flow meter on a straight section of pipe, positioned at least 10 to 15 times the pipe’s external diameter away from an elbow.
+{{< admonition type="tip" >}}
+**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the [Field Equipment Lending Library](https://nycenergytools.com/equipment/).
+{{< /admonition >}}
 
-Please note that certain flow meters offered at the FELL require setup with a computer or phone using the manufacturer’s proprietary software prior to installation. Refer to the measurement equipment’s user manual for a detailed description of setup requirements. 
+The available ultrasonic flow meter sensors are clamp-on so there is no need to drill into the piping. By default, some flow meters are set to measure the properties of water. If glycol or other liquids will be measured, refer to the user manual and change the settings of the meter to measure the fluid in the system.
+
+The contents of this guide are largely based off the following equipment available in the [Field Equipment Lending Library](https://nycenergytools.com/equipment/):
+
+<div class="equip-grid">
+
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/ultrasonic-flow-meter-dxnp" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/DXN-1.jpg" title="Ultrasonic Flow Meter" excerpt="Allows measurement of flows throughout the plumbing infrastructure without intrusion." >}}
+
+</div>
+
+{{< admonition type="note" >}}
+Please note that certain flow meters offered require setup with a computer or phone using the manufacturer’s proprietary software prior to installation. Refer to the measurement equipment’s user manual for a detailed description of setup requirements.
+{{< /admonition >}}
 
 ## Measurement Steps
 
@@ -58,8 +80,8 @@ Identify the location where the flow meter will be installed. Refer to the equip
 - Confirm if properties of fluid matches with the fluid to be measured
 
 <figure class="figure mb-3 mt-3 mx-auto">
-  <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 1.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed.">
-  <figcaption class="figure-caption text-left">Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed.</figcaption>
+    <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 1.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed.">
+    <figcaption class="figure-caption text-left">Figure 1. Piping covered with insulation for a cooling plant. This is the location where the ultrasonic flow meter will be installed.</figcaption>
 </figure>
 
 ### 2. Install Equipment

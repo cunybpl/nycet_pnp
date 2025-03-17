@@ -570,24 +570,24 @@ th {
   max-width: 80vw !important;
 }
 
+a > figure::after {
+  content: '\f065';
+  font-family: 'FontAwesome';
+  font-size: 1.2rem;
+  color: #fff;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background-color: #00000082;
+  padding: 0.5rem;
+  border-radius: 4px;
+  line-height: 1;
+  font-weight: bold;
+}
+
 figure {
   margin-top: 1rem;
   position: relative;
-
-  &::after {
-    content: '\f065';
-    font-family: 'FontAwesome';
-    font-size: 1.2rem;
-    color: #fff;
-    position: absolute;
-    top: 6px;
-    right: 6px;
-    background-color: #00000082;
-    padding: 0.5rem;
-    border-radius: 4px;
-    line-height: 1;
-    font-weight: bold;
-  }
 }
 
 figure + p,
