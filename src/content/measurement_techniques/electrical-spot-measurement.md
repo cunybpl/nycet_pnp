@@ -29,7 +29,7 @@ url: "/documents/measurement-technique/electrical-spot-measurement"
 
 ## Understanding Electrical Spot Measurements
 
-This technique uses a handheld power meter to take one-time measurements of true RMS power draw (kW) at an electrical distribution system, such as a panelboard, power panel, or switchgear. One-time measurements provide a snapshot of power draw, voltage, current, and power factor for a system or component, such as lighting fixtures, chillers, and fan or pump motors. This technique is commonly used for loads with a constant power draw, including constant-speed fans, pumps, and certain lighting fixture systems.
+This technique uses a handheld power meter to take one-time measurements of various electrical properties such as true RMS power, voltage, current, and power factor. Measurements are taken at the electrical distribution systems such as the panel board, power panel or switchgear. One-time measurements provide a snapshot of power draw, voltage, current, and power factor for a system or component, such as lighting fixtures, chillers, and fan or pump motors. This technique is commonly used for loads with a constant power draw, including constant-speed fans, pumps, and certain lighting fixture systems.
 
 {{< admonition type="note" >}}
 If power draw changes over time, use a data logger to take direct measurements of [electrical energy consumption](/documents/measurement-technique/electrical-current).
@@ -71,7 +71,7 @@ Please note that some power meters can log data for a short amount of time or ta
 
 ### 1. Prepare for Data Acquisition
 
-The following sections discusses the most common wire configurations found in a distribution system and assume a handheld power meter is being used, for details on how to install data loggers refer to the <strong>True RMS Energy guide.</strong>  
+The following sections discusses the most common wire configurations found in a distribution system and assume a handheld power meter is being used, for details on how to install data loggers refer to the [True RMS Power measurement technique](/documents/measurement-technique/true-rms-power).</strong>  
 
 Values to measure:  
 
