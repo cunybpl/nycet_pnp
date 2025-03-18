@@ -15,9 +15,9 @@ url: "/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer
 
 This calculation methodology is based on the 2020 ASHRAE Handbook – Systems and Equipment, Chapter 26. This methodology assumes that the air handling unit (AHU) uses a variable speed supply fan, and that the energy recovery component is a rotary wheel.
 
-### Calculators
+### Calculator
 
-The corresponding calculator is used to estimate a full year of sensible and latent heat transfer in an energy recovery ventilation (ERV) system:
+The following calculator is used to estimate a full year of sensible and latent heat transfer in an energy recovery ventilation (ERV) system:
 
 {{< downloadable_file title="Air-to-air Heat Transfer" >}}
 

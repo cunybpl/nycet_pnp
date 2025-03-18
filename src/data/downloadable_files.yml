@@ -37,6 +37,7 @@ files:
 # Fan Calculators
   - name: Constant Speed Fan Energy Using Motor Runtime Data
     description: Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV single-speed fan motor.
+    more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format. 
     filename: cscv_single_speed_fan_energy_calculator_2023_0214.xlsx
     url: https://www.dropbox.com/scl/fi/1wpca3p4z2m76j630zkkj/cscv_fan_single_speed_runtime_data_calculator_2023_0214.xlsx?rlkey=a0b8if3uu60txwvmom4hntdlv&st=y5neyhsx&dl=1
 
