@@ -182,6 +182,10 @@ Perform the following measurements to quantify the annual heat transfer and oper
 
 {{< measurement_technique measurement_technique_id=16 >}}
 
+If **direct measurement of water flow rate** is not possible, use the following measurement as proxy:
+
+{{< measurement_technique measurement_technique_id=12 >}}
+
 ### Measurement Equipment
 
 **If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
