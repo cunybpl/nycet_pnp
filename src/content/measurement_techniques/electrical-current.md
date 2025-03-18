@@ -54,7 +54,7 @@ The contents of this guide are largely based off the following equipment availab
 
 {{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/4-channel-analog-data-logger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1-300x300.jpg" title="4-channel analog logger" excerpt="Standalone data logger that monitors a motor’s on and off conditions using an internal AC magnetic field sensor." >}}
 
-{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/?_search_equipment=split%20core" imgUrl="https://nycenergytools.com/wp-content/uploads/2025/03/split-cire_cts.jpg" title="Split-Core AC Current Transformer" excerpt="Standalone data logger that monitors a motor’s on and off conditions using an internal AC magnetic field sensor." >}}
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/?_search_equipment=split%20core" imgUrl="https://nycenergytools.com/wp-content/uploads/2025/03/split-cire_cts.jpg" title="Split-Core AC Current Transformers" excerpt="Standalone data logger that monitors a motor’s on and off conditions using an internal AC magnetic field sensor." >}}
 
 </div>
 

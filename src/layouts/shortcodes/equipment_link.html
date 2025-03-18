@@ -20,7 +20,7 @@
           <span class="chip content-chip px-3 py-2">{{ $label }}</span>
         </h5>
         <p class="mb-0 content-card-excerpt">
-          {{ $excerpt | truncate 250 }}
+          {{ $excerpt | truncate 250 | .Page.RenderString }}
         </p>
       </div>
     </div>

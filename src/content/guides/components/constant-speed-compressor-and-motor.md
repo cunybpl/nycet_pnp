@@ -130,6 +130,20 @@ Measurements needed to quantify the annual energy consumption and operating char
 
 {{< measurement_technique measurement_technique_id=8 >}} -->
 
+### Measurement Equipment
+
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/air-to-air-heat-exchanger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Air-to-Air Heat Exchanger" excerpt="Use this kit to assess the heat transfer of a rotary wheel air-to-air heat exchanger." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install the equipment used in the measurements above, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
+
 <!-- ### Measurement Equipment
 
 <div class="table-wrapper">

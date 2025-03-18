@@ -187,14 +187,28 @@ Perform the following measurements to quantify the energy consumption and operat
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
+{{< measurement_technique measurement_technique_id=6 >}}
+
+{{< measurement_technique measurement_technique_id=8 >}}
+
 <!-- These appear to not be needed -->
 <!-- {{< measurement_technique measurement_technique_id=3 >}}
 
 {{< measurement_technique measurement_technique_id=4 >}} -->
 
-{{< measurement_technique measurement_technique_id=6 >}}
+### Measurement Equipment
 
-{{< measurement_technique measurement_technique_id=8 >}}
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/fan-and-motor-kit-variable-speed/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Fan and Motor (Variable-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a variable-speed, variable-volume fan and motor." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install measurement equipment, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
 
 <!-- ### Measurement Equipment
 

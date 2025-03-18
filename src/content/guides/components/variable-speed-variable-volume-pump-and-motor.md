@@ -236,6 +236,20 @@ Perform the following measurements to quantify the energy consumption and operat
 
 ### Measurement Equipment
 
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/pump-and-motor-kit-variable-speed/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Pump and Motor (Variable-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a variable-speed, variable-volume pump and motor." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install measurement equipment, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
+
+<!-- ### Measurement Equipment
+
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
 <div class="table-wrapper">
@@ -293,7 +307,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
 ## Energy Consumption Quantification
 

@@ -63,6 +63,8 @@ This measurement technique can makes use of either of the following equipment av
 
 {{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Energy Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements." >}}
 
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/?_search_equipment=split%20core" imgUrl="https://nycenergytools.com/wp-content/uploads/2025/03/split-cire_cts.jpg" title="Split-Core AC Current Transformers" excerpt="Standalone data logger that monitors a motor’s on and off conditions using an internal AC magnetic field sensor." >}}
+
 {{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/power-quality-clamp-meter/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300.jpeg" title="Power Quality Clamp Meter" excerpt="Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time." >}}
 
 </div>

@@ -176,7 +176,7 @@ The measurement strategy for a liquid-to-liquid heat exchanger involves measurin
 
 ### What and How to Measure
 
-Perform the following measurements to quantify the annual energy consumption and operating characteristics of an liquid-to-liquid heat exchanger:
+Perform the following measurements to quantify the annual heat transfer and operating characteristics of a liquid-to-liquid heat exchanger:
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
@@ -185,6 +185,20 @@ Perform the following measurements to quantify the annual energy consumption and
 {{< measurement_technique measurement_technique_id=16 >}}
 
 ### Measurement Equipment
+
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/liquid-to-liquid-heat-exchanger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Liquid-to-Liquid Heat Exchanger" excerpt="Use this kit to assess the heat transfer of a **plate and frame** liquid-to-liquid heat exchanger." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install measurement equipment, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
+
+<!-- ### Measurement Equipment
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
@@ -268,7 +282,7 @@ Table 3 provides the equipment required to carry out the measurements of this co
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
 ## Energy Consumption Quantification
 
