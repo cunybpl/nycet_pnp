@@ -55,9 +55,9 @@ The contents of this guide are largely based off the following equipment availab
 
 <div class="equip-grid">
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/power-quality-clamp-meter/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300.jpeg" title="Clamp Meter" excerpt="Measures Power factor (PF), Reactive Power (VAR), Watt Hours (Wh), Kilowatt hours (kWh), AC Current, AC Voltage and more." >}}
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/power-quality-clamp-meter/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300.jpeg" title="Clamp Meter" excerpt="Measures Power factor (PF), Reactive Power (VAR), Watt Hours (Wh), Kilowatt hours (kWh), AC Current, AC Voltage and more." >}}
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/power-quality-clamp-meter-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2022/07/Power-Quality-Clamp-Meter-PQ2071-300x300.jpeg" title="Power Quality Clamp Meter" excerpt="Measures Power factor (PF), Reactive Power (VAR), Watt Hours (Wh), Kilowatt hours (kWh), AC Current, AC Voltage and more." >}}
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/power-quality-clamp-meter-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2022/07/Power-Quality-Clamp-Meter-PQ2071-300x300.jpeg" title="Power Quality Clamp Meter" excerpt="Measures Power factor (PF), Reactive Power (VAR), Watt Hours (Wh), Kilowatt hours (kWh), AC Current, AC Voltage and more." >}}
 
 </div>
 

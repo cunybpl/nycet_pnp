@@ -153,6 +153,27 @@ Perform the following measurements to quantify the annual energy consumption and
 
 {{< measurement_technique measurement_technique_id=8 >}}
 
+
+### Measurement Equipment
+
+The following equipment is used in the measurement techniques above. Refer to each measurement technique for details on how to use, install and obtain measurements from the equipment.
+
+<div class="equip-grid">
+
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Energy Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements." >}}
+
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/power-quality-clamp-meter/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300.jpeg" title="Power Quality Clamp Meter" excerpt="Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time." >}}
+
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/temp-rh-mx2301/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5-300x300.jpg" title="MX2301 Data Logger" excerpt="Weatherproof data logger that measures and records temperature and relative humidity in outdoor environments. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
+
+{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/temp-rh-logger-mx1101/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX1101-5-300x300.jpg" title="MX1101 Data Logger" excerpt="Measures and records temperature and relative humidity. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the Field Equipment Lending Library (FELL). See each [measurement technique](#what-to-measure) for specific equipment you can borrow form FELL.
+{{< /admonition >}}
+
 <!-- ### Measurement Equipment
 
 Table 3 provides the equipment required to carry out the measurements of this component. 

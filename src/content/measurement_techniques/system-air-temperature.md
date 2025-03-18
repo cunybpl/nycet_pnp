@@ -47,7 +47,7 @@ This measurement technique can makes use of either of the following equipment av
 
 <div class="equip-grid">
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/temp-rh-logger-mx1101/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX1101-5-300x300.jpg" title="MX1101 logger" excerpt="Measures and records temperature and relative humidity. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/temp-rh-logger-mx1101/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX1101-5-300x300.jpg" title="MX1101 Data Logger" excerpt="Measures and records temperature and relative humidity. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
 
 </div>
 

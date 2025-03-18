@@ -47,9 +47,9 @@ The contents of this guide are largely based off the following equipment availab
 
 <div class="equip-grid">
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/4-channel-analog-data-logger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1-300x300.jpg" title="4-Channel Analog Data Logger" excerpt="An analog logger that supports up to four external sensors for measuring temperature, current, voltage, air flow, pressure and more in one single logger." >}}
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/4-channel-analog-data-logger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/4-channel-logger-1-300x300.jpg" title="4-Channel Analog Data Logger" excerpt="An analog logger that supports up to four external sensors for measuring temperature, current, voltage, air flow, pressure and more in one single logger." >}}
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/thermocouple-sensor/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Type-T-6-ft-Beaded-Thermocouple-Sensor_TC6-T-5-300x225.jpg" title="Thermocouple Sensor" excerpt="Beaded thermocouple probe, teflon-insulated and responsive over a range of -200 to 100℃ (-328 to 212℉) with an initial accuracy of +/- 1.5℃ (+/-2.7℉)." >}}
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/thermocouple-sensor/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Type-T-6-ft-Beaded-Thermocouple-Sensor_TC6-T-5-300x225.jpg" title="Thermocouple Sensor" excerpt="Beaded thermocouple probe, teflon-insulated and responsive over a range of -200 to 100℃ (-328 to 212℉) with an initial accuracy of +/- 1.5℃ (+/-2.7℉)." >}}
 
 </div>
 

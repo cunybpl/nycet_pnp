@@ -1,5 +1,6 @@
 <section class="card card-block equip-card">
   {{ $label := "" }}
+  {{ $borrow := .Get "borrow" }}
   {{ $url := .Get "url" }}
   {{ $imgUrl := .Get "imgUrl"}}
   {{ $title := .Get "title" }}
@@ -23,8 +24,11 @@
         </p>
       </div>
     </div>
+    {{ if eq $borrow "yes"}}
     <a class="btn btn-primary" href="{{ $url }}">
       Borrow {{ $label }}
     </a>
+    {{ else if eq $borrow "no"}}
+    {{ end }}
   </div>
 </section>

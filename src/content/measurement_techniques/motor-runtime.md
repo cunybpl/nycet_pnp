@@ -55,7 +55,7 @@ The contents of this guide are largely based off the following equipment availab
 
 <div class="equip-grid">
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004-300x300.jpg" title="Motor runtime logger" excerpt="Standalone data logger that monitors a motor’s on and off conditions using an internal AC magnetic field sensor." >}}
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/motor-on-off-logger-ux90-004/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/04/HOBO-UX90-Motor-On-Off-Logger_UX90-004-300x300.jpg" title="Motor runtime logger" excerpt="Standalone data logger that monitors a motor’s on and off conditions using an internal AC magnetic field sensor." >}}
 
 </div>
 

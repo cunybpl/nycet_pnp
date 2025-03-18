@@ -59,7 +59,7 @@ The contents of this guide are largely based off the following equipment availab
 
 <div class="equip-grid">
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/ultrasonic-flow-meter-dxnp" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/DXN-1.jpg" title="Ultrasonic Flow Meter" excerpt="Allows measurement of flows throughout the plumbing infrastructure without intrusion." >}}
+{{< equipment_link borrow="yes" type="equip" url="https://nycenergytools.com/equipment/ultrasonic-flow-meter-dxnp" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/DXN-1.jpg" title="Ultrasonic Flow Meter" excerpt="Allows measurement of flows throughout the plumbing infrastructure without intrusion." >}}
 
 </div>
 
