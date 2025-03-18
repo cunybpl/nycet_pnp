@@ -12,6 +12,8 @@ related_systems:
   - Waterside Economizer
 associated_components:
   - Liquid-to-liquid Heat Exchanger
+related_calculations:
+  - Liquid-to-liquid Heat Exchanger Heat Transfer
 url: "/documents/measurement-technique/water-pressure-and-pump-curve"
 ---
 
