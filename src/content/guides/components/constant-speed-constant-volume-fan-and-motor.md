@@ -325,9 +325,9 @@ The following downloadable file(s) can be used to calculate energy consumption b
 
 {{< downloadable_file title="Constant One or Two Speed Fan Energy using kW Data" >}}
 
-{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Electrical Current Data" >}}
+<!-- {{< downloadable_file title="Constant One or Two Speed Fan Energy Using Electrical Current Data" >}}
 
-{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Motor Speed Data" >}}
+{{< downloadable_file title="Constant One or Two Speed Fan Energy Using Motor Speed Data" >}} -->
 
 {{< admonition type="note" >}}
 For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
@@ -339,7 +339,7 @@ For more details about the methodology behind the calculators above see the [Fan
 
 {{< downloadable_file title="Constant One or Two Speed CT Fan Energy Using kW Data" >}}
 
-{{< downloadable_file title="Constant One or Two Speed CT Fan Energy Using Electrical Current Data" >}}
+<!-- {{< downloadable_file title="Constant One or Two Speed CT Fan Energy Using Electrical Current Data" >}} -->
 
 {{< admonition type="note" >}}
 For more details about the methodology behind the calculators above see [Cooling Tower Fans Energy Consumption](/documents/calculation-methodology/cooling-tower-fans-energy-consumption).

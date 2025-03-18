@@ -15,9 +15,13 @@ url: "/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer
 
 This calculation methodology is based on the 2020 ASHRAE Handbook – Systems and Equipment, Chapter 26. This methodology assumes that the air handling unit (AHU) uses a variable speed supply fan, and that the energy recovery component is a rotary wheel.
 
+### Calculators
+
 The corresponding calculator is used to estimate a full year of sensible and latent heat transfer in an energy recovery ventilation (ERV) system:
 
 {{< downloadable_file title="Air-to-air Heat Transfer" >}}
+
+### Measurements
 
 This methodology works with hourly data only and each measurement is taken at the start of the hour for a minimum duration of six weeks. If the ERV system is used during both the heating and cooling seasons, then six weeks of data per season is needed. Data is used to calculate heat transfer for the measurement period first, then is extrapolated to a full year. Measured data is obtained via the following measurement techniques:  
 
