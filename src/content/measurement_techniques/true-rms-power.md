@@ -77,7 +77,9 @@ Please note that loggers will require setup with a computer or phone using the m
 
 ### 1. Prepare for Data Acquisition
 
-The following sections assume a data logger is being used. For details on measurement with a power meter, refer to the <strong>One-time true RMS power</strong> guide. 
+{{< admonition type="note" >}}
+The following sections assume a data logger is being used. For details on measurement with a power meter, refer to the [Electrical Spot measurement technique](/documents/measurement-technique/electrical-spot-measurement). 
+{{< /admonition >}}
 
 Use the manufacturer’s software to set up and launch the logger(s). Refer to the equipment’s user manual for detailed instructions on how to set up the logger. 
 
