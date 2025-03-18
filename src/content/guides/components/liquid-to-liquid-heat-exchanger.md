@@ -178,8 +178,6 @@ The measurement strategy for a liquid-to-liquid heat exchanger involves measurin
 
 Perform the following measurements to quantify the annual heat transfer and operating characteristics of a liquid-to-liquid heat exchanger:
 
-{{< measurement_technique measurement_technique_id=1 >}}
-
 {{< measurement_technique measurement_technique_id=11 >}}
 
 {{< measurement_technique measurement_technique_id=16 >}}

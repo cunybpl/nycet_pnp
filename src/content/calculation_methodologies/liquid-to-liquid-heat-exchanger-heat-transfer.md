@@ -27,9 +27,7 @@ This methodology is applicable for systems that have liquid-to-liquid heat excha
     </figure>
 </a>
 
-This methodology works with hourly data only and each measurement is taken at the start of the hour. If the system operates seasonally, measurements should be taken for the duration of the season at one-hour intervals. If the system is not weather dependent, then a minimum of six (6) weeks of hourly data is required for this methodology to work. 
-
-## Calculator
+<!-- ## Calculator
 
 <div class="table-wrapper">
 <table>
@@ -63,11 +61,27 @@ This methodology works with hourly data only and each measurement is taken at th
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
 ## Heat-transfer Calculation
 
-The following equations are used to calculate the sensible heat transferred by the heat exchanger for a full year. All data used in this section should be measured with data loggers. A list of data that is required is summarized in Table 1.
+This methodology works with hourly data only and each measurement is taken at the start of the hour. If the system operates seasonally, measurements should be taken for the duration of the season at one-hour intervals. If the system is not weather dependent, then a minimum of six (6) weeks of hourly data is required for this methodology to work. 
+
+### Calculator
+
+{{< downloadable_file title="Liquid-to-liquid Heat Transfer" >}}
+
+### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=11 >}}
+
+{{< measurement_technique measurement_technique_id=16 >}}
+
+### Methodology
+
+The following equations are used to calculate the sensible heat transferred by the heat exchanger for a full year. All data used in this section should be measured with data loggers per the [measurements techniques](#measurements) above. 
 
 <div class="table-wrapper">
 <table>
