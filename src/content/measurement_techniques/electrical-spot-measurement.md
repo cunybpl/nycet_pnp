@@ -47,7 +47,7 @@ Electrical distribution systems can have different configurations, such as three
 
 This is a **proxy measurement** of electrical energy consumption of a system or component. Energy consumption is calculated with true RMS power draw and the runtime (operating schedule) of the system or component. 
 
-### Measurement Equipment to Use
+## Measurement Equipment
 
 The measurement equipment needed for this procedure is a handheld power meter with a current transformer and voltage cables. A power meter typically measures AC voltage, current, and power factor, and can display all values simultaneously. 
 
@@ -67,7 +67,7 @@ While some power meters can measure true three-phase power by measuring each pha
 Please note that some power meters can log data for a short amount of time or take a screen shot of the measurements while the meter is connected to the load. Taking a picture with a phone is another option for saving measurement data.
 {{< /admonition >}}
 
-## Measurement Steps
+## Measurement Procedure
 
 ### 1. Prepare for Data Acquisition
 
@@ -132,6 +132,30 @@ For the connection illustrated in Figure 3, this power meter can only measure li
   <img src="/images/measurement-technique/electrical-spot-measurement/rms-figure6.png" class="figure-img img-fluid rounded" alt="Figure 6: Three-phase, four wire (wye) power measurement connections using the Extech Instruments Clamp meter, model PQ2071.">
   <figcaption class="figure-caption text-left">Figure 5: Three-phase, four wire (wye) power measurement connections using the Extech Instruments Clamp meter, model PQ2071.</figcaption>
 </figure>
+
+### 3. Process and Analyze Measured Data
+
+Use the collected measurement data in the corresponding calculator file based on the type of component you are measuring:
+
+#### Lighting
+
+{{< page_hyperlink page_title="Lighting Fixture" url="/documents/systems/lighting-fixture/#how-to-quantify" >}}
+
+#### Fan and Motor
+
+{{< page_hyperlink page_title="Constant-speed, Constant-volume Fan and Motor" url="/documents/components/constant-speed-constant-volume-fan-and-motor/#how-to-quantify" >}}
+
+{{< page_hyperlink page_title="Variable-speed, Variable-volume Fan and Motor" url="/documents/components/variable-speed-variable-volume-fan-and-motor/#how-to-quantify" >}}
+
+#### Pump and Motor
+
+{{< page_hyperlink page_title="Constant-speed, Constant-volume Pump and Motor" url="/documents/components/constant-speed-constant-volume-pump-motor/#how-to-quantify" >}}
+
+{{< page_hyperlink page_title="Variable-speed, Variable-volume Pump and Motor" url="/documents/components/variable-speed-variable-volume-pump-and-motor/#how-to-quantify" >}}
+
+#### Compressor and Motor
+
+{{< page_hyperlink page_title="Constant-speed Compressor and Motor" url="/documents/components/constant-speed-compressor-and-motor/#how-to-quantify" >}}
 
 ## Troubleshooting
 
