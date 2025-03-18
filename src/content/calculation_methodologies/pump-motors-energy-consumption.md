@@ -20,7 +20,7 @@ This methodology applies to pump motors that operate at constant or variable spe
     
 The type of data that is measured from the pump motor will determine the calculator to use. For more information on the type of data to collect, refer to table 1 in the next section.
 
-## Calculators
+<!-- ## Calculators
 
 <div class="table-wrapper">
 <table>
@@ -109,7 +109,7 @@ The type of data that is measured from the pump motor will determine the calcula
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
 ## Pump Motor Calculations
 
