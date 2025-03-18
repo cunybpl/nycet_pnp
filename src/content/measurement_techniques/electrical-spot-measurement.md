@@ -90,9 +90,11 @@ Values to measure:
 An example of how to connect the Fluke 345 PQ Clamp Meter is shown below
 
 <iframe class="video" src="https://www.youtube.com/embed/FaWG8QRf7pE?si=mAjHxyWZ5hJOPmNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<figcaption class="figure-caption text-left">Video 1. How to install the fluke 345 PQ clamp meter.</figcaption> 
+<figcaption class="figure-caption text-left">Video 1. How to install the fluke 345 PQ clamp meter (1 min).</figcaption> 
 
-Some power meters offered through FELL can measure three-phase power with different calculation methods. Carefully read the user manual of the power meter to identify the calculations used to estimate three-phase power.
+{{< admonition type="note" >}}
+Some power meters can measure three-phase power with different calculation methods. Carefully read the user manual of the power meter to identify the calculations used to estimate three-phase power.
+{{< /admonition >}}
 
 #### Single-phase Wire Configurations
 
@@ -117,7 +119,9 @@ For a three-phase distribution system, there are two common wire configurations:
   <figcaption class="figure-caption text-left">Figure 3. Three-phase power measurement using the Fluke 345 Power Quality Clamp Meter. Image courtesy of Fluke Corporation.</figcaption>
 </figure>
 
+{{< admonition type="note" >}}
 For the connection illustrated in Figure 3, this power meter can only measure line-to-line voltage of two phases and the current of the third phase to estimate True RMS power.
+{{< /admonition >}}
 
 <figure class="figure">
   <img src="/images/measurement-technique/electrical-spot-measurement/rms-figure5.png" class="figure-img img-fluid rounded" alt="Figure 5. Three-phase, three wire (delta) power measurement connections using the Extech Instruments Clamp meter, model PQ2071.">
@@ -129,31 +133,24 @@ For the connection illustrated in Figure 3, this power meter can only measure li
   <figcaption class="figure-caption text-left">Figure 5: Three-phase, four wire (wye) power measurement connections using the Extech Instruments Clamp meter, model PQ2071.</figcaption>
 </figure>
 
-## Troubleshooting Our Measurement Equipment
+## Troubleshooting
 
-<strong>Problem 1:</strong> It can be difficult or confusing to know how to connect a power meter to a panelboard because panelboards can have many different colored wires. Older panelboards might not have clear or accurate labeling at the circuit breakers, making it challenging to make proper connections.
+This section provides some troubleshooting tips for the most common issues with equipment installation.
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> In cases where it is unclear how the power is distributed, do not touch the panel or install any sensors without first having someone from the facility identify the power distribution.
-</div>
+{{< details summary="Unclear how power is distributed" >}}
+It can be difficult or confusing to know how to connect a power meter to a panelboard because panelboards can have many different colored wires. Older panelboards might not have clear or accurate labeling at the circuit breakers, making it challenging to make proper connections.
 
+In cases where it is unclear how the power is distributed, do not touch the panel or install any sensors without first having someone from the facility identify the power distribution.
+{{< /details >}}
 
-<strong>Problem 2:</strong> The panelboard is too small, and connections cannot be made within the space constraints.
+{{< details summary="The panelboard is too small, and connections cannot be made within the space constraints" >}}
+Connect the sensors at the panelboard’s input or measure at the switchgear.
+{{< /details >}}
 
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> Connect the sensors at the panelboard’s input or measure at the switchgear.
-</div> 
+{{< details summary="A voltage connection cannot be made because the alligator clips are too large or contact cannot be made with the metal lugs in the panelboard" >}}
+Voltage connection can be difficult if you are not using the correct attachments. Voltage cables can have alligator clips or leads to accommodate for space constraints. In a case where connection cannot be made, use different size voltage leads or investigate alternative attachments for the panelboard’s configuration.
+{{< /details >}}
 
-
-<strong>Problem 3:</strong> A voltage connection cannot be made because the alligator clips are too large or contact cannot be made with the metal lugs in the panelboard.
-
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> Voltage connection can be difficult if you are not using the correct attachments. Voltage cables can have alligator clips or leads to accommodate for space constraints. In a case where connection cannot be made, use different size voltage leads or investigate alternative attachments for the panelboard’s configuration.
-</div>
- 
-
-<strong>Problem 4:</strong> Unexpected Negative Values
-
-<div class="alert alert-warning" role="alert">
-<strong>Solution:</strong> At times, measurements will return as negative values because of how the voltage cables are connected. Connect voltage cables in different ways until you obtain positive values. Make sure the connections are correct for accurate power measurements. If you are not sure about the connections, consult a certified electrician.
-</div>
+{{< details summary="Unexpected negative values" >}}
+At times, measurements will return as negative values because of how the voltage cables are connected. Connect voltage cables in different ways until you obtain positive values. Make sure the connections are correct for accurate power measurements. If you are not sure about the connections, consult a certified electrician.
+{{< /details >}}
