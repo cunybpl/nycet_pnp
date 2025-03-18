@@ -107,9 +107,7 @@ The primary energy source for a constant-speed compressor is the electricity use
 
 ### Measurement Strategy
 
-The measurement strategy for a constant-speed compressor and motor involves a one-time measurement of power draw and long-term monitoring of the motor's operational schedule. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off).
-
-A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1. 
+The measurement strategy for a compressor and motor involves taking hourly measurements of the power draw of the motor with an energy logger. The logger will continuously monitor the hours of operation and amount of electricity used by the compressor. If the compressor is part of a chilled water system the outdoor air temperature should be measured in hourly intervals. Measurement locations are generically represented in Figure 1.
 
 <a href="/images/components/2024_1022_CS_compressor_component_figure 1.jpg">
 <figure class="figure mb-3 mt-3 mx-auto">
