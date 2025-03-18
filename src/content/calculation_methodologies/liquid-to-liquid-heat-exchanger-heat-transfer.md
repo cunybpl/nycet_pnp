@@ -10,7 +10,7 @@ related_systems:
 related_components:
   - Liquid-to-liquid Heat Exchanger
 associated_calculators:
-  - Liquid-to-liquid Heat Transfer Calculator
+  - Liquid-to-liquid Heat Transfer
 url: "/documents/calculation-methodology/liquid-to-liquid-heat-exchanger-heat-transfer"
 ---
 

@@ -5,7 +5,7 @@ layout: calculation_methodology
 calculation_methodology_id: 8
 excerpt: For a rotary wheel heat exchanger, the equations and calculator in this page estimate the annual sensible and latent heat transfer across the rotary wheel in an energy recovery ventilation (ERV) unit.
 associated_calculators:
-  - Air-to-air Heat Transfer Calculator
+  - Air-to-air Heat Transfer
 related_measurements:
   - Motor Runtime
 url: "/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer"
