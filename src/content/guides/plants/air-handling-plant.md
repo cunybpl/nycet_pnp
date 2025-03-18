@@ -127,7 +127,7 @@ The energy consumption of an air handling plant (AHP) is the total energy used b
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></li>
+                    <li>Fan motors</li>
                     <li>Heating coil</li>
                     <li>Cooling coil</li>
                 </ul>
@@ -142,7 +142,7 @@ The energy consumption of an air handling plant (AHP) is the total energy used b
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></li>
+                    <li>Fan motors</li>
                     <li>Compressor</li>
                 </ul>
             </td>
@@ -160,7 +160,7 @@ The energy consumption of an air handling plant (AHP) is the total energy used b
             <td>
                 <ul>
                     <li>Burner</li>
-                    <li><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></li>
+                    <li>Fan motors</li>
                 </ul>
             </td>
         </tr>
@@ -174,7 +174,7 @@ The energy consumption of an air handling plant (AHP) is the total energy used b
             <td>
                 <ul>
                     <li>Burner</li>
-                    <li><a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a></li>
+                    <li>Fan motors</li>
                     <li>Compressor</li>
                 </ul>
             </td>

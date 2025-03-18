@@ -106,16 +106,16 @@ The primary energy consumption of a water-cooled chilled water plant is the tota
             <td>
                 <ul>
                     <li>Average hourly chiller (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
-                    <li>Average hourly <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motors</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
-                    <li>Average hourly cooling tower <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motors</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly pump motors (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly cooling tower fan motors (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                 </ul>
             </td>
             <td>
                 <ul>
                     <li>Chiller compressor motor</li>
-                    <li>Chilled water pump motors</li>
-                    <li>Condenser water pump motors</li>
-                    <li>Heat exchanger pump motor (if present)</li>
+                    <li>Chilled water pump motors</a></li>
+                    <li>Condenser water pump motors</a></li>
+                    <li>Heat exchanger pump motor</a> (if present)</li>
                     <li>Cooling tower fan motors</li>
                 </ul>
             </td>

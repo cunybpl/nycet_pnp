@@ -91,7 +91,7 @@ The total energy consumption of an HWH plant is the sum of the energy used by it
                 Average hourly fuel consumption (Btuh)
             </td>
             <td>
-                <a href="/documents/systems/boiler">Boiler</a>
+                Boiler
             </td>
         </tr>
         <tr>
@@ -100,11 +100,11 @@ The total energy consumption of an HWH plant is the sum of the energy used by it
             </td>
             <td>
                 <ul>
-                    <li>Average hourly burner <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motor</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly burner fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Average hourly primary HWH pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Average hourly secondary HWH pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Average hourly feedwater pump (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
-                    <li>Total operating time for the <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motors</a></li>
+                    <li>Total operating time for the pump motors</li>
                     <li>Outdoor air temperature (F)</li>
                 </ul>
             </td>
@@ -130,7 +130,7 @@ The total energy consumption of an HWH plant is the sum of the energy used by it
                 Average hourly heat delivered to the make-up water (Btu/h)
             </td>
             <td>
-                <a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger (if present)</a>
+                Heat exchanger (if present)
             </td>
         </tr>
     </tbody>

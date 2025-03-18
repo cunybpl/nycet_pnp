@@ -118,7 +118,7 @@ The total energy consumption of a steam plant is the sum of the energy used by i
                 Average hourly fuel consumption (Btu/h)
             </td>
             <td>
-                <a href="/documents/systems/boiler">Boiler</a>
+                Boiler
             </td>
         </tr>
         <tr>
@@ -127,9 +127,9 @@ The total energy consumption of a steam plant is the sum of the energy used by i
             </td>
             <td>
                 <ul>
-                    <li>Average hourly burner <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motor</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly burner fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Total operating hours of burner fan motor</li>
-                    <li>Average hourly condensate <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motor</a> <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
+                    <li>Average hourly condensate pump motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li>
                     <li>Average hourly feedwater pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Total operating time for pump motors</li>
                 </ul>

@@ -83,7 +83,7 @@ To quantify the energy consumption of the lighting plant, the components of all 
                 Average hourly <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> served by the electrical distribution system
             </td>
             <td>
-                <a href="/documents/systems/lighting-fixture">Light fixtures and automatic controls (if applicable).</a>
+                Light fixtures and automatic controls (if applicable).
             </td>
         </tr>
     </tbody>
