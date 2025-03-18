@@ -133,7 +133,7 @@ The calculator relies on the measured data from the following measurement techni
 
 #### Methodology
 
-The calculator uses the following methodology to compute annual energy consumption of a constant speed cooling tower fan:
+The calculator uses the following methodology to compute annual energy consumption of a constant speed fan:
 
 1. Convert the fan runtime from seconds per hour to a percentage of the hour the fan is operating (Worksheet: "Step 2. Percent Runtime Calc") for both supply and return fans.
 
@@ -191,7 +191,7 @@ The calculator relies on the measured data from the following measurement techni
 
 #### Methodology
 
-The calculator uses the following methodology to compute annual energy consumption of a constant speed cooling tower fan:
+The calculator uses the following methodology to compute annual energy consumption of a constant one or two speed fan:
 
 1. Average equivalent % hour motor is on full speed for each hour, h, of each day of the week, d, (Worksheet: "Step 3. Avg Day of Week Calcs").
 
@@ -308,7 +308,7 @@ The calculator relies on the measured data from the following measurement techni
 
 #### Methodology
 
-The calculator uses the following methodology to compute annual energy consumption of a constant speed cooling tower fan:
+The calculator uses the following methodology to compute annual energy consumption of a variable speed fan:
 
 1. Perform second-order polynomial regression analysis of true RMS power as a function of OAT. (Worksheet: "Step 3. Regression") for supply and return fans. 
 
