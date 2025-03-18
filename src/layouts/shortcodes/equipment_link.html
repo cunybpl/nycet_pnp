@@ -13,7 +13,11 @@
   {{ end }}
   <div class="short-card-content equip-card">
     <div class="short-card-body">
+      {{ if eq $type "equip"}}
       <div class="equip-img" style=" background-image: url('{{ $imgUrl | relURL }}');" alt="{{ $title }} image"></div>
+      {{ else if eq $type "kit"}}
+      <div class="equip-img" style=" background-image: url('{{ $imgUrl | relURL }}'); width: 100%;" alt="{{ $title }} image"></div>
+      {{ end }}
       <div class="short-card-text">
         <h5 class="mb-2 content-card-title">
           <span class="short-card-header">{{ $title }}</span>
