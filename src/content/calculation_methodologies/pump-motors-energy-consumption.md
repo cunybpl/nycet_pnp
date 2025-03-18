@@ -11,6 +11,10 @@ associated_calculators:
   - Constant One or Two Speed Pump Energy Using Electrical Current Data
   - Variable Speed Pump Energy Using kW Data
   - Variable Speed Pump Energy Using Motor Speed Data
+related_measurements:
+  - True RMS Power
+  - Motor Runtime
+  - Outdoor Air Temperature
 url: "/documents/calculation-methodology/pump-motors-energy-consumption"
 ---
 
@@ -20,7 +24,7 @@ This methodology applies to pump motors that operate at constant or variable spe
     
 The type of data that is measured from the pump motor will determine the calculator to use. For more information on the type of data to collect, refer to table 1 in the next section.
 
-## Calculators
+<!-- ## Calculators
 
 <div class="table-wrapper">
 <table>
@@ -109,13 +113,29 @@ The type of data that is measured from the pump motor will determine the calcula
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
 ## Pump Motor Calculations
 
 ### Constant Speed Pump Energy Using Motor Runtime Data
 
-This calculation tool is for a constant speed, constant volume system. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers. 
+This calculation tool is for a constant speed, constant volume system. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers.
+
+#### Calculator
+
+{{< downloadable_file title="Constant Speed Pump Energy Using Motor Runtime Data" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=4 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a constant speed pump:
 
 1. Convert seconds on per hour to percent on per hour (Worksheet: "Step 2. Percent Runtime Calcs").
 
@@ -163,6 +183,20 @@ This calculation tool is for a constant speed, constant volume system. Measured 
 
 This calculation tool is for a constant speed, constant volume pump. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger.
 
+#### Calculator
+
+{{< downloadable_file title="Constant One or Two Speed Pump Energy Using kW Data" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a constant one- or two-speed pump:
+
 1. Average % hour motor is on for each hour of each day of the week (Worksheet: "Step 3. Avg Day of Week Calcs").
 
 <p class="equation equation-center">\begin{equation} \bar{P}_{d,h} = \frac{\sum_{n=1}^{N(d,h)} P(t)}{N(d,h)} \end{equation}</p>
@@ -182,7 +216,7 @@ This calculation tool is for a constant speed, constant volume pump. Measured in
 <p class="equation">$E =$ annual pump energy, kWh</p>
 <p class="equation">$WeeksPumpOn =$ Pump operating time, weeks</p>
 
-### Constant One- or Two-Speed Pump Energy Using Electrical Current Data
+<!-- ### Constant One- or Two-Speed Pump Energy Using Electrical Current Data
 
 This calculation tool is for a constant speed, constant volume pump. Measured input data include hourly average current (in Amps) as directly measured by current sensors, and spot measurements for true power.
 
@@ -196,11 +230,27 @@ This calculation tool is for a constant speed, constant volume pump. Measured in
 <p class="equation">$t =$ index for each measured data point</p>
 <p class="equation">$I_{max} =$ current measured at the maximum constnat speed, Amps</p>
 
-2. Equations 3 to 5 are used to calculate the annual pump energy.
+2. Equations 3 to 5 are used to calculate the annual pump energy. -->
 
 ### Variable Speed Pump Energy Using kW Data
 
-This calculation tool is for VFD-controlled pumps that are operated at speeds proportional to the heating/cooling load as represented by proxy with OAT. Measured input data include average hourly power draw (kW) as measured by a DENT data logging power logger, and the average hourly OAT as measured by a temperature/RH logger. 
+This calculation tool is for VFD-controlled pumps that are operated at speeds proportional to the heating/cooling load as represented by proxy with OAT. Measured input data include average hourly power draw (kW) as measured by a DENT data logging power logger, and the average hourly OAT as measured by a temperature/RH logger.
+
+#### Calculator
+
+{{< downloadable_file title="Variable Speed Pump Energy Using kW Data" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a variable speed pump:
 
 1. Fit a second-order polynomial regression model of true RMS power as a function OAT. (Worksheet: "Step 3. Regression").
 
@@ -234,7 +284,7 @@ This calculation tool is for VFD-controlled pumps that are operated at speeds pr
 <p class="equation">$OAT'(t) =$ Hourly climate normal outside air temperature from National Weather Service at station closest to site, F</p>
 <p class="equation">$WeeksPumpOn =$ Pump operating times, weeks</p>
 
-### Variable Speed Pump Energy Using Motor Speed Data
+<!-- ### Variable Speed Pump Energy Using Motor Speed Data
 
 This calculation tool is for VFD-controlled pumps using hourly average motor speed (in RPM) as downloaded from a BAS or VFD, and spot measurements for true power.
 
@@ -250,7 +300,7 @@ This calculation tool is for VFD-controlled pumps using hourly average motor spe
 
 This equation represents the pump affinity law, where theoretically the exponent is 3. To represent motor losses, the Consortium for Energy Efficiency recommends using a value of 2.5.[^1]
 
-2. Equations 9 to 12 are used to calculate the annual pump energy.
+2. Equations 9 to 12 are used to calculate the annual pump energy. -->
 
 ## Further Reading
 

@@ -72,27 +72,16 @@ Table 1 shows the plant and system configurations that may contain variable-spee
         </tr>
         <tr>
             <td>
-                AHU
-            </td>
-            <td>
-                AHUs
-            </td>
-            <td>
-                AHU Supply Fan
-            </td>
-            <td>
-                Outdoor air temperature (F)
-            </td>
-        </tr>
-        <tr>
-            <td>
                 Air Handling Plant
             </td>
             <td>
                 AHUs
             </td>
             <td>
-                AHU Return Fan
+                <ul>
+                    <li>AHU Supply Fan</li> 
+                    <li>AHU Return Fan</li> 
+                </ul>
             </td>
             <td>
                 Outdoor air temperature (F)
@@ -100,7 +89,11 @@ Table 1 shows the plant and system configurations that may contain variable-spee
         </tr>
         <tr>
             <td>
-                Hot Water Heating; Domestic Hot Water; Steam
+                <ul>
+                    <li>Hot Water Heating</li> 
+                    <li>Domestic Hot Water</li>
+                    <li>Steam</li>
+                </ul>
             </td>
             <td>
                 Boiler
@@ -116,7 +109,7 @@ Table 1 shows the plant and system configurations that may contain variable-spee
 </table> 
 </div>
 
-## Evaluation of Energy Consumption
+<!-- ## Evaluation of Energy Consumption
 The primary energy source for a variable-speed fan is the electricity used to run the fan motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the variable-speed fan and motor.
 
 <div class="table-wrapper">
@@ -174,9 +167,9 @@ Controlling variable, weather dependent[^2]
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-### Measurement Strategy
+## Measurement Strategy
 
 The measurement strategy for a variable-speed fan and its motor involves measuring power draw of the fan motor at various known speeds, developing a mathematical relationship between the power and speed, and then collecting average hourly motor speed and associated controlling variable (OAT, Wet-bulb temperature). Measurement locations are generically represented in Figure 1. 
 
@@ -184,11 +177,40 @@ The measurement strategy for a variable-speed fan and its motor involves measuri
 <a href="/images/components/08.20.24_VSVV_FAN AND MOTOR-01.jpg">
 <figure class="figure">
   <img src="/images/components/08.20.24_VSVV_FAN AND MOTOR-01.jpg" class="figure-img img-fluid rounded" alt="Figure 1. VSVV fan measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 1. VSVV fan measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. VSVV fan measurement locations.</figcaption>
 </figure>
 </a>
 
+### What and How to Measure
+
+Perform the following measurements to quantify the energy consumption and operating characteristics of a VSVV fan and motor:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
+
+{{< measurement_technique measurement_technique_id=8 >}}
+
+<!-- These appear to not be needed -->
+<!-- {{< measurement_technique measurement_technique_id=3 >}}
+
+{{< measurement_technique measurement_technique_id=4 >}} -->
+
 ### Measurement Equipment
+
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/fan-and-motor-kit-variable-speed/" imgUrl="/images/kit-placeholder.jpg" title="Fan and Motor (Variable-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a variable-speed, variable-volume fan and motor." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install measurement equipment, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
+
+<!-- ### Measurement Equipment
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
@@ -250,18 +272,32 @@ Table 3 provides the equipment required to carry out the measurements of this co
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-### Calculation Methodology
+## Energy Consumption Quantification
 
-The general methodology for quantifying the energy consumption of a variable-speed fan and motor is based on the true RMS power of the three-phase power supply, measured either at the motor’s main electrical panel or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable, such as outdoor air temperature (OAT) or wet-bulb temperature. Depending on operational variability, daily or weekly models may be created to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.
+The primary energy source for a variable-speed fan is the electricity used to run the fan motor. The general methodology for quantifying the energy consumption of a variable-speed fan and motor is based on the true RMS power of the three-phase power supply, measured either at the motor’s main electrical panel or at the three-phase input to the VFD. To develop a temperature-dependent regression model, these values are regressed against a controlling variable, such as outdoor air temperature (OAT) or wet-bulb temperature. Depending on operational variability, daily or weekly models may be created to better characterize the component. This model is then used with climate normal year data to estimate the typical energy use of the variable-speed fan.
 
-<br></br>
-<i>Click the button below to go to the calculators for this component.</i>
-<br></br>
+### How to Quantify
 
-{{< calculation_methodology calculation_methodology_id=2 >}} 
-  
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for the specific type of VSVV fan and motor:
+
+#### For VSVV AHU Supply/Return, Chiller Condenser, and Boiler Burner Fans 
+
+{{< downloadable_file title="Variable Speed Fan Energy Using kW Data" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculators above see the [Fan Motor Energy Consumption calculation](/documents/calculation-methodology/fan-motors-energy-consumption).
+{{< /admonition >}}
+
+#### For VSVV Cooling Tower (CT) Fans
+
+{{< downloadable_file title="Variable Speed CT Fan Energy Using kW Data" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculators above see [Cooling Tower Fans Energy Consumption](/documents/calculation-methodology/cooling-tower-fans-energy-consumption).
+{{< /admonition >}}
+
 ## Further Reading
 
 - Boyd, BK.; McMordie Stoughton, KL.; Lewis, T. (2017). “Cooling Tower (Evaporative Cooling System) Measurement and Verification Protocol.” Golden, CO: National Renewable Energy Laboratory. https://www.nrel.gov/docs/fy18osti/70219.pdf.  

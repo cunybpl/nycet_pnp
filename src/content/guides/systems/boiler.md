@@ -26,7 +26,7 @@ The main components of a boiler system are burner, combustion chamber, heat exch
 <a href="/images/systems/boiler/2024_0423_BOILER system_figure 1 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/boiler/2024_0423_BOILER system_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Boiler System.">
-  <figcaption class="figure-caption text-left">Figure 1. Boiler System (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Boiler System.</figcaption>
 </figure>
 </a>
 
@@ -122,7 +122,7 @@ The measurement locations for a boiler system are shown in Figure 2.
 <a href="/images/systems/boiler/2024_0507_BOILER system_figure 3 updated.jpg">
 <figure class="figure">
   <img src="/images/systems/boiler/2024_0507_BOILER system_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Boiler measurement locations (Image courtesy of CUNY BPL).">
-  <figcaption class="figure-caption text-left">Figure 2. Boiler measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Boiler measurement locations.</figcaption>
 </figure>
 </a>
 

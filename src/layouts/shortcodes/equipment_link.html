@@ -1,23 +1,38 @@
 <section class="card card-block equip-card">
+  {{ $label := "" }}
+  {{ $borrow := .Get "borrow" }}
   {{ $url := .Get "url" }}
   {{ $imgUrl := .Get "imgUrl"}}
   {{ $title := .Get "title" }}
   {{ $excerpt := .Get "excerpt" }}
+  {{ $type := .Get "type" }}
+  {{ if eq $type "equip"}}
+    {{ $label = "equipment" }}
+  {{ else if eq $type "kit"}}
+    {{ $label = "kit" }}
+  {{ end }}
   <div class="short-card-content equip-card">
     <div class="short-card-body">
-      <div class="equip-img" style=" background-image: url({{ $imgUrl }};" alt="{{ $title }} image"></div>
+      {{ if eq $type "equip"}}
+      <div class="equip-img" style=" background-image: url('{{ $imgUrl | relURL }}');" alt="{{ $title }} image"></div>
+      {{ else if eq $type "kit"}}
+      <div class="equip-img" style=" background-image: url('{{ $imgUrl | relURL }}'); width: 100%;" alt="{{ $title }} image"></div>
+      {{ end }}
       <div class="short-card-text">
         <h5 class="mb-2 content-card-title">
           <span class="short-card-header">{{ $title }}</span>
-          <span class="chip content-chip px-3 py-2">Equipment</span>
+          <span class="chip content-chip px-3 py-2">{{ $label }}</span>
         </h5>
         <p class="mb-0 content-card-excerpt">
-          {{ $excerpt | truncate 250 }}
+          {{ $excerpt | truncate 250 | .Page.RenderString }}
         </p>
       </div>
     </div>
+    {{ if eq $borrow "yes"}}
     <a class="btn btn-primary" href="{{ $url }}">
-      Borrow Equipment
+      Borrow {{ $label }}
     </a>
+    {{ else if eq $borrow "no"}}
+    {{ end }}
   </div>
 </section>

@@ -24,7 +24,7 @@ The major components of a VSVV system are the fans and motors, motor VFDs, heat 
 <a href="/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0503_VSVV AHU system_figure 1 updated.jpeg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/variable-speed-variable-volume-air-handling-unit/2024_0503_VSVV AHU system_figure 1 updated.jpeg" class="figure-img img-fluid rounded" alt="Figure 1. Variable-speed, Variable-volume Components.">
-        <figcaption class="figure-caption text-left">Figure 1. Variable-speed, Variable-volume Components (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Variable-speed, Variable-volume Components.</figcaption>
     </figure>
 </a>
 
@@ -153,7 +153,7 @@ The measurement locations for a VSVV air handling system are schematically shown
 <a href="/images/systems/variable-speed-variable-volume-air-handling-unit/variable speed variable volume ahu figure 2.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/variable-speed-variable-volume-air-handling-unit/variable speed variable volume ahu figure 2.png" class="figure-img img-fluid rounded" alt="Figure 2. VSVV AHU measurement locations.">
-        <figcaption class="figure-caption text-left">Figure 2. VSVV AHU measurement locations (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. VSVV AHU measurement locations.</figcaption>
     </figure>
 </a>
 

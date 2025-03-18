@@ -30,7 +30,7 @@ A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., 
 Table 1 shows the plant and system configurations that may contain a VSVV pump and motor and the controlling variable. 
 
 <div class="table-wrapper">
-<table>
+<table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 1. Plants and systems containing variable-speed, variable-volume pumps</caption>
     <thead>
         <tr>
@@ -63,7 +63,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="3" style="vertical-align: middle;">
                 Water-cooled chilled water plant
             </td>
             <td>
@@ -78,36 +78,19 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
         </tr>
         <tr>
             <td>
-                Water-cooled chilled water plant
-            </td>
-            <td>
                 Chilled water loop
             </td>
             <td>
-                Primary chilled water pump
+                <ul>
+                    <li>Primary chilled water pump</li> 
+                    <li>Secondary chilled water pump</li>
+                </ul>
             </td>
             <td>
                 Outdoor air temperature (F)
             </td>
         </tr>
         <tr>
-            <td>
-                Water-cooled chilled water plant
-            </td>
-            <td>
-                Chilled water loop
-            </td>
-            <td>
-                Secondary chilled water pump
-            </td>
-            <td>
-                Outdoor air temperature (F)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Water-cooled chilled water plant
-            </td>
             <td>
                 Waterside economizer
             </td>
@@ -119,7 +102,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="2" style="vertical-align: middle;">
                 Hot water plant
             </td>
             <td>
@@ -134,9 +117,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
         </tr>
         <tr>
             <td>
-                Hot water plant
-            </td>
-            <td>
                 Hot water loop
             </td>
             <td>
@@ -147,7 +127,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
         <tr>
-            <td>
+            <td rowspan="2" style="vertical-align: middle;">
                 Steam plant
             </td>
             <td>
@@ -161,9 +141,6 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
             </td>
         </tr>
         <tr>
-            <td>
-                Steam plant
-            </td>
             <td>
                 Feedwater Tank
             </td>
@@ -182,7 +159,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
                 Service hot water loop
             </td>
             <td>
-                Service hot water; recirculation pump
+                Recirculation pump
             </td>
             <td>
                 Occupancy schedule: time of day, day of week.
@@ -192,7 +169,7 @@ Table 1 shows the plant and system configurations that may contain a VSVV pump a
 </table> 
 </div>
 
-## Evaluation of Energy Consumption
+<!-- ## Evaluation of Energy Consumption
 
 The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
@@ -235,9 +212,9 @@ Table 2. Key values and measurements to evaluate energy consumption.[^1]
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-### Measurement Strategy
+## Measurement Strategy
 
 The measurement strategy for a variable-speed, variable-volume pump and motor involves measuring power draw of the pump motor at various known speeds, developing a mathematical relationship between the power and speed, and then collecting hourly OAT. Measurement locations are generically represented in Figure 1.
 
@@ -245,11 +222,33 @@ The measurement strategy for a variable-speed, variable-volume pump and motor in
 <a href="/images/components/2024_1023_VSVV pump component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/2024_1023_VSVV pump component_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Variable-speed, Variable-volume pump and motor measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 1. Variable-speed, Variable-volume pump and motor measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Variable-speed, Variable-volume pump and motor measurement locations.</figcaption>
 </figure>
 </a>
 
+### What and How to Measure
+
+Perform the following measurements to quantify the energy consumption and operating characteristics of a VSVV pump and motor:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=6 >}}
+
 ### Measurement Equipment
+
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/pump-and-motor-kit-variable-speed/" imgUrl="/images/kit-placeholder.jpg" title="Pump and Motor (Variable-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a variable-speed, variable-volume pump and motor." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install measurement equipment, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
+
+<!-- ### Measurement Equipment
 
 Table 3 provides the equipment required to carry out the measurements of this component. 
 
@@ -308,17 +307,25 @@ Table 3 provides the equipment required to carry out the measurements of this co
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-### Calculation Methodology
+## Energy Consumption Quantification
+
+The primary energy source of a VSVV pump is the electricity used to run the pump motor. Table 2 provides a summary of measurements needed to quantify the annual energy consumption and operating characteristics of the VSVV pump and motor. 
 
 The general methodology for quantifying the energy consumption of a variable-speed, variable-volume (VSVV) pump motor is based on the true RMS power of the three-phase power supply, measured either at the motor’s main power panel or at the three-phase input to the VFD. These values are regressed against outdoor air temperature to develop a temperature-dependent regression model. Depending on operational variability, daily or weekly models may be created to better characterize the system. This model is then applied to climate normal year data to estimate the typical energy use of the VSVV pump.
 
-<br></br>
-<i>Click the button below to go to the calculators for this component.</i>
-<br></br>
+### How to Quantify
 
-{{< calculation_methodology calculation_methodology_id=6 >}} 
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for all types of VSVV pump and motor:
+
+{{< downloadable_file title="Variable Speed Pump Energy Using kW Data" >}}
+
+{{< downloadable_file title="Variable Speed Pump Energy Using Motor Speed Data" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculators above see [Pump Motor Energy Consumption](/documents/calculation-methodology/pump-motors-energy-consumption).
+{{< /admonition >}}
 
 ## Further Reading
 

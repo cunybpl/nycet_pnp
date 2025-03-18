@@ -21,7 +21,7 @@ The hot water heating (HWH) plant uses input energy (e.g., fuel, electricity, or
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 1 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Hot-Water heating plant.">
-        <figcaption class="figure-caption text-left">Figure 1. Hot water heating plant (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Hot water heating plant.</figcaption>
     </figure>
 </a>
 
@@ -35,7 +35,7 @@ The HWH boiler system is the largest energy-consuming component of the hot water
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Hot water heating boiler system.">
-        <figcaption class="figure-caption text-left">Figure 2. Hot water heating boiler system (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. Hot water heating boiler system.</figcaption>
     </figure>
 </a>
 
@@ -47,7 +47,7 @@ The hot water loop system encompasses the distribution system responsible for mo
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Hot water loop system.">
-        <figcaption class="figure-caption text-left">Figure 3. Hot water loop system (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Hot water loop system.</figcaption>
     </figure>
 </a>
 
@@ -59,7 +59,7 @@ The feedwater system provides treated make-up water and returned hot water from 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg">
     <figure class="figure mb-4 mt-3">
         <img src="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Feedwater system and chemical treatment for make-up water.">
-        <figcaption class="figure-caption text-left">Figure 4. Feedwater system and chemical treatment for make-up water (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 4. Feedwater system and chemical treatment for make-up water.</figcaption>
     </figure>
 </a>
 
@@ -91,7 +91,7 @@ The total energy consumption of an HWH plant is the sum of the energy used by it
                 Average hourly fuel consumption (Btuh)
             </td>
             <td>
-                <a href="/documents/systems/boiler">Boiler</a>
+                Boiler
             </td>
         </tr>
         <tr>
@@ -100,11 +100,11 @@ The total energy consumption of an HWH plant is the sum of the energy used by it
             </td>
             <td>
                 <ul>
-                    <li>Average hourly burner <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">fan motor</a> (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
+                    <li>Average hourly burner fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Average hourly primary HWH pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Average hourly secondary HWH pump motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
                     <li>Average hourly feedwater pump (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</li>
-                    <li>Total operating time for the <a href="/documents/components/constant-speed-constant-volume-pump-motor">pump motors</a></li>
+                    <li>Total operating time for the pump motors</li>
                     <li>Outdoor air temperature (F)</li>
                 </ul>
             </td>
@@ -130,7 +130,7 @@ The total energy consumption of an HWH plant is the sum of the energy used by it
                 Average hourly heat delivered to the make-up water (Btu/h)
             </td>
             <td>
-                <a href="/documents/components/liquid-to-liquid-heat-exchanger">Heat exchanger (if present)</a>
+                Heat exchanger (if present)
             </td>
         </tr>
     </tbody>

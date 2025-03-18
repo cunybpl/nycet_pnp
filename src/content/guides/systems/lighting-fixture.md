@@ -15,22 +15,6 @@ A lighting fixture system produces light to illuminate a specific area or areas.
 
 ## Components
 
-Figure 1 shows the main components associated with a lighting fixture system. 
-
-<a href="/images/systems/lighting-fixture/lighting fixture figure1.png">
-    <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/lighting-fixture/lighting fixture figure1.png" class="figure-img img-fluid rounded" alt="Figure 1. Lighting Fixture System, fixtures are of a single type in this room.">
-        <figcaption class="figure-caption text-left">Figure 1. Lighting Fixture System, fixtures are of a single type in this room (click on image to enlarge).</figcaption>
-    </figure>
-</a>
-
-<a href="/images/systems/lighting-fixture/lighting fixture figure2.png">
-    <figure class="figure mb-4 mt-3">
-        <img src="/images/systems/lighting-fixture/lighting fixture figure2.png" class="figure-img img-fluid rounded" alt="Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy).">
-        <figcaption class="figure-caption text-left">Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy) (click on image to enlarge).</figcaption>
-    </figure>
-</a>
-
 ### Lamps
 
 Lamps refer to the enclosure of a lighting source. The most common types of lamps are incandescent, fluorescent, high intensity discharge (HID), induction, and LED. Many types of lamps can be used within a facility. All lamps convert electrical energy to light, with some energy converted to heat as well. The efficiency of the lamp in minimizing losses to heat is the biggest determining factor in the energy efficiency of the lighting fixture system. In addition to electrical efficiency, different lamps produce different color spectrums, which are better suited to different applications. For example, an office typically requires white light with a “cool” tone. However, warehouse lighting may be more yellow or orange without impacting its function.
@@ -47,7 +31,21 @@ The fixture housing is the physical receptacle that houses the lamp and ballast.
 
 Controls regulate the operation of the light fixtures, such as when they are turned on and off, and their brightness. Controls can be manual or automatic. Manual controls are wall switches within a space and circuit breakers at the electrical panelboard and switchgear. Automatic controls use sensors and/or timers to determine when and how to regulate the fixture operation. The two most common sensors used in lighting controls are motion sensors, which approximate when a space is occupied or vacant, and daylight sensors, which determine when natural sources are providing enough light for the fixtures to be turned off or dimmed.  Some automatic controls have their own control panel that is wired directly to the circuits at the lighting panelboards or the ballasts of individual fixtures.
 
-## Evaluation of Energy Consumption
+<a href="/images/systems/lighting-fixture/lighting fixture figure1.png">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/systems/lighting-fixture/lighting fixture figure1.png" class="figure-img img-fluid rounded" alt="Figure 1. Lighting Fixture System, fixtures are of a single type in this room.">
+        <figcaption class="figure-caption text-left">Figure 1. Lighting Fixture System, fixtures are of a single type in this room.</figcaption>
+    </figure>
+</a>
+
+<a href="/images/systems/lighting-fixture/lighting fixture figure2.png">
+    <figure class="figure mb-4 mt-3">
+        <img src="/images/systems/lighting-fixture/lighting fixture figure2.png" class="figure-img img-fluid rounded" alt="Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy).">
+        <figcaption class="figure-caption text-left">Figure 2: Lighting fixture system of the building consists of many different types of fixtures (i.e., fixtures that consume different amounts of energy).</figcaption>
+    </figure>
+</a>
+
+<!-- ## Evaluation of Energy Consumption
 
 Electricity is the energy source for all modern lighting systems. Table 1 provides a summary of system component measurements and values needed to quantify the hourly energy consumption and operating characteristics of a lighting fixture system.  
 
@@ -120,31 +118,69 @@ Electricity is the energy source for all modern lighting systems. Table 1 provid
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-### Measurement Locations
+## Measurement Strategy
 
-Electrical measurements of lighting fixtures must be taken at the electrical distribution components. Further details can be found in the <a href="/documents/systems/electrical-distribution">Electrical Distribution</a> page.  
+Electrical measurements of lighting fixtures must be taken at the electrical distribution components. Further details can be found in the <a href="/documents/systems/electrical-distribution">Electrical Distribution</a> system page.  
 
 An auditor can develop a sampling plan and use a light on/off logger to measure the schedule of a single fixture. The single light fixture should be representative of the other fixtures in the room to assume the same schedule for all fixtures. Then, a direct power draw measurement at the electrical panelboard that serves the fixture is needed. The power draw data and the schedule data obtained from the light on/off logger allows an auditor to estimate energy consumption.
 
 <a href="/images/systems/lighting-fixture/lighting fixture figure3.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure3.png" class="figure-img img-fluid rounded" alt="Figure 3. Lighting fixture measurement locations.">
-        <figcaption class="figure-caption text-left">Figure 3. Lighting fixture measurement locations (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Lighting fixture measurement locations.</figcaption>
     </figure>
 </a>
 
 <a href="/images/systems/lighting-fixture/lighting fixture figure4.png">
     <figure class="figure mb-4 mt-3">
         <img src="/images/systems/lighting-fixture/lighting fixture figure4.png" class="figure-img img-fluid rounded" alt="Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures.">
-        <figcaption class="figure-caption text-left">Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 4: Electrical measurement necessary to estimate energy. Measurement is taken at the electrical panelboard that serves the lighting fixtures.</figcaption>
     </figure>
 </a>
 
-### Calculation Methodology
+### What and How to Measure
 
-{{< calculation_methodology calculation_methodology_id=3 >}}
+Perform the following measurements to quantify the energy consumption and operating characteristics of a lighting fixture system:
+
+{{< measurement_technique measurement_technique_id=3 >}}
+
+{{< measurement_technique measurement_technique_id=5 >}}
+
+### Measurement Equipment
+
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/lighting-measurement-kit/" imgUrl="/images/kit-placeholder.jpg" title="Lighting" excerpt="Use this kit to measure the electricity consumption of a lighting system." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install measurement equipment, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
+
+## Energy Consumption Quantification
+
+Electricity is the energy source for all modern lighting systems.
+
+### How to Quantify
+
+The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for a lighting fixture system:
+
+{{< downloadable_file title="Lighting Current Circuit Breakers Calculator" >}}
+
+{{< downloadable_file title="Lighting Current Panelboard Calculator" >}}
+
+{{< downloadable_file title="Lighting Inventory Runtime Calculator" >}}
+
+{{< downloadable_file title="Lighting True RMS Power Panelboard Calculator" >}}
+
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculators above see the [Lighting Plant and Systems Energy Consumption](/documents/calculation-methodology/lighting-plant-and-systems-energy-consumption).
+{{< /admonition >}}
 
 ## Further Reading
 

@@ -7,6 +7,9 @@ excerpt: Estimate the annual energy consumption of a lighting plant.
 related_systems:
   - Electrical Distribution
   - Lighting Fixture
+related_measurements:
+  - Electrical Current
+  - Electrical Spot Measurement
 associated_calculators:
   - Lighting Current Circuit Breakers Calculator
   - Lighting Current Panelboard Calculator
@@ -25,7 +28,7 @@ All lighting calculation tools generate an average hourly energy schedule using 
 
 The first three methodologies are used when measuring electricity with data loggers and power meters to determine the annual energy consumption estimate of an <u>electrical distribution system</u>. The last methodology is used when measuring lighting runtime (operating schedule) to determine the annual energy consumption estimate of a <u>lighting fixture system</u>.
 
-## Calculators
+<!-- ## Calculators
 
 <div class="table-wrapper">
 <table>
@@ -104,13 +107,29 @@ The first three methodologies are used when measuring electricity with data logg
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
-## Lighting Energy Consumption
+## Lighting Energy Consumption Calculations
 
-### Lighting True RMS Power Output from Electric Panelboard
+<!-- ### Lighting True RMS Power Output from Electric Panelboard
 
-The following equations are used to calculate the annual energy consumption of a <u>lighting electrical distribution system</u> where energy in kilowatt hours (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) is measured at the output end of an electrical panelboard or switchgear. It is assumed that data is collected for six (6) weeks at one-hour intervals with a data-logging power meter that has the capacity to measure three-phase power. 
+The following equations are used to calculate the annual energy consumption of a <u>lighting electrical distribution system</u> where energy in kilowatt hours (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) is measured at the output end of an electrical panelboard or switchgear. It is assumed that data is collected for six (6) weeks at one-hour intervals with a data-logging power meter that has the capacity to measure three-phase power.
+
+#### Calculator
+
+{{< downloadable_file title="Lighting True RMS Power Panelboard Calculator" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=5 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a lighting fixture system:
 
 1. Find hourly average energy use for each hour of each day of the week (Worksheet: "Step 2. Avg Energy Calcs," column J.)
 
@@ -182,11 +201,27 @@ The following equations are used to calculate the annual energy consumption of a
 <p class="step-indent">Where,</p>
 <p class="equation">$\overline{kWh} =$ Total energy consumption for the electrical distribution system (in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
 <p class="equation">$\overline{kWh}_{n} =$ Total energy consumption for each panel or switchgear(in <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)</p>
-<p class="equation">$n =$ Number of panels or switchgear measured</p>
+<p class="equation">$n =$ Number of panels or switchgear measured</p> -->
 
 ### Lighting Electrical Current Output from Electric Panelboard
 
 Lighting fixtures generally require single-phase power to operate, but <u>electrical distribution systems</u> are commonly three-phase. This methodology only applies to a three-phase, four-wire system (wye configuration). Additionally, the panelboard load must be balanced (all three electrical lines, or phases, must have the same current and line-to-neutral voltage). For an unbalanced load where voltage and current are not equal across the three lines, energy should be measured directly with a data-logging power logger capable of measuring a three-phase system. See section A.1. 
+
+#### Calculator
+
+{{< downloadable_file title="Lighting Current Circuit Breakers Calculator" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=3 >}}
+
+{{< measurement_technique measurement_technique_id=2 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a lighting fixture system via the panelboard.
 
 To estimate the energy consumption of the panelboard, including all fixtures served by it, current should be measured for all three electrical lines of the three-phase system. Current data should be at one-hour intervals and data should consist of an average sample of measurements[^1] for each one-hour interval. Power factor, line-to-line voltage, and true RMS power can be obtained from spot measurements with a handheld power meter. CUNY BPL recommends taking multiple spot measurements of those variables and averaging them (measure power factor at least three times at five-minute intervals and calculate the average--see Equation (9)). The average of the spot measurements helps reduce measurement uncertainty and should be used as inputs to the calculation tools. Equation (9) should be applied to power factor, voltage, and true RMS power.
 
@@ -318,7 +353,23 @@ Equation 11 calculates the three-phase power of the panelboard if line-to-line v
 
 ### Lighting Electrical Current from Circuit Breakers
 
-Lighting fixtures generally require single-phase power to operate, but <u>electrical distribution systems</u> are commonly three-phase. When measuring individual circuits of a panelboard, it is essential to know which phase the circuit is connected to. A proper line-to-neutral connection is required to accurately measure the circuit's voltage. 
+Lighting fixtures generally require single-phase power to operate, but <u>electrical distribution systems</u> are commonly three-phase. When measuring individual circuits of a panelboard, it is essential to know which phase the circuit is connected to. A proper line-to-neutral connection is required to accurately measure the circuit's voltage.
+
+#### Calculator
+
+{{< downloadable_file title="Lighting Current Panelboard Calculator" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=3 >}}
+
+{{< measurement_technique measurement_technique_id=2 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a lighting fixture system via the panelboard.
 
 This calculation tool requires the phase of the circuit to be specified in order to calculate annual energy consumption. If multiple circuits are measured and are connected to the same phase, then only the voltage of that phase is necessary Additionally, the user should ensure that the panelboard is balanced (i.e., all three electrical lines, or phases, must have the same current and line-to-line voltage). If the panelboard is not balanced, then it must be specified in the calculation tool (see worksheet ‘Step 1.1 Circuit Raw Data’). 
 
@@ -421,7 +472,7 @@ It is assumed that multiple spot measurements are taken and averaged (e.g., meas
 
 Equation (26) is the annual energy consumption of the measured circuits for a panelboard. If additional circuits were measured for the same panelboard with a different data logger, be sure to consolidate the results (annual energy consumption) to obtain the total panelboard annual energy consumption. Additionally, if multiple panelboards were measured, be sure to sum up the annual consumption of all panelboards to obtain the total system energy consumption.
 
-### Lighting Inventory and Operating Schedule
+<!-- ### Lighting Inventory and Operating Schedule
 
 The following equations are used to calculate the annual energy consumption of a <u>lighting fixture system</u>. This methodology does not require electrical measurements; only lighting runtime (operating schedule) of the fixtures. Runtime data is collected with a light logger that detects when a light source turns on and off. If multiple fixture types operate with the same schedule, the same runtime data can be used for calculations. 
 
@@ -530,7 +581,7 @@ This calculation tool can be used for different fixture types within a single sp
 
 ## Hourly Results Worksheet
 
-Measurement data that is input into the calculation tools is used to generate an hourly energy consumption schedule for each hour in each day of the week. The schedule exists in the “Hourly Results” worksheet that is included in all four calculation tools. This data is useful to estimate the heating and cooling effects. CUNY BPL calculation tools do not calculate heating or cooling interactive effects.
+Measurement data that is input into the calculation tools is used to generate an hourly energy consumption schedule for each hour in each day of the week. The schedule exists in the “Hourly Results” worksheet that is included in all four calculation tools. This data is useful to estimate the heating and cooling effects. CUNY BPL calculation tools do not calculate heating or cooling interactive effects. -->
 
 ## Further Reading
 

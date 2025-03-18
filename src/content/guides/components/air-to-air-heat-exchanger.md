@@ -17,75 +17,56 @@ url: "/documents/components/air-to-air-heat-exchanger"
 
 Air-to-air heat exchangers transfer energy between two airstreams that must be at different temperatures for sensible heat transfer and different moisture contents for latent heat transfer.   
 
-In a building, an air-to-air heat exchanger can be used to recover latent or sensible heat during the cooling or heating season. Recovering energy from the exhaust stream lessens the energy load on the air handling plant. Typical air-to-air heat exchangers include fixed plate heat exchangers and rotary wheel heat exchangers, with the former typically only recovering sensible heat. 
-
-<!-- Table 1 shows the plant and system configurations that may contain an air-to-air heat exchanger. 
+In a building, an air-to-air heat exchanger can be used to recover latent or sensible heat during the cooling or heating season. Recovering energy from the exhaust stream lessens the energy load on the air handling plant. Typical air-to-air heat exchangers include fixed plate heat exchangers and rotary wheel heat exchangers, with the former typically only recovering sensible heat. Table 1 shows the plant and system configurations that may contain an air-to-air heat exchanger. 
 
 <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
     <caption>Table 1. Plants and systems applicable to air-to-air heat exchanger.</caption>
     <thead>
         <tr>
-            <th width="21.964285714285715%">
+            <th>
                 Plant
             </th>
-            <th width="24.285714285714285%">
+            <th>
                 System
             </th>
-            <th width="26.964285714285715%">
+            <th>
                 Component
             </th>
-            <th width="26.785714285714285%">
+            <th>
                 Controlling Variable
             </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td class="fr-cell-handler " style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
+            <td rowspan="3" style="vertical-align: middle; border-bottom: none;">
                 Air Handling Plant
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
+            <td>
                 AHU with Heat Recovery Unit
             </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                Fixed plate heat exchanger
-            </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                Outdoor air temperature (F)
-            </td>
-        </tr>
-        <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                Air Handling Plant
-            </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
-                AHU with Heat Recovery Unit
-            </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
-                Rotary wheel heat exchanger
-            </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
-                Outdoor air temperature (F)
-            </td>
-        </tr>
-        <tr>
-            <td style="background-color: rgb(255, 255, 255);" width="21.964285714285715%" bgcolor="#e2efd9">
-                Air Handling Plant
-            </td>
-            <td style="background-color: rgb(255, 255, 255);" width="24.285714285714285%" bgcolor="#e2efd9">
-                A dedicated outdoor air system (DOAS)
-            </td>
-            <td style="background-color: rgb(255, 255, 255);" width="26.964285714285715%" bgcolor="#e2efd9">
+            <td>
                 Fixed plate or rotary wheel heat exchanger
             </td>
-            <td class="fr-cell-fixed " style="background-color: rgb(255, 255, 255);" width="26.785714285714285%" bgcolor="#e2efd9">
+            <td>
+                Outdoor air temperature (F)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                A dedicated outdoor air system (DOAS)
+            </td>
+            <td>
+                Fixed plate or rotary wheel heat exchanger
+            </td>
+            <td>
                 Outdoor air temperature (F)
             </td>
         </tr>
     </tbody>
 </table> 
-</div> -->
+</div>
 
 <!-- ## Evaluation of Heat Transfer 
 
@@ -147,7 +128,7 @@ Figure 1 shows the measurement locations in a fixed plate heat exchanger.
 <a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg">
 <figure class="figure">
   <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 1.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 1. Measurement boundary for an air-to-air heat exchanger.">
-  <figcaption class="figure-caption text-left">Figure 1. Fixed-plate heat exchanger measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Fixed-plate heat exchanger measurement locations.</figcaption>
 </figure>
 </a>
 
@@ -156,13 +137,13 @@ Figure 2 shows the measurement locations in a rotary wheel heat exchanger.
 <a href="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg">
 <figure class="figure">
   <img src="/images/components/air-to-air-heat-exchanger/2024_0625_AtA HX component_figure 2.jpg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Rotary wheel heat exchanger measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Rotary wheel heat exchanger measurement locations.</figcaption>
 </figure>
 </a>
 
-### What to Measure
+### What and How to Measure
 
-Measurements needed to quantify the annual energy consumption and operating characteristics of an air-to-air heat exchanger:
+Perform the following measurements to quantify the annual energy consumption and operating characteristics of an air-to-air heat exchanger:
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
@@ -171,6 +152,21 @@ Measurements needed to quantify the annual energy consumption and operating char
 {{< measurement_technique measurement_technique_id=7 >}}
 
 {{< measurement_technique measurement_technique_id=8 >}}
+
+
+### Measurement Equipment
+
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/air-to-air-heat-exchanger/" imgUrl="/images/kit-placeholder.jpg" title="Air-to-Air Heat Exchanger" excerpt="Use this kit to assess the heat transfer of a **rotary wheel** air-to-air heat exchanger." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install measurement equipment, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
 
 <!-- ### Measurement Equipment
 
@@ -284,9 +280,11 @@ The general methodology for quantifying the energy impact of an air-to-air heat 
 
 The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for this component: 
 
-{{< downloadable_file url="https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=m32n6yzd&dl=1" title="Air to Air Heat Transfer" excerpt="Uses measured air flow rate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV." >}}
+{{< downloadable_file title="Air-to-air Heat Transfer" >}}
 
-For more details about the methodology behind the calculator above see the [Air-to-air Heat Exchanger Heat Transfer calculation](/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer).
+{{< admonition type="note" >}}
+For more details about the methodology behind the calculator above see [Air-to-air Heat Exchanger Heat Transfer calculation](/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer).
+{{< /admonition >}}
 
 ## Further Reading 
 

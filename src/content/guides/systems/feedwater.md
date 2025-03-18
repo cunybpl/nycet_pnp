@@ -28,7 +28,7 @@ The main components of a boiler feedwater system are one or more feed pumps, and
 <a href="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg">
 <figure class="figure">
   <img src="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Feedwater system and components.">
-  <figcaption class="figure-caption text-left">Figure 1. Feedwater system and components (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 1. Feedwater system and components.</figcaption>
 </figure>
 </a>
 
@@ -114,7 +114,7 @@ The measurement locations for a feedwater water system are shown in Figure 2.
 <a href="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 2.jpg">
 <figure class="figure">
   <img src="/images/systems/feedwater/2024_0815_FEEDWATER SYS_figure 2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Feedwater system measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 2. Feedwater system measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Feedwater system measurement locations.</figcaption>
 </figure>
 </a>
 

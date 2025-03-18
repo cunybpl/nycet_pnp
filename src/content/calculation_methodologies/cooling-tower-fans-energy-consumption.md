@@ -11,6 +11,8 @@ related_components:
   - Constant-speed, Constant-volume Pump and Motor
 related_measurements:
   - Electrical Current
+  - True RMS Power
+  - Motor Runtime
 associated_calculators:
   - Constant Speed CT Fan Energy Using Motor Runtime Data
   - Constant One or Two Speed CT Fan Energy Using kW Data
@@ -31,9 +33,11 @@ In a retrofit with VFDs, the fans in all cells are run simultaneously and their 
 
 This methodology only covers the measurement of energy consumption with respect to maintaining a constant condenser water entering temperature.
 
-Regardless of the operating sequence of the cells or the speed of the fans, there is usually a minimum water flow per cell and minimum flow per chiller that must be maintained. This guide assumes that the pre- and post-retrofit flow rates through the cooling tower do not change, as would be expected if a VFD was installed on the condenser water pump at the same time as the VFDs on the fans. 
+Regardless of the operating sequence of the cells or the speed of the fans, there is usually a minimum water flow per cell and minimum flow per chiller that must be maintained. This guide assumes that the pre- and post-retrofit flow rates through the cooling tower do not change, as would be expected if a VFD was installed on the condenser water pump at the same time as the VFDs on the fans.
 
-## Calculators
+<!-- {{< downloadable_file title="Constant One or Two Speed CT Fan Energy Using Electrical Current Data" >}} -->
+
+<!-- ## Calculators
 
 <div class="table-wrapper">
 <table>
@@ -115,13 +119,29 @@ Regardless of the operating sequence of the cells or the speed of the fans, ther
         </tr>
     </tbody>
 </table> 
-</div>
+</div> -->
 
 ## Cooling Tower (CT) Fan Calculations
 
 ### Constant Speed CT Fan Energy Using Motor Runtime Data
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data include spot measurements for true power and motor operational time per hour, as measured by motor on/off loggers on each fan in the tower.
+
+#### Calculator
+
+{{< downloadable_file title="Constant Speed CT Fan Energy Using Motor Runtime Data" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+{{< measurement_technique measurement_technique_id=4 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a constant speed cooling tower fan:
 
 1. Convert seconds on per hour to average energy per hour (Worksheet: “Step 2. Energy Calcs”).  Repeat for all fans and then sum to get a total for the cooling tower. Note that since the data loggers cannot be perfectly synced, the time stamp for the dataset for each fan will be different. The workbook time-aligns the datasets.
 
@@ -182,6 +202,20 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 
 This calculation is for a cooling tower with constant-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT power logger for each fan in the cooling tower.
 
+#### Calculator
+
+{{< downloadable_file title="Constant One or Two Speed Fan Energy using kW Data" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a constant speed cooling tower fan:
+
 1. Total energy for each hour (Worksheet: "Step 2 Energy Calcs"). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>).
 
 <p class="equation equation-center">\begin{equation} \bar{E}(t) = \sum_{f = 1}^F \bar{E}_{f}(t) \end{equation}</p>
@@ -193,6 +227,8 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$t =$ time index</p>
 
 2. The remainder of the workbook is the same as the motor runtime data workbook, and therefore uses Equations 3 through 7 to calculate the total annual energy.
+
+<!-- leaving out for now
 
 ### Constant One- or Two-Speed CT Fan Energy Using Electrical Current Data
 
@@ -213,11 +249,25 @@ This calculation is for a cooling tower with constant-speed fans. Measured input
 <p class="equation">$\overline{E} =$ Total average energy of all fan motors, kWh</p>
 <p class="equation">$F =$ Total number of fans in the cooling tower</p>
 
-2. The remainder of the workbook is the same as the motor runtime data workbook, and therefore uses Equations 3 through 7 to calculate the total annual energy.
+2. The remainder of the workbook is the same as the motor runtime data workbook, and therefore uses Equations 3 through 7 to calculate the total annual energy. -->
 
 ### Variable Speed CT Fan Energy Using kW Data
 
-This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed. 
+This calculation is for a cooling tower with variable-speed fans. Measured input data is average hourly power draw (in kW) as measured by a DENT data-logging power logger for one fan in the cooling tower. It is assumed that all the remaining fans are run at the same speed.
+
+#### Calculator
+
+{{< downloadable_file title="Variable Speed CT Fan Energy Using kW Data" >}}
+
+#### Measurements
+
+The calculator relies on the measured data from the following measurement techniques:
+
+{{< measurement_technique measurement_technique_id=1 >}}
+
+#### Methodology
+
+The calculator uses the following methodology to compute annual energy consumption of a variable speed cooling tower fan: 
 
 1. Total energy for each hour (Worksheet: “Step 2 Energy Calcs”). Since the measured power value (kW) is the average for an hour, it is equivalent to the energy for the hour (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>).
 

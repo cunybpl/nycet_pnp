@@ -44,7 +44,7 @@ The main components associated with the CHW loop are primary pumps for primary-f
 <a href="/images/systems/chilled-water-loop/2024_0424_CHW system_figure 1.jpg">
     <figure class="figure">
         <img src="/images/systems/chilled-water-loop/2024_0424_CHW system_figure 1.jpg" class="figure-img img-fluid rounded" alt="Figure 1. Chilled water loop components.">
-        <figcaption class="figure-caption text-left">Figure 1. Chilled water loop components (click on image to enlarge).</figcaption>
+        <figcaption class="figure-caption text-left">Figure 1. Chilled water loop components.</figcaption>
     </figure>
 </a>
 
@@ -198,7 +198,7 @@ The measurement locations for a primary-flow and a primary-secondary flow are sh
 <a href="/images/systems/chilled-water-loop/2024_0509_CHW system_figure 2.jpg">
 <figure class="figure">
   <img src="/images/systems/chilled-water-loop/2024_0509_CHW system_figure 2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Chilled water loop measurement locations.">
-  <figcaption class="figure-caption text-left">Figure 2. Chilled water loop measurement locations (click on image to enlarge).</figcaption>
+  <figcaption class="figure-caption text-left">Figure 2. Chilled water loop measurement locations.</figcaption>
 </figure>
 </a>
 
