@@ -11,6 +11,8 @@ related_components:
   - Constant-speed, Constant-volume Pump and Motor
 related_measurements:
   - Electrical Current
+  - True RMS Power
+  - Motor Runtime
 associated_calculators:
   - Constant Speed CT Fan Energy Using Motor Runtime Data
   - Constant One or Two Speed CT Fan Energy Using kW Data

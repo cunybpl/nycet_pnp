@@ -11,6 +11,9 @@ related_components:
   - Liquid-to-liquid Heat Exchanger
 associated_calculators:
   - Liquid-to-liquid Heat Transfer
+related_measurements:
+  - Water Flow Rate
+  - Pipe Surface Water Temperature
 url: "/documents/calculation-methodology/liquid-to-liquid-heat-exchanger-heat-transfer"
 ---
 

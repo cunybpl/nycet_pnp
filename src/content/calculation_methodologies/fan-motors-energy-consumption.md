@@ -8,6 +8,9 @@ realted_systems:
   - Constant-Speed, Constant-Volume System
 related_measurements:
   - Electrical Current
+  - True RMS Power
+  - Motor Runtime
+  - Outdoor Air Temperature
 associated_calculators:
   - Constant Speed Fan Energy Using Motor Runtime Data
   - Constant One or Two Speed Fan Energy using kW Data

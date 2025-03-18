@@ -7,6 +7,9 @@ excerpt: Estimate the annual energy consumption of a lighting plant.
 related_systems:
   - Electrical Distribution
   - Lighting Fixture
+related_measurements:
+  - Electrical Current
+  - Electrical Spot Measurement
 associated_calculators:
   - Lighting Current Circuit Breakers Calculator
   - Lighting Current Panelboard Calculator

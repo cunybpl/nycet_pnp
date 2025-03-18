@@ -8,6 +8,9 @@ associated_calculators:
   - Air-to-air Heat Transfer
 related_measurements:
   - Motor Runtime
+  - Outdoor Air Temperature
+  - System Air Temperature
+  - Relative Humidity
 url: "/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer"
 ---
 

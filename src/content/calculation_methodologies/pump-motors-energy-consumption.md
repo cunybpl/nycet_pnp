@@ -11,6 +11,10 @@ associated_calculators:
   - Constant One or Two Speed Pump Energy Using Electrical Current Data
   - Variable Speed Pump Energy Using kW Data
   - Variable Speed Pump Energy Using Motor Speed Data
+related_measurements:
+  - True RMS Power
+  - Motor Runtime
+  - Outdoor Air Temperature
 url: "/documents/calculation-methodology/pump-motors-energy-consumption"
 ---
 
