@@ -148,6 +148,20 @@ Perform the following measurements to quantify the energy consumption and operat
 
 {{< measurement_technique measurement_technique_id=5 >}}
 
+### Measurement Equipment
+
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
+
+<div class="equip-grid">
+
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/lighting-measurement-kit/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Lighting" excerpt="Use this kit to measure the electricity consumption of a lighting system." >}}
+
+</div>
+
+{{< admonition type="tip" >}}
+For specifics on how to use and install measurement equipment, see each [measurement technique](#what-and-how-to-measure).
+{{< /admonition >}}
+
 ## Energy Consumption Quantification
 
 Electricity is the energy source for all modern lighting systems.
