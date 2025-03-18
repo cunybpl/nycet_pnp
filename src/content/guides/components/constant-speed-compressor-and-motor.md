@@ -118,7 +118,7 @@ A motor on/off data logger is used to record the operating schedule. The true RM
 </figure>
 </a>
 
-### What to Measure
+### What and How to Measure
 
 Measurements needed to quantify the annual energy consumption and operating characteristics of a constant-speed compressor:
 

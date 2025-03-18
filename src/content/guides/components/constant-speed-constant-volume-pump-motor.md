@@ -196,7 +196,7 @@ The measurement strategy for a CSCV pump and motor involves conducting a one-tim
 </figure>
 </a>
 
-### What to Measure
+### What and How to Measure
 
 Perform the following measurements to quantify the energy consumption and operating characteristics of a CSCV pump and motor:
 

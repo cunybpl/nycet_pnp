@@ -181,7 +181,7 @@ The measurement strategy for a variable-speed fan and its motor involves measuri
 </figure>
 </a>
 
-### What to Measure
+### What and How to Measure
 
 Perform the following measurements to quantify the energy consumption and operating characteristics of a VSVV fan and motor:
 

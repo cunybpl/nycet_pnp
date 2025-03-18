@@ -183,7 +183,7 @@ In some cases, the motor's operational schedule is related to the facility's hea
 </figure>
 </a>
 
-### What to Measure
+### What and How to Measure
 
 Perform the following measurements to quantify the energy consumption and operating characteristics of a CSCV fan and motor:
 

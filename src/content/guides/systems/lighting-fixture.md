@@ -140,7 +140,7 @@ An auditor can develop a sampling plan and use a light on/off logger to measure 
     </figure>
 </a>
 
-### What to Measure
+### What and How to Measure
 
 Perform the following measurements to quantify the energy consumption and operating characteristics of a lighting fixture system:
 

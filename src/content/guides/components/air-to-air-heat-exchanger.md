@@ -141,7 +141,7 @@ Figure 2 shows the measurement locations in a rotary wheel heat exchanger.
 </figure>
 </a>
 
-### What to Measure
+### What and How to Measure
 
 Perform the following measurements to quantify the annual energy consumption and operating characteristics of an air-to-air heat exchanger:
 
@@ -156,22 +156,16 @@ Perform the following measurements to quantify the annual energy consumption and
 
 ### Measurement Equipment
 
-The following equipment is used in the measurement techniques above. Refer to each measurement technique for details on how to use, install and obtain measurements from the equipment.
+**If you are NYC agency personnel** and you're already familiar with the measurements above, the Field Equipment Lending Library has put together a kit wit all the equipment needed for measuring this component:
 
 <div class="equip-grid">
 
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/energy-logger-2/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Energy_Logger_-_Elite_Pro-5-300x300.jpg" title="Energy Data Logger" excerpt="Provides a measurement of true RMS power from voltage and current inputs and records long-term power (kW) and energy (kWh) measurements." >}}
-
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/power-quality-clamp-meter/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/Fluke-345-300x300.jpeg" title="Power Quality Clamp Meter" excerpt="Multi-purpose electrical measurement tool used to take true RMS power readings over a short period of time." >}}
-
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/temp-rh-mx2301/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX2301-5-300x300.jpg" title="MX2301 Data Logger" excerpt="Weatherproof data logger that measures and records temperature and relative humidity in outdoor environments. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
-
-{{< equipment_link type="equip" url="https://nycenergytools.com/equipment/temp-rh-logger-mx1101/" imgUrl="https://nycenergytools.com/wp-content/uploads/2021/05/MX1101-5-300x300.jpg" title="MX1101 Data Logger" excerpt="Measures and records temperature and relative humidity. Using bluetooth technology you can transmit your data wirelessly to your mobile device." >}}
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/air-to-air-heat-exchanger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Air-to-Air Heat Exchanger" excerpt="Use this kit to assess the heat transfer of a rotary wheel air-to-air heat exchanger." >}}
 
 </div>
 
 {{< admonition type="tip" >}}
-**If you are NYC agency personnel** and you require measurement tools, data loggers, meters or sensors, we offer equipment lending through the Field Equipment Lending Library (FELL). See each [measurement technique](#what-to-measure) for specific equipment you can borrow form FELL.
+For specifics on how to use and install the equipment used in the measurements above, see each [measurement technique](#what-and-how-to-measure).
 {{< /admonition >}}
 
 <!-- ### Measurement Equipment
