@@ -136,7 +136,7 @@ Measurements needed to quantify the annual energy consumption and operating char
 
 <div class="equip-grid">
 
-{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/air-to-air-heat-exchanger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Air-to-Air Heat Exchanger" excerpt="Use this kit to assess the heat transfer of a rotary wheel air-to-air heat exchanger." >}}
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/air-to-air-heat-exchanger/" imgUrl="/images/kit-placeholder.jpg" title="Air-to-Air Heat Exchanger" excerpt="Use this kit to assess the heat transfer of a rotary wheel air-to-air heat exchanger." >}}
 
 </div>
 

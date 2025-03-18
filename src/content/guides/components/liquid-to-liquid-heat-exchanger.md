@@ -190,7 +190,7 @@ Perform the following measurements to quantify the annual heat transfer and oper
 
 <div class="equip-grid">
 
-{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/liquid-to-liquid-heat-exchanger/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Liquid-to-Liquid Heat Exchanger" excerpt="Use this kit to assess the heat transfer of a **plate and frame** liquid-to-liquid heat exchanger." >}}
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/liquid-to-liquid-heat-exchanger/" imgUrl="/images/kit-placeholder.jpg" title="Liquid-to-Liquid Heat Exchanger" excerpt="Use this kit to assess the heat transfer of a **plate and frame** liquid-to-liquid heat exchanger." >}}
 
 </div>
 

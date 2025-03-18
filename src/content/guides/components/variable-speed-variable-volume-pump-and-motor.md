@@ -240,7 +240,7 @@ Perform the following measurements to quantify the energy consumption and operat
 
 <div class="equip-grid">
 
-{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/pump-and-motor-kit-variable-speed/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Pump and Motor (Variable-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a variable-speed, variable-volume pump and motor." >}}
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/pump-and-motor-kit-variable-speed/" imgUrl="/images/kit-placeholder.jpg" title="Pump and Motor (Variable-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a variable-speed, variable-volume pump and motor." >}}
 
 </div>
 

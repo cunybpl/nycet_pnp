@@ -211,7 +211,7 @@ Perform the following measurements to quantify the energy consumption and operat
 <div class="equip-grid">
 
 {{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/pump-and-motor-kit-constant-speed/"
-imgUrl="https://nycenergytools.com/wp-content/uploads/2024/09/Fan-and-Motor-Kit-Constant-speed.jpg" title="Pump and Motor (Constant-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a constant-speed, constant-volume pump and motor." >}}
+imgUrl="/images/kit-placeholder.jpg" title="Pump and Motor (Constant-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a constant-speed, constant-volume pump and motor." >}}
 
 </div>
 

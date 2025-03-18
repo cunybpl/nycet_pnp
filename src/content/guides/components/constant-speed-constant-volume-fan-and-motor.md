@@ -205,7 +205,7 @@ Perform the following measurements to quantify the energy consumption and operat
 <div class="equip-grid">
 
 {{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/fan-and-motor-kit-constant-speed/"
-imgUrl="https://nycenergytools.com/wp-content/uploads/2024/09/Fan-and-Motor-Kit-Constant-speed.jpg" title="Fan and Motor (Constant-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a constant-speed, constant-volume fan and motor." >}}
+imgUrl="/images/kit-placeholder.jpg" title="Fan and Motor (Constant-Speed)" excerpt="Use this kit to assess the energy consumption (electricity usage) of a constant-speed, constant-volume fan and motor." >}}
 
 </div>
 

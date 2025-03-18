@@ -154,7 +154,7 @@ Perform the following measurements to quantify the energy consumption and operat
 
 <div class="equip-grid">
 
-{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/lighting-measurement-kit/" imgUrl="https://nycenergytools.com/wp-content/uploads/2024/10/Air-to-Air-Heat-Exchanger.jpg" title="Lighting" excerpt="Use this kit to measure the electricity consumption of a lighting system." >}}
+{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/lighting-measurement-kit/" imgUrl="/images/kit-placeholder.jpg" title="Lighting" excerpt="Use this kit to measure the electricity consumption of a lighting system." >}}
 
 </div>
 
