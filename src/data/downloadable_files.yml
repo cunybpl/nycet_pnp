@@ -7,6 +7,7 @@ files:
     description: Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.
     filename: air_to_air_heat_transfer_calculator_2023_0706.xlsx
     url: https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=0mueeb3h&dl=1
+    filesize: 1.5 MB 
 
   - name: Liquid-to-liquid Heat Transfer
     description: Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.
@@ -18,6 +19,7 @@ files:
     description: Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.
     filename: cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx
     url: https://www.dropbox.com/scl/fi/zbtdwn1dhv8h9xfhfijf7/cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx?rlkey=sm9nl1cglowttst9bxjmge5bd&st=mpceykia&dl=1
+    filesize: 1.5 MB
 
   - name: Constant One or Two Speed CT Fan Energy Using kW Data
     description: Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed cooling tower fan motor.

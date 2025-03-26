@@ -120,3 +120,24 @@ h6.related-title {
 //   color: $primary;
 //   margin-bottom: .125rem;
 // }
+
+.download-container {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 90%;
+  font-weight: 700;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  & a {
+    flex-grow: 1;
+  }
+}
+
+.download-meta {
+  width: max-content;
+  white-space: nowrap;
+  color: $nycet-gray-dark;
+}
