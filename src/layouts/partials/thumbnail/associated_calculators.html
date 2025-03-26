@@ -1,5 +1,4 @@
 <li>
-    <a href="{{ .url }}" download="{{ .filename }}" title="{{ .name }}" class="associated-link">
-      <i class="fa fa-download" aria-hidden="true" style="margin-right: 5px;"></i>{{ .name }}
-    </a>
+    <a href="{{ .url }}" download="{{ .filename }}" title="{{ .name }} ({{ .filesize }})" class="associated-link"><i class="fa fa-download" aria-hidden="true" style="margin-right: 5px;"></i>{{ .name }}</a>
+    <!-- <span> ({{ .filesize }})</span> -->
 </li>

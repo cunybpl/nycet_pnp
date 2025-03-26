@@ -17,7 +17,8 @@ files:
 
 # Cooling Tower Calculators
   - name: Constant Speed CT Fan Energy Using Motor Runtime Data
-    description: Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.
+    description: Uses motor runtime data in seconds per hour from the cooling tower fan motor.
+    more_description: Spot measurements of true RMS power is also required.
     filename: cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx
     url: https://www.dropbox.com/scl/fi/zbtdwn1dhv8h9xfhfijf7/cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx?rlkey=sm9nl1cglowttst9bxjmge5bd&st=mpceykia&dl=1
     filesize: 19.9 MB

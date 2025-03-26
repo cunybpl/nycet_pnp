@@ -53,6 +53,10 @@
   }
 }
 
+.associated-link + span {
+    color: $nycet-gray-dark;
+}
+
 @media (max-width: 1200px) {
   .guide-thumbnail {
       height: 569px;
