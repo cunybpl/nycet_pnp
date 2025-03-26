@@ -46,7 +46,7 @@
                           <p>{{ .description | safeHTML | truncate 160 }}</p>
                         </div>  
                         <div>
-                          <a class="btn btn-primary" href="/downloadables/{{ .filename }}" download="{{ .filename }}">
+                          <a class="btn btn-primary" href="{{ .url }}" download="{{ .filename }}">
                             <i class="fa fa-download" aria-hidden="true" style="margin-right: 5px;"></i>Download
                           </a>
                         </div>
