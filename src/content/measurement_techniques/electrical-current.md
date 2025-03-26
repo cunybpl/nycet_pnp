@@ -6,11 +6,10 @@ measurement_technique_id: 3
 excerpt: Use this technique to measure electrical current (Amps) at one-hour intervals with a data logger.
 borrow_equipment_url: "https://nycenergytools.com/equipment/4-channel-analog-data-logger/"
 thumbnail_image: "/images/measurement-technique/electrical_current/2024_0410_electrical current MT_thumbnail.jpeg"
-associated_systems:
-  - Lighting Fixture
-  - Electrical Distribution
 associated_components:
   - Constant-speed, Constant-volume Fan and Motor
+  - Lighting Fixture
+  - Electrical Distribution
 related_calculations:
   - Cooling Tower Fans Energy Consumption
 associated_calculations:
