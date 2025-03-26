@@ -31,12 +31,12 @@ The major components of a VSVV system are the fans and motors, motor VFDs, heat 
 ### AHU Fan Motors and Variable-frequency Drives 
 
 The fan motors with VFDs provide pressure in the system to move air through the duct work. Typically, fans are placed on the return and supply side of the unit to maintain proper airflow. The air is blown through filters and heat exchanger coils to be conditioned. Fan speeds are varied based on the need for conditioned or ventilation air in the zones served.
-<a class="continue" href="/documents/components/variable-speed-variable-volume-fan-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
+<a class="continue" href="/documents/components/variable-speed-variable-volume-fan-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Heat Exchanger (Heating/Cooling Coils) 
 
 The heat exchanger includes a set of heating and cooling coils, which provide heating or cooling to the air before it is discharged from the AHU. Mechanical valves regulate the amount of energy introduced from the loop to the heat exchangers that control the energy supplied to the discharge air.
-<a class="continue" href="/documents/components/air-to-air-heat-exchanger"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
+<a class="continue" href="/documents/components/air-to-air-heat-exchanger" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Dampers 
 

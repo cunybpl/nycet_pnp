@@ -33,7 +33,7 @@ Condensate recovery systems are typically equipped with pumps, pipe networks, an
 ### Condensate Pumps
 
 Condensate pumps are responsible for moving condensate from the receiver tank(s) back to the boiler system. In some cases, the receiver tank, pump, and float controls are packaged together. An appropriately-sized pump is crucial to avoiding condensate buildup, which could create problems with terminal units.
-<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Pipe Networks
 

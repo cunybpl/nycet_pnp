@@ -34,7 +34,7 @@ The systems and components that make up the air handling plant are listed and de
 ### Constant-speed, Constant-volume (CSCV) AHU
 
 A CSCV air handling system provides heating, cooling, and ventilation air to a space in a facility. The AHU is built  out of various sections on-site. The volume of outside air in the AHU can be modulated from 0% (outside air damper fully closed) to a typical ventilation rate (minimum outside air damper position) and in some cases can provide 100% outside air (economizer mode).
-<a class="continue" href="/documents/systems/constant-speed-constant-volume-air-handling-system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/systems/constant-speed-constant-volume-air-handling-system" aria-label="Learn more about this system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -50,7 +50,7 @@ A DSCV system is similar to a CSCV system, except the fan motors in the AHU have
 ### Variable-air Volume (VAV) AHU 
 
 A VAV system consists of a main AHU and multiple VAV boxes that serve different zones. The AHU has fan motors that are equipped with variable frequency drives (VFDs) that allow the fan speed (and associated air volume) to modulate as the building demand changes. VAV boxes are installed in the supply air ductwork in the zones served and are generally installed with a heating coil, also known as a reheat coil. This enables the system to adjust the supply air temperature to prevent over-cooling a space. The VAV system allows for space temperature and ventilation air control in each zone. VAV boxes are usually set with a minimum damper position associated with the minimum required ventilation airflow needed for the zone.  
-<a class="continue" href="/documents/systems/variable-speed-variable-volume-air-handling-system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/systems/variable-speed-variable-volume-air-handling-system" aria-label="Learn more about this system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 <a href="/images/plants/air-handling-plant/2024_0503_AHU plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -63,7 +63,7 @@ A VAV system consists of a main AHU and multiple VAV boxes that serve different 
 ### Air-to-air Energy Recovery
 
 Air-to-air heat exchangers transfer energy between two airstreams that must be at different temperatures for sensible heat transfer and different moisture contents for latent heat transfer.
-<a class="continue" href="/documents/systems/air-to-air-energy-recovery"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/systems/air-to-air-energy-recovery" aria-label="Learn more about this system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Dedicated Outdoor Air System (DOAS) 
 

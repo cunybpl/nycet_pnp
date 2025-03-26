@@ -37,7 +37,7 @@ The combustion chamber is where the fuel is burned. It houses the burners and is
 ### Heat Exchanger
 
 The heat exchanger in boiler systems facilitates heat transfer from the fuel combustion chamber to the water without direct contact. Non-condensing boilers typically have a single heat exchanger chamber, while condensing boilers include a secondary heat exchanger to increase the heat transfer area and improve efficiency. To operate in condensing mode, the return water temperature must be at or below 140°F.
-<a class="continue" href="/documents/components/liquid-to-liquid-heat-exchanger"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
+<a class="continue" href="/documents/components/liquid-to-liquid-heat-exchanger" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Burner
 
@@ -45,8 +45,8 @@ The primary function of the burner is to deliver fuel and air, mix them in the c
 
 ### Draft Fan (Burner Fan Motor)
 
-Mechanical draft boilers usually have a draft fan that creates the required pressure difference. It is driven by a motor to provide oxygen to the combustion chamber for adequate combustion.   
-<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+Mechanical draft boilers usually have a draft fan that creates the required pressure difference. It is driven by a motor to provide oxygen to the combustion chamber for adequate combustion.
+<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ## Evaluation of Energy Consumption
 

@@ -30,7 +30,7 @@ The components associated with a waterside economizer are heat exchanger, piping
 ### External Heat Exchanger
 
 Typical heat exchangers installed in waterside economizers systems are plate and frame heat exchangers. They can be configured as integrated and non-integrated economizers. The non-integrated configuration consists of a plate-and-frame heat exchanger (PFHX) in parallel with chillers and requires the heat exchanger to supply the entire cooling load. An integrated configuration, the PFHX are arranged in series, allowing the chiller to utilize pre-cooled chilled water and minimizing the energy required by chillers.
-<a class="continue" href="/documents/components/liquid-to-liquid-heat-exchanger"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/liquid-to-liquid-heat-exchanger" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Piping, fittings, and valves
 

@@ -31,12 +31,12 @@ The major components of a CSCV system include fans and motors, heat exchanger co
 ### Fan and Motor 
 
 The fan motors provide pressure in the system to move air through the duct work. Typically, fans are placed on the return and supply side of the unit to maintain proper airflow. The air is either blown or pulled through filters and heat exchanger coils, depending on the configuration. In a CSCV system, the motors operate in an on/off manner.
-<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/components/constant-speed-constant-volume-fan-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 ### Heat Exchanger (Heating/Cooling Coils) 
 
 The heat exchanger includes a set of heating and cooling coils that provide heating or cooling to the air before it is discharged from the AHU. Mechanical valves regulate the amount of energy introduced from the loop to the heat exchangers, which control the energy supplied to the discharge air.
-<a class="continue" href="/documents/components/air-to-air-heat-exchanger"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/air-to-air-heat-exchanger" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Dampers 
 

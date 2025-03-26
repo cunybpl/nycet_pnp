@@ -60,6 +60,8 @@
   }
 
   &-link {
+    flex-direction: column;
+    gap:.5rem;
     padding: 2rem;
     font-size: 3em;
     text-decoration: none !important;
@@ -72,6 +74,12 @@
     &:hover,
     &:focus {
       background-color:hsla(125, 37%, 41%, 0.2);
+    }
+
+    &-meta {
+      font-size: .85rem;
+      font-weight: bold;
+      color: $nycet-gray-dark;
     }
   }
 }

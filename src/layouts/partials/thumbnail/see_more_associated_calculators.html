@@ -45,10 +45,11 @@
                           <h5>{{ .name }}</h5>
                           <p>{{ .description | safeHTML | truncate 160 }}</p>
                         </div>  
-                        <div>
-                          <a class="btn btn-primary" href="/downloadables/{{ .filename }}" download="{{ .filename }}">
+                        <div class="download-container">
+                          <a class="btn btn-primary" href="{{ .url }}" download="{{ .filename }}">
                             <i class="fa fa-download" aria-hidden="true" style="margin-right: 5px;"></i>Download
                           </a>
+                          <span class="download-meta">{{ .filesize }}</span>
                         </div>
                       </div>
                     </div>
