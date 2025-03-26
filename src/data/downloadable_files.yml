@@ -6,35 +6,40 @@ files:
   - name: Air-to-air Heat Transfer
     description: Uses measured air flowrate, fan power and runtime, and temperature to calculate total annual heat transfer and energy savings for an ERV.
     filename: air_to_air_heat_transfer_calculator_2023_0706.xlsx
-    url: https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=0mueeb3h&dl=1
-    filesize: 1.5 MB 
+    url: https://www.dropbox.com/scl/fi/kyy1x5bkp1yeobfj8af9n/air_to_air_heat_transfer_calculator_2023_0706.xlsx?rlkey=q0gqlcskk7aa3ffclirfx2el5&st=0mueeb3h&dl=1 
+    filesize: 17 MB
 
   - name: Liquid-to-liquid Heat Transfer
     description: Uses the flow rate and temperature of two fluids in the system to calculate the heat transfer.
     filename: liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx
     url: https://www.dropbox.com/scl/fi/u135vg1tvq0sxa3k8sjy8/liquid_to_liquid_heat_transfer_calculator_2023_0626.xlsx?rlkey=n1g35f61ozm837i4z53umgg1b&st=xp6338zq&dl=1
+    filesize: 8.5 MB
 
 # Cooling Tower Calculators
   - name: Constant Speed CT Fan Energy Using Motor Runtime Data
     description: Uses motor runtime data in seconds per hour from the cooling tower fan motor. Spot measurements of true RMS power is also required.
     filename: cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx
     url: https://www.dropbox.com/scl/fi/zbtdwn1dhv8h9xfhfijf7/cscv_CT_fan_single_speed_runtime_data_calculator_2023_0117.xlsx?rlkey=sm9nl1cglowttst9bxjmge5bd&st=mpceykia&dl=1
-    filesize: 1.5 MB
+    filesize: 19.9 MB
 
   - name: Constant One or Two Speed CT Fan Energy Using kW Data
     description: Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed cooling tower fan motor.
     filename: cscv_CT_fan_single_speed_kW_data_calculator_2023_0113.xlsx
     url: https://www.dropbox.com/scl/fi/1yhbi6e5goz5oh59dyeim/cscv_CT_fan_single_speed_kW_data_calculator_2023_0113.xlsx?rlkey=ncjwejwgangris33l2y5nqlst&st=lwjchjgc&dl=1
+    filesize: 19.2 MB
 
   - name: Constant One or Two Speed CT Fan Energy Using Electrical Current Data
-    description: Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans. Spot measurements of voltage and power factor are required.
+    description: Uses electric current data as a proxy for power to estimate the annual energy consumption of the cooling tower fans.
+    more_description: Spot measurements of voltage and power factor are required.
     filename: cscv_CT_fan_two_speed_current_data_calculator_2023_0117.xlsx
     url: https://www.dropbox.com/scl/fi/tbybzj59qo36hal51svtj/cscv_CT_fan_two_speed_current_data_calculator_2023_0117.xlsx?rlkey=943q5zg6ec8cc7smhhtj1yrd8&st=2q64ck8j&dl=1
+    filesize: 19.3 MB
 
   - name: Variable Speed CT Fan Energy Using kW Data
     description: Uses measured hourly kW data to calculate annual energy for a VS cooling tower fan
     filename: vsvv_CT_fan_kW_data_calculator_2023_0110.xlsx
     url: https://www.dropbox.com/scl/fi/5kihn223ayx1v0544uxvu/vsvv_CT_fan_kW_data_calculator_2023_0110.xlsx?rlkey=qhqbexo93akfe70yuxb7ldi81&st=wc645n8k&dl=1
+    filesize: 19.4 MB
 
 # Fan Calculators
   - name: Constant Speed Fan Energy Using Motor Runtime Data
@@ -42,73 +47,87 @@ files:
     more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format. 
     filename: cscv_single_speed_fan_energy_calculator_2023_0214.xlsx
     url: https://www.dropbox.com/scl/fi/1wpca3p4z2m76j630zkkj/cscv_fan_single_speed_runtime_data_calculator_2023_0214.xlsx?rlkey=a0b8if3uu60txwvmom4hntdlv&st=y5neyhsx&dl=1
+    filesize: 373 KB
 
   - name: Constant One or Two Speed Fan Energy using kW Data
     description: Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed fan motor.
     more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
     filename: cscv_fan_single_speed_kW_data_calculator_2023_0227.xlsx"
     url: https://www.dropbox.com/scl/fi/uj4nua2f5h60gjd9tj77y/cscv_fan_single_speed_kW_data_calculator_2023_0227.xlsx?rlkey=y3mmji7nel2sib2m10q5pkzll&st=xvsg8o1h&dl=1
+    filesize: 311 KB
 
   - name: Constant One or Two Speed Fan Energy Using Electrical Current Data
     description: Uses hourly current data (in amperes) and true RMS power (kW) data to estimate annual energy consumption of a CSCV two-speed fan motor.
     more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
     filename: cscv_fan_two_speed_current_data_calculator_2023_0320.xlsx
     url: https://www.dropbox.com/scl/fi/tbybzj59qo36hal51svtj/cscv_CT_fan_two_speed_current_data_calculator_2023_0117.xlsx?rlkey=943q5zg6ec8cc7smhhtj1yrd8&st=p852yk4e&dl=1
+    filesize: 19.3 MB
 
   - name: Constant One or Two Speed Fan Energy Using Motor Speed Data
     description: Uses hourly motor speed data obtained from the VFD or BMS and spot measurement data of kW to estimate the annual energy consumption of a constant-speed one- or two-speed fan motor.
     filename: cscv_fan_two_speed_motor_speed_data_calculator_2020_0512.xlsx
     url: https://www.dropbox.com/scl/fi/rp0j4szn137kdzx0zqefl/cscv_fan_two_speed_motor_speed_data_calculator_2020_0512.xlsx?rlkey=wasqdb2zmo5y5rj40wzcvz85t&st=n6gmabls&dl=1
+    filesize: 574 KB
 
   - name: Variable Speed Fan Energy Using kW Data
     description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV fan motor.
     more_description: This calculator can work with data from two fans, e.g., if you measured a supply and return fan in an AHU use this calculator to estimate the total annual energy consumption of the AHU. Data from both fans must be in the same format.
     filename: vsvv_fan_kW_data_calculator_2023_0203.xlsx
     url: https://www.dropbox.com/scl/fi/9eccx1uj4f25bzssjtdu8/vsvv_fan_kW_data_calculator_2023_0203.xlsx?rlkey=c6kf87lxpxfhpaoyug5g8av0l&st=iw15hsoq&dl=1
+    filesize: 2.4 MB
 
 # Lighting Calculators
   - name: Lighting Current Circuit Breakers Calculator
     description: Uses voltage measurements alongside power, circuit amperage and current from circuit breakers to measure the total energy output from the system.
     filename: lighting_circuits_current_data_calculator_2023_0818.xlsx
     url: https://www.dropbox.com/scl/fi/zt25x53jpsuzfx687jjiq/lighting_circuits_current_data_calculator_2023_0818.xlsx?rlkey=lge4jlox8bbhb79t7bk73mhk1&st=q9vsuut7&dl=1
+    filesize: 1.6 MB
 
   - name: Lighting Current Panelboard Calculator
     description: Uses voltage measurements alongside power, circuit amperage and current from the electrical panelboard to measure the total energy output from the system.
     filename: lighting_panelboard_current_data_calculator_2023_0816.xlsx
     url: https://www.dropbox.com/scl/fi/qiuvg1hl77tum2uufpdml/lighting_panelboard_current_data_calculator_2023_0816.xlsx?rlkey=jh5vnjsznuyhkcrdgdl7ihh3n&st=p6t3k0pf&dl=1
+    filesize: 1.3 MB
 
   - name: Lighting Inventory Runtime Calculator
     description: Uses the panel energy use to calculate the operating schedule of the system.
     filename: lighting_inventory_runtime_data_calculator_2023_0417.xlsx
     url: https://www.dropbox.com/scl/fi/d0ib6zx8wsnr0id2gfklp/lighting_inventory_runtime_data_calculator_2023_0417.xlsx?rlkey=i43zir7rlowxxhoa588hsoy51&st=y7iohswm&dl=1
+    filesize: 2.2 MB
 
   - name: Lighting True RMS Power Panelboard Calculator
     description: Uses the runtime and power of the panelboard to calculate the annual anergy consumption of a lighting electrical distribution system.
     filename: lighting_panelboard_kW_data_calculator_2023_0417.xlsx
     url: https://www.dropbox.com/scl/fi/koenvf48h36od4z298747/lighting_panelboard_kW_data_calculator_2023_0417.xlsx?rlkey=cadavmvrxq18o1qiny35mkld6&st=x8j4yf1p&dl=1
+    filesize: 9.6 MB
 
 # Pump Calculators
   - name: Constant Speed Pump Energy Using Motor Runtime Data
     description: Uses motor runtime (in seconds) and true RMS power (kW) data to estimate annual energy consumption of a CSCV pump motor.
     filename: cscv_pump_runtime_data_calculator_2020_0427.xlsx
     url: https://www.dropbox.com/scl/fi/i7jraysee7jo16j9pv1q4/cscv_pump_runtime_data_calculator_2020_0427.xlsx?rlkey=58ratwjbj4ac5a2f40t0zqp6q&st=s9sjr1b9&dl=1
+    filesize: 190 KB
 
   - name: Constant One or Two Speed Pump Energy Using kW Data
     description: Uses hourly electrical current data and spot measurement data of kW to estimate the annual energy consumption for a constant-speed one- or two-speed pump motor.
     filename: cscv_pump_kW_data_calculator_2020_0427.xlsx
     url: https://www.dropbox.com/scl/fi/4o9h7hxw4h3ju0ivlkhop/cscv_pump_kW_data_calculator_2020_0427.xlsx?rlkey=cdiblpf1402vhtpxwgke754jz&st=9ewygg6o&dl=1
+    filesize: 175 KB
 
   - name: Constant One or Two Speed Pump Energy Using Electrical Current Data
     description: Uses measured hourly kW data to estimate annual energy consumption for a constant-speed one- or two-speed pump motor.
     filename: cscv_pump_current_data_calculator_2020_0427.xlsx
     url: https://www.dropbox.com/scl/fi/y26wdvif4ork2mofrrr0w/cscv_pump_current_data_calculator_2020_0427.xlsx?rlkey=l8zs6pj65v7e9hi5l2j4fy1lu&st=g48kmj90&dl=1
+    filesize: 183 KB
 
   - name: Variable Speed Pump Energy Using kW Data
     description: Uses hourly true RMS power to calculate hourly energy consumption then estimate the annual energy consumption of a VSVV pump motor.
     filename: vsvv_pump_kW_data_calculator_2020_0427.xlsx
     url: https://www.dropbox.com/scl/fi/9l6y78d1s7n9mkxk27sd7/vsvv_pump_kW_data_calculator_2020_0427.xlsx?rlkey=m0gvtjq3dnvgjq29mpyq3rcry&st=kmlilpni&dl=1
+    filesize: 1.2 MB
 
   - name: Variable Speed Pump Energy Using Motor Speed Data
     description: Uses hourly motor speed data obtained from the VFD or BMS and spot measurements of kW to estimate the annual energy consumption of a variable-speed pump motor.
     filename: vsvv_pump_motor_speed_data_calculator_2020_0601.xlsx
     url: https://www.dropbox.com/scl/fi/ni6xcdrqasrksk2vbxox5/vsvv_pump_motor_speed_data_calculator_2020_0601.xlsx?rlkey=wsic2wpg957xiw4561a150y2e&st=l1bkupb6&dl=1
+    filesize: 10.3 MB

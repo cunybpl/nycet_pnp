@@ -15,6 +15,7 @@ associated_calculators:
   - Lighting Current Panelboard Calculator
   - Lighting Inventory Schedule Calculator
   - Lighting True RMS Power Panelboard Calculator
+  - Lighting Inventory Runtime Calculator
 url: "/documents/calculation-methodology/lighting-plant-and-systems-energy-consumption"
 ---
 
