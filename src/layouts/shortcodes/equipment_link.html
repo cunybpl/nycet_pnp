@@ -1,11 +1,11 @@
 <section class="card card-block equip-card">
   {{ $label := "" }}
+  {{ $type := .Get "type" }}
   {{ $borrow := .Get "borrow" }}
   {{ $url := .Get "url" }}
   {{ $imgUrl := .Get "imgUrl"}}
   {{ $title := .Get "title" }}
   {{ $excerpt := .Get "excerpt" }}
-  {{ $type := .Get "type" }}
   {{ if eq $type "equip"}}
     {{ $label = "equipment" }}
   {{ else if eq $type "kit"}}

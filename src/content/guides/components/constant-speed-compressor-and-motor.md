@@ -134,7 +134,14 @@ Measurements needed to quantify the annual energy consumption and operating char
 
 <div class="equip-grid">
 
-{{< equipment_link type="kit" borrow="yes" url="https://nycenergytools.com/equipment-kits/compressor-and-motor-kit/" imgUrl="/images/kit-placeholder.jpg" title="Compressor and Motor" excerpt="Use this kit to assess the energy consumption (electricity usage) of a compressor motor connected to a chiller system." >}}
+{{< equipment_link
+    type="kit" 
+    borrow="yes" 
+    url="https://nycenergytools.com/equipment-kits/compressor-and-motor-kit/" 
+    imgUrl="/images/kit-placeholder.jpg" 
+    title="Compressor and Motor"
+    excerpt="Use this kit to assess the energy consumption (electricity usage) of a compressor motor connected to a chiller system."
+>}}
 
 </div>
 
