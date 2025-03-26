@@ -55,12 +55,12 @@ A primary CHW pump and motor circulates chilled water from the evaporator sectio
 #### Constant-speed, Constant-volume Pump
 
 A constant-speed, constant-volume pump and motor operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. 
-<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 #### Variable-speed, Variable-volume Pump
 
 A variable-speed, variable-volume pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. 
-<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Secondary CHW Pump and Motor
 
@@ -69,12 +69,12 @@ A secondary CHW pump and motor circulates chilled water from the primary piping 
 #### Constant-speed, Constant-volume Pump
 
 A constant-speed, constant-volume (CSCV) pump and motor operates at a single speed to circulate liquid (e.g., water, water, and glycol solution) through a piping network where the flow rate through the pump does not vary more than 5%. 
-<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 #### Variable-speed, Variable-volume Pump
 
 A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. 
-<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Primary CHW Piping Network
 

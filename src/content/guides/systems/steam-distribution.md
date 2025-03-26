@@ -69,7 +69,7 @@ Thermostatic traps rely on the temperature difference between the condensate and
 ### Vacuum Pump 
 
 If present, a vacuum pump is located after the steam traps and reduces pressure in the piping network. This increases the rate at which the piping network and terminal units fill with steam and may allow the boiler to operate at a lower temperature, as placing the system under a vacuum lowers the boiling point of water.
-<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ## Evaluation of Energy Consumption
 

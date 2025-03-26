@@ -39,12 +39,12 @@ The feedwater pumps and motors inject the feedwater stored in the feedwater tank
 #### Constant-speed, Constant-volume Pump
 
 A constant-speed, constant-volume pump and motor operates at a single speed to circulate liquid.
-<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/constant-speed-constant-volume-pump-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 #### Variable-speed, Variable-volume Pump
 
 A variable-speed, variable-volume pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve.
-<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
+<a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
 ### Piping Network 
 

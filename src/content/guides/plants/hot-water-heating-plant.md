@@ -30,7 +30,7 @@ The hot water heating (HWH) plant uses input energy (e.g., fuel, electricity, or
 ### Hot Water Heating Boiler
 
 The HWH boiler system is the largest energy-consuming component of the hot water heating plant. Hot water is primarily generated through heat transfer from combustion gases in the combustion chamber to the water. The heated water is then distributed throughout the facility to meet space heating or domestic hot water demands. The main components of an HWH boiler system include the burner, combustion chamber, heat exchanger, and draft fan, as shown in Figure 2.
-<a class="continue" href="/documents/systems/boiler"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/boiler" aria-label="Learn more about this system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 2 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -42,7 +42,7 @@ The HWH boiler system is the largest energy-consuming component of the hot water
 ### Hot Water Loop
 
 The hot water loop system encompasses the distribution system responsible for moving hot water throughout the building. Components of a typical hot water loop system are primary-only or primary-secondary pumps, piping network and piping insulation and are shown in Figure 3.
-<a class="continue" href="/documents/systems/hot-water-loop"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/hot-water-loop" aria-label="Learn more about this system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 3 updated.jpg">
     <figure class="figure mb-4 mt-3">
@@ -54,7 +54,7 @@ The hot water loop system encompasses the distribution system responsible for mo
 ### Feedwater System
 
 The feedwater system provides treated make-up water and returned hot water from the hot water loop. Feedwater requires proper treatment to remove pollutants and preserve the efficiency of the boiler. Figure 4 shows the components for the feedwater system.
-<a class="continue" href="/documents/systems/feedwater"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
+<a class="continue" href="/documents/systems/feedwater" aria-label="Learn more about this system"><span>Learn More</span><i class="fa fa-arrow-right"></i></a> 
 
 <a href="/images/plants/hot-water-heating-plant/2024_0416_HWP plant_figure 4 updated.jpg">
     <figure class="figure mb-4 mt-3">
