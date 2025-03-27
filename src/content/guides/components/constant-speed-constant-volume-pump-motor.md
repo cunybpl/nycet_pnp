@@ -284,7 +284,7 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
 
 ### How to Quantify
 
-The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for all types of CSCV pump and motor:
+The following downloadable file(s) can be used to calculate energy consumption based on the [measurements](#what-and-how-to-measure) taken for all types of CSCV pump and motor:
 
 {{< downloadable_file title="Constant Speed Pump Energy Using Motor Runtime Data" >}}
 

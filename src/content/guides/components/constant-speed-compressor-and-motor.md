@@ -217,7 +217,7 @@ The primary energy source for a constant-speed compressor is the electricity use
 
 ### How to Quantify
 
-The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for a constant speed compressor and motor:
+The following downloadable file(s) can be used to calculate energy consumption based on the [measurements](#what-and-how-to-measure) taken for a constant speed compressor and motor:
 
 {{< downloadable_file title="Constant Speed Pump Energy Using Motor Runtime Data" >}}
 

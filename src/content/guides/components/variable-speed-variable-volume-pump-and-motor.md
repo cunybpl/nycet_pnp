@@ -317,7 +317,7 @@ The general methodology for quantifying the energy consumption of a variable-spe
 
 ### How to Quantify
 
-The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for all types of VSVV pump and motor:
+The following downloadable file(s) can be used to calculate energy consumption based on the [measurements](#what-and-how-to-measure) taken for all types of VSVV pump and motor:
 
 {{< downloadable_file title="Variable Speed Pump Energy Using kW Data" >}}
 
