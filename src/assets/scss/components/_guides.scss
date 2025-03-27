@@ -44,6 +44,8 @@
 .content a:not(.btn) {
   text-decoration: underline;
   overflow-wrap: break-word;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
 }
 
 // a:hover:not(.btn),
