@@ -278,7 +278,7 @@ The general methodology for quantifying the energy impact of an air-to-air heat 
 
 ### How to Quantify
 
-The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for this component: 
+The following downloadable file(s) can be used to calculate energy consumption based on the [measurements](#what-and-how-to-measure) taken for this component: 
 
 {{< downloadable_file title="Air-to-air Heat Transfer" >}}
 

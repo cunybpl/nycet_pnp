@@ -168,7 +168,7 @@ Electricity is the energy source for all modern lighting systems.
 
 ### How to Quantify
 
-The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for a lighting fixture system:
+The following downloadable file(s) can be used to calculate energy consumption based on the [measurements](#what-and-how-to-measure) taken for a lighting fixture system:
 
 {{< downloadable_file title="Lighting Current Circuit Breakers Calculator" >}}
 

@@ -280,7 +280,7 @@ The primary energy source for a variable-speed fan is the electricity used to ru
 
 ### How to Quantify
 
-The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for the specific type of VSVV fan and motor:
+The following downloadable file(s) can be used to calculate energy consumption based on the [measurements](#what-and-how-to-measure) taken for the specific type of VSVV fan and motor:
 
 #### For VSVV AHU Supply/Return, Chiller Condenser, and Boiler Burner Fans 
 

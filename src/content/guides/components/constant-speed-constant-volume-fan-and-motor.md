@@ -317,7 +317,7 @@ However, the yearly schedule may depend on outdoor air temperature (OAT). If so,
 
 ### How to Quantify
 
-The following downloadable file(s) can be used to calculate energy consumption based on the measurements taken for the specific type of CSCV fan and motor:
+The following downloadable file(s) can be used to calculate energy consumption based on the [measurements](#what-and-how-to-measure) taken for the specific type of CSCV fan and motor:
 
 #### For CSCV AHU Supply/Return, Chiller Condenser, and Boiler Burner Fans 
 
