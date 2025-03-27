@@ -238,7 +238,10 @@ details.guide-header-description {
     // font-weight: bold;
     margin-left: .125rem;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: var(--underline-thickness);
+    text-underline-offset: var(--underline-offset);
+
     &:hover {
       color: $nycet-green-dark;
     }
