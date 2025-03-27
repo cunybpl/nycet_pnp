@@ -29,10 +29,12 @@
   font-size: inherit;
   letter-spacing: normal;
   position: relative;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--underline-thickness);
+  text-underline-offset: var(--underline-offset);
 }
 .see-more-associated-systems-button:hover {
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 .see-more-associated-systems-button::after {

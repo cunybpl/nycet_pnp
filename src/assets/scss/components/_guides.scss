@@ -25,10 +25,8 @@
       color: $primary;
     }
     a:hover {
-      text-decoration: underline;
+      text-decoration-line: underline;
       color: $nycet-green-dark;
-      text-decoration-thickness: 1.5px;
-      text-underline-offset: 2px;
     }
   }
 }
@@ -44,10 +42,8 @@
 }
 
 .content a:not(.btn) {
-  text-decoration: underline;
+  text-decoration-line: underline;
   overflow-wrap: break-word;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;
 }
 
 // a:hover:not(.btn),
@@ -309,9 +305,13 @@ details.guide-header-description {
       }
       a {
         color: $nycet-gray-darker;
+        text-decoration-thickness: var(--underline-thickness);
+        text-underline-offset: var(--underline-offset);
       }
       a:hover {
         text-decoration: underline;
+        text-decoration-thickness: var(--underline-thickness);
+        text-underline-offset: var(--underline-offset);
       }
       ul {
         list-style-type: none;
