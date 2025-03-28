@@ -50,8 +50,8 @@ The general algorithm employed when OAT is the input variable is depicted in Fig
 
 <a href="/images/SOOs/SOO-01-fig-2.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="/images/SOOs/SOO-01-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Chilled water supply temperature reset algorithm.">
-        <figcaption class="figure-caption text-left">Figure 2. Chilled water supply temperature reset algorithm.</figcaption>  
+        <img src="/images/SOOs/SOO-01-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Chilled water supply temperature reset algorithm. Based on ASHRAE 90.1-2019, Appendix G, Section G3.1.3.9.">
+        <figcaption class="figure-caption text-left">Figure 2. Chilled water supply temperature reset algorithm. Based on ASHRAE 90.1-2019, Appendix G, Section G3.1.3.9.</figcaption>  
     </figure>
 </a>
 
@@ -61,12 +61,12 @@ CHWST setpoint can also be modulated in proportion to the to the average positio
 
 As discussed by Taylor (2012), using cooling coil valve position as the input allows for integrated control of the CHWST reset SOO with the differential pressure reset SOO, while also minimizing the risk of insufficient dehumidification by the cooling coils.[^2]
 
-Figure 3 shows how the algorithm works when the number of cooling coil valves is used as the input variable. The more cooling coil valves that are greater than 90% open, the lower the ChWST setpoint becomes.
+Figure 3 shows how the algorithm works when the number of cooling coil valves is used as the input variable. The more cooling coil valves that are greater than 90% open, the lower the CHWST setpoint becomes.
 
 <a href="/images/SOOs/SOO-01-fig-3.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="/images/SOOs/SOO-01-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water supply temperature reset algorithm.">
-        <figcaption class="figure-caption text-left">Figure 3. Chilled water supply temperature reset algorithm.</figcaption>  
+        <img src="/images/SOOs/SOO-01-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Chilled water supply temperature reset algorithm. (Image courtesy of Advisor Business Energy (2019))">
+        <figcaption class="figure-caption text-left">Figure 3. Chilled water supply temperature reset algorithm. (Image courtesy of Advisor Business Energy (2019))</figcaption>  
     </figure>
 </a>
 
@@ -80,8 +80,8 @@ The energy savings from CHWST reset comes from reducing the amount of electrical
 
 <a href="/images/SOOs/SOO-01-fig-4-cropped.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="/images/SOOs/SOO-01-fig-4-cropped.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Chiller performance for a chilled water reset schedule below 80°F.">
-        <figcaption class="figure-caption text-left">Figure 4. Chiller performance for a chilled water reset schedule below 80°F.</figcaption>  
+        <img src="/images/SOOs/SOO-01-fig-4-cropped.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Chiller performance for a chilled water reset schedule below 80°F. (Image courtesy of Jiang, Winiarski, Katipamula & Armstrong (2007).)">
+        <figcaption class="figure-caption text-left">Figure 4. Chiller performance for a chilled water reset schedule below 80°F. (Image courtesy of Jiang, Winiarski, Katipamula & Armstrong (2007).)</figcaption>  
     </figure>
 </a>
 
@@ -236,7 +236,7 @@ The measurement boundary includes the entire cooling plant, Figure 6 shows a rep
 <a href="/images/SOOs/SOO-01-fig-7.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-01-fig-7.jpg" class="figure-img img-fluid rounded" alt="Figure 7. Coordination of CHWST reset with differential pressure reset.">
-        <figcaption class="figure-caption text-left">Figure 7. Coordination of CHWST reset with differential pressure reset.</figcaption>  
+        <figcaption class="figure-caption text-left">Figure 7. Coordination of CHWST reset with differential pressure reset. Image © ASHRAE www.ashrae.org (ASHARE Journal, June, 2012, Figure 5).</figcaption>  
     </figure>
 </a>
 
@@ -258,8 +258,6 @@ Due to the highly interactive nature of the water-cooled chilled water plant, a 
 
 - ASHRAE. (2019). ASHRAE Handbook Online: HVAC Applications (I-P ed.). ASHRAE. Retrieved from https://www.ashrae.org
 
-- ASHRAE. (2019). Energy Standard for Buildings Except Low-Rise Residential Buildings. Atlanta, GA: ASHRAE.
-
 - ASHRAE. (2019). Standard 90.1-2019: Energy standard for buildings except low-rise residential buildings. ASHRAE.
 
 - Jiang, W., Winiarski, D., Katipamula, S., & Armstrong, P. (2007). Cost-Effective Integration of Efficient Low-Lift Base Load Cooling Equipment. Pacific Northwest National Laboratory.
@@ -269,7 +267,6 @@ Due to the highly interactive nature of the water-cooled chilled water plant, a 
 - Taylor, S. (2002). Degrading Chilled Water Plant Delta-T: Causes and Mitigation. ASHRAE Transactions, 108.
 
 - Taylor, S. (2012). Optimizing Design & Control of Chilled Water Plants. ASHRAE Journal, 56-74.
-
 
 
 ## Footnotes

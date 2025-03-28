@@ -53,7 +53,7 @@ This section describes the control algorithm to determine when economizing is tu
 <a href="/images/SOOs/SOO-04-fig-2.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-04-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Flow chart of waterside economizers.">
-        <figcaption class="figure-caption text-left">Figure 2. Flow chart of waterside economizers.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. Flow chart of waterside economizers. Based on ASHRAE Journal, June, 2014, pp. 33-36.</figcaption>
     </figure>
 </a>
 
@@ -220,6 +220,10 @@ A waterside economizer has potential interactivity with the entire water-cooled 
 ## Waterside Economizer SOO Calculation Methodology 
 
 The annual energy consumption of a water-cooled chilled water plant with a waterside economizer is the sum of the energy for each component system for each hour of the year. The model used must consider the hourly cooling loads and facility operations, outdoor conditions, operating parameters of the systems in the plant, and operations of associated AHU plants. Due to the highly interactive nature of the water-cooled chilled water plant, a detailed plant model or whole facility energy model is needed to estimate annual consumption, based on the actual operational parameters and measured energy consumption of the various systems and components.  
+
+## Further Reading
+
+- Taylor, S. (2014). How to design & control waterside economizers. ASHRAE Journal, 56, 30-36.
 
 ## Footnotes
 [^1]: ​​​Taylor, S. (2014). How to design & control waterside economizers. ASHRAE Journal, 56, 30-36. 

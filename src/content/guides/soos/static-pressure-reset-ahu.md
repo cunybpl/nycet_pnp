@@ -57,8 +57,8 @@ Figure 2 presents a diagram of the algorithm used to calculate requests for an i
 
 <a href="/images/SOOs/SOO-08-fig-2.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="/images/SOOs/SOO-08-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Algorithm to calculate static pressure reset requests (Placeholder graphic, ASHRAE 36-2018, Section 5.6.8.2).">
-        <figcaption class="figure-caption text-left">Figure 2. Algorithm to calculate static pressure reset requests (Placeholder graphic, ASHRAE 36-2018, Section 5.6.8.2).</figcaption>
+        <img src="/images/SOOs/SOO-08-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Algorithm to calculate static pressure reset requests. Based on ASHRAE 36-2018, Section 5.6.8.2.">
+        <figcaption class="figure-caption text-left">Figure 2. Algorithm to calculate static pressure reset requests. Based on ASHRAE 36-2018, Section 5.6.8.2.</figcaption>
     </figure>
 </a>
 
@@ -68,7 +68,7 @@ Figure 3 presents a diagram of the T&R algorithm, with the variables defined in 
 
 <div class="table-wrapper">
 <table>
-    <caption>Table 1. Trim and Request variables (ASHRAE 36-2018, Table 5.1.14.3).</caption>
+    <caption>Table 1. Trim and Request variables. Based on ASHRAE Guideline 36-2018, Table 5.1.14.3.</caption>
     <thead>
         <tr>
             <th>
@@ -151,8 +151,8 @@ The condition R>I (left side of the diagram) ensure that the pressure reset only
 
 <a href="/images/SOOs/SOO-08-fig-3.jpg">
     <figure class="figure mb-0 mt-3">
-        <img src="/images/SOOs/SOO-08-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Trim and Response logic for static pressure reset.">
-        <figcaption class="figure-caption text-left">Figure 3. Trim and Response logic for static pressure reset.</figcaption>
+        <img src="/images/SOOs/SOO-08-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Trim and Response logic for static pressure reset. Based on ACHRAE Guideline 36-2018, Section 5.1.14.">
+        <figcaption class="figure-caption text-left">Figure 3. Trim and Response logic for static pressure reset. Based on ACHRAE Guideline 36-2018, Section 5.1.14.</figcaption>
     </figure>
 </a>
 
@@ -241,9 +241,16 @@ One underlying assumption regarding this SOO is that the heating and cooling loa
 ## Further Reading
 
 - ​​​ASHRAE. (2018). High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
+
 - ASHRAE. (2019). Standard 90.1-2019: Energy standard for buildings except low-rise residential buildings. ASHRAE.
-- ​Johnson Controls. (n.d.). Air handling unit reset application note: Sequence of operation – Winter mode. Retrieved 2021, from https://docs.johnsoncontrols.com/bas/r/Metasys/en-US/Air-Handling-Unit-Reset-Application-Note/AHU-Reset-Control-System 
+
+- ​Johnson Controls. (n.d.). Air handling unit reset application note: Sequence of operation – Winter mode. Retrieved 2021, from https://docs.johnsoncontrols.com/bas/r/Metasys/en-US Air-Handling-Unit-Reset-Application-Note/AHU-Reset-Control-System 
+
 - ​New York City Department of Buildings. (2020). New York City Energy Conservation Code (NYCECC). Retrieved 2021, from Section C403.6.8.: Chapter C4 Commercial Energy Efficiency: Commercial Energy Efficiency, New York City Energy Code 2020 | UpCodes  
+
+- Seidl, R. (2008). Using Demand Based Reset Strategies. National Conference on Building Commissioning.
+
+- Trane. (2016). Multiple-zone VAV systems - Finding the Right Balance for VAV Energy Savings. Trane Engineers Newsletter, 45(3), 1-7.
 
 ## Footnotes
 

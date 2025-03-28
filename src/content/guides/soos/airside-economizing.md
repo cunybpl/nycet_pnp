@@ -134,7 +134,7 @@ One underlying assumption regarding this SOO is that the heating and cooling loa
  
 ## Further Reading
 
-- ASHRAE (2018). High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
+- ASHRAE. (2018). ASHRAE Guideline 36-2018: High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
 
 
 
