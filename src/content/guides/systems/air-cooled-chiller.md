@@ -5,9 +5,9 @@ system_id: 5
 excerpt: Produces chilled liquid and works in conjunction with an AHU to provide cooling. The condenser rejects heat absorbed by the refrigerant directly to the outdoor air.
 thumbnail_image: "/images/systems/air-cooled-chiller/2024_0606_air cooled chiller system_thumbnail_RESIZED-01.jpg"
 associated_components:
-  - Constant-speed Compressor and Motor
+  - Compressor and Motor
 related_components:
-  - Constant-speed Compressor and Motor
+  - Compressor and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/air-cooled-chiller-meausement-kit/"
 layout: guide
 url: "/documents/systems/air-cooled-chiller"
@@ -37,7 +37,7 @@ The evaporator transfers heat from the chilled water to the refrigerant.
 The compressor increases the temperature and pressure of the refrigerant; a chiller may have one or more compressors. Air-cooled chillers typically have screw, scroll, and reciprocating compressors.  
 
 Reciprocating compressors are among the most widely used types in this type of chiller. They consist of a cylinder and a piston that move in a reciprocating motion to compress the refrigerant. Screw compressors generate high pressure for small amounts of refrigerant vapor by compressing it between a pair of meshing screws. Scroll compressors use two interleaved scrolls that rotate simultaneously to compress refrigerant vapor within a chamber.
-<a class="continue" href="/documents/components/constant-speed-compressor-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
+<a class="continue" href="/documents/components/compressor-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>  
 
 ### Condenser Fan
 

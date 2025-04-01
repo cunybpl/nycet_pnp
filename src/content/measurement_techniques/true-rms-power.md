@@ -158,7 +158,7 @@ Use the collected measurement data in the corresponding calculator file based on
 
 #### Compressor and Motor
 
-{{< page_hyperlink page_title="Constant-speed Compressor and Motor" url="/documents/components/constant-speed-compressor-and-motor/#how-to-quantify" >}}
+{{< page_hyperlink page_title="Compressor and Motor" url="/documents/components/compressor-and-motor/#how-to-quantify" >}}
 
 #### Electrical Distribution
 
