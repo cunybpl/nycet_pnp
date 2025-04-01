@@ -7,7 +7,7 @@ excerpt: For a rotary wheel heat exchanger, the equations and calculator in this
 associated_calculators:
   - Air-to-air Heat Transfer
 related_measurements:
-  - Motor Runtime
+  - True RMS Power
   - Outdoor Air Temperature
   - System Air Temperature
   - Relative Humidity
@@ -16,7 +16,7 @@ url: "/documents/calculation-methodology/air-to-air-heat-exchanger-heat-transfer
 
 ## Introduction 
 
-This calculation methodology is based on the 2020 ASHRAE Handbook – Systems and Equipment, Chapter 26. This methodology assumes that the air handling unit (AHU) uses a variable speed supply fan, and that the energy recovery component is a rotary wheel.
+This calculation methodology is based on the 2020 ASHRAE Handbook – Systems and Equipment, Chapter 26. This methodology assumes that the air handling unit (AHU) uses a variable speed supply fan, and that **the energy recovery component is a [rotary wheel](/documents/components/air-to-air-heat-exchanger)**.
 
 ### Calculator
 
@@ -45,7 +45,9 @@ Measurement points are shown in Figure 2 and the variables to measure are listed
 </figure>
 </a>
 
-Section A.1 describes how to calculate the sensible and latent heat transfer for the duration of the measurement period. If six weeks of data is collected, then heat transfer will be calculated for each hour interval for those six weeks. Sensible and latent effectiveness are a measure of the performance of the ERV system. Effectiveness is the actual heat transfer divided by the maximum possible heat transfer by the heat exchanger. These values are calculated in section A.1 for each hour interval and are used in section A.2 to estimate the full-year heat transfer. 
+## Air-to-air Heat Exchanger Calculations
+
+[Section A.1](#a1-heat-transfer-for-the-measurement-period) describes how to calculate the sensible and latent heat transfer for the duration of the measurement period. If six weeks of data is collected, then heat transfer will be calculated for each hour interval for those six weeks. Sensible and latent effectiveness are a measure of the performance of the ERV system. Effectiveness is the actual heat transfer divided by the maximum possible heat transfer by the heat exchanger. These values are calculated in section A.1 for each hour interval and are used in section A.2 to estimate the full-year heat transfer. 
  
 To calculate latent heat transfer and effectiveness, first the humidity ratio $(lb_m/lb_m)$ must be calculated. Table 1 summarizes the equations used to determine humidity ratio for a given relative humidity value. The calculator selects the appropriate equation based on the measured hourly relative humidity and then uses the measured hourly temperature to run the calculation (CUNY BPL BRT, 2022, pp. 22). The equations in Table 1 result in a humidity ratio with units of grains of water per pound of dry air (grains/lb). The calculator performs an additional calculation to convert the units of grain/lb to $lb_m/lb_m$. 
 
@@ -158,8 +160,6 @@ Table 1. Humidity ratio equations for various relative humidity values based on 
 To estimate heat transfer for a full year, simple linear regression (used to assess the relationship between two variables) is performed in Microsoft Excel using the LINEST function. These calculation steps are described in more detail in Section A.2. 
 
 Section A.3 describes how to calculate the electrical energy consumption of the supply and return fan motors using hourly power draw data. The hourly data is used to develop an average hourly schedule of both fan motors for all seven days of the week as a proxy of the occupancy schedule of the facility. This occupancy schedule is used in Section A.2 to conduct the simple linear regressions. 
-
-## Air-to-air Heat Exchanger Calculations
 
 ### A.1: Heat Transfer for the Measurement Period
 

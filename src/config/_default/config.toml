@@ -366,3 +366,8 @@ tag = "tags"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+enableGitInfo = true
+
+[frontmatter]
+  lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']

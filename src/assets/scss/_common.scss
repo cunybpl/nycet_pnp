@@ -1,6 +1,6 @@
 :root {
   --max-width: unset;
-  --underline-thickness: 1.5px;
+  --underline-thickness: 10%;
   --underline-offset: 2.5px;
 }
 
@@ -32,7 +32,7 @@ body {
   line-height: 1.5;
 }
 
-#content {
+.guide-wrapper {
   min-height: calc(100vh - 17.2rem);
 }
 
