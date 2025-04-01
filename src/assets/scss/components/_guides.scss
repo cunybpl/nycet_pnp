@@ -74,7 +74,8 @@
 
 .guide-page-content,
 .measurement-page-content,
-.calculation-page-content {
+.calculation-page-content,
+.version-content {
   max-width: var(--max-width);
   padding-inline: 0;
   .title {
@@ -271,6 +272,10 @@ details.guide-header-description {
   background-color: white;
   line-height: 1.7;
   min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .toc-header {
@@ -437,7 +442,7 @@ a.continue {
 }
 
 .content {
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .content > h2:first-of-type {
@@ -760,4 +765,15 @@ a.glossary-link {
 iframe + figcaption,
 video + figcaption {
   margin-block-start: -1rem;
+}
+
+.version-content {
+  padding-bottom: 2rem;
+}
+
+.version-info {
+  text-align: right;
+  font-size: 90%;
+  font-style: italic;
+  color: $nycet-gray-dark
 }
