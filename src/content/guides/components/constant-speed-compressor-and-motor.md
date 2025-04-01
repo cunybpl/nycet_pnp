@@ -1,5 +1,5 @@
 ---
-title: Constant-speed Compressor and Motor
+title: Compressor and Motor
 type: component
 component_id: 10
 excerpt: This equipment is typically used in a chiller system to increase the temperature and pressure of refrigerant.
@@ -12,13 +12,12 @@ related_systems:
   - Water-cooled Chiller
 borrow_equipment_url: "https://nycenergytools.com/equipment-kits/compressor-and-motor-kit/"
 layout: guide
-url: "/documents/components/constant-speed-compressor-and-motor"
+url: "/documents/components/compressor-and-motor"
 ---
 
 ## General Overview
 
-A compressor is one of the main components of a chiller. A constant-speed compressor operates at a
-constant speed to raise the vapor pressure of the refrigerant and power the refrigeration cycle of the chiller. 
+A compressor is one of the main components of a chiller. A compressor can operate at a constant or variable speed to raise the vapor pressure of the refrigerant and power the refrigeration cycle of the chiller. 
 
 <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
@@ -65,7 +64,7 @@ constant speed to raise the vapor pressure of the refrigerant and power the refr
 
 <!-- ## Evaluation of Energy Transfer
 
-The primary energy source for a constant-speed compressor is the electricity used to run the compressor motor. Table 2 provides a summary of measurements needed to quantify the annual power consumption and operating characteristics of the constant-speed compressor and motor.
+The primary energy source for a compressor is the electricity used to run the compressor motor. Table 2 provides a summary of measurements needed to quantify the annual power consumption and operating characteristics of the compressor and motor.
 
 <div class="table-wrapper">
 <table width="100%" cellspacing="0" cellpadding="7">
@@ -86,7 +85,7 @@ The primary energy source for a constant-speed compressor is the electricity use
     <tbody>
         <tr>
             <td>
-                Electricity usage of a constant-speed compressor motor
+                Electricity usage of a compressor motor
             </td>
             <td>
                 <ul>
@@ -118,7 +117,7 @@ The measurement strategy for a compressor and motor involves taking hourly measu
 
 ### What and How to Measure
 
-Measurements needed to quantify the annual energy consumption and operating characteristics of a constant-speed compressor:
+Measurements needed to quantify the annual energy consumption and operating characteristics of a compressor and motor:
 
 {{< measurement_technique measurement_technique_id=1 >}}
 
@@ -213,7 +212,7 @@ For specifics on how to use and install the equipment used in the measurements a
 
 ## Energy Consumption Quantification
 
-The primary energy source for a constant-speed compressor is the electricity used to run the compressor motor. The general methodology for quantifying the electricity consumption of a constant-speed compressor and motor involves measuring their electrical energy use. Depending on operational variability, daily or weekly models incorporating cooling load or a proxy (such as outdoor air temperature) may be developed to better characterize consumption. The typical energy use of a constant-speed compressor is estimated using its simulated yearly schedule. A more detailed explanation of the calculation methodology is provided below.
+The primary energy source for a compressor is the electricity used to run the compressor motor. The general methodology for quantifying the electricity consumption of a compressor and motor involves measuring their electrical energy use. Depending on operational variability, daily or weekly models incorporating cooling load or a proxy (such as outdoor air temperature) may be developed to better characterize consumption. The typical energy use of a compressor is estimated using its simulated yearly schedule. A more detailed explanation of the calculation methodology is provided below.
 
 ### How to Quantify
 

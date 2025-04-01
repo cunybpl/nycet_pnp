@@ -5,7 +5,7 @@ documents:
     measurement_type: "energy-recovery"
     group : "hx"
   - type: component
-    title: "Constant-speed Compressor and Motor"
+    title: "Compressor and Motor"
     measurement_type: "cooling"
     group : "compressor"
   - type: component

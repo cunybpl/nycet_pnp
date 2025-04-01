@@ -5,9 +5,9 @@ system_id: 2
 excerpt: Produces chilled liquid and works in conjunction with an AHU to provide cooling. The condenser side rejects heat to the outdoor air using cooling towers.
 thumbnail_image: "/images/systems/water-cooled-chiller/2024_0606_water cooled chiller system_thumbnail_RESIZED-01.jpg"
 associated_components:
-  - Constant-speed Compressor and Motor
+  - Compressor and Motor
 related_components:
-  - Constant-speed Compressor and Motor
+  - Compressor and Motor
 borrow_equipment_url: "https://nycenergytools.com/equipment/?_system_type=chiller"
 layout: guide
 url: "/documents/systems/water-cooled-chiller"
@@ -46,7 +46,7 @@ The compressor increases the temperature and pressure of the refrigerant between
 
 Water-cooled chillers typically have centrifugal compressors. Centrifugal compressors are dynamic compressors, which increase refrigerant vapor pressure by converting the velocity pressure from the rotating impellers to static pressure in the discharged vapor. They can be driven with a constant-speed motor or a motor with a variable frequency drive (VFD).
 
-A centrifugal [compressor with a constant-speed motor](/documents/components/constant-speed-compressor-and-motor) uses variable guide vanes to change the speed of the gas as it enters the compressor, which changes the centrifugal force and the lift. "Lift" in a chiller system refers to the difference between the condenser water temperature leaving the chiller and the chilled water temperature leaving the chiller. 
+A centrifugal [compressor with a constant-speed motor](/documents/components/compressor-and-motor) uses variable guide vanes to change the speed of the gas as it enters the compressor, which changes the centrifugal force and the lift. "Lift" in a chiller system refers to the difference between the condenser water temperature leaving the chiller and the chilled water temperature leaving the chiller. 
 
 A centrifugal compressor with a VFD on the motor varies the speed of the impeller to control the lift.
 
@@ -60,7 +60,7 @@ The expansion valve depressurizes the warm refrigerant between the condenser and
 
 ## Evaluation of Energy Consumption
 
-The primary energy consumption in a water-cooled chiller is the electricity used by the [compressor motor](/documents/components/constant-speed-compressor-and-motor) and its controls. Thermal energy rejected by the chiller to the outdoors can be measured to evaluate the overall performance of the chiller, which can be expressed as kilowatts of power consumption per ton of cooling provided (kW/ton). Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a water-cooled chiller. 
+The primary energy consumption in a water-cooled chiller is the electricity used by the [compressor motor](/documents/components/compressor-and-motor) and its controls. Thermal energy rejected by the chiller to the outdoors can be measured to evaluate the overall performance of the chiller, which can be expressed as kilowatts of power consumption per ton of cooling provided (kW/ton). Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a water-cooled chiller. 
 
 <div class="table-wrapper">
 <table>
@@ -94,7 +94,7 @@ The primary energy consumption in a water-cooled chiller is the electricity used
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the constant-speed compressor motor and controls</li>
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the compressor motor and controls</li>
                     <li><a href="/documents/measurement-technique/motor-runtime">Compressor motor runtime</a></li>
                 </ul>
             </td>
@@ -111,7 +111,7 @@ The primary energy consumption in a water-cooled chiller is the electricity used
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the constant-speed compressor motor and controls</li> 
+                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the compressor motor and controls</li> 
                     <li><a href="/documents/measurement-technique/motor-runtime">Compressor motor runtime</a></li> 
                     <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
             </td>
