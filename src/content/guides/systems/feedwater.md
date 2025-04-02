@@ -107,7 +107,7 @@ The primary energy consumption in a feedwater system is the electricity used to 
 
 The primary function of the economizer is to reduce fuel consumption by recovering heat from the flue stack to preheat the feedwater before it enters the boiler. This heat recovery improves efficiency and can be reflected in the overall energy consumption of the low-pressure steam plant. For more information see the [steam plant](/documents/plants/water-cooled-chilled-water-plant). 
 
-### Measurement Locations 
+### Measurement Strategy 
 
 The measurement locations for a feedwater water system are shown in Figure 2. 
 

@@ -83,7 +83,7 @@ The cooling energy savings are equivalent to the heat rejected through the water
 </table> 
 </div>
 
-### Measurement Locations 
+### Measurement Strategy 
 
 The measurement locations for the waterside economizer are schematically shown in Figure 2:
 

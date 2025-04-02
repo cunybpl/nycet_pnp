@@ -179,7 +179,7 @@ If you superimpose this curve over the fan speed curve in Figure 4, you will see
 </table> 
 </div>
 
-### Components to Measure and Measurement Locations
+### Components to Measure and Measurement Strategy
 
 The measurement locations for a SATR SOO are shown in Figure 6.  
 

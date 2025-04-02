@@ -135,7 +135,7 @@ The primary energy consumption of an air-cooled chiller is the electricity used 
 </table> 
 </div>
 
-### Measurement Locations
+### Measurement Strategy
 
 The measurement locations for an air-cooled chiller and chilled water pumps are shown in Figure 2. 
 
