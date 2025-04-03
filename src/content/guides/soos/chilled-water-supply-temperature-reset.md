@@ -214,7 +214,7 @@ The energy consumption of a water-cooled chilled water plant is the sum of the e
 </table> 
 </div>
 
-### Components to Measure and Measurement Locations
+### Components to Measure and Measurement Strategy
 
 A CHWST reset SOO has potential interactivity with the entire water-cooled chilled water plant. One key assumption when analyzing CHWST reset is that the cooling loads and operating hours are not changing between the pre- and post-retrofit periods.
 

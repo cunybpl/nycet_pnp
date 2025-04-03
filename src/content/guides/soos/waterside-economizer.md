@@ -198,7 +198,7 @@ The energy consumption of a water-cooled chilled water plant is the sum of the e
 </table> 
 </div>
 
-### Components to Measure and Measurement Locations
+### Components to Measure and Measurement Strategy
 
 Refer to the [chilled water loop](/documents/systems/chilled-water-loop), [water-cooled chiller](/documents/systems/water-cooled-chiller), [condenser water loop](/documents/systems/condenser-water-loop), and [waterside economizer](/documents/systems/waterside-economizer) system descriptions for specific components to measure.  
 

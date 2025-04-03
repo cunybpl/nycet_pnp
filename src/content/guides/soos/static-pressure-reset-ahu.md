@@ -213,7 +213,7 @@ Table 2 provides a summary of the components to be measured to arrive at the val
 </table> 
 </div>
 
-### Components to Measure and Measurement Locations 
+### Components to Measure and Measurement Strategy 
 
 The measurement locations for a static pressure reset SOO are shown in Figure 4.
 

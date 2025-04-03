@@ -100,7 +100,7 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
 </table> 
 </div>
 
-### Measurement Locations
+### Measurement Strategy
 
 The measurement locations for a CSCV AHU are shown in Figure 2. 
 

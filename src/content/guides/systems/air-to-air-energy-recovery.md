@@ -130,7 +130,7 @@ Table 1 provides a summary of the components to measure to arrive at values need
 </table> 
 </div>
 
-### Measurement Locations
+### Measurement Strategy
 
 The measurement locations for a heat recovery system are shown in Figure 7. 
 
