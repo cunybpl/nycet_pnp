@@ -113,7 +113,7 @@ Table 1 provides a summary of the components to be measured to arrive at the val
 </table> 
 </div>
 
-### Components to Measure and Measurement Locations
+### Components to Measure and Measurement Strategy
 
 The measurement locations for the airside economizing SOO are shown in Figure 2. 
 
