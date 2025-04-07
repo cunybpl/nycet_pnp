@@ -220,7 +220,7 @@ The primary energy consumption in a HWH loop is the electricity used to run the 
 </table> 
 </div>
 
-### Measurement Strategy
+### Measurement Locations
 
 The measurement locations for a primary-flow and primary-secondary flow hot water loop system are shown in Figure 3.
 

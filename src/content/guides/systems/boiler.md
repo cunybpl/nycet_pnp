@@ -115,7 +115,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
 </table> 
 </div>  
 
-### Measurement Strategy
+### Measurement Locations
 
 The measurement locations for a boiler system are shown in Figure 2.
 

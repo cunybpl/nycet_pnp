@@ -167,7 +167,7 @@ The primary energy consumption in a water-cooled chiller is the electricity used
 </table> 
 </div>
 
-### Measurement Strategy
+### Measurement Locations
 
 The measurement locations for a water-cooled chiller are schematically shown in Figure 2.
 

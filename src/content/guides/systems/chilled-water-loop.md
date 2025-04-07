@@ -191,7 +191,7 @@ Table 1 provides a summary of system component measurements and values needed to
 </table> 
 </div>
 
-### Measurement Strategy
+### Measurement Locations
 
 The measurement locations for a primary-flow and a primary-secondary flow are shown in Figure 2.
 
