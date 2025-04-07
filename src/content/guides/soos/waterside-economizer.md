@@ -57,15 +57,15 @@ This section describes the control algorithm to determine when economizing is tu
     </figure>
 </a>
 
-When outdoor dry bulb and wet bulb temperatures are low enough to enable waterside economizers, the optimum control sequence of the SOO is described below. Site-specific conditions may require varying this control strategy.  
+When outdoor dry bulb (OAT) and wet bulb temperatures (WBT) are low enough to enable waterside economizers (WSE), the optimum control sequence of the SOO is described below. Site-specific conditions may require varying this control strategy.
 
-The chilled water supply temperature (CHWST) setpoint is modulated as limits allow while meeting the cooling demand. The chilled water (CHW) flow rate is adjusted to match the desired CHWST setpoint. With known parameters, such as the current CHW flow rate, wet bulb temperature, and the design conditions of the heat exchanger (HX) and the cooling tower, the CHW temperature leaving the HX can be predicted (PHXLWT in the diagram). 
+The chilled water supply temperature (CHWST) setpoint is modulated as limits allow while meeting the cooling demand. The chilled water (CHW) flow rate is adjusted to match the desired CHWST setpoint. With known parameters, such as the current CHW flow rate, WBT, and the design conditions of the heat exchanger (HX) and the cooling tower (CT), the CHW temperature leaving the HX can be predicted (PHXLWT).
 
-According to Taylor (2014), the waterside economizer should be disabled when it cannot provide at least a 1°F reduction between the entering and exiting CHW.[^1] Chillers are disabled when the economizer can supply the entire cooling load; conversely, if the cooling demand is not met by the current chilled water supply, chillers are turned on. 
+According to Taylor (2014), the waterside economizer should be disabled when it cannot reduce the chilled water return temperature (CHWRT) (returning from the building) by at least 1°F. Chillers are disabled when the economizer can supply the entire cooling load; conversely, if the cooling demand is not met by the current chilled water supply, chillers are turned on.
 
 As many tower cells as possible should be enabled while making sure the tower flow is within the minimum limits. Condenser water should be maintained at a minimum flow rate that can match the CHW flow at the desired supply temperature setpoint. Meanwhile, the reduced condenser water flow must be compatible with the tower limits through controlling pump speed, staging pumps, and modulating the HX valves. 
 
-The condenser water supply temperature (CWST) (entering the HX) equals the HXLWT (leaving the HX) minus the HX approach temperature. The condenser water return temperature (leaving the HX) depends on the cooling load supplied by the HX. In other words, the cooling tower speed and approach are modulated to provide the desired condenser water temperature that can cool the chilled water entering the HX to meet the cooling demand at current wet bulb temperature. 
+The condenser water supply temperature (CWST) (entering the HX) equals the heat exchanger leaving water temperature (HXLWT) (leaving the HX) minus the HX approach temperature. The condenser water return temperature (leaving the HX) depends on the cooling load supplied by the HX. In other words, the cooling tower speed and approach are modulated to provide the desired condenser water temperature that can cool the chilled water entering the HX to meet the cooling demand at current wet bulb temperature.
 
 ## Evaluation of Energy Consumption
 
@@ -222,6 +222,7 @@ A waterside economizer has potential interactivity with the entire water-cooled 
 The annual energy consumption of a water-cooled chilled water plant with a waterside economizer is the sum of the energy for each component system for each hour of the year. The model used must consider the hourly cooling loads and facility operations, outdoor conditions, operating parameters of the systems in the plant, and operations of associated AHU plants. Due to the highly interactive nature of the water-cooled chilled water plant, a detailed plant model or whole facility energy model is needed to estimate annual consumption, based on the actual operational parameters and measured energy consumption of the various systems and components.  
 
 ## Further Reading
+- New York City Department of Buildings. (2020). New York City Energy Conservation Code (NYCECC). Retrieved 2021, from Section C403.5: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2020/chapter/C4/commercial-energy-efficiency#C403.5
 
 - Taylor, S. (2014). How to design & control waterside economizers. ASHRAE Journal, 56, 30-36.
 

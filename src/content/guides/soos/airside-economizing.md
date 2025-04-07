@@ -134,7 +134,9 @@ One underlying assumption regarding this SOO is that the heating and cooling loa
  
 ## Further Reading
 
-- ASHRAE. (2018). ASHRAE Guideline 36-2018: High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
+- ASHRAE. (2019). ASHRAE Standard 90.1-2019: Energy Standard for Buildings Except Low-Rise Residential Buildings. Atlanta, GA: ASHRAE.
+
+- New York City Department of Buildings. (2020). New York City Energy Conservation Code (NYCECC). Retrieved 2021, from Section C403.5.3.3: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2020/chapter/C4/commercial-energy-efficiency#C403.5.3.3
 
 
 
