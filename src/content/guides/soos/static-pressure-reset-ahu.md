@@ -58,7 +58,7 @@ Figure 2 presents a diagram of the algorithm used to calculate requests for an i
 <a href="/images/SOOs/SOO-08-fig-2.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-08-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Algorithm to calculate static pressure reset requests. Based on ASHRAE 36-2018, Section 5.6.8.2.">
-        <figcaption class="figure-caption text-left">Figure 2. Algorithm to calculate static pressure reset requests. Based on ASHRAE 36-2018, Section 5.6.8.2.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 2. Algorithm to calculate static pressure reset requests. Based on ASHRAE Guideline 36-2018, Section 5.6.8.2.</figcaption>
     </figure>
 </a>
 
@@ -152,7 +152,7 @@ The condition R>I (left side of the diagram) ensure that the pressure reset only
 <a href="/images/SOOs/SOO-08-fig-3.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-08-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Trim and Response logic for static pressure reset. Based on ACHRAE Guideline 36-2018, Section 5.1.14.">
-        <figcaption class="figure-caption text-left">Figure 3. Trim and Response logic for static pressure reset. Based on ACHRAE Guideline 36-2018, Section 5.1.14.</figcaption>
+        <figcaption class="figure-caption text-left">Figure 3. Trim and Response logic for static pressure reset. Based on ASHRAE Guideline 36-2018, Section 5.1.14.</figcaption>
     </figure>
 </a>
 
@@ -246,7 +246,7 @@ One underlying assumption regarding this SOO is that the heating and cooling loa
 
 - ​Johnson Controls. (n.d.). Air handling unit reset application note: Sequence of operation – Winter mode. Retrieved 2021, from https://docs.johnsoncontrols.com/bas/r/Metasys/en-US Air-Handling-Unit-Reset-Application-Note/AHU-Reset-Control-System 
 
-- ​New York City Department of Buildings. (2020). New York City Energy Conservation Code (NYCECC). Retrieved 2021, from Section C403.6.8.: Chapter C4 Commercial Energy Efficiency: Commercial Energy Efficiency, New York City Energy Code 2020 | UpCodes  
+- New York City Department of Buildings. (2020). New York City Energy Conservation Code (NYCECC). Retrieved 2021, from Section C403.6.8: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2020/chapter/C4/commercial-energy-efficiency#C403.6.8
 
 - Seidl, R. (2008). Using Demand Based Reset Strategies. National Conference on Building Commissioning.
 

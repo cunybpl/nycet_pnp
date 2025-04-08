@@ -51,7 +51,7 @@ The general algorithm employed when OAT is the input variable is depicted in Fig
 <a href="/images/SOOs/SOO-01-fig-2.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-01-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2. Chilled water supply temperature reset algorithm. Based on ASHRAE 90.1-2019, Appendix G, Section G3.1.3.9.">
-        <figcaption class="figure-caption text-left">Figure 2. Chilled water supply temperature reset algorithm. Based on ASHRAE 90.1-2019, Appendix G, Section G3.1.3.9.</figcaption>  
+        <figcaption class="figure-caption text-left">Figure 2. Chilled water supply temperature reset algorithm. Based on ASHRAE Standard 90.1-2019, Appendix G, Section G3.1.3.9</figcaption>  
     </figure>
 </a>
 
@@ -236,7 +236,7 @@ The measurement boundary includes the entire cooling plant, Figure 6 shows a rep
 <a href="/images/SOOs/SOO-01-fig-7.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-01-fig-7.jpg" class="figure-img img-fluid rounded" alt="Figure 7. Coordination of CHWST reset with differential pressure reset.">
-        <figcaption class="figure-caption text-left">Figure 7. Coordination of CHWST reset with differential pressure reset. Image © ASHRAE www.ashrae.org (ASHARE Journal, June, 2012, Figure 5).</figcaption>  
+        <figcaption class="figure-caption text-left">Figure 7. Coordination of CHWST reset with differential pressure reset. Image ©ASHRAE www.ashrae.org (ASHRAE Journal, June, 2012, Figure 5).</figcaption>  
     </figure>
 </a>
 

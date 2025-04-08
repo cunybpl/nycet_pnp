@@ -49,7 +49,7 @@ Figure 2 shows the supply temperature reset algorithm for a single-zone AHU, whi
 <a href="/images/SOOs/SOO-07-fig-2.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-07-fig-2.jpg" class="figure-img img-fluid rounded" alt="Figure 2.  Supply air temperature reset for single-zone AHUs. Image © ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-3).">
-        <figcaption class="figure-caption text-left">Figure 2. Supply air temperature reset for single-zone AHUS. Image © ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-3).</figcaption>  
+        <figcaption class="figure-caption text-left">Figure 2. Supply air temperature reset for single-zone AHUS. Image ©ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-3).</figcaption>  
     </figure>
 </a>
 
@@ -60,7 +60,7 @@ For constant speed systems , the SATsp is met by changing only the heating/cooli
 <a href="/images/SOOs/SOO-07-fig-3.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-07-fig-3.jpg" class="figure-img img-fluid rounded" alt="Figure 3. Supply fan speed setpoint.Image © ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-2).">
-        <figcaption class="figure-caption text-left">Figure 3. Supply fan speed setpoint. Image © ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-2).</figcaption>  
+        <figcaption class="figure-caption text-left">Figure 3. Supply fan speed setpoint. Image ©ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-2).</figcaption>  
     </figure>
 </a>
 
@@ -69,7 +69,7 @@ Figure 4 (which is an overlay of Figures 4 and 5) shows how fan speed is coordin
 <a href="/images/SOOs/SOO-07-fig-4.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-07-fig-4.jpg" class="figure-img img-fluid rounded" alt="Figure 4. Coordination of SATR and fan speed for variable speed systems. Image © ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-1).">
-        <figcaption class="figure-caption text-left">Figure 4. Coordination of SATR and fan speed for variable speed systems. Image © ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-1).</figcaption>  
+        <figcaption class="figure-caption text-left">Figure 4. Coordination of SATR and fan speed for variable speed systems. Image ©ASHRAE www.ashrae.org (ASHRAE Guidelin 36-2018, Figure 5.18.4.5-1).</figcaption>  
     </figure>
 </a>
 
@@ -80,7 +80,7 @@ Figure 5 shows the heating season reset curve for multi-zone AHUs. The key diffe
 <a href="/images/SOOs/SOO-07-fig-5.jpg">
     <figure class="figure mb-0 mt-3">
         <img src="/images/SOOs/SOO-07-fig-5.jpg" class="figure-img img-fluid rounded" alt="Figure 5. Supply air temperature reset diagram for multi-zone AHUs (ASHRAE 36-2018, Figure 5.18.4.5-3).">
-        <figcaption class="figure-caption text-left">Figure 5. Supply air temperature reset diagram for multi-zone AHUs (ASHRAE 36-2018, Figure 5.18.4.5-3).</figcaption>  
+        <figcaption class="figure-caption text-left">Figure 5. Supply air temperature reset diagram for multi-zone AHUs. Image ©ASHRAE www.ashrae.org (ASHARE Guideline 36-2018, Figure 5.18.4.5-3).</figcaption>  
     </figure>
 </a>
 
@@ -206,10 +206,12 @@ One underlying assumption regarding this SOO is that the heating and cooling loa
 
 ## Further Reading
 
-- ASHRAE (2018). High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
+- ASHRAE. (2018). ASHRAE Guideline 36-2018: High Performance Sequences of Operation for HVAC Systems. Atlanta, GA: ASHRAE.
 
 - Davis, G. (2016, August 15). HVAC codes and standards: cooling
 and energy efficiency. Retrieved January 15, 2021, from Consulting-Specifying Engineer:https://www.csemag.com/articles/hvac-codes-and-standards-cooling-and-energy-efficiency/
+
+- New York City Department of Buildings. (2020). New York City Energy Conservation Code (NYCECC). Retrieved 2021, from Section C403.6.5: https://up.codes/viewer/new_york_city/nyc-energy-conservation-code-2020/chapter/C4/commercial-energy-efficiency#C403.6.5
 
 - Pacific Northwest National Laboratory. (2012).Large Commercial Buildings: Re-tuning for Efficiency-Air Handling Units: Pre-Re-Tuning and Trending and Re-Tuning.Retrieved January 2021, from https://buildingretuning.pnnl.gov/documents/chapters/ch5_air_handling.pdf
 
