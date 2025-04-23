@@ -86,26 +86,24 @@ Identify the location where the flow meter will be installed. Refer to the equip
 
 ### 2. Install Equipment
 
-1. Confirm that the equipment is operational. 
-2. Some piping systems have a layer of insulation to minimize heat loss. There are scenarios in which the insulation must be cut to install the transducers of the flow meter.
+1. Confirm that the equipment is operational.
 
 {{< admonition type="note" >}}
-Consult with personnel who work in the facility to determine if this is appropriate. See [Figure 4](#fig-4) for reference.
+Some piping systems have a layer of insulation to minimize heat loss. There are scenarios in which the insulation must be cut to install the transducers of the flow meter. Consult with personnel who work in the facility to determine if this is appropriate. See Figures [2](#fig-2), [3](#fig-3), and [4](#fig-4) for reference.
 {{< /admonition >}}
 
 3. Refer to the user manual of the measurement equipment to determine how to install the transducers.
 
-
 {{< admonition type="tip" >}}
-If installing the flow meter is not possible, consider using the pump curve method to determine flow rate of the fluid.
+If installing the flow meter is not possible, consider using the [pump curve method](/documents/measurement-technique/water-pressure-and-pump-curve) to determine flow rate of the fluid.
 {{< /admonition >}}
 
-<figure class="figure mb-3 mt-3 mx-auto">
+<figure class="figure mb-3 mt-3 mx-auto" id="fig-2">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 2.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Insulation is being removed and the piping is exposed.">
   <figcaption class="figure-caption text-left">Figure 2. Insulation is being removed and the piping is exposed.</figcaption>
 </figure>
 
-<figure class="figure mb-3 mt-3 mx-auto">
+<figure class="figure mb-3 mt-3 mx-auto" id="fig-3">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 3.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 3. Insulation is fully removed for a section of the piping.">
   <figcaption class="figure-caption text-left">Figure 3. Insulation is fully removed for a section of the piping.</figcaption>
 </figure>
@@ -115,13 +113,14 @@ If installing the flow meter is not possible, consider using the pump curve meth
   <figcaption class="figure-caption text-left">Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System.</figcaption>
 </figure>
 
-{{< admonition type="warning" >}}
-  <b>Do not remove the logger.</b> If you remove it, you may need to start over with the setup and installation process. 
-{{< /admonition >}}
 
 ### 3. Verify Data is Being Collected
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment to do the following:
+
+{{< admonition type="warning" >}}
+  <b>Do not remove the logger.</b> If you remove it, you may need to start over with the setup and installation process. 
+{{< /admonition >}}
 
 1. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
 2. Analyze the data with a plot graph. This can be done with the software or Microsoft Excel after exporting the dataset as a .csv file. Please note that the format file may vary based on the measurement equipment.

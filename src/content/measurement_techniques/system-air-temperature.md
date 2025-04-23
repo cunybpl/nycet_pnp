@@ -72,16 +72,20 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 ### 2. Installation of equipment 
 
-1. To measure temperature of the air streams inside of an AHU, place the loggers inside of the ductwork. Mixed air temperature is the most difficult data to collect because some mixed air chambers make it difficult to install a data logger to accurately capture mixed air. The measurement uncertainty introduced is unknown.
-2. Confirm that the logger is recording, and that the sensor is accurately identifying the airstream’s temperature. If the logger has a screen, ensure that the temperature value is displayed on the logger screen. If the logger does not have a screen, use the software to connect to the logger and check the temperature it detects.
-3. Do not move the logger after it has been installed.
+1. To measure temperature of the air streams inside of an AHU, place the loggers inside of the ductwork.
 
 {{< admonition type="tip" >}}
-Experiment with different logger placements within the air chamber to minimize measurement uncertainty.
+ Mixed air temperature is the most difficult data to collect because some mixed air chambers make it difficult to install a data logger to accurately capture mixed air. The measurement uncertainty introduced is unknown. Experiment with different logger placements within the air chamber to minimize measurement uncertainty.
 {{< /admonition >}}
 
 {{< admonition type="warning" >}}
 Do not place the loggers near heating and/or cooling coils.
+{{< /admonition >}}
+
+2. Confirm that the logger is recording, and that the sensor is accurately identifying the airstream’s temperature. If the logger has a screen, ensure that the temperature value is displayed on the logger screen. If the logger does not have a screen, use the software to connect to the logger and check the temperature it detects.
+
+{{< admonition type="warning" >}}
+Do not move the logger after it has been installed.
 {{< /admonition >}}
 
 <iframe class ="video" src="https://www.youtube.com/embed/R9MDkohMD-E?si=odLhnqUNiW_KlZgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

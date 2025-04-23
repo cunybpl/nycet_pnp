@@ -100,7 +100,7 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 3. Confirm that the logger is recording, and that the sensor is accurately identifying the outside air temperature. If the logger has a screen, check the temperature value displayed there. If the logger does not have a screen, use the software to connect to the logger and check the temperature it detects.
 
 {{< admonition type="warning" >}}
-<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
+Do not move the logger after it has been installed.
 {{< /admonition >}}
 
 <iframe class ="video" src="https://www.youtube.com/embed/R9MDkohMD-E?si=esVdMaU9A7nZe9oH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -109,7 +109,11 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 ### 3. Verify Data is Being Collected
 
-Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following: 
+Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following:
+
+{{< admonition type="warning" >}}
+<strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
+{{< /admonition >}}
 
 1. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a .csv file.

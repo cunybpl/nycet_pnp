@@ -90,13 +90,13 @@ An example of how to setup the UX90-004 Onset HOBO Motor runtime logger is shown
 <iframe class ="video" src="https://www.youtube.com/embed/zQBLq7Wonqw?si=mIv92t7EOPY5994W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Video 2. How to calibrate and install the motor on/off data logger on a motor (4 min).</figcaption>
 
-{{< admonition type="warning" >}}
-**Do not remove the logger or sensors**. If you remove the logger, you may need to start over with the setup and installation process.
-{{< /admonition >}}
-
 ### 3. Verify Data is Being Collected
 
 Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following:
+
+{{< admonition type="warning" >}}
+**Do not remove the logger or sensors**. If you remove the logger, you may need to start over with the setup and installation process.
+{{< /admonition >}}
 
 1. If necessary, connect the logger to the laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth. 
 2. Analyze the data with a plot graph. This can be done with the proprietary software or Microsoft Excel after exporting the dataset as a csv file.
