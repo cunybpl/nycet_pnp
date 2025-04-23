@@ -88,11 +88,13 @@ Identify the location where the flow meter will be installed. Refer to the equip
 
 1. Confirm that the equipment is operational. 
 2. Some piping systems have a layer of insulation to minimize heat loss. There are scenarios in which the insulation must be cut to install the transducers of the flow meter.
-3. Refer to the user manual of the measurement equipment to determine how to install the transducers.
 
 {{< admonition type="note" >}}
-Consult with personnel who work in the facility to determine if this is appropriate. See Figure 4 for reference.
+Consult with personnel who work in the facility to determine if this is appropriate. See [Figure 4](#fig-4) for reference.
 {{< /admonition >}}
+
+3. Refer to the user manual of the measurement equipment to determine how to install the transducers.
+
 
 {{< admonition type="tip" >}}
 If installing the flow meter is not possible, consider using the pump curve method to determine flow rate of the fluid.
@@ -108,7 +110,7 @@ If installing the flow meter is not possible, consider using the pump curve meth
   <figcaption class="figure-caption text-left">Figure 3. Insulation is fully removed for a section of the piping.</figcaption>
 </figure>
 
-<figure class="figure mb-3 mt-3 mx-auto">
+<figure class="figure mb-3 mt-3 mx-auto" id="fig-4">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 4.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System. FPO">
   <figcaption class="figure-caption text-left">Figure 4. The transducers of the ultrasonic flow meter are being installed on the exposed piping. The ultrasonic flow meter in use is the DXN Portable Ultrasonic Measurement System.</figcaption>
 </figure>
