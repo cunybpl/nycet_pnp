@@ -170,3 +170,9 @@
     }
   }
 }
+ol + .admonition,
+ul + .admonition,
+ol + .admonition + .admonition,
+ul + .admonition + .admonition {
+  margin-left: 2.5rem;
+}

@@ -99,28 +99,29 @@ Identify the temperature (hot or cold) of the pipes that will be measured. Use t
 ### 2. Install at the Site 
 
 1. Confirm that the equipment is operational.
-2. Locate the pressure gauges that are installed on the suction and discharge sides of the pump, (Figure 3).
+2. Locate the pressure gauges that are installed on the suction and discharge sides of the pump.
 3. Connect the transducers to the data logger.
 4. Place the data logger near the pipes, avoiding placing the logger on the pipe itself.
 5. Confirm that the pressure gauge has a stop-valve to prevent water from flowing.
 6. If there is no stop valve on the piping system, consider using the direct water flow measurement. 
-7. Remove the stop-valve and replace it with a T-shaped valve to stop the flow of water, as shown in Figure 3.
+7. Remove the stop-valve and replace it with a T-shaped valve to stop the flow of water.
 8. Connect the transducer to the T-shaped valve.
 9. To avoid leaks, wrap Teflon tape around the installed equipment.
 
-Figure 3 illustrates a pressure gauge installed on an access port to the return chilled water line of a water-cooled chilled water plant. Notice the stop valve handle to the bottom right of the pressure gauge. This is used to stop the flow of water. 
+<!-- Needs figure -->
+<!-- Figure 3 illustrates a pressure gauge installed on an access port to the return chilled water line of a water-cooled chilled water plant. Notice the stop valve handle to the bottom right of the pressure gauge. This is used to stop the flow of water.  -->
 
-<!--> Will Update the below video once correct video is found -->
+<!-- Will Update the below video once correct video is found -->
 <!-- <iframe class ="video" src="https://www.youtube.com/embed/FWgM0-VSlEQ?si=NtSU7hFdv8PJe6fy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Figure 3. How to install the 4-channel analog logger with CT  onsite.</figcaption> -->
+
+### 3. Verify Data is Being Collected 
+
+Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with manufacturer’s propriety software installed to do the following:
 
 {{< admonition type="warning">}}
 **Do not remove the logger or sensors.** If you remove the logger, you may need to start over with the setup and installation process.
 {{< /admonition >}}
-
-### 3. Verify Data is Being Collected 
-
-Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or a phone with manufacturer’s propriety software installed to do the following:  
 
 1. If necessary, connect the logger to a laptop or phone via USB cable. Otherwise, use the software to connect with the data logger via Bluetooth.
 2. Analyze the data with a plot graph. This can be done with proprietary software or Microsoft Excel after exporting the dataset as a .csv file.

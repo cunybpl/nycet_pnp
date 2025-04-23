@@ -87,7 +87,7 @@ Values to measure:
 3. Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.
 4. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the current, voltage, and power factor to the system.
 
-An example of how to connect the Fluke 345 PQ Clamp Meter is shown below
+An example of how to connect the Fluke 345 PQ Clamp Meter is shown below:
 
 <iframe class="video" src="https://www.youtube.com/embed/FaWG8QRf7pE?si=mAjHxyWZ5hJOPmNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <figcaption class="figure-caption text-left">Video 1. How to install the fluke 345 PQ clamp meter (1 min).</figcaption> 

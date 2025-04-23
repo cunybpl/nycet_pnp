@@ -77,23 +77,23 @@ Use the manufacturer’s software to set up and launch the logger(s). Refer to t
 
 ### 2. Install Equipment 
 
-{{< admonition type="tip" >}}
 To accurately measure relative humidity of outside air, use a weatherproof data logger only.
-{{< /admonition >}}
 
 1. Place the logger inside of the air duct as close as possible to the outside air damper. Alternatively, install the logger on the roof or somewhere with little foot traffic but away from direct sunlight.
-2. To measure relative humidity of the air streams inside of an AHU, place the loggers inside of the ductwork. AHUs typically have panels that open to reach inside of ductwork.
-3. There are up to four air streams inside an AHU: outside air, return air, mixed air, and supply/discharge air. A separate data logger should be used for each air stream.
-4. Confirm that the logger is recording, and that the sensor is accurately identifying the airstream’s temperature. If the logger has a screen, check that the temperature value is displayed on the logger screen. If the logger does not have a screen, use the software to connect to the logger and check the temperature it detects.
+2. To measure relative humidity of the air streams inside of an AHU, place the loggers inside of the ductwork. AHUs typically have panels that open to reach inside of ductwork. There are up to four air streams inside an AHU: outside air, return air, mixed air, and supply/discharge air. A separate data logger should be used for each air stream.
 
 {{< admonition type="warning" >}}
 Do not place the loggers near heating or cooling coils.
 {{< /admonition >}}
 
-Mixed air relative humidity is particularly challenging to measure, as some mixed air chambers make it difficult to position a data logger for accurate readings. The measurement uncertainty introduced is unknown.
+4. Confirm that the logger is recording, and that the sensor is accurately identifying the airstream’s temperature. If the logger has a screen, check that the temperature value is displayed on the logger screen. If the logger does not have a screen, use the software to connect to the logger and check the temperature it detects.
 
 {{< admonition type="tip" >}}
-Experiment with different logger placements within the air chamber to improve accuracy.
+Mixed air relative humidity is particularly challenging to measure, as some mixed air chambers make it difficult to position a data logger for accurate readings. The measurement uncertainty introduced is unknown. Experiment with different logger placements within the air chamber to improve accuracy.
+{{< /admonition >}}
+
+{{< admonition type="warning" >}}
+Do not move the logger after it has been installed.
 {{< /admonition >}}
 
 <iframe class ="video" src="https://www.youtube.com/embed/R9MDkohMD-E?si=1TIgLJijpgreQOtV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -101,7 +101,7 @@ Experiment with different logger placements within the air chamber to improve ac
 
 ### 3. Verify Data is Being Collected 
 
-Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following: 
+Wait 24-48 hours to verify data collection. Return to the location of the measured equipment and use a laptop or phone with the manufacturer’s proprietary software installed to do the following:
 
 {{< admonition type="warning" >}}
 <strong>Do not remove the logger or sensors.</strong> If you remove the logger, you may need to start over with the setup and installation process.
