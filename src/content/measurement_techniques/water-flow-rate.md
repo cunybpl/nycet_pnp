@@ -88,6 +88,7 @@ Identify the location where the flow meter will be installed. Refer to the equip
 
 1. Confirm that the equipment is operational. 
 2. Some piping systems have a layer of insulation to minimize heat loss. There are scenarios in which the insulation must be cut to install the transducers of the flow meter.
+3. Refer to the user manual of the measurement equipment to determine how to install the transducers.
 
 {{< admonition type="note" >}}
 Consult with personnel who work in the facility to determine if this is appropriate. See Figure 4 for reference.
@@ -96,8 +97,6 @@ Consult with personnel who work in the facility to determine if this is appropri
 {{< admonition type="tip" >}}
 If installing the flow meter is not possible, consider using the pump curve method to determine flow rate of the fluid.
 {{< /admonition >}}
-
-4. Refer to the user manual of the measurement equipment to determine how to install the transducers.
 
 <figure class="figure mb-3 mt-3 mx-auto">
   <img src="/images/measurement-technique/water-flow-rate/2024_0430 water_flow_rate figure 2.jpeg" class="figure-img img-fluid rounded zoom" alt="Figure 2. Insulation is being removed and the piping is exposed.">
