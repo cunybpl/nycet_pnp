@@ -15,7 +15,7 @@ url: "/documents/systems/constant-speed-constant-volume-air-handling-system"
 
 ## General Overview
 
-A constant-speed, constant-volume (CSCV) air handling unit provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors. The CSCV system has a constant volumetric airflow rate. The discharge air is conditioned by heating or cooling heat exchangers that are supplied from the heating and cooling loop systems (e.g., steam loop, hot water heating loop, chilled water loop). For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4. 
+A constant-speed, constant-volume (CSCV) air handling unit provides conditioning to mixed air (a combination of outdoor and return air), discharges the conditioned air into zones, returns air from the zones, and exhausts air to the outdoors. The CSCV system has a constant volumetric airflow rate. The discharge air is conditioned by heating or cooling heat exchangers that are supplied from the heating and cooling loop systems (e.g., steam loop, hot water heating loop, chilled water loop, refrigerant coil). For a more detailed description of the system, refer to the ASHRAE HVAC Systems and Equipment Handbook (2020), Section 4. 
 
 ## Components 
 

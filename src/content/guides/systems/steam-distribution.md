@@ -40,7 +40,7 @@ Terminal units provide heating to an end-user, where the heat source can be eith
  
 #### Fan-coil units 
 
-A fan coil unit is a smaller, factory-assembled device that is used to circulate and condition air for cooling or heating. 
+A fan-coil unit is a smaller, factory-assembled device that is used to circulate and condition air for either heating or cooling. The coil circulates an energy transfer medium, such as hot water, cold water, steam or a refrigerant. The fan blows air over the coil to heat or cool it. Fan coil units can be connected to ducts, which transport outside air or mixed air, or they can be un-ducted in which case they condition the air in the room.
 
 #### Unit heaters 
 

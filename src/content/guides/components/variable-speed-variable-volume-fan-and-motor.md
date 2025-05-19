@@ -19,7 +19,7 @@ url: "/documents/components/variable-speed-variable-volume-fan-and-motor"
 
 ## General Overview
 
-A variable speed fan and motor uses a power-driven rotating impeller to circulate air. Air flow rates fluctuate as required by the plant and system it serves. Outdoor air temperature (OAT) is the independent variable that drives the fan speed. The heating and cooling loads are affected by OAT. Axial and centrifugal fans with a variable speed drive are the most common type of variable speed fans used in buildings.  
+A variable speed fan and motor uses a power-driven rotating impeller to circulate air. Air flow rates fluctuate as required by the plant and system it serves. Outdoor air temperature (OAT) is an indirect variable driving fan speed (since heating and cooling loads are affected by OAT). The heating and cooling loads are affected by OAT. Axial and centrifugal fans with a variable speed drive are the most common type of variable speed fans used in buildings.  
 
 Table 1 shows the plant and system configurations that may contain variable-speed fans and motors and the most common respective controlling variables. 
 

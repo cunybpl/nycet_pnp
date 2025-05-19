@@ -123,7 +123,7 @@ The primary energy consumption of a condenser water loop is the electricity used
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of average true RMS power</a></li> 
                     <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
                 </ul>
             </td>
@@ -143,7 +143,7 @@ The primary energy consumption of a condenser water loop is the electricity used
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of true RMS power</a></li> 
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of average true RMS power</a></li> 
                     <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
                     <li><a href="/documents/measurement-technique/relative-humidity">Hourly measurement of relative humidity</a></li>
                 </ul>

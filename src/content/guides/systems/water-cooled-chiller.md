@@ -111,7 +111,7 @@ The primary energy consumption in a water-cooled chiller is the electricity used
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/electrical-spot-measurement">Spot measurements of true RMS power</a> of the compressor motor and controls</li> 
+                    <li><a href="/documents/measurement-technique/true-rms-power">Spot measurements of true RMS power</a> of the compressor motor and controls</li> 
                     <li><a href="/documents/measurement-technique/motor-runtime">Compressor motor runtime</a></li> 
                     <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
             </td>

@@ -21,7 +21,7 @@ A hot water heating (HWH) loop system circulates hot water produced by a hydroni
 
 ### Primary-flow System
 
-A primary-flow HWH loop system consists of pumps that circulate hot water from the designated zone to the boilers. The components are shown in Figure 1.  Primary pumps are usually headered to allow for the minimum flow through the boiler, usually with multiple pumps to allow for staging and redundancy; however, a boiler-dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow. 
+A primary-flow HWH loop system consists of pumps that circulate hot water from the designated zone to the boilers. The components are shown in Figure 1. There are usually multiple pumps in the system to allow for staging and redundancy. These pumps often pump water into a single common pipe called a header, which allows them to run in parallel and service multiple chillers; however, some facilities have a single pump dedicated to each chiller. Primary-flow systems can be either constant-primary-flow or variable-primary-flow. 
 
 A <strong>constant-primary-flow system</strong> usually has a staged heating system and constant speed HWH loop pumps.   
 
@@ -88,7 +88,7 @@ Terminal units provide heating to an end-user, where the heat source can be eith
 
 #### Fan-coil Units
 
-A fan coil unit is a smaller, factory-assembled device that is used to circulate and condition air for cooling or heating. 
+A fan-coil unit is a smaller, factory-assembled device that is used to circulate and condition air for either heating or cooling. The coil circulates an energy transfer medium, such as hot water, cold water, steam or a refrigerant. The fan blows air over the coil to heat or cool it. Fan coil units can be connected to ducts, which transport outside air or mixed air, or they can be un-ducted in which case they condition the air in the room.
 
 #### Unit Heaters
 

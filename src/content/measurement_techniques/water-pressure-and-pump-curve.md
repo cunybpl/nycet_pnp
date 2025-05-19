@@ -103,7 +103,7 @@ Identify the temperature (hot or cold) of the pipes that will be measured. Use t
 3. Connect the transducers to the data logger.
 4. Place the data logger near the pipes, avoiding placing the logger on the pipe itself.
 5. Confirm that the pressure gauge has a stop-valve to prevent water from flowing.
-6. If there is no stop valve on the piping system, consider using the direct water flow measurement. 
+6. If there is no stop valve on the piping system, consider using another technique to quantify the water flow. 
 7. Remove the stop-valve and replace it with a T-shaped valve to stop the flow of water.
 8. Connect the transducer to the T-shaped valve.
 9. To avoid leaks, wrap Teflon tape around the installed equipment.
