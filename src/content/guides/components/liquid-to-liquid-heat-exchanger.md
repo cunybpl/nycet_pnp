@@ -17,7 +17,7 @@ url: "/documents/components/liquid-to-liquid-heat-exchanger"
 
 A liquid-to-liquid heat exchanger transfers heat between two liquids using a temperature difference without direct contact between them.
 
-In a building, this type of heat exchanger can be installed in condensate cooling, vent condensing, boiler blowdown, and waterside economizer (free cooling), and in refrigeration applications such as evaporators and condensers. Typical liquid-to-liquid heat exchangers are plate-and-frame heat exchangers and tube heat exchangers. 
+In a building, this type of heat exchanger can be installed in condensate cooling, vent condensing, boiler blowdown, and waterside economizer (free cooling), and in refrigeration applications such as evaporators and condensers. Typical liquid-to-liquid heat exchangers are plate-and-frame heat exchangers and shell-and-tube heat exchangers. 
 
 Table 1 shows the plant and system configurations that may contain a liquid-to-liquid heat exchanger.
 
@@ -165,7 +165,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 ## Measurement Strategy
 
-The measurement strategy for a liquid-to-liquid heat exchanger involves measuring the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet. If a pump is used in the system, the flow rate can be measured at the supply stream pump Measurement locations are generically represented in Figure 1.
+The measurement strategy for a liquid-to-liquid heat exchanger involves measuring the supply stream flow through the heat exchanger and the temperatures at the supply stream inlet and outlet. If a pump is used in the system, the flow rate can be measured at the supply stream pump. An example of the measurement locations are shown in figure 1.
 
 <a href="/images/components/2024_0625_LtL HX component_figure 1.jpg">
 <figure class="figure">

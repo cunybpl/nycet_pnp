@@ -23,7 +23,7 @@ A chilled water (CHW) loop consists of two main components: pumps and motors, an
 
 ### Primary Flow
 
-A primary-flow chilled water system consists of CHW pumps that circulate chilled water from the air-conditioned zone to the chillers. Primary pumps are usually headered to allow for the minimum flow through the chiller and there are usually multiple pumps to allow for staging and redundancy; however, a chiller dedicated pumping design can also be found in some facilities. Primary-flow systems can be either constant-primary-flow or variable-primary-flow.
+A primary-flow chilled water system consists of CHW pumps that circulate chilled water from the air-conditioned zone to the chillers. There are usually multiple pumps in the system to allow for staging and redundancy. These pumps often pump water into a single common pipe called a header, which allows them to run in parallel and service multiple chillers; however, some facilities have a single pump dedicated to each chiller. Primary-flow systems can be either constant-primary-flow or variable-primary-flow.
 
 A **constant-primary-flow system** usually has a staged cooling system and constant speed CHW pumps.  
 
@@ -33,7 +33,7 @@ A **variable-primary-flow system** has primary CHW pumps with variable speed dri
 
 A primary-secondary chilled water system consists of a primary CHW loop with primary pumps as well as a secondary CHW loop with secondary pumps to distribute the cooling load to the building. The components of a primary-secondary flow system are shown in Figure 1. The following designs can be found in a primary-secondary flow system:
 
-A **constant-primary variable-secondary flow system** uses constant-speed pumps to maintain flow through the primary loop, while separate pumps in the secondary loop distribute flow and cooling load to the facility. This configuration typically includes a two-way valve that regulates flow between the primary and secondary loops. 
+A **constant-primary variable-secondary flow system** uses constant-speed pumps to maintain flow through the primary loop, while separate pumps in the secondary loop distribute flow and cooling load to the facility. A primary-secondary chilled water system consists of a primary CHW loop with primary pumps, which circulates water through the chillers, and secondary CHW loop with secondary pumps which takes a portion of water from the primary loop and distributes it to the building.
 
 A **variable-primary variable-secondary flow system** has variable frequency drives (VFDs) installed on primary and secondary pump motors controlled by the differential pressure in the piping network.
 
@@ -47,6 +47,14 @@ The main components associated with the CHW loop are primary pumps for primary-f
         <figcaption class="figure-caption text-left">Figure 1. Chilled water loop components.</figcaption>
     </figure>
 </a>
+
+### Primary CHW Piping Network
+
+The primary CHW piping network is connected to the evaporator section of the chiller and extends through the building to deliver chilled water to that facility in a primary-flow system. In a primary-secondary system, the primary piping network is dedicated to circulating chilled water through the evaporator of the chiller.
+
+### Secondary CHW Piping Network
+
+The secondary CHW piping network is connected to the primary piping network to deliver chilled water to the facility.
 
 ### Primary CHW Pump and Motor
 
@@ -76,17 +84,9 @@ A constant-speed, constant-volume (CSCV) pump and motor operates at a single spe
 A variable-speed, variable-volume (VSVV) pump and motor circulate liquid (e.g., water or water and glycol solution) through a piping network where the flow rate fluctuates as required by the plant and systems they serve. 
 <a class="continue" href="/documents/components/variable-speed-variable-volume-pump-and-motor" aria-label="Learn more about this component"><span>Learn More</span><i class="fa fa-arrow-right"></i></a>
 
-### Primary CHW Piping Network
-
-The primary CHW piping network is connected to the evaporator section of the chiller and extends through the building to deliver chilled water to that facility in a primary-flow system. In a primary-secondary system, the primary piping network is dedicated to circulating chilled water through the evaporator of the chiller.
-
-### Secondary CHW Piping Network
-
-The secondary CHW piping network is connected to the primary piping network to deliver chilled water to the facility.
-
 ## Evaluation of Energy Consumption
 
-The primary energy consumption in a CHW loop is the electricity used to run the pump motors. The heat loss across the piping network contributes to the overall energy consumption for the entire CHW loop system.
+The primary energy consumption in a CHW loop is the electricity used to run the pump motors. The heat loss across the piping network contributes to the overall energy consumption for the entire chilled water plant.
 
 Table 1 provides a summary of system component measurements and values needed to quantify the annual energy consumption and operating characteristics of a CHW loop.
 
@@ -144,7 +144,7 @@ Table 1 provides a summary of system component measurements and values needed to
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a></li> 
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of average true RMS power</a></li> 
                     <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
             </td>
         </tr>
@@ -163,7 +163,7 @@ Table 1 provides a summary of system component measurements and values needed to
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/motor-runtime">Hourly measurement of motor runtime</a></li> 
+                    <li><a href="/documents/measurement-technique/true-rms-power">Hourly measurement of average true RMS power</a></li> 
                     <li><a href="/documents/measurement-technique/outside-air-temperature">Hourly measurement of outdoor air temperature</a></li>
                 </ul>
             </td>

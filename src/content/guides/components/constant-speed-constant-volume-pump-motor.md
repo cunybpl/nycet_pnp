@@ -187,7 +187,7 @@ The primary energy source for a CSCV pump is the electricity used to run the pum
 
 ## Measurement Strategy
 
-The measurement strategy for a CSCV pump and motor involves conducting a one-time measurement of the power draw and long-term measurements of the operational schedule of the motor. The approach assumes that the power draw stays constant throughout the measurement period. Because the motor runs at constant-speed and is under a constant load, it is either operating at full power (when on) or it is drawing no power (when off). A motor on/off data logger is used to record the operating schedule. The true RMS power is measured at the main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1.
+The measurement strategy for a CSCV pump and motor is to take multiple spot measurement of true RMS power and long-term hourly measurements of the operational schedule of the motor. The spot measurements of true RMS power will be averaged and the average value will be used to determine annual energy consumption. True RMS Power is measured at the mainfeed of the panelboard using a handheld power meter. A motor on/off logger is used to measure the hourly motor runtime. Measurement locations are generically represented in Figure 1.
 
 <a href="/images/components/2024_1023_CSCV_pump component_figure 1.jpg">
 <figure class="figure">

@@ -17,7 +17,7 @@ url: "/documents/systems/steam-condensate-recovery"
 
 ## General Overview
 
-The steam condensate recovery system collects condensate from the steam distribution system through steam traps and recovers waste heat. Before returning to the boiler, the condensate typically passes through a deaerator to remove unwanted oxygen. Since condensate is purified water at high temperatures, its reuse helps reduce fuel consumption and lowers water treatment costs for make-up water.
+The steam condensate recovery system collects condensate from the steam distribution system through steam traps and returns it to the boiler. This makes the system more efficient my reusing heated water that would otherwise be rejected to the environment or sewage system. Before returning to the boiler, the condensate typically passes through a deaerator to remove unwanted oxygen. Condensate can be used to pre-heat make-up water before it enters the boiler, as well as being fed directly back into the boiler. Since condensate is purified water its reuse helps reduce water treatment costs for make-up water.
 
 ## Components
 

@@ -98,8 +98,7 @@ An example of how to set up the Dent EliteProXC power data logger is shown in th
 1.  Confirm that the equipment is operational.
 2.  Determine whether the distribution system supplies electricity to any unrelated loads to avoid measuring unintended energy consumption.
 3. Identify the wiring configuration of the distribution system. This will determine how to set up the logger and sensors.
-4. Clamp the sensors around the electrical wires. Make sure they are facing the right direction, or the current may be recorded with negative values.
-5. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the power and energy to the system.
+4. Based on the wiring configuration and instructions from the equipment’s user manual, install the sensor and logger to measure the power and energy to the system.
 
 This section illustrates the most common wire configurations for a panelboard and how the Dent EliteProXC data logger is connected.  
 

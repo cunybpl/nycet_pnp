@@ -170,7 +170,7 @@ Table 2 provides a summary of measurements needed to quantify the annual energy 
 
 ## Measurement Strategy
 
-The measurement strategy for a CSCV fan and motor involves a one-time measurement of true RMS power and long-term monitoring of the motor's operational schedule. This approach assumes that true RMS power remains constant throughout the measurement period. Since the motor runs at a constant speed and is assumed to be under a constant load, it either operates at full power when on or draws no power when off. A motor on/off data logger records the operating schedule. True RMS power is measured at the main feed to the constant-speed motor. Measurement locations are generically represented in Figure 1. 
+The measurement strategy for a CSCV fan and motor is to take multiple spot measurement of true RMS power and long-term hourly measurements of the operational schedule of the motor. The spot measurements of true RMS power will be averaged and the average value will be used to determine annual energy consumption. True RMS Power is measured at the mainfeed of the panelboard using a handheld power meter. A motor on/off logger is used to measure the hourly motor runtime. Measurement locations are generically represented in Figure 1. 
 
 If the fans are in a modular configuration (assuming they all run at the same speed), then only one fan needs to be measured, provided substantiating documentation from the building automation system (BAS) shows that all cells are operating equally at the same time. If fans are further staged, all fans should be measured. 
 

@@ -135,7 +135,7 @@ Wait 24-48 hours to verify data collection. Return to the location of the measur
 After verifying the meter is collecting data do the following:
 
 1. Allow the meter to collect data for the remainder of the measurement period.
-2. After the measurement period has concluded, remove the meter and replace the insulation that was removed at the beginning of the measurement period. 
+2. After the measurement period has concluded, remove the meter and replace the insulation that was removed ad the beginning of the measurement period. 
 3. If necessary, connect the meter to a laptop or phone via USB cable. Otherwise, use the software to connect with the logger via Bluetooth. 
 4. If applicable, use the proprietary software to stop the meter and end data collection. 
 5. Download all data from the meter and convert to csv file format for analysis.
