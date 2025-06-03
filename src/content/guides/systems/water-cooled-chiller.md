@@ -84,10 +84,13 @@ The primary energy consumption in a water-cooled chiller is the electricity used
     <tbody>
         <tr>
             <td>
-                Constant-speed water-cooled chiller power draw
+                Water cooled chiller electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system
             </td>
             <td>
-                Average hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> and annual operating time for the chiller
+                <ul>
+                    <li>Average hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">(kWh)</abbr></a></li>
+                    <li>Annual operating time for the chiller</li>
+                </ul>
             </td>
             <td>
                 Constant-speed compressor motor and controls
@@ -101,10 +104,13 @@ The primary energy consumption in a water-cooled chiller is the electricity used
         </tr>
         <tr>
             <td>
-                Variable-speed water-cooled chiller power draw
+                Water cooled chiller electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system
             </td>
             <td>
-                Hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a> and annual operating time for the chiller
+                <ul>
+                    <li>Average hourly chiller <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">(kWh)</abbr></a></li>
+                    <li>Annual operating time for the chiller</li>
+                </ul>
             </td>
             <td>
                 Variable-speed compressor motor and its controls
@@ -117,50 +123,43 @@ The primary energy consumption in a water-cooled chiller is the electricity used
             </td>
         </tr>
         <tr>
-            <td rowspan="4" style="vertical-align:middle; border-bottom:none;">
-                Cooling load on building/Heat rejected to the outdoors
+            <td style="vertical-align:middle;">
+                Cooling load on building
             </td>
             <td>
-                Hourly chilled water temperature difference across evaporator (F)
+                <ul>
+                    <li>Hourly chilled water temperature difference across evaporator (F)</li>
+                    <li>Hourly chilled water flow rate (GPM)</li>
+                </ul>
             </td>
             <td>
                 Evaporator
             </td>
             <td>
-                Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller evaporator
+                <ul>
+                    <li>Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller evaporator</li>
+                    <li><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of chilled water flow rate</a></li>
+                </ul>
             </td>
         </tr>
         <tr>
+            <td rowspan="2" style="vertical-align:middle;">
+                Heat Rejected to the Outdoors
+            </td>
             <td>
-                Hourly condenser water temperature difference across condenser (F)
+                <ul>
+                    <li>Hourly condenser water temperature difference across condenser (F)</li>
+                    <li>Hourly condenser water flow rate (GPM)</li>
+                </ul>
             </td>
             <td>
                 Condenser
             </td>
             <td>
-                Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller condenser.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Hourly chilled water flow rate (GPM)
-            </td>
-            <td>
-                Chilled <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a>
-            </td>
-            <td>
-                <a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of chilled water flow rate</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Hourly condenser water flow rate (GPM)
-            </td>
-            <td>
-                Condenser <a href="/documents/components/constant-speed-constant-volume-pump-motor">water pump</a>
-            </td>
-            <td>
-                <a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate</a>
+                <ul>
+                    <li>Hourly <a href="/documents/measurement-technique/pipe-surface-water-temperature">temperature of chilled water</a> entering and leaving the chiller condenser</li>
+                    <li><a href="/documents/measurement-technique/water-flow-rate">Hourly measurement of condenser water flow rate</a></li>
+                </ul>
             </td>
         </tr>
     </tbody>

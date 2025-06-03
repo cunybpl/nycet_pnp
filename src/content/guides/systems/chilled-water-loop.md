@@ -170,15 +170,16 @@ Table 1 provides a summary of system component measurements and values needed to
         </tr>
         <tr>
             <td>
-                Flow (GPM)
+                Cooling load on the building
             </td>
             <td>
                 <ul>
-                <li>Average hourly chilled water flow (GPM) through a pump</li> 
-                <li>Average hourly loop pressure differential</li>
+                    <li>Average hourly condenser water flow rate (GPM)</li> 
+                    <li>Average hourly water temprature entering and leaving the evaporator (F)</li>
                 </ul>
             </td>
             <td>
+                Evaporator
             </td>
             <td>
                 <ul>

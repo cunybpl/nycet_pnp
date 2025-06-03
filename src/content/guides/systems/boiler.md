@@ -75,7 +75,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
     <tbody>
         <tr>
             <td>
-                Boiler energy consumption
+                Boiler fuel usage (Btu)
             </td>
             <td>
                 Average hourly fuel consumption (Btu/h)
@@ -96,10 +96,7 @@ The primary energy consumption of a boiler system is the fuel that is used to dr
                 Burner fan electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
-                <ul>
-                    <li>Average hourly burner fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a></li> 
-                    <li>Pump Motor Runtime</li>
-                </ul>
+                Average hourly burner fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>
             </td>
             <td>
                 <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Burner fan motor</a>

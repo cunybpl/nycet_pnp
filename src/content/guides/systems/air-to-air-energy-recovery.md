@@ -99,16 +99,20 @@ Table 1 provides a summary of the components to measure to arrive at values need
                 Heat Recovered
             </td>
             <td>
-                Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> recovered
+                <ul>
+                    <li>Average hourly incoming (outdoor) airflow (CFM)</li>
+                    <li>Average hourly incoming air stream temperatures on each side of heat exchanger (F)</li>
+                    <li>Average hourly relative humidity on each side of heat exchanger (%)</li>
+                </ul>
             </td>
             <td>
                 <a href="/documents/components/air-to-air-heat-exchanger">Heat Exchanger</a>
             </td>
             <td>
                 <ul>
-                    <li><a href=>Average hourly incoming (outdoor) airflow (CFM)</a></li> 
-                    <li><a href="/documents/measurement-technique/system-air-temperature">Average hourly incoming air stream temperatures on each side of heat exchanger</a></li>
-                    <li><a href="/documents/measurement-technique/relative-humidity">Average hourly humidity on each side of heat exchanger</a></li>
+                    <li>Air flow rate measurement</li>
+                    <li><a href="/documents/measurement-technique/system-air-temperature">System air temperature measurement</a></li>
+                    <li><a href="/documents/measurement-technique/relative-humidity">Relative humidity measurement</a></li>
                 </ul>
             </td>
         </tr>

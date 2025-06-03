@@ -110,7 +110,7 @@ The primary energy consumption of a condenser water loop is the electricity used
     <tbody>
         <tr>
             <td>
-                Variable-flow CW loop electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
+                CW Loop electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system
             </td>
             <td>
                 <ul>
@@ -130,7 +130,7 @@ The primary energy consumption of a condenser water loop is the electricity used
         </tr>
         <tr>
             <td>
-                Variable-speed cooling tower electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
+                Cooling tower electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - variable-speed system
             </td>
             <td>
                 <ul>
@@ -151,7 +151,7 @@ The primary energy consumption of a condenser water loop is the electricity used
         </tr>
         <tr>
             <td>
-                Constant-flow CW loop electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
+                CW Loop electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system
             </td>
             <td>
                 <ul>
@@ -171,7 +171,7 @@ The primary energy consumption of a condenser water loop is the electricity used
         </tr>
         <tr>
             <td>
-                Constant-speed cooling tower electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
+                Cooling tower electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>) - constant-speed system
             </td>
             <td>
                 <ul>
@@ -195,9 +195,13 @@ The primary energy consumption of a condenser water loop is the electricity used
                 Heat rejected to the outdoors
             </td>
             <td>
-                Average hourly <a class="glossary-link" href="/glossary#btu"><abbr title="British Thermal Unit">Btu</abbr></a> rejected from the condenser water loop
+                <ul>
+                    <li>Average hourly condenser water flow rate (GPM)</li>
+                    <li>Average hourly water temperature entering and leaving the condenser (F)</li>
+                </ul>
             </td>
             <td>
+                Condenser
             </td>
             <td>
                 <ul>
