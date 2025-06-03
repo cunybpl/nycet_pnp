@@ -71,7 +71,7 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
     <tbody>
         <tr>
             <td>
-                AHU power consumption
+                Air handling unit electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 Hourly fan motor <a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>
@@ -91,7 +91,11 @@ The energy consumption of a VSVV air handling system is electricity for the fan 
                 AHU heating/cooling load on building
             </td>
             <td>
-                Hourly thermal load of heating/cooling coils (Btuh)
+                <ul>
+                    <li>Average hourly outdoor, mixed, return and supply air temperatures (F)</li>
+                    <li>Average hourly air flow rate of supply air (CFM)</li>
+                    <li>Average hourly relative humidity of outdoor, mixes, return and supply air (%)</li>
+                </ul>
             </td>
             <td>
                 Heating/cooling coils

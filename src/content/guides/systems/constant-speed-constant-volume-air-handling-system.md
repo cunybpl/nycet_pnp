@@ -70,7 +70,7 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
                 Air handling unit electricity usage (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
-                Average hourly fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
+                Average hourly supply and return fan motor (<a class="glossary-link" href="/glossary#kwh"><abbr title="Kilowatt Hour">kWh</abbr></a>)
             </td>
             <td>
                 <a href="/documents/components/constant-speed-constant-volume-fan-and-motor">Fan motors</a>
@@ -84,15 +84,20 @@ The primary energy consumption of a CSCV is the electricity that is used to run 
                 Heating/cooling load on building (Btu/h)
             </td>
             <td>
-                Average hourly thermal load of heating/cooling coils (Btuh)
+                <ul>
+                    <li>Average hourly outdoor, mixes, return and supply air temperatures (F)</li>
+                    <li>Average hourly air flow rate of supply air (CFM)</li>
+                    <li>Average hourly relative humidity of outdoor, mixes, return and supply air (%)</li>
+                </ul>
             </td>
             <td>
                 Heating/cooling coils
             </td>
             <td>
                 <ul>
-                    <li><a href="/documents/measurement-technique/system-air-temperature">System air measurement</a></li>
+                    <li><a href="/documents/measurement-technique/system-air-temperature">System air temperature measurement</a></li>
                     <li>Air flow rate measurement</li>
+                    <li><a href="/documents/measurement-technique/relative-humidity">Relative humidity measurement</a></li>
                 </ul>
             </td>
         </tr>
