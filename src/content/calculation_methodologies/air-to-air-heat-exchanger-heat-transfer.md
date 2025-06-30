@@ -238,14 +238,15 @@ The following methodology is used to calculate the sensible and latent heat tran
 
 <p class="step-indent">Where,</p>
 <p class="equation">$W_n =$ humidity ratio of a given air stream (lb$_m$/lb$_m$)</p>
-<p class="equation">$0.000142857 =$ constant value, (lb$_m$/lb$_m$)</p>
+<p class="equation">$0.000142857 =$ humidity ratio conversion factor (lb$_m$/lb$_m$)</p>
 <p class="equation">$W_g =$ humidity ratio calculated from Table 1</p>
 
 4. Calculate sensible heat transferred by the ERV for each hour interval.
 
-<p class="equation equation-center">\begin{equation} q_s = \dot{m}_2c(T_1 - T_2) \end{equation}</p>
+<p class="equation equation-center">\begin{equation} q_s = 60 * \dot{m}_2 * c * (T_1 - T_2) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
+<p class="equation">$60 =$ unit conversion (min/hr)</p>
 <p class="equation">$q_s =$ sensible heat transferred by the ERV each hour (Btu/h)</p>
 <p class="equation">$c =$ specific heat of air at normal atmospheric pressure, 0.243 (Btu/lb F)</p>
 <p class="equation">$\dot{m}_2 =$ hourly mass flow rate of supply air leaving the ERV (lb$_m$/min)</p>
@@ -254,9 +255,10 @@ The following methodology is used to calculate the sensible and latent heat tran
 
 5. Calculate latent heat transferred by the ERV for each hour interval.
 
-<p class="equation equation-center">\begin{equation} q_L = \dot{m}_2h(W_1 - W_2) \end{equation}</p>
+<p class="equation equation-center">\begin{equation} q_L = 60 * \dot{m}_2 * h * (W_1 - W_2) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
+<p class="equation">$60 =$ unit conversion (min/hr)</p>
 <p class="equation">$q_L =$ latent heat transferred by the ERV each hour (Btu/h)</p>
 <p class="equation">$h =$ latent heat of vaporization, 970.1 (Btu/lb)</p>
 <p class="equation">$\dot{m}_2 =$ hourly mass flow rate of supply air leaving the ERV (lb$_m$/min)</p>
@@ -393,7 +395,7 @@ To estimate the full year heat transfer, the occupancy patterns and schedule def
 
 <h3>Regressions 1 and 2</h3>
 
-There is a cubic relationship between fan motor draw and air flow rate. The equation that describes the relationship between these variables is: 
+There is a cubic relationship between fan motor power draw and air flow rate. The equation that describes the relationship between these variables is: 
 
 <p class="equation equation-center">\begin{equation} y = ax^3 + bx^2 + cx + d \end{equation}</p>
 
@@ -453,7 +455,7 @@ After projecting the airflows and effectiveness rates to a full year, the next s
 
 <p class="step-indent">Where,</p>
 <p class="equation">$W_n =$ humidity ratio of a given air stream (lb$_m$/lb$_m$)</p>
-<p class="equation">$0.000142857 =$ constant value, (lb$_m$/lb$_m$)</p>
+<p class="equation">$0.000142857 =$ humidity ratio conversion factor (lb$_m$/lb$_m$)</p>
 <p class="equation">$W_g =$ humidity ratio calculated from Table 1</p>
 
 4. Estimate the hourly humidity ratio of supply air leaving the ERV for the full year. In this equation, it is assumed that the latent heat of vaporization is constant. 
@@ -484,10 +486,11 @@ CUNY BPL assumes that T3 and W3 are constant values, reasoning that occupants wi
 
 6. Calculate sensible heat transferred by the ERV for each hour interval for the full year.
 
-<p class="equation equation-center">\begin{equation} q_s = \dot{m}_2c(T_1 - T_2) \end{equation}</p>
+<p class="equation equation-center">\begin{equation} q_s = 60 * \dot{m}_2 * c * (T_1 - T_2) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$q_2 =$ sensible heat transferred by the ERV each hour (Btu/h)</p>
+<p class="equation">$60 =$ unit conversion (min/hr)</p>
+<p class="equation">$q_s =$ sensible heat transferred by the ERV each hour (Btu/h)</p>
 <p class="equation">$c =$ specific heat of air at normal atmospheric pressure, 0.243 (Btu/lb F)</p>
 <p class="equation">$\dot{m}_2 =$ hourly mass flow rate of supply air leaving the ERV (lb$_m$/min)</p>
 <p class="equation">$T_1 =$ hourly temperature of outside air entering the ERV (F)</p>
@@ -495,10 +498,11 @@ CUNY BPL assumes that T3 and W3 are constant values, reasoning that occupants wi
 
 7. Calculate latent heat transferred by the ERV for each hour interval for the full year. 
 
-<p class="equation equation-center">\begin{equation} q_L = \dot{m}_2h(W_1 - W_2) \end{equation}</p>
+<p class="equation equation-center">\begin{equation} q_L = 60 * \dot{m}_2 * h * (W_1 - W_2) \end{equation}</p>
 
 <p class="step-indent">Where,</p>
-<p class="equation">$q_2 =$ latent heat transferred by the ERV each hour (Btu/h)</p>
+<p class="equation">$60 =$ unit conversion (min/hr)</p>
+<p class="equation">$q_L =$ latent heat transferred by the ERV each hour (Btu/h)</p>
 <p class="equation">$h =$ latent heat of vaporization, 970.1 (Btu/lb)</p>
 <p class="equation">$\dot{m}_2 =$ hourly mass flow rate of supply air leaving the ERV (lb$_m$/min)</p>
 <p class="equation">$W_1 =$ hourly humidity ratio of outside air entering the ERV (lb$_m$/lb$_m$)</p>
